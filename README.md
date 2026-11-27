@@ -68,4 +68,3 @@ No new blanket software license is granted for the first-party source in this re
 
 The associated manuscript is not assigned a DOI or publication status in this repository. Use the final journal citation when it becomes available; no publication venue or acceptance is implied by this source release.
 
-中文说明：本仓库公开的是对应 V1 稿件的源码、配置、实验包装与复现索引；不包含后续 V2/V3 方法。大型模型、完整原始数据和部分第三方运行依赖需另行取得，不能把当前仓库描述为下载即可完整重跑全部实验的独立安装包。
