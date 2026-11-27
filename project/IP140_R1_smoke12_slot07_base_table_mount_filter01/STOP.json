@@ -1,0 +1,11 @@
+{
+  "slot": 7,
+  "reason": "slot7_returned",
+  "utc": "2026-11-06T02:32:20.137887+00:00",
+  "step_calls": 4728,
+  "step_returns": 4728,
+  "starts": 8,
+  "retry": false,
+  "slots8_to_12_started": false,
+  "result_sha256": "351a2a9fb4bb22e3fed9d5a12b6c439771569a95fec005cb76d4aaf81bb9caab"
+}

@@ -1,0 +1,42 @@
+--- a/examples/SharedMemory/PhysicsClientC_API.h
++++ b/examples/SharedMemory/PhysicsClientC_API.h
+@@ -177,6 +177,8 @@
+ 	B3_SHARED_API int b3ChangeDynamicsInfoSetActivationState(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, int activationState);
+ 	B3_SHARED_API int b3ChangeDynamicsInfoSetMaxJointVelocity(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, double maxJointVelocity);
+ 	B3_SHARED_API int b3ChangeDynamicsInfoSetCollisionMargin(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, double collisionMargin);
++	/// Link-aware variant; the original base-only ABI and behavior remain unchanged.
++	B3_SHARED_API int b3ChangeDynamicsInfoSetCollisionMargin2(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, int linkIndex, double collisionMargin);
+ 	
+ 	
+ 	B3_SHARED_API b3SharedMemoryCommandHandle b3InitCreateUserConstraintCommand(b3PhysicsClientHandle physClient, int parentBodyUniqueId, int parentJointIndex, int childBodyUniqueId, int childJointIndex, struct b3JointInfo* info);
+--- a/examples/SharedMemory/PhysicsClientC_API.cpp
++++ b/examples/SharedMemory/PhysicsClientC_API.cpp
+@@ -3562,6 +3562,17 @@
+ 	b3Assert(command->m_type == CMD_CHANGE_DYNAMICS_INFO);
+ 	command->m_changeDynamicsInfoArgs.m_bodyUniqueId = bodyUniqueId;
+ 	command->m_changeDynamicsInfoArgs.m_linkIndex = -1;
++	command->m_changeDynamicsInfoArgs.m_collisionMargin = collisionMargin;
++	command->m_updateFlags |= CHANGE_DYNAMICS_INFO_SET_COLLISION_MARGIN;
++	return 0;
++}
++
++B3_SHARED_API int b3ChangeDynamicsInfoSetCollisionMargin2(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, int linkIndex, double collisionMargin)
++{
++	struct SharedMemoryCommand* command = (struct SharedMemoryCommand*)commandHandle;
++	b3Assert(command->m_type == CMD_CHANGE_DYNAMICS_INFO);
++	command->m_changeDynamicsInfoArgs.m_bodyUniqueId = bodyUniqueId;
++	command->m_changeDynamicsInfoArgs.m_linkIndex = linkIndex;
+ 	command->m_changeDynamicsInfoArgs.m_collisionMargin = collisionMargin;
+ 	command->m_updateFlags |= CHANGE_DYNAMICS_INFO_SET_COLLISION_MARGIN;
+ 	return 0;
+--- a/examples/pybullet/pybullet.c
++++ b/examples/pybullet/pybullet.c
+@@ -1560,7 +1560,7 @@
+ 
+ 		if (collisionMargin >= 0)
+ 		{
+-			b3ChangeDynamicsInfoSetCollisionMargin(command, bodyUniqueId, collisionMargin);
++			b3ChangeDynamicsInfoSetCollisionMargin2(command, bodyUniqueId, linkIndex, collisionMargin);
+ 		}
+ 				
+ 		statusHandle = b3SubmitClientCommandAndWaitStatus(sm, command);

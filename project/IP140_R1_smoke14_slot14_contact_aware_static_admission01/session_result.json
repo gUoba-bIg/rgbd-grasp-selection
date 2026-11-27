@@ -1,0 +1,14 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "phase": "dual_channel_static_path",
+  "started_at": "2026-11-06T09:05:06.044220+00:00",
+  "physics_steps": 0,
+  "new_charges": 0,
+  "charged": false,
+  "slot14_started": false,
+  "stop": "static_contact_aware_admission_blocked",
+  "zero_passed": true,
+  "path_passed": false,
+  "snapshots_completed": 2748,
+  "ended_at": "2026-11-06T09:05:46.708750+00:00"
+}

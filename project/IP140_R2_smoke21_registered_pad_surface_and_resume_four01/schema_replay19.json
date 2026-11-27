@@ -1,0 +1,461 @@
+{
+  "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+  "passed": true,
+  "cases": [
+    {
+      "case": "archived_smoke17_complete_named_mesh_217",
+      "sample": "021 actual",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true,
+      "reject_reason": null
+    },
+    {
+      "case": "archived_smoke18_complete_compound_216",
+      "sample": "014 actual",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true,
+      "reject_reason": null
+    },
+    {
+      "case": "registered_640_ordered_boxes_and_owner_mapped_common_fields",
+      "sample": "017 synthetic",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true,
+      "reject_reason": null
+    },
+    {
+      "case": "omit_common_field",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=['flange_T_G'] unexpected=[]"
+    },
+    {
+      "case": "duplicate_common_field",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: duplicate or status: separate_pad_and_bone_link_IDs"
+    },
+    {
+      "case": "substitute_with_duplicate_keep_count",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=['flange_T_G'] unexpected=[]"
+    },
+    {
+      "case": "add_unknown_field",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=[] unexpected=['unregistered.extra']"
+    },
+    {
+      "case": "compound_requires_no_mesh_filename",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=[] unexpected=['object014.mesh_filename']"
+    },
+    {
+      "case": "status_not_pass",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: duplicate or status: flange_T_G"
+    },
+    {
+      "case": "missing_status",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: row syntax"
+    },
+    {
+      "case": "missing_expected",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: row syntax"
+    },
+    {
+      "case": "missing_readback",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: row syntax"
+    },
+    {
+      "case": "null_expected",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: Invalid zero-readback field shape/type"
+    },
+    {
+      "case": "null_readback",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: Invalid zero-readback field shape/type"
+    },
+    {
+      "case": "wrong_type_on_both_sides",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: field type or shape: flange_T_G"
+    },
+    {
+      "case": "wrong_shape_on_both_sides",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: field type or shape: flange_T_G"
+    },
+    {
+      "case": "negative_tolerance",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: atol: flange_T_G"
+    },
+    {
+      "case": "nonfinite_tolerance",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: atol: flange_T_G"
+    },
+    {
+      "case": "slot_owner_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: receipt slot candidate object"
+    },
+    {
+      "case": "candidate_owner_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: receipt slot candidate object"
+    },
+    {
+      "case": "object_owner_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: receipt slot candidate object"
+    },
+    {
+      "case": "prereg_sha_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: receipt registration SHA"
+    },
+    {
+      "case": "shape_call_body_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: native return and ownership: getCollisionShapeData"
+    },
+    {
+      "case": "shape_call_client_mismatch",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: native return and ownership: getCollisionShapeData"
+    },
+    {
+      "case": "different_loaded_urdf_path",
+      "sample": "014 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: loadURDF ownership and frozen arguments"
+    },
+    {
+      "case": "wrong_row_count",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: primitive count/first owner"
+    },
+    {
+      "case": "wrong_child_order_preserving_headers",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: ordered box dimensions"
+    },
+    {
+      "case": "wrong_child_type",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: registered box type or orientation"
+    },
+    {
+      "case": "wrong_child_dimensions",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: ordered box dimensions"
+    },
+    {
+      "case": "wrong_child_position",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: ordered box local translation"
+    },
+    {
+      "case": "wrong_child_quaternion",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: ordered box quaternion"
+    },
+    {
+      "case": "wrong_first_row_body",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: primitive count/first owner"
+    },
+    {
+      "case": "wrong_first_row_link",
+      "sample": "014 geometry / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: primitive count/first owner"
+    },
+    {
+      "case": "later_compound_headers_non_authoritative",
+      "sample": "014 actual / header-only mutation",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true,
+      "reject_reason": null
+    },
+    {
+      "case": "wrong_world_aabb",
+      "sample": "017 synthetic / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: registered world AABB"
+    },
+    {
+      "case": "named_mesh_reported_as_anonymous",
+      "sample": "021 actual / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: named mesh requires exact OBJ URI"
+    },
+    {
+      "case": "wrong_named_obj_path",
+      "sample": "021 actual / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: named mesh requires exact OBJ URI"
+    },
+    {
+      "case": "wrong_obj_content_sha",
+      "sample": "021 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: native hull, stored proof, and registered OBJ"
+    },
+    {
+      "case": "compound_fields_on_named_mesh",
+      "sample": "021 actual / mixed schema",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=['object021.body_info_names', 'object021.collision_hull_geometry', 'object021.initial_orientation', 'object021.initial_position', 'object021.initial_twist', 'object021.lateral_friction', 'object021.local_inertial_orientation', 'object021.local_inertial_origin', 'object021.mass', 'object021.mesh_filename', 'object021.mesh_identity', 'object021.mesh_margin_m', 'object021.mesh_pose_xyz', 'object021.mesh_pose_xyzw', 'object021.mesh_scale', 'object021.num_joints', 'object021.one_collision_shape', 'object021.principal_inertia', 'object021.restitution', 'object021.rolling_friction', 'object021.spinning_friction', 'slot14.fixed_path_and_live_tcp_mapping'] unexpected=['object014.body_info_names', 'object014.collision_margin_m', 'object014.compound_all_dims', 'object014.compound_all_pos', 'object014.compound_all_quat', 'object014.compound_collision_geometry', 'object014.compound_collision_shape_count', 'object014.compound_registered_identity_and_box_types', 'object014.initial_orientation', 'object014.initial_position', 'object014.initial_twist', 'object014.lateral_friction', 'object014.local_inertial_orientation', 'object014.local_inertial_origin', 'object014.mass', 'object014.num_joints', 'object014.principal_inertia', 'object014.restitution', 'object014.rolling_friction', 'object014.spinning_friction', 'slot08.fixed_path_and_live_tcp_mapping']"
+    },
+    {
+      "case": "mesh_fields_on_compound",
+      "sample": "014 actual / mixed schema",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=['object014.body_info_names', 'object014.collision_margin_m', 'object014.compound_all_dims', 'object014.compound_all_pos', 'object014.compound_all_quat', 'object014.compound_collision_geometry', 'object014.compound_collision_shape_count', 'object014.compound_registered_identity_and_box_types', 'object014.initial_orientation', 'object014.initial_position', 'object014.initial_twist', 'object014.lateral_friction', 'object014.local_inertial_orientation', 'object014.local_inertial_origin', 'object014.mass', 'object014.num_joints', 'object014.principal_inertia', 'object014.restitution', 'object014.rolling_friction', 'object014.spinning_friction', 'slot08.fixed_path_and_live_tcp_mapping'] unexpected=['object021.body_info_names', 'object021.collision_hull_geometry', 'object021.initial_orientation', 'object021.initial_position', 'object021.initial_twist', 'object021.lateral_friction', 'object021.local_inertial_orientation', 'object021.local_inertial_origin', 'object021.mass', 'object021.mesh_filename', 'object021.mesh_identity', 'object021.mesh_margin_m', 'object021.mesh_pose_xyz', 'object021.mesh_pose_xyzw', 'object021.mesh_scale', 'object021.num_joints', 'object021.one_collision_shape', 'object021.principal_inertia', 'object021.restitution', 'object021.rolling_friction', 'object021.spinning_friction', 'slot14.fixed_path_and_live_tcp_mapping']"
+    },
+    {
+      "case": "missing_asset_specific_field",
+      "sample": "021 actual / mutated",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: missing=['object021.mesh_filename'] unexpected=[]"
+    },
+    {
+      "case": "wrong_mesh_scale",
+      "sample": "021 actual / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: mesh scale"
+    },
+    {
+      "case": "wrong_mesh_pose",
+      "sample": "021 actual / coupled mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: mesh origin"
+    },
+    {
+      "case": "every_field_delete",
+      "sample": "021 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 217,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "every_field_duplicate",
+      "sample": "021 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 217,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "every_field_delete",
+      "sample": "014 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 216,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "every_field_duplicate",
+      "sample": "014 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 216,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "every_field_delete",
+      "sample": "017 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 216,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "every_field_duplicate",
+      "sample": "017 independent mutations",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "mutations_checked": 216,
+      "wrongly_accepted": []
+    },
+    {
+      "case": "anonymous_schema_rejects_named_endpoint",
+      "sample": "021 hypothetical pre-registered anonymous branch",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: anonymous mesh cannot return named URI"
+    },
+    {
+      "case": "anonymous_uses_urdf_obj_and_native_hull",
+      "sample": "021 hypothetical branch with anonymized endpoint",
+      "expected_accept": true,
+      "actual_accept": true,
+      "passed": true,
+      "reject_reason": null
+    },
+    {
+      "case": "anonymous_bad_hull_fails",
+      "sample": "021 hypothetical branch, coupled native and report mutation",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: native hull, stored proof, and registered OBJ"
+    },
+    {
+      "case": "changed_registered_file_bytes_urdf",
+      "sample": "simulated file-content corruption, no disk changes",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: URDF content",
+      "hash_path_reads_intercepted": 1
+    },
+    {
+      "case": "changed_registered_file_bytes_obj",
+      "sample": "simulated file-content corruption, no disk changes",
+      "expected_accept": false,
+      "actual_accept": false,
+      "passed": true,
+      "reject_reason": "ValueError: asset_typed_zero_schema: registered OBJ path/hash",
+      "hash_path_reads_intercepted": 1
+    }
+  ],
+  "pass_count": 54,
+  "case_count": 54,
+  "sources": {
+    "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/static_preflight/zero_readback.json": "27b41c6953b50f0d5427053a4b8af01d0ce654a47ce67bf1c1e0b9f1adb9b1b2",
+    "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/static_preflight/zero_step/object021_readback.json": "7e96c5a3ce2bbd3ec89578a4b669b59c72ab37daef2436be3813cb581c0075e2",
+    "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/static_preflight/full_api/calls.jsonl.gz": "a045ba244da7bc8c83181919ec5a2722091275492a886c3f54f6bdde475d39a3",
+    "IP140_R1_smoke18_remaining_five_bridge_confirmation01/slots/08/static_preflight/zero_readback.json": "f0bda50a8880c01327b8508eaa712f9372fde4a3c2c2ebe5ec177623e831f703",
+    "IP140_R1_smoke18_remaining_five_bridge_confirmation01/slots/08/static_preflight/zero_step/object014_readback.json": "06e1d8711b6478dd9d3ce8115d97b12bb3e97cb2fcc5dca1885eea23d00af8e0",
+    "IP140_R1_smoke18_remaining_five_bridge_confirmation01/slots/08/static_preflight/full_api/calls.jsonl.gz": "dc2e69ec6ef742e37264c4d5e16f1d948f082d1781d1463919d2b20dd5ba122e",
+    "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/preregistration.json": "02a32f533ea7bef3a6131384aed4b80d6584803ff3a88daec0fef7c97646b068",
+    "data/simulation_v52/objects/voxel_repair/017/object.urdf": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3"
+  },
+  "physical_calls": 0,
+  "connections": 0,
+  "provenance": "021 and 014 are archived receipts and native return prefixes; 017 is a constructed URDF-derived 640-box regression fixture, not an engine measurement."
+}

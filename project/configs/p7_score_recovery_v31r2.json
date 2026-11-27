@@ -1,0 +1,63 @@
+{
+  "version": "31r2",
+  "at": "2026-10-31T11:08:01.288958+08:00",
+  "parent_protocol": "configs/risk_calibration_v31.json",
+  "reason": "Empty Python collision lists require dtype-neutral serialization; no numerical algorithm changes",
+  "additional_recovery_oracle_attempts": 1,
+  "original_oracle_attempt_limit": 3,
+  "cumulative_oracle_attempt_limit": 4,
+  "preserved_unknown_oracle_calls": [
+    "2990905cbfa24838bb5e7b932827f9d7"
+  ],
+  "original_scoring_seconds": 21600,
+  "original_official_score_limit": 10000,
+  "training_and_generation_budgets_unchanged": true,
+  "preservation_inventory": "logs/P7/score_repair_v31r2/before_recovery.json",
+  "protected": {
+    "scripts/p7_recovery_v31r2.py": {
+      "sha256": "9eeaeed64b469b5ed5ffed9eb580e6355e8373bafc96f5603f71a494d740338b",
+      "bytes": 2091,
+      "mtime_ns": 1793415974674893300
+    },
+    "scripts/p7_score_v31r2.py": {
+      "sha256": "c55abc834702d70bebb0053baa498ca6656c88553df22f9e4b2d5dd243a099e2",
+      "bytes": 6787,
+      "mtime_ns": 1793415995118253200
+    },
+    "scripts/p7_finish_v31r2.py": {
+      "sha256": "67abe15c115687b5fa95df14a9c37d27621d4eb9cf503636838159696cca2d8b",
+      "bytes": 5221,
+      "mtime_ns": 1793415995119753800
+    },
+    "scripts/p7_delivery_v31r2.py": {
+      "sha256": "9fa534cd640bad3c4fb93217b53e17d1419340481d712338b97436de734a1ef0",
+      "bytes": 5227,
+      "mtime_ns": 1793415995120756200
+    },
+    "docs/P7评分格式兼容恢复_v31r2.txt": {
+      "sha256": "e1beea174112558c7aace12b91ad403fd25969483d1d59d1f79c0397045e4597",
+      "bytes": 1740,
+      "mtime_ns": 1793415974676065500
+    },
+    "configs/risk_calibration_v31.json": {
+      "sha256": "1c064c33359296dd0499590d787b9f0d4fc6b344eb6e5c81a63126831151bd4d",
+      "bytes": 99654,
+      "mtime_ns": 1793406154105918300
+    },
+    "logs/P7/score_repair_v31r2/checks.json": {
+      "sha256": "9db9fe7b734d38e8e6ebce4d3c5de7e57201b15625874a2c1b8209742acd37f2",
+      "bytes": 1372,
+      "mtime_ns": 1793416034686025000
+    },
+    "logs/P7/score_repair_v31r2/before_recovery.json": {
+      "sha256": "eb7194685331d3229bb2a51947d5118ebe8a9f8097a535698b91f5bdb0ab9030",
+      "bytes": 375682,
+      "mtime_ns": 1793415905691748700
+    },
+    "logs/P7/risk_v31/usage_scoring_recovery_gap_v31r2.json": {
+      "sha256": "2dc14cb12499641a297dcf518427fa188d8a44222a59ac4dac9e1c6ed4a6df43",
+      "bytes": 351,
+      "mtime_ns": 1793416034652169600
+    }
+  }
+}

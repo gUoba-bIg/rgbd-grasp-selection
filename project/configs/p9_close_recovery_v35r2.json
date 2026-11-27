@@ -1,0 +1,115 @@
+{
+  "at": "2026-10-31T18:03:37.070392+08:00",
+  "protected": {
+    "scripts/p9_close_recovery_v35r2.py": {
+      "sha256": "13a27acb30991de436d880f0eef3d8c8f8da1d18e749d2b35d1084a6d2e6fb30",
+      "bytes": 9819,
+      "mtime_ns": 1793440984324900300
+    },
+    "docs/P9冷重入写入恢复_v35r2.txt": {
+      "sha256": "1cfe981daf8cac911077729e8b17f130783d4e6564d4ba2995b9f2983527bf2e",
+      "bytes": 1940,
+      "mtime_ns": 1793440984326113200
+    },
+    "logs/P9/risk_seeds_v35/readonly.json": {
+      "sha256": "9c9ee21eb308356f432ffc557ea981eedd1f48004438e6fa804d54c88132649c",
+      "bytes": 2021790,
+      "mtime_ns": 1793440650295530800
+    },
+    "logs/P9/risk_seeds_v35/readonly.json.receipt.json": {
+      "sha256": "0b23c0691c2649414120c8c76436849025724a10e3fb5a1fc6a2018b53c9bdbd",
+      "bytes": 143,
+      "mtime_ns": 1793440650305911000
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/calls_before.jsonl": {
+      "sha256": "c4c838a93f384ee4416e891770e5a5bbaa19f6adf35a96a2eb13b637e322de3a",
+      "bytes": 1349437,
+      "mtime_ns": 1793440635772435400
+    },
+    "runtime/pipeline/state.json": {
+      "sha256": "b48eadde3c1f7ea400c48dd206f707ecf804d54f6f018a013e9d662dcc4b2b76",
+      "bytes": 3127920,
+      "mtime_ns": 1793055121967989900
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/cold_reentry_574af407c91d4cee924961ec2c21a05a.stderr.log": {
+      "sha256": "b154877b8022e03a564c87cf483379fd512157337c853f7278e4c25f8d9184f0",
+      "bytes": 2648,
+      "mtime_ns": 1793440882626966600
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/cold_reentry_6ad5f25c35b5479a883eefd773040bb0.stderr.log": {
+      "sha256": "d894c8e3d734910659a5bda68809ae84325f07fc8d580cbcf22654228bfc675b",
+      "bytes": 2648,
+      "mtime_ns": 1793440659720047100
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/controller.jsonl": {
+      "sha256": "a2330c12ccf0254718147699d51d6f793ea6031dc3118ea6ee91e6941237d31e",
+      "bytes": 9240,
+      "mtime_ns": 1793440884235862300
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/p9_delivery_v35.json": {
+      "sha256": "14ef123e61ac5b14872036c84ff80b0c0cddbbb884f2bf7b5e956241cd27d9f5",
+      "bytes": 293,
+      "mtime_ns": 1793440884237181600
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/p9_part_v35.json": {
+      "sha256": "b4f8d8d2258237212328eaba76ae0accf5187f7bd38518dc5bce6c406a1f5444",
+      "bytes": 350,
+      "mtime_ns": 1793440884237181600
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/part_level_supervision.json": {
+      "sha256": "cd080688a1a85e8cb2306a4bef9191b9dc2424211a318adfbdcc40bb3ddf3185",
+      "bytes": 1923,
+      "mtime_ns": 1793440044402004800
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/scope_probe.json": {
+      "sha256": "88e5451fe27634096f36fdb1ab8763e1fac8c22c4b2015e669c8f352aa319a98",
+      "bytes": 20,
+      "mtime_ns": 1793441006407768200
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/synthetic_atomic.json": {
+      "sha256": "4e60cdd40f2fa001fc366b4ee6cb75fc48846f57392e887ceb9e2ab6f058b956",
+      "bytes": 34,
+      "mtime_ns": 1793441006396184900
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/synthetic_atomic.tmp": {
+      "sha256": "24ca78a5f0bfacb1c6aef7eead3ec7d1c817ce6fa7d28065eb0fd93fdf4be9cf",
+      "bytes": 16,
+      "mtime_ns": 1793441006402570500
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/usage_cold_76b732c4e47c45748c403726cc775b71.df99018ef2334912987f2e0279bcb56e.tmp": {
+      "sha256": "57d98ec901dda9b195117d827e6865765bd1d191388e6b9b5de4ce30cbd78c27",
+      "bytes": 106,
+      "mtime_ns": 1793440659718040500
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/usage_cold_76b732c4e47c45748c403726cc775b71.json": {
+      "sha256": "8c72765b360c48aea9d28d33ea05be7d01b2a0b312f94239fce418129f9d1b61",
+      "bytes": 106,
+      "mtime_ns": 1793440659718040500
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/usage_cold_a6c777505098435b92fdf514f292d575.4ad0cfca48284386bd27e9748a4e6665.tmp": {
+      "sha256": "e18acef78adc77f56fb6bec1cd4f30541f1e86a460c244516b7e943a161ae48b",
+      "bytes": 107,
+      "mtime_ns": 1793440882625876800
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/usage_cold_a6c777505098435b92fdf514f292d575.json": {
+      "sha256": "d4a1a315d90ba37d3d84db36757d1f0349cbb6ece2b74025616b4cd6a4d177ad",
+      "bytes": 107,
+      "mtime_ns": 1793440882624822400
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/usage_cold_failure_tail_6eda8cccdd6142fbb65ea03e140cbc6c.json": {
+      "sha256": "7d3f5baae4385a026a234b5233c69d5f92d3a02a06b7a1b58b63e7d8104225af",
+      "bytes": 281,
+      "mtime_ns": 1793440868457450700
+    },
+    "logs/P9/risk_seeds_v35/close_recovery_v35r2/实验自动续接说明.txt": {
+      "sha256": "9ff1143fa8b0f39c252574f0b9df8a359151883993976417d30c1f33dabac856",
+      "bytes": 38256,
+      "mtime_ns": 1793440868470585600
+    }
+  },
+  "scope": "Only mutable usage_cold/usage_finish JSON atomic replacement on Windows sharing errors",
+  "retry_seconds": 2.0,
+  "scientific_changes": 0,
+  "old_budgets_unchanged": true,
+  "normal_child_attempts_remaining": 1
+}

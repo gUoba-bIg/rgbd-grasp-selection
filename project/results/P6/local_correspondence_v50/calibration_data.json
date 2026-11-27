@@ -1,0 +1,6259 @@
+{
+  "split": "calibration",
+  "rows": [
+    {
+      "key": "calibration/0030/0000/0_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 290755,
+      "missing_original_valid": 0,
+      "source_sha": "1c87a6274755820fce8149b5d68ef12a4a242ed4eca5747713f2938b95873913"
+    },
+    {
+      "key": "calibration/0030/0000/0_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 290755,
+      "missing_original_valid": 0,
+      "source_sha": "1c87a6274755820fce8149b5d68ef12a4a242ed4eca5747713f2938b95873913"
+    },
+    {
+      "key": "calibration/0030/0000/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 234348,
+      "missing_original_valid": 56407,
+      "source_sha": "8b266b3c0e545c387899265df2d057836c76ef0a49469677fc608cc8e73be496"
+    },
+    {
+      "key": "calibration/0030/0000/3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289405,
+      "missing_original_valid": 1350,
+      "source_sha": "fe0fe0876cd22ec14fec0558fe5e2394506c91e6d9337fde8d1f3a240d1bfc14"
+    },
+    {
+      "key": "calibration/0030/0000/3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289405,
+      "missing_original_valid": 1350,
+      "source_sha": "fe0fe0876cd22ec14fec0558fe5e2394506c91e6d9337fde8d1f3a240d1bfc14"
+    },
+    {
+      "key": "calibration/0030/0000/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229889,
+      "missing_original_valid": 60866,
+      "source_sha": "e1224f89b1bf6150c45c313833f6ba3d84192e5e513eef922fb37c03a2abf9d7"
+    },
+    {
+      "key": "calibration/0030/0000/-3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289346,
+      "missing_original_valid": 1409,
+      "source_sha": "4b5684fce22e84949ad686af433dcff776d2ac5e92d361d095c5ef2908ebd5f7"
+    },
+    {
+      "key": "calibration/0030/0000/-3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289346,
+      "missing_original_valid": 1409,
+      "source_sha": "4b5684fce22e84949ad686af433dcff776d2ac5e92d361d095c5ef2908ebd5f7"
+    },
+    {
+      "key": "calibration/0030/0000/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230028,
+      "missing_original_valid": 60727,
+      "source_sha": "d927e4a792b070140fc694bb0464af4d34c4a620933a9b78ccf40332a8c6cd6e"
+    },
+    {
+      "key": "calibration/0030/0000/0_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 289050,
+      "missing_original_valid": 1705,
+      "source_sha": "2ab02c45548116829b783637ff37ff84dd5869a5d1e302298a70e45757e203e6"
+    },
+    {
+      "key": "calibration/0030/0000/0_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 289050,
+      "missing_original_valid": 1705,
+      "source_sha": "2ab02c45548116829b783637ff37ff84dd5869a5d1e302298a70e45757e203e6"
+    },
+    {
+      "key": "calibration/0030/0000/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229867,
+      "missing_original_valid": 60888,
+      "source_sha": "22933a3182aed6637ce79cb0e846acd49027295ea0eb417f01757dc23d3a9cbe"
+    },
+    {
+      "key": "calibration/0030/0000/0_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 288835,
+      "missing_original_valid": 1920,
+      "source_sha": "df76016b602db3865e6db9ae0b783d6d0a1fc9d64068c66b2a27b0907a9d5439"
+    },
+    {
+      "key": "calibration/0030/0000/0_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 288835,
+      "missing_original_valid": 1920,
+      "source_sha": "df76016b602db3865e6db9ae0b783d6d0a1fc9d64068c66b2a27b0907a9d5439"
+    },
+    {
+      "key": "calibration/0030/0000/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229250,
+      "missing_original_valid": 61505,
+      "source_sha": "3bc0236515e824b51c3d000ced25908a83f9d637fb733ea7efce880bb6f2a402"
+    },
+    {
+      "key": "calibration/0030/0000/3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 287709,
+      "missing_original_valid": 3046,
+      "source_sha": "fae8c419447744f852d5d76935c22078d20a958bf32d69fc827b730e2c9eea57"
+    },
+    {
+      "key": "calibration/0030/0000/3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 287709,
+      "missing_original_valid": 3046,
+      "source_sha": "fae8c419447744f852d5d76935c22078d20a958bf32d69fc827b730e2c9eea57"
+    },
+    {
+      "key": "calibration/0030/0000/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228665,
+      "missing_original_valid": 62090,
+      "source_sha": "11f43ae42065b247e7ab804891685cec7fd9aadf09e8b21bb7fae05deeb1c6f9"
+    },
+    {
+      "key": "calibration/0030/0000/3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287494,
+      "missing_original_valid": 3261,
+      "source_sha": "9827f78e9c48f2bc8915b7131ed738235797950f42d792bef545cbd44fd5a481"
+    },
+    {
+      "key": "calibration/0030/0000/3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287494,
+      "missing_original_valid": 3261,
+      "source_sha": "9827f78e9c48f2bc8915b7131ed738235797950f42d792bef545cbd44fd5a481"
+    },
+    {
+      "key": "calibration/0030/0000/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228019,
+      "missing_original_valid": 62736,
+      "source_sha": "48c7f6035502ef691c69e6df54b152fee66017f5bc2c8ef1d8a97c1515f1183b"
+    },
+    {
+      "key": "calibration/0030/0000/-3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 287643,
+      "missing_original_valid": 3112,
+      "source_sha": "1521abf06aac02a634e4abca1df1852b45d5ac9e10e923b92618e210dcf5f21a"
+    },
+    {
+      "key": "calibration/0030/0000/-3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 287643,
+      "missing_original_valid": 3112,
+      "source_sha": "1521abf06aac02a634e4abca1df1852b45d5ac9e10e923b92618e210dcf5f21a"
+    },
+    {
+      "key": "calibration/0030/0000/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228052,
+      "missing_original_valid": 62703,
+      "source_sha": "2da3da9216c2f1a96a497c7bd87a7658d5fe5d1bd66f80b77a43dd2e7065e8e9"
+    },
+    {
+      "key": "calibration/0030/0000/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287435,
+      "missing_original_valid": 3320,
+      "source_sha": "af1fdc1e91eb3b30541f5382bd96346e508b8fc1ee0c9d05d32f11fe23cc53d7"
+    },
+    {
+      "key": "calibration/0030/0000/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287435,
+      "missing_original_valid": 3320,
+      "source_sha": "af1fdc1e91eb3b30541f5382bd96346e508b8fc1ee0c9d05d32f11fe23cc53d7"
+    },
+    {
+      "key": "calibration/0030/0000/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228951,
+      "missing_original_valid": 61804,
+      "source_sha": "8a37dad64fc1ae9e3fc2b3c02c150b3965991ead6a055f2250a178c096412b2f"
+    },
+    {
+      "key": "calibration/0030/0064/0_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 290892,
+      "missing_original_valid": 0,
+      "source_sha": "e0adc5745daa1c004839fb1b1cb1225c65bdfeb04665cd0db5049c1357f06069"
+    },
+    {
+      "key": "calibration/0030/0064/0_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 290892,
+      "missing_original_valid": 0,
+      "source_sha": "e0adc5745daa1c004839fb1b1cb1225c65bdfeb04665cd0db5049c1357f06069"
+    },
+    {
+      "key": "calibration/0030/0064/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231188,
+      "missing_original_valid": 59704,
+      "source_sha": "b46ce5845eb9b39ec606d2a365c9791bd8f79180dac1c4218053719839ff0f8f"
+    },
+    {
+      "key": "calibration/0030/0064/3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289452,
+      "missing_original_valid": 1440,
+      "source_sha": "10e8a05a2a4a666ef28aefd09612178295ba6be213c0803d46d9df9f74a6b621"
+    },
+    {
+      "key": "calibration/0030/0064/3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289452,
+      "missing_original_valid": 1440,
+      "source_sha": "10e8a05a2a4a666ef28aefd09612178295ba6be213c0803d46d9df9f74a6b621"
+    },
+    {
+      "key": "calibration/0030/0064/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231413,
+      "missing_original_valid": 59479,
+      "source_sha": "2132ff9206be1911a1f21a1d0fe5e272150ea1d135d0717ebd98dc8957c0746f"
+    },
+    {
+      "key": "calibration/0030/0064/-3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289452,
+      "missing_original_valid": 1440,
+      "source_sha": "1f9aaf5389add4519b1c694451b16fe82bf6fa051e40b64f6b46b6e179d32471"
+    },
+    {
+      "key": "calibration/0030/0064/-3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289452,
+      "missing_original_valid": 1440,
+      "source_sha": "1f9aaf5389add4519b1c694451b16fe82bf6fa051e40b64f6b46b6e179d32471"
+    },
+    {
+      "key": "calibration/0030/0064/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231139,
+      "missing_original_valid": 59753,
+      "source_sha": "3e923f60bbe41e43015e63419525e5905c835de394eb63c56c406d7831087daa"
+    },
+    {
+      "key": "calibration/0030/0064/0_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 289086,
+      "missing_original_valid": 1806,
+      "source_sha": "6a2b5bd9c5189569dce1d49d4c54ffdacc2cbce1b7891c4425363bf9dc4c4614"
+    },
+    {
+      "key": "calibration/0030/0064/0_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 289086,
+      "missing_original_valid": 1806,
+      "source_sha": "6a2b5bd9c5189569dce1d49d4c54ffdacc2cbce1b7891c4425363bf9dc4c4614"
+    },
+    {
+      "key": "calibration/0030/0064/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229722,
+      "missing_original_valid": 61170,
+      "source_sha": "a87fbcd71b3538e02b8e3f20ce41244d00dd2aae711118abfe152736062109b3"
+    },
+    {
+      "key": "calibration/0030/0064/0_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 288972,
+      "missing_original_valid": 1920,
+      "source_sha": "bcc2c65ef11560a99c80899f74d87f2ab9d13ab1d70f643bb91fef2f1dd08990"
+    },
+    {
+      "key": "calibration/0030/0064/0_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 288972,
+      "missing_original_valid": 1920,
+      "source_sha": "bcc2c65ef11560a99c80899f74d87f2ab9d13ab1d70f643bb91fef2f1dd08990"
+    },
+    {
+      "key": "calibration/0030/0064/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229878,
+      "missing_original_valid": 61014,
+      "source_sha": "1190a4332b4b481258fee097dc368fe2d0f72b76a9f543ab2a3ffb8c2cf0ef44"
+    },
+    {
+      "key": "calibration/0030/0064/3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 287655,
+      "missing_original_valid": 3237,
+      "source_sha": "7f2ebf690cbe9e32e4a2f55f0ee8efd04628b9370c6ea8037ac022f7df3418cb"
+    },
+    {
+      "key": "calibration/0030/0064/3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 287655,
+      "missing_original_valid": 3237,
+      "source_sha": "7f2ebf690cbe9e32e4a2f55f0ee8efd04628b9370c6ea8037ac022f7df3418cb"
+    },
+    {
+      "key": "calibration/0030/0064/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228105,
+      "missing_original_valid": 62787,
+      "source_sha": "88ead9ed35424d88d726d8743969ef4041b2d788baf19a84257e142444b29ff4"
+    },
+    {
+      "key": "calibration/0030/0064/3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287541,
+      "missing_original_valid": 3351,
+      "source_sha": "392212acdacc102fb54d416841b88854c0cc199efcf375f0d07d1e6cf9863ae7"
+    },
+    {
+      "key": "calibration/0030/0064/3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287541,
+      "missing_original_valid": 3351,
+      "source_sha": "392212acdacc102fb54d416841b88854c0cc199efcf375f0d07d1e6cf9863ae7"
+    },
+    {
+      "key": "calibration/0030/0064/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228494,
+      "missing_original_valid": 62398,
+      "source_sha": "10056b774f2913dda0c8f5a5d663d106f9c4f952b27befd3d1308bda6256eb61"
+    },
+    {
+      "key": "calibration/0030/0064/-3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 287655,
+      "missing_original_valid": 3237,
+      "source_sha": "b795b4a6b70abc3f3018633772124d7aa49d44ee3ca8f41e2965cc5ced177599"
+    },
+    {
+      "key": "calibration/0030/0064/-3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 287655,
+      "missing_original_valid": 3237,
+      "source_sha": "b795b4a6b70abc3f3018633772124d7aa49d44ee3ca8f41e2965cc5ced177599"
+    },
+    {
+      "key": "calibration/0030/0064/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228967,
+      "missing_original_valid": 61925,
+      "source_sha": "c07d9f3866b36a666785970259966398d71942f49bdede1b6c480d9deedd9632"
+    },
+    {
+      "key": "calibration/0030/0064/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287541,
+      "missing_original_valid": 3351,
+      "source_sha": "92138ad21e85692bcfcf0b40895c95b7b7db8d5b17011d828ae1d21711cb8fb7"
+    },
+    {
+      "key": "calibration/0030/0064/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287541,
+      "missing_original_valid": 3351,
+      "source_sha": "92138ad21e85692bcfcf0b40895c95b7b7db8d5b17011d828ae1d21711cb8fb7"
+    },
+    {
+      "key": "calibration/0030/0064/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229367,
+      "missing_original_valid": 61525,
+      "source_sha": "57bbfca2b65b3e78a202bb331efce515fca089690b7041784f5f470700b67645"
+    },
+    {
+      "key": "calibration/0030/0128/0_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 286660,
+      "missing_original_valid": 0,
+      "source_sha": "c9107ef8bcdb51d049112c0bb5db160b544da298374cf7f50ae6a954b5e93326"
+    },
+    {
+      "key": "calibration/0030/0128/0_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 286660,
+      "missing_original_valid": 0,
+      "source_sha": "c9107ef8bcdb51d049112c0bb5db160b544da298374cf7f50ae6a954b5e93326"
+    },
+    {
+      "key": "calibration/0030/0128/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227723,
+      "missing_original_valid": 58937,
+      "source_sha": "39839507df9c3e4658add01f29b6fc77775cee44717daaa32a96db610f03b94c"
+    },
+    {
+      "key": "calibration/0030/0128/3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285417,
+      "missing_original_valid": 1243,
+      "source_sha": "08937b4f3d2c2a5ebdd851bc899f155df39662d9f7f2e2ea0cdb95668164a265"
+    },
+    {
+      "key": "calibration/0030/0128/3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285417,
+      "missing_original_valid": 1243,
+      "source_sha": "08937b4f3d2c2a5ebdd851bc899f155df39662d9f7f2e2ea0cdb95668164a265"
+    },
+    {
+      "key": "calibration/0030/0128/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227042,
+      "missing_original_valid": 59618,
+      "source_sha": "77c1996341eb57669f00aa5e52b11036f031b1cd993eafa39b5625f1e80f4283"
+    },
+    {
+      "key": "calibration/0030/0128/-3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285401,
+      "missing_original_valid": 1259,
+      "source_sha": "d4de3385a1824d279e651b5de5b2e21937c8b224155d8c7766a7564b95ff5fa4"
+    },
+    {
+      "key": "calibration/0030/0128/-3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285401,
+      "missing_original_valid": 1259,
+      "source_sha": "d4de3385a1824d279e651b5de5b2e21937c8b224155d8c7766a7564b95ff5fa4"
+    },
+    {
+      "key": "calibration/0030/0128/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227223,
+      "missing_original_valid": 59437,
+      "source_sha": "a1ffb385414fa4d7b311700b70ee64a7dd770f89b1babab1f319edea2a5e180f"
+    },
+    {
+      "key": "calibration/0030/0128/0_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 285100,
+      "missing_original_valid": 1560,
+      "source_sha": "a108ebb157bcf87950ed0b2461adda8b817d743366c592706f0437f40f4e34a5"
+    },
+    {
+      "key": "calibration/0030/0128/0_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 285100,
+      "missing_original_valid": 1560,
+      "source_sha": "a108ebb157bcf87950ed0b2461adda8b817d743366c592706f0437f40f4e34a5"
+    },
+    {
+      "key": "calibration/0030/0128/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227630,
+      "missing_original_valid": 59030,
+      "source_sha": "628d48d92284a9ed5797e663b6ea291b1fb485c641eeb5030083ae0beb3917cd"
+    },
+    {
+      "key": "calibration/0030/0128/0_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 284740,
+      "missing_original_valid": 1920,
+      "source_sha": "4ef450900acdb7701a5b085ddaa22d19da6881ce345eb8cf92f6b0cd88951368"
+    },
+    {
+      "key": "calibration/0030/0128/0_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 284740,
+      "missing_original_valid": 1920,
+      "source_sha": "4ef450900acdb7701a5b085ddaa22d19da6881ce345eb8cf92f6b0cd88951368"
+    },
+    {
+      "key": "calibration/0030/0128/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226875,
+      "missing_original_valid": 59785,
+      "source_sha": "51a122a2440bbbb4fdd9a79cd312168fed5f0ac7332c8bc00f28e9eb75bf53c1"
+    },
+    {
+      "key": "calibration/0030/0128/3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 283865,
+      "missing_original_valid": 2795,
+      "source_sha": "8ff29e97a5f46f9b16a1211de011ed520dde5e0b781a8a97b231fe02d773c941"
+    },
+    {
+      "key": "calibration/0030/0128/3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 283865,
+      "missing_original_valid": 2795,
+      "source_sha": "8ff29e97a5f46f9b16a1211de011ed520dde5e0b781a8a97b231fe02d773c941"
+    },
+    {
+      "key": "calibration/0030/0128/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224926,
+      "missing_original_valid": 61734,
+      "source_sha": "e8eacebfb91fd396c647fa8e5426fac77e41659ad4d1bdd5d28493f7e10c7112"
+    },
+    {
+      "key": "calibration/0030/0128/3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283506,
+      "missing_original_valid": 3154,
+      "source_sha": "6746b5d8cdf22c8c6f555c9874a505cc0ac96db35eb5e5e6b633b7e4b89c511c"
+    },
+    {
+      "key": "calibration/0030/0128/3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283506,
+      "missing_original_valid": 3154,
+      "source_sha": "6746b5d8cdf22c8c6f555c9874a505cc0ac96db35eb5e5e6b633b7e4b89c511c"
+    },
+    {
+      "key": "calibration/0030/0128/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226137,
+      "missing_original_valid": 60523,
+      "source_sha": "a411d61b2eee6d092bb1605668f8bb1bf3dec2e38460f528db7cbdec166cb0e2"
+    },
+    {
+      "key": "calibration/0030/0128/-3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 283841,
+      "missing_original_valid": 2819,
+      "source_sha": "0a761469436678540586cef195fc14be310587b8214c97387a39e3a78c85e3dc"
+    },
+    {
+      "key": "calibration/0030/0128/-3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 283841,
+      "missing_original_valid": 2819,
+      "source_sha": "0a761469436678540586cef195fc14be310587b8214c97387a39e3a78c85e3dc"
+    },
+    {
+      "key": "calibration/0030/0128/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228198,
+      "missing_original_valid": 58462,
+      "source_sha": "4132c946cf80a8c3a2aafc738d160f4ff615d903242306f172517d0874353fc3"
+    },
+    {
+      "key": "calibration/0030/0128/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283490,
+      "missing_original_valid": 3170,
+      "source_sha": "fbdd78a8a91f0ba6c7c6226680b50514452119bf89a3d9f9badd761c79452e58"
+    },
+    {
+      "key": "calibration/0030/0128/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283490,
+      "missing_original_valid": 3170,
+      "source_sha": "fbdd78a8a91f0ba6c7c6226680b50514452119bf89a3d9f9badd761c79452e58"
+    },
+    {
+      "key": "calibration/0030/0128/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225705,
+      "missing_original_valid": 60955,
+      "source_sha": "5badfd29f6621f0e3cae819ef87ca74ae31563156af7c0f11a4fb401f3fa5c90"
+    },
+    {
+      "key": "calibration/0030/0192/0_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285577,
+      "missing_original_valid": 0,
+      "source_sha": "874f4531a7252c6f9983ea419e6b72f9c33ad20c87d83a16629a70cfdb6731fa"
+    },
+    {
+      "key": "calibration/0030/0192/0_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285577,
+      "missing_original_valid": 0,
+      "source_sha": "874f4531a7252c6f9983ea419e6b72f9c33ad20c87d83a16629a70cfdb6731fa"
+    },
+    {
+      "key": "calibration/0030/0192/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226726,
+      "missing_original_valid": 58851,
+      "source_sha": "7cd06f4dc9641529fc8a6944a4d82358ff720af850b74dc8df8dd259b6118509"
+    },
+    {
+      "key": "calibration/0030/0192/3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 284301,
+      "missing_original_valid": 1276,
+      "source_sha": "2d228196c497c8938a9b33741d48d68916b5488cddfbf942326efd80dcdf2916"
+    },
+    {
+      "key": "calibration/0030/0192/3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 284301,
+      "missing_original_valid": 1276,
+      "source_sha": "2d228196c497c8938a9b33741d48d68916b5488cddfbf942326efd80dcdf2916"
+    },
+    {
+      "key": "calibration/0030/0192/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225608,
+      "missing_original_valid": 59969,
+      "source_sha": "c8123bb76b256d33c8ecb852499d9ed0791b4d4729508666069eb222fbc02317"
+    },
+    {
+      "key": "calibration/0030/0192/-3_0/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 284348,
+      "missing_original_valid": 1229,
+      "source_sha": "374b7c98f9a4c9f7831638267ae1756d6de6ac294c019dd3ab45b4cb91734520"
+    },
+    {
+      "key": "calibration/0030/0192/-3_0/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 284348,
+      "missing_original_valid": 1229,
+      "source_sha": "374b7c98f9a4c9f7831638267ae1756d6de6ac294c019dd3ab45b4cb91734520"
+    },
+    {
+      "key": "calibration/0030/0192/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226426,
+      "missing_original_valid": 59151,
+      "source_sha": "a5bc4171e37852c5dda9731c847593a541e704fbaa94b055444ed52f68b85e8c"
+    },
+    {
+      "key": "calibration/0030/0192/0_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284252,
+      "missing_original_valid": 1325,
+      "source_sha": "5a96e0550d499db48796892f9852b7eef1e4920e5a30a90855fba8e8dd3fec30"
+    },
+    {
+      "key": "calibration/0030/0192/0_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284252,
+      "missing_original_valid": 1325,
+      "source_sha": "5a96e0550d499db48796892f9852b7eef1e4920e5a30a90855fba8e8dd3fec30"
+    },
+    {
+      "key": "calibration/0030/0192/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225315,
+      "missing_original_valid": 60262,
+      "source_sha": "c37c66e8987476e9edb2c3e2ac0ef520e85aa12d932472f188b0c5d2e961fdc7"
+    },
+    {
+      "key": "calibration/0030/0192/0_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283727,
+      "missing_original_valid": 1850,
+      "source_sha": "723b6d0c72168bda18746bd608a00bda425af4b3df304200598009efd0e686bf"
+    },
+    {
+      "key": "calibration/0030/0192/0_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283727,
+      "missing_original_valid": 1850,
+      "source_sha": "723b6d0c72168bda18746bd608a00bda425af4b3df304200598009efd0e686bf"
+    },
+    {
+      "key": "calibration/0030/0192/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225082,
+      "missing_original_valid": 60495,
+      "source_sha": "8b0cb0d98bab7e2facbae7045b81b034a0c4f61f35bdcd538f316d5cfb318ebf"
+    },
+    {
+      "key": "calibration/0030/0192/3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 282981,
+      "missing_original_valid": 2596,
+      "source_sha": "33d25e82c38b9c573ee2fe6d2ca5bf80ed742fdef5bc823a14233aaba8507831"
+    },
+    {
+      "key": "calibration/0030/0192/3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 282981,
+      "missing_original_valid": 2596,
+      "source_sha": "33d25e82c38b9c573ee2fe6d2ca5bf80ed742fdef5bc823a14233aaba8507831"
+    },
+    {
+      "key": "calibration/0030/0192/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224396,
+      "missing_original_valid": 61181,
+      "source_sha": "c038aea43a4f9117d7ef596cb2ffa7b99a740910af45b1af5ca2c46f7dd4c255"
+    },
+    {
+      "key": "calibration/0030/0192/3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 282460,
+      "missing_original_valid": 3117,
+      "source_sha": "532ed5bb8537899c489f40d7de69558fc4a290c0d16e869215c4069dafcc8932"
+    },
+    {
+      "key": "calibration/0030/0192/3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 282460,
+      "missing_original_valid": 3117,
+      "source_sha": "532ed5bb8537899c489f40d7de69558fc4a290c0d16e869215c4069dafcc8932"
+    },
+    {
+      "key": "calibration/0030/0192/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 223688,
+      "missing_original_valid": 61889,
+      "source_sha": "050db31af7c563ede6967b08f32e7f685b975baa2f96c54d8b972eea600dd7f9"
+    },
+    {
+      "key": "calibration/0030/0192/-3_3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 283031,
+      "missing_original_valid": 2546,
+      "source_sha": "64455fd6ae731906eb01ea93f9d79613a7a4e02f7d1d0ad45a29fbc48a7a6c93"
+    },
+    {
+      "key": "calibration/0030/0192/-3_3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 283031,
+      "missing_original_valid": 2546,
+      "source_sha": "64455fd6ae731906eb01ea93f9d79613a7a4e02f7d1d0ad45a29fbc48a7a6c93"
+    },
+    {
+      "key": "calibration/0030/0192/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225456,
+      "missing_original_valid": 60121,
+      "source_sha": "9303e05b3e76be4e493d3026f66ffe3dec13735bd340628a861baf92319b0a11"
+    },
+    {
+      "key": "calibration/0030/0192/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 282507,
+      "missing_original_valid": 3070,
+      "source_sha": "ffb206eac1fa1fbd75188eda5a249ddb235a6b712a57cb5fe352bed096547061"
+    },
+    {
+      "key": "calibration/0030/0192/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 282507,
+      "missing_original_valid": 3070,
+      "source_sha": "ffb206eac1fa1fbd75188eda5a249ddb235a6b712a57cb5fe352bed096547061"
+    },
+    {
+      "key": "calibration/0030/0192/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 30,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225550,
+      "missing_original_valid": 60027,
+      "source_sha": "78219c89bed4e09ec4501dab6b6857c7c2771e3019ee99590b12afa0411f73b9"
+    },
+    {
+      "key": "calibration/0031/0000/0_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 294797,
+      "missing_original_valid": 0,
+      "source_sha": "bf984ff45e4b63afc1816415bfdf73e5d4875b32f2c68bc57f131bce0708de71"
+    },
+    {
+      "key": "calibration/0031/0000/0_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 294797,
+      "missing_original_valid": 0,
+      "source_sha": "bf984ff45e4b63afc1816415bfdf73e5d4875b32f2c68bc57f131bce0708de71"
+    },
+    {
+      "key": "calibration/0031/0000/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 235973,
+      "missing_original_valid": 58824,
+      "source_sha": "7e54441e0d74ff7868dcf486116eb3f7e7fecb38b37fb7dc60c7c772fd80bb88"
+    },
+    {
+      "key": "calibration/0031/0000/3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 293486,
+      "missing_original_valid": 1311,
+      "source_sha": "b10abe7f109badea3a63e7ed56bcc81bcbbbc951103b1e590a732659fdfdf791"
+    },
+    {
+      "key": "calibration/0031/0000/3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 293486,
+      "missing_original_valid": 1311,
+      "source_sha": "b10abe7f109badea3a63e7ed56bcc81bcbbbc951103b1e590a732659fdfdf791"
+    },
+    {
+      "key": "calibration/0031/0000/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 234815,
+      "missing_original_valid": 59982,
+      "source_sha": "fc6e84dfd41e67c5ea4fae224533baba7d29f812cb1ca3cf29d0cd35ded5ca1c"
+    },
+    {
+      "key": "calibration/0031/0000/-3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 293405,
+      "missing_original_valid": 1392,
+      "source_sha": "377f2669cee19a54264c1ffcc762507e43229e091f802e39aaa6b5342c94ca6d"
+    },
+    {
+      "key": "calibration/0031/0000/-3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 293405,
+      "missing_original_valid": 1392,
+      "source_sha": "377f2669cee19a54264c1ffcc762507e43229e091f802e39aaa6b5342c94ca6d"
+    },
+    {
+      "key": "calibration/0031/0000/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 233164,
+      "missing_original_valid": 61633,
+      "source_sha": "7eb4e37b35e9ad6c941b5e92ccda4c97415b4f44b192fa1744ba9cf4b53c7f2c"
+    },
+    {
+      "key": "calibration/0031/0000/0_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 293158,
+      "missing_original_valid": 1639,
+      "source_sha": "e8ddbd2d4dac9ff3ea23811288f46ed36d97d1e5b00c3d31804daed37b1c0674"
+    },
+    {
+      "key": "calibration/0031/0000/0_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 293158,
+      "missing_original_valid": 1639,
+      "source_sha": "e8ddbd2d4dac9ff3ea23811288f46ed36d97d1e5b00c3d31804daed37b1c0674"
+    },
+    {
+      "key": "calibration/0031/0000/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 234501,
+      "missing_original_valid": 60296,
+      "source_sha": "34c479fda7bd76bfb507ca4e808c583becc7a7e9883469b01854c5bc23074bca"
+    },
+    {
+      "key": "calibration/0031/0000/0_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 292877,
+      "missing_original_valid": 1920,
+      "source_sha": "00b1cf0c12cb5fdb6a7b8bd0b6ba54e058e4a6ae4be34947b1cf5f68c6b1722c"
+    },
+    {
+      "key": "calibration/0031/0000/0_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 292877,
+      "missing_original_valid": 1920,
+      "source_sha": "00b1cf0c12cb5fdb6a7b8bd0b6ba54e058e4a6ae4be34947b1cf5f68c6b1722c"
+    },
+    {
+      "key": "calibration/0031/0000/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 234935,
+      "missing_original_valid": 59862,
+      "source_sha": "75ed6709059f29ec1bae08d47871a94dc16778acd982bbec5905f1dedb6d0f4f"
+    },
+    {
+      "key": "calibration/0031/0000/3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 291847,
+      "missing_original_valid": 2950,
+      "source_sha": "f35dcd3c085d4b245974a6012cc527c384b28d2ccb5054ce22f31f5f6680c111"
+    },
+    {
+      "key": "calibration/0031/0000/3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 291847,
+      "missing_original_valid": 2950,
+      "source_sha": "f35dcd3c085d4b245974a6012cc527c384b28d2ccb5054ce22f31f5f6680c111"
+    },
+    {
+      "key": "calibration/0031/0000/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231693,
+      "missing_original_valid": 63104,
+      "source_sha": "2a292a216e1e56bf12f70f4aa0f78a9ebbbbe50b76ca0ada7e0c80e996c1dc50"
+    },
+    {
+      "key": "calibration/0031/0000/3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 291575,
+      "missing_original_valid": 3222,
+      "source_sha": "39e5eba5b8b5e5dd6fda745c29689f268edd3b60a10aace62ccab22787e45940"
+    },
+    {
+      "key": "calibration/0031/0000/3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 291575,
+      "missing_original_valid": 3222,
+      "source_sha": "39e5eba5b8b5e5dd6fda745c29689f268edd3b60a10aace62ccab22787e45940"
+    },
+    {
+      "key": "calibration/0031/0000/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232107,
+      "missing_original_valid": 62690,
+      "source_sha": "c64887fd197d28bcaa0e74d756d04e6f4874c9b12c2f7f21d8ac465381901e54"
+    },
+    {
+      "key": "calibration/0031/0000/-3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 291771,
+      "missing_original_valid": 3026,
+      "source_sha": "0405c59d0a8a1ee58da723f06ed9c8dda61dc11bd12ec10865f2e3b27e7fa575"
+    },
+    {
+      "key": "calibration/0031/0000/-3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 291771,
+      "missing_original_valid": 3026,
+      "source_sha": "0405c59d0a8a1ee58da723f06ed9c8dda61dc11bd12ec10865f2e3b27e7fa575"
+    },
+    {
+      "key": "calibration/0031/0000/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232379,
+      "missing_original_valid": 62418,
+      "source_sha": "d06f82757ef892cc377da12a1941c1997ff0c76b2933554c8803547a9abbf3be"
+    },
+    {
+      "key": "calibration/0031/0000/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 291494,
+      "missing_original_valid": 3303,
+      "source_sha": "74b387ae1f6c0ebf9b7f328b5c6b2b9540f23a7fc3231dceafe7dc6dd62230b8"
+    },
+    {
+      "key": "calibration/0031/0000/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 291494,
+      "missing_original_valid": 3303,
+      "source_sha": "74b387ae1f6c0ebf9b7f328b5c6b2b9540f23a7fc3231dceafe7dc6dd62230b8"
+    },
+    {
+      "key": "calibration/0031/0000/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232620,
+      "missing_original_valid": 62177,
+      "source_sha": "f12c8e25c01ab3fb2115be6a597c33cc2683537db9e4220fac73f36b7b86a2e7"
+    },
+    {
+      "key": "calibration/0031/0064/0_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 293489,
+      "missing_original_valid": 0,
+      "source_sha": "7c0dba565c203d20065bbe8892ed9cf0a974cc5017cf7bdafbb37dbb048c4c94"
+    },
+    {
+      "key": "calibration/0031/0064/0_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 293489,
+      "missing_original_valid": 0,
+      "source_sha": "7c0dba565c203d20065bbe8892ed9cf0a974cc5017cf7bdafbb37dbb048c4c94"
+    },
+    {
+      "key": "calibration/0031/0064/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 233026,
+      "missing_original_valid": 60463,
+      "source_sha": "3c9bea6990463bce543c00f7e9cc383d6eb107c0d3ee0f7d875fdad8bbd4b310"
+    },
+    {
+      "key": "calibration/0031/0064/3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 292063,
+      "missing_original_valid": 1426,
+      "source_sha": "f6eb489c07966cfb43c144f9993dc56616c043d0e6e527357324244f0471b77e"
+    },
+    {
+      "key": "calibration/0031/0064/3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 292063,
+      "missing_original_valid": 1426,
+      "source_sha": "f6eb489c07966cfb43c144f9993dc56616c043d0e6e527357324244f0471b77e"
+    },
+    {
+      "key": "calibration/0031/0064/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231911,
+      "missing_original_valid": 61578,
+      "source_sha": "bdda05b6ac03ce08356ef27c139090409b41efaed0ff45df02e148548a16f297"
+    },
+    {
+      "key": "calibration/0031/0064/-3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 292049,
+      "missing_original_valid": 1440,
+      "source_sha": "fa297e571c195aff0ca5c39a8057479d349afda62121dc246d78085a5e7a5155"
+    },
+    {
+      "key": "calibration/0031/0064/-3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 292049,
+      "missing_original_valid": 1440,
+      "source_sha": "fa297e571c195aff0ca5c39a8057479d349afda62121dc246d78085a5e7a5155"
+    },
+    {
+      "key": "calibration/0031/0064/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232130,
+      "missing_original_valid": 61359,
+      "source_sha": "293fb03ffa02b73f50ec819b442b911915e67d13ff611ad2bd8b0ca97273e8ba"
+    },
+    {
+      "key": "calibration/0031/0064/0_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 291772,
+      "missing_original_valid": 1717,
+      "source_sha": "df7be830789cd457896155378cdf5bcd624f252e74e0963f47f8f22a490584ec"
+    },
+    {
+      "key": "calibration/0031/0064/0_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 291772,
+      "missing_original_valid": 1717,
+      "source_sha": "df7be830789cd457896155378cdf5bcd624f252e74e0963f47f8f22a490584ec"
+    },
+    {
+      "key": "calibration/0031/0064/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231560,
+      "missing_original_valid": 61929,
+      "source_sha": "44cb2a3a9895474e1c373424818135dd5a0e9b8566ef7aed8a19a6e47d8108e8"
+    },
+    {
+      "key": "calibration/0031/0064/0_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 291575,
+      "missing_original_valid": 1914,
+      "source_sha": "08cef59ba902a386319cb82e35946d0884a1c24be2702722baee2311e85ee17c"
+    },
+    {
+      "key": "calibration/0031/0064/0_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 291575,
+      "missing_original_valid": 1914,
+      "source_sha": "08cef59ba902a386319cb82e35946d0884a1c24be2702722baee2311e85ee17c"
+    },
+    {
+      "key": "calibration/0031/0064/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232381,
+      "missing_original_valid": 61108,
+      "source_sha": "66490091c03fe0a33545d34ed67fe85b36c0ab4189d9450b9f41281c2b32fca2"
+    },
+    {
+      "key": "calibration/0031/0064/3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 290355,
+      "missing_original_valid": 3134,
+      "source_sha": "ae4e37d4d9a4535dfde41bad140b15ac7526546c6588f5e7003eb3e02e0265eb"
+    },
+    {
+      "key": "calibration/0031/0064/3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 290355,
+      "missing_original_valid": 3134,
+      "source_sha": "ae4e37d4d9a4535dfde41bad140b15ac7526546c6588f5e7003eb3e02e0265eb"
+    },
+    {
+      "key": "calibration/0031/0064/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230450,
+      "missing_original_valid": 63039,
+      "source_sha": "30db18078c1646739c16c6312b3f4428259ae7591d9195a5b87f6637c4b5129a"
+    },
+    {
+      "key": "calibration/0031/0064/3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 290158,
+      "missing_original_valid": 3331,
+      "source_sha": "c53616b781bf85ff4584f634eb0cf43e2bba34d4ae6f3114d6d5a2366055a2b9"
+    },
+    {
+      "key": "calibration/0031/0064/3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 290158,
+      "missing_original_valid": 3331,
+      "source_sha": "c53616b781bf85ff4584f634eb0cf43e2bba34d4ae6f3114d6d5a2366055a2b9"
+    },
+    {
+      "key": "calibration/0031/0064/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232523,
+      "missing_original_valid": 60966,
+      "source_sha": "c629420803f751319e8f0a14fc4ea510dda0a9868f02b1f79c66c91c8dda3078"
+    },
+    {
+      "key": "calibration/0031/0064/-3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 290341,
+      "missing_original_valid": 3148,
+      "source_sha": "fdebf544af35a7bf0f101b0d89f5b2284529c689ec608e54f0d155606fb04492"
+    },
+    {
+      "key": "calibration/0031/0064/-3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 290341,
+      "missing_original_valid": 3148,
+      "source_sha": "fdebf544af35a7bf0f101b0d89f5b2284529c689ec608e54f0d155606fb04492"
+    },
+    {
+      "key": "calibration/0031/0064/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231507,
+      "missing_original_valid": 61982,
+      "source_sha": "60de71f895749137f24d9fc34b3131487f09bed8f5301cfcbe4ef2e29356b99d"
+    },
+    {
+      "key": "calibration/0031/0064/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 290144,
+      "missing_original_valid": 3345,
+      "source_sha": "bb2d706fc3d2b0679876241c1dd8803203efde09be04facd32252cb7ec9c070d"
+    },
+    {
+      "key": "calibration/0031/0064/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 290144,
+      "missing_original_valid": 3345,
+      "source_sha": "bb2d706fc3d2b0679876241c1dd8803203efde09be04facd32252cb7ec9c070d"
+    },
+    {
+      "key": "calibration/0031/0064/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230459,
+      "missing_original_valid": 63030,
+      "source_sha": "f3546972cfb11bc4e23963d221a9add82f53de87bde435dfac7e43012927ddcc"
+    },
+    {
+      "key": "calibration/0031/0128/0_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 288266,
+      "missing_original_valid": 0,
+      "source_sha": "21b5f80acd77f83d2c889f9b73ff9f807958e72022a96a77d1b025f2c337c4f8"
+    },
+    {
+      "key": "calibration/0031/0128/0_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 288266,
+      "missing_original_valid": 0,
+      "source_sha": "21b5f80acd77f83d2c889f9b73ff9f807958e72022a96a77d1b025f2c337c4f8"
+    },
+    {
+      "key": "calibration/0031/0128/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228707,
+      "missing_original_valid": 59559,
+      "source_sha": "0c001525e83be9b673a8e38998d1ca250dd241d8e38d4561eeea47262ed6e96a"
+    },
+    {
+      "key": "calibration/0031/0128/3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 287090,
+      "missing_original_valid": 1176,
+      "source_sha": "3e4e1ae1d8c392a8878ef2f56e3ed4e065ac17a4685d14153274fc0578b7b2fe"
+    },
+    {
+      "key": "calibration/0031/0128/3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 287090,
+      "missing_original_valid": 1176,
+      "source_sha": "3e4e1ae1d8c392a8878ef2f56e3ed4e065ac17a4685d14153274fc0578b7b2fe"
+    },
+    {
+      "key": "calibration/0031/0128/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229310,
+      "missing_original_valid": 58956,
+      "source_sha": "d4e3d882833f66cc2d4267ebbf95630c8a6e647f922d035d2a268c930d29ef44"
+    },
+    {
+      "key": "calibration/0031/0128/-3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 286981,
+      "missing_original_valid": 1285,
+      "source_sha": "4b9bdb9cf989da234afa7cd50b5413b878d0feb5dfbf50cb1395900744f81485"
+    },
+    {
+      "key": "calibration/0031/0128/-3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 286981,
+      "missing_original_valid": 1285,
+      "source_sha": "4b9bdb9cf989da234afa7cd50b5413b878d0feb5dfbf50cb1395900744f81485"
+    },
+    {
+      "key": "calibration/0031/0128/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228693,
+      "missing_original_valid": 59573,
+      "source_sha": "c95b26f6f180acb3d8d7f9f1d1782c8570418dc788531100e9f352e54c693d8c"
+    },
+    {
+      "key": "calibration/0031/0128/0_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 286685,
+      "missing_original_valid": 1581,
+      "source_sha": "c8eca7e63d44f3be0953246869ec8255bde7364e8f86cd994fc9dc2b4084eba1"
+    },
+    {
+      "key": "calibration/0031/0128/0_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 286685,
+      "missing_original_valid": 1581,
+      "source_sha": "c8eca7e63d44f3be0953246869ec8255bde7364e8f86cd994fc9dc2b4084eba1"
+    },
+    {
+      "key": "calibration/0031/0128/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229002,
+      "missing_original_valid": 59264,
+      "source_sha": "b55b9dc568afd973131e23ae920b9a6949baa97eecaf43a93fe37941ba9d5f6a"
+    },
+    {
+      "key": "calibration/0031/0128/0_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 286346,
+      "missing_original_valid": 1920,
+      "source_sha": "e47814f91f8d4a57f278b338246becfebf09114cc50cc88f12ec523f29de0d50"
+    },
+    {
+      "key": "calibration/0031/0128/0_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 286346,
+      "missing_original_valid": 1920,
+      "source_sha": "e47814f91f8d4a57f278b338246becfebf09114cc50cc88f12ec523f29de0d50"
+    },
+    {
+      "key": "calibration/0031/0128/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226933,
+      "missing_original_valid": 61333,
+      "source_sha": "d9dac940299af26fddd8fc946198484382c0ae4540a8717cde8ec89b0eb82cf4"
+    },
+    {
+      "key": "calibration/0031/0128/3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 285509,
+      "missing_original_valid": 2757,
+      "source_sha": "64c90c5c02e3fc67799c10659f7084459a08ffbbcffb346ab698dcbafbe134e7"
+    },
+    {
+      "key": "calibration/0031/0128/3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 285509,
+      "missing_original_valid": 2757,
+      "source_sha": "64c90c5c02e3fc67799c10659f7084459a08ffbbcffb346ab698dcbafbe134e7"
+    },
+    {
+      "key": "calibration/0031/0128/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226748,
+      "missing_original_valid": 61518,
+      "source_sha": "713125627c9eaa45f4b43bb62360b14647e39fd8f9ba629ce943b4696537f824"
+    },
+    {
+      "key": "calibration/0031/0128/3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 285179,
+      "missing_original_valid": 3087,
+      "source_sha": "fc41148eb789a35c9c12721ab2fc069d5a466def6253d20d3c219773010e8c3e"
+    },
+    {
+      "key": "calibration/0031/0128/3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 285179,
+      "missing_original_valid": 3087,
+      "source_sha": "fc41148eb789a35c9c12721ab2fc069d5a466def6253d20d3c219773010e8c3e"
+    },
+    {
+      "key": "calibration/0031/0128/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226968,
+      "missing_original_valid": 61298,
+      "source_sha": "9e40ff900f46ce18525b749dc51f9bb6b72a637dd7d174479db9481182f3a305"
+    },
+    {
+      "key": "calibration/0031/0128/-3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 285404,
+      "missing_original_valid": 2862,
+      "source_sha": "78b659bbcb3106c6b2812417f1a495c8b18b8ba27f9de56e785eae996cf6c06e"
+    },
+    {
+      "key": "calibration/0031/0128/-3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 285404,
+      "missing_original_valid": 2862,
+      "source_sha": "78b659bbcb3106c6b2812417f1a495c8b18b8ba27f9de56e785eae996cf6c06e"
+    },
+    {
+      "key": "calibration/0031/0128/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227881,
+      "missing_original_valid": 60385,
+      "source_sha": "3b53ff3a40c901d0a1dc49e09e673036a0280d1e4924f6a17df05d9d4354b1f6"
+    },
+    {
+      "key": "calibration/0031/0128/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 285070,
+      "missing_original_valid": 3196,
+      "source_sha": "8486cc22d353613f5eb7bc3d8d7e494ab1e2bb4bac667bcfeebbf3cee85c6ccb"
+    },
+    {
+      "key": "calibration/0031/0128/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 285070,
+      "missing_original_valid": 3196,
+      "source_sha": "8486cc22d353613f5eb7bc3d8d7e494ab1e2bb4bac667bcfeebbf3cee85c6ccb"
+    },
+    {
+      "key": "calibration/0031/0128/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226382,
+      "missing_original_valid": 61884,
+      "source_sha": "a3093a25bb69f2335a66ccd63535382382d657c4eb9750617d32343730146d10"
+    },
+    {
+      "key": "calibration/0031/0192/0_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 286942,
+      "missing_original_valid": 0,
+      "source_sha": "b42995ea203ac6203c17fcb2a99462b4053497e20376e2c9a81868acfa6c28a5"
+    },
+    {
+      "key": "calibration/0031/0192/0_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 286942,
+      "missing_original_valid": 0,
+      "source_sha": "b42995ea203ac6203c17fcb2a99462b4053497e20376e2c9a81868acfa6c28a5"
+    },
+    {
+      "key": "calibration/0031/0192/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229032,
+      "missing_original_valid": 57910,
+      "source_sha": "3fe8c779475d84b9add8a24fe43df76fd064207a4368f36673a8492b623f61c7"
+    },
+    {
+      "key": "calibration/0031/0192/3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285666,
+      "missing_original_valid": 1276,
+      "source_sha": "f4c241baedff9c35015f17ce580ea5050828fce932c5ff7ed6ed8d2626c85953"
+    },
+    {
+      "key": "calibration/0031/0192/3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285666,
+      "missing_original_valid": 1276,
+      "source_sha": "f4c241baedff9c35015f17ce580ea5050828fce932c5ff7ed6ed8d2626c85953"
+    },
+    {
+      "key": "calibration/0031/0192/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227917,
+      "missing_original_valid": 59025,
+      "source_sha": "ceedbb1ede05a17f54a0b610d8f2758c3bea5a6fd0c785e735208856cba840e8"
+    },
+    {
+      "key": "calibration/0031/0192/-3_0/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285527,
+      "missing_original_valid": 1415,
+      "source_sha": "59d1d54d23c5aaf5a0cc9c671c57adddfd39f58d6a6f478490b596ddc61eec96"
+    },
+    {
+      "key": "calibration/0031/0192/-3_0/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285527,
+      "missing_original_valid": 1415,
+      "source_sha": "59d1d54d23c5aaf5a0cc9c671c57adddfd39f58d6a6f478490b596ddc61eec96"
+    },
+    {
+      "key": "calibration/0031/0192/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227232,
+      "missing_original_valid": 59710,
+      "source_sha": "9f753646b8d0bd1ffb3424e46022fa6ea23e7a553cfdc10411a0d65ef4acb1fd"
+    },
+    {
+      "key": "calibration/0031/0192/0_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 285760,
+      "missing_original_valid": 1182,
+      "source_sha": "8f013f64d7aa4614b1d4fc75e74fc6f3dc644cf7ef35a6f45995a03a7c6ac668"
+    },
+    {
+      "key": "calibration/0031/0192/0_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 285760,
+      "missing_original_valid": 1182,
+      "source_sha": "8f013f64d7aa4614b1d4fc75e74fc6f3dc644cf7ef35a6f45995a03a7c6ac668"
+    },
+    {
+      "key": "calibration/0031/0192/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227252,
+      "missing_original_valid": 59690,
+      "source_sha": "0a2ba958ce0411ff5ab3a46bad23e1188c5d5ef0cf73039a8694c6c112864221"
+    },
+    {
+      "key": "calibration/0031/0192/0_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 285062,
+      "missing_original_valid": 1880,
+      "source_sha": "f343599f125eb4347326b2ec4c92d5953c852b558c96aa6bc0e29ead1f5206d1"
+    },
+    {
+      "key": "calibration/0031/0192/0_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 285062,
+      "missing_original_valid": 1880,
+      "source_sha": "f343599f125eb4347326b2ec4c92d5953c852b558c96aa6bc0e29ead1f5206d1"
+    },
+    {
+      "key": "calibration/0031/0192/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225968,
+      "missing_original_valid": 60974,
+      "source_sha": "d76362b97cb211f92feb29c9927ed6337c4601ca6f8f85a77019e71dec7ca5c6"
+    },
+    {
+      "key": "calibration/0031/0192/3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284488,
+      "missing_original_valid": 2454,
+      "source_sha": "46004665372ad26d38208961b8475200a0ee2c733084f156f93721838823f873"
+    },
+    {
+      "key": "calibration/0031/0192/3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284488,
+      "missing_original_valid": 2454,
+      "source_sha": "46004665372ad26d38208961b8475200a0ee2c733084f156f93721838823f873"
+    },
+    {
+      "key": "calibration/0031/0192/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225643,
+      "missing_original_valid": 61299,
+      "source_sha": "dcabc2335c874149f013b44f73e50d2ff72b12bf01c54e6dab26087047090923"
+    },
+    {
+      "key": "calibration/0031/0192/3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283795,
+      "missing_original_valid": 3147,
+      "source_sha": "5a2af93255699d409dbc4cf2a5c813d09058425f33c688b03a9741e4996faad9"
+    },
+    {
+      "key": "calibration/0031/0192/3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283795,
+      "missing_original_valid": 3147,
+      "source_sha": "5a2af93255699d409dbc4cf2a5c813d09058425f33c688b03a9741e4996faad9"
+    },
+    {
+      "key": "calibration/0031/0192/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226083,
+      "missing_original_valid": 60859,
+      "source_sha": "90c38c0ec0a032833793d8ebf1208c3c4b72de8512b3bbcc23198833ced9b3d8"
+    },
+    {
+      "key": "calibration/0031/0192/-3_3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284353,
+      "missing_original_valid": 2589,
+      "source_sha": "66587634ec007caa5e01bac78bf2fce45566d9986cd1ad21ab4277d64149553c"
+    },
+    {
+      "key": "calibration/0031/0192/-3_3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284353,
+      "missing_original_valid": 2589,
+      "source_sha": "66587634ec007caa5e01bac78bf2fce45566d9986cd1ad21ab4277d64149553c"
+    },
+    {
+      "key": "calibration/0031/0192/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225726,
+      "missing_original_valid": 61216,
+      "source_sha": "3eff45cc03df3d84393cdea84fe839f641d9276c86a7fa140a5145f302d69896"
+    },
+    {
+      "key": "calibration/0031/0192/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283656,
+      "missing_original_valid": 3286,
+      "source_sha": "370ec92a45147775c3926eeed52a94b8c268aab48803e0a4dc8aaa947c7c635b"
+    },
+    {
+      "key": "calibration/0031/0192/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283656,
+      "missing_original_valid": 3286,
+      "source_sha": "370ec92a45147775c3926eeed52a94b8c268aab48803e0a4dc8aaa947c7c635b"
+    },
+    {
+      "key": "calibration/0031/0192/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 31,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227065,
+      "missing_original_valid": 59877,
+      "source_sha": "fad17f5c70277b23aac63039aeb79324ef5037f9d2927a08db89b367205f85b9"
+    },
+    {
+      "key": "calibration/0034/0000/0_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289445,
+      "missing_original_valid": 0,
+      "source_sha": "311c9e2981e9f85c34ff755d659d0a09ad0d524a21d89a3cc19cd127ab42663d"
+    },
+    {
+      "key": "calibration/0034/0000/0_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289445,
+      "missing_original_valid": 0,
+      "source_sha": "311c9e2981e9f85c34ff755d659d0a09ad0d524a21d89a3cc19cd127ab42663d"
+    },
+    {
+      "key": "calibration/0034/0000/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 231759,
+      "missing_original_valid": 57686,
+      "source_sha": "302f55249d8af3b786bb814ad37a89f7d516a4e94aa8f5d20cb97aa8bfac94fd"
+    },
+    {
+      "key": "calibration/0034/0000/3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 288146,
+      "missing_original_valid": 1299,
+      "source_sha": "539ba59280ffd9e534f8c5b750e53d9a6a78712421a21f27e526900b5c9b6322"
+    },
+    {
+      "key": "calibration/0034/0000/3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 288146,
+      "missing_original_valid": 1299,
+      "source_sha": "539ba59280ffd9e534f8c5b750e53d9a6a78712421a21f27e526900b5c9b6322"
+    },
+    {
+      "key": "calibration/0034/0000/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228588,
+      "missing_original_valid": 60857,
+      "source_sha": "cd6c3d0483892f968e06b1b2ac1e142f6fd92c89b48d7a1ae8d4a51b42e95527"
+    },
+    {
+      "key": "calibration/0034/0000/-3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 288027,
+      "missing_original_valid": 1418,
+      "source_sha": "07ca22ecbdb6e37fd5354c8d4dc60affd566732840b468268e310675a9631a94"
+    },
+    {
+      "key": "calibration/0034/0000/-3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 288027,
+      "missing_original_valid": 1418,
+      "source_sha": "07ca22ecbdb6e37fd5354c8d4dc60affd566732840b468268e310675a9631a94"
+    },
+    {
+      "key": "calibration/0034/0000/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230318,
+      "missing_original_valid": 59127,
+      "source_sha": "ac450f8e811fd6a77f824080e31e5ef2b7c1cd9cab7979b6c2e1e91500ed5757"
+    },
+    {
+      "key": "calibration/0034/0000/0_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 287886,
+      "missing_original_valid": 1559,
+      "source_sha": "33d99c0d03294c20404e0b3e0be91747d5798f695d22dd844f1844e3d1a24eb3"
+    },
+    {
+      "key": "calibration/0034/0000/0_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 287886,
+      "missing_original_valid": 1559,
+      "source_sha": "33d99c0d03294c20404e0b3e0be91747d5798f695d22dd844f1844e3d1a24eb3"
+    },
+    {
+      "key": "calibration/0034/0000/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230655,
+      "missing_original_valid": 58790,
+      "source_sha": "c9a6dc2d3bb182cd56d4436c5620ad5758489f8dc8ad4eedc75bc300ae26473d"
+    },
+    {
+      "key": "calibration/0034/0000/0_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287525,
+      "missing_original_valid": 1920,
+      "source_sha": "fdad177d70a05b7305094b641dd89e70eed44d4ac1a03059b8ab16b17e283d84"
+    },
+    {
+      "key": "calibration/0034/0000/0_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287525,
+      "missing_original_valid": 1920,
+      "source_sha": "fdad177d70a05b7305094b641dd89e70eed44d4ac1a03059b8ab16b17e283d84"
+    },
+    {
+      "key": "calibration/0034/0000/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230858,
+      "missing_original_valid": 58587,
+      "source_sha": "41e2d4505b46808c48f50d5449c0fcd7a50c1e0cafc568131cb35ab12eda7967"
+    },
+    {
+      "key": "calibration/0034/0000/3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 286593,
+      "missing_original_valid": 2852,
+      "source_sha": "c357e393101eb6421c6f5b25b72d0fb830eb19459448f190f01393db2a9e2e87"
+    },
+    {
+      "key": "calibration/0034/0000/3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 286593,
+      "missing_original_valid": 2852,
+      "source_sha": "c357e393101eb6421c6f5b25b72d0fb830eb19459448f190f01393db2a9e2e87"
+    },
+    {
+      "key": "calibration/0034/0000/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228453,
+      "missing_original_valid": 60992,
+      "source_sha": "a85e59925c300b662226863b7d272ed96c931e6de5464158193fa5f48c631242"
+    },
+    {
+      "key": "calibration/0034/0000/3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 286235,
+      "missing_original_valid": 3210,
+      "source_sha": "25afbfcd1b1c40e7154f2d19ae99a2712b16971685116fd106f7a49e59ba56a0"
+    },
+    {
+      "key": "calibration/0034/0000/3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 286235,
+      "missing_original_valid": 3210,
+      "source_sha": "25afbfcd1b1c40e7154f2d19ae99a2712b16971685116fd106f7a49e59ba56a0"
+    },
+    {
+      "key": "calibration/0034/0000/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228329,
+      "missing_original_valid": 61116,
+      "source_sha": "180e0121f709d006d37dd63cb5ac694044b470bf3454c097ad65d6b88e603371"
+    },
+    {
+      "key": "calibration/0034/0000/-3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 286477,
+      "missing_original_valid": 2968,
+      "source_sha": "e23f6fbd22bb34c2aaa0d2a3ff18d19a126ccb4c7aa9ad8a7f154d14dad97af5"
+    },
+    {
+      "key": "calibration/0034/0000/-3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 286477,
+      "missing_original_valid": 2968,
+      "source_sha": "e23f6fbd22bb34c2aaa0d2a3ff18d19a126ccb4c7aa9ad8a7f154d14dad97af5"
+    },
+    {
+      "key": "calibration/0034/0000/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229262,
+      "missing_original_valid": 60183,
+      "source_sha": "8736e31de213c64baaca892ec881026b7d42ee76f63f6a2baecdc381314748b0"
+    },
+    {
+      "key": "calibration/0034/0000/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 286116,
+      "missing_original_valid": 3329,
+      "source_sha": "fa57d2b8867f906f046ff2ac3ec409dc8f6adcb2cd6d06d7e7d9efd0360d625a"
+    },
+    {
+      "key": "calibration/0034/0000/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 286116,
+      "missing_original_valid": 3329,
+      "source_sha": "fa57d2b8867f906f046ff2ac3ec409dc8f6adcb2cd6d06d7e7d9efd0360d625a"
+    },
+    {
+      "key": "calibration/0034/0000/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227682,
+      "missing_original_valid": 61763,
+      "source_sha": "18c82b99db45b44bedd7fe47aa6a111d64b9efb1ee591a9f14a3ca72c2b73fb0"
+    },
+    {
+      "key": "calibration/0034/0064/0_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 288019,
+      "missing_original_valid": 0,
+      "source_sha": "f43dfcca3fbbc4fe925edaef7a466d5dc7030ba2c3e2a40b5bc184e5abfb6f09"
+    },
+    {
+      "key": "calibration/0034/0064/0_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 288019,
+      "missing_original_valid": 0,
+      "source_sha": "f43dfcca3fbbc4fe925edaef7a466d5dc7030ba2c3e2a40b5bc184e5abfb6f09"
+    },
+    {
+      "key": "calibration/0034/0064/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228789,
+      "missing_original_valid": 59230,
+      "source_sha": "6edb506e4b3aecc9eb12231b2909daa455daabe222afd7204521819b73b356b0"
+    },
+    {
+      "key": "calibration/0034/0064/3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 286589,
+      "missing_original_valid": 1430,
+      "source_sha": "e198ef4779ad00a05ad6a04789beef365c867be57ec8afdb5db023160e2c40a0"
+    },
+    {
+      "key": "calibration/0034/0064/3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 286589,
+      "missing_original_valid": 1430,
+      "source_sha": "e198ef4779ad00a05ad6a04789beef365c867be57ec8afdb5db023160e2c40a0"
+    },
+    {
+      "key": "calibration/0034/0064/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227544,
+      "missing_original_valid": 60475,
+      "source_sha": "9040b9c2516d821b400e029526eae5cf4c9750600ab698ae7ba726c7c2b45643"
+    },
+    {
+      "key": "calibration/0034/0064/-3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 286579,
+      "missing_original_valid": 1440,
+      "source_sha": "47e3aeeff0f0590b9e1aa1c9c646f97e8abaca8e805d9214fba084b0a9fc5d9a"
+    },
+    {
+      "key": "calibration/0034/0064/-3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 286579,
+      "missing_original_valid": 1440,
+      "source_sha": "47e3aeeff0f0590b9e1aa1c9c646f97e8abaca8e805d9214fba084b0a9fc5d9a"
+    },
+    {
+      "key": "calibration/0034/0064/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228603,
+      "missing_original_valid": 59416,
+      "source_sha": "b2717c32c492f1efff4130a983120a092fe0d32049af76a411165de03c81bc51"
+    },
+    {
+      "key": "calibration/0034/0064/0_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 286231,
+      "missing_original_valid": 1788,
+      "source_sha": "0316e55d0dfad64e9898bc2a9f927c98ba4038acacd5dad275545b410bf2fa2d"
+    },
+    {
+      "key": "calibration/0034/0064/0_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 286231,
+      "missing_original_valid": 1788,
+      "source_sha": "0316e55d0dfad64e9898bc2a9f927c98ba4038acacd5dad275545b410bf2fa2d"
+    },
+    {
+      "key": "calibration/0034/0064/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228698,
+      "missing_original_valid": 59321,
+      "source_sha": "485408fcf1215a1a29b921881dfa7c4eee322fb2a5a85cd8d08686accdf083d5"
+    },
+    {
+      "key": "calibration/0034/0064/0_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 286123,
+      "missing_original_valid": 1896,
+      "source_sha": "0e22059d5bd01085658d0910283e10d3a8d66b91cf148100d53162a64b28a4e8"
+    },
+    {
+      "key": "calibration/0034/0064/0_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 286123,
+      "missing_original_valid": 1896,
+      "source_sha": "0e22059d5bd01085658d0910283e10d3a8d66b91cf148100d53162a64b28a4e8"
+    },
+    {
+      "key": "calibration/0034/0064/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227164,
+      "missing_original_valid": 60855,
+      "source_sha": "9c917359e707a60f10dd03904f22b635016b55caf202c5ac86661ce7a605a4a1"
+    },
+    {
+      "key": "calibration/0034/0064/3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284810,
+      "missing_original_valid": 3209,
+      "source_sha": "eb61db76a0f962a08162d756332501e7b8bed2ec840bebb94ffec7b94122c6a0"
+    },
+    {
+      "key": "calibration/0034/0064/3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284810,
+      "missing_original_valid": 3209,
+      "source_sha": "eb61db76a0f962a08162d756332501e7b8bed2ec840bebb94ffec7b94122c6a0"
+    },
+    {
+      "key": "calibration/0034/0064/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225832,
+      "missing_original_valid": 62187,
+      "source_sha": "3daf75e4e4060712fbc5662559cb1f6173effa53afcd0bcbca963d4e4c45dcca"
+    },
+    {
+      "key": "calibration/0034/0064/3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 284702,
+      "missing_original_valid": 3317,
+      "source_sha": "e9058669e69289defae442d860d5d561faae6256a011fe393738b23d6c7a96f4"
+    },
+    {
+      "key": "calibration/0034/0064/3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 284702,
+      "missing_original_valid": 3317,
+      "source_sha": "e9058669e69289defae442d860d5d561faae6256a011fe393738b23d6c7a96f4"
+    },
+    {
+      "key": "calibration/0034/0064/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227454,
+      "missing_original_valid": 60565,
+      "source_sha": "f8ff943d93d09fe3a8e7fad6d44035b216d943a208c16ef8620014149220d906"
+    },
+    {
+      "key": "calibration/0034/0064/-3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284800,
+      "missing_original_valid": 3219,
+      "source_sha": "3d84b464ef9511d31e24e80b7a9b71e20aee789d98c48ac0f3faf26335b064ef"
+    },
+    {
+      "key": "calibration/0034/0064/-3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284800,
+      "missing_original_valid": 3219,
+      "source_sha": "3d84b464ef9511d31e24e80b7a9b71e20aee789d98c48ac0f3faf26335b064ef"
+    },
+    {
+      "key": "calibration/0034/0064/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226375,
+      "missing_original_valid": 61644,
+      "source_sha": "05be9b4e6243e1e0192b32add27ba077f7c162d792e9a7b262cdb496e50b758b"
+    },
+    {
+      "key": "calibration/0034/0064/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 284692,
+      "missing_original_valid": 3327,
+      "source_sha": "a75ff35d2250618b846da289698adeeda47be1bf8d2d4143030423f465e90ca5"
+    },
+    {
+      "key": "calibration/0034/0064/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 284692,
+      "missing_original_valid": 3327,
+      "source_sha": "a75ff35d2250618b846da289698adeeda47be1bf8d2d4143030423f465e90ca5"
+    },
+    {
+      "key": "calibration/0034/0064/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227246,
+      "missing_original_valid": 60773,
+      "source_sha": "a08c6260db756a75e2405957662d0800c9b05156a8e5e6c92a2b76507a2e051d"
+    },
+    {
+      "key": "calibration/0034/0128/0_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 285710,
+      "missing_original_valid": 0,
+      "source_sha": "d1732adcce4119cd2b6387d6c385c0108aa07132de6494a5421a06e46dc2184f"
+    },
+    {
+      "key": "calibration/0034/0128/0_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 285710,
+      "missing_original_valid": 0,
+      "source_sha": "d1732adcce4119cd2b6387d6c385c0108aa07132de6494a5421a06e46dc2184f"
+    },
+    {
+      "key": "calibration/0034/0128/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227918,
+      "missing_original_valid": 57792,
+      "source_sha": "6974629ce9c6536b03c0fa3165acf1d49e5581b8620267b8d453b620d96ec446"
+    },
+    {
+      "key": "calibration/0034/0128/3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 284489,
+      "missing_original_valid": 1221,
+      "source_sha": "557cf3432d65538c041a72305eba0cfd32522e83dd810c1af3823cd119375f1f"
+    },
+    {
+      "key": "calibration/0034/0128/3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 284489,
+      "missing_original_valid": 1221,
+      "source_sha": "557cf3432d65538c041a72305eba0cfd32522e83dd810c1af3823cd119375f1f"
+    },
+    {
+      "key": "calibration/0034/0128/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226608,
+      "missing_original_valid": 59102,
+      "source_sha": "fbdcee50b670849e496f821cbe4fb0b7ab0ea584c12f2ec53dd81e291e1f3487"
+    },
+    {
+      "key": "calibration/0034/0128/-3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 284398,
+      "missing_original_valid": 1312,
+      "source_sha": "31946bfe54a96315d41dfb9fc8d2158a58e84260dd1eda848f1c9a4060a887c4"
+    },
+    {
+      "key": "calibration/0034/0128/-3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 284398,
+      "missing_original_valid": 1312,
+      "source_sha": "31946bfe54a96315d41dfb9fc8d2158a58e84260dd1eda848f1c9a4060a887c4"
+    },
+    {
+      "key": "calibration/0034/0128/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225818,
+      "missing_original_valid": 59892,
+      "source_sha": "581eb6068d7982567b0a85e0f6b1a054f1e93cecf2a24a605028866b34b72bf2"
+    },
+    {
+      "key": "calibration/0034/0128/0_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 284127,
+      "missing_original_valid": 1583,
+      "source_sha": "fb8fb7771f6627648b22d62fd269bda34d7c8b4d0d97d7f41a3313bb88a38953"
+    },
+    {
+      "key": "calibration/0034/0128/0_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 284127,
+      "missing_original_valid": 1583,
+      "source_sha": "fb8fb7771f6627648b22d62fd269bda34d7c8b4d0d97d7f41a3313bb88a38953"
+    },
+    {
+      "key": "calibration/0034/0128/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226803,
+      "missing_original_valid": 58907,
+      "source_sha": "99f1f7d74a493bbfea572dcb3635f03196c5fc7c23b28d299ffeff2a5843306c"
+    },
+    {
+      "key": "calibration/0034/0128/0_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 283816,
+      "missing_original_valid": 1894,
+      "source_sha": "ffee8508b9351a2d25a96e35cabd00e62f70d84d6c1eecbf547fc042a0cbf8b3"
+    },
+    {
+      "key": "calibration/0034/0128/0_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 283816,
+      "missing_original_valid": 1894,
+      "source_sha": "ffee8508b9351a2d25a96e35cabd00e62f70d84d6c1eecbf547fc042a0cbf8b3"
+    },
+    {
+      "key": "calibration/0034/0128/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225546,
+      "missing_original_valid": 60164,
+      "source_sha": "f5d9d00d70ac1d2f276b2a2f19af41eeb80e806660ccc0d8ed29df9712f7b328"
+    },
+    {
+      "key": "calibration/0034/0128/3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 282906,
+      "missing_original_valid": 2804,
+      "source_sha": "1378d3c3f9493bc7c225e340a77d1338e66e340be69a62b58226825900072310"
+    },
+    {
+      "key": "calibration/0034/0128/3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 282906,
+      "missing_original_valid": 2804,
+      "source_sha": "1378d3c3f9493bc7c225e340a77d1338e66e340be69a62b58226825900072310"
+    },
+    {
+      "key": "calibration/0034/0128/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224728,
+      "missing_original_valid": 60982,
+      "source_sha": "6f98267527a1708fbb03b960852a6a39a1a0c1a803899d07a7a2571d0938c752"
+    },
+    {
+      "key": "calibration/0034/0128/3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 282604,
+      "missing_original_valid": 3106,
+      "source_sha": "0558e047d3216bb19bd81c2d7b2b1122659b19e3711f8cbc77f36d42621569bb"
+    },
+    {
+      "key": "calibration/0034/0128/3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 282604,
+      "missing_original_valid": 3106,
+      "source_sha": "0558e047d3216bb19bd81c2d7b2b1122659b19e3711f8cbc77f36d42621569bb"
+    },
+    {
+      "key": "calibration/0034/0128/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224791,
+      "missing_original_valid": 60919,
+      "source_sha": "7b075f09bcdcde02b8d27e8b750bfa30a56a8a6ec5464993bf013eb41544c02a"
+    },
+    {
+      "key": "calibration/0034/0128/-3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 282815,
+      "missing_original_valid": 2895,
+      "source_sha": "4f29291695d65bdb8c286ea959d620ddb54c86e552f2967bc79adb80cdeb76d3"
+    },
+    {
+      "key": "calibration/0034/0128/-3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 282815,
+      "missing_original_valid": 2895,
+      "source_sha": "4f29291695d65bdb8c286ea959d620ddb54c86e552f2967bc79adb80cdeb76d3"
+    },
+    {
+      "key": "calibration/0034/0128/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224664,
+      "missing_original_valid": 61046,
+      "source_sha": "c25f2f4da8b604100f1e97339077eefb1134a9d951798baf9597f69f1c0910b6"
+    },
+    {
+      "key": "calibration/0034/0128/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 282513,
+      "missing_original_valid": 3197,
+      "source_sha": "02edb06232539ab815841cbfc5b8538fd2b01dd3e9133ef8f5d0469014b73ebe"
+    },
+    {
+      "key": "calibration/0034/0128/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 282513,
+      "missing_original_valid": 3197,
+      "source_sha": "02edb06232539ab815841cbfc5b8538fd2b01dd3e9133ef8f5d0469014b73ebe"
+    },
+    {
+      "key": "calibration/0034/0128/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224717,
+      "missing_original_valid": 60993,
+      "source_sha": "4cf2656dda5f628aeda2425d54065ebebe8a86a21752424fe38f885d3c293e1f"
+    },
+    {
+      "key": "calibration/0034/0192/0_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 280435,
+      "missing_original_valid": 0,
+      "source_sha": "6188a19508e8eb5c2fe383d75c76c08955187851b58309dbd013ec62b804a54c"
+    },
+    {
+      "key": "calibration/0034/0192/0_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 280435,
+      "missing_original_valid": 0,
+      "source_sha": "6188a19508e8eb5c2fe383d75c76c08955187851b58309dbd013ec62b804a54c"
+    },
+    {
+      "key": "calibration/0034/0192/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 222253,
+      "missing_original_valid": 58182,
+      "source_sha": "850fae5ad33390b4d6964c4c438549427917b36dca339ca376998754e00450d6"
+    },
+    {
+      "key": "calibration/0034/0192/3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 279151,
+      "missing_original_valid": 1284,
+      "source_sha": "512845e67e58cdd777e1817b72ed3f92ec0b99fce278b639910ba93439b7ff03"
+    },
+    {
+      "key": "calibration/0034/0192/3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 279151,
+      "missing_original_valid": 1284,
+      "source_sha": "512845e67e58cdd777e1817b72ed3f92ec0b99fce278b639910ba93439b7ff03"
+    },
+    {
+      "key": "calibration/0034/0192/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 223674,
+      "missing_original_valid": 56761,
+      "source_sha": "601c912f615deb00d4e7357cfdaea9d91c3a53d6aeecffda606cd84946dd5438"
+    },
+    {
+      "key": "calibration/0034/0192/-3_0/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 279018,
+      "missing_original_valid": 1417,
+      "source_sha": "8b90612882b21fceeed81b7a29383781f836344bd32a80f091b2b5411c004c7b"
+    },
+    {
+      "key": "calibration/0034/0192/-3_0/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 279018,
+      "missing_original_valid": 1417,
+      "source_sha": "8b90612882b21fceeed81b7a29383781f836344bd32a80f091b2b5411c004c7b"
+    },
+    {
+      "key": "calibration/0034/0192/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224113,
+      "missing_original_valid": 56322,
+      "source_sha": "17df736a0a0708397e1a4e617003361663416264c5f2070891ddf68d20dadf25"
+    },
+    {
+      "key": "calibration/0034/0192/0_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 279146,
+      "missing_original_valid": 1289,
+      "source_sha": "a7865ce749318bff72f2ea3ffab21b7be6fbb77be98d4b07a520b50815e10f0d"
+    },
+    {
+      "key": "calibration/0034/0192/0_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 279146,
+      "missing_original_valid": 1289,
+      "source_sha": "a7865ce749318bff72f2ea3ffab21b7be6fbb77be98d4b07a520b50815e10f0d"
+    },
+    {
+      "key": "calibration/0034/0192/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 221831,
+      "missing_original_valid": 58604,
+      "source_sha": "3e1695ee531b1ce92e314b483fbf0f20964bb55314517167a471112b3a81b91c"
+    },
+    {
+      "key": "calibration/0034/0192/0_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 278610,
+      "missing_original_valid": 1825,
+      "source_sha": "fe4d34821670280d5050f7d9ffd5ee486fdb399dc6afe97023fdb196dc8c308f"
+    },
+    {
+      "key": "calibration/0034/0192/0_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 278610,
+      "missing_original_valid": 1825,
+      "source_sha": "fe4d34821670280d5050f7d9ffd5ee486fdb399dc6afe97023fdb196dc8c308f"
+    },
+    {
+      "key": "calibration/0034/0192/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224336,
+      "missing_original_valid": 56099,
+      "source_sha": "27c7ae554531381efbcc70e88929f28ef1ab400a40b423d7a5538e20296e3ca4"
+    },
+    {
+      "key": "calibration/0034/0192/3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 277862,
+      "missing_original_valid": 2573,
+      "source_sha": "5e7d993349062340f33e7f58a30ae4336d543568e49e4e9b4ef79a809fdf79af"
+    },
+    {
+      "key": "calibration/0034/0192/3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 277862,
+      "missing_original_valid": 2573,
+      "source_sha": "5e7d993349062340f33e7f58a30ae4336d543568e49e4e9b4ef79a809fdf79af"
+    },
+    {
+      "key": "calibration/0034/0192/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 221151,
+      "missing_original_valid": 59284,
+      "source_sha": "2eea762a341741fcae7039004177ed4ad4b01ddeef1fab3e457ec11a21d80666"
+    },
+    {
+      "key": "calibration/0034/0192/3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 277335,
+      "missing_original_valid": 3100,
+      "source_sha": "f80c847ca12d33f2378896cbdc4100b54d83cba4808ac80a056486ce38556b9b"
+    },
+    {
+      "key": "calibration/0034/0192/3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 277335,
+      "missing_original_valid": 3100,
+      "source_sha": "f80c847ca12d33f2378896cbdc4100b54d83cba4808ac80a056486ce38556b9b"
+    },
+    {
+      "key": "calibration/0034/0192/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 219764,
+      "missing_original_valid": 60671,
+      "source_sha": "3af3a77a98c304db60544658a7e9125f3cfa0a5680c6c4eba532ca8ebeac23e4"
+    },
+    {
+      "key": "calibration/0034/0192/-3_3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 277738,
+      "missing_original_valid": 2697,
+      "source_sha": "30be725a2e97175ac46a540ad516fe968c7fe9dc1ee11dbb130447b51981137d"
+    },
+    {
+      "key": "calibration/0034/0192/-3_3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 277738,
+      "missing_original_valid": 2697,
+      "source_sha": "30be725a2e97175ac46a540ad516fe968c7fe9dc1ee11dbb130447b51981137d"
+    },
+    {
+      "key": "calibration/0034/0192/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 219736,
+      "missing_original_valid": 60699,
+      "source_sha": "8f1c4a3bb2bba1fa05cbf33012e6836484badde07dc3b5934c30e1d730c5da6b"
+    },
+    {
+      "key": "calibration/0034/0192/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 277202,
+      "missing_original_valid": 3233,
+      "source_sha": "b02e1146a29a5df32e12cfe2879fcbe0dabfe298eb5058180cca5af8daedae35"
+    },
+    {
+      "key": "calibration/0034/0192/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 277202,
+      "missing_original_valid": 3233,
+      "source_sha": "b02e1146a29a5df32e12cfe2879fcbe0dabfe298eb5058180cca5af8daedae35"
+    },
+    {
+      "key": "calibration/0034/0192/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 34,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 219614,
+      "missing_original_valid": 60821,
+      "source_sha": "ee09e80f74cd5084bc2717ac2e113cabf8150372a15e27b33c3fbaa558c1fd94"
+    },
+    {
+      "key": "calibration/0038/0000/0_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 291315,
+      "missing_original_valid": 0,
+      "source_sha": "13e8979cb29dd758d786e6466cff1f64c43c8a251a53b9368834e52db245e838"
+    },
+    {
+      "key": "calibration/0038/0000/0_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 291315,
+      "missing_original_valid": 0,
+      "source_sha": "13e8979cb29dd758d786e6466cff1f64c43c8a251a53b9368834e52db245e838"
+    },
+    {
+      "key": "calibration/0038/0000/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232117,
+      "missing_original_valid": 59198,
+      "source_sha": "e8c118f6969644d29a0fd3840d58b6b7a4926517dc992403f6cbd47ee20d5081"
+    },
+    {
+      "key": "calibration/0038/0000/3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 290022,
+      "missing_original_valid": 1293,
+      "source_sha": "42b893506da4b2e039e91cebfb8656e9519d3b7635a5de7486a464b498400ea2"
+    },
+    {
+      "key": "calibration/0038/0000/3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 290022,
+      "missing_original_valid": 1293,
+      "source_sha": "42b893506da4b2e039e91cebfb8656e9519d3b7635a5de7486a464b498400ea2"
+    },
+    {
+      "key": "calibration/0038/0000/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230768,
+      "missing_original_valid": 60547,
+      "source_sha": "4896f9dc3eacbc31d423c00347e020ffdbcb35b409ffe64ea6ad6e8b46ece614"
+    },
+    {
+      "key": "calibration/0038/0000/-3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289909,
+      "missing_original_valid": 1406,
+      "source_sha": "07dff26f1608a5410f89e3923dbc6f547215b762f346390e16cd973dd7187772"
+    },
+    {
+      "key": "calibration/0038/0000/-3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289909,
+      "missing_original_valid": 1406,
+      "source_sha": "07dff26f1608a5410f89e3923dbc6f547215b762f346390e16cd973dd7187772"
+    },
+    {
+      "key": "calibration/0038/0000/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230653,
+      "missing_original_valid": 60662,
+      "source_sha": "a841afa30be1ad549cf98f22749010a3808f028fc95a5705e39d69509101c996"
+    },
+    {
+      "key": "calibration/0038/0000/0_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 289561,
+      "missing_original_valid": 1754,
+      "source_sha": "dcac20a8a3cfc22922950e3d5a12a22d8e896dc5c3d426df584ba5254d99f930"
+    },
+    {
+      "key": "calibration/0038/0000/0_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 289561,
+      "missing_original_valid": 1754,
+      "source_sha": "dcac20a8a3cfc22922950e3d5a12a22d8e896dc5c3d426df584ba5254d99f930"
+    },
+    {
+      "key": "calibration/0038/0000/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230299,
+      "missing_original_valid": 61016,
+      "source_sha": "2dd409c561bc3482a67aab9c24a04b2a136c57f3383be379d402500308fdd115"
+    },
+    {
+      "key": "calibration/0038/0000/0_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 289395,
+      "missing_original_valid": 1920,
+      "source_sha": "3800eed054061d6756efea5827d2c86f64e3c94a3c26e00a5f4181602f39a3b4"
+    },
+    {
+      "key": "calibration/0038/0000/0_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 289395,
+      "missing_original_valid": 1920,
+      "source_sha": "3800eed054061d6756efea5827d2c86f64e3c94a3c26e00a5f4181602f39a3b4"
+    },
+    {
+      "key": "calibration/0038/0000/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230909,
+      "missing_original_valid": 60406,
+      "source_sha": "075c46a9b8c077e4526fb244bfcba4c9baa18f6a3468932fc0779c140c9c9f86"
+    },
+    {
+      "key": "calibration/0038/0000/3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 288268,
+      "missing_original_valid": 3047,
+      "source_sha": "778edf7199396078b9e927b17520098276152864153929c90d1b0908002fa662"
+    },
+    {
+      "key": "calibration/0038/0000/3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 288268,
+      "missing_original_valid": 3047,
+      "source_sha": "778edf7199396078b9e927b17520098276152864153929c90d1b0908002fa662"
+    },
+    {
+      "key": "calibration/0038/0000/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230236,
+      "missing_original_valid": 61079,
+      "source_sha": "cb02d5971e062fef41a2568b47c8a8ae26a0f1f84dab1a551dddf61bfbc3e718"
+    },
+    {
+      "key": "calibration/0038/0000/3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 288111,
+      "missing_original_valid": 3204,
+      "source_sha": "dad662be141bab0fe5defe7be27054ed528edc3d00bb7479f8651af34001ec48"
+    },
+    {
+      "key": "calibration/0038/0000/3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 288111,
+      "missing_original_valid": 3204,
+      "source_sha": "dad662be141bab0fe5defe7be27054ed528edc3d00bb7479f8651af34001ec48"
+    },
+    {
+      "key": "calibration/0038/0000/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230191,
+      "missing_original_valid": 61124,
+      "source_sha": "831ea841c844a23abedfab279e7d92c7500dd26dfb575238b68f65de374cf62f"
+    },
+    {
+      "key": "calibration/0038/0000/-3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 288158,
+      "missing_original_valid": 3157,
+      "source_sha": "f3c394eab5a6cb1148665e2897b6084bbb4370fcffca61b50e2ffa04b0bdbb64"
+    },
+    {
+      "key": "calibration/0038/0000/-3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 288158,
+      "missing_original_valid": 3157,
+      "source_sha": "f3c394eab5a6cb1148665e2897b6084bbb4370fcffca61b50e2ffa04b0bdbb64"
+    },
+    {
+      "key": "calibration/0038/0000/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229417,
+      "missing_original_valid": 61898,
+      "source_sha": "659374c57fea1bc0f3a756b7c7c5bdcb2b03d609f7a8e8d3931f14370e5e45a7"
+    },
+    {
+      "key": "calibration/0038/0000/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 287998,
+      "missing_original_valid": 3317,
+      "source_sha": "03f9e157ac75ae3e6c07d8a2624fd2602b22559e405b6c98da8e1a4e546c3bc3"
+    },
+    {
+      "key": "calibration/0038/0000/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 287998,
+      "missing_original_valid": 3317,
+      "source_sha": "03f9e157ac75ae3e6c07d8a2624fd2602b22559e405b6c98da8e1a4e546c3bc3"
+    },
+    {
+      "key": "calibration/0038/0000/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0000",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228780,
+      "missing_original_valid": 62535,
+      "source_sha": "9e837caec2925c87a5ff94efd4e6040adffdbc9acad2dee557ab5b78e714d520"
+    },
+    {
+      "key": "calibration/0038/0064/0_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 291383,
+      "missing_original_valid": 0,
+      "source_sha": "deee6caa37de033469e3bcaee89ae2f1492c643984044c5dd4b8e6f867c06171"
+    },
+    {
+      "key": "calibration/0038/0064/0_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 291383,
+      "missing_original_valid": 0,
+      "source_sha": "deee6caa37de033469e3bcaee89ae2f1492c643984044c5dd4b8e6f867c06171"
+    },
+    {
+      "key": "calibration/0038/0064/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232276,
+      "missing_original_valid": 59107,
+      "source_sha": "3010cad59a27777a2e7e0ed1321592201a511ddb7fb6012fe5e9fb969981d552"
+    },
+    {
+      "key": "calibration/0038/0064/3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289950,
+      "missing_original_valid": 1433,
+      "source_sha": "567847db570648931326182e1715c0e210e6c029a496bcf9f28f6b0ab0e5ffbb"
+    },
+    {
+      "key": "calibration/0038/0064/3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289950,
+      "missing_original_valid": 1433,
+      "source_sha": "567847db570648931326182e1715c0e210e6c029a496bcf9f28f6b0ab0e5ffbb"
+    },
+    {
+      "key": "calibration/0038/0064/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232107,
+      "missing_original_valid": 59276,
+      "source_sha": "a37523b6ab73a539836eab5b0f568158de8d41d35bda0a91000c9fb632d88f05"
+    },
+    {
+      "key": "calibration/0038/0064/-3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 289943,
+      "missing_original_valid": 1440,
+      "source_sha": "df5af331ea12d8837d409bc5d66ef97db5d337588dee8719dfe2a4f5c1726d25"
+    },
+    {
+      "key": "calibration/0038/0064/-3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 289943,
+      "missing_original_valid": 1440,
+      "source_sha": "df5af331ea12d8837d409bc5d66ef97db5d337588dee8719dfe2a4f5c1726d25"
+    },
+    {
+      "key": "calibration/0038/0064/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230433,
+      "missing_original_valid": 60950,
+      "source_sha": "4a9aa5aa2216dd722969a9ae2046714d1ff60e54bf615d0e33ece45fe2a2ca89"
+    },
+    {
+      "key": "calibration/0038/0064/0_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 289543,
+      "missing_original_valid": 1840,
+      "source_sha": "cded0e890447587117f7174413fe1df59771adc796fc763974664469cca7f3d4"
+    },
+    {
+      "key": "calibration/0038/0064/0_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 289543,
+      "missing_original_valid": 1840,
+      "source_sha": "cded0e890447587117f7174413fe1df59771adc796fc763974664469cca7f3d4"
+    },
+    {
+      "key": "calibration/0038/0064/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 232149,
+      "missing_original_valid": 59234,
+      "source_sha": "b7e343cbf04df568eecd6e94ef2f57a4e4d5910c7f60684148aa7639a9866342"
+    },
+    {
+      "key": "calibration/0038/0064/0_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 289463,
+      "missing_original_valid": 1920,
+      "source_sha": "d162631207a42b3b97409782c7dc742bbc430e4092c8232e82421f983431a0c4"
+    },
+    {
+      "key": "calibration/0038/0064/0_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 289463,
+      "missing_original_valid": 1920,
+      "source_sha": "d162631207a42b3b97409782c7dc742bbc430e4092c8232e82421f983431a0c4"
+    },
+    {
+      "key": "calibration/0038/0064/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 230090,
+      "missing_original_valid": 61293,
+      "source_sha": "793b2c3852fb5a9cf9ef4f3e2db64de0927eee357c873058a4e6694ccf55ab3b"
+    },
+    {
+      "key": "calibration/0038/0064/3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 288119,
+      "missing_original_valid": 3264,
+      "source_sha": "3d8bbcf8f52ee944e8d4d14cc62c245327a59cd89af658fc884afde8ad5fceec"
+    },
+    {
+      "key": "calibration/0038/0064/3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 288119,
+      "missing_original_valid": 3264,
+      "source_sha": "3d8bbcf8f52ee944e8d4d14cc62c245327a59cd89af658fc884afde8ad5fceec"
+    },
+    {
+      "key": "calibration/0038/0064/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229125,
+      "missing_original_valid": 62258,
+      "source_sha": "963ec35c1659c6061f408a147321413e7a7d13ce83e05d90b1db547b0ddf1d5f"
+    },
+    {
+      "key": "calibration/0038/0064/3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 288039,
+      "missing_original_valid": 3344,
+      "source_sha": "1d10338cdfc00eead7c38d782275a101a55d20566b9bdc7c555bf9b20e541aab"
+    },
+    {
+      "key": "calibration/0038/0064/3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 288039,
+      "missing_original_valid": 3344,
+      "source_sha": "1d10338cdfc00eead7c38d782275a101a55d20566b9bdc7c555bf9b20e541aab"
+    },
+    {
+      "key": "calibration/0038/0064/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229842,
+      "missing_original_valid": 61541,
+      "source_sha": "7dff10334bba1ac912f9e9d583be26bdef838811e3bc8c8bdc5b2245c5599315"
+    },
+    {
+      "key": "calibration/0038/0064/-3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 288112,
+      "missing_original_valid": 3271,
+      "source_sha": "29e1ed4d39ee7d4ae4b22f48058e821ffa831446a01b24b2ae1e0bfa6b32fc81"
+    },
+    {
+      "key": "calibration/0038/0064/-3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 288112,
+      "missing_original_valid": 3271,
+      "source_sha": "29e1ed4d39ee7d4ae4b22f48058e821ffa831446a01b24b2ae1e0bfa6b32fc81"
+    },
+    {
+      "key": "calibration/0038/0064/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229216,
+      "missing_original_valid": 62167,
+      "source_sha": "3b5b12bd62c90d9fbe9cf7ee60e6e57d189cf573741c24311cfa5316f9502ce0"
+    },
+    {
+      "key": "calibration/0038/0064/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 288032,
+      "missing_original_valid": 3351,
+      "source_sha": "210534246b116f7563166a225edc2845923faf33c64dcc9f426b5c1127de45b2"
+    },
+    {
+      "key": "calibration/0038/0064/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 288032,
+      "missing_original_valid": 3351,
+      "source_sha": "210534246b116f7563166a225edc2845923faf33c64dcc9f426b5c1127de45b2"
+    },
+    {
+      "key": "calibration/0038/0064/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0064",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 229209,
+      "missing_original_valid": 62174,
+      "source_sha": "edaf80c6fe328bc01481806cb5c403cc3ed9931622e42219442bf3ba48ebe524"
+    },
+    {
+      "key": "calibration/0038/0128/0_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 284427,
+      "missing_original_valid": 0,
+      "source_sha": "b15e06e9fc0892479c1eed5db970fac1e2e190c93ca25af368cc7e71d520285c"
+    },
+    {
+      "key": "calibration/0038/0128/0_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 284427,
+      "missing_original_valid": 0,
+      "source_sha": "b15e06e9fc0892479c1eed5db970fac1e2e190c93ca25af368cc7e71d520285c"
+    },
+    {
+      "key": "calibration/0038/0128/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 227566,
+      "missing_original_valid": 56861,
+      "source_sha": "da3c828f23a4e643aba27d5c71d6a587ca7f5a8cf6cd40f7f7e49304f1d881c5"
+    },
+    {
+      "key": "calibration/0038/0128/3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 283219,
+      "missing_original_valid": 1208,
+      "source_sha": "0377100977138a9ac72cdba2a9e9b167fbbead13e744d658f76868e33f39d32b"
+    },
+    {
+      "key": "calibration/0038/0128/3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 283219,
+      "missing_original_valid": 1208,
+      "source_sha": "0377100977138a9ac72cdba2a9e9b167fbbead13e744d658f76868e33f39d32b"
+    },
+    {
+      "key": "calibration/0038/0128/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 226969,
+      "missing_original_valid": 57458,
+      "source_sha": "8bfa4816f1d450a11642e37a670e5d2482ca3237218cf751e6a79bb3aaa3f1e0"
+    },
+    {
+      "key": "calibration/0038/0128/-3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 283132,
+      "missing_original_valid": 1295,
+      "source_sha": "03a677e66c14ac96b24fd3099eedb063c0cc4d94d2f480175602f8bc8e50b720"
+    },
+    {
+      "key": "calibration/0038/0128/-3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 283132,
+      "missing_original_valid": 1295,
+      "source_sha": "03a677e66c14ac96b24fd3099eedb063c0cc4d94d2f480175602f8bc8e50b720"
+    },
+    {
+      "key": "calibration/0038/0128/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 228412,
+      "missing_original_valid": 56015,
+      "source_sha": "6d2d54d23d3ce92564c92d61033426b3e95fb6c1610fc97a7f858417193869ee"
+    },
+    {
+      "key": "calibration/0038/0128/0_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 282831,
+      "missing_original_valid": 1596,
+      "source_sha": "1afbccc2ad75b5b6edee7f6aca640e0f997e1fb1af8d7af125f7fe0befda8c19"
+    },
+    {
+      "key": "calibration/0038/0128/0_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 282831,
+      "missing_original_valid": 1596,
+      "source_sha": "1afbccc2ad75b5b6edee7f6aca640e0f997e1fb1af8d7af125f7fe0befda8c19"
+    },
+    {
+      "key": "calibration/0038/0128/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225271,
+      "missing_original_valid": 59156,
+      "source_sha": "ab27b68883480739503af5dd3dc03be55b3d889acca26b2ee1c4732f7ae80a41"
+    },
+    {
+      "key": "calibration/0038/0128/0_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 282507,
+      "missing_original_valid": 1920,
+      "source_sha": "b08d434ccd12ffa05c5d54049cbd3a13b85ab9f789a4be4cb2841effa656b4e5"
+    },
+    {
+      "key": "calibration/0038/0128/0_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 282507,
+      "missing_original_valid": 1920,
+      "source_sha": "b08d434ccd12ffa05c5d54049cbd3a13b85ab9f789a4be4cb2841effa656b4e5"
+    },
+    {
+      "key": "calibration/0038/0128/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 225067,
+      "missing_original_valid": 59360,
+      "source_sha": "f5c415a91a0cbd7469e366e2f149163c1c4fa4a6f836578409b744af77638e46"
+    },
+    {
+      "key": "calibration/0038/0128/3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 281623,
+      "missing_original_valid": 2804,
+      "source_sha": "47fe813e896683bbd326ec7187db14484415acce4540af03ba891d19dba98fba"
+    },
+    {
+      "key": "calibration/0038/0128/3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 281623,
+      "missing_original_valid": 2804,
+      "source_sha": "47fe813e896683bbd326ec7187db14484415acce4540af03ba891d19dba98fba"
+    },
+    {
+      "key": "calibration/0038/0128/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224369,
+      "missing_original_valid": 60058,
+      "source_sha": "f99085426cc08284d587a8f93cba8a146db2f221983a1566ea72800b6ecbde77"
+    },
+    {
+      "key": "calibration/0038/0128/3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 281308,
+      "missing_original_valid": 3119,
+      "source_sha": "46228e4efba0d80c39600215b6da4da9c9641ea471b570972a115c86c5674a68"
+    },
+    {
+      "key": "calibration/0038/0128/3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 281308,
+      "missing_original_valid": 3119,
+      "source_sha": "46228e4efba0d80c39600215b6da4da9c9641ea471b570972a115c86c5674a68"
+    },
+    {
+      "key": "calibration/0038/0128/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 222701,
+      "missing_original_valid": 61726,
+      "source_sha": "457a0779449246eac9f5e2cea79ee223ae50eed7642cafff509156d40ec7986a"
+    },
+    {
+      "key": "calibration/0038/0128/-3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 281536,
+      "missing_original_valid": 2891,
+      "source_sha": "6d4cb24e7060c2ee22f270848e30119ff347bc006f035533ed57d2638ed7ee58"
+    },
+    {
+      "key": "calibration/0038/0128/-3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 281536,
+      "missing_original_valid": 2891,
+      "source_sha": "6d4cb24e7060c2ee22f270848e30119ff347bc006f035533ed57d2638ed7ee58"
+    },
+    {
+      "key": "calibration/0038/0128/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 223049,
+      "missing_original_valid": 61378,
+      "source_sha": "9111919fc3ce83ae7e58f5935ed9d0947f88906a5735baa73725ec03b1247eee"
+    },
+    {
+      "key": "calibration/0038/0128/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 281221,
+      "missing_original_valid": 3206,
+      "source_sha": "252be08de1348e8b1cf53ae0d67eba78675594401cdb6f9b673b7365c3f0ef56"
+    },
+    {
+      "key": "calibration/0038/0128/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 281221,
+      "missing_original_valid": 3206,
+      "source_sha": "252be08de1348e8b1cf53ae0d67eba78675594401cdb6f9b673b7365c3f0ef56"
+    },
+    {
+      "key": "calibration/0038/0128/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0128",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 224630,
+      "missing_original_valid": 59797,
+      "source_sha": "4b1d442b006e133db315171fef4f4f991d5f3384f555720dd07650e4cba60824"
+    },
+    {
+      "key": "calibration/0038/0192/0_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 268453,
+      "missing_original_valid": 0,
+      "source_sha": "2b31d2c5cc75d0146e8869293bc1852ac27e847dc192d344ce686a457249b7a5"
+    },
+    {
+      "key": "calibration/0038/0192/0_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 268453,
+      "missing_original_valid": 0,
+      "source_sha": "2b31d2c5cc75d0146e8869293bc1852ac27e847dc192d344ce686a457249b7a5"
+    },
+    {
+      "key": "calibration/0038/0192/0_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 215899,
+      "missing_original_valid": 52554,
+      "source_sha": "62ac6487b693804a44b321c8fc228aeddc4f68db71ed3d1e8c819fe888f4e2a2"
+    },
+    {
+      "key": "calibration/0038/0192/3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 267135,
+      "missing_original_valid": 1318,
+      "source_sha": "ee894149567ae6e27dcf5684fe5592d91dc7cc6224ade0f06be6db90983b7ec6"
+    },
+    {
+      "key": "calibration/0038/0192/3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 267135,
+      "missing_original_valid": 1318,
+      "source_sha": "ee894149567ae6e27dcf5684fe5592d91dc7cc6224ade0f06be6db90983b7ec6"
+    },
+    {
+      "key": "calibration/0038/0192/3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 212980,
+      "missing_original_valid": 55473,
+      "source_sha": "9a071e399f7604124ee037eccc3ad9f05c56dbbd071241937436d91540248755"
+    },
+    {
+      "key": "calibration/0038/0192/-3_0/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "nominal",
+      "observed_count": 267072,
+      "missing_original_valid": 1381,
+      "source_sha": "f733875fbe7f7897e61c2016baa83d9571b91147f6b7c1f738abf03a71a74f56"
+    },
+    {
+      "key": "calibration/0038/0192/-3_0/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5",
+      "observed_count": 267072,
+      "missing_original_valid": 1381,
+      "source_sha": "f733875fbe7f7897e61c2016baa83d9571b91147f6b7c1f738abf03a71a74f56"
+    },
+    {
+      "key": "calibration/0038/0192/-3_0/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        0
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 212918,
+      "missing_original_valid": 55535,
+      "source_sha": "0d2fb26688eb9deb590cfd8be31640fc2d897aced7ee774b75fd5237cb86fb80"
+    },
+    {
+      "key": "calibration/0038/0192/0_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 267381,
+      "missing_original_valid": 1072,
+      "source_sha": "34252e56acbb2d83b99377d7b9d39579249cfbefbd9ba4565d37bf850bb4e991"
+    },
+    {
+      "key": "calibration/0038/0192/0_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 267381,
+      "missing_original_valid": 1072,
+      "source_sha": "34252e56acbb2d83b99377d7b9d39579249cfbefbd9ba4565d37bf850bb4e991"
+    },
+    {
+      "key": "calibration/0038/0192/0_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 214222,
+      "missing_original_valid": 54231,
+      "source_sha": "3ad39c7de8f8742b8b1e661c8a5e4d4b1c0b51488622707a5681eb71ad775fa7"
+    },
+    {
+      "key": "calibration/0038/0192/0_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 266537,
+      "missing_original_valid": 1916,
+      "source_sha": "18722a4e57107b349496fcd0d0d4cb6842e9f4fdad457cac012e8bbdd32b2831"
+    },
+    {
+      "key": "calibration/0038/0192/0_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 266537,
+      "missing_original_valid": 1916,
+      "source_sha": "18722a4e57107b349496fcd0d0d4cb6842e9f4fdad457cac012e8bbdd32b2831"
+    },
+    {
+      "key": "calibration/0038/0192/0_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        0,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 210304,
+      "missing_original_valid": 58149,
+      "source_sha": "af61c1b7e2822de547884262510af9c94957f8d451d4878b281f3adfc318e63d"
+    },
+    {
+      "key": "calibration/0038/0192/3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 266072,
+      "missing_original_valid": 2381,
+      "source_sha": "3b9b0e1d02a39959ef6ca0a21e8db98c9fd9a6c524e5648c28fe55d5529a30cc"
+    },
+    {
+      "key": "calibration/0038/0192/3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 266072,
+      "missing_original_valid": 2381,
+      "source_sha": "3b9b0e1d02a39959ef6ca0a21e8db98c9fd9a6c524e5648c28fe55d5529a30cc"
+    },
+    {
+      "key": "calibration/0038/0192/3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 210490,
+      "missing_original_valid": 57963,
+      "source_sha": "5e1f136cc302bb8c92c8598da234b1bf51fdf0f8c7bb1993b9f1f67ceb374d35"
+    },
+    {
+      "key": "calibration/0038/0192/3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 265228,
+      "missing_original_valid": 3225,
+      "source_sha": "093717391d84fde26b03b4e4a3ecbb56d3ef21896331da8ecd77c7333454d1a6"
+    },
+    {
+      "key": "calibration/0038/0192/3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 265228,
+      "missing_original_valid": 3225,
+      "source_sha": "093717391d84fde26b03b4e4a3ecbb56d3ef21896331da8ecd77c7333454d1a6"
+    },
+    {
+      "key": "calibration/0038/0192/3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 208847,
+      "missing_original_valid": 59606,
+      "source_sha": "58637b988838e794c99a116b358d5bc41224ebb67cce763290a486affef8180e"
+    },
+    {
+      "key": "calibration/0038/0192/-3_3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "nominal",
+      "observed_count": 266009,
+      "missing_original_valid": 2444,
+      "source_sha": "ace82a5239895021da9dea1cc7331eb7b515683a847edac7044ee89be9322548"
+    },
+    {
+      "key": "calibration/0038/0192/-3_3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5",
+      "observed_count": 266009,
+      "missing_original_valid": 2444,
+      "source_sha": "ace82a5239895021da9dea1cc7331eb7b515683a847edac7044ee89be9322548"
+    },
+    {
+      "key": "calibration/0038/0192/-3_3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 213027,
+      "missing_original_valid": 55426,
+      "source_sha": "56ed5c15139d5a0d2aac2060fafd117035327727236782d6febe33c16c361be5"
+    },
+    {
+      "key": "calibration/0038/0192/-3_-3/nominal",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "nominal",
+      "observed_count": 265165,
+      "missing_original_valid": 3288,
+      "source_sha": "72358fc1cdc79447abcef43735a1a5e2ffa43de4865fd0990211db6ab4cae5a8"
+    },
+    {
+      "key": "calibration/0038/0192/-3_-3/noise5",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5",
+      "observed_count": 265165,
+      "missing_original_valid": 3288,
+      "source_sha": "72358fc1cdc79447abcef43735a1a5e2ffa43de4865fd0990211db6ab4cae5a8"
+    },
+    {
+      "key": "calibration/0038/0192/-3_-3/noise5_missing15",
+      "split": "calibration",
+      "scene": 38,
+      "frame": "0192",
+      "warp": [
+        -3,
+        -3
+      ],
+      "mode": "noise5_missing15",
+      "observed_count": 208955,
+      "missing_original_valid": 59498,
+      "source_sha": "37b5d845b09f548d7989638126bb944f60af9972bc51279397a5e7751a887a95"
+    }
+  ],
+  "feature_names": [
+    "edge_product",
+    "signed_direction_product",
+    "absolute_direction_product",
+    "edge_strength_difference",
+    "strong_edge_overlap",
+    "rgb_edge_at_depth_edge",
+    "depth_edge_at_rgb_edge",
+    "pooled3_edge_product",
+    "pooled7_edge_product",
+    "inside_fraction",
+    "edge_product_times_dx_over4",
+    "edge_product_times_dy_over4",
+    "edge_product_times_radius2_over32",
+    "edge_product_times_noise_proxy",
+    "edge_product_times_valid_fraction",
+    "abs_direction_times_valid_fraction",
+    "instance_confidence",
+    "instance_soft_boundary",
+    "instance_boundary_proximity",
+    "instance_boundary_depth_product",
+    "instance_proximity_depth_product",
+    "instance_interior_depth_product",
+    "observed_valid_fraction3",
+    "instance_interior_normal_variation",
+    "instance_interior_plane_residual",
+    "instance_confidence_surface_valid",
+    "instance_confidence_depth_edge",
+    "foreground_depth_valid"
+  ],
+  "shape": [
+    432,
+    81,
+    4,
+    4,
+    28
+  ],
+  "artifacts": {
+    "rgb/calibration/0030_0000.npz": {
+      "sha256": "873c3d3547941e1ee79104a4bf4914aca314c2c2ce76251cee7ee563aa934c7d",
+      "bytes": 4216977,
+      "mtime_ns": 1793600432855240900
+    },
+    "features/calibration/0030_0000.npz": {
+      "sha256": "c784cd0086674a7b7f9c52df1c8bbf5c51565e6ef48f47071a99bd517c16a587",
+      "bytes": 2955276,
+      "mtime_ns": 1793600441525873800
+    },
+    "rgb/calibration/0030_0064.npz": {
+      "sha256": "05c7344c6d7eba5567b142c9e6aeb32c1fe3e6fd38598cf9ed40fd364784c744",
+      "bytes": 4201944,
+      "mtime_ns": 1793600442178848100
+    },
+    "features/calibration/0030_0064.npz": {
+      "sha256": "538788278f601f880922061a268fd8ec6fbe5af66f5a616b3fcc54c36f5113ab",
+      "bytes": 3016503,
+      "mtime_ns": 1793600450864558400
+    },
+    "rgb/calibration/0030_0128.npz": {
+      "sha256": "0550d05c1cffb24a5eff5c25db62682d98f2410496da0a806406d4865cfcf663",
+      "bytes": 4246320,
+      "mtime_ns": 1793600451511463100
+    },
+    "features/calibration/0030_0128.npz": {
+      "sha256": "c851c3b3898d5a4ce45b8fbe7998c7f278e310eaf07a22911688b1a3917e9e26",
+      "bytes": 3006965,
+      "mtime_ns": 1793600460181407300
+    },
+    "rgb/calibration/0030_0192.npz": {
+      "sha256": "c276bcb0f586c5d400f5adfd241471dd95f36be6012ddf792e1de3fdcbb1532a",
+      "bytes": 4262551,
+      "mtime_ns": 1793600460831308000
+    },
+    "features/calibration/0030_0192.npz": {
+      "sha256": "498e9321c20c62a5faf4ff0b14f01cd4b1f8c03f0527156e1109f35f6a59865d",
+      "bytes": 3025382,
+      "mtime_ns": 1793600469453437700
+    },
+    "rgb/calibration/0031_0000.npz": {
+      "sha256": "131de3cc2c49961f18a24bb6fa242b3e839f4c1b8379b67ee4017a29c8597f1c",
+      "bytes": 4184605,
+      "mtime_ns": 1793600470084839700
+    },
+    "features/calibration/0031_0000.npz": {
+      "sha256": "83e07484fa03bfcb7fb2733c2a77326a0e8d87a941469d721a7f4a36fca5d17b",
+      "bytes": 3046347,
+      "mtime_ns": 1793600478797893300
+    },
+    "rgb/calibration/0031_0064.npz": {
+      "sha256": "959ff0363c2d6f0449af701e9ee657a3b8e062de3078b3176c51e937a1ff9424",
+      "bytes": 4276788,
+      "mtime_ns": 1793600479461431800
+    },
+    "features/calibration/0031_0064.npz": {
+      "sha256": "dd6a1268fbb3ede444f434c641c21e108c617f2ca9a9030b43c9f70a843b3b07",
+      "bytes": 2979968,
+      "mtime_ns": 1793600488122633300
+    },
+    "rgb/calibration/0031_0128.npz": {
+      "sha256": "b7b04103f2d92ff6488919be0a890ff8bc67c4b958a90edcd86fb6eaca453ac0",
+      "bytes": 4181915,
+      "mtime_ns": 1793600488792835600
+    },
+    "features/calibration/0031_0128.npz": {
+      "sha256": "22ae028881348c2be72efa1b90afaaab7ce462e81de15d8e3051b239ded8299b",
+      "bytes": 3102519,
+      "mtime_ns": 1793600497470264200
+    },
+    "rgb/calibration/0031_0192.npz": {
+      "sha256": "9e30f4521efd75480f233f4b96f26da9e9b193d04dd77d3d47e48101f119d134",
+      "bytes": 4221652,
+      "mtime_ns": 1793600498092781100
+    },
+    "features/calibration/0031_0192.npz": {
+      "sha256": "e689533fc1634287d82f41636db7364c5478205a72d468f550c10d250384533d",
+      "bytes": 3061045,
+      "mtime_ns": 1793600506750076000
+    },
+    "rgb/calibration/0034_0000.npz": {
+      "sha256": "34c47e0e2ddefabd2e1022598b9d16fa656d4f0a80a1350aa2399391993c1070",
+      "bytes": 4182629,
+      "mtime_ns": 1793600507403376700
+    },
+    "features/calibration/0034_0000.npz": {
+      "sha256": "830beb972d85b59fc9602127085b35b08a2c126043f6178c0eaeb480e86b4ee6",
+      "bytes": 2896223,
+      "mtime_ns": 1793600516047682500
+    },
+    "rgb/calibration/0034_0064.npz": {
+      "sha256": "621cced47648cc504c5e82d1d9ffb019d73b6c68ac9f6cb8b5bd9824e0556654",
+      "bytes": 4219087,
+      "mtime_ns": 1793600516713071900
+    },
+    "features/calibration/0034_0064.npz": {
+      "sha256": "414243459e9e201eae50fa6cac52635f3ea005bac280fba3cbe56f6f9bec8bec",
+      "bytes": 2982834,
+      "mtime_ns": 1793600525395503000
+    },
+    "rgb/calibration/0034_0128.npz": {
+      "sha256": "9917fca1e8ffa9ea9d10c03b1247432c70b2a59427ed47d3f47683da99fab69c",
+      "bytes": 4186120,
+      "mtime_ns": 1793600526031959600
+    },
+    "features/calibration/0034_0128.npz": {
+      "sha256": "49685ae8c495b25a5201e3f2e41fc5e571498489acb88c51eced0eb6c5501e98",
+      "bytes": 3001021,
+      "mtime_ns": 1793600534674899900
+    },
+    "rgb/calibration/0034_0192.npz": {
+      "sha256": "597b0887f0e918459960bbde7cda1296f87d82216e719a9eb84247d2fba57fe5",
+      "bytes": 4208871,
+      "mtime_ns": 1793600535322325400
+    },
+    "features/calibration/0034_0192.npz": {
+      "sha256": "20c2d01484b221a9f984b5385feeffc5f3a16183d05328afd3379c19f91c7b6c",
+      "bytes": 2972841,
+      "mtime_ns": 1793600543975006300
+    },
+    "rgb/calibration/0038_0000.npz": {
+      "sha256": "6ee49f0d0b019eee8341c508ee132d695849fe8b76fbf1809a1e463ed8b3b421",
+      "bytes": 4259058,
+      "mtime_ns": 1793600544621517200
+    },
+    "features/calibration/0038_0000.npz": {
+      "sha256": "86e4d4585a9f9b821cf6713d33bf618365e936fa4feb5d62405f7adffd76bdbc",
+      "bytes": 2912801,
+      "mtime_ns": 1793600553272171600
+    },
+    "rgb/calibration/0038_0064.npz": {
+      "sha256": "4c0cb307873c23231293f6e6067c70af986828c9c96a1956ceaf180eb317f959",
+      "bytes": 4307380,
+      "mtime_ns": 1793600553977760900
+    },
+    "features/calibration/0038_0064.npz": {
+      "sha256": "9e9be4f4e077f3c571caa14f42169e60ef3fc5d893c0e53d2fe26480610ef85f",
+      "bytes": 2957272,
+      "mtime_ns": 1793600562619189500
+    },
+    "rgb/calibration/0038_0128.npz": {
+      "sha256": "d03e84095383885877852ba958a4850878e92cd34e01533431a3a43dcb6176cf",
+      "bytes": 4209913,
+      "mtime_ns": 1793600563252197300
+    },
+    "features/calibration/0038_0128.npz": {
+      "sha256": "7559618ff3a0489b5d3959ea47a6ae1c21efe9b50eaea79c7153878655bef624",
+      "bytes": 3011588,
+      "mtime_ns": 1793600571878031300
+    },
+    "rgb/calibration/0038_0192.npz": {
+      "sha256": "a2d3c1247f410b549de85aa953250d7079313c0a2543797c791c5c4b50181314",
+      "bytes": 4272044,
+      "mtime_ns": 1793600572524809900
+    },
+    "features/calibration/0038_0192.npz": {
+      "sha256": "3d4a9c98ce611367bab34b0892363220b2c664d1153df5f8e7d087125e0fd621",
+      "bytes": 2988889,
+      "mtime_ns": 1793600581135669600
+    }
+  },
+  "source_audit": {
+    "sha256": "6508cb0ecee56cc1df2044b4d24e499027376fb49c96a8a474a0750f5f05d4df",
+    "bytes": 141070,
+    "mtime_ns": 1793490737514920800
+  },
+  "features_use_GT": false,
+  "known_warp_as_training_target_only": true
+}

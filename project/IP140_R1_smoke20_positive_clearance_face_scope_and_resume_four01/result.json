@@ -1,0 +1,455 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "closed_utc": "2026-11-08T11:41:55.990849+00:00",
+  "scope": "five engineering bridge candidates; not P3 / Raw / A / C0",
+  "parent": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+  "historical_slot14": "object021 development corrective only",
+  "parent_smoke18": "shared static receipt error, no new charge",
+  "local_frozen_files": 148,
+  "historical_integrity": true,
+  "frozen_candidate_count": 4,
+  "retained_slot8": true,
+  "order": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "actual_new_charges": 0,
+  "cumulative_starts": 10,
+  "remaining": 4,
+  "confirmed": false,
+  "algorithm_trials_started": 0,
+  "paired72_started": false,
+  "slot_results": [
+    {
+      "slot": 8,
+      "kind": "nominal",
+      "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+      "object_id": "014",
+      "charged": true,
+      "entered": true,
+      "stop": "engineering_complete",
+      "phase": "dynamic_episode",
+      "worker_error": null,
+      "static_states": 4728,
+      "static_path_passed": true,
+      "static_failure": null,
+      "static_checked_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 480,
+        "lift": 792,
+        "hold": 720
+      },
+      "static_root_q_m": {
+        "left": 0.03426312684989112,
+        "right": 0.0278508735117926
+      },
+      "static_receipt_accepted": true,
+      "static_zero_fields": 216,
+      "dynamic_zero_fields": 216,
+      "static_api": {
+        "calls": 318540,
+        "returns": 318540,
+        "exceptions": [],
+        "native_step_calls": 0,
+        "native_step_returns": 0,
+        "filters": 14,
+        "connections": 1,
+        "disconnections": 1,
+        "raw_sha256": "6c26bf12a19711f9a8ca467fe066c4a96f02fc98f65332ed3f17b7087febd559"
+      },
+      "dynamic_api": {
+        "calls": 123366,
+        "returns": 123366,
+        "exceptions": [],
+        "native_step_calls": 4728,
+        "native_step_returns": 4728,
+        "filters": 14,
+        "connections": 1,
+        "disconnections": 1,
+        "raw_sha256": "b0a792216089c771889eac7c90e85bcc600426edbea10e5b5a19b76cbb866076"
+      },
+      "dynamic_step_calls": 4728,
+      "episode_completed": true,
+      "engineering_gate_passed": true,
+      "grasp_success": true,
+      "slot_passed": true,
+      "failure_stage": null,
+      "failure_reason": [],
+      "outcome_class": "nominal_success",
+      "terminal_observations": 480,
+      "metrics": {
+        "observed_states": 4728,
+        "raw_return_count_without_state": 0,
+        "states_by_phase": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "maximum_lift_m": 0.14998945336851255,
+        "last_observed_lift_m": 0.14998945336851255,
+        "effective_bilateral_steps": 1952,
+        "effective_steps_by_phase": {
+          "settle": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "opening": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "transit": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "pregrasp": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "approach": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "close": {
+            "left": 462,
+            "right": 440,
+            "bilateral": 440
+          },
+          "lift": {
+            "left": 792,
+            "right": 792,
+            "bilateral": 792
+          },
+          "hold": {
+            "left": 720,
+            "right": 720,
+            "bilateral": 720
+          }
+        },
+        "all_target_pad_point_labels": {
+          "flat_inner_face": 19548,
+          "witness_off_nominal_rounded_surface": 23479
+        },
+        "effective_target_pad_point_labels": {
+          "flat_inner_face": 4877,
+          "witness_off_nominal_rounded_surface": 6017
+        },
+        "steps_with_effective_surface_label": {
+          "flat_inner_face": 1970,
+          "witness_off_nominal_rounded_surface": 1956
+        },
+        "first_effective_rounded_tip_step": null,
+        "first_grasp_formed_step": 3345,
+        "first_slip_step": null,
+        "last_bilateral_through_slip": null,
+        "aggregate_table_support_steps": 3216,
+        "legacy_point_table_support_steps": 3172,
+        "terminal480": {
+          "actual_steps": 480,
+          "eligible_steps": 480,
+          "bilateral_steps": 480,
+          "aggregate_support_steps": 0,
+          "nonpad_contact_steps": 0,
+          "table_peak_summed_Fn_N": 0,
+          "lift_range_m": [
+            0.1499878760228607,
+            0.14998945336851255
+          ]
+        },
+        "nonpad_target_steps": 0,
+        "nonpad_target_point_records": 0,
+        "minimum_external_signed_distance": {
+          "step": 7,
+          "pair": "table.-1 / target.-1",
+          "signed_distance_m": -0.0005754474206344819,
+          "native_index": 0
+        },
+        "external_manifolds_by_pair": {
+          "table.-1 / target.-1": {
+            "point_records": 127684,
+            "minimum_signed_distance_m": -0.0005754474206344819,
+            "peak_point_Fn_N": 2.5593477581227226,
+            "deepest_step": 7
+          },
+          "robot.ip140_left_pad / target.-1": {
+            "point_records": 11795,
+            "minimum_signed_distance_m": -4.166568295555005e-05,
+            "peak_point_Fn_N": 19.362544315652375,
+            "deepest_step": 2755
+          },
+          "robot.ip140_right_pad / target.-1": {
+            "point_records": 31232,
+            "minimum_signed_distance_m": -0.00012042996253863271,
+            "peak_point_Fn_N": 20.30863303257135,
+            "deepest_step": 2777
+          }
+        },
+        "peak_pad_target_point_normal_force": {
+          "step": 2834,
+          "side": "right",
+          "Fn_N": 20.30863303257135,
+          "native_index": 56
+        },
+        "peak_vector_sum_pad_forces_on_target": {
+          "step": 2916,
+          "norm_N": 4.749618985762488,
+          "vector_N": [
+            0.0002128796634730916,
+            -0.6637447389223271,
+            -4.703012160961385
+          ]
+        },
+        "first_recorded_engineering_violation": null,
+        "finger_stats": {
+          "left": {
+            "max_abs_speed_m_s": 0.0399713803590573,
+            "speed_margin_m_s": 2.861964094270225e-05,
+            "peak_abs_motor_force_N": 20.0,
+            "motor_force_margin_N": 0.0,
+            "steps_at_least_19p8N": 1952,
+            "steps_at_least_20N": 1952
+          },
+          "right": {
+            "max_abs_speed_m_s": 0.039999933223943344,
+            "speed_margin_m_s": 6.677605665639241e-08,
+            "peak_abs_motor_force_N": 20.0,
+            "motor_force_margin_N": 0.0,
+            "steps_at_least_19p8N": 1952,
+            "steps_at_least_20N": 1952
+          }
+        },
+        "six_axis_arm_torque_Nm": {
+          "limits_Nm": [
+            150.0,
+            150.0,
+            150.0,
+            28.0,
+            28.0,
+            28.0
+          ],
+          "peak_abs_Nm": [
+            0.4767072288174575,
+            29.684661252423773,
+            20.500006975510196,
+            2.137257633025828,
+            0.12333129163886943,
+            0.004849303352002151
+          ],
+          "minimum_margin_Nm": [
+            149.52329277118255,
+            120.31533874757622,
+            129.4999930244898,
+            25.86274236697417,
+            27.87666870836113,
+            27.995150696647997
+          ]
+        },
+        "raw_arm_finger_valid_counts": [
+          4728,
+          4728
+        ],
+        "annotation_issues": [],
+        "returned_annotations_path": "postrun_analysis/slot08_contact_and_load_observations.jsonl.gz",
+        "returned_annotations_sha256": "a200f3b894abfb39c2aa68574a78e613a06d6fe17c04cb045444e1f6a130aeea"
+      },
+      "evidence_version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+      "charged_this_batch": false,
+      "inherited": true
+    },
+    {
+      "slot": 9,
+      "evidence_version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+      "charged_this_batch": false,
+      "inherited": false,
+      "kind": "nominal",
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "object_id": "017",
+      "charged": false,
+      "entered": true,
+      "stop": "candidate_static_inadmissible",
+      "phase": "static_zero_and_path",
+      "worker_error": "ValueError('actual_crossing_outside_effective_face')",
+      "static_states": 2761,
+      "static_path_passed": false,
+      "static_failure": {
+        "snapshot": 2761,
+        "phase": "close",
+        "phase_tick": 25,
+        "violations": [
+          "reference:left:entry_witness_outside_registered_effective_face",
+          "reference:left:entry_solver_not_passed",
+          "reference:left:entry_witness_face_audit_missing_or_failed",
+          "reference:left:entry_face_outside_m",
+          "reference:left:entry_not_on_effective_inner_face",
+          "reference:robot_target:28:pad_contact_without_legal_entry",
+          "reference:robot_target:28:missing_per_side_entry_certificate",
+          "reference:robot_target:28:reference_negative_or_manifold_before_legal_entry",
+          "reference:robot_target:28:witness:entry_witness_outside_registered_effective_face",
+          "reference:robot_target:46:pad_contact_without_legal_entry",
+          "reference:robot_target:46:missing_per_side_entry_certificate",
+          "reference:robot_target:46:reference_negative_or_manifold_before_legal_entry",
+          "reference:robot_target:46:witness:entry_witness_outside_registered_effective_face",
+          "proxy:robot_target:28:pad_contact_without_legal_entry",
+          "proxy:robot_target:28:missing_per_side_entry_certificate",
+          "proxy:robot_target:28:witness:entry_witness_outside_registered_effective_face",
+          "proxy:robot_target:46:pad_contact_without_legal_entry",
+          "proxy:robot_target:46:missing_per_side_entry_certificate",
+          "proxy:robot_target:46:witness:entry_witness_outside_registered_effective_face"
+        ]
+      },
+      "static_checked_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 25
+      },
+      "static_root_q_m": {
+        "left": 0.03080095764393101
+      },
+      "static_receipt_accepted": false,
+      "static_zero_fields": 216,
+      "dynamic_zero_fields": null,
+      "static_api": {
+        "calls": 188457,
+        "returns": 188457,
+        "exceptions": [],
+        "native_step_calls": 0,
+        "native_step_returns": 0,
+        "filters": 14,
+        "connections": 1,
+        "disconnections": 1,
+        "raw_sha256": "aff0c582f50468ae10ebe1825f22cb6638b21fd22701f0bbca4a0905053b8b1f"
+      },
+      "dynamic_api": null,
+      "dynamic_step_calls": 0,
+      "episode_completed": null,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "slot_passed": null,
+      "failure_stage": null,
+      "failure_reason": null,
+      "outcome_class": null,
+      "terminal_observations": null,
+      "metrics": null
+    },
+    {
+      "slot": 10,
+      "evidence_version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+      "charged_this_batch": false,
+      "inherited": false,
+      "kind": "miss",
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "object_id": "021",
+      "charged": false,
+      "entered": false,
+      "stop": null,
+      "phase": null,
+      "worker_error": null,
+      "static_states": null,
+      "static_path_passed": null,
+      "static_failure": null,
+      "static_checked_phases": null,
+      "static_root_q_m": {},
+      "static_receipt_accepted": false,
+      "static_zero_fields": null,
+      "dynamic_zero_fields": null,
+      "static_api": null,
+      "dynamic_api": null,
+      "dynamic_step_calls": 0,
+      "episode_completed": null,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "slot_passed": null,
+      "failure_stage": null,
+      "failure_reason": null,
+      "outcome_class": null,
+      "terminal_observations": null,
+      "metrics": null
+    },
+    {
+      "slot": 11,
+      "evidence_version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+      "charged_this_batch": false,
+      "inherited": false,
+      "kind": "miss",
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "object_id": "014",
+      "charged": false,
+      "entered": false,
+      "stop": null,
+      "phase": null,
+      "worker_error": null,
+      "static_states": null,
+      "static_path_passed": null,
+      "static_failure": null,
+      "static_checked_phases": null,
+      "static_root_q_m": {},
+      "static_receipt_accepted": false,
+      "static_zero_fields": null,
+      "dynamic_zero_fields": null,
+      "static_api": null,
+      "dynamic_api": null,
+      "dynamic_step_calls": 0,
+      "episode_completed": null,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "slot_passed": null,
+      "failure_stage": null,
+      "failure_reason": null,
+      "outcome_class": null,
+      "terminal_observations": null,
+      "metrics": null
+    },
+    {
+      "slot": 12,
+      "evidence_version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+      "charged_this_batch": false,
+      "inherited": false,
+      "kind": "miss",
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "object_id": "017",
+      "charged": false,
+      "entered": false,
+      "stop": null,
+      "phase": null,
+      "worker_error": null,
+      "static_states": null,
+      "static_path_passed": null,
+      "static_failure": null,
+      "static_checked_phases": null,
+      "static_root_q_m": {},
+      "static_receipt_accepted": false,
+      "static_zero_fields": null,
+      "dynamic_zero_fields": null,
+      "static_api": null,
+      "dynamic_api": null,
+      "dynamic_step_calls": 0,
+      "episode_completed": null,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "slot_passed": null,
+      "failure_stage": null,
+      "failure_reason": null,
+      "outcome_class": null,
+      "terminal_observations": null,
+      "metrics": null
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "version": "IP140_R1_smoke06_sliding_seam_acm01",
+  "attempt": "IP140-BENCH-EMPTY-04:post-sliding-seam-acm",
+  "zero_readable_passes": 174,
+  "offline_positive_steps": 6,
+  "offline_negative_variants": 14,
+  "offline_negative_classes": 11,
+  "filter_calls": [
+    {
+      "seq": 266,
+      "args": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 267,
+      "args": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 268,
+      "args": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 269,
+      "args": [
+        0,
+        0,
+        4,
+        5,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 270,
+      "args": [
+        0,
+        0,
+        5,
+        6,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 271,
+      "args": [
+        0,
+        0,
+        6,
+        7,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 272,
+      "args": [
+        0,
+        0,
+        7,
+        11,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 273,
+      "args": [
+        0,
+        0,
+        12,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 274,
+      "args": [
+        0,
+        0,
+        14,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 275,
+      "args": [
+        0,
+        0,
+        11,
+        12,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 276,
+      "args": [
+        0,
+        0,
+        11,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 277,
+      "args": [
+        0,
+        0,
+        11,
+        14,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    },
+    {
+      "seq": 278,
+      "args": [
+        0,
+        0,
+        11,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      }
+    }
+  ],
+  "total_api_calls": 401,
+  "pre_filter_world_contact_points": 7,
+  "post_filter_world_contact_points": 0,
+  "physical_steps": 1,
+  "unknown_steps": 0,
+  "slot_passed": false,
+  "first_violation": {
+    "step": 1,
+    "station_mm": 0,
+    "tick": 1,
+    "reasons": [
+      "filtered_structural_pairs.wrist_3_link|ip140_palm:penetration_below_numeric_band"
+    ],
+    "world_manifold_points": 0,
+    "wrist_closest": {
+      "api_seq": 389,
+      "raw_min_distance_m": -0.0010361016226506563,
+      "full_vector_residual_m": 4.1157485055264726e-17
+    }
+  },
+  "stations": [
+    {
+      "order": 1,
+      "opening_mm": 0,
+      "returned_samples": 1,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": {
+        "max_abs_arm_delta_q_rad": 3.0053344945990546e-06,
+        "max_abs_arm_speed_rad_s": 0.0007212802787098238,
+        "max_arm_effort_fraction": 0.16379185703634103,
+        "max_tcp_translation_m": 6.613981192654749e-07,
+        "max_tcp_rotation_deg": 0.00019888390531684085,
+        "max_abs_finger_speed_m_s": 2.955878546630913e-05,
+        "max_abs_finger_force_N": 0.02206811688921297,
+        "max_abs_gap_error_to_station_m": 5.73991685778874e-10,
+        "max_abs_midline_m": 1.2287461023663404e-07,
+        "max_abs_single_face_error_to_station_m": 1.2316160607952348e-07,
+        "max_symmetry_error_m": 2.457492204732681e-07,
+        "max_corner_spread_m": 0.0,
+        "max_wrist_penetration_m": 0.0010361016226506563
+      }
+    },
+    {
+      "order": 2,
+      "opening_mm": 35,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 3,
+      "opening_mm": 70,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 4,
+      "opening_mm": 105,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 5,
+      "opening_mm": 140,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 6,
+      "opening_mm": 105,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 7,
+      "opening_mm": 70,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 8,
+      "opening_mm": 35,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    },
+    {
+      "order": 9,
+      "opening_mm": 0,
+      "returned_samples": 0,
+      "passed_samples": 0,
+      "stable_window_samples": 0,
+      "complete": false,
+      "worst_observed": null
+    }
+  ],
+  "not_observed": "Null worst values denote stations without a physics sample."
+}

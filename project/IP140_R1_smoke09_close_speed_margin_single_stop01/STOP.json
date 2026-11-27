@@ -1,0 +1,39 @@
+{
+  "version": "IP140_R1_smoke09_close_speed_margin_single_stop01",
+  "reason": "slot_13_passed_review_stop",
+  "ended": "2026-11-05T03:17:05.584560+00:00",
+  "same_scene_development_corrective_repeat_of": 6,
+  "independent_confirmation": false,
+  "execution_order": 7,
+  "slot": 13,
+  "slot_passed": true,
+  "expected_negative_detected": true,
+  "grasp_success": false,
+  "within_slot_retries": 0,
+  "original_slot6": "failed at step 2837; original charge retained",
+  "connection_closed": true,
+  "cumulative_charges": 7,
+  "total_budget": 13,
+  "remaining": 6,
+  "remaining_reserved": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "other_slots_started": [],
+  "physical_returns": 3216,
+  "unknown_steps": 0,
+  "evidence_sha256": {
+    "slot_ledger.json": "9c16397c6c151f6846dcaf97f297c6ebe8849fb8dfd8e36391daf0e9c7091d73",
+    "zero_readback.json": "b6ff5dbceeb1ecf97b4012b3eb4c6867be39953f1468c4c70da822096202a0bf",
+    "offline_gate_replay.json": "6eb484d12f798d4122b49bfccf9ad988a3976520bbab7ef148e2a6d35679b832",
+    "terminal_24_summary.json": "7e93c21c00af64cff39c6a0bc8616c20540051883124117cfbda9941b826aa36",
+    "actual_speed_and_terminal24.json": "e9822de031e353c00809c8d72b3cfd0a1c2d2e2db33b3eb5d52e30678249897a",
+    "actual_log_audit.json": "81bb095f001e9328dff22cdfee9d7ccaaea9a3ba6c63834b5eb4a776e97ab857",
+    "full_api/calls.jsonl.gz": "bd4afde037f37a9c9f98ddb417f8dbd3738af3bf66516829938976ee08359b75",
+    "episodes/13/telemetry.jsonl.gz": "437a1f56b26b1f6cb704fa57b757355824d4b4ec1cbe8ab9e03dea597802c73f"
+  }
+}

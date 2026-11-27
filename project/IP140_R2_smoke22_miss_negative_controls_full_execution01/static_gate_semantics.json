@@ -1,0 +1,33 @@
+{
+  "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+  "strict_pre_lift": [
+    "entry bracket, identity, root, registered inner plane or inner-tip quarter cylinder with frozen R2 tolerances",
+    "proxy/contact reference and original prohibited contacts",
+    "672-step approach included"
+  ],
+  "fixed_target_lift_hold_geometry": [
+    "all robot-target manifolds and fresh records retained",
+    "local surface, normal, depth, distance and nonpad identity diagnostic",
+    "target motion unknown"
+  ],
+  "full_path_hard": [
+    "body/link identity, numeric integrity and witness residual checks",
+    "table, environment and self collision",
+    "filters, fixed mounts, FK/TCP, limits, velocity, API, zero steps, no target reset"
+  ],
+  "physical_gates": "Unchanged frozen dynamic evaluator; the static role split has no authority over outcome, forces, sliding, aggregate support or terminal height.",
+  "report_sha256": "0f101071b9807dc0f4f01d50c2bb3310b9d12823bf73c90bec39ef0fa1c2e477",
+  "source_sha256": {
+    "archive/smoke16_trace": "3f57932e191d19f978c3c06f9c07d2b045adbe69197f7d92ce4b5961f33fda15",
+    "archive/smoke16_links": "40f7ed61a174a8715c14a8cdaa6eecbe0226424224068810bdb03a0ec6e44baf",
+    "archive/smoke16_zero": "5492ef9b33a23ef8e046afaafdb8cc3e6bc780eb75bede8edabe6ad3a2784c08",
+    "archive/smoke16_roots": "864e8fd77c286f69f8608d41564af12dfc97e2a3405610617365c4cd0197ef6f",
+    "positive_negative_replay.py": "9a01546df3e6d87dfe7633369f8af0480bfc3e14ab009bb10d438ae212e5c664",
+    "contact_entry.py": "9cb1c0afbd64c1b6ac07d143d86a6212743ab2fa259b0be97286e5cce10c7ece",
+    "contact_semantics.py": "0140ee92f332780559ee7fba2fab66dc4240ac881deaa384451a00ddc8863584",
+    "contact_aware_path.py": "4a2939c0706c860c397ebda5275f7a325bd65a5ab03cb63428e3e8e87429820b",
+    "pad_surface.py": "641257c30ef4bd038c2f0b83c7d0b92e4f5ce23e620a3acb8948aa47b479888f",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "aggregate_support.py": "786875f9373492756a351dc4301ed9b409b092f339c232f7ecf1bca83e7ef4b4"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "started": "2026-11-04T10:00:43.302236+00:00",
+  "slots": [],
+  "bench_entered": false,
+  "reason": "zero_gate_not_passed",
+  "ended": "2026-11-04T10:00:43.895392+00:00",
+  "retry": false
+}

@@ -1,0 +1,189 @@
+{
+  "version": "IP140_R1_smoke18_remaining_five_bridge_confirmation01",
+  "source": "per-slot standalone freeze and provenance",
+  "passed": true,
+  "order": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rows": [
+    {
+      "slot": 8,
+      "object_id": "014",
+      "kind": "nominal",
+      "parent_candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+      "old_G_z_m": 0.04427004097255749,
+      "new_G_z_m": 0.03218215407824382,
+      "removed_h_m": 0.01208788689431367,
+      "pre_open_m": 0.0721001881117848,
+      "world_x_m": 0.4832061266700227,
+      "frozen_object_x_m": 0.48,
+      "registered_miss_world_x_shift_m": 0.0,
+      "two_path_max_abs_error": 0.0,
+      "ik_fk_max_tool_translation_m": 3.505334667959291e-11,
+      "ik_fk_max_rotation_rad": 1.1845609038028827e-11,
+      "files": [
+        {
+          "path": "slots/08/candidate_difference_proof.json",
+          "sha256": "01c2226e1504bf5938696b122414b8f37b9f271feaa06fabcd19cedffd947a3a"
+        },
+        {
+          "path": "slots/08/frozen_trajectory_commands.jsonl.gz",
+          "sha256": "d39fc8cd4cc83da43b880f3b6b62818eebd17c1498d1084254e28f9186bae489"
+        },
+        {
+          "path": "slots/08/preregistration.json",
+          "sha256": "37ed746c6250a55357d19258adcfdd2308891817768308e64f8530c579e2203b"
+        },
+        {
+          "path": "slots/08/trajectory_plan.json",
+          "sha256": "132928079e3e9110149dcf25c6071e327d122d9290f93dcef94993b3fb8f7e58"
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "object_id": "017",
+      "kind": "nominal",
+      "parent_candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "old_G_z_m": 0.04390982392972809,
+      "new_G_z_m": 0.029006292798385628,
+      "removed_h_m": 0.014903531131342462,
+      "pre_open_m": 0.06965817974794884,
+      "world_x_m": 0.4825720225516049,
+      "frozen_object_x_m": 0.48,
+      "registered_miss_world_x_shift_m": 0.0,
+      "two_path_max_abs_error": 0.0,
+      "ik_fk_max_tool_translation_m": 6.394501334149983e-11,
+      "ik_fk_max_rotation_rad": 2.2879982085147577e-11,
+      "files": [
+        {
+          "path": "slots/09/candidate_difference_proof.json",
+          "sha256": "0f4481de31777c73379746f56844f42dc5cca9e744ee481e294ff2ad89bb40ca"
+        },
+        {
+          "path": "slots/09/frozen_trajectory_commands.jsonl.gz",
+          "sha256": "c30768105c061ac91d821bb90521be487fb11e9c074c0031a030f8ad6ddbd30b"
+        },
+        {
+          "path": "slots/09/preregistration.json",
+          "sha256": "02a32f533ea7bef3a6131384aed4b80d6584803ff3a88daec0fef7c97646b068"
+        },
+        {
+          "path": "slots/09/trajectory_plan.json",
+          "sha256": "ccb70791a46c7362d5aa42930e8b6eec1d4f5dae65bb97fc1bf564f42bd7186e"
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "object_id": "021",
+      "kind": "miss",
+      "parent_candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "old_G_z_m": 0.04381280043712453,
+      "new_G_z_m": 0.03103423788040806,
+      "removed_h_m": 0.012778562556716472,
+      "pre_open_m": 0.06898170991686796,
+      "world_x_m": 0.6231533485286949,
+      "frozen_object_x_m": 0.48,
+      "registered_miss_world_x_shift_m": 0.14,
+      "two_path_max_abs_error": 0.0,
+      "ik_fk_max_tool_translation_m": 6.115407195512364e-12,
+      "ik_fk_max_rotation_rad": 2.153990089564651e-12,
+      "files": [
+        {
+          "path": "slots/10/candidate_difference_proof.json",
+          "sha256": "3226dcca971ad05adfe4b56d4deeb7edac71df55eaff2b2e15870b7754eb19aa"
+        },
+        {
+          "path": "slots/10/frozen_trajectory_commands.jsonl.gz",
+          "sha256": "6dd77bfcc540ff3aa2eaa237ce8642551a6772410425ee4ffa46a58d9a6fc062"
+        },
+        {
+          "path": "slots/10/preregistration.json",
+          "sha256": "ddc1ae3ba47a83501a957d50bf3543bdd594f316c615e7ac9c221ae851017c8d"
+        },
+        {
+          "path": "slots/10/trajectory_plan.json",
+          "sha256": "8d53f8a42c508f8e08733b276d4122a89d369b323749cd98bd6400e8c6eca226"
+        }
+      ]
+    },
+    {
+      "slot": 11,
+      "object_id": "014",
+      "kind": "miss",
+      "parent_candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "old_G_z_m": 0.04427004097255749,
+      "new_G_z_m": 0.03218215407824382,
+      "removed_h_m": 0.01208788689431367,
+      "pre_open_m": 0.0721001881117848,
+      "world_x_m": 0.6232061266700227,
+      "frozen_object_x_m": 0.48,
+      "registered_miss_world_x_shift_m": 0.14,
+      "two_path_max_abs_error": 0.0,
+      "ik_fk_max_tool_translation_m": 6.279564281298679e-12,
+      "ik_fk_max_rotation_rad": 2.2088068675010948e-12,
+      "files": [
+        {
+          "path": "slots/11/candidate_difference_proof.json",
+          "sha256": "7ff505815e1d86569a214f9a1ecb9c266890390606e84e07ba27e3c182b1a9a4"
+        },
+        {
+          "path": "slots/11/frozen_trajectory_commands.jsonl.gz",
+          "sha256": "b0ebe9e9195c6ef2982c35fcce069db2f1d218c8d393b54684d37382b470682a"
+        },
+        {
+          "path": "slots/11/preregistration.json",
+          "sha256": "eda6d1ca31d0cac0eb99aa39093cb944789e8dba319272e363a0f254582c0e20"
+        },
+        {
+          "path": "slots/11/trajectory_plan.json",
+          "sha256": "bccb888a13e5d42b0b35bcdeec1f8ac7a0ce73dbc03ee407a4f48f1352a2fa0b"
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "object_id": "017",
+      "kind": "miss",
+      "parent_candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "old_G_z_m": 0.04390982392972809,
+      "new_G_z_m": 0.029006292798385628,
+      "removed_h_m": 0.014903531131342462,
+      "pre_open_m": 0.06965817974794884,
+      "world_x_m": 0.6225720225516049,
+      "frozen_object_x_m": 0.48,
+      "registered_miss_world_x_shift_m": 0.14,
+      "two_path_max_abs_error": 0.0,
+      "ik_fk_max_tool_translation_m": 6.304436229797388e-12,
+      "ik_fk_max_rotation_rad": 2.220120223476995e-12,
+      "files": [
+        {
+          "path": "slots/12/candidate_difference_proof.json",
+          "sha256": "31818ddaed55bac4d72205d59f7bfa2011ece3e26e26e65a69380a416ba26c41"
+        },
+        {
+          "path": "slots/12/frozen_trajectory_commands.jsonl.gz",
+          "sha256": "8a90777a628c28d6e0d302bd88be015005ffbcda7920d6c2b0a289ddf2c88541"
+        },
+        {
+          "path": "slots/12/preregistration.json",
+          "sha256": "c41b6b0ee31822080bd775411041937b567b9f3e5e3469032bbefd3565b91c4d"
+        },
+        {
+          "path": "slots/12/trajectory_plan.json",
+          "sha256": "b67b91773737caf8a716f635636fd253b1137fd58b0d226d95232bf5a2cb046d"
+        }
+      ]
+    }
+  ]
+}

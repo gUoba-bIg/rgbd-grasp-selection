@@ -1,0 +1,51 @@
+{
+  "schema": 9,
+  "purpose": "single_frame_observed_point_cloud_collision_engineering",
+  "scene": "scene_0003",
+  "camera": "realsense",
+  "frame": "0000",
+  "candidate_count": 236,
+  "block_size": 8,
+  "maximum_depth_m": 2.0,
+  "metadata_fields_read": ["intrinsic_matrix", "factor_depth"],
+  "uses_ground_truth_labels": false,
+  "uses_workspace_mask": false,
+  "voxel_size_m": 0.01,
+  "collision_threshold": 0.01,
+  "approach_distance_m": 0.05,
+  "empty_threshold": 0.01,
+  "empty_is_rejection": false,
+  "nms_translation_m": 0.03,
+  "nms_rotation_degrees": 30.0,
+  "pipeline": ["observed_collision_filter", "official_returned_GraspGroup_nms"],
+  "top_k_truncation": null,
+  "nms_duplicate_index_convention": "lowest remaining original index among exact identical rows; stable equivalent-row label, not physical provenance",
+  "cpu_threads": 2,
+  "invocation_soft_seconds": 300,
+  "rss_soft_bytes": 2147483648,
+  "output_limit_bytes": 536870912,
+  "disk_reserve_bytes": 64424509440,
+  "input_hashes": {
+    "results/P3/scene_0003_realsense_0000_candidates.npy": "b7fa679fc3b045bf23bc7792fec9401fd7d9f2782f677e7899523bd63cfe537f",
+    "results/P3/inference_smoke.json": "d7eef1d9e58c55e5977a3b21370123d90c8847eba3d2ec77734f0c3aaf2011f1",
+    "data/raw/graspnet/scenes/scene_0003/realsense/depth/0000.png": "aed6a45f1f8d0c4167e0f79d18b3877848cb8f6ea6a6489d64c1c85c65e3c866",
+    "data/raw/graspnet/scenes/scene_0003/realsense/meta/0000.mat": "79318708230aa145e738ccb4d329b0cd1bcb5ddb522bb1006b61f303dc3343e9"
+  },
+  "source_hashes": {
+    "runtime/build/graspnet/utils/collision_detector.py": "c8776ae298e2fa1972e94989074c7227467f37803c02217e950eefb0bae74bc8",
+    "runtime/build/graspnet/demo.py": "04b648a7d301f99028b1e18ec5c7b66c6816ad7784fc30a455d4f5b58e6df205",
+    "results/P2/grasp_eval_environment_v7.json": "a6e4796402237c983c370d522eae55dd4b637e2ea16b17c237ec7d2c16641d0d",
+    "results/P2/grasp_geometry_v7.json": "3127e38241b3c9311abe3746ea5c409af46ca7cbf1fd84aa53e8db8aef009f09",
+    "results/P2/grasp_environment_acceptance_v7.json": "82dbc21c9deb53ea19d9327805526700b01980dd41618b22b12d181202d37cec",
+    "runtime/envs/grasp_eval/Lib/site-packages/grasp_nms.cp312-win_amd64.pyd": "8133ca8838968a5c7d323848e62bc4388de169b410cc2ebd4c0f744f97103eda"
+  },
+  "installed_api_tree_sha256": "70dc6b763f70ae8cfab93c8cdb8f9fa63ea8a4b3de3dc2c0e5d6c57da7e48d9e",
+  "acceptance": "finite reproducible complete index-tracked engineering output; no required survivor count or efficacy gate",
+  "limitations": [
+    "Only observed depth points; unobserved surfaces cannot be ruled collision-free.",
+    "Upstream iou fields are occupied-point counts divided by voxelized geometric volumes, not standard set IoU or probability.",
+    "No dataset AP, force closure, grasp success probability or robot safety conclusion.",
+    "V7 axial-sphere automatic contact-search false negative remains; this stage does not repair or exercise that scoring path.",
+    "Public mirror model checkpoint identity has not been verified against an official published digest."
+  ]
+}

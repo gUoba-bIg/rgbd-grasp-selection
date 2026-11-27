@@ -1,0 +1,84 @@
+{
+  "slot": 10,
+  "passed": true,
+  "kind": "miss",
+  "id": "ip140bridge:slot10:undo-legacy-z021:miss",
+  "object_asset": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+  "mass_kg": 0.04,
+  "schedule": {
+    "name": "4728_frozen_openloop_references_and_per_tick_command_counts",
+    "passed": true,
+    "ticks": 4728,
+    "synthetic_arm_array_calls": 4728,
+    "synthetic_finger_setter_calls": 9456,
+    "phases": [
+      {
+        "phase": "settle",
+        "first": 1,
+        "last": 240,
+        "ticks": 240,
+        "finger_max_velocity_m_s": 0.04
+      },
+      {
+        "phase": "opening",
+        "first": 241,
+        "last": 720,
+        "ticks": 480,
+        "finger_max_velocity_m_s": 0.04
+      },
+      {
+        "phase": "transit",
+        "first": 721,
+        "last": 1392,
+        "ticks": 672,
+        "finger_max_velocity_m_s": 0.04
+      },
+      {
+        "phase": "pregrasp",
+        "first": 1393,
+        "last": 2064,
+        "ticks": 672,
+        "finger_max_velocity_m_s": 0.04
+      },
+      {
+        "phase": "approach",
+        "first": 2065,
+        "last": 2736,
+        "ticks": 672,
+        "finger_max_velocity_m_s": 0.04
+      },
+      {
+        "phase": "close",
+        "first": 2737,
+        "last": 3216,
+        "ticks": 480,
+        "finger_max_velocity_m_s": 0.039
+      },
+      {
+        "phase": "lift",
+        "first": 3217,
+        "last": 4008,
+        "ticks": 792,
+        "finger_max_velocity_m_s": 0.039
+      },
+      {
+        "phase": "hold",
+        "first": 4009,
+        "last": 4728,
+        "ticks": 720,
+        "finger_max_velocity_m_s": 0.039
+      }
+    ],
+    "frozen_source_sha256": {
+      "speed_policy.py": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+      "new_trajectory_plan": "8d53f8a42c508f8e08733b276d4122a89d369b323749cd98bd6400e8c6eca226",
+      "parent_trajectory_plan": "9ca846bb086fe8378c465659f40cb4d623dcc70904a3b57830afa5cf51517cfd"
+    },
+    "arm_reference_q_dq_binary64_be_sha256": "a2aa849f2132b052e2e660eeef59782b901cb97e5ac9edc631f796631ab6a1f8",
+    "finger_reference_expected_cap_binary64_be_sha256": "7abebfca4467c31702d610e2e0622df3de7d8ec6d645611abc7a3d4d8df38990",
+    "note": "Offline command construction on synthetic joint IDs; no physics calls."
+  },
+  "plan_sha256": "8d53f8a42c508f8e08733b276d4122a89d369b323749cd98bd6400e8c6eca226",
+  "reg_sha256": "ddc1ae3ba47a83501a957d50bf3543bdd594f316c615e7ac9c221ae851017c8d",
+  "engine_connections": 0
+}

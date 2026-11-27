@@ -1,0 +1,10 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "reason": "static_admission_blocked",
+  "slot14_started": false,
+  "slot8_to_12_started": false,
+  "new_connections_authorized": false,
+  "retry_allowed": false,
+  "result_sha256": "9b3a568e2e69fd5ec7ab96d8734c3b0dd819900a16c3d8943b23cccf2e5477ef",
+  "utc": "2026-11-06T11:25:49.181997+00:00"
+}

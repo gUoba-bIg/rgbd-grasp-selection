@@ -1,0 +1,33 @@
+{
+  "version": "IP140_R1_smoke12_slot07_base_table_mount_filter01",
+  "slot": 7,
+  "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+  "object_id": "021",
+  "not_p3": true,
+  "status": "slot7_returned",
+  "charged": true,
+  "starts_before": 7,
+  "starts_after": 8,
+  "remaining_after": 5,
+  "total_budget": 13,
+  "formal_offline_passed": true,
+  "zero_gate_passed": true,
+  "connect_calls": 1,
+  "disconnect_returns": 1,
+  "actual_step_calls": 4728,
+  "actual_step_returns": 4728,
+  "unknown_step_returns": 0,
+  "episode_completed": true,
+  "engineering_gate_passed": true,
+  "grasp_success": false,
+  "slot_passed": false,
+  "failure_stage": "hold",
+  "failure_reason": [
+    "missing_final_480_valid_hold_steps",
+    "terminal_height_requirement",
+    "terminal_bilateral_contact_requirement"
+  ],
+  "historical_smoke10_charge": 0,
+  "historical_smoke11_charge": 0,
+  "utc": "2026-11-06T02:32:20.115917+00:00"
+}

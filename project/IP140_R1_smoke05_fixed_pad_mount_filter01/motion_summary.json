@@ -1,0 +1,830 @@
+{
+  "attempt_id": "IP140-BENCH-EMPTY-03:post-fixed-seam-filter",
+  "version": "IP140_R1_smoke05_fixed_pad_mount_filter01",
+  "zero_hard_checks_passed": 162,
+  "initial_filtered_manifold_points": 7,
+  "post_filtered_manifold_points": 0,
+  "api_calls": 391,
+  "api_filter_seq": [
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236
+  ],
+  "api_step_seq": [
+    305,
+    319,
+    333,
+    347,
+    361,
+    375
+  ],
+  "full_steps": 6,
+  "max_tcp_drift_m": 3.2717242774761454e-06,
+  "max_tcp_drift_deg": 0.0009857322709568303,
+  "max_abs_arm_error_rad": 1.4815102012510906e-05,
+  "max_abs_arm_velocity_rad_s": 0.0007212802787098238,
+  "max_abs_arm_torque_Nm": 24.618248932828063,
+  "normal_residual_definition": "dot(pA-pB,nB)-signed_distance; world frame",
+  "tangent_definition": "norm((pA-pB)-dot(pA-pB,nB)*nB); world frame",
+  "per_step": [
+    {
+      "step": 1,
+      "station_mm": 0,
+      "measured_q_m": [
+        -1.2258761444663853e-07,
+        1.231616061096214e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 5.73991685778874e-10,
+      "midline_m": 1.2287461023663404e-07,
+      "number_of_world_contact_points": 0,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 5.739917050776727e-10,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 1.734723475976807e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": 4.336808689942018e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": 2.7755575615628914e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": 3.469446951953614e-18,
+          "manifold_points": []
+        }
+      },
+      "violations": [],
+      "tcp_translation_m": 6.613981192654749e-07,
+      "tcp_rotation_deg": 0.00019888390531684085
+    },
+    {
+      "step": 2,
+      "station_mm": 0,
+      "measured_q_m": [
+        -2.3339719273262113e-07,
+        2.3471182958878455e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 1.314636842095207e-09,
+      "midline_m": 2.3405451110569686e-07,
+      "number_of_world_contact_points": 0,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 1.31463686854974e-09,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 2.0166160408230382e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": 1.3227266504323154e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": 3.230922474006803e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": 3.7513395167998453e-17,
+          "manifold_points": []
+        }
+      },
+      "violations": [],
+      "tcp_translation_m": 1.273378359895928e-06,
+      "tcp_rotation_deg": 0.00038326229573396454
+    },
+    {
+      "step": 3,
+      "station_mm": 0,
+      "measured_q_m": [
+        -3.3312584904110296e-07,
+        3.358779015586657e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 2.7520525285734676e-09,
+      "midline_m": 3.345018752820561e-07,
+      "number_of_world_contact_points": 0,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 2.7520525198998502e-09,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 9.324138683375338e-18,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": 3.0140820395097023e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": 6.310056643865636e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": 4.575333167888829e-17,
+          "manifold_points": []
+        }
+      },
+      "violations": [],
+      "tcp_translation_m": 1.8366923110544594e-06,
+      "tcp_rotation_deg": 0.000553027323697429
+    },
+    {
+      "step": 4,
+      "station_mm": 0,
+      "measured_q_m": [
+        -4.2288113646851624e-07,
+        4.276206150233977e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 4.73947853012191e-09,
+      "midline_m": 4.2525087570743914e-07,
+      "number_of_world_contact_points": 0,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 4.739478547469145e-09,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 2.1467203015212988e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": -6.288372600415926e-18,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": -6.353424730765056e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": -3.5778671692021646e-17,
+          "manifold_points": []
+        }
+      },
+      "violations": [],
+      "tcp_translation_m": 2.3551954733554937e-06,
+      "tcp_rotation_deg": 0.0007093314751055822
+    },
+    {
+      "step": 5,
+      "station_mm": 0,
+      "measured_q_m": [
+        -5.036604306946108e-07,
+        5.108129659083762e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 7.152535173512997e-09,
+      "midline_m": 5.072366982272758e-07,
+      "number_of_world_contact_points": 12,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 7.152535191510753e-09,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 2.0166160408230382e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": 2.3635607360183997e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": 0.0,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 0.0,
+              "residual_m": 0.0,
+              "face_error_m": [
+                6.938893903907228e-18,
+                3.773592660510992e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 0.0,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 0.0,
+              "residual_m": 0.0,
+              "face_error_m": [
+                4.163336342344337e-17,
+                8.928772820354593e-18
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 0.0,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 0.0,
+              "residual_m": 0.0,
+              "face_error_m": [
+                5.551115123125783e-17,
+                2.47198095326695e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 0.0,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 0.0,
+              "residual_m": 0.0,
+              "face_error_m": [
+                6.938893903907228e-18,
+                2.3415607095746943e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": 2.3635607360183997e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                2.0816681711721685e-17,
+                3.0791341698588326e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                4.163336342344337e-17,
+                8.928772820354593e-18
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                4.85722573273506e-17,
+                3.469446951953614e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                3.4915730407226726e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": 1.8431436932253575e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                2.341509093504471e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                2.7755575615628914e-17,
+                3.7735847195771114e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                4.163336342344337e-17,
+                4.6581862250201e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": -5.551115122691766e-17,
+              "normal_signed_residual_m": 0.0,
+              "tangential_offset_m": 6.941580941615302e-22,
+              "residual_m": 6.941580941615302e-22,
+              "face_error_m": [
+                2.0816681711721685e-17,
+                3.2261565901895177e-17
+              ],
+              "classification": "zero_force_touching_manifold",
+              "violations": [],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      },
+      "violations": [],
+      "tcp_translation_m": 2.8324469080122816e-06,
+      "tcp_rotation_deg": 0.0008532394547645932
+    },
+    {
+      "step": 6,
+      "station_mm": 0,
+      "measured_q_m": [
+        -5.763613676240903e-07,
+        5.862475864862402e-07
+      ],
+      "command_q_m": 0.0,
+      "gap_m": 9.88621884183416e-09,
+      "midline_m": 5.813044770541786e-07,
+      "number_of_world_contact_points": 12,
+      "pairs": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_signed_distance_m": 9.886218839665756e-09,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_signed_distance_m": 4.141652298894627e-17,
+          "manifold_points": []
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_signed_distance_m": 6.743737512859838e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": 1.348659656245961e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.077929420205438e-08,
+              "residual_m": 8.077929420205438e-08,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                3.8736669562511273e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.348104544733692e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.077929420205392e-08,
+              "residual_m": 8.077929420205392e-08,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                3.122502256758253e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.348104539539761e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.077929420205395e-08,
+              "residual_m": 8.077929420205395e-08,
+              "face_error_m": [
+                2.7755575615628914e-17,
+                2.9409407445142935e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.3486596510520302e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.077929420205441e-08,
+              "residual_m": 8.077929420205441e-08,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                4.5102810375396984e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_signed_distance_m": 8.651933336434325e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": 1.38827713856088e-13,
+              "normal_signed_residual_m": -5.048709793414476e-29,
+              "tangential_offset_m": 8.3192350901073e-08,
+              "residual_m": 8.3192350901073e-08,
+              "face_error_m": [
+                6.938893903907228e-18,
+                2.992397996059992e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.388277143754811e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.319235090107297e-08,
+              "residual_m": 8.319235090107297e-08,
+              "face_error_m": [
+                3.9898639947466563e-17,
+                3.251870657583586e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.38827713856088e-13,
+              "normal_signed_residual_m": -5.048709793414476e-29,
+              "tangential_offset_m": 8.3192350901073e-08,
+              "residual_m": 8.3192350901073e-08,
+              "face_error_m": [
+                5.377642775528102e-17,
+                4.336808689942018e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.38827713856088e-13,
+              "normal_signed_residual_m": -5.048709793414476e-29,
+              "tangential_offset_m": 8.3192350901073e-08,
+              "residual_m": 8.3192350901073e-08,
+              "face_error_m": [
+                6.938893903907228e-18,
+                2.454677658341321e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_signed_distance_m": 6.201636426617085e-17,
+          "manifold_points": [
+            {
+              "signed_distance_m": 1.388277143754811e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.319235090107297e-08,
+              "residual_m": 8.319235090107297e-08,
+              "face_error_m": [
+                1.3877787807814457e-17,
+                2.3193231168590637e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.388277143754811e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.319235090107297e-08,
+              "residual_m": 8.319235090107297e-08,
+              "face_error_m": [
+                4.683753385137379e-17,
+                1.9081958235744878e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.388277143754811e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.319235090107297e-08,
+              "residual_m": 8.319235090107297e-08,
+              "face_error_m": [
+                3.9898639947466563e-17,
+                2.2992444655421966e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "signed_distance_m": 1.388277143754811e-13,
+              "normal_signed_residual_m": -2.524354896707238e-29,
+              "tangential_offset_m": 8.319235090107297e-08,
+              "residual_m": 8.319235090107297e-08,
+              "face_error_m": [
+                6.938893903907228e-18,
+                2.9410029484963575e-17
+              ],
+              "classification": "rejected_active_manifold",
+              "violations": [
+                "witness_residual"
+              ],
+              "force_N": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "vector_impulse_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      },
+      "violations": [
+        "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:0:witness_residual",
+        "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:1:witness_residual",
+        "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:2:witness_residual",
+        "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:3:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:0:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:1:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:2:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:3:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:0:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:1:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:2:witness_residual",
+        "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:3:witness_residual"
+      ],
+      "tcp_translation_m": 3.2717242774761454e-06,
+      "tcp_rotation_deg": 0.0009857322709568303
+    }
+  ]
+}

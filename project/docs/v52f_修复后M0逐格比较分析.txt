@@ -1,0 +1,32 @@
+v52f 修复后M0有限逐格比较（只读）
+
+本分析复用旧v52d汇总及其已绑定原始证据，仅对已完整返回且经过独立数值复核的新格读取全部逐步日志。新增连接和物理步均为0。
+旧条件：pad摩擦.5、margin .001m，base摩擦1、margin .0005m。新条件：pad摩擦1、margin .0005m，base摩擦.5、margin .001m。
+上述接触参数共同改变，不能归因为单一摩擦或margin消融；旧v52d参数验收失败结论保持。
+本次完整分析12/12格、79920已返回步；完整性独审结论=True。未运行、未知、失败或未完成单独保留，不补成成功或0测量。
+
+单元 | 工况 | 原max mimic(rad) | 新max mimic(rad) | 新master峰值(Nm) | 新master≥99%cap步 | 新gear峰值(Nm) | 新C抓取判据
+DYN001 | N | 5.91230679e-05 | 5.91230679e-05 | 0.0618286145 | 0 | 0.030914748 | None
+DYN002 | L | 5.91230679e-05 | 5.91230679e-05 | 0.233246236 | 0 | 0.116642495 | None
+DYN003 | C | 0.193642992 | 0.197527423 | 2.62741588 | 0 | 1.24307014 | False
+DYN004 | N | 5.91230679e-05 | 5.91230679e-05 | 0.0618286145 | 0 | 0.030914748 | None
+DYN005 | L | 5.91230679e-05 | 5.91230679e-05 | 0.233246236 | 0 | 0.116642495 | None
+DYN006 | C | 0.192281537 | 0.200360208 | 5.26973661 | 0 | 2.3071488 | False
+DYN007 | N | 2.92169963e-05 | 2.92169963e-05 | 0.129577625 | 0 | 0.0647867087 | None
+DYN008 | L | 2.92169963e-05 | 2.92169963e-05 | 0.317030974 | 0 | 0.1585131 | None
+DYN009 | C | 0.0964688509 | 0.100925339 | 5.30551892 | 0 | 2.60004705 | False
+DYN010 | N | 2.92169963e-05 | 2.92169963e-05 | 0.129577625 | 0 | 0.0647867087 | None
+DYN011 | L | 2.92169963e-05 | 2.92169963e-05 | 0.317030974 | 0 | 0.1585131 | None
+DYN012 | C | 0.0962174967 | 0.099408552 | 10 | 3583 | 5.00857138 | False
+
+原0.03rad门槛、10Nm/80Nm、动作和评价窗口均保持；数值改善不自动等于工程准入。N/L不定义抓取成功。
+逐阶段跟踪、全部5条gear残差/反力、接触峰值、首接触与首次超限、惯量交叉项、外载和功统计见JSON；不删去异常或不利结果。
+
+Old pad .5/.001 and base 1/.0005 differ jointly from repaired pad1/.0005 and base.5/.001; not a one-factor friction or margin ablation.
+Old v52d parameter consistency remains failed. Old diagnostics are retained observations, not equal-condition confirmed controls.
+One run per diagnostic cell, fixed exposed ball scene: no generalization or population success-rate claim.
+Parameter integrity, post-settle coupling/contact gates, and overall project scientific conclusions are separate.
+99% torque cap is a diagnostic convention only. Absence above99% cannot be called far from the cap.
+Discrete power/work and reported contact forces are diagnostic estimates; no exact continuous energy claim.
+Changing dt changes ERP/dt, kp/dt and impulse caps. Iteration contrasts must be interpreted at fixed dt.
+No automatic M1, new48, R4, formal720, ablation240 or other experiment. Stop after reporting.

@@ -1,0 +1,7 @@
+numpy==1.26.4
+packaging==26.3
+pip==25.0.1
+psutil==7.0.0
+pybullet @ file:///C:/Users/ITHOU/Desktop/%E7%A8%BF%E4%BB%B6/SCI3%E5%8C%BA/runtime/simulation_v52e/wheels/pybullet-3.2.7%2Bv52e1-cp312-cp312-win_amd64.whl#sha256=8bb74bb9797e534a039f10cf480edaac945b1d9fd3f6be173f842afe0dd7e0e6
+setuptools==84.2.1
+wheel==0.48.0

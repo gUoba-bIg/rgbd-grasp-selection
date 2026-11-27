@@ -1,0 +1,5354 @@
+{
+  "version": 36,
+  "at": "2026-10-31T18:45:18.644203+08:00",
+  "selected": {
+    "scenes/scene_0100/realsense/rgb/0064.png": {
+      "bytes": 1321968,
+      "compressed": 1252885,
+      "crc32": 1623509254,
+      "offset": 54968291,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0100/realsense/depth/0064.png": {
+      "bytes": 213720,
+      "compressed": 169282,
+      "crc32": 356037593,
+      "offset": 3946075,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/depth/0064.png"
+    },
+    "scenes/scene_0100/realsense/meta/0064.mat": {
+      "bytes": 921,
+      "compressed": 880,
+      "crc32": 375165886,
+      "offset": 48564236,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0100/realsense/annotations/0064.xml": {
+      "bytes": 2786,
+      "compressed": 579,
+      "crc32": 3182681252,
+      "offset": 48508708,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0100/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 3022626,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0100/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 23504,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0100/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0101/realsense/rgb/0064.png": {
+      "bytes": 1322969,
+      "compressed": 1258771,
+      "crc32": 48774630,
+      "offset": 785491548,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0101/realsense/depth/0064.png": {
+      "bytes": 213498,
+      "compressed": 170361,
+      "crc32": 120677944,
+      "offset": 734535916,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/depth/0064.png"
+    },
+    "scenes/scene_0101/realsense/meta/0064.mat": {
+      "bytes": 924,
+      "compressed": 880,
+      "crc32": 2685234747,
+      "offset": 779058956,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0101/realsense/annotations/0064.xml": {
+      "bytes": 2790,
+      "compressed": 582,
+      "crc32": 1154900449,
+      "offset": 779003481,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0101/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 733607663,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0101/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 730575004,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0101/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0102/realsense/rgb/0064.png": {
+      "bytes": 1277299,
+      "compressed": 1210245,
+      "crc32": 3852743373,
+      "offset": 1514769325,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0102/realsense/depth/0064.png": {
+      "bytes": 212355,
+      "compressed": 167218,
+      "crc32": 1507148912,
+      "offset": 1463809225,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/depth/0064.png"
+    },
+    "scenes/scene_0102/realsense/meta/0064.mat": {
+      "bytes": 925,
+      "compressed": 882,
+      "crc32": 202129597,
+      "offset": 1508305664,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0102/realsense/annotations/0064.xml": {
+      "bytes": 2793,
+      "compressed": 582,
+      "crc32": 2725762116,
+      "offset": 1508250156,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0102/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 1462902801,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0102/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 1459841487,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0102/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0103/realsense/rgb/0064.png": {
+      "bytes": 1188723,
+      "compressed": 1118209,
+      "crc32": 2834244987,
+      "offset": 2238360410,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0103/realsense/depth/0064.png": {
+      "bytes": 199714,
+      "compressed": 159363,
+      "crc32": 262227266,
+      "offset": 2190369874,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/depth/0064.png"
+    },
+    "scenes/scene_0103/realsense/meta/0064.mat": {
+      "bytes": 873,
+      "compressed": 829,
+      "crc32": 953403991,
+      "offset": 2232341377,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0103/realsense/annotations/0064.xml": {
+      "bytes": 2523,
+      "compressed": 541,
+      "crc32": 4075573421,
+      "offset": 2232289132,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0103/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2189513494,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0103/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2187313320,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0103/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0104/realsense/rgb/0064.png": {
+      "bytes": 1236049,
+      "compressed": 1167076,
+      "crc32": 3525941520,
+      "offset": 2921465783,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0104/realsense/depth/0064.png": {
+      "bytes": 206753,
+      "compressed": 165057,
+      "crc32": 72945108,
+      "offset": 2872211659,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/depth/0064.png"
+    },
+    "scenes/scene_0104/realsense/meta/0064.mat": {
+      "bytes": 873,
+      "compressed": 831,
+      "crc32": 1009510174,
+      "offset": 2915704265,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0104/realsense/annotations/0064.xml": {
+      "bytes": 2519,
+      "compressed": 537,
+      "crc32": 2718202005,
+      "offset": 2915652011,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0104/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2871328534,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0104/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2869011178,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0104/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0105/realsense/rgb/0064.png": {
+      "bytes": 1135146,
+      "compressed": 1063906,
+      "crc32": 2008350442,
+      "offset": 3593917346,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0105/realsense/depth/0064.png": {
+      "bytes": 201311,
+      "compressed": 164621,
+      "crc32": 2217894592,
+      "offset": 3544858617,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/depth/0064.png"
+    },
+    "scenes/scene_0105/realsense/meta/0064.mat": {
+      "bytes": 871,
+      "compressed": 826,
+      "crc32": 960526618,
+      "offset": 3588306503,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0105/realsense/annotations/0064.xml": {
+      "bytes": 2518,
+      "compressed": 537,
+      "crc32": 3393011869,
+      "offset": 3588254257,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0105/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 3543972281,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0105/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 3541708763,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0105/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0106/realsense/rgb/0064.png": {
+      "bytes": 1255420,
+      "compressed": 1189504,
+      "crc32": 4070408479,
+      "offset": 4256023291,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0106/realsense/depth/0064.png": {
+      "bytes": 205889,
+      "compressed": 165437,
+      "crc32": 1472670874,
+      "offset": 4206674270,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/depth/0064.png"
+    },
+    "scenes/scene_0106/realsense/meta/0064.mat": {
+      "bytes": 872,
+      "compressed": 826,
+      "crc32": 2794663870,
+      "offset": 4250059813,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0106/realsense/annotations/0064.xml": {
+      "bytes": 2532,
+      "compressed": 559,
+      "crc32": 3792199016,
+      "offset": 4250007067,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0106/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4205782369,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0106/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4202962933,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0106/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0107/realsense/rgb/0064.png": {
+      "bytes": 1223839,
+      "compressed": 1160106,
+      "crc32": 1768394941,
+      "offset": 4957089741,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0107/realsense/depth/0064.png": {
+      "bytes": 202016,
+      "compressed": 165304,
+      "crc32": 419242320,
+      "offset": 4908026491,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/depth/0064.png"
+    },
+    "scenes/scene_0107/realsense/meta/0064.mat": {
+      "bytes": 873,
+      "compressed": 828,
+      "crc32": 1547109446,
+      "offset": 4950866521,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0107/realsense/annotations/0064.xml": {
+      "bytes": 2526,
+      "compressed": 553,
+      "crc32": 2126815970,
+      "offset": 4950813712,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0107/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4907148652,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0107/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4904431553,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0107/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0108/realsense/rgb/0064.png": {
+      "bytes": 1271824,
+      "compressed": 1211148,
+      "crc32": 3961378011,
+      "offset": 5656789220,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0108/realsense/depth/0064.png": {
+      "bytes": 227223,
+      "compressed": 177346,
+      "crc32": 3818094524,
+      "offset": 5605194285,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/depth/0064.png"
+    },
+    "scenes/scene_0108/realsense/meta/0064.mat": {
+      "bytes": 872,
+      "compressed": 828,
+      "crc32": 4218720664,
+      "offset": 5650525856,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0108/realsense/annotations/0064.xml": {
+      "bytes": 2526,
+      "compressed": 556,
+      "crc32": 2165109073,
+      "offset": 5650473064,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0108/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 5604243598,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0108/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 5601341184,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0108/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0109/realsense/rgb/0064.png": {
+      "bytes": 1345260,
+      "compressed": 1277386,
+      "crc32": 3763442273,
+      "offset": 6371461459,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0109/realsense/depth/0064.png": {
+      "bytes": 200840,
+      "compressed": 159094,
+      "crc32": 3588489640,
+      "offset": 6321931050,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/depth/0064.png"
+    },
+    "scenes/scene_0109/realsense/meta/0064.mat": {
+      "bytes": 871,
+      "compressed": 826,
+      "crc32": 1712386000,
+      "offset": 6365048176,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0109/realsense/annotations/0064.xml": {
+      "bytes": 2482,
+      "compressed": 532,
+      "crc32": 224050538,
+      "offset": 6364996134,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0109/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 6321010954,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0109/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 6318030347,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0109/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0110/realsense/rgb/0064.png": {
+      "bytes": 1309034,
+      "compressed": 1263502,
+      "crc32": 2505525024,
+      "offset": 7103992727,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0110/realsense/depth/0064.png": {
+      "bytes": 219223,
+      "compressed": 174220,
+      "crc32": 3443923701,
+      "offset": 7052685543,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/depth/0064.png"
+    },
+    "scenes/scene_0110/realsense/meta/0064.mat": {
+      "bytes": 871,
+      "compressed": 826,
+      "crc32": 1912891178,
+      "offset": 7097309458,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0110/realsense/annotations/0064.xml": {
+      "bytes": 2483,
+      "compressed": 530,
+      "crc32": 759824409,
+      "offset": 7097257356,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0110/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 7051793964,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0110/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 7048785850,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0110/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0111/realsense/rgb/0064.png": {
+      "bytes": 1272729,
+      "compressed": 1202866,
+      "crc32": 1552616172,
+      "offset": 7848404002,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0111/realsense/depth/0064.png": {
+      "bytes": 203517,
+      "compressed": 164391,
+      "crc32": 856848304,
+      "offset": 7797676029,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/depth/0064.png"
+    },
+    "scenes/scene_0111/realsense/meta/0064.mat": {
+      "bytes": 870,
+      "compressed": 824,
+      "crc32": 1465151100,
+      "offset": 7842141740,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0111/realsense/annotations/0064.xml": {
+      "bytes": 2484,
+      "compressed": 541,
+      "crc32": 775668561,
+      "offset": 7842089658,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0111/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 7796786829,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0111/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 7793488173,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0111/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0112/realsense/rgb/0064.png": {
+      "bytes": 1230371,
+      "compressed": 1171385,
+      "crc32": 1368397151,
+      "offset": 8574628305,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0112/realsense/depth/0064.png": {
+      "bytes": 216038,
+      "compressed": 172503,
+      "crc32": 223336102,
+      "offset": 8523113477,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/depth/0064.png"
+    },
+    "scenes/scene_0112/realsense/meta/0064.mat": {
+      "bytes": 922,
+      "compressed": 878,
+      "crc32": 2128192456,
+      "offset": 8568757203,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0112/realsense/annotations/0064.xml": {
+      "bytes": 2788,
+      "compressed": 590,
+      "crc32": 590019713,
+      "offset": 8568701486,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0112/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 8522177378,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0112/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 8519450445,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0112/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0113/realsense/rgb/0064.png": {
+      "bytes": 1272606,
+      "compressed": 1214227,
+      "crc32": 2467741026,
+      "offset": 9262083851,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0113/realsense/depth/0064.png": {
+      "bytes": 204005,
+      "compressed": 165796,
+      "crc32": 2081157426,
+      "offset": 9212819296,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/depth/0064.png"
+    },
+    "scenes/scene_0113/realsense/meta/0064.mat": {
+      "bytes": 918,
+      "compressed": 871,
+      "crc32": 2470950854,
+      "offset": 9256053452,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0113/realsense/annotations/0064.xml": {
+      "bytes": 2786,
+      "compressed": 592,
+      "crc32": 3518043557,
+      "offset": 9255997702,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0113/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 9211937702,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0113/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 9209147175,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0113/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0114/realsense/rgb/0064.png": {
+      "bytes": 1217687,
+      "compressed": 1157663,
+      "crc32": 1857048446,
+      "offset": 9952091561,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0114/realsense/depth/0064.png": {
+      "bytes": 198906,
+      "compressed": 161865,
+      "crc32": 2057202431,
+      "offset": 9902318913,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/depth/0064.png"
+    },
+    "scenes/scene_0114/realsense/meta/0064.mat": {
+      "bytes": 922,
+      "compressed": 881,
+      "crc32": 2340332527,
+      "offset": 9946182704,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0114/realsense/annotations/0064.xml": {
+      "bytes": 2784,
+      "compressed": 594,
+      "crc32": 1261418232,
+      "offset": 9946126875,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0114/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 9901419664,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0114/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 9898755446,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0114/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0115/realsense/rgb/0064.png": {
+      "bytes": 1189502,
+      "compressed": 1112902,
+      "crc32": 3451709723,
+      "offset": 10625491565,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0115/realsense/depth/0064.png": {
+      "bytes": 192168,
+      "compressed": 154035,
+      "crc32": 4288425090,
+      "offset": 10578370705,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/depth/0064.png"
+    },
+    "scenes/scene_0115/realsense/meta/0064.mat": {
+      "bytes": 878,
+      "compressed": 833,
+      "crc32": 2812626512,
+      "offset": 10619781075,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0115/realsense/annotations/0064.xml": {
+      "bytes": 2575,
+      "compressed": 537,
+      "crc32": 2838499958,
+      "offset": 10619728683,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0115/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 10577525831,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0115/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 10575338504,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0115/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0116/realsense/rgb/0064.png": {
+      "bytes": 1125465,
+      "compressed": 1049756,
+      "crc32": 1749256530,
+      "offset": 11289291734,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0116/realsense/depth/0064.png": {
+      "bytes": 202512,
+      "compressed": 163389,
+      "crc32": 902053068,
+      "offset": 11240322695,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/depth/0064.png"
+    },
+    "scenes/scene_0116/realsense/meta/0064.mat": {
+      "bytes": 873,
+      "compressed": 828,
+      "crc32": 3887578928,
+      "offset": 11283816879,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0116/realsense/annotations/0064.xml": {
+      "bytes": 2480,
+      "compressed": 530,
+      "crc32": 1950734836,
+      "offset": 11283764688,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0116/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 11239422581,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0116/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23840,
+      "crc32": 3980837069,
+      "offset": 11236964721,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0116/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0117/realsense/rgb/0064.png": {
+      "bytes": 1163752,
+      "compressed": 1090067,
+      "crc32": 104646626,
+      "offset": 11937956081,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0117/realsense/depth/0064.png": {
+      "bytes": 202597,
+      "compressed": 162216,
+      "crc32": 1014373242,
+      "offset": 11888322068,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/depth/0064.png"
+    },
+    "scenes/scene_0117/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 830,
+      "crc32": 3441923615,
+      "offset": 11932112322,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0117/realsense/annotations/0064.xml": {
+      "bytes": 2567,
+      "compressed": 539,
+      "crc32": 37818968,
+      "offset": 11932059977,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0117/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 11887414026,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0117/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 11885096097,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0117/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0118/realsense/rgb/0064.png": {
+      "bytes": 1365567,
+      "compressed": 1298870,
+      "crc32": 2250282555,
+      "offset": 12616691432,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0118/realsense/depth/0064.png": {
+      "bytes": 220585,
+      "compressed": 175776,
+      "crc32": 4054306960,
+      "offset": 12565132609,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/depth/0064.png"
+    },
+    "scenes/scene_0118/realsense/meta/0064.mat": {
+      "bytes": 871,
+      "compressed": 825,
+      "crc32": 3395099907,
+      "offset": 12610377893,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0118/realsense/annotations/0064.xml": {
+      "bytes": 2546,
+      "compressed": 561,
+      "crc32": 765275018,
+      "offset": 12610324680,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0118/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 12564194829,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0118/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 12561400202,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0118/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0119/realsense/rgb/0064.png": {
+      "bytes": 1333360,
+      "compressed": 1273698,
+      "crc32": 3350910334,
+      "offset": 13344770372,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0119/realsense/depth/0064.png": {
+      "bytes": 195174,
+      "compressed": 161363,
+      "crc32": 3177552842,
+      "offset": 13295665833,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/depth/0064.png"
+    },
+    "scenes/scene_0119/realsense/meta/0064.mat": {
+      "bytes": 873,
+      "compressed": 829,
+      "crc32": 1841310735,
+      "offset": 13338393281,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0119/realsense/annotations/0064.xml": {
+      "bytes": 2551,
+      "compressed": 562,
+      "crc32": 3613863691,
+      "offset": 13338340027,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0119/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 13294798523,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0119/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 13292078633,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0119/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0120/realsense/rgb/0064.png": {
+      "bytes": 1325591,
+      "compressed": 1257717,
+      "crc32": 3834713491,
+      "offset": 14063736764,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0120/realsense/depth/0064.png": {
+      "bytes": 207263,
+      "compressed": 165001,
+      "crc32": 3157257065,
+      "offset": 14013943983,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/depth/0064.png"
+    },
+    "scenes/scene_0120/realsense/meta/0064.mat": {
+      "bytes": 870,
+      "compressed": 826,
+      "crc32": 3357068505,
+      "offset": 14057325349,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0120/realsense/annotations/0064.xml": {
+      "bytes": 2547,
+      "compressed": 559,
+      "crc32": 3652221094,
+      "offset": 14057272101,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0120/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 14013056500,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0120/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 14010309088,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0120/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0121/realsense/rgb/0064.png": {
+      "bytes": 1365002,
+      "compressed": 1304954,
+      "crc32": 2798482407,
+      "offset": 14785561139,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0121/realsense/depth/0064.png": {
+      "bytes": 210251,
+      "compressed": 168288,
+      "crc32": 1301100207,
+      "offset": 14736101512,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/depth/0064.png"
+    },
+    "scenes/scene_0121/realsense/meta/0064.mat": {
+      "bytes": 872,
+      "compressed": 826,
+      "crc32": 2282482410,
+      "offset": 14779277578,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0121/realsense/annotations/0064.xml": {
+      "bytes": 2546,
+      "compressed": 562,
+      "crc32": 358563248,
+      "offset": 14779224465,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0121/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 14735215979,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0121/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 14732518022,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0121/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0122/realsense/rgb/0064.png": {
+      "bytes": 1324943,
+      "compressed": 1267219,
+      "crc32": 671287116,
+      "offset": 15505307410,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0122/realsense/depth/0064.png": {
+      "bytes": 205418,
+      "compressed": 166931,
+      "crc32": 3364298018,
+      "offset": 15455026328,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/depth/0064.png"
+    },
+    "scenes/scene_0122/realsense/meta/0064.mat": {
+      "bytes": 922,
+      "compressed": 876,
+      "crc32": 2495033787,
+      "offset": 15498801180,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0122/realsense/annotations/0064.xml": {
+      "bytes": 2812,
+      "compressed": 589,
+      "crc32": 262482171,
+      "offset": 15498745425,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0122/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 15454123229,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0122/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 15451457712,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0122/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0123/realsense/rgb/0064.png": {
+      "bytes": 1335864,
+      "compressed": 1280059,
+      "crc32": 140504291,
+      "offset": 16239561692,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0123/realsense/depth/0064.png": {
+      "bytes": 208191,
+      "compressed": 161959,
+      "crc32": 3938091862,
+      "offset": 16189853172,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/depth/0064.png"
+    },
+    "scenes/scene_0123/realsense/meta/0064.mat": {
+      "bytes": 920,
+      "compressed": 876,
+      "crc32": 2960701380,
+      "offset": 16233116817,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0123/realsense/annotations/0064.xml": {
+      "bytes": 2811,
+      "compressed": 591,
+      "crc32": 2995133310,
+      "offset": 16233060998,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0123/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 16188972217,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0123/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 16186224238,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0123/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0124/realsense/rgb/0064.png": {
+      "bytes": 1347656,
+      "compressed": 1298753,
+      "crc32": 2885924384,
+      "offset": 16966242710,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0124/realsense/depth/0064.png": {
+      "bytes": 224543,
+      "compressed": 176554,
+      "crc32": 1757144484,
+      "offset": 16914331276,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/depth/0064.png"
+    },
+    "scenes/scene_0124/realsense/meta/0064.mat": {
+      "bytes": 923,
+      "compressed": 881,
+      "crc32": 2845958964,
+      "offset": 16959520384,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0124/realsense/annotations/0064.xml": {
+      "bytes": 2812,
+      "compressed": 589,
+      "crc32": 4268593815,
+      "offset": 16959464515,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0124/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 16913401384,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0124/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 16910496830,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0124/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0125/realsense/rgb/0064.png": {
+      "bytes": 1324653,
+      "compressed": 1260959,
+      "crc32": 1811625582,
+      "offset": 17700176876,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0125/realsense/depth/0064.png": {
+      "bytes": 193518,
+      "compressed": 158027,
+      "crc32": 2814768574,
+      "offset": 17652373329,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/depth/0064.png"
+    },
+    "scenes/scene_0125/realsense/meta/0064.mat": {
+      "bytes": 922,
+      "compressed": 878,
+      "crc32": 1737361494,
+      "offset": 17693729624,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0125/realsense/annotations/0064.xml": {
+      "bytes": 2808,
+      "compressed": 585,
+      "crc32": 927936006,
+      "offset": 17693673956,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0125/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 17651555951,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0125/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 17649227080,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0125/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0126/realsense/rgb/0064.png": {
+      "bytes": 1213483,
+      "compressed": 1144735,
+      "crc32": 2568895558,
+      "offset": 18414729694,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0126/realsense/depth/0064.png": {
+      "bytes": 215239,
+      "compressed": 175392,
+      "crc32": 950911980,
+      "offset": 18364576608,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/depth/0064.png"
+    },
+    "scenes/scene_0126/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 835,
+      "crc32": 3708322490,
+      "offset": 18408902083,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0126/realsense/annotations/0064.xml": {
+      "bytes": 2481,
+      "compressed": 535,
+      "crc32": 2702282197,
+      "offset": 18408849884,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0126/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 18363682312,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0126/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 18360948482,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0126/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0127/realsense/rgb/0064.png": {
+      "bytes": 1087963,
+      "compressed": 1002778,
+      "crc32": 1986097458,
+      "offset": 19092217381,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0127/realsense/depth/0064.png": {
+      "bytes": 201563,
+      "compressed": 164395,
+      "crc32": 3265381637,
+      "offset": 19043331122,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/depth/0064.png"
+    },
+    "scenes/scene_0127/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 829,
+      "crc32": 45064891,
+      "offset": 19086813870,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0127/realsense/annotations/0064.xml": {
+      "bytes": 2480,
+      "compressed": 537,
+      "crc32": 3451746620,
+      "offset": 19086761795,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0127/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 19042447419,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0127/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 19039791444,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0127/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0128/realsense/rgb/0064.png": {
+      "bytes": 1164769,
+      "compressed": 1091561,
+      "crc32": 3523227111,
+      "offset": 19742471835,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0128/realsense/depth/0064.png": {
+      "bytes": 216730,
+      "compressed": 173770,
+      "crc32": 3058798815,
+      "offset": 19691475200,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/depth/0064.png"
+    },
+    "scenes/scene_0128/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 829,
+      "crc32": 3463049407,
+      "offset": 19736937078,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0128/realsense/annotations/0064.xml": {
+      "bytes": 2488,
+      "compressed": 544,
+      "crc32": 693140634,
+      "offset": 19736884797,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0128/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 19690540341,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0128/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 19687811909,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0128/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0129/realsense/rgb/0064.png": {
+      "bytes": 1184467,
+      "compressed": 1112481,
+      "crc32": 3229179265,
+      "offset": 20406670201,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0129/realsense/depth/0064.png": {
+      "bytes": 214557,
+      "compressed": 168629,
+      "crc32": 136999991,
+      "offset": 20356641752,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/depth/0064.png"
+    },
+    "scenes/scene_0129/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 831,
+      "crc32": 272860167,
+      "offset": 20401020045,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0129/realsense/annotations/0064.xml": {
+      "bytes": 2482,
+      "compressed": 535,
+      "crc32": 963246421,
+      "offset": 20400967939,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0129/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 20355728254,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0129/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 20352988532,
+      "method": 8,
+      "archive": "test_seen.zip",
+      "source": "scene_0129/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0130/realsense/rgb/0064.png": {
+      "bytes": 1250130,
+      "compressed": 1152139,
+      "crc32": 3796791073,
+      "offset": 54237787,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0130/realsense/depth/0064.png": {
+      "bytes": 207734,
+      "compressed": 167556,
+      "crc32": 413584785,
+      "offset": 3764154,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/depth/0064.png"
+    },
+    "scenes/scene_0130/realsense/meta/0064.mat": {
+      "bytes": 929,
+      "compressed": 889,
+      "crc32": 2465695978,
+      "offset": 48081265,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0130/realsense/annotations/0064.xml": {
+      "bytes": 2719,
+      "compressed": 571,
+      "crc32": 1953571621,
+      "offset": 48026043,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0130/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2866001,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0130/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 23504,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0130/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0131/realsense/rgb/0064.png": {
+      "bytes": 1238358,
+      "compressed": 1139724,
+      "crc32": 3356678270,
+      "offset": 742637875,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0131/realsense/depth/0064.png": {
+      "bytes": 204935,
+      "compressed": 164471,
+      "crc32": 2376528176,
+      "offset": 692528368,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/depth/0064.png"
+    },
+    "scenes/scene_0131/realsense/meta/0064.mat": {
+      "bytes": 928,
+      "compressed": 886,
+      "crc32": 2761518279,
+      "offset": 736378334,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0131/realsense/annotations/0064.xml": {
+      "bytes": 2725,
+      "compressed": 575,
+      "crc32": 2946753992,
+      "offset": 736322992,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0131/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 691625525,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0131/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 688766825,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0131/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0132/realsense/rgb/0064.png": {
+      "bytes": 1365290,
+      "compressed": 1295253,
+      "crc32": 2764967325,
+      "offset": 1447019722,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0132/realsense/depth/0064.png": {
+      "bytes": 213992,
+      "compressed": 169833,
+      "crc32": 3407178068,
+      "offset": 1396027075,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/depth/0064.png"
+    },
+    "scenes/scene_0132/realsense/meta/0064.mat": {
+      "bytes": 928,
+      "compressed": 883,
+      "crc32": 631604820,
+      "offset": 1440829574,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0132/realsense/annotations/0064.xml": {
+      "bytes": 2724,
+      "compressed": 577,
+      "crc32": 4269241993,
+      "offset": 1440774239,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0132/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 1395108403,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0132/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 1392265395,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0132/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0133/realsense/rgb/0064.png": {
+      "bytes": 1267207,
+      "compressed": 1201441,
+      "crc32": 1164441150,
+      "offset": 2149658073,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0133/realsense/depth/0064.png": {
+      "bytes": 211593,
+      "compressed": 171364,
+      "crc32": 3448509638,
+      "offset": 2098640693,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/depth/0064.png"
+    },
+    "scenes/scene_0133/realsense/meta/0064.mat": {
+      "bytes": 922,
+      "compressed": 879,
+      "crc32": 390065609,
+      "offset": 2143423373,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0133/realsense/annotations/0064.xml": {
+      "bytes": 2811,
+      "compressed": 597,
+      "crc32": 982603697,
+      "offset": 2143367435,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0133/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2097732835,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0133/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2094998729,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0133/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0134/realsense/rgb/0064.png": {
+      "bytes": 1329701,
+      "compressed": 1266712,
+      "crc32": 2238206853,
+      "offset": 2863730378,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0134/realsense/depth/0064.png": {
+      "bytes": 220987,
+      "compressed": 177588,
+      "crc32": 2523455704,
+      "offset": 2811857645,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/depth/0064.png"
+    },
+    "scenes/scene_0134/realsense/meta/0064.mat": {
+      "bytes": 921,
+      "compressed": 876,
+      "crc32": 4044911016,
+      "offset": 2857555606,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0134/realsense/annotations/0064.xml": {
+      "bytes": 2806,
+      "compressed": 585,
+      "crc32": 164404983,
+      "offset": 2857499642,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0134/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2810928328,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0134/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2808191339,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0134/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0135/realsense/rgb/0064.png": {
+      "bytes": 1312845,
+      "compressed": 1246543,
+      "crc32": 1995970503,
+      "offset": 3587836554,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0135/realsense/depth/0064.png": {
+      "bytes": 215320,
+      "compressed": 171670,
+      "crc32": 1907544231,
+      "offset": 3536622539,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/depth/0064.png"
+    },
+    "scenes/scene_0135/realsense/meta/0064.mat": {
+      "bytes": 921,
+      "compressed": 879,
+      "crc32": 2973642273,
+      "offset": 3581517192,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0135/realsense/annotations/0064.xml": {
+      "bytes": 2808,
+      "compressed": 588,
+      "crc32": 2311601487,
+      "offset": 3581461356,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0135/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 3535709462,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0135/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 3532982693,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0135/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0136/realsense/rgb/0064.png": {
+      "bytes": 1333980,
+      "compressed": 1273629,
+      "crc32": 3693111100,
+      "offset": 4311772540,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0136/realsense/depth/0064.png": {
+      "bytes": 215371,
+      "compressed": 173340,
+      "crc32": 2080555505,
+      "offset": 4261239493,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/depth/0064.png"
+    },
+    "scenes/scene_0136/realsense/meta/0064.mat": {
+      "bytes": 968,
+      "compressed": 926,
+      "crc32": 3111947377,
+      "offset": 4305530495,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0136/realsense/annotations/0064.xml": {
+      "bytes": 3025,
+      "compressed": 623,
+      "crc32": 3953551968,
+      "offset": 4305471867,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0136/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4260337940,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0136/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4257421250,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0136/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0137/realsense/rgb/0064.png": {
+      "bytes": 1273655,
+      "compressed": 1207111,
+      "crc32": 1552277721,
+      "offset": 5036835783,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0137/realsense/depth/0064.png": {
+      "bytes": 207891,
+      "compressed": 167814,
+      "crc32": 720956736,
+      "offset": 4985850787,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/depth/0064.png"
+    },
+    "scenes/scene_0137/realsense/meta/0064.mat": {
+      "bytes": 967,
+      "compressed": 924,
+      "crc32": 1294347677,
+      "offset": 5030531224,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0137/realsense/annotations/0064.xml": {
+      "bytes": 3022,
+      "compressed": 620,
+      "crc32": 4256336484,
+      "offset": 5030472669,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0137/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4984933105,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0137/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4982104980,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0137/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0138/realsense/rgb/0064.png": {
+      "bytes": 1295567,
+      "compressed": 1232265,
+      "crc32": 56537817,
+      "offset": 5754870904,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0138/realsense/depth/0064.png": {
+      "bytes": 209403,
+      "compressed": 166914,
+      "crc32": 1117769383,
+      "offset": 5703744596,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/depth/0064.png"
+    },
+    "scenes/scene_0138/realsense/meta/0064.mat": {
+      "bytes": 971,
+      "compressed": 929,
+      "crc32": 135513444,
+      "offset": 5748603379,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0138/realsense/annotations/0064.xml": {
+      "bytes": 3028,
+      "compressed": 631,
+      "crc32": 1874660769,
+      "offset": 5748544729,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0138/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 5702833771,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0138/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 5700022002,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0138/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0139/realsense/rgb/0064.png": {
+      "bytes": 1230072,
+      "compressed": 1159002,
+      "crc32": 4111852125,
+      "offset": 6478673222,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0139/realsense/depth/0064.png": {
+      "bytes": 231021,
+      "compressed": 181447,
+      "crc32": 1648334867,
+      "offset": 6426993662,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/depth/0064.png"
+    },
+    "scenes/scene_0139/realsense/meta/0064.mat": {
+      "bytes": 973,
+      "compressed": 930,
+      "crc32": 504565848,
+      "offset": 6472905243,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0139/realsense/annotations/0064.xml": {
+      "bytes": 3058,
+      "compressed": 638,
+      "crc32": 3784280625,
+      "offset": 6472846197,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0139/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 6426050305,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0139/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 6422945730,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0139/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0140/realsense/rgb/0064.png": {
+      "bytes": 1220454,
+      "compressed": 1152879,
+      "crc32": 1438954856,
+      "offset": 7170468937,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0140/realsense/depth/0064.png": {
+      "bytes": 219877,
+      "compressed": 177849,
+      "crc32": 1586434125,
+      "offset": 7119465718,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/depth/0064.png"
+    },
+    "scenes/scene_0140/realsense/meta/0064.mat": {
+      "bytes": 972,
+      "compressed": 925,
+      "crc32": 4081217663,
+      "offset": 7164696131,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0140/realsense/annotations/0064.xml": {
+      "bytes": 3052,
+      "compressed": 633,
+      "crc32": 1281623665,
+      "offset": 7164637048,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0140/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 7118539269,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0140/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 7115417510,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0140/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0141/realsense/rgb/0064.png": {
+      "bytes": 1250633,
+      "compressed": 1185004,
+      "crc32": 3297909626,
+      "offset": 7852434118,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0141/realsense/depth/0064.png": {
+      "bytes": 216812,
+      "compressed": 171920,
+      "crc32": 1310181757,
+      "offset": 7801600649,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/depth/0064.png"
+    },
+    "scenes/scene_0141/realsense/meta/0064.mat": {
+      "bytes": 973,
+      "compressed": 930,
+      "crc32": 735542153,
+      "offset": 7846501340,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0141/realsense/annotations/0064.xml": {
+      "bytes": 3054,
+      "compressed": 628,
+      "crc32": 4187634055,
+      "offset": 7846442220,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0141/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 7800685552,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0141/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 7797599737,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0141/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0142/realsense/rgb/0064.png": {
+      "bytes": 1208000,
+      "compressed": 1138919,
+      "crc32": 3822905945,
+      "offset": 8546358246,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0142/realsense/depth/0064.png": {
+      "bytes": 203251,
+      "compressed": 163746,
+      "crc32": 1366722222,
+      "offset": 8497230273,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/depth/0064.png"
+    },
+    "scenes/scene_0142/realsense/meta/0064.mat": {
+      "bytes": 762,
+      "compressed": 708,
+      "crc32": 3846328474,
+      "offset": 8540595955,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0142/realsense/annotations/0064.xml": {
+      "bytes": 1973,
+      "compressed": 467,
+      "crc32": 3446060594,
+      "offset": 8540550366,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0142/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 8496346721,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0142/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 8493978068,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0142/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0143/realsense/rgb/0064.png": {
+      "bytes": 1229326,
+      "compressed": 1154953,
+      "crc32": 2333543891,
+      "offset": 9219142906,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0143/realsense/depth/0064.png": {
+      "bytes": 204606,
+      "compressed": 163096,
+      "crc32": 141712017,
+      "offset": 9170702899,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/depth/0064.png"
+    },
+    "scenes/scene_0143/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 712,
+      "crc32": 1857344796,
+      "offset": 9213143197,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0143/realsense/annotations/0064.xml": {
+      "bytes": 1973,
+      "compressed": 464,
+      "crc32": 1589590418,
+      "offset": 9213097325,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0143/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 9169814853,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0143/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 9167771300,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0143/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0144/realsense/rgb/0064.png": {
+      "bytes": 1203946,
+      "compressed": 1126866,
+      "crc32": 1987408467,
+      "offset": 9905820242,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0144/realsense/depth/0064.png": {
+      "bytes": 203208,
+      "compressed": 162907,
+      "crc32": 1269769868,
+      "offset": 9857622585,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/depth/0064.png"
+    },
+    "scenes/scene_0144/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 713,
+      "crc32": 512807526,
+      "offset": 9899911946,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0144/realsense/annotations/0064.xml": {
+      "bytes": 1970,
+      "compressed": 466,
+      "crc32": 2677938868,
+      "offset": 9899865998,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0144/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 9856750306,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0144/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 9854924225,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0144/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0145/realsense/rgb/0064.png": {
+      "bytes": 1228751,
+      "compressed": 1156141,
+      "crc32": 2710412250,
+      "offset": 10585558137,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0145/realsense/depth/0064.png": {
+      "bytes": 203946,
+      "compressed": 160990,
+      "crc32": 3016809053,
+      "offset": 10536915288,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/depth/0064.png"
+    },
+    "scenes/scene_0145/realsense/meta/0064.mat": {
+      "bytes": 764,
+      "compressed": 709,
+      "crc32": 4257707826,
+      "offset": 10579596360,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0145/realsense/annotations/0064.xml": {
+      "bytes": 1972,
+      "compressed": 461,
+      "crc32": 770070401,
+      "offset": 10579550434,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0145/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 10536033143,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0145/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 10533889676,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0145/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0146/realsense/rgb/0064.png": {
+      "bytes": 1220214,
+      "compressed": 1144686,
+      "crc32": 1887556521,
+      "offset": 11266106089,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0146/realsense/depth/0064.png": {
+      "bytes": 201056,
+      "compressed": 160034,
+      "crc32": 2270871269,
+      "offset": 11217626143,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/depth/0064.png"
+    },
+    "scenes/scene_0146/realsense/meta/0064.mat": {
+      "bytes": 816,
+      "compressed": 765,
+      "crc32": 1506688536,
+      "offset": 11260332225,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0146/realsense/annotations/0064.xml": {
+      "bytes": 2180,
+      "compressed": 471,
+      "crc32": 1063331925,
+      "offset": 11260284349,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0146/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 11216754842,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0146/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 11214678006,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0146/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0147/realsense/rgb/0064.png": {
+      "bytes": 1164026,
+      "compressed": 1088378,
+      "crc32": 3336854298,
+      "offset": 11937028162,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0147/realsense/depth/0064.png": {
+      "bytes": 189913,
+      "compressed": 153546,
+      "crc32": 3588228575,
+      "offset": 11891331999,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/depth/0064.png"
+    },
+    "scenes/scene_0147/realsense/meta/0064.mat": {
+      "bytes": 817,
+      "compressed": 768,
+      "crc32": 3689505932,
+      "offset": 11931536627,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0147/realsense/annotations/0064.xml": {
+      "bytes": 2177,
+      "compressed": 472,
+      "crc32": 361427938,
+      "offset": 11931488860,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0147/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 11890491949,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0147/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 11888481692,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0147/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0148/realsense/rgb/0064.png": {
+      "bytes": 1216890,
+      "compressed": 1147023,
+      "crc32": 1602671633,
+      "offset": 12584263201,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0148/realsense/depth/0064.png": {
+      "bytes": 199352,
+      "compressed": 158726,
+      "crc32": 1041379615,
+      "offset": 12534657516,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/depth/0064.png"
+    },
+    "scenes/scene_0148/realsense/meta/0064.mat": {
+      "bytes": 814,
+      "compressed": 766,
+      "crc32": 1854322405,
+      "offset": 12578501220,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0148/realsense/annotations/0064.xml": {
+      "bytes": 2180,
+      "compressed": 470,
+      "crc32": 3719514976,
+      "offset": 12578453396,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0148/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 12533748543,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0148/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 12531459476,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0148/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0149/realsense/rgb/0064.png": {
+      "bytes": 1140620,
+      "compressed": 1066783,
+      "crc32": 881806397,
+      "offset": 13267166530,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0149/realsense/depth/0064.png": {
+      "bytes": 199985,
+      "compressed": 159665,
+      "crc32": 38125273,
+      "offset": 13218526947,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/depth/0064.png"
+    },
+    "scenes/scene_0149/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 826,
+      "crc32": 3987355794,
+      "offset": 13261731317,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0149/realsense/annotations/0064.xml": {
+      "bytes": 2469,
+      "compressed": 528,
+      "crc32": 650981641,
+      "offset": 13261679384,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0149/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 13217632461,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0149/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 13215432061,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0149/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0150/realsense/rgb/0064.png": {
+      "bytes": 1149478,
+      "compressed": 1075911,
+      "crc32": 654815525,
+      "offset": 13916714694,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0150/realsense/depth/0064.png": {
+      "bytes": 197656,
+      "compressed": 160148,
+      "crc32": 3854319494,
+      "offset": 13869554899,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/depth/0064.png"
+    },
+    "scenes/scene_0150/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 829,
+      "crc32": 3396928972,
+      "offset": 13911210587,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0150/realsense/annotations/0064.xml": {
+      "bytes": 2474,
+      "compressed": 539,
+      "crc32": 1020212497,
+      "offset": 13911158450,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0150/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 13868700657,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0150/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 13866374486,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0150/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0151/realsense/rgb/0064.png": {
+      "bytes": 1150156,
+      "compressed": 1075633,
+      "crc32": 860406769,
+      "offset": 14567468503,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0151/realsense/depth/0064.png": {
+      "bytes": 204484,
+      "compressed": 167634,
+      "crc32": 3635205799,
+      "offset": 14519151699,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/depth/0064.png"
+    },
+    "scenes/scene_0151/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 830,
+      "crc32": 254239758,
+      "offset": 14562025940,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0151/realsense/annotations/0064.xml": {
+      "bytes": 2472,
+      "compressed": 538,
+      "crc32": 687849406,
+      "offset": 14561973875,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0151/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 14518263746,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0151/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 14515998898,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0151/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0152/realsense/rgb/0064.png": {
+      "bytes": 1370872,
+      "compressed": 1304888,
+      "crc32": 3134205228,
+      "offset": 15220205601,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0152/realsense/depth/0064.png": {
+      "bytes": 206738,
+      "compressed": 162748,
+      "crc32": 2987111458,
+      "offset": 15170808487,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/depth/0064.png"
+    },
+    "scenes/scene_0152/realsense/meta/0064.mat": {
+      "bytes": 762,
+      "compressed": 705,
+      "crc32": 144756282,
+      "offset": 15213884619,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0152/realsense/annotations/0064.xml": {
+      "bytes": 1959,
+      "compressed": 458,
+      "crc32": 165455405,
+      "offset": 15213839367,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0152/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 15169918982,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0152/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 15167684138,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0152/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0153/realsense/rgb/0064.png": {
+      "bytes": 1295634,
+      "compressed": 1230885,
+      "crc32": 2636110370,
+      "offset": 15941856029,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0153/realsense/depth/0064.png": {
+      "bytes": 207131,
+      "compressed": 163903,
+      "crc32": 2400987958,
+      "offset": 15892355554,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/depth/0064.png"
+    },
+    "scenes/scene_0153/realsense/meta/0064.mat": {
+      "bytes": 762,
+      "compressed": 708,
+      "crc32": 103982432,
+      "offset": 15935703447,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0153/realsense/annotations/0064.xml": {
+      "bytes": 1955,
+      "compressed": 453,
+      "crc32": 3966696138,
+      "offset": 15935658116,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0153/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 15891473673,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0153/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 15889270174,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0153/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0154/realsense/rgb/0064.png": {
+      "bytes": 1274135,
+      "compressed": 1203910,
+      "crc32": 1065423022,
+      "offset": 16645871968,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0154/realsense/depth/0064.png": {
+      "bytes": 215876,
+      "compressed": 171530,
+      "crc32": 1536515382,
+      "offset": 16595182093,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/depth/0064.png"
+    },
+    "scenes/scene_0154/realsense/meta/0064.mat": {
+      "bytes": 763,
+      "compressed": 711,
+      "crc32": 1829455262,
+      "offset": 16639788472,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0154/realsense/annotations/0064.xml": {
+      "bytes": 1957,
+      "compressed": 450,
+      "crc32": 4080010675,
+      "offset": 16639743173,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0154/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 16594267595,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0154/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 16591935445,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0154/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0155/realsense/rgb/0064.png": {
+      "bytes": 1268663,
+      "compressed": 1196559,
+      "crc32": 879055832,
+      "offset": 17351041578,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0155/realsense/depth/0064.png": {
+      "bytes": 209053,
+      "compressed": 168344,
+      "crc32": 3867668270,
+      "offset": 17301313180,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/depth/0064.png"
+    },
+    "scenes/scene_0155/realsense/meta/0064.mat": {
+      "bytes": 762,
+      "compressed": 709,
+      "crc32": 748531421,
+      "offset": 17344860798,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0155/realsense/annotations/0064.xml": {
+      "bytes": 1955,
+      "compressed": 455,
+      "crc32": 321149583,
+      "offset": 17344815528,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0155/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 17300434981,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0155/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 17298122388,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0155/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0156/realsense/rgb/0064.png": {
+      "bytes": 1279352,
+      "compressed": 1207244,
+      "crc32": 717112518,
+      "offset": 18053472435,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0156/realsense/depth/0064.png": {
+      "bytes": 217755,
+      "compressed": 173941,
+      "crc32": 678252164,
+      "offset": 18002989429,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/depth/0064.png"
+    },
+    "scenes/scene_0156/realsense/meta/0064.mat": {
+      "bytes": 761,
+      "compressed": 705,
+      "crc32": 1272605329,
+      "offset": 18047362949,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0156/realsense/annotations/0064.xml": {
+      "bytes": 1959,
+      "compressed": 453,
+      "crc32": 3349236745,
+      "offset": 18047317678,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0156/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 18002092283,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0156/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 17999910121,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0156/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0157/realsense/rgb/0064.png": {
+      "bytes": 1176757,
+      "compressed": 1094884,
+      "crc32": 1486799783,
+      "offset": 18755996179,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0157/realsense/depth/0064.png": {
+      "bytes": 188101,
+      "compressed": 150308,
+      "crc32": 4263198813,
+      "offset": 18709421400,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/depth/0064.png"
+    },
+    "scenes/scene_0157/realsense/meta/0064.mat": {
+      "bytes": 714,
+      "compressed": 657,
+      "crc32": 1008642498,
+      "offset": 18750227668,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0157/realsense/annotations/0064.xml": {
+      "bytes": 1693,
+      "compressed": 411,
+      "crc32": 701429638,
+      "offset": 18750185388,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0157/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 18708588275,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0157/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 18706643596,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0157/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0158/realsense/rgb/0064.png": {
+      "bytes": 1175440,
+      "compressed": 1093435,
+      "crc32": 1569109965,
+      "offset": 19418946556,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0158/realsense/depth/0064.png": {
+      "bytes": 189242,
+      "compressed": 153655,
+      "crc32": 2197499031,
+      "offset": 19372286315,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/depth/0064.png"
+    },
+    "scenes/scene_0158/realsense/meta/0064.mat": {
+      "bytes": 713,
+      "compressed": 655,
+      "crc32": 722576692,
+      "offset": 19413101708,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0158/realsense/annotations/0064.xml": {
+      "bytes": 1692,
+      "compressed": 408,
+      "crc32": 965053988,
+      "offset": 19413059469,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0158/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 19371440346,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0158/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 19369463088,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0158/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0159/realsense/rgb/0064.png": {
+      "bytes": 1218859,
+      "compressed": 1143090,
+      "crc32": 1951758770,
+      "offset": 20084455646,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0159/realsense/depth/0064.png": {
+      "bytes": 188459,
+      "compressed": 151112,
+      "crc32": 2101839559,
+      "offset": 20037980611,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/depth/0064.png"
+    },
+    "scenes/scene_0159/realsense/meta/0064.mat": {
+      "bytes": 715,
+      "compressed": 657,
+      "crc32": 1994027487,
+      "offset": 20078510178,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0159/realsense/annotations/0064.xml": {
+      "bytes": 1690,
+      "compressed": 412,
+      "crc32": 356231056,
+      "offset": 20078467925,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0159/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 20037142857,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0159/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 20035193312,
+      "method": 8,
+      "archive": "test_similar.zip",
+      "source": "scene_0159/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0160/realsense/rgb/0064.png": {
+      "bytes": 1305518,
+      "compressed": 1245859,
+      "crc32": 3893442386,
+      "offset": 55267589,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0160/realsense/depth/0064.png": {
+      "bytes": 224150,
+      "compressed": 180941,
+      "crc32": 3752069757,
+      "offset": 3699769,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/depth/0064.png"
+    },
+    "scenes/scene_0160/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 712,
+      "crc32": 2854346810,
+      "offset": 49200592,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0160/realsense/annotations/0064.xml": {
+      "bytes": 1965,
+      "compressed": 452,
+      "crc32": 3177991052,
+      "offset": 49155224,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0160/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2763083,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0160/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 23496,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0160/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0161/realsense/rgb/0064.png": {
+      "bytes": 1256172,
+      "compressed": 1192954,
+      "crc32": 2798144541,
+      "offset": 760584531,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0161/realsense/depth/0064.png": {
+      "bytes": 218827,
+      "compressed": 174480,
+      "crc32": 4133775434,
+      "offset": 710125207,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/depth/0064.png"
+    },
+    "scenes/scene_0161/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 713,
+      "crc32": 624537060,
+      "offset": 754506585,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0161/realsense/annotations/0064.xml": {
+      "bytes": 1963,
+      "compressed": 449,
+      "crc32": 3102480216,
+      "offset": 754461283,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0161/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 709194085,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0161/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 706504451,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0161/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0162/realsense/rgb/0064.png": {
+      "bytes": 1286000,
+      "compressed": 1226752,
+      "crc32": 4216548937,
+      "offset": 1457439822,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0162/realsense/depth/0064.png": {
+      "bytes": 218167,
+      "compressed": 175083,
+      "crc32": 784668965,
+      "offset": 1405870368,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/depth/0064.png"
+    },
+    "scenes/scene_0162/realsense/meta/0064.mat": {
+      "bytes": 764,
+      "compressed": 711,
+      "crc32": 267593422,
+      "offset": 1451214389,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0162/realsense/annotations/0064.xml": {
+      "bytes": 1962,
+      "compressed": 446,
+      "crc32": 68383500,
+      "offset": 1451169198,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0162/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 1404943318,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0162/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 1402324876,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0162/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0163/realsense/rgb/0064.png": {
+      "bytes": 1273921,
+      "compressed": 1213858,
+      "crc32": 1880529979,
+      "offset": 2165336557,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0163/realsense/depth/0064.png": {
+      "bytes": 211392,
+      "compressed": 166622,
+      "crc32": 1414653126,
+      "offset": 2115246289,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/depth/0064.png"
+    },
+    "scenes/scene_0163/realsense/meta/0064.mat": {
+      "bytes": 715,
+      "compressed": 659,
+      "crc32": 4131568871,
+      "offset": 2159395834,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0163/realsense/annotations/0064.xml": {
+      "bytes": 1648,
+      "compressed": 399,
+      "crc32": 4218238252,
+      "offset": 2159354189,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0163/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2114337100,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0163/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2111918779,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0163/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0164/realsense/rgb/0064.png": {
+      "bytes": 1228334,
+      "compressed": 1162358,
+      "crc32": 751855810,
+      "offset": 2845685081,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0164/realsense/depth/0064.png": {
+      "bytes": 198198,
+      "compressed": 160745,
+      "crc32": 3528578652,
+      "offset": 2797996004,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/depth/0064.png"
+    },
+    "scenes/scene_0164/realsense/meta/0064.mat": {
+      "bytes": 714,
+      "compressed": 657,
+      "crc32": 788285632,
+      "offset": 2839725890,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0164/realsense/annotations/0064.xml": {
+      "bytes": 1647,
+      "compressed": 396,
+      "crc32": 3816297217,
+      "offset": 2839684184,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0164/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 2797147554,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0164/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 2794695290,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0164/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0165/realsense/rgb/0064.png": {
+      "bytes": 1221864,
+      "compressed": 1152057,
+      "crc32": 1065901602,
+      "offset": 3521572741,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0165/realsense/depth/0064.png": {
+      "bytes": 196903,
+      "compressed": 156177,
+      "crc32": 660712328,
+      "offset": 3474124687,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/depth/0064.png"
+    },
+    "scenes/scene_0165/realsense/meta/0064.mat": {
+      "bytes": 714,
+      "compressed": 658,
+      "crc32": 3880937078,
+      "offset": 3515831004,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0165/realsense/annotations/0064.xml": {
+      "bytes": 1650,
+      "compressed": 399,
+      "crc32": 3132102591,
+      "offset": 3515789276,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0165/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 3473254492,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0165/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 3470893878,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0165/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0166/realsense/rgb/0064.png": {
+      "bytes": 1169895,
+      "compressed": 1101043,
+      "crc32": 3309106803,
+      "offset": 4185579448,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0166/realsense/depth/0064.png": {
+      "bytes": 206444,
+      "compressed": 163473,
+      "crc32": 931228119,
+      "offset": 4136380101,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/depth/0064.png"
+    },
+    "scenes/scene_0166/realsense/meta/0064.mat": {
+      "bytes": 715,
+      "compressed": 657,
+      "crc32": 792183948,
+      "offset": 4179979957,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0166/realsense/annotations/0064.xml": {
+      "bytes": 1680,
+      "compressed": 405,
+      "crc32": 3153720245,
+      "offset": 4179938168,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0166/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4135473799,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0166/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4133245598,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0166/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0167/realsense/rgb/0064.png": {
+      "bytes": 1255397,
+      "compressed": 1186876,
+      "crc32": 2264418287,
+      "offset": 4850321968,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0167/realsense/depth/0064.png": {
+      "bytes": 195770,
+      "compressed": 160696,
+      "crc32": 1590920639,
+      "offset": 4802586112,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/depth/0064.png"
+    },
+    "scenes/scene_0167/realsense/meta/0064.mat": {
+      "bytes": 712,
+      "compressed": 653,
+      "crc32": 59505261,
+      "offset": 4844469763,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0167/realsense/annotations/0064.xml": {
+      "bytes": 1683,
+      "compressed": 403,
+      "crc32": 1891356331,
+      "offset": 4844428003,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0167/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 4801736397,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0167/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 4799417094,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0167/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0168/realsense/rgb/0064.png": {
+      "bytes": 1352357,
+      "compressed": 1298437,
+      "crc32": 641360914,
+      "offset": 5524310566,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0168/realsense/depth/0064.png": {
+      "bytes": 223252,
+      "compressed": 178551,
+      "crc32": 1380684328,
+      "offset": 5471567261,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/depth/0064.png"
+    },
+    "scenes/scene_0168/realsense/meta/0064.mat": {
+      "bytes": 767,
+      "compressed": 715,
+      "crc32": 3247244039,
+      "offset": 5517890002,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0168/realsense/annotations/0064.xml": {
+      "bytes": 1936,
+      "compressed": 449,
+      "crc32": 2529941633,
+      "offset": 5517844737,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0168/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 5470626460,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0168/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 5467605963,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0168/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0169/realsense/rgb/0064.png": {
+      "bytes": 1329206,
+      "compressed": 1272278,
+      "crc32": 543719886,
+      "offset": 6252517159,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0169/realsense/depth/0064.png": {
+      "bytes": 219265,
+      "compressed": 175675,
+      "crc32": 3973101694,
+      "offset": 6200880505,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/depth/0064.png"
+    },
+    "scenes/scene_0169/realsense/meta/0064.mat": {
+      "bytes": 767,
+      "compressed": 713,
+      "crc32": 277936447,
+      "offset": 6246235038,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0169/realsense/annotations/0064.xml": {
+      "bytes": 1931,
+      "compressed": 448,
+      "crc32": 416029084,
+      "offset": 6246189814,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0169/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 6199961760,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0169/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23967,
+      "crc32": 2244649730,
+      "offset": 6196896846,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0169/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0170/realsense/rgb/0064.png": {
+      "bytes": 1115572,
+      "compressed": 1037821,
+      "crc32": 2485005325,
+      "offset": 6967208703,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0170/realsense/depth/0064.png": {
+      "bytes": 219738,
+      "compressed": 178005,
+      "crc32": 992150948,
+      "offset": 6916918800,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/depth/0064.png"
+    },
+    "scenes/scene_0170/realsense/meta/0064.mat": {
+      "bytes": 874,
+      "compressed": 828,
+      "crc32": 3273268419,
+      "offset": 6961782768,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0170/realsense/annotations/0064.xml": {
+      "bytes": 2450,
+      "compressed": 525,
+      "crc32": 915400129,
+      "offset": 6961731225,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0170/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 6915980279,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0170/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 6913506809,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0170/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0171/realsense/rgb/0064.png": {
+      "bytes": 1150603,
+      "compressed": 1073798,
+      "crc32": 3750409496,
+      "offset": 7618845795,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0171/realsense/depth/0064.png": {
+      "bytes": 214880,
+      "compressed": 169056,
+      "crc32": 3995971771,
+      "offset": 7569428545,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/depth/0064.png"
+    },
+    "scenes/scene_0171/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 830,
+      "crc32": 3474080677,
+      "offset": 7613493025,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0171/realsense/annotations/0064.xml": {
+      "bytes": 2454,
+      "compressed": 521,
+      "crc32": 1906454810,
+      "offset": 7613441534,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0171/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 7568512889,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0171/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 7566164043,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0171/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0172/realsense/rgb/0064.png": {
+      "bytes": 1124265,
+      "compressed": 1046575,
+      "crc32": 2565408112,
+      "offset": 8264459307,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0172/realsense/depth/0064.png": {
+      "bytes": 207887,
+      "compressed": 165653,
+      "crc32": 3619851540,
+      "offset": 8216022217,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/depth/0064.png"
+    },
+    "scenes/scene_0172/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 829,
+      "crc32": 2471244575,
+      "offset": 8259177669,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0172/realsense/annotations/0064.xml": {
+      "bytes": 2448,
+      "compressed": 516,
+      "crc32": 3653402860,
+      "offset": 8259126140,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0172/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 8215124650,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0172/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 8213147028,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0172/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0173/realsense/rgb/0064.png": {
+      "bytes": 1090567,
+      "compressed": 1000315,
+      "crc32": 2345117026,
+      "offset": 8900204197,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0173/realsense/depth/0064.png": {
+      "bytes": 203323,
+      "compressed": 162559,
+      "crc32": 197015015,
+      "offset": 8852382996,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/depth/0064.png"
+    },
+    "scenes/scene_0173/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 832,
+      "crc32": 2400835519,
+      "offset": 8894948371,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0173/realsense/annotations/0064.xml": {
+      "bytes": 2444,
+      "compressed": 512,
+      "crc32": 3919785681,
+      "offset": 8894896850,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0173/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 8851495322,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0173/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 8849530161,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0173/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0174/realsense/rgb/0064.png": {
+      "bytes": 1152918,
+      "compressed": 1077770,
+      "crc32": 1031797546,
+      "offset": 9539210073,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0174/realsense/depth/0064.png": {
+      "bytes": 232743,
+      "compressed": 186037,
+      "crc32": 3615905949,
+      "offset": 9486526255,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/depth/0064.png"
+    },
+    "scenes/scene_0174/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 712,
+      "crc32": 901517244,
+      "offset": 9533745253,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0174/realsense/annotations/0064.xml": {
+      "bytes": 1991,
+      "compressed": 459,
+      "crc32": 3655269340,
+      "offset": 9533699583,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0174/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 9485544006,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0174/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 9483013054,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0174/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0175/realsense/rgb/0064.png": {
+      "bytes": 1202150,
+      "compressed": 1136994,
+      "crc32": 2394051848,
+      "offset": 10206895415,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0175/realsense/depth/0064.png": {
+      "bytes": 239059,
+      "compressed": 193964,
+      "crc32": 3334792707,
+      "offset": 10152296733,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/depth/0064.png"
+    },
+    "scenes/scene_0175/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 711,
+      "crc32": 4094837032,
+      "offset": 10201245543,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0175/realsense/annotations/0064.xml": {
+      "bytes": 1988,
+      "compressed": 458,
+      "crc32": 619515854,
+      "offset": 10201199896,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0175/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 10151284543,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0175/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 10148720597,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0175/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0176/realsense/rgb/0064.png": {
+      "bytes": 1221813,
+      "compressed": 1157285,
+      "crc32": 497138987,
+      "offset": 10890868082,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0176/realsense/depth/0064.png": {
+      "bytes": 228998,
+      "compressed": 183688,
+      "crc32": 983006617,
+      "offset": 10837266146,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/depth/0064.png"
+    },
+    "scenes/scene_0176/realsense/meta/0064.mat": {
+      "bytes": 767,
+      "compressed": 714,
+      "crc32": 3554777652,
+      "offset": 10885205764,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0176/realsense/annotations/0064.xml": {
+      "bytes": 1988,
+      "compressed": 456,
+      "crc32": 2884024448,
+      "offset": 10885160180,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0176/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 10836287057,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0176/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 10833697178,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0176/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0177/realsense/rgb/0064.png": {
+      "bytes": 1227311,
+      "compressed": 1156444,
+      "crc32": 1916439514,
+      "offset": 11574764517,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0177/realsense/depth/0064.png": {
+      "bytes": 236915,
+      "compressed": 186722,
+      "crc32": 3296254090,
+      "offset": 11521140201,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/depth/0064.png"
+    },
+    "scenes/scene_0177/realsense/meta/0064.mat": {
+      "bytes": 766,
+      "compressed": 713,
+      "crc32": 1379186458,
+      "offset": 11569119672,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0177/realsense/annotations/0064.xml": {
+      "bytes": 1986,
+      "compressed": 457,
+      "crc32": 2075051668,
+      "offset": 11569074157,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0177/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 11520166690,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0177/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 11517663715,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0177/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0178/realsense/rgb/0064.png": {
+      "bytes": 1126164,
+      "compressed": 1046706,
+      "crc32": 358276469,
+      "offset": 12256281477,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0178/realsense/depth/0064.png": {
+      "bytes": 203889,
+      "compressed": 163082,
+      "crc32": 107180163,
+      "offset": 12208385168,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/depth/0064.png"
+    },
+    "scenes/scene_0178/realsense/meta/0064.mat": {
+      "bytes": 661,
+      "compressed": 600,
+      "crc32": 3741779955,
+      "offset": 12250893657,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0178/realsense/annotations/0064.xml": {
+      "bytes": 1341,
+      "compressed": 336,
+      "crc32": 1119172428,
+      "offset": 12250856221,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0178/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 12207500287,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0178/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 12205574895,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0178/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0179/realsense/rgb/0064.png": {
+      "bytes": 1124142,
+      "compressed": 1044408,
+      "crc32": 1254400427,
+      "offset": 12905875513,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0179/realsense/depth/0064.png": {
+      "bytes": 200277,
+      "compressed": 162562,
+      "crc32": 200918160,
+      "offset": 12857489513,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/depth/0064.png"
+    },
+    "scenes/scene_0179/realsense/meta/0064.mat": {
+      "bytes": 661,
+      "compressed": 600,
+      "crc32": 3082227816,
+      "offset": 12900376926,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0179/realsense/annotations/0064.xml": {
+      "bytes": 1341,
+      "compressed": 338,
+      "crc32": 2014079499,
+      "offset": 12900339550,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0179/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 12856600898,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0179/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 12854533212,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0179/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0180/realsense/rgb/0064.png": {
+      "bytes": 1140235,
+      "compressed": 1059978,
+      "crc32": 2975855218,
+      "offset": 13561123250,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0180/realsense/depth/0064.png": {
+      "bytes": 206352,
+      "compressed": 168493,
+      "crc32": 522729240,
+      "offset": 13512155120,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/depth/0064.png"
+    },
+    "scenes/scene_0180/realsense/meta/0064.mat": {
+      "bytes": 659,
+      "compressed": 598,
+      "crc32": 2269221675,
+      "offset": 13555624622,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0180/realsense/annotations/0064.xml": {
+      "bytes": 1339,
+      "compressed": 336,
+      "crc32": 3632777359,
+      "offset": 13555587216,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0180/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 13511252693,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0180/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 13509090522,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0180/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0181/realsense/rgb/0064.png": {
+      "bytes": 1123844,
+      "compressed": 1046621,
+      "crc32": 41125572,
+      "offset": 14220369313,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0181/realsense/depth/0064.png": {
+      "bytes": 221763,
+      "compressed": 174494,
+      "crc32": 298568859,
+      "offset": 14169255122,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/depth/0064.png"
+    },
+    "scenes/scene_0181/realsense/meta/0064.mat": {
+      "bytes": 875,
+      "compressed": 828,
+      "crc32": 1081658933,
+      "offset": 14214891659,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0181/realsense/annotations/0064.xml": {
+      "bytes": 2463,
+      "compressed": 527,
+      "crc32": 3874789026,
+      "offset": 14214839768,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0181/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 14168301969,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0181/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 14165771881,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0181/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0182/realsense/rgb/0064.png": {
+      "bytes": 1121064,
+      "compressed": 1044421,
+      "crc32": 470099239,
+      "offset": 14877147436,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0182/realsense/depth/0064.png": {
+      "bytes": 221765,
+      "compressed": 174993,
+      "crc32": 1521936140,
+      "offset": 14825826636,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/depth/0064.png"
+    },
+    "scenes/scene_0182/realsense/meta/0064.mat": {
+      "bytes": 876,
+      "compressed": 832,
+      "crc32": 3320329583,
+      "offset": 14871646080,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0182/realsense/annotations/0064.xml": {
+      "bytes": 2464,
+      "compressed": 528,
+      "crc32": 368524275,
+      "offset": 14871594105,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0182/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 14824872220,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0182/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 14822400038,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0182/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0183/realsense/rgb/0064.png": {
+      "bytes": 1170717,
+      "compressed": 1106152,
+      "crc32": 378866362,
+      "offset": 15529259669,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0183/realsense/depth/0064.png": {
+      "bytes": 222935,
+      "compressed": 177418,
+      "crc32": 3131304905,
+      "offset": 15477319781,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/depth/0064.png"
+    },
+    "scenes/scene_0183/realsense/meta/0064.mat": {
+      "bytes": 817,
+      "compressed": 767,
+      "crc32": 366304274,
+      "offset": 15523595070,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0183/realsense/annotations/0064.xml": {
+      "bytes": 2180,
+      "compressed": 480,
+      "crc32": 52749150,
+      "offset": 15523547120,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0183/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 15476348838,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0183/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 15473416541,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0183/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0184/realsense/rgb/0064.png": {
+      "bytes": 1200290,
+      "compressed": 1128664,
+      "crc32": 2536809898,
+      "offset": 16213591537,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0184/realsense/depth/0064.png": {
+      "bytes": 217198,
+      "compressed": 175322,
+      "crc32": 2175365611,
+      "offset": 16161646445,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/depth/0064.png"
+    },
+    "scenes/scene_0184/realsense/meta/0064.mat": {
+      "bytes": 817,
+      "compressed": 767,
+      "crc32": 472359879,
+      "offset": 16207912320,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0184/realsense/annotations/0064.xml": {
+      "bytes": 2180,
+      "compressed": 477,
+      "crc32": 1988096152,
+      "offset": 16207864379,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0184/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 16160696325,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0184/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 16157552007,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0184/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0185/realsense/rgb/0064.png": {
+      "bytes": 1214598,
+      "compressed": 1143073,
+      "crc32": 3298170357,
+      "offset": 16899838687,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0185/realsense/depth/0064.png": {
+      "bytes": 227651,
+      "compressed": 181913,
+      "crc32": 2836256237,
+      "offset": 16847541718,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/depth/0064.png"
+    },
+    "scenes/scene_0185/realsense/meta/0064.mat": {
+      "bytes": 820,
+      "compressed": 772,
+      "crc32": 658683253,
+      "offset": 16894217640,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0185/realsense/annotations/0064.xml": {
+      "bytes": 2182,
+      "compressed": 481,
+      "crc32": 2531990839,
+      "offset": 16894169758,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0185/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 16846586931,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0185/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 16843362484,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0185/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0186/realsense/rgb/0064.png": {
+      "bytes": 1231790,
+      "compressed": 1166949,
+      "crc32": 1470527333,
+      "offset": 17572542891,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0186/realsense/depth/0064.png": {
+      "bytes": 225124,
+      "compressed": 178639,
+      "crc32": 2059785946,
+      "offset": 17521096579,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/depth/0064.png"
+    },
+    "scenes/scene_0186/realsense/meta/0064.mat": {
+      "bytes": 715,
+      "compressed": 658,
+      "crc32": 248597046,
+      "offset": 17566892210,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0186/realsense/annotations/0064.xml": {
+      "bytes": 1683,
+      "compressed": 413,
+      "crc32": 2588871570,
+      "offset": 17566850061,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0186/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 17520161656,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0186/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 17517989341,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0186/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0187/realsense/rgb/0064.png": {
+      "bytes": 1126131,
+      "compressed": 1043760,
+      "crc32": 3686261398,
+      "offset": 18254097460,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0187/realsense/depth/0064.png": {
+      "bytes": 201536,
+      "compressed": 160843,
+      "crc32": 2942346233,
+      "offset": 18206727166,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/depth/0064.png"
+    },
+    "scenes/scene_0187/realsense/meta/0064.mat": {
+      "bytes": 607,
+      "compressed": 541,
+      "crc32": 3483267046,
+      "offset": 18248859815,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0187/realsense/annotations/0064.xml": {
+      "bytes": 1131,
+      "compressed": 323,
+      "crc32": 2429896745,
+      "offset": 18248824613,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0187/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 178,
+      "crc32": 1715564517,
+      "offset": 18205841965,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0187/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 23956,
+      "crc32": 2942794720,
+      "offset": 18204346803,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0187/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0188/realsense/rgb/0064.png": {
+      "bytes": 1143841,
+      "compressed": 1066833,
+      "crc32": 3923722388,
+      "offset": 18898974870,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0188/realsense/depth/0064.png": {
+      "bytes": 205129,
+      "compressed": 164453,
+      "crc32": 1319655854,
+      "offset": 18850309985,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/depth/0064.png"
+    },
+    "scenes/scene_0188/realsense/meta/0064.mat": {
+      "bytes": 877,
+      "compressed": 832,
+      "crc32": 1134573818,
+      "offset": 18893370076,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0188/realsense/annotations/0064.xml": {
+      "bytes": 2568,
+      "compressed": 537,
+      "crc32": 3379840068,
+      "offset": 18893317815,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0188/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 18849427022,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0188/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 10472,
+      "crc32": 519776341,
+      "offset": 18846935121,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0188/realsense/camera_poses.npy"
+    },
+    "scenes/scene_0189/realsense/rgb/0064.png": {
+      "bytes": 1245070,
+      "compressed": 1180562,
+      "crc32": 896322847,
+      "offset": 19562153469,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/rgb/0064.png"
+    },
+    "scenes/scene_0189/realsense/depth/0064.png": {
+      "bytes": 217001,
+      "compressed": 169588,
+      "crc32": 4054998041,
+      "offset": 19511356458,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/depth/0064.png"
+    },
+    "scenes/scene_0189/realsense/meta/0064.mat": {
+      "bytes": 763,
+      "compressed": 709,
+      "crc32": 991198927,
+      "offset": 19556270975,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/meta/0064.mat"
+    },
+    "scenes/scene_0189/realsense/annotations/0064.xml": {
+      "bytes": 1975,
+      "compressed": 460,
+      "crc32": 866341915,
+      "offset": 19556225300,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/annotations/0064.xml"
+    },
+    "scenes/scene_0189/realsense/cam0_wrt_table.npy": {
+      "bytes": 256,
+      "compressed": 177,
+      "crc32": 3609530695,
+      "offset": 19510444743,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/cam0_wrt_table.npy"
+    },
+    "scenes/scene_0189/realsense/camera_poses.npy": {
+      "bytes": 32896,
+      "compressed": 16092,
+      "crc32": 2409261645,
+      "offset": 19508084946,
+      "method": 8,
+      "archive": "test_novel.zip",
+      "source": "scene_0189/realsense/camera_poses.npy"
+    },
+    "models/080/nontextured.ply": {
+      "bytes": 55359381,
+      "compressed": 29078698,
+      "crc32": 2093273012,
+      "offset": 35242685,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/080/nontextured.ply"
+    },
+    "models/080/textured.sdf": {
+      "bytes": 10205605,
+      "compressed": 3545979,
+      "crc32": 2884135880,
+      "offset": 68782983,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/080/textured.sdf"
+    },
+    "models/080/textured.obj": {
+      "bytes": 201656012,
+      "compressed": 57330405,
+      "crc32": 2307097248,
+      "offset": 72329043,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/080/textured.obj"
+    },
+    "models/073/nontextured.ply": {
+      "bytes": 62371443,
+      "compressed": 34315669,
+      "crc32": 2822823154,
+      "offset": 274349119,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/073/nontextured.ply"
+    },
+    "models/073/textured.sdf": {
+      "bytes": 10505430,
+      "compressed": 3657459,
+      "crc32": 3537162466,
+      "offset": 312956414,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/073/textured.sdf"
+    },
+    "models/073/textured.obj": {
+      "bytes": 200703186,
+      "compressed": 59053711,
+      "crc32": 4108376246,
+      "offset": 316613954,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/073/textured.obj"
+    },
+    "models/087/nontextured.ply": {
+      "bytes": 36839794,
+      "compressed": 19368651,
+      "crc32": 659214536,
+      "offset": 419154726,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/087/nontextured.ply"
+    },
+    "models/087/textured.sdf": {
+      "bytes": 10297584,
+      "compressed": 3621542,
+      "crc32": 3679992373,
+      "offset": 443382464,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/087/textured.sdf"
+    },
+    "models/087/textured.obj": {
+      "bytes": 133254102,
+      "compressed": 37695165,
+      "crc32": 3361720545,
+      "offset": 447004087,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/087/textured.obj"
+    },
+    "models/074/nontextured.ply": {
+      "bytes": 34921940,
+      "compressed": 19884731,
+      "crc32": 817886522,
+      "offset": 657061149,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/074/nontextured.ply"
+    },
+    "models/074/textured.sdf": {
+      "bytes": 9649668,
+      "compressed": 3509620,
+      "crc32": 3431614237,
+      "offset": 696119788,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/074/textured.sdf"
+    },
+    "models/074/textured.obj": {
+      "bytes": 111291368,
+      "compressed": 33153358,
+      "crc32": 1815778928,
+      "offset": 699629489,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/074/textured.obj"
+    },
+    "models/082/nontextured.ply": {
+      "bytes": 29706604,
+      "compressed": 15456016,
+      "crc32": 3126518800,
+      "offset": 923331940,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/082/nontextured.ply"
+    },
+    "models/082/textured.sdf": {
+      "bytes": 10346513,
+      "compressed": 3498396,
+      "crc32": 3404255380,
+      "offset": 940912249,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/082/textured.sdf"
+    },
+    "models/082/textured.obj": {
+      "bytes": 107308883,
+      "compressed": 30177624,
+      "crc32": 1825691706,
+      "offset": 944410726,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/082/textured.obj"
+    },
+    "models/086/nontextured.ply": {
+      "bytes": 36709630,
+      "compressed": 19457465,
+      "crc32": 1400303920,
+      "offset": 1373709253,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/086/nontextured.ply"
+    },
+    "models/086/textured.sdf": {
+      "bytes": 10155359,
+      "compressed": 3526798,
+      "crc32": 4037369984,
+      "offset": 1397333049,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/086/textured.sdf"
+    },
+    "models/086/textured.obj": {
+      "bytes": 132881342,
+      "compressed": 38755360,
+      "crc32": 2567775735,
+      "offset": 1400859928,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/086/textured.obj"
+    },
+    "models/085/nontextured.ply": {
+      "bytes": 41222973,
+      "compressed": 21738314,
+      "crc32": 1329575751,
+      "offset": 1561012446,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/085/nontextured.ply"
+    },
+    "models/085/textured.sdf": {
+      "bytes": 10298163,
+      "compressed": 3596198,
+      "crc32": 3947962387,
+      "offset": 1588839766,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/085/textured.sdf"
+    },
+    "models/085/textured.obj": {
+      "bytes": 149544759,
+      "compressed": 42738224,
+      "crc32": 3413956373,
+      "offset": 1592436045,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/085/textured.obj"
+    },
+    "models/081/nontextured.ply": {
+      "bytes": 19871456,
+      "compressed": 10445718,
+      "crc32": 61081174,
+      "offset": 1658357983,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/081/nontextured.ply"
+    },
+    "models/081/textured.sdf": {
+      "bytes": 10047257,
+      "compressed": 3548802,
+      "crc32": 800441680,
+      "offset": 1672238098,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/081/textured.sdf"
+    },
+    "models/081/textured.obj": {
+      "bytes": 70739500,
+      "compressed": 20233669,
+      "crc32": 3457292194,
+      "offset": 1675786981,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/081/textured.obj"
+    },
+    "models/077/nontextured.ply": {
+      "bytes": 23107116,
+      "compressed": 12179650,
+      "crc32": 1583137960,
+      "offset": 1696021009,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/077/nontextured.ply"
+    },
+    "models/077/textured.sdf": {
+      "bytes": 10146687,
+      "compressed": 3518255,
+      "crc32": 3206727349,
+      "offset": 1711242688,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/077/textured.sdf"
+    },
+    "models/077/textured.obj": {
+      "bytes": 82935979,
+      "compressed": 23820599,
+      "crc32": 3715310021,
+      "offset": 1714761024,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/077/textured.obj"
+    },
+    "models/079/nontextured.ply": {
+      "bytes": 25798008,
+      "compressed": 13561710,
+      "crc32": 3571435611,
+      "offset": 1772713386,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/079/nontextured.ply"
+    },
+    "models/079/textured.sdf": {
+      "bytes": 10059008,
+      "compressed": 3527293,
+      "crc32": 3709640651,
+      "offset": 1789903892,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/079/textured.sdf"
+    },
+    "models/079/textured.obj": {
+      "bytes": 92855505,
+      "compressed": 26596290,
+      "crc32": 3192683166,
+      "offset": 1793431266,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/079/textured.obj"
+    },
+    "models/078/nontextured.ply": {
+      "bytes": 38340669,
+      "compressed": 20078871,
+      "crc32": 2865156803,
+      "offset": 1939589012,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/078/nontextured.ply"
+    },
+    "models/078/textured.sdf": {
+      "bytes": 10218591,
+      "compressed": 3545326,
+      "crc32": 4210913883,
+      "offset": 1963703926,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/078/textured.sdf"
+    },
+    "models/078/textured.obj": {
+      "bytes": 139249719,
+      "compressed": 39741288,
+      "crc32": 2358270145,
+      "offset": 1967249333,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/078/textured.obj"
+    },
+    "models/071/nontextured.ply": {
+      "bytes": 56378341,
+      "compressed": 30791742,
+      "crc32": 556605129,
+      "offset": 2395713983,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/071/nontextured.ply"
+    },
+    "models/071/textured.sdf": {
+      "bytes": 10790946,
+      "compressed": 3637294,
+      "crc32": 346324804,
+      "offset": 2431240933,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/071/textured.sdf"
+    },
+    "models/071/textured.obj": {
+      "bytes": 185081202,
+      "compressed": 53173264,
+      "crc32": 1594153187,
+      "offset": 2434878308,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/071/textured.obj"
+    },
+    "models/083/nontextured.ply": {
+      "bytes": 55668799,
+      "compressed": 29597914,
+      "crc32": 3970183129,
+      "offset": 2600557003,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/083/nontextured.ply"
+    },
+    "models/083/textured.sdf": {
+      "bytes": 10304272,
+      "compressed": 3580706,
+      "crc32": 1110073602,
+      "offset": 2635360839,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/083/textured.sdf"
+    },
+    "models/083/textured.obj": {
+      "bytes": 202987809,
+      "compressed": 58973418,
+      "crc32": 2897533075,
+      "offset": 2638941626,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/083/textured.obj"
+    },
+    "models/072/nontextured.ply": {
+      "bytes": 60397029,
+      "compressed": 33438077,
+      "crc32": 1601707373,
+      "offset": 2801588259,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/072/nontextured.ply"
+    },
+    "models/072/textured.sdf": {
+      "bytes": 10532404,
+      "compressed": 3637933,
+      "crc32": 3900221795,
+      "offset": 2837901695,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/072/textured.sdf"
+    },
+    "models/072/textured.obj": {
+      "bytes": 198342020,
+      "compressed": 58225671,
+      "crc32": 3003537435,
+      "offset": 2841539709,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/072/textured.obj"
+    },
+    "models/075/nontextured.ply": {
+      "bytes": 39756935,
+      "compressed": 20929597,
+      "crc32": 1051012918,
+      "offset": 3446987990,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/075/nontextured.ply"
+    },
+    "models/075/textured.sdf": {
+      "bytes": 10249767,
+      "compressed": 3610653,
+      "crc32": 2641375796,
+      "offset": 3474476850,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/075/textured.sdf"
+    },
+    "models/075/textured.obj": {
+      "bytes": 144054770,
+      "compressed": 42036691,
+      "crc32": 603399104,
+      "offset": 3478087584,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/075/textured.obj"
+    },
+    "models/084/nontextured.ply": {
+      "bytes": 33419736,
+      "compressed": 17563639,
+      "crc32": 587903037,
+      "offset": 4123724596,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/084/nontextured.ply"
+    },
+    "models/084/textured.sdf": {
+      "bytes": 10192940,
+      "compressed": 3571930,
+      "crc32": 2189473750,
+      "offset": 4145568241,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/084/textured.sdf"
+    },
+    "models/084/textured.obj": {
+      "bytes": 120807872,
+      "compressed": 35181177,
+      "crc32": 922998075,
+      "offset": 4149140252,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/084/textured.obj"
+    },
+    "models/076/nontextured.ply": {
+      "bytes": 47187067,
+      "compressed": 24921220,
+      "crc32": 3071151426,
+      "offset": 4316733777,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/076/nontextured.ply"
+    },
+    "models/076/textured.sdf": {
+      "bytes": 10507126,
+      "compressed": 3676014,
+      "crc32": 1273302905,
+      "offset": 4347064440,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/076/textured.sdf"
+    },
+    "models/076/textured.obj": {
+      "bytes": 171458251,
+      "compressed": 49225278,
+      "crc32": 220236672,
+      "offset": 4350740535,
+      "method": 8,
+      "archive": "models.zip",
+      "source": "models/076/textured.obj"
+    }
+  },
+  "archives": {
+    "test_seen.zip": {
+      "url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb/test_seen.zip",
+      "size": 21030399595,
+      "etag": "\"9b9124965c2e043daa9845808a23170bce851596e41bcf863fe3875e7503bacd\""
+    },
+    "test_similar.zip": {
+      "url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb/test_similar.zip",
+      "size": 20713228052,
+      "etag": "\"52a4799aa31e6375028f6798b6898c8883e71b0e57d586810f9e81eb04b2cb5c\""
+    },
+    "test_novel.zip": {
+      "url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb/test_novel.zip",
+      "size": 20202295891,
+      "etag": "\"69d89cc7e562f1f133ddc1e047469640fb2d2994cafc52c5365fd4d34719a8f9\""
+    },
+    "models.zip": {
+      "url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb/models.zip",
+      "size": 4599338858,
+      "etag": "\"7bf30437d9d6ccf5745b546bdfd4ba3f2ef5c549b74fef7d0c3754512e508e96\""
+    }
+  },
+  "limits": {
+    "bytes": 6442450944,
+    "network_bytes": 6442450944,
+    "seconds": 7200,
+    "workers": 4,
+    "chunk_bytes": 16777216
+  }
+}

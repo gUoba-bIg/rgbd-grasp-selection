@@ -1,0 +1,409 @@
+{
+  "version": "IP140-R1/smoke01",
+  "model": "ur5e_ip140_r1.urdf",
+  "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+  "purpose": "Engineering smoke only; design targets and provenance, not engine readback",
+  "provenance": {
+    "IP140-R1_执行端替换两页协议_小修02.pdf": "3a1b30adc529a7a8536b03e6aba4d200a9545d6083da5c245ab624b2a1e4579e",
+    "IP140-R1_参数与证据附表_小修02.pdf": "ebda80ada9f7dac264bef1a4cc60bb4c3807429788784cf1e2ab7015abb02389",
+    "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950"
+  },
+  "reused_arm_asset_sha256": {
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_base.obj": "8b33fd01fbfd3ec681fa0b7a58871bb8e3734b9891b2119f62bb4abc31fad478",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_shoulder.obj": "1212509d24e94e336d8b7e6e462c5d317812e4172aafd0ef9fa786ba3ef7bc7c",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_shoulder.stl": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_upperarm.obj": "81529558f226c1589c132ee583eed0d34bf2e0063d3c7f1dc557506c659e01f8",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_upperarm.stl": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_forearm.obj": "613f6cee150f5d8581012fbcbfd3dc35ccc85d52e402eb3062f11243584e9d92",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_forearm.stl": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist1.obj": "354806606ccbe6c056f66b169c9da91b76268c13b4bafe81e36ea88ccd4a661b",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist1.stl": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist2.obj": "a17e39221db76947f2155afb8970cff3ecc07b45296bc92e5f3df629f3bfe0eb",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist2.stl": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist3.obj": "11aeeb64a0fc0d6bfa839db67fd57db0143ccdc246eb3a1be51b877748ef66ed",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist3.stl": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+    "data/simulation_v52/robot/meshes/material.mtl": "14b5e00f03f6273b7e1cd38e0031e1211ce9493bd43d6e43f44ac9558ac654f2"
+  },
+  "flange_link": "flange",
+  "G_link": "ip140_palm",
+  "F_T_G": [
+    [
+      1,
+      0,
+      0,
+      0.07
+    ],
+    [
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "units": "SI: m, kg, s, rad, N, kg*m^2",
+  "model_type": "single width command, two symmetric independent prismatic sliders",
+  "components": {
+    "ip140_palm": {
+      "shape": "GEOM_BOX",
+      "box_size_m": [
+        0.01,
+        0.16,
+        0.02
+      ],
+      "center_in_link_m": [
+        -0.065,
+        0,
+        0
+      ],
+      "com_at_zero_in_G_m": [
+        -0.065,
+        0,
+        0
+      ],
+      "orientation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass_kg": 0.0864,
+      "inertia_at_com_kg_m2": [
+        0.0001872,
+        3.6e-06,
+        0.00018504
+      ],
+      "inertia_offdiagonal": [
+        0,
+        0,
+        0
+      ],
+      "lateralFriction": 0.5,
+      "rollingFriction": 0.0,
+      "spinningFriction": 0.0,
+      "restitution": 0.0,
+      "collisionMargin_m": 0.0005,
+      "linearDamping": 0.0,
+      "angularDamping": 0.0
+    },
+    "ip140_left_bone": {
+      "shape": "GEOM_BOX",
+      "box_size_m": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "center_in_link_m": [
+        0.03,
+        -0.006,
+        0
+      ],
+      "com_at_zero_in_G_m": [
+        -0.03,
+        -0.006,
+        0
+      ],
+      "orientation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass_kg": 0.02592,
+      "inertia_at_com_kg_m2": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "inertia_offdiagonal": [
+        0,
+        0,
+        0
+      ],
+      "lateralFriction": 0.5,
+      "rollingFriction": 0.0,
+      "spinningFriction": 0.0,
+      "restitution": 0.0,
+      "collisionMargin_m": 0.0005,
+      "linearDamping": 0.0,
+      "angularDamping": 0.0
+    },
+    "ip140_left_pad": {
+      "shape": "GEOM_BOX",
+      "box_size_m": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "center_in_link_m": [
+        0.03,
+        -0.001,
+        0
+      ],
+      "com_at_zero_in_G_m": [
+        -0.03,
+        -0.001,
+        0
+      ],
+      "orientation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass_kg": 0.00264,
+      "inertia_at_com_kg_m2": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "inertia_offdiagonal": [
+        0,
+        0,
+        0
+      ],
+      "lateralFriction": 1.0,
+      "rollingFriction": 0.0,
+      "spinningFriction": 0.0,
+      "restitution": 0.0,
+      "collisionMargin_m": 0.0005,
+      "linearDamping": 0.0,
+      "angularDamping": 0.0
+    },
+    "ip140_right_bone": {
+      "shape": "GEOM_BOX",
+      "box_size_m": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "center_in_link_m": [
+        0.03,
+        0.006,
+        0
+      ],
+      "com_at_zero_in_G_m": [
+        -0.03,
+        0.006,
+        0
+      ],
+      "orientation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass_kg": 0.02592,
+      "inertia_at_com_kg_m2": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "inertia_offdiagonal": [
+        0,
+        0,
+        0
+      ],
+      "lateralFriction": 0.5,
+      "rollingFriction": 0.0,
+      "spinningFriction": 0.0,
+      "restitution": 0.0,
+      "collisionMargin_m": 0.0005,
+      "linearDamping": 0.0,
+      "angularDamping": 0.0
+    },
+    "ip140_right_pad": {
+      "shape": "GEOM_BOX",
+      "box_size_m": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "center_in_link_m": [
+        0.03,
+        0.001,
+        0
+      ],
+      "com_at_zero_in_G_m": [
+        -0.03,
+        0.001,
+        0
+      ],
+      "orientation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "mass_kg": 0.00264,
+      "inertia_at_com_kg_m2": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "inertia_offdiagonal": [
+        0,
+        0,
+        0
+      ],
+      "lateralFriction": 1.0,
+      "rollingFriction": 0.0,
+      "spinningFriction": 0.0,
+      "restitution": 0.0,
+      "collisionMargin_m": 0.0005,
+      "linearDamping": 0.0,
+      "angularDamping": 0.0
+    }
+  },
+  "joints": {
+    "ip140_mount": {
+      "type": "fixed",
+      "parent": "flange",
+      "child": "ip140_palm",
+      "xyz_m": [
+        0.07,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    "ip140_left_slide": {
+      "type": "prismatic",
+      "parent": "ip140_palm",
+      "child": "ip140_left_bone",
+      "xyz_m": [
+        -0.06,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0,
+        0,
+        0
+      ],
+      "axis_in_joint_frame": [
+        0,
+        -1,
+        0
+      ],
+      "limits_m": [
+        0,
+        0.07
+      ],
+      "open_at_positive_q": true,
+      "zero_position_m": 0.0,
+      "motor": {
+        "controlMode": "POSITION_CONTROL",
+        "positionGain": 0.1,
+        "velocityGain": 1.0,
+        "targetVelocity": 0.0,
+        "force_N_per_slider": 20.0,
+        "maxVelocity_m_s_per_slider": 0.04,
+        "reference_slew_m_s_per_slider": 0.04,
+        "jointDamping_Ns_m": 1.0,
+        "jointDryFriction_N": 0.0
+      }
+    },
+    "ip140_left_pad_mount": {
+      "type": "fixed",
+      "parent": "ip140_left_bone",
+      "child": "ip140_left_pad",
+      "xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ip140_right_slide": {
+      "type": "prismatic",
+      "parent": "ip140_palm",
+      "child": "ip140_right_bone",
+      "xyz_m": [
+        -0.06,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0,
+        0,
+        0
+      ],
+      "axis_in_joint_frame": [
+        0,
+        1,
+        0
+      ],
+      "limits_m": [
+        0,
+        0.07
+      ],
+      "open_at_positive_q": true,
+      "zero_position_m": 0.0,
+      "motor": {
+        "controlMode": "POSITION_CONTROL",
+        "positionGain": 0.1,
+        "velocityGain": 1.0,
+        "targetVelocity": 0.0,
+        "force_N_per_slider": 20.0,
+        "maxVelocity_m_s_per_slider": 0.04,
+        "reference_slew_m_s_per_slider": 0.04,
+        "jointDamping_Ns_m": 1.0,
+        "jointDryFriction_N": 0.0
+      }
+    },
+    "ip140_right_pad_mount": {
+      "type": "fixed",
+      "parent": "ip140_right_bone",
+      "child": "ip140_right_pad",
+      "xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "required_distinct_pad_links": [
+    "ip140_left_pad",
+    "ip140_right_pad"
+  ],
+  "merge_fixed_links": false,
+  "gear_mimic_or_loop_count": 0,
+  "gripper_mass_kg": 0.14352,
+  "load_contract": {
+    "useFixedBase": true,
+    "retain_file_inertias": true,
+    "self_collision": true,
+    "include_parent_collisions": true,
+    "fixed_link_merging": false,
+    "wholesale_pair_exclusions_for_new_geometry": false
+  },
+  "readback_contract": "Margin/damping and motor properties require runtime setup and engine verification; URDF values and setters are not acceptance.",
+  "pad_inner_faces_G": "yL=-q_left, yR=+q_right; x in [-.060,0], z in [-.010,.010]; no negative endpoint command.",
+  "design_assumptions": "Gripper masses, inertias, gains, friction and control settings are simulation design choices, not measured hardware values."
+}

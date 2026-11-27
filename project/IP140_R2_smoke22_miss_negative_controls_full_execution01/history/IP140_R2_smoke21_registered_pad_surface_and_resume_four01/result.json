@@ -1,0 +1,795 @@
+{
+  "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+  "scope": "six version-labelled engineering candidates; current nominal017 is corrective development",
+  "charged": 1,
+  "budget": 14,
+  "cumulative_starts": 11,
+  "remaining": 3,
+  "order": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "stopped_batch_at": [],
+  "static_replay_passed": true,
+  "historical_files": 3308,
+  "historical_files_preserved": true,
+  "history_smoke20": "slot9 rejected by the original FLAT admission",
+  "independent_multiobject_confirmation": false,
+  "algorithm_evaluation_started": false,
+  "outcomes": [
+    {
+      "kind": "nominal",
+      "object_id": "021",
+      "slot": 14,
+      "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+      "scope": "开发纠错桥接",
+      "charged_this_batch": false,
+      "candidate_id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+      "outcome": "historical_nominal_grasp_success",
+      "physical": {
+        "candidate_id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+        "object_id": "021",
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "unknown_steps": 0,
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": true,
+        "slot_passed": true,
+        "max_lift_m": 0.1499920862633893,
+        "slipped": false,
+        "final_hold_streak": 720,
+        "terminal_observation_count": 480,
+        "terminal_observation_counts": {
+          "observed": 480,
+          "at_required_height": 480,
+          "bilateral": 480,
+          "table_supported": 0,
+          "aggregate_table_supported": 0,
+          "table_contact_present": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "no_effective_pad": 0
+        },
+        "failure_reason": [],
+        "failure_stage": null,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "outcome_class": null,
+        "telemetry_sha256": "7b45d1d61d7ccbd26167530eb679df0fa344b9238ddcebf73b2e2f41c3fc4b34"
+      },
+      "episode_source": {
+        "path": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/episodes/14/result.json",
+        "sha256": "e5ba4db0bfa0075bda6a5af36ddc891998d9c909f74e083cc0c58456a436bc78"
+      }
+    },
+    {
+      "kind": "nominal",
+      "object_id": "014",
+      "slot": 8,
+      "version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+      "scope": "历史工程正例",
+      "charged_this_batch": false,
+      "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+      "outcome": "historical_nominal_grasp_success",
+      "physical": {
+        "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+        "object_id": "014",
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "unknown_steps": 0,
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": true,
+        "slot_passed": true,
+        "max_lift_m": 0.14998945336851255,
+        "slipped": false,
+        "final_hold_streak": 720,
+        "terminal_observation_count": 480,
+        "terminal_observation_counts": {
+          "observed": 480,
+          "at_required_height": 480,
+          "bilateral": 480,
+          "table_supported": 0,
+          "aggregate_table_supported": 0,
+          "table_contact_present": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "no_effective_pad": 0
+        },
+        "failure_reason": [],
+        "failure_stage": null,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "outcome_class": "nominal_success",
+        "telemetry_sha256": "671b3ce2605b4d477b8196cf4ca3492e098736e070680625f0f4f00bf5d41c41"
+      },
+      "episode_source": {
+        "path": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01/slots/08/episodes/08/result.json",
+        "sha256": "2e2db2f005d80cf911d8c808eef75adf1e07176fc7143d4ce8c7ba0dd0ee1e3c"
+      }
+    },
+    {
+      "kind": "nominal",
+      "object_id": "017",
+      "slot": 9,
+      "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+      "scope": "R2开发纠错",
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "vector_sha256": "e1b34f7691654aa4f487db6dd92a2c6df87336b863cafcc278c76e2c8252fbb8",
+      "charged_this_batch": true,
+      "outcome": "nominal_grasp_success",
+      "static_path_passed": true,
+      "static_snapshots": 4728,
+      "static_failure": null,
+      "static_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 480,
+        "lift": 792,
+        "hold": 720
+      },
+      "static_receipt": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/static_admission_receipt.json",
+        "sha256": "33fb7d0e86eac0ebe1efe1f15da326a6d7643309a6852296161287245b0e0206"
+      },
+      "roots": {
+        "left": {
+          "status": "geometric_entry_localized",
+          "passed": true,
+          "previous_snapshot": 2760,
+          "current_snapshot": 2761,
+          "previous_signed_distance_m": 9.93843752128598e-05,
+          "current_signed_distance_m": -2.5902105848273895e-05,
+          "q_entry_m": 0.03080095764393101,
+          "bracket": {
+            "q_clear_m": 0.03080095764393101,
+            "q_overlap_m": 0.03080095756644497,
+            "d_clear_m": 2.4088553851261962e-11,
+            "d_overlap_m": -3.4694172231300446e-11,
+            "width_m": 7.748603841895019e-11
+          },
+          "violations": [],
+          "entry_audit": {
+            "passed": true,
+            "violations": [],
+            "registered_surface": {
+              "accepted": true,
+              "surface_type": "inner_tip_quarter_cylinder",
+              "geometric_surface_member": true,
+              "unit_normal": true,
+              "analytic_axis_xy_m": [
+                0.0595,
+                -0.0005
+              ],
+              "registered_radius_m": 0.0005,
+              "axis_z_limits_m": [
+                -0.0095,
+                0.0095
+              ],
+              "in_quarter_sector": true,
+              "radial_length_m": 0.000500000000000007,
+              "radial_residual_m": 6.938893903907228e-18,
+              "analytic_arc_outward_normal": [
+                0.6515290488308032,
+                0.7586236870343745,
+                0.0
+              ],
+              "normal_vector_error": 2.845985675765381e-14,
+              "distance_tolerance_m": 1e-09,
+              "normal_vector_tolerance": 1e-09,
+              "flat_plane_residual_m": 0.00012068815648280749,
+              "inner_normal_alignment": 0.7586236870343561
+            },
+            "signed_distance_m": 2.4088553851261962e-11,
+            "native_endpoint_order": "pad_object",
+            "pad_witness_world_m": [
+              0.4516503767510395,
+              -0.058552474907012306,
+              0.02918052827392817
+            ],
+            "object_witness_world_m": [
+              0.45165037676931363,
+              -0.058552474907012306,
+              0.029180528258233775
+            ],
+            "pad_witness_pad_link_m": [
+              0.059825764524415403,
+              -0.00012068815648280749,
+              0.0013452000022317753
+            ],
+            "pad_witness_G_m": [
+              -0.00017423547558456363,
+              -0.03092164580041382,
+              0.0013452000022317798
+            ],
+            "native_normal_on_B": [
+              -0.7586236870343901,
+              8.818177527937339e-15,
+              0.6515290488307852
+            ],
+            "normal_pad_to_object_world": [
+              0.7586236870343901,
+              -8.818177527937339e-15,
+              -0.6515290488307852
+            ],
+            "normal_pad_to_object_pad": [
+              0.6515290488308249,
+              0.7586236870343561,
+              -1.2709098692957413e-15
+            ],
+            "normal_pad_to_object_G": [
+              0.6515290488308249,
+              0.7586236870343561,
+              -1.2709098692957413e-15
+            ],
+            "normal_unit_error": 0.0,
+            "full_witness_residual_m": 1.2475692433444245e-17,
+            "face_outside_m": 0.00012068815648280749,
+            "on_effective_inner_face": false,
+            "inward_normal_alignment": 0.7586236870343561,
+            "tip_depth_m": 0.0001742354755845943,
+            "tip_edge_risk": true,
+            "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+            "raw_normal_and_tangential_force_N": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "right": {
+          "status": "geometric_entry_localized",
+          "passed": true,
+          "previous_snapshot": 2790,
+          "current_snapshot": 2791,
+          "previous_signed_distance_m": 3.511288172766279e-05,
+          "current_signed_distance_m": -0.00012738711827229156,
+          "q_entry_m": 0.02601897699827442,
+          "bracket": {
+            "q_clear_m": 0.02601897699827442,
+            "q_overlap_m": 0.026018976920788382,
+            "d_clear_m": 6.02764648090226e-12,
+            "d_overlap_m": -7.145837112136622e-11,
+            "width_m": 7.748603841895019e-11
+          },
+          "violations": [],
+          "entry_audit": {
+            "passed": true,
+            "violations": [],
+            "registered_surface": {
+              "accepted": true,
+              "surface_type": "flat_inner_face",
+              "geometric_surface_member": true,
+              "unit_normal": true,
+              "analytic_axis_xy_m": [
+                0.0595,
+                0.0005
+              ],
+              "registered_radius_m": 0.0005,
+              "axis_z_limits_m": [
+                -0.0095,
+                0.0095
+              ],
+              "in_quarter_sector": false,
+              "radial_length_m": 0.0007046642279421844,
+              "radial_residual_m": 0.00020466422794218435,
+              "analytic_arc_outward_normal": [
+                -0.7046472359161842,
+                -0.7095578009688017,
+                0.0
+              ],
+              "normal_vector_error": 0.7621577251871141,
+              "distance_tolerance_m": 1e-09,
+              "normal_vector_tolerance": 1e-09,
+              "flat_plane_residual_m": 3.477617823842907e-17,
+              "inner_normal_alignment": 1.0
+            },
+            "signed_distance_m": 6.02764648090226e-12,
+            "native_endpoint_order": "pad_object",
+            "pad_witness_world_m": [
+              0.5085909995497276,
+              -0.062309596539754986,
+              0.030002832498815045
+            ],
+            "object_witness_world_m": [
+              0.5085909995437,
+              -0.062309596539754986,
+              0.030002832498815045
+            ],
+            "pad_witness_pad_link_m": [
+              0.059003460299531525,
+              -3.477617823842907e-17,
+              0.005102321634973945
+            ],
+            "pad_witness_G_m": [
+              -0.00099653970046845,
+              0.02601897699827442,
+              0.005102321634973946
+            ],
+            "native_normal_on_B": [
+              1.0,
+              -8.673617345029703e-15,
+              5.2041704070178216e-14
+            ],
+            "normal_pad_to_object_world": [
+              -1.0,
+              8.673617345029703e-15,
+              -5.2041704070178216e-14
+            ],
+            "normal_pad_to_object_pad": [
+              -1.3877808720418604e-16,
+              -1.0,
+              4.3021145689632683e-16
+            ],
+            "normal_pad_to_object_G": [
+              -1.3877808720418604e-16,
+              -1.0,
+              4.3021145689632683e-16
+            ],
+            "normal_unit_error": 0.0,
+            "full_witness_residual_m": 2.3635607360184e-17,
+            "face_outside_m": 3.477617823842907e-17,
+            "on_effective_inner_face": true,
+            "inward_normal_alignment": 1.0,
+            "tip_depth_m": 0.0009965397004684726,
+            "tip_edge_risk": true,
+            "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+            "raw_normal_and_tangential_force_N": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "static_api": {
+        "calls": 318568,
+        "returns": 318568,
+        "exceptions": [],
+        "filters": 14,
+        "step_calls": 0,
+        "step_returns": 0,
+        "opened": 1,
+        "disconnected": 1,
+        "confirmed": true,
+        "raw": {
+          "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "dd4222d4f62bda670daf36e4d974170e7481a63008d070a3f079f550934e61d4"
+        }
+      },
+      "dynamic_api": {
+        "calls": 123366,
+        "returns": 123366,
+        "exceptions": [],
+        "filters": 14,
+        "step_calls": 4728,
+        "step_returns": 4728,
+        "opened": 1,
+        "disconnected": 1,
+        "confirmed": true,
+        "raw": {
+          "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/full_api/calls.jsonl.gz",
+          "sha256": "a102556db5e676a78eed2c6fa2cc4aa01f9364854e8aa3d2008f287d97a304c4"
+        }
+      },
+      "worker_status": "engineering_complete",
+      "worker_error": null,
+      "physical": {
+        "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+        "object_id": "017",
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "unknown_steps": 0,
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": true,
+        "slot_passed": true,
+        "max_lift_m": 0.14998954557029007,
+        "slipped": false,
+        "final_hold_streak": 720,
+        "terminal_observation_count": 480,
+        "terminal_observation_counts": {
+          "observed": 480,
+          "at_required_height": 480,
+          "bilateral": 480,
+          "table_supported": 0,
+          "aggregate_table_supported": 0,
+          "table_contact_present": 0,
+          "left_only": 0,
+          "right_only": 0,
+          "no_effective_pad": 0
+        },
+        "failure_reason": [],
+        "failure_stage": null,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "outcome_class": "nominal_success",
+        "telemetry_sha256": "739cc2a131956525c3564865275626d7a163adf4c09b571fb571b86bdaac9ddc"
+      },
+      "detailed_metrics": {
+        "observed_states": 4728,
+        "raw_return_count_without_state": 0,
+        "states_by_phase": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "maximum_lift_m": 0.14998954557029007,
+        "last_observed_lift_m": 0.14998928340587525,
+        "effective_bilateral_steps": 1935,
+        "effective_steps_by_phase": {
+          "settle": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "opening": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "transit": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "pregrasp": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "approach": {
+            "left": 0,
+            "right": 0,
+            "bilateral": 0
+          },
+          "close": {
+            "left": 432,
+            "right": 423,
+            "bilateral": 423
+          },
+          "lift": {
+            "left": 792,
+            "right": 792,
+            "bilateral": 792
+          },
+          "hold": {
+            "left": 720,
+            "right": 720,
+            "bilateral": 720
+          }
+        },
+        "all_target_pad_point_labels": {
+          "witness_off_nominal_rounded_surface": 27164,
+          "flat_inner_face": 25059
+        },
+        "effective_target_pad_point_labels": {
+          "witness_off_nominal_rounded_surface": 5985,
+          "flat_inner_face": 3189
+        },
+        "steps_with_effective_surface_label": {
+          "witness_off_nominal_rounded_surface": 1944,
+          "flat_inner_face": 1830
+        },
+        "first_effective_rounded_tip_step": null,
+        "first_grasp_formed_step": 3345,
+        "first_slip_step": null,
+        "last_bilateral_through_slip": null,
+        "aggregate_table_support_steps": 3214,
+        "legacy_point_table_support_steps": 3068,
+        "terminal480": {
+          "actual_steps": 480,
+          "eligible_steps": 480,
+          "bilateral_steps": 480,
+          "aggregate_support_steps": 0,
+          "nonpad_contact_steps": 0,
+          "table_peak_summed_Fn_N": 0,
+          "lift_range_m": [
+            0.14998928340587525,
+            0.14998954552429763
+          ]
+        },
+        "nonpad_target_steps": 0,
+        "nonpad_target_point_records": 0,
+        "minimum_external_signed_distance": {
+          "step": 7,
+          "pair": "table.-1 / target.-1",
+          "signed_distance_m": -0.0005754474206087386,
+          "native_index": 0
+        },
+        "external_manifolds_by_pair": {
+          "table.-1 / target.-1": {
+            "point_records": 231696,
+            "minimum_signed_distance_m": -0.0005754474206087386,
+            "peak_point_Fn_N": 4.36342706452795,
+            "deepest_step": 7
+          },
+          "robot.ip140_left_pad / target.-1": {
+            "point_records": 11706,
+            "minimum_signed_distance_m": -6.250465741812104e-05,
+            "peak_point_Fn_N": 20.00073238746366,
+            "deepest_step": 2778
+          },
+          "robot.ip140_right_pad / target.-1": {
+            "point_records": 40517,
+            "minimum_signed_distance_m": -0.00018913622277651646,
+            "peak_point_Fn_N": 20.041139045516022,
+            "deepest_step": 2794
+          }
+        },
+        "peak_pad_target_point_normal_force": {
+          "step": 2794,
+          "side": "right",
+          "Fn_N": 20.041139045516022,
+          "native_index": 96
+        },
+        "peak_vector_sum_pad_forces_on_target": {
+          "step": 2778,
+          "norm_N": 1.4778601394050022,
+          "vector_N": [
+            1.384346844685301,
+            0.06944150544902794,
+            -0.5126717103303012
+          ]
+        },
+        "first_recorded_engineering_violation": null,
+        "finger_stats": {
+          "left": {
+            "max_abs_speed_m_s": 0.039971322200472385,
+            "speed_margin_m_s": 2.867779952761551e-05,
+            "peak_abs_motor_force_N": 20.0,
+            "motor_force_margin_N": 0.0,
+            "steps_at_least_19p8N": 1935,
+            "steps_at_least_20N": 1935
+          },
+          "right": {
+            "max_abs_speed_m_s": 0.039999933223943344,
+            "speed_margin_m_s": 6.677605665639241e-08,
+            "peak_abs_motor_force_N": 20.0,
+            "motor_force_margin_N": 0.0,
+            "steps_at_least_19p8N": 1935,
+            "steps_at_least_20N": 1935
+          }
+        },
+        "six_axis_arm_torque_Nm": {
+          "limits_Nm": [
+            150.0,
+            150.0,
+            150.0,
+            28.0,
+            28.0,
+            28.0
+          ],
+          "peak_abs_Nm": [
+            0.47567817768554616,
+            29.797781897208154,
+            20.499878554475917,
+            2.1637774515755654,
+            0.02570187766256707,
+            0.0046905559423712755
+          ],
+          "minimum_margin_Nm": [
+            149.52432182231445,
+            120.20221810279185,
+            129.5001214455241,
+            25.836222548424434,
+            27.974298122337434,
+            27.99530944405763
+          ]
+        },
+        "raw_arm_finger_valid_counts": [
+          4728,
+          4728
+        ],
+        "annotation_issues": [],
+        "returned_annotations_path": "postrun_analysis/slot09_contact_and_load_observations.jsonl.gz",
+        "returned_annotations_sha256": "1755c92f476b6b59a068f612d640eff498eced561ed13a1b7d9e268424769df9"
+      },
+      "session_source": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/session_result.json",
+        "sha256": "13d69d31f2b4ab01fdb52857db9a1a03871193914051846c6280eff1cfffa06a"
+      },
+      "episode_source": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/episodes/09/result.json",
+        "sha256": "a9c92229de396065d4f0f8a809249b991f07a349af1aa8553a7bdc6fc1123771"
+      }
+    },
+    {
+      "kind": "miss",
+      "object_id": "021",
+      "slot": 10,
+      "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+      "scope": "错位负例",
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "vector_sha256": "0141ab0063cb8fa8eda7d3cb7ea3ddbdafc5f16b2edc0f12cb49577ff6b45ef3",
+      "charged_this_batch": false,
+      "outcome": "candidate_static_inadmissible",
+      "static_path_passed": false,
+      "static_snapshots": 3216,
+      "static_failure": {
+        "snapshot": 3217,
+        "phase": "lift",
+        "phase_tick": 1,
+        "error": "ValueError('both_registered_entries_required_before_lift')"
+      },
+      "static_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 480
+      },
+      "static_receipt": null,
+      "roots": {},
+      "static_api": {
+        "calls": 219109,
+        "returns": 219109,
+        "exceptions": [],
+        "filters": 14,
+        "step_calls": 0,
+        "step_returns": 0,
+        "opened": 1,
+        "disconnected": 1,
+        "confirmed": true,
+        "raw": {
+          "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/10/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "f29be4355feef6840adc276d343a6aa4371b9b57b796c9c7a41c6f2bf7d890c3"
+        }
+      },
+      "dynamic_api": null,
+      "worker_status": "candidate_static_inadmissible",
+      "worker_error": null,
+      "physical": null,
+      "detailed_metrics": null,
+      "session_source": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/10/session_result.json",
+        "sha256": "c401b132c223e5dae705f36af8f3cc10a8b263b9a0c8fb383327ac7261981cab"
+      },
+      "episode_source": null
+    },
+    {
+      "kind": "miss",
+      "object_id": "014",
+      "slot": 11,
+      "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+      "scope": "错位负例",
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "vector_sha256": "9188133d215648ae722354a77bbe0b5869c9772ef29b466b09761770277c0c6d",
+      "charged_this_batch": false,
+      "outcome": "candidate_static_inadmissible",
+      "static_path_passed": false,
+      "static_snapshots": 3216,
+      "static_failure": {
+        "snapshot": 3217,
+        "phase": "lift",
+        "phase_tick": 1,
+        "error": "ValueError('both_registered_entries_required_before_lift')"
+      },
+      "static_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 480
+      },
+      "static_receipt": null,
+      "roots": {},
+      "static_api": {
+        "calls": 219108,
+        "returns": 219108,
+        "exceptions": [],
+        "filters": 14,
+        "step_calls": 0,
+        "step_returns": 0,
+        "opened": 1,
+        "disconnected": 1,
+        "confirmed": true,
+        "raw": {
+          "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/11/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "ca0d0d5d9dfb70faeb2eb9ff804a6c9250e075cdb1b0d2727646b069ef9025b4"
+        }
+      },
+      "dynamic_api": null,
+      "worker_status": "candidate_static_inadmissible",
+      "worker_error": null,
+      "physical": null,
+      "detailed_metrics": null,
+      "session_source": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/11/session_result.json",
+        "sha256": "b9c0bfda848579f9d24875b0e4130ffd28dc47088ce6ddfd8d329953506f0fe2"
+      },
+      "episode_source": null
+    },
+    {
+      "kind": "miss",
+      "object_id": "017",
+      "slot": 12,
+      "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+      "scope": "错位负例",
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "vector_sha256": "f2ac9a9225545f0e614bb2a10160e40060ea21853f9a54364530c5f8345f868c",
+      "charged_this_batch": false,
+      "outcome": "candidate_static_inadmissible",
+      "static_path_passed": false,
+      "static_snapshots": 3216,
+      "static_failure": {
+        "snapshot": 3217,
+        "phase": "lift",
+        "phase_tick": 1,
+        "error": "ValueError('both_registered_entries_required_before_lift')"
+      },
+      "static_phases": {
+        "settle": 240,
+        "opening": 480,
+        "transit": 672,
+        "pregrasp": 672,
+        "approach": 672,
+        "close": 480
+      },
+      "static_receipt": null,
+      "roots": {},
+      "static_api": {
+        "calls": 219108,
+        "returns": 219108,
+        "exceptions": [],
+        "filters": 14,
+        "step_calls": 0,
+        "step_returns": 0,
+        "opened": 1,
+        "disconnected": 1,
+        "confirmed": true,
+        "raw": {
+          "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/12/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "099c27ab1b7b0240ecb15fd8ef4dfe12a2547333038e92b83d0e44cfe712cfc7"
+        }
+      },
+      "dynamic_api": null,
+      "worker_status": "candidate_static_inadmissible",
+      "worker_error": null,
+      "physical": null,
+      "detailed_metrics": null,
+      "session_source": {
+        "path": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/12/session_result.json",
+        "sha256": "3bdeb3cdd8a818aac23388ff8456e2127e8e0d994aeb93fe57d3ce39ef599e81"
+      },
+      "episode_source": null
+    }
+  ]
+}

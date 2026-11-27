@@ -1,0 +1,42 @@
+{
+  "implementation_status": "prepared_sources_not_integrated_or_executed",
+  "runtime_entry_available": false,
+  "simulation_calls": 0,
+  "actual_readback_performed": false,
+  "formal_offline_replay_run": false,
+  "files": {
+    "trajectory.py": {
+      "sha256": "557e8836ea3597939879ed2f0b967a535d92049807fcbf597bc9231153465a89",
+      "status": "pure static kinematic and command checks performed"
+    },
+    "trajectory_plan.json": {
+      "sha256": "9ca846bb086fe8378c465659f40cb4d623dcc70904a3b57830afa5cf51517cfd",
+      "status": "derived static candidate plan; no actual robot verification"
+    },
+    "speed_policy.py": {
+      "sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+      "status": "prepared static constants; close/lift/hold retain closure cap0.039"
+    },
+    "object_episode.py": {
+      "sha256": "fd25b8c508e9f19694fb3160850eafaa11d97fbbf39488eaa37e7b5f1871fdc2",
+      "status": "syntax checked only; incomplete integration validation"
+    },
+    "object_evaluator.py": {
+      "sha256": "1e08c0f19b1e813119c04de891e59f35ede095d012271870c40fb846acc87d50",
+      "status": "written but not tested or integrated"
+    },
+    "offline_replay.py": {
+      "sha256": "f8afca8d1418d48b8dbe3271ec6256768c5f1fec5e7b4fdf4400326a1e6b7997",
+      "status": "written but not run; no formal replay result"
+    }
+  },
+  "required_observations_missing": [
+    "loaded robot and object",
+    "engine mass/inertia/geometry/damping readbacks",
+    "zero filtered/manifold evidence",
+    "first physics step",
+    "settle-end object baseline",
+    "lift records",
+    "last480 hold records"
+  ]
+}

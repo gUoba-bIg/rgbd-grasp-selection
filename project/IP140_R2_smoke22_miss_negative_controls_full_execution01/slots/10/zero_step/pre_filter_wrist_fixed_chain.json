@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "violations": [],
+  "topology": [
+    {
+      "parent_index": 7,
+      "child_index": 9,
+      "child_link": "flange",
+      "joint_name": "wrist_3-flange",
+      "joint_type": 4
+    },
+    {
+      "parent_index": 9,
+      "child_index": 11,
+      "child_link": "ip140_palm",
+      "joint_name": "ip140_mount",
+      "joint_type": 4
+    }
+  ],
+  "body_id": 0,
+  "registered_pair_ids": [
+    7,
+    11
+  ],
+  "actual_T_wrist_G": [
+    [
+      -2.186406846961776e-16,
+      -3.734425535156954e-15,
+      -1.0000000000000002,
+      -1.1102230246251565e-16
+    ],
+    [
+      8.236809891454235e-17,
+      0.9999999999999998,
+      -3.726623925486712e-15,
+      0.0
+    ],
+    [
+      0.9999999999999999,
+      -8.34410520500247e-17,
+      -1.9564301165606828e-16,
+      0.07
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rotation_max_error": 3.734425535156954e-15,
+  "translation_max_error_m": 1.1102230246251565e-16,
+  "collision_margins_m": [
+    0.001,
+    0.0005
+  ],
+  "fixed_chain_passed": true,
+  "relative_transform_passed": true,
+  "measurement_stage": "pre_filter_zero_step",
+  "applicable_filter_policy": {
+    "wrist_palm_pair_filter_applied": false,
+    "geometry_audit": "same current closest and fixed topology/pose/registered faces; preserve original pre-filter solver rows"
+  },
+  "registration_sha256": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c"
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "ip140_smoke07_inputs_v1",
+  "version": "IP140_R1_smoke07_mount_baseline_invariant01",
+  "executable_slots": [
+    5
+  ],
+  "attempt_id": "IP140-BENCH-EMPTY-05:mount-baseline-invariant",
+  "total_budget": 12,
+  "inherited_starts": 4,
+  "history_inventories": {
+    "IP140_R1_smoke01": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794",
+    "IP140_R1_smoke02_pathfix01": "5ccc7e88af867b96151d9a49c951412fa405a995872381b668ebf13cf03bf436",
+    "IP140_R1_smoke03_framefix_mountpair01": "801c981c53f4ed2dff9440c58d36d2b513e1525d6a4e868c8570ddcb479e1832",
+    "IP140_R1_smoke04_structural_filter_numericband01": "6b0cca00b8e9b4cb6cc95650b32aa6f6699f44b827dd7cfe271f435496df79a3",
+    "IP140_R1_smoke05_fixed_pad_mount_filter01": "6c92d61e71c31ef5e73120a6659830d3d04f3f850d8e0d288196e56f16dc3960",
+    "IP140_R1_smoke06_sliding_seam_acm01": "de2d751d438a666b93eb04c44e5e8de2dece9cbc54b3e7b6634a87c90ab57d0c"
+  },
+  "maximum_direct_connections": 1,
+  "maximum_robot_loads": 1,
+  "new_files": {
+    "approved_task.txt": "10dcf7e383ac40199c566cbf0fb521d38d278f8a871fcc62d7661c25c1e3d1a3",
+    "empty_stroke.py": "169aa898388d44faad4664271fac6110b463a9acb12464e233477849938b1c93",
+    "episode_log.py": "171336bea4f80a202820769bfbf1188983c50b995923e636a1e8318e9c1d73ee",
+    "execution_control.py": "615d1ef6a8cc73a4823b9c0e5f3b2fb0d73e988ad94af16a9850357d8cbf445f",
+    "full_api.py": "6710d3984c0aa2f926c4944b63015cead96df0c5dec4a4877bb9c2e425def659",
+    "history/sources.json": "42aa4f424800b67656241ced41b573718e74f41dde0ae8c5def589d0533f6aa8",
+    "input_identity.py": "98af422c06f8aeebb1e894c5691f95d9c31e58880ab3fedd41d679f68467f554",
+    "ledger_initial.json": "1d622871644a75cfe82df85031522c9428a3c0ba3f0e6e5939c3e4c99fcead13",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "mountpair.py": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+    "mountpair_registration.json": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+    "offline_replay.py": "2ce5008c9853d8ebc6d6bae7ecaa4c8a6de613f3cfab599d7ec26852d3135b90",
+    "preregistration.json": "052901379a153b75a64e1761d68aebfa351f13aea3d46ee53c24350e41c61412",
+    "review_run.py": "b34f8816451079b3e31162302de59f0c2710297cb6301550ed7d4cc975c293b4",
+    "run_once.py": "61c95f5e892195db86a19e563ac1541329965d66988296e42d286fb39ca72f06",
+    "seam_geometry.py": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+    "structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "zero_gate.py": "3538c507c627e8fb958da68bc63ec9f0ccebc0ef52aeb685dce0e7a55f471699"
+  }
+}

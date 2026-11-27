@@ -1,0 +1,719 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "created_utc": "2026-11-06T11:13:09.649437+00:00",
+  "scope": "Fresh read/hash validation of smoke15 immutable inputs against smoke14; conditional slot14 authorized only after complete static admission; no engine used.",
+  "passed": true,
+  "source_version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "local_comparisons": [
+    {
+      "category": "candidate_registration",
+      "relative_path": "preregistration.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/preregistration.json",
+        "sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+        "bytes": 51611,
+        "mtime_ns": 1793945060815094600
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/preregistration.json",
+        "sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+        "bytes": 51611,
+        "mtime_ns": 1793945060815094600
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "trajectory_and_reference",
+      "relative_path": "trajectory_plan.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/trajectory_plan.json",
+        "sha256": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f",
+        "bytes": 8282,
+        "mtime_ns": 1793945060942207300
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/trajectory_plan.json",
+        "sha256": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f",
+        "bytes": 8282,
+        "mtime_ns": 1793945060942207300
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "trajectory_and_reference",
+      "relative_path": "frozen_trajectory_commands.jsonl.gz",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/frozen_trajectory_commands.jsonl.gz",
+        "sha256": "66916ad8428e487ec4c183e0bc88dcf0a140ed4eb33045eeb772b60102188213",
+        "bytes": 295435,
+        "mtime_ns": 1793946409525605500
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/frozen_trajectory_commands.jsonl.gz",
+        "sha256": "66916ad8428e487ec4c183e0bc88dcf0a140ed4eb33045eeb772b60102188213",
+        "bytes": 295435,
+        "mtime_ns": 1793946409525605500
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "trajectory_and_reference",
+      "relative_path": "trajectory.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/trajectory.py",
+        "sha256": "831191134d75065e168f85ff1c0b39e4011018093e6dd8e584ff060563ecf50d",
+        "bytes": 8904,
+        "mtime_ns": 1793944958310200400
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/trajectory.py",
+        "sha256": "831191134d75065e168f85ff1c0b39e4011018093e6dd8e584ff060563ecf50d",
+        "bytes": 8904,
+        "mtime_ns": 1793944958310200400
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "controller_and_speed",
+      "relative_path": "speed_policy.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/speed_policy.py",
+        "sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+        "bytes": 1573,
+        "mtime_ns": 1793850665998608300
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/speed_policy.py",
+        "sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+        "bytes": 1573,
+        "mtime_ns": 1793850665998608300
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "controller_and_speed",
+      "relative_path": "object_episode.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_episode.py",
+        "sha256": "d64159164584eba4926fee5064d8b1ef89b0751f84e6ba041e624d9a97e72d74",
+        "bytes": 19937,
+        "mtime_ns": 1793945343046399600
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/object_episode.py",
+        "sha256": "d64159164584eba4926fee5064d8b1ef89b0751f84e6ba041e624d9a97e72d74",
+        "bytes": 19937,
+        "mtime_ns": 1793945343046399600
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "aggregate_and_dynamic_evaluation",
+      "relative_path": "object_evaluator.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_evaluator.py",
+        "sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+        "bytes": 14820,
+        "mtime_ns": 1793945009734985100
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/object_evaluator.py",
+        "sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+        "bytes": 14820,
+        "mtime_ns": 1793945009734985100
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "aggregate_and_dynamic_evaluation",
+      "relative_path": "aggregate_support.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/aggregate_support.py",
+        "sha256": "cd36fad11df20851893652692e5b0895818b40a1f5194dd8c2ca247abbd3b7a1",
+        "bytes": 3048,
+        "mtime_ns": 1793945009734985100
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/aggregate_support.py",
+        "sha256": "cd36fad11df20851893652692e5b0895818b40a1f5194dd8c2ca247abbd3b7a1",
+        "bytes": 3048,
+        "mtime_ns": 1793945009734985100
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "damping_and_scene",
+      "relative_path": "damping_write.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/damping_write.py",
+        "sha256": "63cc1714dd48ce61ab9b14ead002bdefd9267a6cda6fcc4ce60ebbcfed4c12c9",
+        "bytes": 7464,
+        "mtime_ns": 1793859534419009700
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/damping_write.py",
+        "sha256": "63cc1714dd48ce61ab9b14ead002bdefd9267a6cda6fcc4ce60ebbcfed4c12c9",
+        "bytes": 7464,
+        "mtime_ns": 1793859534419009700
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "damping_and_scene",
+      "relative_path": "object_scene_static.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_scene_static.py",
+        "sha256": "9ec442aa4efceb121bf07adf21d638f7c1445def3b0752a44330aea544a4496a",
+        "bytes": 10983,
+        "mtime_ns": 1793944962228544900
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/object_scene_static.py",
+        "sha256": "9ec442aa4efceb121bf07adf21d638f7c1445def3b0752a44330aea544a4496a",
+        "bytes": 10983,
+        "mtime_ns": 1793944962228544900
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "model_and_TCP",
+      "relative_path": "model/ur5e_ip140_r1.urdf",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/model/ur5e_ip140_r1.urdf",
+        "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+        "bytes": 15655,
+        "mtime_ns": 1793788114760846800
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/model/ur5e_ip140_r1.urdf",
+        "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+        "bytes": 15655,
+        "mtime_ns": 1793788114760846800
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "model_and_TCP",
+      "relative_path": "model/manifest.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/model/manifest.json",
+        "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+        "bytes": 10393,
+        "mtime_ns": 1793788114760846800
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/model/manifest.json",
+        "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+        "bytes": 10393,
+        "mtime_ns": 1793788114760846800
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "structural_filter.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/structural_filter.py",
+        "sha256": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+        "bytes": 19860,
+        "mtime_ns": 1793841615181488900
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/structural_filter.py",
+        "sha256": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+        "bytes": 19860,
+        "mtime_ns": 1793841615181488900
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "seam_geometry.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/seam_geometry.py",
+        "sha256": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+        "bytes": 5955,
+        "mtime_ns": 1793799794573588900
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/seam_geometry.py",
+        "sha256": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+        "bytes": 5955,
+        "mtime_ns": 1793799794573588900
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "mountpair.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/mountpair.py",
+        "sha256": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+        "bytes": 13328,
+        "mtime_ns": 1793841576131679500
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/mountpair.py",
+        "sha256": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+        "bytes": 13328,
+        "mtime_ns": 1793841576131679500
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "mountpair_registration.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/mountpair_registration.json",
+        "sha256": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+        "bytes": 4678,
+        "mtime_ns": 1793841576132685100
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/mountpair_registration.json",
+        "sha256": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+        "bytes": 4678,
+        "mtime_ns": 1793841576132685100
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "base_table_mount.py",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/base_table_mount.py",
+        "sha256": "b64c183fd547636c5a756d215dc880a3bfb51fff59cb475149a50616e849425d",
+        "bytes": 14071,
+        "mtime_ns": 1793931967871857900
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/base_table_mount.py",
+        "sha256": "b64c183fd547636c5a756d215dc880a3bfb51fff59cb475149a50616e849425d",
+        "bytes": 14071,
+        "mtime_ns": 1793931967871857900
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "collision_and_geometric_gates",
+      "relative_path": "base_table_registration.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/base_table_registration.json",
+        "sha256": "449dd057a46491a95f34a36b9b9bf2512a27641e49cf9239a002fabc423c70ac",
+        "bytes": 13811,
+        "mtime_ns": 1793931821981024700
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/base_table_registration.json",
+        "sha256": "449dd057a46491a95f34a36b9b9bf2512a27641e49cf9239a002fabc423c70ac",
+        "bytes": 13811,
+        "mtime_ns": 1793931821981024700
+      },
+      "byte_identical": true
+    },
+    {
+      "category": "budget",
+      "relative_path": "slot_ledger.json",
+      "source": {
+        "path": "IP140_R1_smoke14_slot14_contact_aware_static_admission01/slot_ledger.json",
+        "sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+        "bytes": 9139,
+        "mtime_ns": 1793946178465426700
+      },
+      "copy": {
+        "path": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01/slot_ledger.json",
+        "sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+        "bytes": 9139,
+        "mtime_ns": 1793946178465426700
+      },
+      "byte_identical": true
+    }
+  ],
+  "external_bindings": [
+    {
+      "path": "IP140-R1_参数与证据附表_小修02.pdf",
+      "sha256": "ebda80ada9f7dac264bef1a4cc60bb4c3807429788784cf1e2ab7015abb02389",
+      "bytes": 431084,
+      "mtime_ns": 1793779653602257500,
+      "source_frozen_sha256": "ebda80ada9f7dac264bef1a4cc60bb4c3807429788784cf1e2ab7015abb02389",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "IP140-R1_执行端替换两页协议_小修02.pdf",
+      "sha256": "3a1b30adc529a7a8536b03e6aba4d200a9545d6083da5c245ab624b2a1e4579e",
+      "bytes": 238439,
+      "mtime_ns": 1793779653601206700,
+      "source_frozen_sha256": "3a1b30adc529a7a8536b03e6aba4d200a9545d6083da5c245ab624b2a1e4579e",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "configs/simulation_v52e.json",
+      "sha256": "705ed1fc8a4d189954f2d40ef6ba57e69e02cd4d206dbed16c2e0950ac4809e6",
+      "bytes": 13297,
+      "mtime_ns": 1793690777601102200,
+      "source_frozen_sha256": "705ed1fc8a4d189954f2d40ef6ba57e69e02cd4d206dbed16c2e0950ac4809e6",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "configs/simulation_v52r2.json",
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807,
+      "mtime_ns": 1793679409292058400,
+      "source_frozen_sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "bytes": 548,
+      "mtime_ns": 1793677705486897800,
+      "source_frozen_sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/material.mtl",
+      "sha256": "14b5e00f03f6273b7e1cd38e0031e1211ce9493bd43d6e43f44ac9558ac654f2",
+      "bytes": 176,
+      "mtime_ns": 1793676856293520100,
+      "source_frozen_sha256": "14b5e00f03f6273b7e1cd38e0031e1211ce9493bd43d6e43f44ac9558ac654f2",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl",
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "bytes": 21084,
+      "mtime_ns": 1793676400113684500,
+      "source_frozen_sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_forearm.stl",
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "bytes": 53284,
+      "mtime_ns": 1793676400114911900,
+      "source_frozen_sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_shoulder.stl",
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "bytes": 70084,
+      "mtime_ns": 1793676400115907500,
+      "source_frozen_sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_upperarm.stl",
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "bytes": 99684,
+      "mtime_ns": 1793676400115907500,
+      "source_frozen_sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist1.stl",
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "bytes": 59584,
+      "mtime_ns": 1793676400117127600,
+      "source_frozen_sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist2.stl",
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "bytes": 67584,
+      "mtime_ns": 1793676400118138100,
+      "source_frozen_sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist3.stl",
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "bytes": 7184,
+      "mtime_ns": 1793676400118138100,
+      "source_frozen_sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_base.obj",
+      "sha256": "8b33fd01fbfd3ec681fa0b7a58871bb8e3734b9891b2119f62bb4abc31fad478",
+      "bytes": 947062,
+      "mtime_ns": 1793676854538272100,
+      "source_frozen_sha256": "8b33fd01fbfd3ec681fa0b7a58871bb8e3734b9891b2119f62bb4abc31fad478",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_forearm.obj",
+      "sha256": "613f6cee150f5d8581012fbcbfd3dc35ccc85d52e402eb3062f11243584e9d92",
+      "bytes": 3083137,
+      "mtime_ns": 1793676855689886400,
+      "source_frozen_sha256": "613f6cee150f5d8581012fbcbfd3dc35ccc85d52e402eb3062f11243584e9d92",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_shoulder.obj",
+      "sha256": "1212509d24e94e336d8b7e6e462c5d317812e4172aafd0ef9fa786ba3ef7bc7c",
+      "bytes": 4815481,
+      "mtime_ns": 1793676854858910500,
+      "source_frozen_sha256": "1212509d24e94e336d8b7e6e462c5d317812e4172aafd0ef9fa786ba3ef7bc7c",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_upperarm.obj",
+      "sha256": "81529558f226c1589c132ee583eed0d34bf2e0063d3c7f1dc557506c659e01f8",
+      "bytes": 8355110,
+      "mtime_ns": 1793676855434880800,
+      "source_frozen_sha256": "81529558f226c1589c132ee583eed0d34bf2e0063d3c7f1dc557506c659e01f8",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist1.obj",
+      "sha256": "354806606ccbe6c056f66b169c9da91b76268c13b4bafe81e36ea88ccd4a661b",
+      "bytes": 3532784,
+      "mtime_ns": 1793676855947269900,
+      "source_frozen_sha256": "354806606ccbe6c056f66b169c9da91b76268c13b4bafe81e36ea88ccd4a661b",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist2.obj",
+      "sha256": "a17e39221db76947f2155afb8970cff3ecc07b45296bc92e5f3df629f3bfe0eb",
+      "bytes": 4164109,
+      "mtime_ns": 1793676856246745000,
+      "source_frozen_sha256": "a17e39221db76947f2155afb8970cff3ecc07b45296bc92e5f3df629f3bfe0eb",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist3.obj",
+      "sha256": "11aeeb64a0fc0d6bfa839db67fd57db0143ccdc246eb3a1be51b877748ef66ed",
+      "bytes": 93588,
+      "mtime_ns": 1793676856293520100,
+      "source_frozen_sha256": "11aeeb64a0fc0d6bfa839db67fd57db0143ccdc246eb3a1be51b877748ef66ed",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/robot_assets.json",
+      "sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "bytes": 147405,
+      "mtime_ns": 1793676857252212500,
+      "source_frozen_sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "matches_old_frozen_binding": true
+    },
+    {
+      "path": "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "sha256": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "bytes": 23811,
+      "mtime_ns": 1793676856464540900,
+      "source_frozen_sha256": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "matches_old_frozen_binding": true
+    }
+  ],
+  "checks": {
+    "all_local_frozen_files_byte_identical": true,
+    "all_external_frozen_bindings_match": true,
+    "entire_ledger_byte_identical_to_smoke13": true,
+    "budget_unchanged": true,
+    "candidate_identity_unchanged": true,
+    "trajectory_identity_matches": true,
+    "references_complete": true,
+    "reference_checks_clean": true,
+    "command_bounds": true,
+    "strict_speed_split": true,
+    "internal_filters_13": true,
+    "world_filter_total_14": true
+  },
+  "candidate": {
+    "slot": 14,
+    "id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+    "parent_slot": 7,
+    "not_p3": true,
+    "values": [
+      1.0,
+      0.06898170991686796,
+      0.02,
+      0.02,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.48315334852869485,
+      0.06022028926381637,
+      0.05103423788040806,
+      -1.0
+    ],
+    "T_W_G": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.48315334852869485
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.06022028926381637
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.03103423788040806
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pre_open_m": 0.06898170991686796,
+    "scene_setup_only": {
+      "urdf": {
+        "project_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+        "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+        "bytes": 548
+      },
+      "position_world_m": [
+        0.48,
+        0.06,
+        0.03079100090265274
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "lateral_friction": 0.6,
+      "restitution": 0,
+      "linear_damping": 0.04,
+      "angular_damping": 0.04,
+      "fixed_base": false
+    },
+    "candidate_bytes_unchanged_from_smoke13": true
+  },
+  "TCP": {
+    "F_T_G": [
+      [
+        1,
+        0,
+        0,
+        0.07
+      ],
+      [
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "flange_link": "flange",
+    "G_link": "ip140_palm"
+  },
+  "parameters": {
+    "speed_spec": {
+      "unit": "m/s per finger",
+      "opening_command": 0.04,
+      "close_command": 0.039,
+      "observed_hard_limit": 0.04,
+      "observed_speed_tolerance": 0.0,
+      "urdf_rated": 0.04
+    },
+    "success": {
+      "settle_end_baseline_at_step": 240,
+      "lift_m": 0.1,
+      "final_hold_steps": 480,
+      "hold_phase_steps": 720,
+      "bilateral_each_step": true,
+      "no_table_support": true,
+      "no_collision_or_slip": true
+    },
+    "aggregate_support": {
+      "version": "aggregate_support01",
+      "legacy_field_retained": true,
+      "source_field": "table_support",
+      "normal_force_rule": "sum(max(Fn_i,0)) over identity-valid finite legal object-table contacts, strictly >0.2N",
+      "contact_force_threshold_N": 0.2,
+      "success_requires_aggregate_table_support": false,
+      "invalid_contacts_are_independent_hard_failures": true
+    },
+    "collision_filter_pairs": [
+      "base_link_inertia|shoulder_link",
+      "shoulder_link|upper_arm_link",
+      "upper_arm_link|forearm_link",
+      "forearm_link|wrist_1_link",
+      "wrist_1_link|wrist_2_link",
+      "wrist_2_link|wrist_3_link",
+      "wrist_3_link|ip140_palm",
+      "ip140_left_bone|ip140_left_pad",
+      "ip140_right_bone|ip140_right_pad",
+      "ip140_palm|ip140_left_bone",
+      "ip140_palm|ip140_left_pad",
+      "ip140_palm|ip140_right_bone",
+      "ip140_palm|ip140_right_pad"
+    ],
+    "fixed_world_mount": {
+      "pair_class": "registered_fixed_world_mount",
+      "robot_link": "base_link_inertia",
+      "table_link": -1,
+      "reference_signed_distance_m": -0.0010000957088204237,
+      "distance_tolerance_m": 1e-09,
+      "expected_filter_total": 14,
+      "external_mount_filters": 1,
+      "other_external_filters": 0
+    }
+  },
+  "frozen_references": {
+    "count": 4728,
+    "phase_counts": {
+      "settle": 240,
+      "opening": 480,
+      "transit": 672,
+      "pregrasp": 672,
+      "approach": 672,
+      "close": 480,
+      "lift": 792,
+      "hold": 720
+    },
+    "finger_command_range_m": [
+      0.0,
+      0.03449085495843398
+    ],
+    "violations": [],
+    "interpretation": "parsed existing reference targets; no recomputed trajectory, no changed command, not physical observations"
+  },
+  "ledger": {
+    "starts": 8,
+    "total": 14,
+    "remaining": 6,
+    "slot14_charged": false,
+    "copy_mode": "entire slot_ledger.json byte-for-byte unchanged; historical version and timestamps deliberately retained",
+    "initial_ledger_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f"
+  },
+  "engine_imports": 0,
+  "connections": 0,
+  "physical_steps": 0,
+  "new_charges": 0,
+  "limitations": [
+    "This artifact audits listed frozen inputs at creation; new static-admission code is reviewed separately.",
+    "No static contact proxy may rewrite these candidate, trajectory, controller, evaluator, or budget files.",
+    "File hash identity does not establish physical validity or successful grasp."
+  ]
+}

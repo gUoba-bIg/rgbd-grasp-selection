@@ -1,0 +1,47 @@
+{
+  "contact_semantics.py": {
+    "parent_sha256": "890b80af5b74aaca5cc3749b555287a6df9a1d8597d02dca4da481cd137146f7",
+    "this_sha256": "39259c3e1854346e08eb99316e827813d875a7021b3a955adc85660b9d78ebfa",
+    "same_bytes": false
+  },
+  "contact_aware_path.py": {
+    "parent_sha256": "2403b16898bda54cc1bbbb78f3f1c1ad64f9180f06d9a2e135e50d149be53bdb",
+    "this_sha256": "f3137cc4fae81c1d528fde40719a8844fb2cf8374c5bc5ba23420d1500a242c5",
+    "same_bytes": false
+  },
+  "contact_entry.py": {
+    "parent_sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "this_sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "same_bytes": true
+  },
+  "asset_schema19.py": {
+    "parent_sha256": "6d46ac043d8f4ab19864b720a5f571da5b8baba3dcc79524d1794c3c01249b43",
+    "this_sha256": "6d46ac043d8f4ab19864b720a5f571da5b8baba3dcc79524d1794c3c01249b43",
+    "same_bytes": true
+  },
+  "asset_typed_schema.json": {
+    "parent_sha256": "07f87955291d46108cf0dec99544db13a8de1c4f0af9f2bb312c6b82b3c61665",
+    "this_sha256": "07f87955291d46108cf0dec99544db13a8de1c4f0af9f2bb312c6b82b3c61665",
+    "same_bytes": true
+  },
+  "object_evaluator.py": {
+    "parent_sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "this_sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "same_bytes": true
+  },
+  "speed_policy.py": {
+    "parent_sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+    "this_sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+    "same_bytes": true
+  },
+  "trajectory.py": {
+    "parent_sha256": "f0608278216c9c9fd0d18b28af7ae1ca4b9b24e14c210043fb7f47030f3c0cdf",
+    "this_sha256": "f0608278216c9c9fd0d18b28af7ae1ca4b9b24e14c210043fb7f47030f3c0cdf",
+    "same_bytes": true
+  },
+  "model/ur5e_ip140_r1.urdf": {
+    "parent_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "this_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "same_bytes": true
+  }
+}

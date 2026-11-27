@@ -1,0 +1,22 @@
+{
+  "sequence": 6,
+  "method": "setCollisionFilterPair",
+  "pair": [
+    "wrist_2_link",
+    "wrist_3_link"
+  ],
+  "args": [
+    0,
+    0,
+    6,
+    7,
+    0
+  ],
+  "kwargs": {
+    "physicsClientId": 0
+  },
+  "started_utc": "2026-11-08T13:39:16.370205+00:00",
+  "returned": true,
+  "return_value": null,
+  "returned_utc": "2026-11-08T13:39:16.372254+00:00"
+}

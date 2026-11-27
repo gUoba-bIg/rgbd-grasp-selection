@@ -1,0 +1,102 @@
+{
+  "at": "2026-10-30T11:30:53.328386+08:00",
+  "purpose": "one finite P2/P3 to P7 completion; no recurring task; actual gates mandatory",
+  "existing_training_pid": 285560,
+  "existing_launcher_pid": 262468,
+  "wall_seconds": 108000,
+  "protected": {
+    "scripts/p23_to_p7_v28.py": {
+      "sha256": "611ac7ea63ae33c294e7595729bc630530306ae4e786fe7c1410c9bc17ef8e4f",
+      "bytes": 8090,
+      "mtime_ns": 1793330982981346600
+    },
+    "configs/candidate_v27.json": {
+      "sha256": "82fe1aa35ec536250e24c6a480d818e8bf8d4e6c02a22f41ea59876cfcbedfb2",
+      "bytes": 34778,
+      "mtime_ns": 1793329578239372200
+    },
+    "scripts/p3_train_v27r1.py": {
+      "sha256": "c927bc7563b65092c652c319ad9bf87712cbe31df77e426c0017464f3b9973cf",
+      "bytes": 9320,
+      "mtime_ns": 1793329782482526200
+    },
+    "logs/P2P3/candidate_v27/recovery_r1/freeze.json": {
+      "sha256": "6164e2595bd2ab7940742bea29c4645d900d12abe96c7f16ee59ec8d7f4c0c86",
+      "bytes": 653,
+      "mtime_ns": 1793329785212296800
+    },
+    "logs/P2P3/candidate_v27/recovery_r1/equality.json": {
+      "sha256": "63e1ffcd076d54ec94577fcc54ddb4549ddde33d51373c5ed2d961fdfc9cd859",
+      "bytes": 684,
+      "mtime_ns": 1793329811740707200
+    },
+    "logs/P7/preflight_v28/checks.json": {
+      "sha256": "7d349557bd70d9e077b57e0188e90f23439fc150a3fdcae77bdc757394aef4e6",
+      "bytes": 2703,
+      "mtime_ns": 1793330883227123500
+    },
+    "docs/P7固定候选风险与独立校准_v28_草案.txt": {
+      "sha256": "88fdad959263e97cbfc818078acd00ff01ca30a40fc172d5644a85b883d3c2b5",
+      "bytes": 4059,
+      "mtime_ns": 1793330685503323500
+    },
+    "scripts/p7_checks_v28.py": {
+      "sha256": "ed85c5b4415c9e7228f0bef8442e421629e69e62b145b5e6d489e2a68ef92c42",
+      "bytes": 4706,
+      "mtime_ns": 1793330882614309200
+    },
+    "scripts/p7_common_v28.py": {
+      "sha256": "e7d66906a31dd38b2ad2f7751d79d8836e3c14c7d14b38d5f1092677b37f2f00",
+      "bytes": 3350,
+      "mtime_ns": 1793330882613312400
+    },
+    "scripts/p7_finish_v28.py": {
+      "sha256": "7ade9585185d8f7c5424ee4b2bd993f870d4a78ab019078a11c38ddcc3a2168a",
+      "bytes": 4715,
+      "mtime_ns": 1793330462516201200
+    },
+    "scripts/p7_fit_v28.py": {
+      "sha256": "44b13293e26358942b39078e58764ee1ff2a2de2beb27d7992bb18684a883a6b",
+      "bytes": 6774,
+      "mtime_ns": 1793330053574615800
+    },
+    "scripts/p7_generate_v28.py": {
+      "sha256": "4cabd77c1505604f9536932166672f13c8f6a0abf9bc835f4b18bf6c9abf5cf6",
+      "bytes": 5719,
+      "mtime_ns": 1793330139110878400
+    },
+    "scripts/p7_model_identity_v28.py": {
+      "sha256": "ab9bdcce8edc593e1ff9e882d7aebfecd1c006b4b491422b0037e55c883728e6",
+      "bytes": 1176,
+      "mtime_ns": 1793330325009102900
+    },
+    "scripts/p7_prepare_v28.py": {
+      "sha256": "35c32b5a89bbbf7aff02febf63cafa9864176d8e4d4dde8ed0ff9f8e1cdce93e",
+      "bytes": 5390,
+      "mtime_ns": 1793330139110878400
+    },
+    "scripts/p7_review_v28.py": {
+      "sha256": "2dcd08d56396f3898e99f1fc79c27f1e1ae5a6544c0c70c7c4d5dd0fdc8b9095",
+      "bytes": 14805,
+      "mtime_ns": 1793330685601930000
+    },
+    "scripts/p7_score_v28.py": {
+      "sha256": "7edb55eb57bc95a72c74cf617990cfc4b1c4c48dce9cae490ffd701898afae91",
+      "bytes": 6795,
+      "mtime_ns": 1793329689922000000
+    },
+    "src/risk_metrics_v28.py": {
+      "sha256": "b8525f98a3b9e9d75edec07cea2508014579210c0ff85a75c87bc1120ce01550",
+      "bytes": 1972,
+      "mtime_ns": 1793329892899274800
+    },
+    "src/risk_observations_v28.py": {
+      "sha256": "1fdb0dda089e3cb959e06d8c8614c116880cf4d5cf6e0ceb15d62e8f98a92e8a",
+      "bytes": 2823,
+      "mtime_ns": 1793328978300437300
+    }
+  },
+  "limits_unchanged": true,
+  "P8_allowed": false,
+  "automatic_retries": 0
+}

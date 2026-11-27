@@ -1,0 +1,29 @@
+{
+  "version": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01",
+  "slot14_started": false,
+  "cumulative_starts": 8,
+  "total_budget": 14,
+  "remaining": 6,
+  "reserved_original_slots": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "remaining_development_bridge_slot": 14,
+  "slots8_to_12_status": "frozen_pending_review",
+  "new_ids_for_slots8_to_12": null,
+  "reason": "Bridge did not pass admission; do not advance migration or physical execution.",
+  "proposed_next_task": "Review only the loaded-contact static admission semantics, preserving the current stop; no execution authorized by this proposal.",
+  "prohibited_changes": [
+    "TCP",
+    "depth",
+    "30mm_pad_offset",
+    "force",
+    "friction",
+    "speed",
+    "success_threshold",
+    "history_result"
+  ]
+}

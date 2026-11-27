@@ -1,0 +1,9 @@
+{
+  "pid": 300108,
+  "start": "2026-11-08T04:41:56.990773+00:00",
+  "allowed_slot": 14,
+  "max_static_connections": 1,
+  "max_dynamic_connections": 1,
+  "max_new_attempts": 1,
+  "input_identity_sha256": "1f6986eeeef209e11b60494bc271c5ca2897e5819b4afda31a08420ead2e7a7c"
+}

@@ -1,0 +1,1922 @@
+{
+  "schema": "20b",
+  "status": "frozen",
+  "created_at": "2026-10-27T10:01:36.859558+08:00",
+  "question": "Can the accepted R16 RGBD checkpoint be reused as a limited development instance baseline with a deterministic metric-depth interface?",
+  "scope": "Supervised one-round baseline reuse; not repair of R18 weights, held-out validation, full P4 completion, full P6, or method superiority.",
+  "parent_protocol": {
+    "schema": 16,
+    "scope": "Paired RGB/RGBD development baseline from scratch; not a complete mask-AP or quality-aware method study",
+    "created_date_local": "2026-10-25",
+    "seed": 20261022,
+    "arms": {
+      "rgb": {
+        "mode": "rgb",
+        "input_channels": 3,
+        "run_directory": "experiments/segmentation_baseline_v16/rgb"
+      },
+      "rgbd": {
+        "mode": "rgbd",
+        "input_channels": 5,
+        "run_directory": "experiments/segmentation_baseline_v16/rgbd"
+      }
+    },
+    "initialization": "Identical randomly initialized shared RGB stem/backbone/heads; extra RGBD depth and validity convolution weights zero; reset all RNG streams after model construction; no learned checkpoint inherited",
+    "input_size": [
+      240,
+      320
+    ],
+    "batch_size": 1,
+    "accumulation": 2,
+    "planned_steps": 1600,
+    "equivalent_epochs": 10,
+    "total_research_update_budget": 3200,
+    "segment_boundaries": [
+      200,
+      800,
+      1600
+    ],
+    "augment": true,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "warmup_steps": 80,
+    "min_learning_rate": 1e-05,
+    "amp": true,
+    "gradient_clip_norm": 1,
+    "save_every_steps": 10,
+    "keep_last": 3,
+    "num_workers": 0,
+    "free_disk_reserve_gib": 60,
+    "loss": "src.segmentation_v2.segmentation_loss",
+    "center_mse_weight": 200,
+    "camera": "realsense",
+    "frames": [
+      0,
+      16,
+      32,
+      48,
+      64,
+      80,
+      96,
+      112,
+      128,
+      144,
+      160,
+      176,
+      192,
+      208,
+      224,
+      240
+    ],
+    "train_scenes": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      30,
+      31,
+      34,
+      38,
+      42,
+      43,
+      57,
+      93
+    ],
+    "validation_scenes": [
+      2,
+      6,
+      7,
+      11,
+      13,
+      15,
+      18,
+      22,
+      33,
+      39
+    ],
+    "remaining_unopened_validation_scenes": [
+      52,
+      59,
+      75,
+      79,
+      80
+    ],
+    "data_root": "data/raw/graspnet_coverage_v8",
+    "data_manifest": "data/manifests/coverage_v8.json",
+    "data_audit": "results/P2/coverage_v8_data_audit.json",
+    "split": "data/manifests/scene_splits.json",
+    "data_protocol": "configs/segmentation_coverage_v8.json",
+    "data_protocol_sha256": "eba416a82b4c3fa7af5e082fefaf93ebece730f9c4089d7bb5d0ad780b7167e1",
+    "input_hashes": {
+      "configs/segmentation_coverage_v8.json": "eba416a82b4c3fa7af5e082fefaf93ebece730f9c4089d7bb5d0ad780b7167e1",
+      "data/manifests/coverage_v8.json": "2f6ea33e9f7167a60bb1a4bd4e2d6deb27d633a5cd17a11ebc29140780cd269f",
+      "results/P2/coverage_v8_data_audit.json": "247b491be3b200721bc42f348af4808b762a481aacb14d6f19ed0a8f6a716b80",
+      "data/manifests/scene_splits.json": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+      "results/P2/environment_lock.json": "e9fef1ba327266eb6246f61c54888d7ce0883fb92e89a211a0aa692b75fd5c9c",
+      "results/第八轮训练覆盖对照验收.json": "692b09683901c1ee3d38b6f0e61c77f34eb49fd8e3a36a2f8d1fc5e96da0bf3a"
+    },
+    "source_hashes": {
+      "docs/第十六轮配对基线冻结方案.txt": "8940477610af97d6f241aa418c5fba4782621ba770ba18d2622425125c0fa538",
+      "logs/P4/segmentation_baseline_v16_tests.log": "2ec3bb309ff7b83011b52d05a538e75cb79c639cbdd3977a8ca74f83f74c91cc",
+      "scripts/accept_segmentation_baseline_v16.py": "43c6525dcf6ae4e2e190d0267c8392382af1da73db8b814cfa27880bb081b287",
+      "scripts/accept_segmentation_expanded_v3.py": "e0ecad445cbd9caef8d23c5e9816a4e89fb93cfd955f9d021000a074b34d79e4",
+      "scripts/evaluate_segmentation_baseline_v16.py": "b4a0fee5a61523845dca054457cb01a04d734392a86e6c97d39dff68d3f30e4f",
+      "scripts/multiview_common_v14r1.py": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+      "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "scripts/render_segmentation_expanded_v3.py": "ab5adf62d6f7452e3c15dab3c9faf886a2903c4fb41a1706cefa762993bc2b65",
+      "scripts/resume_segmentation_baseline_v16.ps1": "178f419cb8968531568e4656af79b0fb64acb8ae3b2717b098fbbec0133b408f",
+      "scripts/run_segmentation_baseline_v16.py": "630a08303866e4adeb8f3c1eba1bb9e92d139018b39e92734c2d897749defe13",
+      "scripts/test_segmentation_baseline_v16.py": "c0a49cd13e8e58d71bf5a1bc013be21116df3089d617a023b2d9bf281ec6d5e3",
+      "scripts/train_segmentation_baseline_v16.py": "91401688bf693f877fbabf3fa610c4cdcbc234db8bb652da9508b8bbd51e306a",
+      "scripts/train_segmentation_coverage_v8.py": "d7e42d9decc2e591b26ed89a62a738751ebe34c41fdaa6a925b0f581a136f262",
+      "scripts/train_segmentation_expanded_v3.py": "3b116c8029e5cf6885a1148e86d446882755823caa4eda63f93bfa8d5ca2f458",
+      "scripts/train_segmentation_pilot.py": "2dec0d041cc47c6ddbfb662840782f4a8e63f9f17680526bd66994a509ddf6ae",
+      "scripts/train_segmentation_repair_v5.py": "051ec01f935a0b7986fa44d3ce078dd045c2293309c88d34ca1a489359134860",
+      "scripts/verify_gpu_resume.py": "8ff96ae0aaaec5c37e213a00d984e5e6ba62fe6c9bf8d978dc8df898bcc27e05",
+      "scripts/verify_segmentation_baseline_v16_resume.py": "d32044e00e6994c77264bc3f8601ae0ccf51c1eec66e4434fc02e3047912f47a",
+      "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+      "src/graspnet_frames.py": "98c45d0a3d37b5ea86382ba96f9e59eb56e98e0878f0eedab474eae4faf310ff",
+      "src/segmentation.py": "554b1f1e9a46f551ed1a485895eed164d08f5466ebd8e41dfded2556afa90e55",
+      "src/segmentation_v2.py": "1ee25fd2ca676c1432ff2b5c508800c874e95f414a58e92ece1d93700633aa1e",
+      "tests/test_baseline_evaluation_v16.py": "6acc88a5cf2224598939deef7151bfbbe4737a25c8941ba35acd472ef268e77b",
+      "tests/test_baseline_resume_v16.py": "9f5337e75e289b62bf3281fadb6a615578b5841cd0ea6e704e3742c2063cdcbe",
+      "tests/test_baseline_wrapper_v16.py": "c0e6e7c9ac375d652eb3789b6d6fd51e3039bcb8e4a14f520711a4ba3c23ce59",
+      "tests/test_segmentation_baseline_v16.py": "7756eb55aab5246e2482db014d814ac0034250a81b8248cb80445943a0a6f771"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "torch": "2.6.0+cu126",
+      "torchvision": "0.21.0+cu126",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "Pillow": "11.3.0",
+      "cuda": "12.6",
+      "cudnn": 90501,
+      "gpu": "NVIDIA GeForce RTX 4060 Ti"
+    },
+    "recovery_contract": {
+      "continuous_steps": 162,
+      "interrupted_after_step": 161,
+      "durable_step": 160,
+      "checkpoint_interval": 2,
+      "initial_output_mode": "float32_without_autocast",
+      "initial_output_atol": 1e-06,
+      "initial_output_rtol": 1e-05,
+      "initial_sample": "first_seeded_training_sample_epoch0",
+      "shared_tensors": "bitwise_equal",
+      "resumed_payload_components": "model_optimizer_scheduler_scaler_cursor_rng_extra_bitwise_equal"
+    },
+    "interpreter": "runtime/envs/vision/Scripts/python.exe",
+    "decoder": {
+      "foreground_threshold": 0.5,
+      "center_threshold": 0.35,
+      "min_pixels": 20,
+      "max_centers": 64
+    },
+    "resources": {
+      "cpu_threads": 4,
+      "training_seconds_per_arm": 1800,
+      "evaluation_seconds_per_invocation": 1800,
+      "acceptance_seconds_per_invocation": 1800,
+      "rss_soft_bytes": 4294967296,
+      "gpu_allocated_soft_bytes": 14495514624,
+      "gpu_reserved_soft_bytes": 14495514624,
+      "output_limit_bytes": 12884901888,
+      "disk_reserve_bytes": 64424509440
+    },
+    "outputs": {
+      "training_report": "results/P4/segmentation_baseline_v16_training.json",
+      "training_resume_report": "results/P4/segmentation_baseline_v16_resume.json",
+      "evaluation_root": "results/P4/segmentation_baseline_v16_evaluation",
+      "evaluation_report": "results/P4/segmentation_baseline_v16_evaluation.json",
+      "evaluation_resume_report": "results/P4/segmentation_baseline_v16_evaluation_resume.json",
+      "acceptance_report": "results/P4/segmentation_baseline_v16_acceptance.json",
+      "visuals_dir": "results/P4/segmentation_baseline_v16_visuals"
+    },
+    "budget_paths": [
+      "experiments/segmentation_baseline_v16",
+      "runtime/verification/baseline_v16",
+      "logs/P4",
+      "results/P4",
+      "logs/pipeline/P4R16",
+      "logs/pipeline/P4T16",
+      "logs/pipeline/P4V16",
+      "logs/pipeline/P4E16"
+    ],
+    "evaluation": {
+      "partitions": [
+        "train",
+        "development"
+      ],
+      "mode": "float32_without_autocast",
+      "checkpoint": "final_step_1600_only",
+      "main_metrics": [
+        "scene_macro_instance_f1_iou50",
+        "scene_macro_foreground_pixel_iou"
+      ],
+      "pair_direction": "rgbd_minus_rgb",
+      "efficacy_gate": false,
+      "frame_probe_count": 2
+    },
+    "limitations": [
+      "All ten nontraining scenes were previously used for development; no independent confirmation or test generalization claim.",
+      "One seed, 320x240 early fusion pilot architecture, ten epochs; does not complete the original full-resolution dual-stream or multiple-seed plan.",
+      "Instance F1 at IoU0.50 is not mask AP, AP50 or AP75; no grasp scoring or real robot outcomes.",
+      "RGBD adds 6272 trainable first-convolution parameters; the input-modality comparison includes this difference.",
+      "No degradation, quality head, uncertainty propagation, probability calibration, extra epochs, threshold search or best-checkpoint selection.",
+      "Independent acceptance recomputes counts from cached predictions; it does not independently reproduce the neural forward pass."
+    ]
+  },
+  "checkpoint": "experiments/segmentation_baseline_v16/rgbd/checkpoints/checkpoint-1792891232169965300-926396f9f9e1.pt",
+  "checkpoint_config_fingerprint": "e46ab18ae8bbd1c865739650fe97836cdc6ac03318b8fcaee4dc9d6f6b2f6661",
+  "checkpoint_data_fingerprint": "6faa3f868189df530edd72036007dcb6d2e9128c96379a505ad020625f6432a7",
+  "selection_rule": "Frame 0000 in every existing 20 training and 10 previously exposed development scene. Fixed by identity before any new outcome; no outcome-driven selection.",
+  "records": [
+    {
+      "partition": "train",
+      "record": {
+        "scene": 3,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0003/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0003/realsense/depth/0000.png",
+          "label": "scenes/scene_0003/realsense/label/0000.png",
+          "meta": "scenes/scene_0003/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "c206af638f8014bd979e79a62b3413d28e33ccb7f1a8ad21b8c73767b4c1040c",
+          "depth": "aed6a45f1f8d0c4167e0f79d18b3877848cb8f6ea6a6489d64c1c85c65e3c866",
+          "label": "00cf6654c816383a3af2e642e49c5ca195915fa420dddb240afe0345895b8828",
+          "meta": "79318708230aa145e738ccb4d329b0cd1bcb5ddb522bb1006b61f303dc3343e9"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 4,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0004/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0004/realsense/depth/0000.png",
+          "label": "scenes/scene_0004/realsense/label/0000.png",
+          "meta": "scenes/scene_0004/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "15ec5c91c3cf542089178a24f48fba978f9c96c5a2d66ac6e42a6d353300ff13",
+          "depth": "1558783560feceacfa28d7d6682096872ed8cb23e1f7593f3d99ff87f5d3c153",
+          "label": "d05a6c88be6476c8e8083f825da40ba53a8d80c1bd9fe888f4b23d1ad2e12925",
+          "meta": "eb60bc856647d1699de62ce414b0a99c0f934626435faccb9625ad4c6985844a"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0004_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 5,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0005/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0005/realsense/depth/0000.png",
+          "label": "scenes/scene_0005/realsense/label/0000.png",
+          "meta": "scenes/scene_0005/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "16699acb804c540f06fe0f71fb095c12a71186ae6a548739b77801943c61dfe4",
+          "depth": "d0bbc1d7968101f9ae6a91869be142e94c7695fe20af6bf315732d72167d4380",
+          "label": "e2878455f4f26c1c4374b287f4b30ae5dd504abde7681020aba1937dc478a209",
+          "meta": "08139dc5edaf59e33e660f2814743fa474cf61ad9b1ac2909daa8cf71700cf40"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0005_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 8,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0008/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0008/realsense/depth/0000.png",
+          "label": "scenes/scene_0008/realsense/label/0000.png",
+          "meta": "scenes/scene_0008/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "65c7e4cb9180c9cd0371007f689b154658e4ed7c187e7c9000cb0502be1f8c37",
+          "depth": "eb72481c84465730956002fa3d2a9b3d7d6f74342f7622abdbb8674a6c9200cc",
+          "label": "6a11b3ae2f0954a6f50e68054ef2c843a8f3679f128c3419f13770c49cb97937",
+          "meta": "68b43e64f50c01de9fffecf6fe071adf7a4a55b04efa3f152ddf8d5bacb3bbef"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0008_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 9,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0009/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0009/realsense/depth/0000.png",
+          "label": "scenes/scene_0009/realsense/label/0000.png",
+          "meta": "scenes/scene_0009/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "6775bafc5d97d35ed3ac95e039056903addc14d727f7ae2b1214199e384df6dc",
+          "depth": "fee6dde75382370f7c7b595ab2a2e8ceb120b029b3bf04923825d3564e5032cf",
+          "label": "9fbe4c6c07ef5c696bbbf8efd54f82861cec4adc8599817a8e3480c29cc83f04",
+          "meta": "0fa893cf0d8e1465c77a2308db61c3717ffd4552e10c20a4c9e2ef42596121ee"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0009_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 10,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0010/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0010/realsense/depth/0000.png",
+          "label": "scenes/scene_0010/realsense/label/0000.png",
+          "meta": "scenes/scene_0010/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "4f878b513898e9d02ec83d30b1afa1046dcf4895471ace58b4bf296603adbca5",
+          "depth": "e88162acc385a1f511921864c475563e8b72eaffce872a807b2f9403e0c4382d",
+          "label": "937131eaefb7963e22d246a39bf45e2c616933f82fe97f3f96e09ab9c691a863",
+          "meta": "7aa03dcf9f47afea955d37120cb23c6c45dce89536685365b4a54dd78de581de"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0010_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 12,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0012/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0012/realsense/depth/0000.png",
+          "label": "scenes/scene_0012/realsense/label/0000.png",
+          "meta": "scenes/scene_0012/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "7ed6fa65c15b9d3dcbbd415972806b97eaa35e98b0d5135f7523d89f86a1a612",
+          "depth": "3fa9c3a02d7bff25c18f5a65b171610365ffcb56d56277359f8d53bb343eb8d3",
+          "label": "c2ac062fa5d5e8032f3d615c3269eeededb71cd3fea1649fbb438a47d84a1487",
+          "meta": "16b3d851b7d82a34e3d917cb782267f1e47d7227a7405a93b3ca8014ac7b2acd"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0012_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 14,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0014/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0014/realsense/depth/0000.png",
+          "label": "scenes/scene_0014/realsense/label/0000.png",
+          "meta": "scenes/scene_0014/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "386a33277f47e1ec25f6b43ecab2126299c35e0ac00ff4f7279738261b87d97c",
+          "depth": "2343a18680e1d443605056c083a25fe121e5f1093971c4a5f144e0b053ad92d7",
+          "label": "ea4d049fc4ed81bccceb2b63df84a4a8c0e4af6bd21c8332df1c71298c6b3edf",
+          "meta": "a54069ba1c0890ef243670b125f7715aaa2b98c685edb4c1faf3bfa78cb3f1c4"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0014_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 16,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0016/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0016/realsense/depth/0000.png",
+          "label": "scenes/scene_0016/realsense/label/0000.png",
+          "meta": "scenes/scene_0016/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "f3d9c16e9c2a69c12bdfe6e704a3522f95ad9956bc64cd8432b52480572bbcc0",
+          "depth": "1e2fa97c872f89532594ea06d53913305a104e6cb63b3c2006d6fbd4d3678cdd",
+          "label": "29089830c1267af1b7c260d049289703ff595750d4778c0fc92f6a1df000467f",
+          "meta": "daf16110226f111d1a10f890115d0e08a9032a0a6a86abb1b0d6fb73f11c46f2"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0016_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 17,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0017/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0017/realsense/depth/0000.png",
+          "label": "scenes/scene_0017/realsense/label/0000.png",
+          "meta": "scenes/scene_0017/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "67a2c8b274d1108e53d30c57bdd968d6d00dfee6259196be8932d5f6e6b10516",
+          "depth": "9192527e6d1e6b7b08cafda04a9a96c8dd05092fadedb23dcd7e38180622b98f",
+          "label": "1851d27688df5a774ccc26a24a61efdbf295a8fdb33a4b2215d73da8c4af4046",
+          "meta": "f1cda673f96785e4858ed60bac035b38a00fa2153c65cf451ca92d0964951e86"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0017_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 19,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0019/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0019/realsense/depth/0000.png",
+          "label": "scenes/scene_0019/realsense/label/0000.png",
+          "meta": "scenes/scene_0019/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "4a7a3ac81253d8c5199f302034886476fd17ade7d3af0e7c36f34c558f13496c",
+          "depth": "bb1249236ae3ab3ae6d9b7148934bdea8e68a1caae315edc632caa0d70f49cf1",
+          "label": "3fe0555ba2c64fb6809df4f909f38e65eddbc44b3ac844a12311dfc848c7bc52",
+          "meta": "7c34489dc1cd8ea671d0571e4ff6824000a591d79aea17d08ab3379f0babf42e"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0019_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 20,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0020/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0020/realsense/depth/0000.png",
+          "label": "scenes/scene_0020/realsense/label/0000.png",
+          "meta": "scenes/scene_0020/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "a8e31caae5d93de0f5bad34d740786b4e8d6e8bf5fa520b55039ee92ffb85f32",
+          "depth": "7783d9cf296a1604763cd269478c79ccf8aa83fa78cb690a912f84582bdfece2",
+          "label": "6a1c591d9710af9d8460fb5356fba54f806c3f988ead57518bde44324b9edacd",
+          "meta": "b8663f1a7f17f36027fb592820d5283db8f51fff5f3b15cfd564b280ad3250f2"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0020_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 30,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0030/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0030/realsense/depth/0000.png",
+          "label": "scenes/scene_0030/realsense/label/0000.png",
+          "meta": "scenes/scene_0030/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "e1258310302a4502570690238d0fab9b50445da7394cf1f20ebd41f018997958",
+          "depth": "0ac024f39cdc26f371a59aba4021a8c589ad7b85afdc6a0457b21ec0c84c8d8f",
+          "label": "e097f4c8e5805fbaefb6f63e252befadce0feb2a50b2fc3d57843d8b88b08fb9",
+          "meta": "ad974cb0296fad6727d8db5ff2a6d168a2bf661b9f0e6aa13dbf0f7f92b1b191"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0030_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 31,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0031/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0031/realsense/depth/0000.png",
+          "label": "scenes/scene_0031/realsense/label/0000.png",
+          "meta": "scenes/scene_0031/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "848d041a9e7e82d3ccd971faa60b849ec1c16f32df1e33fc8f8a07aa5be8d334",
+          "depth": "7402e6b3c56d3802e16457f4f75f9979c92db027e7d98727150a57c221ef403b",
+          "label": "c4874bc9f2bc6b316b1f62973b22e618256618cc8dc78415f145f258ee71f81e",
+          "meta": "627db05b87381e138bc5a2e33353915c4f479818ffc310446b287b6b604385c9"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0031_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 34,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0034/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0034/realsense/depth/0000.png",
+          "label": "scenes/scene_0034/realsense/label/0000.png",
+          "meta": "scenes/scene_0034/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "3645ebfd597726e39c26e532eab2cb1a87a730a09f85669316fbcb83f3efe282",
+          "depth": "2fbd10dc7dac3d70c1e649b7dedfe8ac18d70b81ff1a8702f0a112e322986cb8",
+          "label": "94b6a351812838eb12e6f0109a1159776601b2e18e6b7dc1984054e2e52d9af7",
+          "meta": "bd7188aa180212e7c198d5a3fa1a21894621230413941c1c2a26ffac43f7c134"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0034_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 38,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0038/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0038/realsense/depth/0000.png",
+          "label": "scenes/scene_0038/realsense/label/0000.png",
+          "meta": "scenes/scene_0038/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "182d541a1a783bde4147b81e938b012f2958bb41cdaa9b36fc103a5587cc9188",
+          "depth": "6d5fd4d29307c37a67b78ac619d7b513e34acfcf73896d76aa744d1018ac9d4f",
+          "label": "66b07bbd16c0fb175b8cbf14c19460c59e3e67b786cfdd3960bfcf9eaaf042bb",
+          "meta": "2445f9f1688c2446620fe405b43857e8a731510a9d85608020a3d240e5b2a0da"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0038_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 42,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0042/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0042/realsense/depth/0000.png",
+          "label": "scenes/scene_0042/realsense/label/0000.png",
+          "meta": "scenes/scene_0042/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "533b4ebb745f8b4524c9041bf796ee394238416b822542b6ea90dbb28ed7964d",
+          "depth": "2c97895caff00d213b35d318c6deaa188f8b8c5c2824c68c6aff6a229ff6ec15",
+          "label": "5762c62e11610540a38f97e3ca8507b49486935f519526e6eee0479999efddc1",
+          "meta": "5626bb0080e5ea842415ce3ff9f3295738d33b5c7e096c65583d0fa66a17ff7b"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0042_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 43,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0043/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0043/realsense/depth/0000.png",
+          "label": "scenes/scene_0043/realsense/label/0000.png",
+          "meta": "scenes/scene_0043/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "70b929ad42c5f9051cb35369dfa26f440fed4025329733066f09f4caec2eb676",
+          "depth": "4b279cce1d039a42ed74423499f61e4cfe40103680db8a913b6595e149289b4f",
+          "label": "3540205b39acf5034d58ca21434098c6fcb1cd7769a7a83848930211cec66c56",
+          "meta": "b27f61e36198c141f48428ee2d6f17ad8a5a004bb84191c1077a8d5f6e56a5ca"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0043_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 57,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0057/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0057/realsense/depth/0000.png",
+          "label": "scenes/scene_0057/realsense/label/0000.png",
+          "meta": "scenes/scene_0057/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "eca188f27e245f4a0538f5692450c5b152f0237ce5076808f8097c491504de68",
+          "depth": "fa77ff95b3113e7dec001776f2d47228004df82d1d23e9839cf5b94029429e67",
+          "label": "147a7d4b5e9c95eca60352cb8b305f02544135011b5757fabaf9c85b67f411eb",
+          "meta": "b8b39a95411d0bdfea0455989e4b14d8ad424435241d6d5d154279347a86b61d"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0057_0000/prediction.npz"
+    },
+    {
+      "partition": "train",
+      "record": {
+        "scene": 93,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0093/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0093/realsense/depth/0000.png",
+          "label": "scenes/scene_0093/realsense/label/0000.png",
+          "meta": "scenes/scene_0093/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "317a38003a5d1cad18033c13e3b11a598100d0e2c74e346dbf39057fe89ac3f5",
+          "depth": "1b609160c1e5615f657c124d41f08bf6e92cad80dc52c66a0507d2cec0cc6993",
+          "label": "69a174d583463592136ae98942cfa5544f3cf3724ec043b05f056027777b8ce3",
+          "meta": "e4a7af2992c55e86732b6f1e22afb50825644c36136fd4f185cf1b342da96a6f"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0093_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 2,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0002/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0002/realsense/depth/0000.png",
+          "label": "scenes/scene_0002/realsense/label/0000.png",
+          "meta": "scenes/scene_0002/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "0fdef547423908b56edb9ec39c366ae1674c58e962655c3511de20f6a3a0c9d5",
+          "depth": "6ba2a7dcb088a7bf024e21afa5de40a801ec88c331ad8e7f6c03401d90741086",
+          "label": "bd4628caa4908bc605550a92c5e5a6ebb034a7b1c20a6e6d6eb5fdd1aecc6ddb",
+          "meta": "ce4aff35b4962fda0007ff66b140f35865a3edba8dca87e73149080eb6b20299"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0002_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 6,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0006/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0006/realsense/depth/0000.png",
+          "label": "scenes/scene_0006/realsense/label/0000.png",
+          "meta": "scenes/scene_0006/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "f6366ddea1dba57445aee1246a07ead8fd2aa72a5431103a3aefbc1a1cac8f8c",
+          "depth": "6456bd76296e54bfc9bc5e589053d021ba3244effb1ebd91e21c1d17d2e55422",
+          "label": "e9898b54f652feec2ea799157b769d15d1d85af7057fa5f9ee8abaa6b9a89d73",
+          "meta": "71469d0c4af6403700aa6d52a2f0f43239cf82c79c7326c2f6451c1c49129be1"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0006_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 7,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0007/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0007/realsense/depth/0000.png",
+          "label": "scenes/scene_0007/realsense/label/0000.png",
+          "meta": "scenes/scene_0007/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "5f660bffa3930cf094f0e5653ec8e7d551cd958b48cf133541513e537f9e0f6e",
+          "depth": "138b7bf77bd3101d6eb5552f07282fb6e69d65fac98a3914989f0c0a38520a8c",
+          "label": "ee2d2ee5b5b2249d1fe7653ee9176e179592c88eadd23d57b0e35a69886bfdb9",
+          "meta": "1ee3175361f9e83cd4b81b1a20c4e7001cbb024226a3fdc0674dde0cce977d37"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0007_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 11,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0011/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0011/realsense/depth/0000.png",
+          "label": "scenes/scene_0011/realsense/label/0000.png",
+          "meta": "scenes/scene_0011/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "3514d1e5bcc8949378aa8294d586d148e7e915bcd20d07dbb1c909f4ca4b8264",
+          "depth": "fd4b5c34a7fcaccb92debaeeb7e9b01b85d3bff9e77af5d65b2e49fd0f3a8751",
+          "label": "ebcb608e97f86755fd687fa0935150b8fcb7bdb4dae80ff7dc5857cc0aa936e4",
+          "meta": "830bbf1b36170a731bd885caa5b65e7afde0d345fa7f091b7165d357aa702dfe"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0011_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 13,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0013/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0013/realsense/depth/0000.png",
+          "label": "scenes/scene_0013/realsense/label/0000.png",
+          "meta": "scenes/scene_0013/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "2df8106dde4dbb206de67176e2276b409ed3ee617f56f8b10c9c0efaea25173f",
+          "depth": "2d7270c9ba89764a41c2dfd0576b6309b4ab105522f496afc44cbd455d330718",
+          "label": "e077bf4c27795d99897398c04a19cdb98f48aa0ab44c58026bdad3cb5c92d842",
+          "meta": "829259cda7ea1de2dcfa68b2763494c068ea3de2fab702c80f76a551d24e3bcc"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0013_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 15,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0015/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0015/realsense/depth/0000.png",
+          "label": "scenes/scene_0015/realsense/label/0000.png",
+          "meta": "scenes/scene_0015/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "02542df1123cbbfa5813a5e9ff4a30bafa4c26d8580c45fe6d32c8af1e7253db",
+          "depth": "c65061d02e8bfad7bac3007361fb03fe76345b1ea0e7e87f53795d1dba0f6784",
+          "label": "7b5f5a89b5c248da610f939f7a51dcc190a187e9eef44b6c245541471b15377b",
+          "meta": "aacdf14add435dd3cc44d70c90cff7962224288a5d6eb84f7bf8fe88754ca39d"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0015_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 18,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0018/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0018/realsense/depth/0000.png",
+          "label": "scenes/scene_0018/realsense/label/0000.png",
+          "meta": "scenes/scene_0018/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "991d251f35184563f2eaaff16b245cadc62c9d1f883e84cd30cc813283797d32",
+          "depth": "c1db5fd73bb3589fee32951f628df825b2db2452e7affe6f0abf642d3f2b30d7",
+          "label": "b0a867f38cd93563224b3afbecd7fd79090d74317ee8b441e83a86d488b8cc9d",
+          "meta": "c9d4ef1055c7f0dabd577d2a7f8ede585f58477711345bcece0120bb23f08c02"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0018_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 22,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0022/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0022/realsense/depth/0000.png",
+          "label": "scenes/scene_0022/realsense/label/0000.png",
+          "meta": "scenes/scene_0022/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "b9cc3ad8c5d1f29378c323eb59d90cc9a19e6fc13b492e7af3b46487dece13af",
+          "depth": "e82a511258fd60986b27b2ce959e733ebc99cb636f9cb8c587fd25b881b78c13",
+          "label": "42a55e00c356241c2b886efbdc1bea16ef7ed76c64fd7ec623dc05d7d63083ed",
+          "meta": "5a472c1f1ec5120865dcffc816dcb3baaca5ce454c8b551d52844400eed2a2bd"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0022_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 33,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0033/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0033/realsense/depth/0000.png",
+          "label": "scenes/scene_0033/realsense/label/0000.png",
+          "meta": "scenes/scene_0033/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "6cc73667f080e4c0d1be4d4726d2ea5051920995f406632cf3df5ee72c1c3a71",
+          "depth": "d6add3732b78dac9277c608e7d0eed686257c1bf0b647c7d7e68c5e4ea97657a",
+          "label": "4c0562a076bb1eff864a84481aa38607bb4e2b6546de8b9e4ec0d86561f87f45",
+          "meta": "2e16ac45183c1ff3bb4678426c61149b1057156d4d878f5082d46c0ee8482ce4"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0033_0000/prediction.npz"
+    },
+    {
+      "partition": "development",
+      "record": {
+        "scene": 39,
+        "frame": "0000",
+        "camera": "realsense",
+        "files": {
+          "rgb": "scenes/scene_0039/realsense/rgb/0000.png",
+          "depth": "scenes/scene_0039/realsense/depth/0000.png",
+          "label": "scenes/scene_0039/realsense/label/0000.png",
+          "meta": "scenes/scene_0039/realsense/meta/0000.mat"
+        },
+        "sha256": {
+          "rgb": "2dfb9b7effaebab922653f29405c077976020a9404160d1b00e627fce1ee3249",
+          "depth": "67129416c315cc0b768078453a414146a0fc567ebcd3e6b4c5d73505ea388fd1",
+          "label": "dd154e19da681069adc294ed109e7fa7e053e3aaa1ea549e1af2ab3494acca84",
+          "meta": "bf85af42acdfd3a5907f750d4e03132648bcf17ff74db9f5ce4d1edbfb73bbe3"
+        }
+      },
+      "cached_prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0039_0000/prediction.npz"
+    }
+  ],
+  "max_new_forward_calls": 30,
+  "max_new_training_updates": 0,
+  "max_new_AP_calls": 0,
+  "points_per_instance": 32,
+  "gates": {
+    "each_frame_nonempty": true,
+    "each_frame_at_least_one_iou50_match": true,
+    "each_frame_matched_instance_has_valid_depth": true,
+    "all_predictions_exactly_repeat_frozen_cache": true,
+    "projection_tolerance_pixels": 1e-06,
+    "inverse_formula_tolerance_metres": 1e-09
+  },
+  "missing_depth_policy": "Record/exclude invalid-depth pixels; never invent depth. Require at least one matched instance with valid depth per frame.",
+  "resources": {
+    "run_seconds": 600,
+    "verify_seconds": 180,
+    "cumulative_seconds_cap": 780,
+    "CPU_threads": 4,
+    "rss_bytes": 4294967296,
+    "gpu_bytes": 2147483648,
+    "output_bytes": 67108864,
+    "disk_reserve_bytes": 64424509440
+  },
+  "output": "results/P4/baseline_usability_v20b",
+  "protected_files": {
+    "docs/第十六轮配对基线冻结方案.txt": {
+      "sha256": "8940477610af97d6f241aa418c5fba4782621ba770ba18d2622425125c0fa538",
+      "bytes": 4785
+    },
+    "logs/P4/segmentation_baseline_v16_tests.log": {
+      "sha256": "2ec3bb309ff7b83011b52d05a538e75cb79c639cbdd3977a8ca74f83f74c91cc",
+      "bytes": 16771
+    },
+    "scripts/accept_segmentation_baseline_v16.py": {
+      "sha256": "43c6525dcf6ae4e2e190d0267c8392382af1da73db8b814cfa27880bb081b287",
+      "bytes": 48634
+    },
+    "scripts/accept_segmentation_expanded_v3.py": {
+      "sha256": "e0ecad445cbd9caef8d23c5e9816a4e89fb93cfd955f9d021000a074b34d79e4",
+      "bytes": 10857
+    },
+    "scripts/evaluate_segmentation_baseline_v16.py": {
+      "sha256": "b4a0fee5a61523845dca054457cb01a04d734392a86e6c97d39dff68d3f30e4f",
+      "bytes": 35889
+    },
+    "scripts/multiview_common_v14r1.py": {
+      "sha256": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+      "bytes": 12682
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168
+    },
+    "scripts/render_segmentation_expanded_v3.py": {
+      "sha256": "ab5adf62d6f7452e3c15dab3c9faf886a2903c4fb41a1706cefa762993bc2b65",
+      "bytes": 13710
+    },
+    "scripts/resume_segmentation_baseline_v16.ps1": {
+      "sha256": "178f419cb8968531568e4656af79b0fb64acb8ae3b2717b098fbbec0133b408f",
+      "bytes": 391
+    },
+    "scripts/run_segmentation_baseline_v16.py": {
+      "sha256": "630a08303866e4adeb8f3c1eba1bb9e92d139018b39e92734c2d897749defe13",
+      "bytes": 15874
+    },
+    "scripts/test_segmentation_baseline_v16.py": {
+      "sha256": "c0a49cd13e8e58d71bf5a1bc013be21116df3089d617a023b2d9bf281ec6d5e3",
+      "bytes": 1472
+    },
+    "scripts/train_segmentation_baseline_v16.py": {
+      "sha256": "91401688bf693f877fbabf3fa610c4cdcbc234db8bb652da9508b8bbd51e306a",
+      "bytes": 36614
+    },
+    "scripts/train_segmentation_coverage_v8.py": {
+      "sha256": "d7e42d9decc2e591b26ed89a62a738751ebe34c41fdaa6a925b0f581a136f262",
+      "bytes": 40293
+    },
+    "scripts/train_segmentation_expanded_v3.py": {
+      "sha256": "3b116c8029e5cf6885a1148e86d446882755823caa4eda63f93bfa8d5ca2f458",
+      "bytes": 27342
+    },
+    "scripts/train_segmentation_pilot.py": {
+      "sha256": "2dec0d041cc47c6ddbfb662840782f4a8e63f9f17680526bd66994a509ddf6ae",
+      "bytes": 21733
+    },
+    "scripts/train_segmentation_repair_v5.py": {
+      "sha256": "051ec01f935a0b7986fa44d3ce078dd045c2293309c88d34ca1a489359134860",
+      "bytes": 29561
+    },
+    "scripts/verify_gpu_resume.py": {
+      "sha256": "8ff96ae0aaaec5c37e213a00d984e5e6ba62fe6c9bf8d978dc8df898bcc27e05",
+      "bytes": 11323
+    },
+    "scripts/verify_segmentation_baseline_v16_resume.py": {
+      "sha256": "d32044e00e6994c77264bc3f8601ae0ccf51c1eec66e4434fc02e3047912f47a",
+      "bytes": 33164
+    },
+    "src/checkpoints.py": {
+      "sha256": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+      "bytes": 14693
+    },
+    "src/graspnet_frames.py": {
+      "sha256": "98c45d0a3d37b5ea86382ba96f9e59eb56e98e0878f0eedab474eae4faf310ff",
+      "bytes": 8056
+    },
+    "src/segmentation.py": {
+      "sha256": "554b1f1e9a46f551ed1a485895eed164d08f5466ebd8e41dfded2556afa90e55",
+      "bytes": 7283
+    },
+    "src/segmentation_v2.py": {
+      "sha256": "1ee25fd2ca676c1432ff2b5c508800c874e95f414a58e92ece1d93700633aa1e",
+      "bytes": 1409
+    },
+    "tests/test_baseline_evaluation_v16.py": {
+      "sha256": "6acc88a5cf2224598939deef7151bfbbe4737a25c8941ba35acd472ef268e77b",
+      "bytes": 25644
+    },
+    "tests/test_baseline_resume_v16.py": {
+      "sha256": "9f5337e75e289b62bf3281fadb6a615578b5841cd0ea6e704e3742c2063cdcbe",
+      "bytes": 21031
+    },
+    "tests/test_baseline_wrapper_v16.py": {
+      "sha256": "c0e6e7c9ac375d652eb3789b6d6fd51e3039bcb8e4a14f520711a4ba3c23ce59",
+      "bytes": 12120
+    },
+    "tests/test_segmentation_baseline_v16.py": {
+      "sha256": "7756eb55aab5246e2482db014d814ac0034250a81b8248cb80445943a0a6f771",
+      "bytes": 26390
+    },
+    "configs/segmentation_coverage_v8.json": {
+      "sha256": "eba416a82b4c3fa7af5e082fefaf93ebece730f9c4089d7bb5d0ad780b7167e1",
+      "bytes": 4993
+    },
+    "data/manifests/coverage_v8.json": {
+      "sha256": "2f6ea33e9f7167a60bb1a4bd4e2d6deb27d633a5cd17a11ebc29140780cd269f",
+      "bytes": 1429733
+    },
+    "results/P2/coverage_v8_data_audit.json": {
+      "sha256": "247b491be3b200721bc42f348af4808b762a481aacb14d6f19ed0a8f6a716b80",
+      "bytes": 632620
+    },
+    "data/manifests/scene_splits.json": {
+      "sha256": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+      "bytes": 2816
+    },
+    "results/P2/environment_lock.json": {
+      "sha256": "e9fef1ba327266eb6246f61c54888d7ce0883fb92e89a211a0aa692b75fd5c9c",
+      "bytes": 2649
+    },
+    "results/第八轮训练覆盖对照验收.json": {
+      "sha256": "692b09683901c1ee3d38b6f0e61c77f34eb49fd8e3a36a2f8d1fc5e96da0bf3a",
+      "bytes": 66556
+    },
+    "configs/segmentation_baseline_v16.json": {
+      "sha256": "2edc0c1d1453bda5ce49a135eb1586d48b602210ce7c03fbd87e830daff281e0",
+      "bytes": 9125
+    },
+    "results/P4/segmentation_baseline_v16_training.json": {
+      "sha256": "0e9e6ead4f4bb10c4dc8b3ab3464e262a8c28aca8c782bf1d1a3b417864f38cc",
+      "bytes": 5998
+    },
+    "results/P4/segmentation_baseline_v16_acceptance.json": {
+      "sha256": "3b5f90c16d91f858066078d2199068af056912fa64f80dd86afdd296b8112d02",
+      "bytes": 807657
+    },
+    "results/P4/mask_ap_v17_acceptance.json": {
+      "sha256": "1df66e0ab9690bc5a6ebf69ef532c9f5b37c630fb121f0731e5aa278764ffd12",
+      "bytes": 60699
+    },
+    "runtime/pipeline/state.json": {
+      "sha256": "b48eadde3c1f7ea400c48dd206f707ecf804d54f6f018a013e9d662dcc4b2b76",
+      "bytes": 3127920
+    },
+    "configs/stages.json": {
+      "sha256": "d53814aa55ef5fb18a213417bd14af4d7c5137f8a29f7da2574c2915e465d572",
+      "bytes": 1124167
+    },
+    "experiments/segmentation_baseline_v16/rgbd/checkpoints/checkpoint-1792891232169965300-926396f9f9e1.pt": {
+      "sha256": "1017aafd7f5f6a0663f2572e56a7373667db389fc4d57bf84bbb49742281e3c7",
+      "bytes": 135579550
+    },
+    "experiments/segmentation_baseline_v16/rgbd/config.json": {
+      "sha256": "656a7d3d266575c85c901c470e6d02c3a65c33eface7492ece9ff9e52f342041",
+      "bytes": 12542
+    },
+    "experiments/segmentation_baseline_v16/rgbd/history.json": {
+      "sha256": "66909be2d5620e7a2dc73fde45f984fa8ed72827452eba9388a24cdf167d4512",
+      "bytes": 1188333
+    },
+    "experiments/segmentation_baseline_v16/rgbd/initialization.json": {
+      "sha256": "4e218b97aeb98d6125b32cc65aca9a9c1f38dda27a52771cf7c6a8be43bfd9d7",
+      "bytes": 1819
+    },
+    "experiments/segmentation_baseline_v16/rgbd/result.json": {
+      "sha256": "a2df9a663f9bf84dd480eccdaada964f33ba79b0a9eb010c8afb2c3a4b1a7a91",
+      "bytes": 1943
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0000.png": {
+      "sha256": "c206af638f8014bd979e79a62b3413d28e33ccb7f1a8ad21b8c73767b4c1040c",
+      "bytes": 1270358
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0000.png": {
+      "sha256": "aed6a45f1f8d0c4167e0f79d18b3877848cb8f6ea6a6489d64c1c85c65e3c866",
+      "bytes": 207367
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/label/0000.png": {
+      "sha256": "00cf6654c816383a3af2e642e49c5ca195915fa420dddb240afe0345895b8828",
+      "bytes": 11620
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0000.mat": {
+      "sha256": "79318708230aa145e738ccb4d329b0cd1bcb5ddb522bb1006b61f303dc3343e9",
+      "bytes": 876
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0000/prediction.npz": {
+      "sha256": "b76aa1b61bfc11f6c9d49804f5b14241b4acb5f81c86862da9699c48d3959d41",
+      "bytes": 3768
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0000/prediction.npz.sha256.json": {
+      "sha256": "4e2c76f4376d71a0a59150c89acb6f41813f848b014f134d2f6a6bc497e99392",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0000/record.json": {
+      "sha256": "0bf925e955a86ea581e21a4604593d047ca3310ac5b50fbe2c555d841d96d1bd",
+      "bytes": 1547
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0004/realsense/rgb/0000.png": {
+      "sha256": "15ec5c91c3cf542089178a24f48fba978f9c96c5a2d66ac6e42a6d353300ff13",
+      "bytes": 1267741
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0004/realsense/depth/0000.png": {
+      "sha256": "1558783560feceacfa28d7d6682096872ed8cb23e1f7593f3d99ff87f5d3c153",
+      "bytes": 196382
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0004/realsense/label/0000.png": {
+      "sha256": "d05a6c88be6476c8e8083f825da40ba53a8d80c1bd9fe888f4b23d1ad2e12925",
+      "bytes": 10614
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0004/realsense/meta/0000.mat": {
+      "sha256": "eb60bc856647d1699de62ce414b0a99c0f934626435faccb9625ad4c6985844a",
+      "bytes": 874
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0004_0000/prediction.npz": {
+      "sha256": "2eacaa7966dc671832de54b036713262b0dcf201aa32039152eb3bacefa6553e",
+      "bytes": 3782
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0004_0000/prediction.npz.sha256.json": {
+      "sha256": "812ea75e567066ce9f454ec5724fe04a9e7da184a58919989378615ee157022e",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0004_0000/record.json": {
+      "sha256": "2a8cb5e71d3763fd80d4044ec677059599ff17f6f33c9e8e3b6c34f38f63c40a",
+      "bytes": 1517
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0005/realsense/rgb/0000.png": {
+      "sha256": "16699acb804c540f06fe0f71fb095c12a71186ae6a548739b77801943c61dfe4",
+      "bytes": 1323319
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0005/realsense/depth/0000.png": {
+      "sha256": "d0bbc1d7968101f9ae6a91869be142e94c7695fe20af6bf315732d72167d4380",
+      "bytes": 203236
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0005/realsense/label/0000.png": {
+      "sha256": "e2878455f4f26c1c4374b287f4b30ae5dd504abde7681020aba1937dc478a209",
+      "bytes": 11760
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0005/realsense/meta/0000.mat": {
+      "sha256": "08139dc5edaf59e33e660f2814743fa474cf61ad9b1ac2909daa8cf71700cf40",
+      "bytes": 875
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0005_0000/prediction.npz": {
+      "sha256": "5cf3bf680fb73b7fb06d08ad0a377cb46a9aa59e8b1ee67a0769697e7270174c",
+      "bytes": 4125
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0005_0000/prediction.npz.sha256.json": {
+      "sha256": "ccea56ab5119dd377256dbb35d3bf169d33fff22e3b09fdbdaeaca01399afd5d",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0005_0000/record.json": {
+      "sha256": "8afda76ab7a520aed5c6e7cb2d1379efbb666740e3058bbca91e8be906354800",
+      "bytes": 1545
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0008/realsense/rgb/0000.png": {
+      "sha256": "65c7e4cb9180c9cd0371007f689b154658e4ed7c187e7c9000cb0502be1f8c37",
+      "bytes": 1205452
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0008/realsense/depth/0000.png": {
+      "sha256": "eb72481c84465730956002fa3d2a9b3d7d6f74342f7622abdbb8674a6c9200cc",
+      "bytes": 210436
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0008/realsense/label/0000.png": {
+      "sha256": "6a11b3ae2f0954a6f50e68054ef2c843a8f3679f128c3419f13770c49cb97937",
+      "bytes": 12791
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0008/realsense/meta/0000.mat": {
+      "sha256": "68b43e64f50c01de9fffecf6fe071adf7a4a55b04efa3f152ddf8d5bacb3bbef",
+      "bytes": 926
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0008_0000/prediction.npz": {
+      "sha256": "d2c1a24838877693b7436b24b303b64d5d0675c2ef86c7da92121f1f18fade70",
+      "bytes": 4454
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0008_0000/prediction.npz.sha256.json": {
+      "sha256": "22f793e6ea8a84768af77d6fab345f3d8d6a6cc229bc0cf23c25910fd79694bc",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0008_0000/record.json": {
+      "sha256": "12f5eb3e2769facb51acfabcf95eda3f3c1f90224a573bfb4ea36307138cbe91",
+      "bytes": 1536
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0009/realsense/rgb/0000.png": {
+      "sha256": "6775bafc5d97d35ed3ac95e039056903addc14d727f7ae2b1214199e384df6dc",
+      "bytes": 1101817
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0009/realsense/depth/0000.png": {
+      "sha256": "fee6dde75382370f7c7b595ab2a2e8ceb120b029b3bf04923825d3564e5032cf",
+      "bytes": 198046
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0009/realsense/label/0000.png": {
+      "sha256": "9fbe4c6c07ef5c696bbbf8efd54f82861cec4adc8599817a8e3480c29cc83f04",
+      "bytes": 12391
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0009/realsense/meta/0000.mat": {
+      "sha256": "0fa893cf0d8e1465c77a2308db61c3717ffd4552e10c20a4c9e2ef42596121ee",
+      "bytes": 975
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0009_0000/prediction.npz": {
+      "sha256": "11bee4b7b3ea41713bf68034c7497b3ec6d1a3d3330f26dc334eb1b24d05acb2",
+      "bytes": 4250
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0009_0000/prediction.npz.sha256.json": {
+      "sha256": "7948bd68ce36d799515387c6b78f4c86750cdea2dc4110064a462c9a1adf5ec4",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0009_0000/record.json": {
+      "sha256": "515fbb78bcc15c241a1b899396f00760d7040aef64e5d99a6ba3b77a55cd0c76",
+      "bytes": 1552
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0010/realsense/rgb/0000.png": {
+      "sha256": "4f878b513898e9d02ec83d30b1afa1046dcf4895471ace58b4bf296603adbca5",
+      "bytes": 1132470
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0010/realsense/depth/0000.png": {
+      "sha256": "e88162acc385a1f511921864c475563e8b72eaffce872a807b2f9403e0c4382d",
+      "bytes": 207666
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0010/realsense/label/0000.png": {
+      "sha256": "937131eaefb7963e22d246a39bf45e2c616933f82fe97f3f96e09ab9c691a863",
+      "bytes": 12603
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0010/realsense/meta/0000.mat": {
+      "sha256": "7aa03dcf9f47afea955d37120cb23c6c45dce89536685365b4a54dd78de581de",
+      "bytes": 973
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0010_0000/prediction.npz": {
+      "sha256": "f55cbca1c70f9e3771cfeef392ccb69a27337276c5874dfadb9cd2e119bf8c20",
+      "bytes": 4703
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0010_0000/prediction.npz.sha256.json": {
+      "sha256": "30da9ed4401d90adc32a1396a2631504c3c3ede3a1a9fc67b52fdd7386cc70e0",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0010_0000/record.json": {
+      "sha256": "e94c08b35bcda53e4886b38825ef3df3acbef7b996d695dfd9a787a033f16478",
+      "bytes": 1550
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0012/realsense/rgb/0000.png": {
+      "sha256": "7ed6fa65c15b9d3dcbbd415972806b97eaa35e98b0d5135f7523d89f86a1a612",
+      "bytes": 1227902
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0012/realsense/depth/0000.png": {
+      "sha256": "3fa9c3a02d7bff25c18f5a65b171610365ffcb56d56277359f8d53bb343eb8d3",
+      "bytes": 197095
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0012/realsense/label/0000.png": {
+      "sha256": "c2ac062fa5d5e8032f3d615c3269eeededb71cd3fea1649fbb438a47d84a1487",
+      "bytes": 11792
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0012/realsense/meta/0000.mat": {
+      "sha256": "16b3d851b7d82a34e3d917cb782267f1e47d7227a7405a93b3ca8014ac7b2acd",
+      "bytes": 814
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0012_0000/prediction.npz": {
+      "sha256": "89e6156f16892ffca512f94dfe1ff47448394f41b77f379c6c12df70a38cf26f",
+      "bytes": 4114
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0012_0000/prediction.npz.sha256.json": {
+      "sha256": "ec9831a3b542e34d5a03a0a9ca43f8b91f6d9694d0776ad177156303ae9e1227",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0012_0000/record.json": {
+      "sha256": "2209a27258d5121dd6cd2787039a98752e4cf16d3a5d2475f53cdaa997d9ec4c",
+      "bytes": 1534
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0014/realsense/rgb/0000.png": {
+      "sha256": "386a33277f47e1ec25f6b43ecab2126299c35e0ac00ff4f7279738261b87d97c",
+      "bytes": 1282648
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0014/realsense/depth/0000.png": {
+      "sha256": "2343a18680e1d443605056c083a25fe121e5f1093971c4a5f144e0b053ad92d7",
+      "bytes": 188419
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0014/realsense/label/0000.png": {
+      "sha256": "ea4d049fc4ed81bccceb2b63df84a4a8c0e4af6bd21c8332df1c71298c6b3edf",
+      "bytes": 12457
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0014/realsense/meta/0000.mat": {
+      "sha256": "a54069ba1c0890ef243670b125f7715aaa2b98c685edb4c1faf3bfa78cb3f1c4",
+      "bytes": 814
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0014_0000/prediction.npz": {
+      "sha256": "cfbb21265b39975d462a3b51ef8089a08117095e2d5ecf7da45c6551d5d9518c",
+      "bytes": 4510
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0014_0000/prediction.npz.sha256.json": {
+      "sha256": "931c9a8b68b7d91efd65501dbf3a76fcd44dd82a88a2cbd2b31c5fb4067cdddc",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0014_0000/record.json": {
+      "sha256": "0b196896c720d3629758a44a986812cf6ce2be8baa20d347ba9e3e1b0fe2f4b5",
+      "bytes": 1537
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0016/realsense/rgb/0000.png": {
+      "sha256": "f3d9c16e9c2a69c12bdfe6e704a3522f95ad9956bc64cd8432b52480572bbcc0",
+      "bytes": 1213757
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0016/realsense/depth/0000.png": {
+      "sha256": "1e2fa97c872f89532594ea06d53913305a104e6cb63b3c2006d6fbd4d3678cdd",
+      "bytes": 215913
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0016/realsense/label/0000.png": {
+      "sha256": "29089830c1267af1b7c260d049289703ff595750d4778c0fc92f6a1df000467f",
+      "bytes": 13955
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0016/realsense/meta/0000.mat": {
+      "sha256": "daf16110226f111d1a10f890115d0e08a9032a0a6a86abb1b0d6fb73f11c46f2",
+      "bytes": 970
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0016_0000/prediction.npz": {
+      "sha256": "d9ede8eebb6e524dbf29f0629b880439361fa9d6f56160256bfd96162344d787",
+      "bytes": 4766
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0016_0000/prediction.npz.sha256.json": {
+      "sha256": "2afdddecb23375aaa3dee2b5db540d1663cec8d29580464784f60ed586d3735c",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0016_0000/record.json": {
+      "sha256": "608a4334fa6db7787caad8bc110b3355ffda14baa526008173ff52570becc9df",
+      "bytes": 1549
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0017/realsense/rgb/0000.png": {
+      "sha256": "67a2c8b274d1108e53d30c57bdd968d6d00dfee6259196be8932d5f6e6b10516",
+      "bytes": 1121067
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0017/realsense/depth/0000.png": {
+      "sha256": "9192527e6d1e6b7b08cafda04a9a96c8dd05092fadedb23dcd7e38180622b98f",
+      "bytes": 194753
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0017/realsense/label/0000.png": {
+      "sha256": "1851d27688df5a774ccc26a24a61efdbf295a8fdb33a4b2215d73da8c4af4046",
+      "bytes": 10882
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0017/realsense/meta/0000.mat": {
+      "sha256": "f1cda673f96785e4858ed60bac035b38a00fa2153c65cf451ca92d0964951e86",
+      "bytes": 972
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0017_0000/prediction.npz": {
+      "sha256": "227ab6a9eb05e553600d989d45114870ab40d6ae901f2948074a23ad4ec35f85",
+      "bytes": 4376
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0017_0000/prediction.npz.sha256.json": {
+      "sha256": "1375948a58c9ff3aa8c77eeb96f57015ed338f27429bef1bdcee2161e941a7bc",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0017_0000/record.json": {
+      "sha256": "57da5a3e1241ead169c4ed12fd25c7586ecff3beb389026cfce679fd9c3b1f30",
+      "bytes": 1519
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0019/realsense/rgb/0000.png": {
+      "sha256": "4a7a3ac81253d8c5199f302034886476fd17ade7d3af0e7c36f34c558f13496c",
+      "bytes": 1209377
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0019/realsense/depth/0000.png": {
+      "sha256": "bb1249236ae3ab3ae6d9b7148934bdea8e68a1caae315edc632caa0d70f49cf1",
+      "bytes": 191173
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0019/realsense/label/0000.png": {
+      "sha256": "3fe0555ba2c64fb6809df4f909f38e65eddbc44b3ac844a12311dfc848c7bc52",
+      "bytes": 11202
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0019/realsense/meta/0000.mat": {
+      "sha256": "7c34489dc1cd8ea671d0571e4ff6824000a591d79aea17d08ab3379f0babf42e",
+      "bytes": 874
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0019_0000/prediction.npz": {
+      "sha256": "4a498fc4cfb678e5e450759b626616598abe61217a971c6cd439c35abbe99390",
+      "bytes": 3620
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0019_0000/prediction.npz.sha256.json": {
+      "sha256": "d4b3fa3a921da11d80359c3bbec46eb9194be0b306c4728edcab8ddd48383f84",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0019_0000/record.json": {
+      "sha256": "7c7640d4716d8a64112848ab0419e0402eac4cb103738e7e5b70409701aee778",
+      "bytes": 1563
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0020/realsense/rgb/0000.png": {
+      "sha256": "a8e31caae5d93de0f5bad34d740786b4e8d6e8bf5fa520b55039ee92ffb85f32",
+      "bytes": 1099806
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0020/realsense/depth/0000.png": {
+      "sha256": "7783d9cf296a1604763cd269478c79ccf8aa83fa78cb690a912f84582bdfece2",
+      "bytes": 194243
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0020/realsense/label/0000.png": {
+      "sha256": "6a1c591d9710af9d8460fb5356fba54f806c3f988ead57518bde44324b9edacd",
+      "bytes": 10399
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0020/realsense/meta/0000.mat": {
+      "sha256": "b8663f1a7f17f36027fb592820d5283db8f51fff5f3b15cfd564b280ad3250f2",
+      "bytes": 871
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0020_0000/prediction.npz": {
+      "sha256": "9fbf23e4b130d1d9c9496458b9acb1f8a14f6ed7cefff352f3bbf7cff9a602b4",
+      "bytes": 3474
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0020_0000/prediction.npz.sha256.json": {
+      "sha256": "eabaf4108a67e6ee6ab6e77ad098c9aa8d6592adaa17a2895e96f5566aebdac8",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0020_0000/record.json": {
+      "sha256": "05803262ae46f99dfaae35c96acc5180eae85a7dfc15cc467f47f6a0eada5a14",
+      "bytes": 1533
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0030/realsense/rgb/0000.png": {
+      "sha256": "e1258310302a4502570690238d0fab9b50445da7394cf1f20ebd41f018997958",
+      "bytes": 1377563
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0030/realsense/depth/0000.png": {
+      "sha256": "0ac024f39cdc26f371a59aba4021a8c589ad7b85afdc6a0457b21ec0c84c8d8f",
+      "bytes": 198840
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0030/realsense/label/0000.png": {
+      "sha256": "e097f4c8e5805fbaefb6f63e252befadce0feb2a50b2fc3d57843d8b88b08fb9",
+      "bytes": 12347
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0030/realsense/meta/0000.mat": {
+      "sha256": "ad974cb0296fad6727d8db5ff2a6d168a2bf661b9f0e6aa13dbf0f7f92b1b191",
+      "bytes": 815
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0030_0000/prediction.npz": {
+      "sha256": "c02b5dcc2a3aa86d0b3e61fe699955b76fa54c1f8f6302d6120899ec790e6f4d",
+      "bytes": 4216
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0030_0000/prediction.npz.sha256.json": {
+      "sha256": "2aaa358c5fcfd34bf5ea28ca14a556508ee5301dd044ab7c78182a513bb171ff",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0030_0000/record.json": {
+      "sha256": "26bd4cefc1f263c630387ff678b1e1bd8020a7239ad3aeee09b3a1ab55d713bc",
+      "bytes": 1552
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0031/realsense/rgb/0000.png": {
+      "sha256": "848d041a9e7e82d3ccd971faa60b849ec1c16f32df1e33fc8f8a07aa5be8d334",
+      "bytes": 1357439
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0031/realsense/depth/0000.png": {
+      "sha256": "7402e6b3c56d3802e16457f4f75f9979c92db027e7d98727150a57c221ef403b",
+      "bytes": 206639
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0031/realsense/label/0000.png": {
+      "sha256": "c4874bc9f2bc6b316b1f62973b22e618256618cc8dc78415f145f258ee71f81e",
+      "bytes": 11967
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0031/realsense/meta/0000.mat": {
+      "sha256": "627db05b87381e138bc5a2e33353915c4f479818ffc310446b287b6b604385c9",
+      "bytes": 816
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0031_0000/prediction.npz": {
+      "sha256": "2b88ec2adac06fe122620f349c79dafe739a687adf5f6a53339edfb23c24f87c",
+      "bytes": 4066
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0031_0000/prediction.npz.sha256.json": {
+      "sha256": "df45fabcdb1fef459dcec863f5f44833190cda03349198ec2a6ccea883d0d463",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0031_0000/record.json": {
+      "sha256": "15da07515eb3a21403873917f736d65386d3d4adccb7a2ce103b0b99c99e62fa",
+      "bytes": 1534
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0034/realsense/rgb/0000.png": {
+      "sha256": "3645ebfd597726e39c26e532eab2cb1a87a730a09f85669316fbcb83f3efe282",
+      "bytes": 1148693
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0034/realsense/depth/0000.png": {
+      "sha256": "2fbd10dc7dac3d70c1e649b7dedfe8ac18d70b81ff1a8702f0a112e322986cb8",
+      "bytes": 203200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0034/realsense/label/0000.png": {
+      "sha256": "94b6a351812838eb12e6f0109a1159776601b2e18e6b7dc1984054e2e52d9af7",
+      "bytes": 11639
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0034/realsense/meta/0000.mat": {
+      "sha256": "bd7188aa180212e7c198d5a3fa1a21894621230413941c1c2a26ffac43f7c134",
+      "bytes": 970
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0034_0000/prediction.npz": {
+      "sha256": "f38e4378fcf3bc08bc87a112588427ffa7a32f8f6a6aa1fb28517bdde27ea029",
+      "bytes": 4063
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0034_0000/prediction.npz.sha256.json": {
+      "sha256": "1176a23320175b24db6ef5b545a228822f64388906a81a7a516fb4ad2e28bebf",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0034_0000/record.json": {
+      "sha256": "e0b678d376b70d273b07439694cfe456374ecd5777a344e02ba8895c64f113d1",
+      "bytes": 1553
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0038/realsense/rgb/0000.png": {
+      "sha256": "182d541a1a783bde4147b81e938b012f2958bb41cdaa9b36fc103a5587cc9188",
+      "bytes": 1258271
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0038/realsense/depth/0000.png": {
+      "sha256": "6d5fd4d29307c37a67b78ac619d7b513e34acfcf73896d76aa744d1018ac9d4f",
+      "bytes": 195557
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0038/realsense/label/0000.png": {
+      "sha256": "66b07bbd16c0fb175b8cbf14c19460c59e3e67b786cfdd3960bfcf9eaaf042bb",
+      "bytes": 11166
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0038/realsense/meta/0000.mat": {
+      "sha256": "2445f9f1688c2446620fe405b43857e8a731510a9d85608020a3d240e5b2a0da",
+      "bytes": 872
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0038_0000/prediction.npz": {
+      "sha256": "00c304f72927168e8fe5476653d68780a83dbd984400264961136d82ac22ff23",
+      "bytes": 4406
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0038_0000/prediction.npz.sha256.json": {
+      "sha256": "f092642f04c5887443751dfd7ad10d3c96746b01032be92816e3fc7b295f7aef",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0038_0000/record.json": {
+      "sha256": "72985a1be2c763d53a169b2aac88497aaf00d42e5311c27a9cbc73951de5ca22",
+      "bytes": 1551
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0042/realsense/rgb/0000.png": {
+      "sha256": "533b4ebb745f8b4524c9041bf796ee394238416b822542b6ea90dbb28ed7964d",
+      "bytes": 1361442
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0042/realsense/depth/0000.png": {
+      "sha256": "2c97895caff00d213b35d318c6deaa188f8b8c5c2824c68c6aff6a229ff6ec15",
+      "bytes": 195809
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0042/realsense/label/0000.png": {
+      "sha256": "5762c62e11610540a38f97e3ca8507b49486935f519526e6eee0479999efddc1",
+      "bytes": 11535
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0042/realsense/meta/0000.mat": {
+      "sha256": "5626bb0080e5ea842415ce3ff9f3295738d33b5c7e096c65583d0fa66a17ff7b",
+      "bytes": 925
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0042_0000/prediction.npz": {
+      "sha256": "d7f4c573f48d659b97d686a7464e9eb22a7fa39ceb23a602cfb20930916c659b",
+      "bytes": 3784
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0042_0000/prediction.npz.sha256.json": {
+      "sha256": "4fe2f966d815272f515d63d21d99d676911274fb395d8e591c9887573384c25e",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0042_0000/record.json": {
+      "sha256": "9911b63aec47695325640c7993efd506abe377d4b504400a03c39da0eb7b7da1",
+      "bytes": 1537
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0043/realsense/rgb/0000.png": {
+      "sha256": "70b929ad42c5f9051cb35369dfa26f440fed4025329733066f09f4caec2eb676",
+      "bytes": 1348503
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0043/realsense/depth/0000.png": {
+      "sha256": "4b279cce1d039a42ed74423499f61e4cfe40103680db8a913b6595e149289b4f",
+      "bytes": 194690
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0043/realsense/label/0000.png": {
+      "sha256": "3540205b39acf5034d58ca21434098c6fcb1cd7769a7a83848930211cec66c56",
+      "bytes": 11173
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0043/realsense/meta/0000.mat": {
+      "sha256": "b27f61e36198c141f48428ee2d6f17ad8a5a004bb84191c1077a8d5f6e56a5ca",
+      "bytes": 922
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0043_0000/prediction.npz": {
+      "sha256": "e05deff28a81852e3dd628a5d4babbe2c84687c896c2afdd2e429c8e8c855f82",
+      "bytes": 3459
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0043_0000/prediction.npz.sha256.json": {
+      "sha256": "70f92faeb51aa44e4734e95104019d4a4e1bfc2f67563eb616a44123bdbb6dc2",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0043_0000/record.json": {
+      "sha256": "60d7a097fe80b8d1700f30e0666e6b0ab6a20b67bf88f7e3f209e7aebbe7d7d9",
+      "bytes": 1535
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0057/realsense/rgb/0000.png": {
+      "sha256": "eca188f27e245f4a0538f5692450c5b152f0237ce5076808f8097c491504de68",
+      "bytes": 1199837
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0057/realsense/depth/0000.png": {
+      "sha256": "fa77ff95b3113e7dec001776f2d47228004df82d1d23e9839cf5b94029429e67",
+      "bytes": 191578
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0057/realsense/label/0000.png": {
+      "sha256": "147a7d4b5e9c95eca60352cb8b305f02544135011b5757fabaf9c85b67f411eb",
+      "bytes": 9761
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0057/realsense/meta/0000.mat": {
+      "sha256": "b8b39a95411d0bdfea0455989e4b14d8ad424435241d6d5d154279347a86b61d",
+      "bytes": 876
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0057_0000/prediction.npz": {
+      "sha256": "e3312cb6bcf8cf6d585b0a2bf89d5a114c7c1f7852c3fdbf108421e294dd71e7",
+      "bytes": 3161
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0057_0000/prediction.npz.sha256.json": {
+      "sha256": "24789a8f6fdf7c7ed8fa29103f1959c4abcef7b817498ae03cf1001140631db1",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0057_0000/record.json": {
+      "sha256": "7c4040dee8db6b7004378e9e8fe7d29a369280b6bb20776c2a63af4c74a2ce84",
+      "bytes": 1543
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0093/realsense/rgb/0000.png": {
+      "sha256": "317a38003a5d1cad18033c13e3b11a598100d0e2c74e346dbf39057fe89ac3f5",
+      "bytes": 1319678
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0093/realsense/depth/0000.png": {
+      "sha256": "1b609160c1e5615f657c124d41f08bf6e92cad80dc52c66a0507d2cec0cc6993",
+      "bytes": 193308
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0093/realsense/label/0000.png": {
+      "sha256": "69a174d583463592136ae98942cfa5544f3cf3724ec043b05f056027777b8ce3",
+      "bytes": 9721
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0093/realsense/meta/0000.mat": {
+      "sha256": "e4a7af2992c55e86732b6f1e22afb50825644c36136fd4f185cf1b342da96a6f",
+      "bytes": 873
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0093_0000/prediction.npz": {
+      "sha256": "dd66ab297b46b7e68972fad2be2eb5e97f21b001ea52a1698e04c6bb7a5ab1d7",
+      "bytes": 3189
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0093_0000/prediction.npz.sha256.json": {
+      "sha256": "97803f2a177c2305e87229aab59904008aacee7282c1ea36ea8d0f1125d93898",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0093_0000/record.json": {
+      "sha256": "41f8264fd1b5e58fbc75d3fd9bc0449da7fca8145d878ee083024aef36711fb5",
+      "bytes": 1516
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/rgb/0000.png": {
+      "sha256": "0fdef547423908b56edb9ec39c366ae1674c58e962655c3511de20f6a3a0c9d5",
+      "bytes": 1352640
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/depth/0000.png": {
+      "sha256": "6ba2a7dcb088a7bf024e21afa5de40a801ec88c331ad8e7f6c03401d90741086",
+      "bytes": 217054
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/label/0000.png": {
+      "sha256": "bd4628caa4908bc605550a92c5e5a6ebb034a7b1c20a6e6d6eb5fdd1aecc6ddb",
+      "bytes": 14645
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/meta/0000.mat": {
+      "sha256": "ce4aff35b4962fda0007ff66b140f35865a3edba8dca87e73149080eb6b20299",
+      "bytes": 874
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0002_0000/prediction.npz": {
+      "sha256": "99eb89b4fb7a3ba36fa879e382973c2e491885d80594412ff4f039da802283e8",
+      "bytes": 5621
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0002_0000/prediction.npz.sha256.json": {
+      "sha256": "cfb0eee7ac778d7ab53d704404c06cb1f9d4d79278297469aab844f33618c4ad",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0002_0000/record.json": {
+      "sha256": "3ef00355db9c97c7a85fd60ea8e17aec10d0d8e0d913b36cbc7609d06bd39bd1",
+      "bytes": 1556
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/rgb/0000.png": {
+      "sha256": "f6366ddea1dba57445aee1246a07ead8fd2aa72a5431103a3aefbc1a1cac8f8c",
+      "bytes": 1228725
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/depth/0000.png": {
+      "sha256": "6456bd76296e54bfc9bc5e589053d021ba3244effb1ebd91e21c1d17d2e55422",
+      "bytes": 200358
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/label/0000.png": {
+      "sha256": "e9898b54f652feec2ea799157b769d15d1d85af7057fa5f9ee8abaa6b9a89d73",
+      "bytes": 12136
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/meta/0000.mat": {
+      "sha256": "71469d0c4af6403700aa6d52a2f0f43239cf82c79c7326c2f6451c1c49129be1",
+      "bytes": 922
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0006_0000/prediction.npz": {
+      "sha256": "a336ca77f1306a585f3b33c6858e22fb51882004c30ad907a270b08f3b414912",
+      "bytes": 3820
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0006_0000/prediction.npz.sha256.json": {
+      "sha256": "980061a83d3d8041cf9ebd88d8bc646fbacc987b2726414dd33c93b2f43c5fe2",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0006_0000/record.json": {
+      "sha256": "ee4c110011e9eea9c8fdcf614762275f2a70e1c178e27a6879cf6c38fd7567bc",
+      "bytes": 1540
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/rgb/0000.png": {
+      "sha256": "5f660bffa3930cf094f0e5653ec8e7d551cd958b48cf133541513e537f9e0f6e",
+      "bytes": 1183580
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/depth/0000.png": {
+      "sha256": "138b7bf77bd3101d6eb5552f07282fb6e69d65fac98a3914989f0c0a38520a8c",
+      "bytes": 203135
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/label/0000.png": {
+      "sha256": "ee2d2ee5b5b2249d1fe7653ee9176e179592c88eadd23d57b0e35a69886bfdb9",
+      "bytes": 12771
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/meta/0000.mat": {
+      "sha256": "1ee3175361f9e83cd4b81b1a20c4e7001cbb024226a3fdc0674dde0cce977d37",
+      "bytes": 923
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0007_0000/prediction.npz": {
+      "sha256": "fa3aeb058753f2d427196ad5862458c4be8bc5271d2b9524618b43190faf7e23",
+      "bytes": 4399
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0007_0000/prediction.npz.sha256.json": {
+      "sha256": "ca29b5b2a8b4d763d9fc7da141a58a7d00e6b028f5a46b4cd8cd6eb38435cbc7",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0007_0000/record.json": {
+      "sha256": "a1fdbd39df107a71c9bbd02f24bb8ed82e7c07136a22fbc63594c307f8d4670f",
+      "bytes": 1540
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/rgb/0000.png": {
+      "sha256": "3514d1e5bcc8949378aa8294d586d148e7e915bcd20d07dbb1c909f4ca4b8264",
+      "bytes": 1139676
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/depth/0000.png": {
+      "sha256": "fd4b5c34a7fcaccb92debaeeb7e9b01b85d3bff9e77af5d65b2e49fd0f3a8751",
+      "bytes": 203925
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/label/0000.png": {
+      "sha256": "ebcb608e97f86755fd687fa0935150b8fcb7bdb4dae80ff7dc5857cc0aa936e4",
+      "bytes": 12652
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/meta/0000.mat": {
+      "sha256": "830bbf1b36170a731bd885caa5b65e7afde0d345fa7f091b7165d357aa702dfe",
+      "bytes": 969
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0011_0000/prediction.npz": {
+      "sha256": "b1bc0b1b8ed026f36101788ce5c94c5186c50af09818f2c5451c1d00a62b94a0",
+      "bytes": 4198
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0011_0000/prediction.npz.sha256.json": {
+      "sha256": "74da01c69d92bf1b2aadaa82389d221ffb00d95b2b9bbe937a6a7b257dd92c64",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0011_0000/record.json": {
+      "sha256": "84791f0eae58d557ec0b8d4461c7ab4e9b903a9079b9f3b16ba5929dc182359c",
+      "bytes": 1553
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/rgb/0000.png": {
+      "sha256": "2df8106dde4dbb206de67176e2276b409ed3ee617f56f8b10c9c0efaea25173f",
+      "bytes": 1220167
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/depth/0000.png": {
+      "sha256": "2d7270c9ba89764a41c2dfd0576b6309b4ab105522f496afc44cbd455d330718",
+      "bytes": 207887
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/label/0000.png": {
+      "sha256": "e077bf4c27795d99897398c04a19cdb98f48aa0ab44c58026bdad3cb5c92d842",
+      "bytes": 10499
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/meta/0000.mat": {
+      "sha256": "829259cda7ea1de2dcfa68b2763494c068ea3de2fab702c80f76a551d24e3bcc",
+      "bytes": 814
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0013_0000/prediction.npz": {
+      "sha256": "868a9b6514c44a718e6ed8fe5bcd4d1964166eabe1355206e94acaae62fb03e8",
+      "bytes": 4395
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0013_0000/prediction.npz.sha256.json": {
+      "sha256": "d9fd687b8ab3a06e578251f7968c6947f939c0b6db21a86d871a18c960d6c982",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0013_0000/record.json": {
+      "sha256": "eb6559497f2ef5a126b2d02c751b6bfc6f0886cdff53a5d92f1cd9a1ee5160b4",
+      "bytes": 1541
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/rgb/0000.png": {
+      "sha256": "02542df1123cbbfa5813a5e9ff4a30bafa4c26d8580c45fe6d32c8af1e7253db",
+      "bytes": 1201821
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/depth/0000.png": {
+      "sha256": "c65061d02e8bfad7bac3007361fb03fe76345b1ea0e7e87f53795d1dba0f6784",
+      "bytes": 204881
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/label/0000.png": {
+      "sha256": "7b5f5a89b5c248da610f939f7a51dcc190a187e9eef44b6c245541471b15377b",
+      "bytes": 11963
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/meta/0000.mat": {
+      "sha256": "aacdf14add435dd3cc44d70c90cff7962224288a5d6eb84f7bf8fe88754ca39d",
+      "bytes": 972
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0015_0000/prediction.npz": {
+      "sha256": "e63e68b091197f7bce93a87b0bd91852932224e9e4509f2188923f4c9c72339b",
+      "bytes": 4657
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0015_0000/prediction.npz.sha256.json": {
+      "sha256": "1d03d72c0ac8559e2a64ce52bfd6808addd9b8333d2e4f12a5260d4cad02f4db",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0015_0000/record.json": {
+      "sha256": "d8ec35f72dc8a254a1f895898ec1106acfba7d5029b36377dc9a6f6cc7ac53f1",
+      "bytes": 1557
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/rgb/0000.png": {
+      "sha256": "991d251f35184563f2eaaff16b245cadc62c9d1f883e84cd30cc813283797d32",
+      "bytes": 1151072
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/depth/0000.png": {
+      "sha256": "c1db5fd73bb3589fee32951f628df825b2db2452e7affe6f0abf642d3f2b30d7",
+      "bytes": 199780
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/label/0000.png": {
+      "sha256": "b0a867f38cd93563224b3afbecd7fd79090d74317ee8b441e83a86d488b8cc9d",
+      "bytes": 11236
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/meta/0000.mat": {
+      "sha256": "c9d4ef1055c7f0dabd577d2a7f8ede585f58477711345bcece0120bb23f08c02",
+      "bytes": 874
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0018_0000/prediction.npz": {
+      "sha256": "36fbec9db762bd8b2ab50bd1032e4307993de19b1f186d9e2b8d74bd455e7c6d",
+      "bytes": 3979
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0018_0000/prediction.npz.sha256.json": {
+      "sha256": "f4a5b06a3f2e71e7e22180225cb1c17c1757783ef02dc32608b8951b2886e149",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0018_0000/record.json": {
+      "sha256": "0c273221ba837db6fd8611c76b79e4705d099c4468c19e2a245a7a46107a3fc5",
+      "bytes": 1569
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/rgb/0000.png": {
+      "sha256": "b9cc3ad8c5d1f29378c323eb59d90cc9a19e6fc13b492e7af3b46487dece13af",
+      "bytes": 1132643
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/depth/0000.png": {
+      "sha256": "e82a511258fd60986b27b2ce959e733ebc99cb636f9cb8c587fd25b881b78c13",
+      "bytes": 213142
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/label/0000.png": {
+      "sha256": "42a55e00c356241c2b886efbdc1bea16ef7ed76c64fd7ec623dc05d7d63083ed",
+      "bytes": 12845
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/meta/0000.mat": {
+      "sha256": "5a472c1f1ec5120865dcffc816dcb3baaca5ce454c8b551d52844400eed2a2bd",
+      "bytes": 927
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0022_0000/prediction.npz": {
+      "sha256": "45b5d2986740ff5d473d7b261049fcdbc27b5d4b823b5d0f4f23c70e7c5f9e7f",
+      "bytes": 5068
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0022_0000/prediction.npz.sha256.json": {
+      "sha256": "599db99aa157a2c43b1d0eaca59597e9d459e8ac5b97f0dccbbbfc9f4b01fc0f",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0022_0000/record.json": {
+      "sha256": "8db38e22338d8255d5924821290a381b665841af6de647bb11e114609111b19d",
+      "bytes": 1557
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/rgb/0000.png": {
+      "sha256": "6cc73667f080e4c0d1be4d4726d2ea5051920995f406632cf3df5ee72c1c3a71",
+      "bytes": 1153677
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/depth/0000.png": {
+      "sha256": "d6add3732b78dac9277c608e7d0eed686257c1bf0b647c7d7e68c5e4ea97657a",
+      "bytes": 203909
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/label/0000.png": {
+      "sha256": "4c0562a076bb1eff864a84481aa38607bb4e2b6546de8b9e4ec0d86561f87f45",
+      "bytes": 12838
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/meta/0000.mat": {
+      "sha256": "2e16ac45183c1ff3bb4678426c61149b1057156d4d878f5082d46c0ee8482ce4",
+      "bytes": 972
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0033_0000/prediction.npz": {
+      "sha256": "f365bd6a2c7fd50c668044f587445d993bb29f9e474782468080c538edc5fd51",
+      "bytes": 4324
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0033_0000/prediction.npz.sha256.json": {
+      "sha256": "7ea1fcfa0dca6a6040dc302cbe6bf5cb8ccf94773bb641cee5c2b32f1a55448d",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0033_0000/record.json": {
+      "sha256": "19d473ed3044a33ed51e854c25b0b804a1ad9b1462381f492e72fba4f1800dd0",
+      "bytes": 1558
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/rgb/0000.png": {
+      "sha256": "2dfb9b7effaebab922653f29405c077976020a9404160d1b00e627fce1ee3249",
+      "bytes": 1250623
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/depth/0000.png": {
+      "sha256": "67129416c315cc0b768078453a414146a0fc567ebcd3e6b4c5d73505ea388fd1",
+      "bytes": 206236
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/label/0000.png": {
+      "sha256": "dd154e19da681069adc294ed109e7fa7e053e3aaa1ea549e1af2ab3494acca84",
+      "bytes": 11580
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/meta/0000.mat": {
+      "sha256": "bf85af42acdfd3a5907f750d4e03132648bcf17ff74db9f5ce4d1edbfb73bbe3",
+      "bytes": 872
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0039_0000/prediction.npz": {
+      "sha256": "9aef2f4d61f9cc4f3007abf4ce3538e181e663a00ca0d2625acd3ef13a8be63a",
+      "bytes": 4611
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0039_0000/prediction.npz.sha256.json": {
+      "sha256": "ce0dbc6b140a95bc4c9553f26140301da81614b210941d8fd11fc9a39b4ea340",
+      "bytes": 209
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/development/scene_0039_0000/record.json": {
+      "sha256": "1678308391cb55bb4f9f6b27f4584d66fe1bbadd8f0dab8717a507ec40ae7e5d",
+      "bytes": 1557
+    },
+    "scripts/run_baseline_usability_v20b.py": {
+      "sha256": "1841ef18ee1c6390749146ce13ed2e02ace1086d4f6c0b6eb95268bbcb163184",
+      "bytes": 15455
+    },
+    "scripts/prepare_baseline_usability_v20b.py": {
+      "sha256": "a94058c608758cdbda5270eff02b62f5ae4e278b81acd50182626b72469f56c2",
+      "bytes": 16259
+    }
+  },
+  "stop_rule": "Exactly one run and one zero-forward full readonly verification. Stop afterwards regardless of scientific outcome; technical failure also stops. No retry, follow-on experiment, training, or automation without new user confirmation.",
+  "counts_scope": "30 new actual returned model calls maximum. Historical calls are not relabelled as new. Historical R18 two unknown outcomes remain unknown. Constructor RNG is technical initialization, not Monte Carlo scientific sampling."
+}

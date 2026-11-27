@@ -1,0 +1,24 @@
+第十七轮独立评价环境冻结方案
+日期：2026-10-25
+项目目录：C:\Users\ITHOU\Desktop\稿件\SCI3区
+
+目的：为固定第十六轮模型补充实例mask AP评价，先建立与训练环境隔离的官方COCO评价运行环境。本阶段仅安装锁定二进制轮包并验证合成数据；不读取研究帧，不推理模型，不训练，不计算真实研究指标。
+
+新环境唯一位置：runtime/envs/coco_eval_v17。基础Python为配置锁定的现有3.12.14解释器，独立venv不继承系统site-packages。旧vision与grasp_eval环境不修改。
+固定包：pip 25.0.1、NumPy 1.26.4、Pillow 11.3.0、pycocotools 2.0.11。NumPy/Pillow复用项目内原轮包且逐包校验SHA256；仅下载PyPI发布的指定Windows CPython312二进制pycocotools轮包，完整URL与SHA256写入独立配置。
+安装固定采用--no-index --no-deps --no-compile --no-cache-dir，只安装三个显式轮包；不编译源码，不自动解析或升级其它依赖。
+
+冻结前运行13项合成存储/安装计划测试。实际环境建立后，验证非方形RLE往返、完美预测、错误预测、空预测、无GT等官方数值行为；核对精确包清单与真实import位置，并逐文件对照轮包内容。
+完整环境文件清单及SHA256随最终报告封存。后续主评价协议绑定本环境报告及配置，若环境变化即停止，不静默修补。
+
+恢复边界：环境创建、安装、合成探针各自保存带收据的完成记录；部分构建可从已核验记录继续。每次子进程保留独立日志。下载仅允许固定URL和不超过1MiB的目标轮包；错误和部分文件保留。
+结束后另行执行--check-only，比较封存文件的内容、大小及修改时间。记录的是实际进程重启与只读复核，不宣称发生过物理断电。
+
+上限：单次1800秒、进程峰值内存4GiB、全轮新增输出3GiB、磁盘保留60GiB。资源阈值及全部输出路径见configs/coco_eval_environment_v17.json。所有新增文件均置于项目目录。
+
+本环境完成不代表真实AP评价或本轮科学验收完成。主评价协议将在父轮验收、环境验证与主程序合成测试通过后另行冻结。
+
+来源：
+https://pypi.org/project/pycocotools/2.0.11/
+https://github.com/ppwwyyxx/cocoapi/blob/ac87f5077ad6b8864c2dc5e93d14cae62d1db05a/PythonAPI/pycocotools/cocoeval.py
+https://github.com/ppwwyyxx/cocoapi/blob/ac87f5077ad6b8864c2dc5e93d14cae62d1db05a/PythonAPI/setup.py

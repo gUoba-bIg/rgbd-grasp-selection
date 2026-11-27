@@ -1,0 +1,33 @@
+{
+  "version": "IP140_R1_smoke10_slot07_nominal021_01",
+  "slot": 7,
+  "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+  "not_p3": true,
+  "status": "blocked_before_connection",
+  "failure_stage": "static_parameter_readback_feasibility",
+  "failure_reason": "Object linearDamping and angularDamping cannot be read back through the existing same-client public interface.",
+  "episode_completed": false,
+  "engineering_gate_passed": null,
+  "grasp_success": null,
+  "slot_passed": null,
+  "zero_gate_passed": false,
+  "actual_zero_readback_performed": false,
+  "physics_step_calls": 0,
+  "physics_step_returns": 0,
+  "connect_calls": 0,
+  "robot_load_calls": 0,
+  "object_load_calls": 0,
+  "charged": false,
+  "unevaluated_fields": [
+    "engineering_gate_passed",
+    "grasp_success",
+    "slot_passed"
+  ],
+  "hold_terminal_interval": [
+    4249,
+    4728
+  ],
+  "hold_terminal_observed_steps": 0,
+  "stable_object_initial_state": null,
+  "lift_samples_observed": 0
+}

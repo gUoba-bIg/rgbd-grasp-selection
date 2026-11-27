@@ -1,0 +1,171 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "new_left_entry_root": null,
+  "new_right_entry_root": null,
+  "new_first_zero_distance_contact": null,
+  "new_tip_edge_at_entry": null,
+  "reason": "Stopped at close tick12 with positive clearance, before entry localization; both new roots remain unobserved.",
+  "historical_only": [
+    {
+      "snapshot": 2751,
+      "distance_m": 1.2006418451134373e-05,
+      "tip_depth_m": 0.0004999999999999727,
+      "tip_edge_risk": true,
+      "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc"
+    },
+    {
+      "snapshot": 2752,
+      "distance_m": -0.00015049358154887527,
+      "tip_depth_m": 0.0004999999999999657,
+      "tip_edge_risk": true,
+      "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc"
+    },
+    {
+      "snapshot": 2757,
+      "distance_m": -0.000962993581548869,
+      "tip_depth_m": 0.0004999999999999657,
+      "tip_edge_risk": true,
+      "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc"
+    },
+    {
+      "snapshot": 2758,
+      "distance_m": -0.001125493581548879,
+      "tip_depth_m": 0.0004999999999999588,
+      "tip_edge_risk": true,
+      "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc"
+    }
+  ],
+  "historical_interpolation_m": 0.03204134853998284,
+  "historical_interpolation_is_not_new_root": true,
+  "historical_tip_flag_not_dynamic_failure": true,
+  "current_positive_gap_witness_audits": [
+    {
+      "query": "manifold",
+      "row_index": 0,
+      "side": "left",
+      "audit": {
+        "passed": true,
+        "violations": [],
+        "signed_distance_m": 0.00049950641845109,
+        "native_endpoint_order": "object_pad",
+        "pad_witness_world_m": [
+          0.4506124935701048,
+          0.0598341618270045,
+          0.03153423788036034
+        ],
+        "object_witness_world_m": [
+          0.4511119999885559,
+          0.059834161827004496,
+          0.03153423788036034
+        ],
+        "pad_witness_pad_link_m": [
+          0.05950000000000003,
+          7.401018666773297e-18,
+          0.0003861274368260424
+        ],
+        "pad_witness_G_m": [
+          -0.000499999999999974,
+          -0.03254085495843392,
+          0.0003861274368260565
+        ],
+        "native_normal_on_B": [
+          1.0,
+          -7.591288667407802e-15,
+          -3.470303390814995e-15
+        ],
+        "normal_pad_to_object_world": [
+          1.0,
+          -7.591288667407802e-15,
+          -3.470303390814995e-15
+        ],
+        "normal_pad_to_object_pad": [
+          5.565078554819729e-14,
+          1.0,
+          -1.3460066808246765e-15
+        ],
+        "normal_pad_to_object_G": [
+          5.565078554819729e-14,
+          1.0,
+          -1.3460066808246765e-15
+        ],
+        "normal_unit_error": 0.0,
+        "full_witness_residual_m": 3.59282577425147e-18,
+        "face_outside_m": 7.401018666773297e-18,
+        "on_effective_inner_face": true,
+        "inward_normal_alignment": 1.0,
+        "tip_depth_m": 0.0004999999999999657,
+        "tip_edge_risk": true,
+        "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+        "raw_normal_and_tangential_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "query": "robot_target",
+      "row_index": 1,
+      "side": "left",
+      "audit": {
+        "passed": true,
+        "violations": [],
+        "signed_distance_m": 0.0004995064184511087,
+        "native_endpoint_order": "pad_object",
+        "pad_witness_world_m": [
+          0.4506124935701048,
+          0.0598341618270045,
+          0.03153423788036034
+        ],
+        "object_witness_world_m": [
+          0.4511119999885559,
+          0.059834161827004496,
+          0.03153423788036034
+        ],
+        "pad_witness_pad_link_m": [
+          0.05950000000000003,
+          7.401018666773297e-18,
+          0.0003861274368260424
+        ],
+        "pad_witness_G_m": [
+          -0.000499999999999974,
+          -0.03254085495843392,
+          0.0003861274368260565
+        ],
+        "native_normal_on_B": [
+          -1.0,
+          7.591288667407802e-15,
+          3.470303390814995e-15
+        ],
+        "normal_pad_to_object_world": [
+          1.0,
+          -7.591288667407802e-15,
+          -3.470303390814995e-15
+        ],
+        "normal_pad_to_object_pad": [
+          5.565078554819729e-14,
+          1.0,
+          -1.3460066808246765e-15
+        ],
+        "normal_pad_to_object_G": [
+          5.565078554819729e-14,
+          1.0,
+          -1.3460066808246765e-15
+        ],
+        "normal_unit_error": 0.0,
+        "full_witness_residual_m": 1.8991225494722308e-17,
+        "face_outside_m": 7.401018666773297e-18,
+        "on_effective_inner_face": true,
+        "inward_normal_alignment": 1.0,
+        "tip_depth_m": 0.0004999999999999657,
+        "tip_edge_risk": true,
+        "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+        "raw_normal_and_tangential_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

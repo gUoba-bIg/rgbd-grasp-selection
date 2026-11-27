@@ -1,0 +1,35 @@
+{
+  "version": "IP140_R1_smoke10_slot07_nominal021_01",
+  "at_utc": "2026-11-05T03:56:28.729681+00:00",
+  "reason": "static_parameter_readback_unavailable",
+  "slot7_started": false,
+  "charged": false,
+  "cumulative_charges": 7,
+  "total_budget": 13,
+  "remaining": 6,
+  "within_slot_retries": 0,
+  "physics_step_calls": 0,
+  "physics_step_returns": 0,
+  "connect_calls": 0,
+  "slots_started_this_version": [],
+  "unstarted_slots": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "candidate_not_p3": true,
+  "review_required": true,
+  "history_slots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    13
+  ],
+  "historical_physics_returns": 10383
+}

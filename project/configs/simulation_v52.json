@@ -1,0 +1,1330 @@
+{
+  "version": 52,
+  "at": "2026-11-03T11:56:37.182886+08:00",
+  "authorization": "R1/R2 and <=48 engineering attempts; stop before R4",
+  "robot_urdf": "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+  "robot_manifest": "data/simulation_v52/robot/robot_assets.json",
+  "objects": {
+    "021": {
+      "urdf": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "height_m": 0.05558200180530548,
+      "metadata": "data/simulation_v52/objects/final_static_audit/021/metadata.json"
+    },
+    "014": {
+      "urdf": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+      "height_m": 0.0586480014026165,
+      "metadata": "data/simulation_v52/objects/voxel_repair/014/metadata.json"
+    },
+    "017": {
+      "urdf": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+      "height_m": 0.05305799841880798,
+      "metadata": "data/simulation_v52/objects/voxel_repair/017/metadata.json"
+    }
+  },
+  "slots": [
+    {
+      "slot_id": 0,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 1,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 2,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 3,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 4,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 5,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 6,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 7,
+      "object_id": "021",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 8,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 9,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 10,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 11,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 12,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 13,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 14,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 15,
+      "object_id": "021",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 16,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 17,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 18,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 19,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 20,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 21,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 22,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 23,
+      "object_id": "014",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 24,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 25,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 26,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 27,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 28,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 29,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 30,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 31,
+      "object_id": "014",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 32,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 33,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 34,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 35,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 36,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 37,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 38,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 39,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 40,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 41,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 42,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 43,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        -0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 44,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 45,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "nominal",
+      "yaw": 1.5707963267948966
+    },
+    {
+      "slot_id": 46,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    {
+      "slot_id": 47,
+      "object_id": "017",
+      "xy": [
+        0.58,
+        0.06
+      ],
+      "kind": "table_collision",
+      "yaw": 0.0
+    }
+  ],
+  "home_joints": [
+    2.80262806465,
+    -1.66920895915,
+    -1.69304715957,
+    -1.35013295836,
+    1.57079644829,
+    -1.90976089573
+  ],
+  "allowed_self_collision_pairs": [
+    [
+      "base_link_inertia",
+      "shoulder_link"
+    ],
+    [
+      "shoulder_link",
+      "upper_arm_link"
+    ],
+    [
+      "upper_arm_link",
+      "forearm_link"
+    ],
+    [
+      "forearm_link",
+      "wrist_1_link"
+    ],
+    [
+      "wrist_1_link",
+      "wrist_2_link"
+    ],
+    [
+      "wrist_2_link",
+      "wrist_3_link"
+    ],
+    [
+      "wrist_3_link",
+      "rq_robotiq_140_base_link"
+    ],
+    [
+      "rq_robotiq_140_base_link",
+      "rq_left_outer_knuckle"
+    ],
+    [
+      "rq_robotiq_140_base_link",
+      "rq_left_inner_knuckle"
+    ],
+    [
+      "rq_left_outer_knuckle",
+      "rq_left_outer_finger"
+    ],
+    [
+      "rq_left_outer_finger",
+      "rq_left_inner_finger"
+    ],
+    [
+      "rq_left_inner_finger",
+      "rq_left_inner_finger_pad"
+    ],
+    [
+      "rq_left_inner_finger",
+      "rq_left_inner_knuckle"
+    ],
+    [
+      "rq_left_outer_knuckle",
+      "rq_left_inner_knuckle"
+    ],
+    [
+      "rq_robotiq_140_base_link",
+      "rq_right_outer_knuckle"
+    ],
+    [
+      "rq_robotiq_140_base_link",
+      "rq_right_inner_knuckle"
+    ],
+    [
+      "rq_right_outer_knuckle",
+      "rq_right_outer_finger"
+    ],
+    [
+      "rq_right_outer_finger",
+      "rq_right_inner_finger"
+    ],
+    [
+      "rq_right_inner_finger",
+      "rq_right_inner_finger_pad"
+    ],
+    [
+      "rq_right_inner_finger",
+      "rq_right_inner_knuckle"
+    ],
+    [
+      "rq_right_outer_knuckle",
+      "rq_right_inner_knuckle"
+    ]
+  ],
+  "base_table_allowed_link_indices": [
+    -1,
+    0,
+    1
+  ],
+  "table_z": 0.0,
+  "camera": {
+    "eye": [
+      0.53,
+      0,
+      0.9
+    ],
+    "target": [
+      0.53,
+      0,
+      0
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "fov": 50,
+    "width": 320,
+    "height": 240,
+    "near": 0.05,
+    "far": 2.0
+  },
+  "workspace": [
+    [
+      0.35,
+      -0.18,
+      0.006
+    ],
+    [
+      0.72,
+      0.18,
+      0.16
+    ]
+  ],
+  "physics": {
+    "time_step": 0.004166666666666667,
+    "solver_iterations": 150,
+    "gear_force": 80.0,
+    "gripper_torque": 10.0,
+    "pad_friction": 1.0,
+    "object_friction": 0.6,
+    "arm_forces": [
+      150.0,
+      150.0,
+      150.0,
+      28.0,
+      28.0,
+      28.0
+    ]
+  },
+  "motion": {
+    "transit_tool_z": 0.4,
+    "transit_seconds": 2.5,
+    "pregrasp_m": 0.13,
+    "pregrasp_seconds": 2.5,
+    "approach_seconds": 2.5,
+    "close_seconds": 2.0,
+    "lift_m": 0.15,
+    "lift_seconds": 3.0,
+    "hold_seconds": 3.0
+  },
+  "negative_controls": {
+    "miss_x_m": 0.14,
+    "contact_z_relative_table_m": -0.02
+  },
+  "criteria": {
+    "lift_m": 0.1,
+    "hold_seconds": 2.0,
+    "contact_force_n": 0.2,
+    "penetration_m": 0.001,
+    "grasp_formed_lift_m": 0.01,
+    "slip_loss_seconds": 0.2,
+    "slip_separation_m": 0.12,
+    "ik_position_m": 0.005,
+    "ik_angle_rad": 0.05235987755982989,
+    "mimic_error_rad": 0.03,
+    "contact_table_clearance_m": 0.005,
+    "positive_min": 20,
+    "per_object_positive_min": 6,
+    "miss_negative_required": 12,
+    "collision_negative_required": 12
+  },
+  "limits": {
+    "attempts": 48,
+    "episode_wall_seconds": 120,
+    "episode_sim_seconds": 30,
+    "cumulative_wall_seconds": 7200,
+    "tree_rss_bytes": 6442450944,
+    "free_disk_bytes": 21474836480
+  },
+  "R4_authorized": false,
+  "automatic_expansion": false,
+  "bindings": {
+    "data/simulation_v52/objects/002/collision.obj": {
+      "sha256": "89266447605c1cffbebc4ef668931576cf69710e8e08f1047ed0e3e3cb9e0e44",
+      "bytes": 19963,
+      "mtime_ns": 1793676955558317400
+    },
+    "data/simulation_v52/objects/002/collision_vhacd_fine.obj": {
+      "sha256": "203cf0eca9d8cf8821781e5c46128660e668409663caa697e610a20a79833573",
+      "bytes": 39019,
+      "mtime_ns": 1793677164186701500
+    },
+    "data/simulation_v52/objects/002/collision_vhacd_fine.static_audit.json": {
+      "sha256": "b1c874a66ad55ac2f16c9d69f5fec2f6408d65d8384a59691c4d29216d70dd9f",
+      "bytes": 477,
+      "mtime_ns": 1793677362014812000
+    },
+    "data/simulation_v52/objects/002/collision_vhacd_merged.obj": {
+      "sha256": "58a0c22bee97d4f918bb520b56ffd11c1b15ed453199e0c67c256e3f71592cd0",
+      "bytes": 40822,
+      "mtime_ns": 1793677410018732200
+    },
+    "data/simulation_v52/objects/002/collision_vhacd_merged.static_audit.json": {
+      "sha256": "20b2594878ea2828cb7da40e9167148655a562ff3c0d76aea14e76b23229f105",
+      "bytes": 532,
+      "mtime_ns": 1793677427240517600
+    },
+    "data/simulation_v52/objects/002/collision_vhacd_relative.obj": {
+      "sha256": "89d3cfcfbe4a0c6bc000f9f114ba926a7e4cf9da4e35b25f246bfe5b8876ecf4",
+      "bytes": 3574,
+      "mtime_ns": 1793677105207927200
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_000.obj": {
+      "sha256": "438250cf60e9606ca4f5d41075208cc6ada3604387eba9a5250bf8aed00ec8a5",
+      "bytes": 28697,
+      "mtime_ns": 1793677522552614700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_001.obj": {
+      "sha256": "bfb26b75d9e8a1352d7dd5c5ddeb80f2cdd8a085c24971178829484fe9a79dc0",
+      "bytes": 2732,
+      "mtime_ns": 1793677522552614700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_002.obj": {
+      "sha256": "b266fa12f1f9eb79b0d12f68165236f3f411608a2a75bc92aae53b2f054f4a82",
+      "bytes": 3534,
+      "mtime_ns": 1793677522553619200
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_003.obj": {
+      "sha256": "574758a87f01ef66c62ca44bbdf329396f92a171f644dffb0b20fcdc39dca4ca",
+      "bytes": 3368,
+      "mtime_ns": 1793677522554759400
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_004.obj": {
+      "sha256": "97d03bc6df395214021e0e71e7ffe0403eea1986850e05e040e778f778f9c67f",
+      "bytes": 3231,
+      "mtime_ns": 1793677522555814700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_005.obj": {
+      "sha256": "43e893a3d66774869761fdaa360276be401ee98e905f2694157cde74912c39e3",
+      "bytes": 3365,
+      "mtime_ns": 1793677522555814700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_006.obj": {
+      "sha256": "a89f3bf48b42c237e9f648e2ce7a1ac171e7a5acfad61f980010c5eedc30ff45",
+      "bytes": 3189,
+      "mtime_ns": 1793677522556811100
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_007.obj": {
+      "sha256": "2aea44fc63578e655b62e554cae3dff6d54c0676b5542af6e1cd217b8b1a676c",
+      "bytes": 3418,
+      "mtime_ns": 1793677522556811100
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_008.obj": {
+      "sha256": "051ef6a188988d5aea5407dbf9dd241fb5ef989b98af95a5f1f276df2a503294",
+      "bytes": 3661,
+      "mtime_ns": 1793677522557808100
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_009.obj": {
+      "sha256": "9c989b993e5713d9fc46f32d720f5018c347072694459267eca2f0d431faf2d8",
+      "bytes": 3187,
+      "mtime_ns": 1793677522558804700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_010.obj": {
+      "sha256": "e44facab1c586489ad036e6c739dfe7957ca85876511dbdbb61774e0f14087a7",
+      "bytes": 3135,
+      "mtime_ns": 1793677522558804700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_011.obj": {
+      "sha256": "1a57257cd13c84359289168d29b57501e3aa788782a09cfbe992ed7a62ab92cf",
+      "bytes": 3481,
+      "mtime_ns": 1793677522559803000
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_012.obj": {
+      "sha256": "564faeaaad2198bd9d9f34a084b1e31c46cb1a1285fbdbd831393c8a4b766a48",
+      "bytes": 2592,
+      "mtime_ns": 1793677522560982700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_013.obj": {
+      "sha256": "0811953384ac14f4f0073ba27d7220ae4945c5ae1b2144ee595ba9231d1468a1",
+      "bytes": 2049,
+      "mtime_ns": 1793677522560982700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_014.obj": {
+      "sha256": "29b171868834a923adc9eb32be731590453abb3e6d1f06a86670f3d8d7ca4397",
+      "bytes": 2058,
+      "mtime_ns": 1793677522560982700
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_015.obj": {
+      "sha256": "8f9c703b4793b233fde8ae8b0c266dc2aca2ff5b55a3bab6f2229103894006c4",
+      "bytes": 2286,
+      "mtime_ns": 1793677522562258200
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_016.obj": {
+      "sha256": "9febfd78fdd9eeafe39c308cc886f0ebd1d806977b22e87ed97d9840b122ed91",
+      "bytes": 2319,
+      "mtime_ns": 1793677522562258200
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_017.obj": {
+      "sha256": "ac30f46fa6950f6e25780f02cf4831ba364482b632b716528435aaf7b3045542",
+      "bytes": 2144,
+      "mtime_ns": 1793677522563266400
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_018.obj": {
+      "sha256": "f026c89d406ac98f39266cefa3e0cb1a3489040b83a37cf4ac6f4534b962c9d4",
+      "bytes": 2272,
+      "mtime_ns": 1793677522564276500
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_019.obj": {
+      "sha256": "97300a1194bb00989b2ad80fe26fdb902f85bfbf004c04fcf791ab55d9e6aabc",
+      "bytes": 2236,
+      "mtime_ns": 1793677522564276500
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_020.obj": {
+      "sha256": "2c005e1cb2f7db19dd79ebb63a2709f89db0c6e02f673e55656a176ea76ea08e",
+      "bytes": 2539,
+      "mtime_ns": 1793677522565282800
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_021.obj": {
+      "sha256": "ba74783ab37169395dac36c75396e329da509c7d55c434ba0de79a1bf8f62e51",
+      "bytes": 2250,
+      "mtime_ns": 1793677522565282800
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_022.obj": {
+      "sha256": "d626f5a37156dba22070d018a1bd5a48e444fb510701eb81e892ba0470c03b3f",
+      "bytes": 2622,
+      "mtime_ns": 1793677522566287500
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_023.obj": {
+      "sha256": "b13f087d24b735f21c05472ff33acefba8d7722fbda33ea11ffb45bb4cc76a7e",
+      "bytes": 2262,
+      "mtime_ns": 1793677522566287500
+    },
+    "data/simulation_v52/objects/002/spatial_partition/part_024.obj": {
+      "sha256": "5b93122502242684c41d077ecb8396f8cec64eab484da09cbc6f8ed3c1703ec0",
+      "bytes": 2263,
+      "mtime_ns": 1793677522567351600
+    },
+    "data/simulation_v52/objects/002/spatial_partition/static_audit.json": {
+      "sha256": "e5de912ee7ac2d02fde0b53318943b245180303b74654807d25d9d257e89bf83",
+      "bytes": 528,
+      "mtime_ns": 1793677522567351600
+    },
+    "data/simulation_v52/objects/002/vhacd_fine.log": {
+      "sha256": "915965f1245a533e25667ef51b3be8e7224bdea7d34352d03d9e6c8fddee4e8a",
+      "bytes": 11534,
+      "mtime_ns": 1793677164186701500
+    },
+    "data/simulation_v52/objects/002/vhacd_fine_receipt.json": {
+      "sha256": "7717794f8a70ebc3346943f239c0b477886e908bf3766445333543f906c39b52",
+      "bytes": 159,
+      "mtime_ns": 1793677164187698400
+    },
+    "data/simulation_v52/objects/002/vhacd_merged.log": {
+      "sha256": "16d3b596959ee178a75318c11e2c67598e84e34fecd8ba87258820d67683296f",
+      "bytes": 12534,
+      "mtime_ns": 1793677410018732200
+    },
+    "data/simulation_v52/objects/002/vhacd_merged_receipt.json": {
+      "sha256": "0d1998dd2e58af9868d3ad20478a0edab299893d60ddb7df1cb3fc009d568a0e",
+      "bytes": 189,
+      "mtime_ns": 1793677410019936800
+    },
+    "data/simulation_v52/objects/002/vhacd_preparation_receipt.json": {
+      "sha256": "27171ea7dc037e86f8b95a0201ab8fcd11e8fed1351d6ae0ebc2ed1fe3ebb3d7",
+      "bytes": 119,
+      "mtime_ns": 1793677080724908000
+    },
+    "data/simulation_v52/objects/002/vhacd_relative.log": {
+      "sha256": "13fbee5a85a025b7d17ca831befc4395306454c690324efb5ddaa949734fdec6",
+      "bytes": 4355,
+      "mtime_ns": 1793677105207927200
+    },
+    "data/simulation_v52/objects/002/vhacd_relative_receipt.json": {
+      "sha256": "04e2b6ce37903ef28c4d835cac9ff3aabd9ed8677a8fbb33e42494cdeb17a37a",
+      "bytes": 161,
+      "mtime_ns": 1793677105208943000
+    },
+    "data/simulation_v52/objects/002/visual.mtl": {
+      "sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "bytes": 85,
+      "mtime_ns": 1793676953770648200
+    },
+    "data/simulation_v52/objects/002/visual.obj": {
+      "sha256": "64d6010484c6daba31312ac4800675c21fa24b82cfb71fe73ae6148bb304e339",
+      "bytes": 1159974,
+      "mtime_ns": 1793676953830730400
+    },
+    "data/simulation_v52/objects/002/visual.png": {
+      "sha256": "6ae1208c40b6e1ece27e378507730244e3ec857249ff3a4fa2162b8a7ce73c97",
+      "bytes": 1164186,
+      "mtime_ns": 1793676953761254900
+    },
+    "data/simulation_v52/objects/002/visual_geometry_merged.obj": {
+      "sha256": "5d9755ec543e920b4355a6142cabb4fdd807453c9f2240c464894f96a92ade83",
+      "bytes": 274194,
+      "mtime_ns": 1793677404912253300
+    },
+    "data/simulation_v52/objects/002/visual_geometry_only.obj": {
+      "sha256": "76fb26e3bd729f1e7629397a73098a567ae56c8098f6ce0065e8df2fc33cd3af",
+      "bytes": 1020808,
+      "mtime_ns": 1793677161053764400
+    },
+    "data/simulation_v52/objects/collision_failure_static_detail.json": {
+      "sha256": "cc77de4101e4f155fe109741439b12682f6ad637e1f78f643afd4e7f82327cf4",
+      "bytes": 1242,
+      "mtime_ns": 1793676999092517000
+    },
+    "data/simulation_v52/objects/failure.json": {
+      "sha256": "55392c5e02162d2e835a1e5f5b654cb32766484e62e6ab8ec98fb4dbd94b7906",
+      "bytes": 999,
+      "mtime_ns": 1793676956540750600
+    },
+    "data/simulation_v52/objects/final_static_audit/014/collision.obj": {
+      "sha256": "be401a904fb7655ddfb89ae60ac55a9363ad500868a92603fabf4664e88e94af",
+      "bytes": 19951,
+      "mtime_ns": 1793677693626100000
+    },
+    "data/simulation_v52/objects/final_static_audit/014/rejection.json": {
+      "sha256": "5daf9af86a0c73fdd524e2fcf07ad764f25c53260cb19445b2a4f58d373030cf",
+      "bytes": 21462,
+      "mtime_ns": 1793677694835862200
+    },
+    "data/simulation_v52/objects/final_static_audit/017/collision.obj": {
+      "sha256": "ceb7a1a51a265bb5046d949bd0d251cedc449c9cd65501bbe2b6e47af93d83da",
+      "bytes": 19999,
+      "mtime_ns": 1793677695489855500
+    },
+    "data/simulation_v52/objects/final_static_audit/017/rejection.json": {
+      "sha256": "486f4a6c36c2d3b5d8e1aee4e08ad766c06eb798347310540b4868ac580a39f8",
+      "bytes": 21487,
+      "mtime_ns": 1793677696696408200
+    },
+    "data/simulation_v52/objects/final_static_audit/021/collision.obj": {
+      "sha256": "73f7cb9459d780fdada3b2b9ff934c53c92f6441da02d9c6f4c4c6250fb9a3c2",
+      "bytes": 19990,
+      "mtime_ns": 1793677697318989700
+    },
+    "data/simulation_v52/objects/final_static_audit/021/metadata.json": {
+      "sha256": "0436370e7f06284fb6581abf6b6f26616423b6da3d3f8d010098a325487cbd97",
+      "bytes": 25743,
+      "mtime_ns": 1793677705596073800
+    },
+    "data/simulation_v52/objects/final_static_audit/021/object.urdf": {
+      "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "bytes": 548,
+      "mtime_ns": 1793677705486897800
+    },
+    "data/simulation_v52/objects/final_static_audit/021/visual.mtl": {
+      "sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "bytes": 85,
+      "mtime_ns": 1793677704565939500
+    },
+    "data/simulation_v52/objects/final_static_audit/021/visual.obj": {
+      "sha256": "255ca4bf01d5007f029109483331e09084e3a79854c393add555312f7d4ba072",
+      "bytes": 1163051,
+      "mtime_ns": 1793677704607552500
+    },
+    "data/simulation_v52/objects/final_static_audit/021/visual.png": {
+      "sha256": "1bcc0fe4570ce2048cbc7b36f6de4a06e652a06f21da85645b59b3482b051bce",
+      "bytes": 463318,
+      "mtime_ns": 1793677704563932800
+    },
+    "data/simulation_v52/objects/final_static_audit/selection.json": {
+      "sha256": "8c78c6ea6326ff8edd2a9b59518ff582d72ff2400e90bac3b18d764e5ec3d1fa",
+      "bytes": 16179,
+      "mtime_ns": 1793677692978917700
+    },
+    "data/simulation_v52/objects/selection.json": {
+      "sha256": "71aa5ef1c9700b85dfdf5acf78d8c5ccd2b1edb7e4dac4e7c485491954bcc3c9",
+      "bytes": 17120,
+      "mtime_ns": 1793676945866780700
+    },
+    "data/simulation_v52/objects/voxel_repair/014/collision_audit.json": {
+      "sha256": "a613f17e7c3eb5e5906972aff02948f6e5d085ddccbaab5173fc7a914941bc0a",
+      "bytes": 1200,
+      "mtime_ns": 1793678004679625100
+    },
+    "data/simulation_v52/objects/voxel_repair/014/collision_boxes.json": {
+      "sha256": "bb80e113ac81d7eb53d8e89e8ef7ee7e91e780a4ecc2b32a3f421f68cab8553f",
+      "bytes": 303605,
+      "mtime_ns": 1793678012233302400
+    },
+    "data/simulation_v52/objects/voxel_repair/014/collision_union_boundary.obj": {
+      "sha256": "da1a723946700f7063d3f8536f7704c1b80ee01b793e533c298b6f0890c60f67",
+      "bytes": 569011,
+      "mtime_ns": 1793678003490633300
+    },
+    "data/simulation_v52/objects/voxel_repair/014/metadata.json": {
+      "sha256": "03770a0f9e2fc52e9ba8aeecb233b0bc2e3e881ef3b3246a39de386b21364033",
+      "bytes": 13044,
+      "mtime_ns": 1793678012364245100
+    },
+    "data/simulation_v52/objects/voxel_repair/014/object.urdf": {
+      "sha256": "e8fc9c87ed179c1beea91758e4727f0417b5eb94f272fe249fb54fdca64e65b2",
+      "bytes": 174015,
+      "mtime_ns": 1793678012221427100
+    },
+    "data/simulation_v52/objects/voxel_repair/014/occupancy.npz": {
+      "sha256": "3c8039f076dfa3c01f0ec372712d69a7cfe6c128211960c004cc296d8af8db1f",
+      "bytes": 2621,
+      "mtime_ns": 1793678003466419300
+    },
+    "data/simulation_v52/objects/voxel_repair/014/visual.mtl": {
+      "sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "bytes": 85,
+      "mtime_ns": 1793678011265479700
+    },
+    "data/simulation_v52/objects/voxel_repair/014/visual.obj": {
+      "sha256": "ec688ac904304ea54adedb28f63f60e3a95b54b308d918355109a2f815a60ee2",
+      "bytes": 1162731,
+      "mtime_ns": 1793678011309274700
+    },
+    "data/simulation_v52/objects/voxel_repair/014/visual.png": {
+      "sha256": "f2e07c97430a7c0d6aaa5a8e168fcaec9d52a8dc44b7cc2c32e5b134d008a8c6",
+      "bytes": 722417,
+      "mtime_ns": 1793678011263391500
+    },
+    "data/simulation_v52/objects/voxel_repair/017/collision_audit.json": {
+      "sha256": "1611aafe4b07c63bc6084237e82335f5e0a423305b348dda9c1428b678c3e34a",
+      "bytes": 1200,
+      "mtime_ns": 1793678014802162000
+    },
+    "data/simulation_v52/objects/voxel_repair/017/collision_boxes.json": {
+      "sha256": "0a0da03e265c9c2ab8c0b34a46067ae599df50a57e9e05e821846a3cd4cfedf6",
+      "bytes": 236066,
+      "mtime_ns": 1793678022229977800
+    },
+    "data/simulation_v52/objects/voxel_repair/017/collision_union_boundary.obj": {
+      "sha256": "dbd8c0a1db85ee8ebf11fdf92340d5a5158fab2fbdd6b66f2a5ae0f013ae9576",
+      "bytes": 464211,
+      "mtime_ns": 1793678013602503200
+    },
+    "data/simulation_v52/objects/voxel_repair/017/metadata.json": {
+      "sha256": "7fe24ddd108b0d2a1c3c54e87b1d416f6fb93e1c5fb46d2344474c8ac71d979d",
+      "bytes": 12690,
+      "mtime_ns": 1793678022361349700
+    },
+    "data/simulation_v52/objects/voxel_repair/017/object.urdf": {
+      "sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+      "bytes": 135234,
+      "mtime_ns": 1793678022220537500
+    },
+    "data/simulation_v52/objects/voxel_repair/017/occupancy.npz": {
+      "sha256": "4d36a9be8c40188344183a472be96abfe606a167f70c84d03237b9cdb30725e7",
+      "bytes": 2283,
+      "mtime_ns": 1793678013583824900
+    },
+    "data/simulation_v52/objects/voxel_repair/017/visual.mtl": {
+      "sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "bytes": 85,
+      "mtime_ns": 1793678021262365800
+    },
+    "data/simulation_v52/objects/voxel_repair/017/visual.obj": {
+      "sha256": "d452e27e0dd6ccb831c3b144afb912d825a6d9d22257d8d4538de77e76188443",
+      "bytes": 1163466,
+      "mtime_ns": 1793678021311698100
+    },
+    "data/simulation_v52/objects/voxel_repair/017/visual.png": {
+      "sha256": "2b2be2cb8471b3dae9fdb4c14363684f76902a3304381666cd2b77f43bab5555",
+      "bytes": 765166,
+      "mtime_ns": 1793678021261370300
+    },
+    "data/simulation_v52/objects/voxel_repair/final_static_integrity.json": {
+      "sha256": "fae743bc4918f323bf2729930748571279bdcf444253110b7c8430bc84035de0",
+      "bytes": 2810,
+      "mtime_ns": 1793678080110480300
+    },
+    "data/simulation_v52/objects/voxel_repair/selection.json": {
+      "sha256": "9634f6b25e79cd2d2a063f87227842024235665bd605cc089884782d98724340",
+      "bytes": 1473,
+      "mtime_ns": 1793678002211510400
+    },
+    "data/simulation_v52/robot/expanded_official_before_adaptation.urdf": {
+      "sha256": "67623ff7f3918bc4bd5f05cca64048400a05c73ba9bbc16693259498e077fe6b",
+      "bytes": 21930,
+      "mtime_ns": 1793676854391259000
+    },
+    "data/simulation_v52/robot/inertia_check.json": {
+      "sha256": "8906d65e0a8a7cd08b55d3ab15dad6561162007fa64a2471699acdd0ee5ba14c",
+      "bytes": 5535,
+      "mtime_ns": 1793677402526899500
+    },
+    "data/simulation_v52/robot/meshes/material.mtl": {
+      "sha256": "14b5e00f03f6273b7e1cd38e0031e1211ce9493bd43d6e43f44ac9558ac654f2",
+      "bytes": 176,
+      "mtime_ns": 1793676856293520100
+    },
+    "data/simulation_v52/robot/meshes/material_0.png": {
+      "sha256": "edf7a2c819b32e7007ffa1491379f10057e91d8b69f63dff382124872ee8876f",
+      "bytes": 105,
+      "mtime_ns": 1793676856243125700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_base_link.stl": {
+      "sha256": "111e37f13a664989dd54226f80f521b32ea0b71c975282a16696b14be7cc9249",
+      "bytes": 86384,
+      "mtime_ns": 1793676407025034500
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_inner_finger.stl": {
+      "sha256": "043901d9c22b38d09b30d11326108ab3ef1445b4bd655ef313f94199f25f57ed",
+      "bytes": 7284,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_inner_knuckle.stl": {
+      "sha256": "d341d986aa8aca7262565c039c04fb6b4c0f2f5c93443519eb7ca9bfc67ba17c",
+      "bytes": 5484,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_outer_finger.stl": {
+      "sha256": "bd7da1b31b73f1aa1d61b26a582cea10f16f17396d54b8937890fa51547d26b0",
+      "bytes": 11684,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_outer_knuckle.stl": {
+      "sha256": "37c1779f71fb5504a5898048a36f9f4bfce0f5e7039ff1dce53808b95c229777",
+      "bytes": 9784,
+      "mtime_ns": 1793676407027295400
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_base_link.stl": {
+      "sha256": "74a62de75ae10cf77c60f2c49749b5d11f4c265f8624bbe7697a941fa86f6b3b",
+      "bytes": 1054984,
+      "mtime_ns": 1793676407050258500
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_inner_finger.stl": {
+      "sha256": "be21c5e18c901d4747cbc8fa1a2af15dad7173ff701482a8517e33278432bb21",
+      "bytes": 33984,
+      "mtime_ns": 1793676407052251700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_inner_knuckle.stl": {
+      "sha256": "d61e9c5304d8015333856e4a26d99e32b695b6ada993253986b1afe8e396ab11",
+      "bytes": 43484,
+      "mtime_ns": 1793676407052251700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_outer_finger.stl": {
+      "sha256": "666a92ee075f6f320ffb13b39995a5b374657cee90ded4c52c23ede20a812f34",
+      "bytes": 76084,
+      "mtime_ns": 1793676407053250300
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_outer_knuckle.stl": {
+      "sha256": "f042edc44ede9773e7cad00f7d7354d0b7c1c6a6353fe897b2ca2e6ac71107fc",
+      "bytes": 78384,
+      "mtime_ns": 1793676407054246700
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl": {
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "bytes": 21084,
+      "mtime_ns": 1793676400113684500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_forearm.stl": {
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "bytes": 53284,
+      "mtime_ns": 1793676400114911900
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_shoulder.stl": {
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "bytes": 70084,
+      "mtime_ns": 1793676400115907500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_upperarm.stl": {
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "bytes": 99684,
+      "mtime_ns": 1793676400115907500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist1.stl": {
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "bytes": 59584,
+      "mtime_ns": 1793676400117127600
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist2.stl": {
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "bytes": 67584,
+      "mtime_ns": 1793676400118138100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist3.stl": {
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "bytes": 7184,
+      "mtime_ns": 1793676400118138100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_base.obj": {
+      "sha256": "8b33fd01fbfd3ec681fa0b7a58871bb8e3734b9891b2119f62bb4abc31fad478",
+      "bytes": 947062,
+      "mtime_ns": 1793676854538272100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_forearm.obj": {
+      "sha256": "613f6cee150f5d8581012fbcbfd3dc35ccc85d52e402eb3062f11243584e9d92",
+      "bytes": 3083137,
+      "mtime_ns": 1793676855689886400
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_shoulder.obj": {
+      "sha256": "1212509d24e94e336d8b7e6e462c5d317812e4172aafd0ef9fa786ba3ef7bc7c",
+      "bytes": 4815481,
+      "mtime_ns": 1793676854858910500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_upperarm.obj": {
+      "sha256": "81529558f226c1589c132ee583eed0d34bf2e0063d3c7f1dc557506c659e01f8",
+      "bytes": 8355110,
+      "mtime_ns": 1793676855434880800
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist1.obj": {
+      "sha256": "354806606ccbe6c056f66b169c9da91b76268c13b4bafe81e36ea88ccd4a661b",
+      "bytes": 3532784,
+      "mtime_ns": 1793676855947269900
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist2.obj": {
+      "sha256": "a17e39221db76947f2155afb8970cff3ecc07b45296bc92e5f3df629f3bfe0eb",
+      "bytes": 4164109,
+      "mtime_ns": 1793676856246745000
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist3.obj": {
+      "sha256": "11aeeb64a0fc0d6bfa839db67fd57db0143ccdc246eb3a1be51b877748ef66ed",
+      "bytes": 93588,
+      "mtime_ns": 1793676856293520100
+    },
+    "data/simulation_v52/robot/robot_assets.json": {
+      "sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "bytes": 147405,
+      "mtime_ns": 1793676857252212500
+    },
+    "data/simulation_v52/robot/selfcollision_allowlist.json": {
+      "sha256": "679f035d0070fc14002c33b984b4a1e5787b831aeefc2a0d9c15d7be589bed0c",
+      "bytes": 3936,
+      "mtime_ns": 1793677129944958600
+    },
+    "data/simulation_v52/robot/static_ik_checks.json": {
+      "sha256": "7fc444c1d9823927a1b1235d391fc77e1fb667470c61b77329b6ab0962605d52",
+      "bytes": 53625,
+      "mtime_ns": 1793677132018124700
+    },
+    "data/simulation_v52/robot/static_ik_refined.json": {
+      "sha256": "0d8c2eb8fe423ce4794232daaf2027c2889cf31d5120bf2c910770481e440cae",
+      "bytes": 40217,
+      "mtime_ns": 1793677213843813900
+    },
+    "data/simulation_v52/robot/static_path_checks.json": {
+      "sha256": "dbd22994d9343da399cec6f30c95e6a7c3e7c789a888b2c850873b45a1043e27",
+      "bytes": 6129,
+      "mtime_ns": 1793677295723767200
+    },
+    "data/simulation_v52/robot/static_selfcollision_observations.json": {
+      "sha256": "42c2560048c89a7abd2db8bf6c1be84e0d62cac1a0b1d944f3ab66d7b7821952",
+      "bytes": 46022,
+      "mtime_ns": 1793676996532886700
+    },
+    "data/simulation_v52/robot/structure_check.json": {
+      "sha256": "6aa9b41f36bdd66a135821c5bdb3c37e8643e4692a96e6d1eb852715e7bdf35b",
+      "bytes": 7851,
+      "mtime_ns": 1793676939963046200
+    },
+    "data/simulation_v52/robot/ur5e_2f140.urdf.xacro": {
+      "sha256": "56ef9fa45fcc69e1ec4f0717832e7cd0b92e6311c49f5ba7fcacc48d4484bae4",
+      "bytes": 949,
+      "mtime_ns": 1793676854265043600
+    },
+    "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf": {
+      "sha256": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "bytes": 23811,
+      "mtime_ns": 1793676856464540900
+    },
+    "docs/机器人仿真工程准入协议_v52.txt": {
+      "sha256": "ab77f42559bccc7b647ae93fec5e1ad796baac24ef073b7be1073c3a147828c5",
+      "bytes": 6543,
+      "mtime_ns": 1793678124443087900
+    },
+    "scripts/sim_v52_audit.py": {
+      "sha256": "c7f0d9cbd1a7bfe36bc088848cd3aec3e600fb17f753d0178773a7abce020133",
+      "bytes": 21082,
+      "mtime_ns": 1793676590861323500
+    },
+    "scripts/sim_v52_common.py": {
+      "sha256": "611046295642775e012a2e3637d2f8331cd311fbf4a228a1d1724cf7564ea99a",
+      "bytes": 4900,
+      "mtime_ns": 1793676481379614500
+    },
+    "scripts/sim_v52_control.py": {
+      "sha256": "af907e03d1bf1139a91e5efe60f3c006742efe4dec6cce846729e2695efa31a0",
+      "bytes": 15892,
+      "mtime_ns": 1793678124444084100
+    },
+    "scripts/sim_v52_coordinate_check.py": {
+      "sha256": "0581939529cb55a1f66cdb55b5fe0f1f53d394329195e1cb4830f85104e3782c",
+      "bytes": 3792,
+      "mtime_ns": 1793677987763764500
+    },
+    "scripts/sim_v52_episode.py": {
+      "sha256": "4463334d9d70d5bd6ee727ab4c2e242687cf259171d9e497abc3966d28223d60",
+      "bytes": 19002,
+      "mtime_ns": 1793677947065180900
+    },
+    "scripts/sim_v52_math.py": {
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "bytes": 2832,
+      "mtime_ns": 1793677390626594900
+    },
+    "scripts/sim_v52_object_assets.py": {
+      "sha256": "82646cc159a13874e878f9f33a54989da643f9322ce0c3efae86604d81bac7ee",
+      "bytes": 16795,
+      "mtime_ns": 1793677684392171100
+    },
+    "scripts/sim_v52_object_voxel_repair.py": {
+      "sha256": "65303baf03b670c749ebef332464e1b43a9fb4e1ef02ad3450e5e919bcc5a59c",
+      "bytes": 13683,
+      "mtime_ns": 1793677984611860200
+    },
+    "scripts/sim_v52_preflight.py": {
+      "sha256": "a043ec0f5e314360a761468615da61bbb5e833c389237b415b4db177028b7f68",
+      "bytes": 3736,
+      "mtime_ns": 1793678161527090900
+    },
+    "scripts/sim_v52_robot_assets.py": {
+      "sha256": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd",
+      "bytes": 16406,
+      "mtime_ns": 1793676930799799400
+    }
+  }
+}

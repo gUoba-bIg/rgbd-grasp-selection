@@ -1,0 +1,9 @@
+{
+  "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+  "slot": 7,
+  "at": "2026-11-05T06:26:05.325333+00:00",
+  "phase": "zero",
+  "charged": false,
+  "stop": "zero_gate_blocked",
+  "finished_utc": "2026-11-05T06:26:09.104721+00:00"
+}

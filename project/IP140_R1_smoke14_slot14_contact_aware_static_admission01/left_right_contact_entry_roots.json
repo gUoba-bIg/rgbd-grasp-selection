@@ -1,0 +1,9 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "sides": {},
+  "both_found": false,
+  "both_passed": false,
+  "physics_steps": 0,
+  "object_pose_modified": false,
+  "proxy_used_by_controller": false
+}

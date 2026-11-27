@@ -1,0 +1,33 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "strict_pre_lift": [
+    "entry bracket, identity, root, registered flat inner face ±1e-9 m",
+    "proxy/contact reference and original prohibited contacts",
+    "672-step approach included"
+  ],
+  "fixed_target_lift_hold_geometry": [
+    "all robot-target manifolds and fresh records retained",
+    "local surface, normal, depth, distance and nonpad identity diagnostic",
+    "target motion unknown"
+  ],
+  "full_path_hard": [
+    "body/link identity, numeric integrity and witness residual checks",
+    "table, environment and self collision",
+    "filters, fixed mounts, FK/TCP, limits, velocity, API, zero steps, no target reset"
+  ],
+  "physical_gates": "Unchanged frozen dynamic evaluator; the static role split has no authority over outcome, forces, sliding, aggregate support or terminal height.",
+  "report_sha256": "20c1b451e18b8e52ce4541f758964419be76a16e06e5414ad34234e8ac3d290f",
+  "source_sha256": {
+    "archive/smoke16_trace": "3f57932e191d19f978c3c06f9c07d2b045adbe69197f7d92ce4b5961f33fda15",
+    "archive/smoke16_links": "40f7ed61a174a8715c14a8cdaa6eecbe0226424224068810bdb03a0ec6e44baf",
+    "archive/smoke16_zero": "5492ef9b33a23ef8e046afaafdb8cc3e6bc780eb75bede8edabe6ad3a2784c08",
+    "archive/smoke16_roots": "864e8fd77c286f69f8608d41564af12dfc97e2a3405610617365c4cd0197ef6f",
+    "positive_negative_replay.py": "34678edba5a6bba3a0d6b7b2b00ffd3d6382d444ed6e36bbf59cf56f70b476c0",
+    "contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "contact_semantics.py": "39259c3e1854346e08eb99316e827813d875a7021b3a955adc85660b9d78ebfa",
+    "contact_aware_path.py": "f3137cc4fae81c1d528fde40719a8844fb2cf8374c5bc5ba23420d1500a242c5",
+    "pad_surface.py": "641257c30ef4bd038c2f0b83c7d0b92e4f5ce23e620a3acb8948aa47b479888f",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "aggregate_support.py": "786875f9373492756a351dc4301ed9b409b092f339c232f7ecf1bca83e7ef4b4"
+  }
+}

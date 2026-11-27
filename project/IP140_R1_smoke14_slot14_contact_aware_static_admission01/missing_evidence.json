@@ -1,0 +1,22 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "planned_snapshots": 4728,
+  "actual_paired_snapshots": 2748,
+  "actual_successful_snapshots": 2747,
+  "first_failed_snapshot": 2748,
+  "unvisited_snapshots": {
+    "first": 2749,
+    "last": 4728,
+    "count": 1980
+  },
+  "new_left_root": null,
+  "new_right_root": null,
+  "new_root_queries": 0,
+  "proxy_contact_stop_behavior_exercised": false,
+  "post_contact_cache_isolation_branch_exercised": false,
+  "loaded_contact_dynamics": null,
+  "physical_steps": 0,
+  "new_charges": 0,
+  "full_static_admission_passed": false,
+  "reason": "First real zero-step result hit a classifier implementation defect; stopped and disconnected, no retry or synthesized completion."
+}

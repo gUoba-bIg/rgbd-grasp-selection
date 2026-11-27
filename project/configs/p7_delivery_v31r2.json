@@ -1,0 +1,41 @@
+{
+  "version": "31r2",
+  "at": "2026-10-31T11:08:01.300908+08:00",
+  "wall_seconds": 43200,
+  "protected": {
+    "scripts/p7_delivery_v31r2.py": {
+      "sha256": "9fa534cd640bad3c4fb93217b53e17d1419340481d712338b97436de734a1ef0",
+      "bytes": 5227,
+      "mtime_ns": 1793415995120756200
+    },
+    "configs/p7_score_recovery_v31r2.json": {
+      "sha256": "7fb10ee447f40897c7ea23f4b9ce60d549a344caae3ef7d5d32795fb2002a92c",
+      "bytes": 2499,
+      "mtime_ns": 1793416081289961900
+    },
+    "logs/P7/score_repair_v31r2/freeze.json": {
+      "sha256": "da3d96612aadb45ff1a949d899ffdc816cc6f0315d438ace0d0f967b322aa894",
+      "bytes": 131,
+      "mtime_ns": 1793416081299572100
+    },
+    "scripts/p7_score_v31r2.py": {
+      "sha256": "c55abc834702d70bebb0053baa498ca6656c88553df22f9e4b2d5dd243a099e2",
+      "bytes": 6787,
+      "mtime_ns": 1793415995118253200
+    },
+    "scripts/p7_finish_v31r2.py": {
+      "sha256": "67abe15c115687b5fa95df14a9c37d27621d4eb9cf503636838159696cca2d8b",
+      "bytes": 5221,
+      "mtime_ns": 1793415995119753800
+    },
+    "scripts/p7_recovery_v31r2.py": {
+      "sha256": "9eeaeed64b469b5ed5ffed9eb580e6355e8373bafc96f5603f71a494d740338b",
+      "bytes": 2091,
+      "mtime_ns": 1793415974674893300
+    }
+  },
+  "resume_after_generation": true,
+  "stop_after_P7": true,
+  "P8_allowed": false,
+  "recurring_automation": false
+}

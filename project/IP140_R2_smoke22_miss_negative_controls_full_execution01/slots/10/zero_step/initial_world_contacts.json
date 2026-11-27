@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "registered_robot": 0,
+  "registered_table": 1,
+  "registered_object": 2,
+  "filtered_pair_counts": {
+    "base_link_inertia|shoulder_link": 0,
+    "shoulder_link|upper_arm_link": 0,
+    "upper_arm_link|forearm_link": 0,
+    "forearm_link|wrist_1_link": 0,
+    "wrist_1_link|wrist_2_link": 0,
+    "wrist_2_link|wrist_3_link": 0,
+    "wrist_3_link|ip140_palm": 0,
+    "ip140_left_bone|ip140_left_pad": 0,
+    "ip140_right_bone|ip140_right_pad": 0,
+    "ip140_palm|ip140_left_bone": 0,
+    "ip140_palm|ip140_left_pad": 0,
+    "ip140_palm|ip140_right_bone": 0,
+    "ip140_palm|ip140_right_pad": 0
+  },
+  "object_table_support_manifold_indices": [],
+  "world_manifolds": [],
+  "direct_closest": {
+    "robot_table": [
+      [
+        0,
+        0,
+        1,
+        1,
+        -1,
+        [
+          0.008286136696253638,
+          -0.07507986178258438,
+          -0.0010000957088204237
+        ],
+        [
+          0.008286136696253693,
+          -0.07507986178258456,
+          0.0
+        ],
+        [
+          5.5516464646603244e-14,
+          -1.8042851010146054e-13,
+          1.0
+        ],
+        -0.0010000957088204237,
+        0.0,
+        0.0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        0.0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "robot_object021": [],
+    "object021_table": []
+  },
+  "registered_mount_closest_checks": [
+    {
+      "group": "robot_table",
+      "index": 0,
+      "raw": [
+        0,
+        0,
+        1,
+        1,
+        -1,
+        [
+          0.008286136696253638,
+          -0.07507986178258438,
+          -0.0010000957088204237
+        ],
+        [
+          0.008286136696253693,
+          -0.07507986178258456,
+          0.0
+        ],
+        [
+          5.5516464646603244e-14,
+          -1.8042851010146054e-13,
+          1.0
+        ],
+        -0.0010000957088204237,
+        0.0,
+        0.0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        0.0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "check": {
+        "raw": [
+          0,
+          0,
+          1,
+          1,
+          -1,
+          [
+            0.008286136696253638,
+            -0.07507986178258438,
+            -0.0010000957088204237
+          ],
+          [
+            0.008286136696253693,
+            -0.07507986178258456,
+            0.0
+          ],
+          [
+            5.5516464646603244e-14,
+            -1.8042851010146054e-13,
+            1.0
+          ],
+          -0.0010000957088204237,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "passed": true,
+        "violations": [],
+        "robot_point_W_m": [
+          0.008286136696253638,
+          -0.07507986178258438,
+          -0.0010000957088204237
+        ],
+        "table_point_W_m": [
+          0.008286136696253693,
+          -0.07507986178258456,
+          0.0
+        ],
+        "normal_table_to_robot_W": [
+          5.5516464646603244e-14,
+          -1.8042851010146054e-13,
+          1.0
+        ],
+        "signed_distance_m": -0.0010000957088204237,
+        "baseline_drift_m": 0.0,
+        "witness_residual_m": 3.613513106067757e-20,
+        "normal_length": 1.0,
+        "normal_direction_error": 1.8877638916000696e-13,
+        "base_footprint_inward_distance_m": 3.4339474170787523e-06,
+        "table_footprint_inward_distance_m": 3.4339474168957648e-06,
+        "raw_Fn_Ft1_Ft2_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dt_s": 0.004166666666666667,
+        "impulse_W_Ns": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scalar_impulses_Ns": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "impulse_norm_Ns": 0.0
+      }
+    }
+  ],
+  "failures": []
+}

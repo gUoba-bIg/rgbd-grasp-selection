@@ -1,0 +1,38 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "static_admission_passed": false,
+  "status": "static_contact_aware_admission_blocked",
+  "physical_steps": 0,
+  "new_charges": 0,
+  "charged": false,
+  "slot14_started": false,
+  "cumulative_starts": 8,
+  "total_budget": 14,
+  "remaining": 6,
+  "slots8_to_12_frozen": true,
+  "dynamic_execution_authorized": false,
+  "grasp_success": null,
+  "slot_passed": null,
+  "loaded_path_passed": null,
+  "IP140_overall_passed": null,
+  "zero_passed": true,
+  "snapshots_completed": 2748,
+  "first_failure": {
+    "snapshot": 2748,
+    "phase": "close",
+    "phase_tick": 12,
+    "violations": [
+      "reference:manifold:0:pad_contact_without_legal_entry",
+      "reference:manifold:0:missing_per_side_entry_certificate",
+      "reference:manifold:0:reference_negative_or_manifold_before_legal_entry",
+      "proxy:manifold:0:pad_contact_without_legal_entry",
+      "proxy:manifold:0:missing_per_side_entry_certificate"
+    ]
+  },
+  "exceptions": null,
+  "connect_calls": 1,
+  "disconnect_returns": 1,
+  "filter_call_count": 14,
+  "ledger_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "utc": "2026-11-06T09:16:34.744763+00:00"
+}

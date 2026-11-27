@@ -1,0 +1,15 @@
+{
+  "version": "IP140_R1_smoke04_structural_filter_numericband01",
+  "session_end_utc": "2026-11-04T11:26:44.463332+00:00",
+  "sealed_at_utc": "2026-11-04T11:28:05.578610+00:00",
+  "step_returns": 2,
+  "first_failure_step": 2,
+  "slot": 2,
+  "reason": [
+    "internal_seams.ip140_left_pad|ip140_left_bone:seam_manifold",
+    "internal_seams.ip140_right_pad|ip140_right_bone:seam_manifold"
+  ],
+  "retry": false,
+  "next_slot_authorized": false,
+  "unused_budget": 10
+}

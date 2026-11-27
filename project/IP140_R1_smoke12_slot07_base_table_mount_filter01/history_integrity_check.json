@@ -1,0 +1,494 @@
+{
+  "at_utc": "2026-11-06T02:34:06.055670+00:00",
+  "historical_packages": [
+    {
+      "version": "IP140_R1_smoke03_framefix_mountpair01",
+      "manifest_sha256": "801c981c53f4ed2dff9440c58d36d2b513e1525d6a4e868c8570ddcb479e1832",
+      "checked_files": 37
+    },
+    {
+      "version": "IP140_R1_smoke04_structural_filter_numericband01",
+      "manifest_sha256": "6b0cca00b8e9b4cb6cc95650b32aa6f6699f44b827dd7cfe271f435496df79a3",
+      "checked_files": 66
+    },
+    {
+      "version": "IP140_R1_smoke05_fixed_pad_mount_filter01",
+      "manifest_sha256": "6c92d61e71c31ef5e73120a6659830d3d04f3f850d8e0d288196e56f16dc3960",
+      "checked_files": 92
+    },
+    {
+      "version": "IP140_R1_smoke06_sliding_seam_acm01",
+      "manifest_sha256": "de2d751d438a666b93eb04c44e5e8de2dece9cbc54b3e7b6634a87c90ab57d0c",
+      "checked_files": 111
+    },
+    {
+      "version": "IP140_R1_smoke07_mount_baseline_invariant01",
+      "manifest_sha256": "f66b6347f9bffe786c002fa7b32d2abd8c98779a06ed6818d1b8ddf37dae01ec",
+      "checked_files": 128
+    },
+    {
+      "version": "IP140_R1_smoke08_single_sided_stop01",
+      "manifest_sha256": "e7f57505f1bb605f368674be29560e371a25d25b046422ca14c84921f0c6cef4",
+      "checked_files": 146
+    },
+    {
+      "version": "IP140_R1_smoke09_close_speed_margin_single_stop01",
+      "manifest_sha256": "c352f00497986ee2d2a90c1b4a516b1019034707418f3f4f706a06a54e974587",
+      "checked_files": 167
+    },
+    {
+      "version": "IP140_R1_smoke10_slot07_nominal021_01",
+      "manifest_sha256": "c08ece682966207eccffbcbc0fe5472d67536e23f3e441b777be718cfa3524e5",
+      "checked_files": 101
+    },
+    {
+      "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+      "manifest_sha256": "3f737fe0b4fe725c81228150cb85f9d1fc60499b87c5dce4631d513e3b3e0465",
+      "checked_files": 179
+    }
+  ],
+  "history_copies": [
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/episodes/01/precharge.json",
+      "sha256": "0e6e9e9ac2ea9cf266f039eec6467054f4a43133722dbf8aeb5b3778f7976ed7",
+      "bytes": 406
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/episodes/01/result.json",
+      "sha256": "26974bd19e330895d99f9de43a5bbc8b620ae4c0c077faacb9518956cde9aea8",
+      "bytes": 1424
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/episodes/01/telemetry.jsonl.gz",
+      "sha256": "f891410e855c5e0597bc2dd0b105feb127d8ee447a91df432b2568c561376d82",
+      "bytes": 4255
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/ledger_initial.json",
+      "sha256": "e5ac0a5c66227732d60350adcfaf36931d94523e8a0ad9ae4289359c18127b0c",
+      "bytes": 3226
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/preregistration.json",
+      "sha256": "da8e96aa2b228f815aecbb4487453506391ab13ab5491786f86ab490dae9f943",
+      "bytes": 35667
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/SHA256SUMS.txt",
+      "sha256": "801c981c53f4ed2dff9440c58d36d2b513e1525d6a4e868c8570ddcb479e1832",
+      "bytes": 3461
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/slot_ledger.json",
+      "sha256": "3cf7dd71c801eeb73daccc68745a39031a48276a10dc836ad88a010061ebf456",
+      "bytes": 3217
+    },
+    {
+      "path": "IP140_R1_smoke03_framefix_mountpair01/STOP.json",
+      "sha256": "f47c64e68e7a7f3b849295fa1ffe77d38c7f5a6cbc760902e62e19171609c580",
+      "bytes": 584
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/episodes/02/precharge.json",
+      "sha256": "029e4db1c73bb1c5626105dfabc16da29517df2671327460acebf54896b2f7da",
+      "bytes": 406
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/episodes/02/result.json",
+      "sha256": "792162eccb0e089fba2b1b87e9381106e8a53e040bb42d7d7378f7b65dd981b9",
+      "bytes": 1243
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/episodes/02/telemetry.jsonl.gz",
+      "sha256": "564c08e8c00e3f1eff294761db5d995007cecb36782d547e5aa40ab7108129ee",
+      "bytes": 5702
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/ledger_initial.json",
+      "sha256": "47319bf27717ac4c06bcad47d62969024bb447fed6941fde9d43edbf7f4a4844",
+      "bytes": 3734
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/preregistration.json",
+      "sha256": "0cedc47269798ab0949a7cf399a978630ec4e7a857517ea386cb3243bfdaae3c",
+      "bytes": 36225
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/SHA256SUMS.txt",
+      "sha256": "6b0cca00b8e9b4cb6cc95650b32aa6f6699f44b827dd7cfe271f435496df79a3",
+      "bytes": 6823
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/slot_ledger.json",
+      "sha256": "2d8d163efa5a21383bddfbb07e3006093f222cf51e95e2e61dcdd6160fd2feb9",
+      "bytes": 4018
+    },
+    {
+      "path": "IP140_R1_smoke04_structural_filter_numericband01/STOP.json",
+      "sha256": "166cbdf46218c3d9fd0eada25e7855531784a0a7f2e7e3de38a6f8ee389cf80c",
+      "bytes": 469
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/precharge.json",
+      "sha256": "63664bf8983cb39ead6b110a9214d01cb854789007fba93dcadc51c1c2478358",
+      "bytes": 422
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/result.json",
+      "sha256": "167672de2ac1f4776928a54fa149ad6d455120912e726f09c974320c9bbf8569",
+      "bytes": 3724
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/telemetry.jsonl.gz",
+      "sha256": "d1eb49fe401aacf150d20b4a0d4d7ae226c385eb57922475ccc42393e55224a7",
+      "bytes": 24916
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/ledger_initial.json",
+      "sha256": "548ab1bacd48cf96c0ebf6cd6e33dc7e69528197dc0d87b11448ef5edfe77f94",
+      "bytes": 4495
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/preregistration.json",
+      "sha256": "987766f6b5420b19fd10e41995f92b43c64e364a1eb650cfa4f341d84eab7b09",
+      "bytes": 38561
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/SHA256SUMS.txt",
+      "sha256": "6c92d61e71c31ef5e73120a6659830d3d04f3f850d8e0d288196e56f16dc3960",
+      "bytes": 10200
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/slot_ledger.json",
+      "sha256": "8259b63ebe094e9118a55eace1ac1d54b2dabcf81fd52ef9d047bdef3dc7987c",
+      "bytes": 4723
+    },
+    {
+      "path": "IP140_R1_smoke05_fixed_pad_mount_filter01/STOP.json",
+      "sha256": "33d62359065887b4788935e55be73346889dda030079f161000514b65f26b00a",
+      "bytes": 1479
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/episodes/04/precharge.json",
+      "sha256": "1badd3d43baa227772b5ef036512abfef3fd8f52bdbe8b7cb1cf1ec75eaf06f1",
+      "bytes": 421
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/episodes/04/result.json",
+      "sha256": "37db6940b0007b87ed2428b707ef0e542ba2802ff6f56a33f8a517010830088c",
+      "bytes": 1197
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/episodes/04/telemetry.jsonl.gz",
+      "sha256": "1da7202c1b926d54c659f7f820683d7d11a6f3ea49743a7165e08a35320b9a6c",
+      "bytes": 6252
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/ledger_initial.json",
+      "sha256": "92aa4a067a95891e73d8ffcf748f360390c173453781eb306a28da51253487be",
+      "bytes": 4980
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/offline_gate_replay.json",
+      "sha256": "def2aaa6ea85c477fdf513b8e3302c7afeb7b5b8168c54ef8c18aa5ff8f5319a",
+      "bytes": 177680
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/preregistration.json",
+      "sha256": "5fce577324aee5a9531b05e7d2012195daa9605cfdfa74fbe583dea6fa536d00",
+      "bytes": 39732
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/SHA256SUMS.txt",
+      "sha256": "de2d751d438a666b93eb04c44e5e8de2dece9cbc54b3e7b6634a87c90ab57d0c",
+      "bytes": 12411
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/slot_ledger.json",
+      "sha256": "5a9a7a2c03d74dd9573192f7078e3715f59ace2e57b08aee24801ab7becca612",
+      "bytes": 5198
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/STOP.json",
+      "sha256": "dde53c0c8cb38c59b3808d31c3be075a48d1a628b202fcf48e5003b8b2693846",
+      "bytes": 879
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/zero_readback.json",
+      "sha256": "876700229432de2788288649ffbd17088308a893374f4564b6affb0433c84f43",
+      "bytes": 59317
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/zero_step/filter_post.json",
+      "sha256": "73c74ef5a527c93d8f4e4d74692b929cd3fe90c892b1a7fdb66d3d355c4cce90",
+      "bytes": 151735
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/zero_step/filter_pre.json",
+      "sha256": "cd693d971d0b3a7e004764c9f5d10411dfccef05e60ebcd132bb836d5226bbae",
+      "bytes": 170854
+    },
+    {
+      "path": "IP140_R1_smoke06_sliding_seam_acm01/zero_step/pre_filter_wrist_fixed_chain.json",
+      "sha256": "6e101e7771d8561c3779fe0a048bc8450d7c0ab4d1af4ccffe68b69a44237238",
+      "bytes": 1463
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/precharge.json",
+      "sha256": "c409e1d48325cd4bf96e6065a0e38914de0cfcd4ef1057cd1d599a280148067a",
+      "bytes": 424
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/result.json",
+      "sha256": "ef46ca39ef35ac4097f9d3ebbd96b636c1000911ba1e764486e9fb2b07a5783f",
+      "bytes": 680
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/telemetry.jsonl.gz",
+      "sha256": "e06a40cc844c6563591b5db794514034e5263631d7b13d62ab74898f027a90e0",
+      "bytes": 14627045
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/input_identity.json",
+      "sha256": "a8bfbc0abe316fb693d292b3d088c7eb62773c4ae8c05eea70881d15f27e950f",
+      "bytes": 2791
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/ledger_initial.json",
+      "sha256": "1d622871644a75cfe82df85031522c9428a3c0ba3f0e6e5939c3e4c99fcead13",
+      "bytes": 5489
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/preregistration.json",
+      "sha256": "052901379a153b75a64e1761d68aebfa351f13aea3d46ee53c24350e41c61412",
+      "bytes": 41042
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/SHA256SUMS.txt",
+      "sha256": "f66b6347f9bffe786c002fa7b32d2abd8c98779a06ed6818d1b8ddf37dae01ec",
+      "bytes": 14712
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/slot_ledger.json",
+      "sha256": "4575579c79d96f2a223d1d0981aad8c0139762e73c1f204c656684b1f1094851",
+      "bytes": 5915
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/STOP.json",
+      "sha256": "abc3d0a523f02c154136f93de78b4225dcecb12ec57f41175bfcd904497cfda8",
+      "bytes": 1313
+    },
+    {
+      "path": "IP140_R1_smoke07_mount_baseline_invariant01/zero_readback.json",
+      "sha256": "4d358733f898534f1468cf7de5847732d65579402fde4c14bd6a48be1f3d3c69",
+      "bytes": 62005
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/actual_log_audit.json",
+      "sha256": "105d5344232c957f26163ae246ed89532b02308037b9804fa84cfd12ea670bc6",
+      "bytes": 9223
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/episodes/06/precharge.json",
+      "sha256": "7043334c85683ec514f06b2f078f49d0f2597ebd2115f2300e5d4fbbdd1019e3",
+      "bytes": 411
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/episodes/06/result.json",
+      "sha256": "69c47ae2084f59e7811a3ebdaff2f3fd57975e27420ef3412d32cfc6e5732538",
+      "bytes": 1776
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/episodes/06/telemetry.jsonl.gz",
+      "sha256": "1e7cffebc9c3f8ae25758d3d119da1bacf4513fac0fb04576a3180b1b851a9b2",
+      "bytes": 11881186
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/first_failure_and_terminal_window.json",
+      "sha256": "3e6254a44c9d9cde6a058b96a9a5b13c7082cbde57b9d8184324ccb22de1be12",
+      "bytes": 17084
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/input_identity.json",
+      "sha256": "3fb0cc558f9a81c5df847406604a916022ff009e173da15456c8671360315b00",
+      "bytes": 3268
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/ledger_initial.json",
+      "sha256": "6c2ad9f1153e1c117f7bfb7d8f392b01e96c8430050a30a2ba1db3b39d2d2743",
+      "bytes": 6020
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/offline_gate_replay.json",
+      "sha256": "598e1076397ffc13c89b6bc99d2a8ac11c5e37893bde86704141d209ba607d77",
+      "bytes": 148225
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/preregistration.json",
+      "sha256": "280d7c04ed585141b51778f9b293993a493f9a5b52760782446046d2cfbb6d04",
+      "bytes": 41648
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/SHA256SUMS.txt",
+      "sha256": "e7f57505f1bb605f368674be29560e371a25d25b046422ca14c84921f0c6cef4",
+      "bytes": 16961
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/slot_ledger.json",
+      "sha256": "a1f5d736270d04320c0ef1a9625ee41668764532a97e91e82e8ef5ecba82d3e1",
+      "bytes": 6481
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/STOP.json",
+      "sha256": "7371da590d7c6931085110fbe306788064f24b8f916fcdb267f5ac3f6b30b08a",
+      "bytes": 1800
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/trajectory_plan.json",
+      "sha256": "971b8c0111376e1635587ebbb1e2b6e18573b6edae091f333fa8ceb2b365876a",
+      "bytes": 6764
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/zero_readback.json",
+      "sha256": "53439ccb1cdf24988e294953fb3db8dff51b42fe563273e7d8be26b40648ef62",
+      "bytes": 66729
+    },
+    {
+      "path": "IP140_R1_smoke08_single_sided_stop01/zero_step/fixture_static.json",
+      "sha256": "36d7e10d4e89fbe52868af10ac76d32516632f382c97ecd370cf6b62b3cc7434",
+      "bytes": 3096
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/precharge.json",
+      "sha256": "2d8f08e11df11257f9a49a2e3e7506e612e9b6a8eea0a99e4d361f41a1980f65",
+      "bytes": 556
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/result.json",
+      "sha256": "c873cf1a25f888e5508b6ecc5e29f5865414d26336d95726f5ef8c976ced203b",
+      "bytes": 4919
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/telemetry.jsonl.gz",
+      "sha256": "437a1f56b26b1f6cb704fa57b757355824d4b4ec1cbe8ab9e03dea597802c73f",
+      "bytes": 13764387
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/input_identity.json",
+      "sha256": "a2c91ab1a26c5a9905ec8da41dce3d6a32a4e26a1b85e91fb1de59e056c692c1",
+      "bytes": 3998
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/ledger_initial.json",
+      "sha256": "6b3be0e9e74287aecada6d08164e8f4a5ba4791352935868b941334d55cac88c",
+      "bytes": 7048
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/preregistration.json",
+      "sha256": "7b298011960d4cdb5762981d65a1478a672e5edb123ef9bd0907035506efaca7",
+      "bytes": 44085
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/SHA256SUMS.txt",
+      "sha256": "c352f00497986ee2d2a90c1b4a516b1019034707418f3f4f706a06a54e974587",
+      "bytes": 19620
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/slot_ledger.json",
+      "sha256": "9c16397c6c151f6846dcaf97f297c6ebe8849fb8dfd8e36391daf0e9c7091d73",
+      "bytes": 7743
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/speed_policy.py",
+      "sha256": "59746eeea19df50687c4d8df1aad10d379ff6b960bb3db0bb06f4c8970bd9abe",
+      "bytes": 1514
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/STOP.json",
+      "sha256": "4c6da455211792bac0cb4a2dd109c943c43a855595d8e90db3d5becf37eb4578",
+      "bytes": 1542
+    },
+    {
+      "path": "IP140_R1_smoke09_close_speed_margin_single_stop01/zero_readback.json",
+      "sha256": "b6ff5dbceeb1ecf97b4012b3eb4c6867be39953f1468c4c70da822096202a0bf",
+      "bytes": 67642
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/implementation_status.json",
+      "sha256": "e5be63787f3d2f8ec64cbc97be8d0bdee4422c78fd444a905f243f77ff52f22b",
+      "bytes": 1634
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/result.json",
+      "sha256": "d7b7a0a6e02d2c30cdfd2513d815a4cfffb2f43e41335e1006efe158492cf5e7",
+      "bytes": 986
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/SHA256SUMS.txt",
+      "sha256": "c08ece682966207eccffbcbc0fe5472d67536e23f3e441b777be718cfa3524e5",
+      "bytes": 12963
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/slot_ledger.json",
+      "sha256": "cd731a2c470527d2d4e67124472b825077cfba30024d8892a0241a971b8803bb",
+      "bytes": 8042
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/STOP.json",
+      "sha256": "0ecd19801121f5ee2685ea8c5a994d72dcfed9fd6ddd07256c1d8f374107fec1",
+      "bytes": 654
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/zero_readback.json",
+      "sha256": "2668999dab28682439499118e469c304f508ae9f2f930b3d6cd5418fbd82cf4f",
+      "bytes": 691
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/api_and_episode_audit.json",
+      "sha256": "d41f150e6a866ffd6d2d23ee98824cb17cee8f293d27cd28dde2e51c1fe44fc7",
+      "bytes": 11027
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/damping_write_receipt.json",
+      "sha256": "a21f7b48cc40018d6ffd964a41183e169a146cf1cfd0e676793bc888c0e82ee4",
+      "bytes": 2426
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/offline_gate_replay.json",
+      "sha256": "e3e448768352757890ad92297284d32991a1504a12e8915de8373a32d2249ccf",
+      "bytes": 790549
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/preregistration.json",
+      "sha256": "21833e1c677ba59f36094c53d244d88914900d636faf793aa9fdcd232ae614e6",
+      "bytes": 45704
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/result.json",
+      "sha256": "ade95093b3481c1454010e6af3e27143794eea1bd11adaa512a4ae641b54a207",
+      "bytes": 848
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/SHA256SUMS.txt",
+      "sha256": "3f737fe0b4fe725c81228150cb85f9d1fc60499b87c5dce4631d513e3b3e0465",
+      "bytes": 21322
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/slot_ledger.json",
+      "sha256": "a482c3d153c484c4f3a90dfd80dac0f4f81f6f6ac3459b29a471d11d3e1b06c9",
+      "bytes": 7977
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/STOP.json",
+      "sha256": "91dc7f29007be62732706f5632e55cdd7abce5e828c5d93203afabe39fcde7b0",
+      "bytes": 287
+    },
+    {
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/zero_readback.json",
+      "sha256": "94f329580e17acac7e9342384d7eec2b821f8ad8cdcc38201c754293fa08ba5c",
+      "bytes": 68773
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

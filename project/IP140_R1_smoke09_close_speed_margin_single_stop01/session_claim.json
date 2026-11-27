@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-05T03:16:52.554978+00:00",
+  "pid": 298980,
+  "permitted": [
+    13
+  ],
+  "input_bindings": {
+    "approved_task.txt": "ab0e42bce89cb2612e47df3a2fb76f9d5d397af38104c5a6d06050f91f0a79dd",
+    "audit_observations.py": "88759c429e90917cbb3857be233ab3ec36f814e067dbc5f6821204aa5811d3f2",
+    "episode_log.py": "dcc9f7df6747246d8412454c391461c5f1c7faeca7c016737bd462f15a7ba0ce",
+    "execution_control.py": "9a845ad968afff583f6ad4a7199a6679881957452540b7be669d8971152f5f4e",
+    "fixture_static.py": "3c7f17b056efeb256ab02a6a43f25e11cfa20cabb7ba0ac4f6cb5d9f5b61f93e",
+    "full_api.py": "6710d3984c0aa2f926c4944b63015cead96df0c5dec4a4877bb9c2e425def659",
+    "history/sources.json": "db673949ddf5441879063015c8ec4ac8924a8a06a61150e2e00c0199bf896f15",
+    "input_identity.py": "5a05920c2e51b34c8c585cde446a1e76e73cc2462a09e5037fc0616fdfae1969",
+    "ledger_initial.json": "6b3be0e9e74287aecada6d08164e8f4a5ba4791352935868b941334d55cac88c",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "mountpair.py": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+    "mountpair_registration.json": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+    "offline_replay.py": "072cb1631dc58c885ebac5b87615559b74e2751496240b13959970f3206520e2",
+    "preregistration.json": "7b298011960d4cdb5762981d65a1478a672e5edb123ef9bd0907035506efaca7",
+    "review_speed_contact.py": "bec65f63fc5ee0202634e5c4eec9bf3a58389d3473399c7daadea65151d145d7",
+    "run_once.py": "d34d4a1076236d1112ccd1a05b9c2071c3bf6fc8412248abcee9f1d700de30d0",
+    "seam_geometry.py": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+    "single_stop.py": "2fea6bb3737c9b5499c3b6cb4d40cd235735d9e8827c2b9c30e4f0e65477bafd",
+    "speed_policy.py": "59746eeea19df50687c4d8df1aad10d379ff6b960bb3db0bb06f4c8970bd9abe",
+    "static_proof.py": "c84d8614da2667a757164720c17e93edc9217aa876573045c3a7426f42d3e838",
+    "stop_evaluator.py": "66739844d0e021dd7dd7cf32464ff9017d29a79f626cca7a9e5f70ec16087f28",
+    "structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "trajectory.py": "25bb9adb7b407950b6602784b0e32c56a768aff2703182a7787622c02c8485b7",
+    "trajectory_plan.json": "5223bf27e679f2c019823701d87a45d7ab165645089e4245371388fea6a4e528",
+    "zero_gate.py": "e14468cfa888de376351f0af3169d7c594dd786c599803579d2aab810b3be876"
+  }
+}

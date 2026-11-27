@@ -1,0 +1,247 @@
+{
+  "schema": "smoke10_scene_source_audit_v1",
+  "scope": "source_identity_and_static_values_only",
+  "source_files_match": true,
+  "files": [
+    {
+      "path": "configs/simulation_v52r2.json",
+      "present": true,
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "frozen_sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "present": true,
+      "sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "frozen_sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "present": true,
+      "sha256": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "frozen_sha256": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "present": true,
+      "sha256": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "frozen_sha256": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "present": true,
+      "sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "frozen_sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "scripts/sim_v52r2_episode.py",
+      "present": true,
+      "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "frozen_sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "present": true,
+      "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "frozen_sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/metadata.json",
+      "present": true,
+      "sha256": "0436370e7f06284fb6581abf6b6f26616423b6da3d3f8d010098a325487cbd97",
+      "frozen_sha256": "0436370e7f06284fb6581abf6b6f26616423b6da3d3f8d010098a325487cbd97",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/collision.obj",
+      "present": true,
+      "sha256": "73f7cb9459d780fdada3b2b9ff934c53c92f6441da02d9c6f4c4c6250fb9a3c2",
+      "frozen_sha256": "73f7cb9459d780fdada3b2b9ff934c53c92f6441da02d9c6f4c4c6250fb9a3c2",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "present": true,
+      "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "frozen_sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/visual.mtl",
+      "present": true,
+      "sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "frozen_sha256": "ddf93bcd8f75a0b0c402bf491336dac0cf8e01f86858ff4a1e074a2401b0bfab",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/visual.obj",
+      "present": true,
+      "sha256": "255ca4bf01d5007f029109483331e09084e3a79854c393add555312f7d4ba072",
+      "frozen_sha256": "255ca4bf01d5007f029109483331e09084e3a79854c393add555312f7d4ba072",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/simulation_v52/objects/final_static_audit/021/visual.png",
+      "present": true,
+      "sha256": "1bcc0fe4570ce2048cbc7b36f6de4a06e652a06f21da85645b59b3482b051bce",
+      "frozen_sha256": "1bcc0fe4570ce2048cbc7b36f6de4a06e652a06f21da85645b59b3482b051bce",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/raw/prerequisites_v26/models/021/nontextured.ply",
+      "present": true,
+      "sha256": "361626d75eb7e60a6d128b4e68a6d08b1890d2e73669e32ad08fb2640b882e74",
+      "frozen_sha256": "361626d75eb7e60a6d128b4e68a6d08b1890d2e73669e32ad08fb2640b882e74",
+      "passed": true,
+      "actual_readback": null
+    },
+    {
+      "path": "data/raw/prerequisites_v26/models/021/textured.obj",
+      "present": true,
+      "sha256": "0a2b8fbac3623d91de3552bb54ba11d43011fc045c9d1b659a710e971f1de031",
+      "frozen_sha256": "0a2b8fbac3623d91de3552bb54ba11d43011fc045c9d1b659a710e971f1de031",
+      "passed": true,
+      "actual_readback": null
+    }
+  ],
+  "object_021": {
+    "urdf_path": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+    "urdf_sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+    "mass_kg": 0.04,
+    "inertia_urdf_kg_m2": {
+      "ixx": 2.07736088843e-05,
+      "ixy": 0.0,
+      "ixz": 0.0,
+      "iyy": 2.06677370108e-05,
+      "iyz": 0.0,
+      "izz": 2.08456197305e-05
+    },
+    "collision": {
+      "filename": "collision.obj",
+      "scale": "1 1 1"
+    },
+    "visual": {
+      "filename": "visual.obj",
+      "scale": "1 1 1"
+    },
+    "scene_setup_only": {
+      "urdf": {
+        "project_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+        "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+        "bytes": 548
+      },
+      "position_world_m": [
+        0.48,
+        0.06,
+        0.03079100090265274
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "lateral_friction": 0.6,
+      "restitution": 0,
+      "linear_damping": 0.04,
+      "angular_damping": 0.04,
+      "fixed_base": false
+    },
+    "dynamic_readback": null,
+    "physical_assumptions": {
+      "mass_kg": 0.04,
+      "mass_is_assumed": true,
+      "inertia_kg_m2": [
+        2.0773608884308755e-05,
+        2.0667737010794015e-05,
+        2.0845619730536225e-05
+      ],
+      "inertia_model": "uniform same-extents bounding-box inertia at AABB center, engineering assumption, not measured object inertia",
+      "center_of_mass_asset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "friction": {
+        "lateral": 0.6,
+        "rolling": 0.001,
+        "spinning": 0.001,
+        "restitution": 0.0
+      },
+      "friction_is_assumed": true,
+      "friction_range_for_future_sensitivity": [
+        0.3,
+        0.9
+      ],
+      "plausible_mass_range_for_future_sensitivity_kg": [
+        0.02,
+        0.08
+      ],
+      "randomization_in_this_engineering_asset_build": false
+    },
+    "actual_historical_loader_parameters": {
+      "lateralFriction": 0.6,
+      "restitution": 0.0,
+      "linearDamping": 0.04,
+      "angularDamping": 0.04
+    },
+    "rolling_spinning_provenance": "The metadata lists 0.001 but the frozen episode loader did not apply them. Source defaults are 0.0. No new body was loaded and no runtime value is asserted."
+  },
+  "table": {
+    "source": "scripts/sim_v52r2_episode.py:55-59",
+    "full_dimensions_m": [
+      1.2,
+      1.2,
+      0.05
+    ],
+    "center_world_m": [
+      0.45,
+      0,
+      -0.025
+    ],
+    "mass_kg": 0.0,
+    "table_top_z_m": 0.0,
+    "actual_readback": null
+  },
+  "environment": {
+    "registered_additional_environment_bodies": [],
+    "history_base_table_indices": [
+      -1,
+      0,
+      1
+    ],
+    "current_rule": "all robot-table manifolds forbidden by current stage rule",
+    "actual_readback": null
+  },
+  "engine": {
+    "path": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+    "sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49",
+    "frozen_version": "3.2.7+v52e1",
+    "actual_module_imported": false
+  },
+  "robot_model_expected_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+  "engine_connection_count": 0,
+  "model_load_count": 0,
+  "physics_step_count": 0,
+  "slot7_started": false
+}

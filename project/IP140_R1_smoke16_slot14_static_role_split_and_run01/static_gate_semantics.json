@@ -1,0 +1,49 @@
+{
+  "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+  "scope": "static pad-target evidence roles",
+  "persistent": {
+    "raw_array": "preserved without substitution",
+    "hard": [
+      "identity",
+      "finite",
+      "unit normal",
+      "abs(dot(pA-pB,nB)-d)<=1e-9 m",
+      "registered effective pad face",
+      "positive-gap absolute Fn/Ft1/Ft2<=1e-9 N",
+      "matching same-state exact-pair fresh query"
+    ],
+    "diagnostic_only": [
+      "tangential residual",
+      "full 3D residual",
+      "distance difference from fresh minimum"
+    ]
+  },
+  "fresh": {
+    "hard": [
+      "identity",
+      "finite",
+      "unit normal",
+      "effective pad face for pad-target witness in scope",
+      "full 3D residual<=1e-9 m"
+    ],
+    "determines_current_geometry": true,
+    "entry": "previous d>0 then current d<=0, followed by deterministic same-side root and entry proof"
+  },
+  "remaining_gates": {
+    "proxy_lower_distance_m": -0.001,
+    "external_dynamic_lower_distance_m": -0.001,
+    "motion_speed_limit_m_per_s": 0.04,
+    "aggregate_support": "sum(max(Fn,0)) > 0.2 N on legal object-table points",
+    "proxy_nonpad_robot_table_unknown": "prohibited collisions reject",
+    "mount_filters_FK_TCP": "unaltered independent gates; no physical pose is commanded by this replay"
+  },
+  "source_sha256": {
+    "positive_negative_replay.py": "0985b22066d0770d8dab45bccc23361b0c8a286f0d0b200c9bc8b74a7de37ebc",
+    "contact_semantics.py": "cb1ae8529e322c3c89e52d3af6aebfa9d679c6c34b2d56ffbeeeb9dddeb1a011",
+    "contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "contact_aware_path.py": "76f9be440308c280c5e2f32572f0e18eb8c76bc8c089d8920d79cbcd84cdd1fa",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "aggregate_support.py": "cd36fad11df20851893652692e5b0895818b40a1f5194dd8c2ca247abbd3b7a1"
+  },
+  "offline_report_sha256": "cf1c231076dda53f0955e88ea6f3fd692c8d996c89da70bdf4f41550dde7070f"
+}

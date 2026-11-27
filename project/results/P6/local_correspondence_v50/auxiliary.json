@@ -1,0 +1,134 @@
+{
+  "summary": {
+    "split": "fit_auxiliary_calibration",
+    "warp_nll": {
+      "method": 1.716197603352906,
+      "prior": 2.1982527229093742
+    },
+    "warp_brier": {
+      "method": 0.7572296189296714,
+      "prior": 0.8888890208885308
+    },
+    "warp_levels": {
+      "0.5": {
+        "method": {
+          "covered": 0.6064814814814815,
+          "mass": 0.6112039099639346,
+          "size": 2.365740740740741
+        },
+        "prior": {
+          "covered": 0.5555555555555556,
+          "mass": 0.5549846571041178,
+          "size": 5.0
+        }
+      },
+      "0.8": {
+        "method": {
+          "covered": 0.8541666666666666,
+          "mass": 0.8496961604718133,
+          "size": 4.476851851851852
+        },
+        "prior": {
+          "covered": 0.8888888888888888,
+          "mass": 0.8879754513665882,
+          "size": 8.0
+        }
+      },
+      "0.95": {
+        "method": {
+          "covered": 0.9768518518518519,
+          "mass": 0.9708581675238657,
+          "size": 6.770833333333333
+        },
+        "prior": {
+          "covered": 1.0,
+          "mass": 0.9989723827874121,
+          "size": 9.0
+        }
+      }
+    },
+    "worst_scene_warp95": 0.9629629629629629,
+    "case_count": 432
+  },
+  "gates": {
+    "warp_nll_gain": true,
+    "warp_brier_noninferior": true,
+    "warp95_coverage": true,
+    "warp_set_sharper": true,
+    "warp_multilevel_reliability": true,
+    "worst_scene_warp": true,
+    "nll_gain_over_frozen_same_fold_head": true,
+    "brier_noninferior_to_same_fold_head": true
+  },
+  "supported": true,
+  "old_head_summary": {
+    "split": "fit_auxiliary_calibration",
+    "warp_nll": {
+      "method": 1.9430954198801171,
+      "prior": 2.1982527229093742
+    },
+    "warp_brier": {
+      "method": 0.8275175075814858,
+      "prior": 0.8888890208885308
+    },
+    "warp_levels": {
+      "0.5": {
+        "method": {
+          "covered": 0.6087962962962963,
+          "mass": 0.5777289326542064,
+          "size": 2.9143518518518516
+        },
+        "prior": {
+          "covered": 0.5555555555555556,
+          "mass": 0.5549846571041178,
+          "size": 5.0
+        }
+      },
+      "0.8": {
+        "method": {
+          "covered": 0.8657407407407407,
+          "mass": 0.8419375349785475,
+          "size": 5.472222222222222
+        },
+        "prior": {
+          "covered": 0.8888888888888888,
+          "mass": 0.8879754513665882,
+          "size": 8.0
+        }
+      },
+      "0.95": {
+        "method": {
+          "covered": 0.9814814814814815,
+          "mass": 0.9773625563595961,
+          "size": 7.914351851851852
+        },
+        "prior": {
+          "covered": 1.0,
+          "mass": 0.9989723827874121,
+          "size": 9.0
+        }
+      }
+    },
+    "worst_scene_warp95": 0.9722222222222222,
+    "case_count": 432
+  },
+  "max_reliability_gap": 0.005993684327986193,
+  "reliability_gap_by_level": {
+    "0.5": 0.004722428482453078,
+    "0.8": 0.004470506194853341,
+    "0.95": 0.005993684327986193
+  },
+  "nll_gain_over_old": 0.22689781652721108,
+  "case_count": 432,
+  "head": {
+    "sha256": "50f66a6c9377559c95e264194a8ec381166b6708024c0b327894c66dd26645f0",
+    "bytes": 54463,
+    "mtime_ns": 1793600412025037800
+  },
+  "frozen_baseline": {
+    "sha256": "4de351ec4d752335924afcedab7264577643555d39f4d89d1757879e66df7077",
+    "bytes": 20114,
+    "mtime_ns": 1793586956602926800
+  },
+  "scope": "One fixed final-checkpoint auxiliary admission; no candidate/model/calibration selection"
+}

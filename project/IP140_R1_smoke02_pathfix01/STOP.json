@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-11-04T10:03:32.506895+00:00",
+  "status": "stopped_on_required_zero_step_mismatch",
+  "model_loaded": true,
+  "zero_gate_passed": false,
+  "n_required_checks": 136,
+  "n_required_mismatches": 14,
+  "n_loads": 1,
+  "n_direct_connections": 1,
+  "zero_readback_sha256": "36d13700268228fe75090a58084951599dd5c8c5d99a02d26c772756cfb971cc",
+  "session_result_sha256": "726350770638c50a7f1585a6482f80647878bb19bf50098422d8cb2c6d75f682",
+  "smoke01_inventory_verified": true,
+  "smoke_budget_charged": 0,
+  "physical_steps": 0,
+  "unused_original_budget": 12,
+  "additional_budget": 0,
+  "slots_1_2_outcome": null,
+  "slots_3_12": "not_authorized",
+  "slot_telemetry": null
+}

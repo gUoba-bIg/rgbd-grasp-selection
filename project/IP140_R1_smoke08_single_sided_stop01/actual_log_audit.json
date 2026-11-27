@@ -1,0 +1,449 @@
+{
+  "version": "IP140_R1_smoke08_single_sided_stop01",
+  "zero_passed": true,
+  "zero_stepSimulation": 0,
+  "zero_mismatches": [],
+  "api_calls": 42962,
+  "api_exceptions": [],
+  "physics_calls": 2837,
+  "physics_returns": 2837,
+  "filter_calls": [
+    {
+      "seq": 286,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 287,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 288,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 289,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        4,
+        5,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 290,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        5,
+        6,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 291,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        6,
+        7,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 292,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        7,
+        11,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 293,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        12,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 294,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        14,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 295,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        12,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 296,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 297,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        14,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    },
+    {
+      "seq": 298,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "return": null
+    }
+  ],
+  "connection_returns": 1,
+  "disconnect_returns": 1,
+  "robot_loads": 1,
+  "fixture_creations": 1,
+  "fixture_id": 1,
+  "robot_id": 0,
+  "right_pad": 15,
+  "left_pad": 13,
+  "charged": true,
+  "slot_result": {
+    "slot": 6,
+    "candidate_id": "IP140-BENCH-06:single_sided_stop",
+    "slot_passed": false,
+    "expected_negative_detected": false,
+    "grasp_success": false,
+    "phases_completed": [
+      "settle",
+      "opening",
+      "transit",
+      "pregrasp",
+      "approach"
+    ],
+    "step_counts": {
+      "settle": 240,
+      "opening": 480,
+      "transit": 672,
+      "pregrasp": 672,
+      "approach": 672,
+      "close": 101
+    },
+    "violations": [
+      "finger_speed_above_0.04_m_s"
+    ],
+    "opening_tail_pass": 24,
+    "near_cap_step_counts": {
+      "left": 0,
+      "right": 1
+    },
+    "screenshot_errors": [],
+    "reason": "RuntimeError(\"earliest_violation_at_step_2837:['finger_speed_above_0.04_m_s']\")",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\IP140_R1_smoke08_single_sided_stop01\\single_stop.py\", line 234, in run_slot\n    raise RuntimeError(f'earliest_violation_at_step_{log.steps_returned}:{violations!r}')\nRuntimeError: earliest_violation_at_step_2837:['finger_speed_above_0.04_m_s']\n",
+    "classifier_terminal_result": {
+      "passed": false,
+      "slot_passed": false,
+      "expected_negative_detected": false,
+      "grasp_success": false,
+      "observed_steps": 2837,
+      "required_steps": 3216,
+      "end_streak": 0,
+      "longest_streak": 0,
+      "terminal_interval": [],
+      "violations": [
+        "finger_speed_above_0.04_m_s",
+        "incomplete_returned_steps",
+        "missing_final_24_consecutive"
+      ],
+      "first_failure": {
+        "step": 2837,
+        "violations": [
+          "finger_speed_above_0.04_m_s"
+        ]
+      }
+    },
+    "at": "2026-11-05T02:46:29.898608+00:00",
+    "step_intents": 2837,
+    "step_returns": 2837,
+    "unknown_steps": 0,
+    "telemetry_sha256": "1e7cffebc9c3f8ae25758d3d119da1bacf4513fac0fb04576a3180b1b851a9b2"
+  },
+  "states_per_phase": {
+    "settle": 240,
+    "opening": 480,
+    "transit": 672,
+    "pregrasp": 672,
+    "approach": 672,
+    "close": 101
+  },
+  "observed_raw_world_manifold_steps": 1,
+  "total_external_points": 4,
+  "raw_world_contact_records": [
+    {
+      "step": 2837,
+      "phase": "close",
+      "raw_points": [
+        [
+          0,
+          1,
+          0,
+          -1,
+          15,
+          [
+            0.491,
+            -0.025,
+            0.29000000000000004
+          ],
+          [
+            0.49100000037791286,
+            -0.025166086736724574,
+            0.28999999785288205
+          ],
+          [
+            2.275394469095401e-06,
+            -0.9999999999138487,
+            -1.292769082475482e-05
+          ],
+          -0.00016608673673888162,
+          20.09910162163697,
+          1.0239498325202918,
+          [
+            0.9999999999974114,
+            2.275394469285539e-06,
+            0.0
+          ],
+          4.58780308332553,
+          [
+            2.9415596203280525e-11,
+            -1.2927690824721355e-05,
+            0.9999999999164375
+          ]
+        ],
+        [
+          0,
+          1,
+          0,
+          -1,
+          15,
+          [
+            0.509,
+            -0.025,
+            0.29000000000000004
+          ],
+          [
+            0.5090000003778197,
+            -0.025166045779624134,
+            0.2899999978534115
+          ],
+          [
+            2.275394469095401e-06,
+            -0.9999999999138487,
+            -1.292769082475482e-05
+          ],
+          -0.00016604577963843774,
+          0.15547966912112374,
+          -0.07630695845319435,
+          [
+            0.9999999999974114,
+            2.275394469285539e-06,
+            0.0
+          ],
+          -0.05366434566103973,
+          [
+            2.9415596203280525e-11,
+            -1.2927690824721355e-05,
+            0.9999999999164375
+          ]
+        ],
+        [
+          0,
+          1,
+          0,
+          -1,
+          15,
+          [
+            0.509,
+            -0.025,
+            0.27
+          ],
+          [
+            0.5090000003772314,
+            -0.02516578722580766,
+            0.269999997856754
+          ],
+          [
+            2.275394469095401e-06,
+            -0.9999999999138487,
+            -1.292769082475482e-05
+          ],
+          -0.00016578722582194066,
+          3.0029936193450013e-06,
+          -1.2020078477925718e-06,
+          [
+            0.9999999999974114,
+            2.275394469285539e-06,
+            0.0
+          ],
+          -1.3422542895676344e-06,
+          [
+            2.9415596203280525e-11,
+            -1.2927690824721355e-05,
+            0.9999999999164375
+          ]
+        ],
+        [
+          0,
+          1,
+          0,
+          -1,
+          15,
+          [
+            0.491,
+            -0.025,
+            0.27
+          ],
+          [
+            0.4910000003773245,
+            -0.0251658281829081,
+            0.2699999978562245
+          ],
+          [
+            2.275394469095401e-06,
+            -0.9999999999138487,
+            -1.292769082475482e-05
+          ],
+          -0.00016582818292238451,
+          6.501939387653505e-05,
+          -2.350104376923618e-07,
+          [
+            0.9999999999974114,
+            2.275394469285539e-06,
+            0.0
+          ],
+          -3.901092845498677e-05,
+          [
+            2.9415596203280525e-11,
+            -1.2927690824721355e-05,
+            0.9999999999164375
+          ]
+        ]
+      ],
+      "qualifying_right_indices": [
+        0
+      ],
+      "unexpected_indices": []
+    }
+  ],
+  "subthreshold_registered_right_points": 3,
+  "qualifying_right_contact_steps": 1,
+  "longest_continuous_right_steps": 1,
+  "terminal_continuous_right_steps": 1,
+  "all_3216_returned": false,
+  "terminal_24_raw_contact_requirement_met": false,
+  "unknown_steps": 0
+}

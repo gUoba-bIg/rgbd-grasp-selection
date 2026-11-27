@@ -1,0 +1,67 @@
+{
+  "title": "基于RGB-D实例分割与几何不确定性建模的六自由度机器人抓取选择研究",
+  "version": "V1_supplement_robustness_admission01",
+  "tag": "paper_v1_r6r7_frozen",
+  "commit": "e184a77ab06fe1f1c0a0f1514b04da65befcf8ed",
+  "populations": {
+    "R6": 720,
+    "R7": 240,
+    "settled_base_scenes": 120,
+    "new_observation_conditions": 6,
+    "unit_for_resampling": "R6 base_scene (object-position-repetition), keeping its observations and methods together",
+    "cold_cases": 3,
+    "robustness_dynamics_maximum": 72,
+    "admission_cases": 60
+  },
+  "source_policy": "Original V1 per-file locks, final04 packaging only; data from R6/R7; no V2/V3",
+  "input_design": {
+    "clean": "native frozen clean",
+    "joint": "native frozen joint",
+    "single": "split the positive horizontal shift, axial Gaussian, iid missing mask and rectangle composed in frozen joint. Reproduce the complete per-scene frozen joint draw order and seed when extracting a single realization. Settings, RGB, sampling seed, pose and stable state unchanged.",
+    "frozen_network_px_shift": 3,
+    "gaussian_sigma_m": 0.005,
+    "missing_probability": 0.15,
+    "rect": "one randomly positioned rectangle height h//4 width w//4 on the 480x640 depth image"
+  },
+  "ranking_measurement": {
+    "pose_match": "Pair admissibility: original frozen GraspNet NMS on just two original physical poses, threshold 0.03m and pi/6. Bipartite assignment: maximize number matched then minimize total normalized translation and minimum parallel-jaw rotation angle. Deterministic source order. Also report exact equality of width, height, depth, rotation and translation separately. No matching based on success, risk or score.",
+    "top1": "top of pre-E ranked pool and separately first in the frozen executable set E. Both absent: no selection, not a pose match. One absent: presence change. Both present but unmatched: changed pose.",
+    "topk": [
+      1,
+      3,
+      5,
+      10,
+      20
+    ],
+    "overlap": "Jaccard of matched Top-K identities plus overlap coefficient on available lists; when both empty undefined. Matched-pair Kendall tau-b on scientific scores, tied scores stay tied. Also stable-order Kendall on common candidates; fewer than two or all ties => undefined.",
+    "sampling": "For each new condition form a scene unit if any method pre-E Top-1 is unmatched to clean or presence changes. Freeze unit hash order SHA256(version|robustness|exact_unit_id); take up to 6 per single factor; dispatch all Raw,A,C0 without replacement. No backfill or substitution."
+  },
+  "diagnostics": {
+    "strata": "Independent candidate-path identity = within scene/condition frozen observed candidate geometry and stable state, geometry and kinematic plan; collapse repeated methods. Canonical representative method from hash-sorted members, independent of outcome inside each specified frame. Cyclic water-filling across object, condition and representative method, seed-keyed order, then hash rank within each stratum. Record population, inclusion weights, original methods, assigned counts and probability.",
+    "uncertified": {
+      "from": 474,
+      "n": 40,
+      "class": "static_distance_uncertified",
+      "override": "Only absence/numerical non-certification of the contact-entry certificate. Keep early contact, identity, finite checks, registered surface geometry, non-pad collision, proxy penetration, the whole V1 path and dynamic evaluator. Other gates remain decisive. Never assert an unobserved certificate."
+    },
+    "positives": {
+      "n": 10,
+      "from": "R6 grasp_success=true"
+    },
+    "negatives": {
+      "n": 10,
+      "from": "affirmative registered early contact or forbidden collision, indicated by frozen raw witness, not numerical noncertification alone"
+    },
+    "truth": "Completed grasp success is distinct from mechanical executability. Report certified-vs-grasp table only where a new physical outcome is observed, plus safety-stopped and not-executed/unknown separately. Provide both number rescued / 40 (and verified subset) and false rejection FN/(TP+FN) within diagnostic verified sample. Control-enriched sample cannot estimate an unweighted formal population FNR, specificity or sensitivity. Publish stratum-based estimates only where inclusion and verification support them.",
+    "retries": 0
+  },
+  "analysis": {
+    "bootstrap_seed": 1262275604,
+    "bootstrap_reps": 20000,
+    "interval": "95% percentile cluster bootstrap at base scene level. Resample clusters with replacement, retaining all relevant joint/clean, method, control rows together. Undefined denominator / no informative clusters => null and reported. No iid binomial CI.",
+    "risk_coverage": "Empirical selective execution failure among selected recorded trials, against all assigned trials. Frozen A/C0 or ablation collision_proxy ascending, and all methods including Raw scored confidence descending; joint ties inseparable. Display coverage zero with undefined risk; no outcome for unexecuted alternative inferred.",
+    "score_outcome": "rank and signed score margin to closest runner-up in old E, report ties and singleton separately. Prespecified finite empirical quartiles using scores only with tied predictions inseparable, descriptive score/rank association vs static admission and success, cluster intervals.",
+    "comparison": "R6 main denominator 240/method and R7 80/method; paired six-way comparison restricted to 80 shared R7 unit IDs; separate new outcomes."
+  },
+  "stop": "Any real frozen hash change, nonfinite input/return, unknown physics or disk error stops. No modification of scientific gates beyond the explicitly authorized diagnostic-only omission for the 40. No new objects or follow-on experiments."
+}

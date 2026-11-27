@@ -1,0 +1,18 @@
+{
+  "slot": 12,
+  "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+  "matched_commands": 4728,
+  "phases": {
+    "settle": 240,
+    "opening": 480,
+    "transit": 672,
+    "pregrasp": 672,
+    "approach": 672,
+    "close": 480,
+    "lift": 792,
+    "hold": 720
+  },
+  "command_gzip_sha256": "8a90777a628c28d6e0d302bd88be015005ffbcda7920d6c2b0a289ddf2c88541",
+  "physics_steps": 0,
+  "passed": true
+}

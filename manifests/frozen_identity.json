@@ -1,0 +1,24 @@
+{
+  "publication_date": "2026-11-27",
+  "scope": "V1 manuscript source release; no V2/V3 method changes",
+  "frozen_tag": "paper_v1_r6r7_frozen",
+  "frozen_commit": "e184a77ab06fe1f1c0a0f1514b04da65befcf8ed",
+  "public_repository_history": "new publication history, not a replacement for the frozen historical Git repository",
+  "input_archives_checked": [
+    {
+      "name": "execution_project.zip",
+      "bytes": 780226799,
+      "sha256": "060b67cd53a0d42b5119de19c3f89ff9795d8171ddfa17d4e8669c897baa1c65",
+      "status": "pass"
+    },
+    {
+      "name": "v1_control.zip",
+      "bytes": 3739429,
+      "sha256": "63571a53f6b48b296efdadd3651c79afb1a0cf299fb95c4553cf63e9b3eda431",
+      "status": "pass"
+    }
+  ],
+  "experiments_executed_for_publication": 0,
+  "source_transform": "3166 source files byte-identical; 13 publication metadata/wrapper-label normalizations; original and published hashes retained",
+  "external_runtime_distribution": "see external_files.csv; complete runtime is not contained in this Git repository"
+}

@@ -1,0 +1,28 @@
+{
+  "version": "IP140_R1_smoke05_fixed_pad_mount_filter01",
+  "ended": "2026-11-04T12:28:44.425187+00:00",
+  "sealed_utc": "2026-11-04T12:30:29.792391+00:00",
+  "attempt_id": "IP140-BENCH-EMPTY-03:post-fixed-seam-filter",
+  "charged": true,
+  "starts_this_version": 1,
+  "first_failure_step": 6,
+  "unknown_steps": 0,
+  "violations": [
+    "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:0:witness_residual",
+    "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:1:witness_residual",
+    "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:2:witness_residual",
+    "internal_seams.ip140_palm|ip140_left_bone:solver_manifold:3:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:0:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:1:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:2:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_pad:solver_manifold:3:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:0:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:1:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:2:witness_residual",
+    "internal_seams.ip140_palm|ip140_right_bone:solver_manifold:3:witness_residual"
+  ],
+  "retry": false,
+  "authorized_next_slots": [],
+  "deferred_center": "IP140-BENCH-03:center",
+  "unused_original_starts": 9
+}

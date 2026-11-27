@@ -1,0 +1,31 @@
+{
+  "version": "IP140_R1_smoke06_sliding_seam_acm01",
+  "attempt": "IP140-BENCH-EMPTY-04:post-sliding-seam-acm",
+  "slot": 4,
+  "reason": [
+    "filtered_structural_pairs.wrist_3_link|ip140_palm:penetration_below_numeric_band"
+  ],
+  "first_step": {
+    "step": 1,
+    "station_mm": 0,
+    "tick": 1,
+    "reasons": [
+      "filtered_structural_pairs.wrist_3_link|ip140_palm:penetration_below_numeric_band"
+    ],
+    "world_manifold_points": 0,
+    "wrist_closest": {
+      "api_seq": 389,
+      "raw_min_distance_m": -0.0010361016226506563,
+      "full_vector_residual_m": 4.1157485055264726e-17
+    }
+  },
+  "precharged": true,
+  "step_intents": 1,
+  "step_returns": 1,
+  "unknown_steps": 0,
+  "retry": false,
+  "remaining_budget": 8,
+  "authorized_next_slots": [],
+  "session_finished": "2026-11-04T13:50:34.047546+00:00",
+  "sealed_at": "2026-11-04T13:51:37.259747+00:00"
+}

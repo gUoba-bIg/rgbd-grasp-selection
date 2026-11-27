@@ -1,0 +1,119 @@
+{
+  "version": "IP140_R2_smoke22_miss_negative_controls_full_execution01",
+  "scope": "offline accounting and disposition",
+  "passed": true,
+  "cases": [
+    {
+      "name": "11/14 start and three exact previously uncharged IDs",
+      "passed": true
+    },
+    {
+      "name": "slot10 retains previous nonadmission without changing source charge",
+      "passed": true
+    },
+    {
+      "name": "slot11 retains previous nonadmission without changing source charge",
+      "passed": true
+    },
+    {
+      "name": "slot12 retains previous nonadmission without changing source charge",
+      "passed": true
+    },
+    {
+      "name": "nominal017 slot9 cannot be reserved",
+      "passed": true
+    },
+    {
+      "name": "wrong bridge identity fails",
+      "passed": true
+    },
+    {
+      "name": "complete misgrasp continues",
+      "passed": true
+    },
+    {
+      "name": "complete ungrasped miss continues",
+      "passed": true
+    },
+    {
+      "name": "nonpad_robot_object_contact candidate hard failure can continue",
+      "passed": true
+    },
+    {
+      "name": "robot_table_contact candidate hard failure can continue",
+      "passed": true
+    },
+    {
+      "name": "unregistered_self_manifold candidate hard failure can continue",
+      "passed": true
+    },
+    {
+      "name": "external_penetration_below_minus_1mm candidate hard failure can continue",
+      "passed": true
+    },
+    {
+      "name": "finger_speed_above_0.04_m_s candidate hard failure can continue",
+      "passed": true
+    },
+    {
+      "name": "unknown_contact_identity requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "wrong_object_link requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "filtered_pair_manifold requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "nonfinite_or_incomplete_contact requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "base_table_installed_pair_returned requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "step_index_discontinuity requires shared investigation",
+      "passed": true
+    },
+    {
+      "name": "reject inconsistent step_intents",
+      "passed": true
+    },
+    {
+      "name": "reject inconsistent step_returns",
+      "passed": true
+    },
+    {
+      "name": "reject inconsistent unknown_steps",
+      "passed": true
+    },
+    {
+      "name": "reject inconsistent slot_passed",
+      "passed": true
+    },
+    {
+      "name": "candidate-level failed episode still permits exactly next slot",
+      "passed": true
+    },
+    {
+      "name": "missing an observed native charge stops",
+      "passed": true
+    }
+  ],
+  "zero_connections": true,
+  "physical_steps": 0,
+  "charged": 0,
+  "bound_sources": {
+    "accounting_control_replay22.py": "8497005dbaf84df332383b46cc83f325fe8b4d94b9b8d8ec718a8c676c480fb1",
+    "execution_outcome20.py": "8e0a0256b49a2bba90e7ddb25200669de7968262a9612dfeac7dd81a16db5daa",
+    "run_authorized.py": "2abbcf404be9cb631759cf28560b98a8efe72c0b118ce766f4244b17c912f5ec",
+    "batch22.py": "3b07589a6f46b130dba42863c2ba569fde5ed7e1428e60b798e51c8d3393364e",
+    "candidate_binding20.py": "9c4fca219ae9a47a4b77a0ce4575cbafe7582cdfc8a918a913e81d26201f5d57",
+    "dynamic_api.py": "c14a2a3ccf626f83ba8f005b0521842645fb300a7f5407bff8cb74e27907252a",
+    "static_identity.py": "4180b4c240f69bebaba45c5cbd77d611c0fa62796f74d1f1e0a6a1195f7b5925"
+  }
+}

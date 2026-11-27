@@ -1,0 +1,26 @@
+{
+  "version": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01",
+  "requested_steps": [
+    4249,
+    4728
+  ],
+  "planned_count": 480,
+  "observed_count": 0,
+  "rows": [],
+  "status": "not_started",
+  "reason": {
+    "snapshot": 2758,
+    "phase": "close",
+    "phase_tick": 22,
+    "violations": [
+      "manifold:0:external_penetration_below_minus_1mm",
+      "robot_target:1:external_penetration_below_minus_1mm"
+    ],
+    "telemetry_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01\\path_precheck\\path_snapshots.jsonl.gz",
+    "jsonl_record_1based": 2758,
+    "loaded_target_reference_warning": true
+  },
+  "physics_outcome_observed": false,
+  "settle_reference": null,
+  "actual_step_returns": 0
+}

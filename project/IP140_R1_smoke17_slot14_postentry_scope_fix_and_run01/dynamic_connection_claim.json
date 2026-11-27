@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-08T04:43:23.641119+00:00",
+  "pid": 300108,
+  "one_connection_only": true,
+  "allowed_slot": 14,
+  "prior_static_disconnected": true,
+  "static_admission_sha256": "de787a1ada8e240e1290f70a4a8fe4f2ab7b865fed4e998d7dd12d9463421498"
+}

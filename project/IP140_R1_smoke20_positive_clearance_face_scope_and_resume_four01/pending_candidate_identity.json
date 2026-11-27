@@ -1,0 +1,52 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "encoding": "UTF-8 compact JSON array of the original seventeen numeric values",
+  "slots": {
+    "9": {
+      "slot": 9,
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "kind": "nominal",
+      "object_id": "017",
+      "candidate_vector_sha256": "e1b34f7691654aa4f487db6dd92a2c6df87336b863cafcc278c76e2c8252fbb8",
+      "parent_candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "preregistration_sha256": "02a32f533ea7bef3a6131384aed4b80d6584803ff3a88daec0fef7c97646b068",
+      "trajectory_sha256": "c30768105c061ac91d821bb90521be487fb11e9c074c0031a030f8ad6ddbd30b",
+      "candidate_registry_sha256": "2c234efacd82bb82aaaeb4c7d3d71be7a76a3b62304b229908c4a8bb8bcf716c"
+    },
+    "10": {
+      "slot": 10,
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "kind": "miss",
+      "object_id": "021",
+      "candidate_vector_sha256": "0141ab0063cb8fa8eda7d3cb7ea3ddbdafc5f16b2edc0f12cb49577ff6b45ef3",
+      "parent_candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "preregistration_sha256": "ddc1ae3ba47a83501a957d50bf3543bdd594f316c615e7ac9c221ae851017c8d",
+      "trajectory_sha256": "6dd77bfcc540ff3aa2eaa237ce8642551a6772410425ee4ffa46a58d9a6fc062",
+      "candidate_registry_sha256": "2c234efacd82bb82aaaeb4c7d3d71be7a76a3b62304b229908c4a8bb8bcf716c"
+    },
+    "11": {
+      "slot": 11,
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "kind": "miss",
+      "object_id": "014",
+      "candidate_vector_sha256": "9188133d215648ae722354a77bbe0b5869c9772ef29b466b09761770277c0c6d",
+      "parent_candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "preregistration_sha256": "eda6d1ca31d0cac0eb99aa39093cb944789e8dba319272e363a0f254582c0e20",
+      "trajectory_sha256": "b0ebe9e9195c6ef2982c35fcce069db2f1d218c8d393b54684d37382b470682a",
+      "candidate_registry_sha256": "2c234efacd82bb82aaaeb4c7d3d71be7a76a3b62304b229908c4a8bb8bcf716c"
+    },
+    "12": {
+      "slot": 12,
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "kind": "miss",
+      "object_id": "017",
+      "candidate_vector_sha256": "f2ac9a9225545f0e614bb2a10160e40060ea21853f9a54364530c5f8345f868c",
+      "parent_candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "preregistration_sha256": "c41b6b0ee31822080bd775411041937b567b9f3e5e3469032bbefd3565b91c4d",
+      "trajectory_sha256": "8a90777a628c28d6e0d302bd88be015005ffbcda7920d6c2b0a289ddf2c88541",
+      "candidate_registry_sha256": "2c234efacd82bb82aaaeb4c7d3d71be7a76a3b62304b229908c4a8bb8bcf716c"
+    }
+  },
+  "source_ledger_sha256": "2ce144ace4fa5db45e7ffd1ebab3b925bbc909d1c8c88c0b9c6c7f593121fc23",
+  "pending_result_semantics": "Expected identity only until an observed result exists."
+}

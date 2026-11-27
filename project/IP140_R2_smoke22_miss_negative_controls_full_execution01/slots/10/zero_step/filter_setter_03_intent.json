@@ -1,0 +1,19 @@
+{
+  "sequence": 3,
+  "method": "setCollisionFilterPair",
+  "pair": [
+    "upper_arm_link",
+    "forearm_link"
+  ],
+  "args": [
+    0,
+    0,
+    3,
+    4,
+    0
+  ],
+  "kwargs": {
+    "physicsClientId": 0
+  },
+  "started_utc": "2026-11-08T13:39:16.360425+00:00"
+}

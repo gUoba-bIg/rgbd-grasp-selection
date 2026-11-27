@@ -1,0 +1,79 @@
+{
+  "version": "v41r1",
+  "protected": {
+    "scripts/p6_preprocessing_v41r1.py": {
+      "sha256": "f507b0d591c5c5851a79bec036a4a6136b70c863e1a8c5a42ecaa335b304d2bb",
+      "bytes": 17794,
+      "mtime_ns": 1793530041784890800
+    },
+    "docs/P6输入几何一致性诊断协议_v41r1.txt": {
+      "sha256": "9083c938ab093a33e083b5aead006da727581f5d6048001a584651968aa95986",
+      "bytes": 4759,
+      "mtime_ns": 1793530041784890800
+    },
+    "logs/P6/correspondence_v40/data_audit.json": {
+      "sha256": "6508cb0ecee56cc1df2044b4d24e499027376fb49c96a8a474a0750f5f05d4df",
+      "bytes": 141070,
+      "mtime_ns": 1793490737514920800
+    },
+    "runtime/pipeline/state.json": {
+      "sha256": "b48eadde3c1f7ea400c48dd206f707ecf804d54f6f018a013e9d662dcc4b2b76",
+      "bytes": 3127920,
+      "mtime_ns": 1793055121967989900
+    },
+    "runtime/pipeline/p6_correspondence_v40.json": {
+      "sha256": "45912aaa4940ee2f16fd8a0c26558630443b6b66a72484ab338ad0aae058653c",
+      "bytes": 584,
+      "mtime_ns": 1793491607479011400
+    },
+    "results/P6/correspondence_v40/generated.json": {
+      "sha256": "c3e203838c41cd8befed69dfbd8c987448d718440fa8bcdf89ce630c561b25d8",
+      "bytes": 2410477,
+      "mtime_ns": 1793491562508793700
+    },
+    "results/P6/correspondence_v40/model.json": {
+      "sha256": "ac59e3afd23c0b1f89147b15dbdae08d1715b8cc8be93ef28ebec6671c72c5a1",
+      "bytes": 24594,
+      "mtime_ns": 1793491565674012500
+    },
+    "results/P6/correspondence_v40/result.json": {
+      "sha256": "2f9e18b4c6012ba60d4c02dd9a9126f39c177faa5f72c483cd6e77c4725545e7",
+      "bytes": 385232,
+      "mtime_ns": 1793491569116003900
+    },
+    "results/P6/correspondence_v40/closeout.json": {
+      "sha256": "00caacd638d0dadcffbd13d6c1c98d2d1497cb6b56871254d21c098c7c6dcb21",
+      "bytes": 408050,
+      "mtime_ns": 1793491607476788500
+    },
+    "docs/P6对应可识别性结果_v40.txt": {
+      "sha256": "f25aaab513d85a137f4457ec0d6e5d9a3afbe73c19f02a50a054c538662f9c0c",
+      "bytes": 386834,
+      "mtime_ns": 1793491607457964200
+    }
+  },
+  "source_protocol": "docs/P6输入几何一致性诊断协议_v41r1.txt",
+  "cases": [
+    "coordinate_x",
+    "coordinate_y",
+    "plane_validity",
+    "shared_edges_p00",
+    "shared_edges_p10",
+    "shared_edges_p01",
+    "shared_edges_p12",
+    "shared_edges_native"
+  ],
+  "call_caps": {
+    "real_png_headers": 240,
+    "real_meta_reads": 80,
+    "synthetic_loader": 8,
+    "synthetic_estimator": 5,
+    "synthetic_xyz": 2
+  },
+  "wall_seconds_cap": 120,
+  "prior_attempt_conservative_charge_seconds": 2.0,
+  "rss_bytes_cap": 1073741824,
+  "output_bytes_cap": 67108864,
+  "raw_images_estimated": 0,
+  "scope": "User-authorized step1 only; stop after result and independent review; no P6 retraining"
+}

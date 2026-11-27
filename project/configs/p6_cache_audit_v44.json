@@ -1,0 +1,173 @@
+{
+  "authorization": {
+    "bytes": 3697,
+    "mtime_ns": 1793576228411141700,
+    "sha256": "5563878aaaa31c3ce1dae7c5b4a75a105979f17ab92bb43bbeee785637d2bb37"
+  },
+  "inputs": {
+    "aggregate": {
+      "bytes": 25604801,
+      "mtime_ns": 1793544725973714400,
+      "path": "results/P6/mixture_v43/result.json",
+      "sha256": "5230c3dd18a339b710bef7d2ccea1a41e8b63b0f4cab4dc4e07ae278058d6aca"
+    },
+    "generated_array": {
+      "bytes": 24908872,
+      "mtime_ns": 1793544552281388800,
+      "path": "results/P6/mixture_v43/generated.npz",
+      "sha256": "ba449811a1d26e464053487a5fe97694c48ca3499373d54455f69861c39b0122"
+    },
+    "generated_metadata": {
+      "bytes": 807018,
+      "mtime_ns": 1793544552328280400,
+      "path": "results/P6/mixture_v43/generated.json",
+      "sha256": "7ae5acd4aa4a3ffdcd598dc207c9f67824c1b2282d3fa567db80a9f5fca2b3b4"
+    },
+    "model": {
+      "bytes": 11372,
+      "mtime_ns": 1793544555157011600,
+      "path": "results/P6/mixture_v43/model.json",
+      "sha256": "041d4cd1b719c5478bf240ea6e3e3fbbad0f9c076ccee63fe7d68784e9d37661"
+    },
+    "posterior": {
+      "bytes": 1323083,
+      "mtime_ns": 1793544725305940900,
+      "path": "results/P6/mixture_v43/posterior.npz",
+      "sha256": "cf508e9893f32f278b5f2340a176bd099c8b1ef3184c3a1dbbbd1bf0db42af85"
+    }
+  },
+  "interpreter_sha256": "fc9188d3eb84b0c8849da5987ea9e7802486a09afadb672dcd9cae9e64149076",
+  "new_neural_forward": 0,
+  "new_official_AP": 0,
+  "new_parameter_fits": 0,
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1"
+  },
+  "protected": {
+    "configs/p6_mixture_v43.json": {
+      "bytes": 90295,
+      "mtime_ns": 1793544212703349400,
+      "sha256": "3a6494511c12bf3f615b2599e29979747ee411c09bac730e7086fb9f46974b13"
+    },
+    "docs/双创新点缓存证据审查协议_v44.txt": {
+      "bytes": 3554,
+      "mtime_ns": 1793575863580340700,
+      "sha256": "d8465a779563f66738eef2fd9d323a9108a80ae3d638a83a8bedb3b0ce8629c7"
+    },
+    "logs/P6/mixture_v43/freeze.json": {
+      "bytes": 165,
+      "mtime_ns": 1793544212709833000,
+      "sha256": "e6d00f287dc4160c1a7ce4aa98f31488142a16814e109f2c6980ef08e37836c2"
+    },
+    "logs/research_v44/independent_review.json": {
+      "bytes": 7037,
+      "mtime_ns": 1793576216910120100,
+      "sha256": "760dd04cbe7d0ca13bca54cec7f55ae12b111b6264bd8a9f56d449c5cd07f65d"
+    },
+    "logs/research_v44/internal_checks.json": {
+      "bytes": 814,
+      "mtime_ns": 1793576081702221800,
+      "sha256": "d452bbe5f92a1752a35c688a28a28060bf572454484ac9427dac9404d86a31b8"
+    },
+    "results/P6/mixture_v43/generated.json": {
+      "bytes": 807018,
+      "mtime_ns": 1793544552328280400,
+      "sha256": "7ae5acd4aa4a3ffdcd598dc207c9f67824c1b2282d3fa567db80a9f5fca2b3b4"
+    },
+    "results/P6/mixture_v43/generated.npz": {
+      "bytes": 24908872,
+      "mtime_ns": 1793544552281388800,
+      "sha256": "ba449811a1d26e464053487a5fe97694c48ca3499373d54455f69861c39b0122"
+    },
+    "results/P6/mixture_v43/model.json": {
+      "bytes": 11372,
+      "mtime_ns": 1793544555157011600,
+      "sha256": "041d4cd1b719c5478bf240ea6e3e3fbbad0f9c076ccee63fe7d68784e9d37661"
+    },
+    "results/P6/mixture_v43/posterior.npz": {
+      "bytes": 1323083,
+      "mtime_ns": 1793544725305940900,
+      "sha256": "cf508e9893f32f278b5f2340a176bd099c8b1ef3184c3a1dbbbd1bf0db42af85"
+    },
+    "results/P6/mixture_v43/result.json": {
+      "bytes": 25604801,
+      "mtime_ns": 1793544725973714400,
+      "sha256": "5230c3dd18a339b710bef7d2ccea1a41e8b63b0f4cab4dc4e07ae278058d6aca"
+    },
+    "runtime/pipeline/state.json": {
+      "bytes": 3127920,
+      "mtime_ns": 1793055121967989900,
+      "sha256": "b48eadde3c1f7ea400c48dd206f707ecf804d54f6f018a013e9d662dcc4b2b76"
+    },
+    "scripts/p6_cache_audit_v44.py": {
+      "bytes": 20066,
+      "mtime_ns": 1793576001222143600,
+      "sha256": "61cc22ff870230ca684969267bb0938ba6d81cc4d591a1ef31bee7f743f429bc"
+    },
+    "scripts/p6_mixture_v43.py": {
+      "bytes": 24599,
+      "mtime_ns": 1793543862290535200,
+      "sha256": "9352b1cfea0130b8363d639481600f8756e5e3997046822c9a65d23919e0f7b4"
+    },
+    "scripts/research_cache_delivery_v44.py": {
+      "bytes": 24315,
+      "mtime_ns": 1793576077489048800,
+      "sha256": "4cb270c064215f9d678b3590a316b093c623cb0ac63b41e9a5202306e9188dbe"
+    },
+    "src/p6_cache_audit_v44.py": {
+      "bytes": 17871,
+      "mtime_ns": 1793575893917313100,
+      "sha256": "8c8b761ca5d447c6c2d9739298bd739758495426545550af510f32c5348847ba"
+    },
+    "src/uncertainty_mixture_v43.py": {
+      "bytes": 28658,
+      "mtime_ns": 1793543374810419100,
+      "sha256": "46e16ec0713e67cfae12e0d167920c0954a4d7ed9e6904aeeb6b930bd2411d40"
+    },
+    "tests/test_p6_cache_audit_v44.py": {
+      "bytes": 12860,
+      "mtime_ns": 1793576017950462500,
+      "sha256": "0d40062612a42c84551d7d1fe70c89f22b62103e1bda751e8ec629e4afcac34f"
+    }
+  },
+  "protocol": {
+    "continuation": "evidence flags permit only proposal of one prespecified repair; no automatic distribution selection",
+    "evaluation_rows_used_for_diagnosis": false,
+    "feature_groups": "mode plus fixed fit-derived quartiles of features 1,3,4,5",
+    "fit_point_case_cap": 256,
+    "levels": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "new_neural_forward": 0,
+    "new_official_AP": 0,
+    "new_parameter_fits": 0,
+    "purpose": "frozen_cache_mechanism_audit_only",
+    "quantitative_flags": {
+      "absolute_scale_residual_correlation": 0.3,
+      "central_coverage_absolute_gap": 0.05,
+      "outside_supervised_mass": 0.05
+    },
+    "raw_replay": 0,
+    "reliability_bins": 10,
+    "standardized_cdf_grid": [
+      -10.0,
+      -5.0,
+      -3.0,
+      -2.0,
+      -1.0,
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      10.0
+    ],
+    "version": 44
+  },
+  "raw_replay": 0,
+  "runtime_python": "3.12.14",
+  "schema": 44
+}

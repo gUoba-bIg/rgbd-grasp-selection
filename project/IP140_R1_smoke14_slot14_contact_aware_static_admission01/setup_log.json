@@ -1,0 +1,8 @@
+{
+  "first_preparation_error": "relative path passed to absolute relative_to in inventory only",
+  "resolved_by": "resolve old/new directory before metadata snapshot; no scene or simulation involved",
+  "engine_connections": 0,
+  "physical_steps": 0,
+  "budget_added": 0,
+  "python": "C:\\Users\\ITHOU\\Desktop\\\u7a3f\u4ef6\\SCI3\u533a\\runtime\\simulation_v52e\\venv\\Scripts\\python.exe"
+}

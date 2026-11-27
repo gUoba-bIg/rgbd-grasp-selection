@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-04T11:26:43.166205+00:00",
+  "pid": 264788,
+  "permitted": [
+    2
+  ],
+  "input_bindings": {
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "preregistration.json": "0cedc47269798ab0949a7cf399a978630ec4e7a857517ea386cb3243bfdaae3c",
+    "ledger_initial.json": "47319bf27717ac4c06bcad47d62969024bb447fed6941fde9d43edbf7f4a4844",
+    "zero_gate.py": "2169fec152e7a559507d1442058e62018324b9aec9d49fc34ba38a15ea6d5788",
+    "empty_stroke.py": "8fadf5075b3ac4300e3b6536018514d8f792cf5cb02ee404a4415883b320205d",
+    "episode_log.py": "bc4aa7f6e38534ab9cebcb45e7d65e24685102df48872304d5534a50bd55cf70",
+    "execution_control.py": "615d1ef6a8cc73a4823b9c0e5f3b2fb0d73e988ad94af16a9850357d8cbf445f",
+    "input_identity.py": "4a534ebf536912ef335d0267260273dc904d769978b096d7e648b798d47b189d",
+    "mountpair.py": "5308e98713606d0b5431305e28624672802a3e015c6636c7dceb734971cbf021",
+    "mountpair_registration.json": "b41cb7d3a358e00ec023f3322e23ae8a00e66e510087d0de4fdd572a629d9cc8",
+    "full_api.py": "6710d3984c0aa2f926c4944b63015cead96df0c5dec4a4877bb9c2e425def659",
+    "structural_filter.py": "9328b0aa9b1c3b1e0601ef1c77f79acd78cb634fd1d1cdb5d8a34d0751c7a727",
+    "run_once.py": "b1bae531a6bbea246d299b5b64e8f76d1e98641373aa34c415d81b1102e8c2dd"
+  }
+}

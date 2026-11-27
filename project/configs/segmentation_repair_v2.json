@@ -1,0 +1,22 @@
+{
+  "version": "2.0-diagnostic",
+  "purpose": "实例分割训练拟合问题的有限诊断，不是正式方法比较或论文结果",
+  "prior_runs_preserved": true,
+  "data": {"root": "data/raw/graspnet", "split": "data/manifests/scene_splits.json", "training_scenes": [3, 12], "frames_per_scene": 2, "training_frames": 4, "validation_used_for_selection": false},
+  "common": {"model": "unchanged PilotInstanceNet ResNet18-GroupNorm-FPN48", "input_size": [240, 320], "mode": "rgbd", "seed": 20261021, "optimizer": "AdamW", "learning_rate": 0.001, "schedule": "constant", "augmentation": false, "batch_size": 1, "accumulation": 2, "amp": true, "optimizer_steps_per_arm": 400, "checkpoint_every_steps": 10, "keep_last": 3, "free_disk_reserve_gib": 60},
+  "arms": [
+    {"name": "original", "loss": "unchanged BCE + Dice + original Gaussian focal center + 5*masked SmoothL1 offsets", "directory": "experiments/segmentation_repair_v2/original"},
+    {"name": "center_mse", "loss": "same foreground and offsets; replace center term with 200*mean((sigmoid(center_logits)-Gaussian_target)^2)", "directory": "experiments/segmentation_repair_v2/center_mse"}
+  ],
+  "decoder": {"foreground_threshold": 0.5, "center_threshold": 0.35, "min_pixels": 20, "max_centers": 64},
+  "train_fitting_gate": {"foreground_pixel_iou_min": 0.9, "instance_f1_iou50_min": 0.8, "each_training_frame_at_least_one_true_positive": true},
+  "interpretation": [
+    "Original arm separates optimization-budget and augmentation effects from a center-loss change; it does not isolate those two schedule changes individually",
+    "The two new arms share data, initialization seed, architecture, optimizer and step budget; only center loss differs",
+    "Train fitting is a debugging criterion, not generalization, novelty or benchmark performance",
+    "No validation or test set score is used to tune decoder thresholds or select the new loss",
+    "Both arms stop at the declared budget even if the fitting gate fails",
+    "Any later architecture change requires another explicit version and preserves both results"
+  ],
+  "reference": {"source": "https://github.com/facebookresearch/detectron2/tree/main/projects/Panoptic-DeepLab", "role": "Gaussian center regression and loss scaling as design motivation only", "difference": "The present diagnostic retains sigmoid center outputs, normalized SmoothL1 offsets, original pilot architecture and fixed decoder; it is not a reproduction of Panoptic-DeepLab"}
+}

@@ -1,0 +1,128 @@
+{
+  "scope": "publication metadata and wrapper labels only",
+  "file_count": 13,
+  "protected_archive_edits": 0,
+  "scientific_algorithm_changes": 0,
+  "new_model_calls": 0,
+  "new_physics_steps": 0,
+  "files": [
+    {
+      "path": "project/configs/coco_eval_environment_v17.json",
+      "original_sha256": "67a7bbee91a3302514bd62a2f6cd0d436be5e2aef3b62f21f46f82cbbea5ee73",
+      "original_bytes": 3607,
+      "published_sha256": "9f8609360c9c1fc56a86a48222a24c03bf52a8ad76f90bade4039cf3dbdc81ed",
+      "published_bytes": 3553,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/configs/coco_eval_environment_v17r1.json",
+      "original_sha256": "3c9ef76f610dbaf4a7274b2a8bef629797a0cc395170d1788d93fdf4ee8df3ab",
+      "original_bytes": 4452,
+      "published_sha256": "28648f2c8787a28556395ed9048dcbdb19854b7b68d40b7772bdeaf11dd9fcb7",
+      "published_bytes": 4380,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/configs/dualstream_evaluation_v18.json",
+      "original_sha256": "007fba530418fd815380557bfb00847b25deb16b797ba7c2ae3933d1c977c2f0",
+      "original_bytes": 47829,
+      "published_sha256": "ea6fa5fa07ac8c8ddb57e1b9a9cf13eea0f474f917bd22c421f937424d4f5b65",
+      "published_bytes": 47757,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/configs/dualstream_resources_v18.json",
+      "original_sha256": "9f6bae247d0d2f69f647ffcb7624a073261472ab29cfed056da69deda3266337",
+      "original_bytes": 5158,
+      "published_sha256": "3eb8e190056a14e423b11984138e6ab8abbc89f706e9bdf2cf6c63a710261136",
+      "published_bytes": 5086,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/configs/geometry_propagation_v19.json",
+      "original_sha256": "b0cb13d8177a62f592a9b2c700280c68bf8a2fd35e8b454000f1aa1cd0d5aac8",
+      "original_bytes": 195950,
+      "published_sha256": "ae432717db7f0857a064b19c60ed5d4b971eaea6f8b27330794f9cbc316a8ab7",
+      "published_bytes": 195878,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/configs/segmentation_dualstream_v18.json",
+      "original_sha256": "9b408a161f4d8a8ad52b6f8b7c58d7bb8fa4660ce6ac886c898408df80f8f26f",
+      "original_bytes": 15306,
+      "published_sha256": "88392b05068daa3960fa2d993247d8a5a20ff20b9586ec3a498acca1e25d081b",
+      "published_bytes": 15234,
+      "category": "host Python location replaced with an explicit deployment placeholder",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "project/scripts/sim_v52_mechanism_audit_static.py",
+      "original_sha256": "a9b844f8d60844dfc93d19e909b2983aaa5e1531b3dff0a7506cd2946f030ea4",
+      "original_bytes": 15641,
+      "published_sha256": "0891c611f3bf3b31a2289ff4f6307001cd95f7ddaf94c887204f9619c5db05c9",
+      "published_bytes": 15644,
+      "category": "HTTP user-agent display label normalized",
+      "validation": "Python syntax valid; only the user-agent string changed"
+    },
+    {
+      "path": "reproduction/final04/adapter/locks/wheel_identities.json",
+      "original_sha256": "8ff7b62283913dbaf726e1d87c0bdf3e4bdef15998b111772e71d1a964154e21",
+      "original_bytes": 65432,
+      "published_sha256": "c473169f9df13c5f64b71ae43509125b492621cd4c855c177bbf10c2af7c9943",
+      "published_bytes": 75295,
+      "category": "host wheel provenance location normalized; package identity and hashes unchanged",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "reproduction/final04/adapter/metadata/platform_capture.json",
+      "original_sha256": "7e0c703e9b03377622415e5fc23e6bfa9dfc5c5d48b382a2e8d2191abf1037c9",
+      "original_bytes": 6808,
+      "published_sha256": "b661506d4fc322918063cfdb2619eff85d24efdb0f2f416c143d8563f0b8f44c",
+      "published_bytes": 3898,
+      "category": "host location normalized and unrelated process listing omitted; hardware readings unchanged",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "reproduction/frozen_v1/locks/wheel_identities.json",
+      "original_sha256": "8ff7b62283913dbaf726e1d87c0bdf3e4bdef15998b111772e71d1a964154e21",
+      "original_bytes": 65432,
+      "published_sha256": "c473169f9df13c5f64b71ae43509125b492621cd4c855c177bbf10c2af7c9943",
+      "published_bytes": 75295,
+      "category": "host wheel provenance location normalized; package identity and hashes unchanged",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "reproduction/frozen_v1/metadata/platform_capture.json",
+      "original_sha256": "7e0c703e9b03377622415e5fc23e6bfa9dfc5c5d48b382a2e8d2191abf1037c9",
+      "original_bytes": 6808,
+      "published_sha256": "b661506d4fc322918063cfdb2619eff85d24efdb0f2f416c143d8563f0b8f44c",
+      "published_bytes": 3898,
+      "category": "host location normalized and unrelated process listing omitted; hardware readings unchanged",
+      "validation": "JSON parsed; numeric, boolean, null and collection membership values retained"
+    },
+    {
+      "path": "supplement/robustness_admission/deliver.py",
+      "original_sha256": "a933875d7cfd866c9cf5dff9f1c444b531d2a1d96fdf0b1e62be5c062fea6b7f",
+      "original_bytes": 8040,
+      "published_sha256": "97580fad890c8096e42928712e33c059c9dc88b93a35e7006f10c47458f382cb",
+      "published_bytes": 8046,
+      "category": "publication wrapper branch namespace normalized; exact branch guard retained",
+      "validation": "Python syntax valid; only two branch-prefix strings changed"
+    },
+    {
+      "path": "project/scripts/freeze_p6_correspondence_v40.py",
+      "original_sha256": "4e2c000dac99aa607837165c9d27f0c711c9b4dfa1edc31dda0c637e105dfc7e",
+      "original_bytes": 5855,
+      "published_sha256": "283ecbd1e6987376a6a399afcb3d10062c8ff6e999d2f6d1959c14e162fff7a8",
+      "published_bytes": 5867,
+      "category": "historical orchestration note normalized; execution policy unchanged",
+      "validation": "Python syntax valid; only one descriptive authorization-note string changed"
+    }
+  ],
+  "reproduction_note": "Public placeholders are not recorded runtime paths; use the original protected archives for exact V1 reproduction."
+}

@@ -1,0 +1,1857 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "scope": "pure replay of archived geometry/terminal data, labelled force and witness mutations, archived query responses for bisection",
+  "passed": true,
+  "cases": [
+    {
+      "name": "history_2757_reference",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2757,
+        "phase_tick": 21,
+        "fresh_signed_distance_m": 0.0005075115725873989,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_survey",
+        "cached_original": [],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4510921842765267,
+            -0.0585524749070123,
+            0.029262883594061602
+          ],
+          [
+            0.45153549725825237,
+            -0.058552474907012306,
+            0.029015817617966858
+          ],
+          [
+            -0.873503198095659,
+            1.0153366546453664e-14,
+            0.48681840856386666
+          ],
+          0.0005075115725873989,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.0005075115725873989,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4510921842765267,
+            -0.0585524749070123,
+            0.029262883594061602
+          ],
+          "object_witness_world_m": [
+            0.45153549725825237,
+            -0.058552474907012306,
+            0.029015817617966858
+          ],
+          "pad_witness_pad_link_m": [
+            0.05974340920428194,
+            -6.324840095217266e-05,
+            0.0013452000022317822
+          ],
+          "pad_witness_G_m": [
+            -0.00025659079571802566,
+            -0.03147983827492659,
+            0.0013452000022317785
+          ],
+          "native_normal_on_B": [
+            -0.873503198095659,
+            1.0153366546453664e-14,
+            0.48681840856386666
+          ],
+          "normal_pad_to_object_world": [
+            0.873503198095659,
+            -1.0153366546453664e-14,
+            -0.48681840856386666
+          ],
+          "normal_pad_to_object_pad": [
+            0.48681840856391223,
+            0.8735031980956336,
+            -1.7695585333983431e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.48681840856391223,
+            0.8735031980956336,
+            -1.7695585333983431e-16
+          ],
+          "normal_unit_error": 1.1102230246251565e-16,
+          "full_witness_residual_m": 2.4186601760180272e-17,
+          "face_outside_m": 6.324840095217266e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8735031980956336,
+          "tip_depth_m": 0.00025659079571805493,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 2.179246366695864e-17,
+          "signed_normal_projection_error_m": 2.179246366695864e-17,
+          "tangential_residual_m": 1.0514995171161823e-17,
+          "tangential_residual_vector_m": [
+            -5.041540102057596e-18,
+            1.7859428808600204e-18,
+            -9.053088140253962e-18
+          ],
+          "full_witness_residual_vector_m": [
+            -2.4069288229178198e-17,
+            1.7859428808602415e-18,
+            1.5720931501039814e-18
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05974340920428194,
+              -6.324840095217266e-05,
+              0.0013452000022317822
+            ],
+            "tip_depth_m": 0.00025659079571805493,
+            "inner_face_offset_m": -6.324840095217266e-05,
+            "inward_signed_offset_m": -6.324840095217266e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317822
+            ],
+            "radial_vector_m": [
+              0.0002434092042819455,
+              0.0004367515990478274,
+              0.0
+            ],
+            "radial_length_m": 0.000500000000000004,
+            "round_radius_residual_m": 4.0115480381963664e-18,
+            "outward_normal_from_geometry": [
+              0.4868184085638871,
+              0.8735031980956477,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 0.9999999999999999,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "history_2757_proxy",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2757,
+        "phase_tick": 21,
+        "fresh_signed_distance_m": 0.0005075115725873989,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_survey",
+        "cached_original": [],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4510921842765267,
+            -0.0585524749070123,
+            0.029262883594061602
+          ],
+          [
+            0.45153549725825237,
+            -0.058552474907012306,
+            0.029015817617966858
+          ],
+          [
+            -0.873503198095659,
+            1.0153366546453664e-14,
+            0.48681840856386666
+          ],
+          0.0005075115725873989,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.0005075115725873989,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4510921842765267,
+            -0.0585524749070123,
+            0.029262883594061602
+          ],
+          "object_witness_world_m": [
+            0.45153549725825237,
+            -0.058552474907012306,
+            0.029015817617966858
+          ],
+          "pad_witness_pad_link_m": [
+            0.05974340920428194,
+            -6.324840095217266e-05,
+            0.0013452000022317822
+          ],
+          "pad_witness_G_m": [
+            -0.00025659079571802566,
+            -0.03147983827492659,
+            0.0013452000022317785
+          ],
+          "native_normal_on_B": [
+            -0.873503198095659,
+            1.0153366546453664e-14,
+            0.48681840856386666
+          ],
+          "normal_pad_to_object_world": [
+            0.873503198095659,
+            -1.0153366546453664e-14,
+            -0.48681840856386666
+          ],
+          "normal_pad_to_object_pad": [
+            0.48681840856391223,
+            0.8735031980956336,
+            -1.7695585333983431e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.48681840856391223,
+            0.8735031980956336,
+            -1.7695585333983431e-16
+          ],
+          "normal_unit_error": 1.1102230246251565e-16,
+          "full_witness_residual_m": 2.4186601760180272e-17,
+          "face_outside_m": 6.324840095217266e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8735031980956336,
+          "tip_depth_m": 0.00025659079571805493,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 2.179246366695864e-17,
+          "signed_normal_projection_error_m": 2.179246366695864e-17,
+          "tangential_residual_m": 1.0514995171161823e-17,
+          "tangential_residual_vector_m": [
+            -5.041540102057596e-18,
+            1.7859428808600204e-18,
+            -9.053088140253962e-18
+          ],
+          "full_witness_residual_vector_m": [
+            -2.4069288229178198e-17,
+            1.7859428808602415e-18,
+            1.5720931501039814e-18
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05974340920428194,
+              -6.324840095217266e-05,
+              0.0013452000022317822
+            ],
+            "tip_depth_m": 0.00025659079571805493,
+            "inner_face_offset_m": -6.324840095217266e-05,
+            "inward_signed_offset_m": -6.324840095217266e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317822
+            ],
+            "radial_vector_m": [
+              0.0002434092042819455,
+              0.0004367515990478274,
+              0.0
+            ],
+            "radial_length_m": 0.000500000000000004,
+            "round_radius_residual_m": 4.0115480381963664e-18,
+            "outward_normal_from_geometry": [
+              0.4868184085638871,
+              0.8735031980956477,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 0.9999999999999999,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "history_2758_reference",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2758,
+        "phase_tick": 22,
+        "fresh_signed_distance_m": 0.0003672438073106161,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_survey",
+        "cached_original": [],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4512439798205032,
+            -0.058552474907012306,
+            0.029244598641127897
+          ],
+          [
+            0.4515569061702993,
+            -0.05855247490701231,
+            0.02905238752383427
+          ],
+          [
+            -0.852094286048665,
+            9.580610617622967e-15,
+            0.5233883144312794
+          ],
+          0.0003672438073106161,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.0003672438073106161,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4512439798205032,
+            -0.058552474907012306,
+            0.029244598641127897
+          ],
+          "object_witness_world_m": [
+            0.4515569061702993,
+            -0.05855247490701231,
+            0.02905238752383427
+          ],
+          "pad_witness_pad_link_m": [
+            0.05976169415721566,
+            -7.395285697569838e-05,
+            0.0013452000022317891
+          ],
+          "pad_witness_G_m": [
+            -0.00023830584278431322,
+            -0.031328042730950106,
+            0.0013452000022317837
+          ],
+          "native_normal_on_B": [
+            -0.852094286048665,
+            9.580610617622967e-15,
+            0.5233883144312794
+          ],
+          "normal_pad_to_object_world": [
+            0.852094286048665,
+            -9.580610617622967e-15,
+            -0.5233883144312794
+          ],
+          "normal_pad_to_object_pad": [
+            0.5233883144313238,
+            0.8520942860486377,
+            -7.334520186696553e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.5233883144313238,
+            0.8520942860486377,
+            -7.334520186696553e-16
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 6.466968765759219e-18,
+          "face_outside_m": 7.395285697569838e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8520942860486377,
+          "tip_depth_m": 0.00023830584278433653,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 5.312590645178972e-18,
+          "signed_normal_projection_error_m": -5.312590645178972e-18,
+          "tangential_residual_m": 3.70990155491314e-18,
+          "tangential_residual_vector_m": [
+            7.589415207398531e-19,
+            3.4204739843309075e-18,
+            1.2197274440461925e-18
+          ],
+          "full_witness_residual_vector_m": [
+            5.2583805365546965e-18,
+            3.4204739843308566e-18,
+            -1.5720931501039814e-18
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05976169415721566,
+              -7.395285697569838e-05,
+              0.0013452000022317891
+            ],
+            "tip_depth_m": 0.00023830584278433653,
+            "inner_face_offset_m": -7.395285697569838e-05,
+            "inward_signed_offset_m": -7.395285697569838e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317891
+            ],
+            "radial_vector_m": [
+              0.0002616941572156639,
+              0.00042604714302430164,
+              0.0
+            ],
+            "radial_length_m": 0.0004999999999999863,
+            "round_radius_residual_m": -1.3660947373317356e-17,
+            "outward_normal_from_geometry": [
+              0.5233883144313421,
+              0.8520942860486266,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 1.0,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "history_2758_proxy",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2758,
+        "phase_tick": 22,
+        "fresh_signed_distance_m": 0.0003672438073106161,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_survey",
+        "cached_original": [],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4512439798205032,
+            -0.058552474907012306,
+            0.029244598641127897
+          ],
+          [
+            0.4515569061702993,
+            -0.05855247490701231,
+            0.02905238752383427
+          ],
+          [
+            -0.852094286048665,
+            9.580610617622967e-15,
+            0.5233883144312794
+          ],
+          0.0003672438073106161,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.0003672438073106161,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4512439798205032,
+            -0.058552474907012306,
+            0.029244598641127897
+          ],
+          "object_witness_world_m": [
+            0.4515569061702993,
+            -0.05855247490701231,
+            0.02905238752383427
+          ],
+          "pad_witness_pad_link_m": [
+            0.05976169415721566,
+            -7.395285697569838e-05,
+            0.0013452000022317891
+          ],
+          "pad_witness_G_m": [
+            -0.00023830584278431322,
+            -0.031328042730950106,
+            0.0013452000022317837
+          ],
+          "native_normal_on_B": [
+            -0.852094286048665,
+            9.580610617622967e-15,
+            0.5233883144312794
+          ],
+          "normal_pad_to_object_world": [
+            0.852094286048665,
+            -9.580610617622967e-15,
+            -0.5233883144312794
+          ],
+          "normal_pad_to_object_pad": [
+            0.5233883144313238,
+            0.8520942860486377,
+            -7.334520186696553e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.5233883144313238,
+            0.8520942860486377,
+            -7.334520186696553e-16
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 6.466968765759219e-18,
+          "face_outside_m": 7.395285697569838e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8520942860486377,
+          "tip_depth_m": 0.00023830584278433653,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 5.312590645178972e-18,
+          "signed_normal_projection_error_m": -5.312590645178972e-18,
+          "tangential_residual_m": 3.70990155491314e-18,
+          "tangential_residual_vector_m": [
+            7.589415207398531e-19,
+            3.4204739843309075e-18,
+            1.2197274440461925e-18
+          ],
+          "full_witness_residual_vector_m": [
+            5.2583805365546965e-18,
+            3.4204739843308566e-18,
+            -1.5720931501039814e-18
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05976169415721566,
+              -7.395285697569838e-05,
+              0.0013452000022317891
+            ],
+            "tip_depth_m": 0.00023830584278433653,
+            "inner_face_offset_m": -7.395285697569838e-05,
+            "inward_signed_offset_m": -7.395285697569838e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317891
+            ],
+            "radial_vector_m": [
+              0.0002616941572156639,
+              0.00042604714302430164,
+              0.0
+            ],
+            "radial_length_m": 0.0004999999999999863,
+            "round_radius_residual_m": -1.3660947373317356e-17,
+            "outward_normal_from_geometry": [
+              0.5233883144313421,
+              0.8520942860486266,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 1.0,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "history_2759_reference",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2759,
+        "phase_tick": 23,
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_with_zero_force_cached_manifold",
+        "cached_original": [
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634796,
+              -0.059257972967385,
+              0.02952899920940299
+            ],
+            [
+              0.4514804326774788,
+              -0.059257972967385,
+              0.029528999209402995
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222113081826e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634796,
+              -0.057773918902155,
+              0.029006292798343557
+            ],
+            [
+              0.45148043267747884,
+              -0.057773918902155,
+              0.02900629279834356
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222113087377e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634996,
+              -0.062226081097852,
+              0.02952899920940299
+            ],
+            [
+              0.4514804326774788,
+              -0.062226081097852,
+              0.029528999209402995
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222112881986e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634996,
+              -0.05925797296738199,
+              0.029006292798343564
+            ],
+            [
+              0.4514804326774788,
+              -0.05925797296738199,
+              0.029006292798343568
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222112881986e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ]
+        ],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4513931061674053,
+            -0.058552474907012306,
+            0.02922397986787121
+          ],
+          [
+            0.45158365347649493,
+            -0.058552474907012306,
+            0.029093625070347646
+          ],
+          [
+            -0.8253469798530223,
+            9.834349569548308e-15,
+            0.5646258609446568
+          ],
+          0.00023086933585626454,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [
+          "robot_target:28:witness:entry_witness_outside_registered_effective_face"
+        ],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.00023086933585626454,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4513931061674053,
+            -0.058552474907012306,
+            0.02922397986787121
+          ],
+          "object_witness_world_m": [
+            0.45158365347649493,
+            -0.058552474907012306,
+            0.029093625070347646
+          ],
+          "pad_witness_pad_link_m": [
+            0.05978231293047235,
+            -8.732651007353623e-05,
+            0.0013452000022317891
+          ],
+          "pad_witness_G_m": [
+            -0.00021768706952761757,
+            -0.031178916384047992,
+            0.0013452000022317824
+          ],
+          "native_normal_on_B": [
+            -0.8253469798530223,
+            9.834349569548308e-15,
+            0.5646258609446568
+          ],
+          "normal_pad_to_object_world": [
+            0.8253469798530223,
+            -9.834349569548308e-15,
+            -0.5646258609446568
+          ],
+          "normal_pad_to_object_pad": [
+            0.5646258609446999,
+            0.8253469798529929,
+            -4.3765481414657186e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.5646258609446999,
+            0.8253469798529929,
+            -4.3765481414657186e-16
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.3095571957007194e-17,
+          "face_outside_m": 8.732651007353623e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8253469798529929,
+          "tip_depth_m": 0.00021768706952764866,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 1.100465205072787e-17,
+          "signed_normal_projection_error_m": -1.100465205072787e-17,
+          "tangential_residual_m": 7.016887837487553e-18,
+          "tangential_residual_vector_m": [
+            3.7947076036992655e-18,
+            -2.2704497536998507e-18,
+            5.44811591673966e-18
+          ],
+          "full_witness_residual_vector_m": [
+            1.2874900798265365e-17,
+            -2.270449753699959e-18,
+            -7.589415207398531e-19
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05978231293047235,
+              -8.732651007353623e-05,
+              0.0013452000022317891
+            ],
+            "tip_depth_m": 0.00021768706952764866,
+            "inner_face_offset_m": -8.732651007353623e-05,
+            "inward_signed_offset_m": -8.732651007353623e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317891
+            ],
+            "radial_vector_m": [
+              0.0002823129304723518,
+              0.0004126734899264638,
+              0.0
+            ],
+            "radial_length_m": 0.0004999999999999741,
+            "round_radius_residual_m": -2.5912431922403556e-17,
+            "outward_normal_from_geometry": [
+              0.5646258609447328,
+              0.8253469798529703,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 1.0000000000000002,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "history_2759_proxy",
+      "passed": true,
+      "evidence": {
+        "snapshot": 2759,
+        "phase_tick": 23,
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "fresh_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pair_class": "positive_clearance_with_zero_force_cached_manifold",
+        "cached_original": [
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634796,
+              -0.059257972967385,
+              0.02952899920940299
+            ],
+            [
+              0.4514804326774788,
+              -0.059257972967385,
+              0.029528999209402995
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222113081826e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634796,
+              -0.057773918902155,
+              0.029006292798343557
+            ],
+            [
+              0.45148043267747884,
+              -0.057773918902155,
+              0.02900629279834356
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222113087377e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634996,
+              -0.062226081097852,
+              0.02952899920940299
+            ],
+            [
+              0.4514804326774788,
+              -0.062226081097852,
+              0.029528999209402995
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222112881986e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ],
+          [
+            0,
+            2,
+            0,
+            -1,
+            13,
+            [
+              0.45140900045634996,
+              -0.05925797296738199,
+              0.029006292798343564
+            ],
+            [
+              0.4514804326774788,
+              -0.05925797296738199,
+              0.029006292798343568
+            ],
+            [
+              1.0,
+              -9.103828801926284e-15,
+              5.218048215738236e-14
+            ],
+            -7.143222112881986e-05,
+            0.0,
+            0.0,
+            [
+              9.103828801926284e-15,
+              1.0,
+              0.0
+            ],
+            0.0,
+            [
+              -5.218048215738236e-14,
+              4.7504217636277805e-28,
+              1.0
+            ]
+          ]
+        ],
+        "selected_original": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4513931061674053,
+            -0.058552474907012306,
+            0.02922397986787121
+          ],
+          [
+            0.45158365347649493,
+            -0.058552474907012306,
+            0.029093625070347646
+          ],
+          [
+            -0.8253469798530223,
+            9.834349569548308e-15,
+            0.5646258609446568
+          ],
+          0.00023086933585626454,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "current_geometric_contact": false,
+        "entry_triggered": false,
+        "new_certificate": false,
+        "full_channel_violations": [],
+        "source_channel_violations": [
+          "robot_target:28:witness:entry_witness_outside_registered_effective_face"
+        ],
+        "face_witness": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 0.00023086933585626454,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4513931061674053,
+            -0.058552474907012306,
+            0.02922397986787121
+          ],
+          "object_witness_world_m": [
+            0.45158365347649493,
+            -0.058552474907012306,
+            0.029093625070347646
+          ],
+          "pad_witness_pad_link_m": [
+            0.05978231293047235,
+            -8.732651007353623e-05,
+            0.0013452000022317891
+          ],
+          "pad_witness_G_m": [
+            -0.00021768706952761757,
+            -0.031178916384047992,
+            0.0013452000022317824
+          ],
+          "native_normal_on_B": [
+            -0.8253469798530223,
+            9.834349569548308e-15,
+            0.5646258609446568
+          ],
+          "normal_pad_to_object_world": [
+            0.8253469798530223,
+            -9.834349569548308e-15,
+            -0.5646258609446568
+          ],
+          "normal_pad_to_object_pad": [
+            0.5646258609446999,
+            0.8253469798529929,
+            -4.3765481414657186e-16
+          ],
+          "normal_pad_to_object_G": [
+            0.5646258609446999,
+            0.8253469798529929,
+            -4.3765481414657186e-16
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.3095571957007194e-17,
+          "face_outside_m": 8.732651007353623e-05,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.8253469798529929,
+          "tip_depth_m": 0.00021768706952764866,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "fresh_closest",
+          "require_face": false,
+          "full_residual_is_hard_gate": true,
+          "normal_projection_residual_m": 1.100465205072787e-17,
+          "signed_normal_projection_error_m": -1.100465205072787e-17,
+          "tangential_residual_m": 7.016887837487553e-18,
+          "tangential_residual_vector_m": [
+            3.7947076036992655e-18,
+            -2.2704497536998507e-18,
+            5.44811591673966e-18
+          ],
+          "full_witness_residual_vector_m": [
+            1.2874900798265365e-17,
+            -2.270449753699959e-18,
+            -7.589415207398531e-19
+          ],
+          "surface": {
+            "label": "rounded_tip_edge_contact_risk",
+            "side": "left",
+            "point_local_m": [
+              0.05978231293047235,
+              -8.732651007353623e-05,
+              0.0013452000022317891
+            ],
+            "tip_depth_m": 0.00021768706952764866,
+            "inner_face_offset_m": -8.732651007353623e-05,
+            "inward_signed_offset_m": -8.732651007353623e-05,
+            "margin_m": 0.0005,
+            "core_closest_local_m": [
+              0.0595,
+              -0.0005,
+              0.0013452000022317891
+            ],
+            "radial_vector_m": [
+              0.0002823129304723518,
+              0.0004126734899264638,
+              0.0
+            ],
+            "radial_length_m": 0.0004999999999999741,
+            "round_radius_residual_m": -2.5912431922403556e-17,
+            "outward_normal_from_geometry": [
+              0.5646258609447328,
+              0.8253469798529703,
+              0.0
+            ],
+            "normal_alignment_with_geometry": 1.0000000000000002,
+            "geometry_tolerance_m": 1e-09
+          },
+          "frozen_target_surface_diagnostic": false
+        },
+        "violations": []
+      }
+    },
+    {
+      "name": "fresh_component_9_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "fresh_component_10_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "fresh_component_12_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "cached_component_9_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "cached_component_10_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "cached_component_12_nextfloat_above_force_limit",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_nonzero_force_inconsistency"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_gap_nonzero_force_inconsistency",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": true
+      }
+    },
+    {
+      "name": "force_numeric_zero_boundary",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "violations": [],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "positive_clearance_with_zero_force_cached_manifold",
+        "matching_indices": [
+          0
+        ],
+        "fresh_selected_index": 0,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": 0.00023086933585626454,
+        "positive_clearance": true,
+        "geometric_contact": false,
+        "force_active": false
+      }
+    },
+    {
+      "name": "other_pad_fresh_cannot_prove_this_cached_pair",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_manifold_no_exact_fresh_pair"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "no_matching_fresh_witness",
+        "matching_indices": [],
+        "fresh_selected_index": null,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": null,
+        "positive_clearance": false,
+        "geometric_contact": null,
+        "force_active": false
+      }
+    },
+    {
+      "name": "cached_has_no_matching_fresh",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "positive_gap_manifold_no_exact_fresh_pair"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "no_matching_fresh_witness",
+        "matching_indices": [],
+        "fresh_selected_index": null,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": null,
+        "positive_clearance": false,
+        "geometric_contact": null,
+        "force_active": false
+      }
+    },
+    {
+      "name": "fresh_nonfinite_cannot_prove_pair",
+      "passed": true,
+      "evidence": {
+        "passed": false,
+        "violations": [
+          "fresh_nonfinite_or_incomplete",
+          "positive_gap_manifold_no_exact_fresh_pair"
+        ],
+        "robot": 0,
+        "target": 2,
+        "pad_index": 13,
+        "classification": "no_matching_fresh_witness",
+        "matching_indices": [],
+        "fresh_selected_index": null,
+        "cached_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "fresh_signed_distance_m": null,
+        "positive_clearance": false,
+        "geometric_contact": null,
+        "force_active": false
+      }
+    },
+    {
+      "name": "fresh_full_witness_residual_is_hard",
+      "passed": true,
+      "evidence": [
+        "full_witness_residual"
+      ]
+    },
+    {
+      "name": "cached_projection_remains_hard",
+      "passed": true,
+      "evidence": [
+        "normal_projection_residual"
+      ]
+    },
+    {
+      "name": "unbracketed_nonpositive_has_no_certificate",
+      "passed": true,
+      "evidence": [
+        "pad_contact_without_legal_entry",
+        "missing_per_side_entry_certificate",
+        "proxy_pad_target_penetration"
+      ]
+    },
+    {
+      "name": "proxy_actual_distance_below_minus_one_mm",
+      "passed": true,
+      "evidence": [
+        "proxy_pad_target_penetration"
+      ]
+    },
+    {
+      "name": "reject_nonpad_target_ip140_palm",
+      "passed": true,
+      "evidence": [
+        "finger_independent_robot_target_collision"
+      ]
+    },
+    {
+      "name": "reject_nonpad_target_ip140_left_bone",
+      "passed": true,
+      "evidence": [
+        "nonpad_target_collision"
+      ]
+    },
+    {
+      "name": "reject_nonpad_target_wrist_3_link",
+      "passed": true,
+      "evidence": [
+        "finger_independent_robot_target_collision"
+      ]
+    },
+    {
+      "name": "reject_nonpad_target_shoulder_link",
+      "passed": true,
+      "evidence": [
+        "finger_independent_robot_target_collision"
+      ]
+    },
+    {
+      "name": "reject_unknown_external_body",
+      "passed": true,
+      "evidence": [
+        "unknown_contact_identity"
+      ]
+    },
+    {
+      "name": "refuse_nonconsecutive_bracket",
+      "passed": true,
+      "evidence": [
+        "entry_snapshot_bracket_invalid"
+      ]
+    },
+    {
+      "name": "recorded_bisection_inside_flat_face",
+      "passed": true,
+      "evidence": {
+        "status": "geometric_entry_localized",
+        "passed": true,
+        "queries_completed": 24,
+        "q_entry_m": 0.03426312684989112,
+        "previous_snapshot": 2746,
+        "current_snapshot": 2747,
+        "previous_signed_distance_m": 0.00016196722580215828,
+        "current_signed_distance_m": -5.327741977975871e-07,
+        "bracket": {
+          "q_clear_m": 0.03426312684989112,
+          "q_overlap_m": 0.03426312677240508,
+          "d_clear_m": 1.980090353834174e-11,
+          "d_overlap_m": -5.7685114063926735e-11,
+          "width_m": 7.748603841895019e-11
+        },
+        "violations": [],
+        "entry_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 1.980090353834174e-11,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.44894299981998204,
+            -0.05837944970649816,
+            0.03412594563511619
+          ],
+          "object_witness_world_m": [
+            0.4489429998397829,
+            -0.05837944970649816,
+            0.03412594563511619
+          ],
+          "pad_witness_pad_link_m": [
+            0.05805620844307318,
+            -3.9881624671262997e-17,
+            0.0015044679655193023
+          ],
+          "pad_witness_G_m": [
+            -0.0019437915569268129,
+            -0.03426312684989113,
+            0.0015044679655193136
+          ],
+          "native_normal_on_B": [
+            -0.9999999999999999,
+            5.6378512225015904e-15,
+            -4.972873898821916e-14
+          ],
+          "normal_pad_to_object_world": [
+            0.9999999999999999,
+            -5.6378512225015904e-15,
+            4.972873898821916e-14
+          ],
+          "normal_pad_to_object_pad": [
+            4.7832115208760415e-15,
+            0.9999999999999999,
+            -3.077399520805692e-15
+          ],
+          "normal_pad_to_object_G": [
+            4.7832115208760415e-15,
+            0.9999999999999999,
+            -3.077399520805692e-15
+          ],
+          "normal_unit_error": 1.1102230246251565e-16,
+          "full_witness_residual_m": 2.038300083949633e-17,
+          "face_outside_m": 3.9881624671262997e-17,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 0.9999999999999999,
+          "tip_depth_m": 0.0019437915569268174,
+          "tip_edge_risk": false,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "certificate_errors": []
+      }
+    },
+    {
+      "name": "recorded_solver_and_face_2nm_mutation",
+      "passed": true,
+      "evidence": {
+        "status": "entry_not_admitted",
+        "passed": false,
+        "queries_completed": 24,
+        "q_entry_m": 0.03426312684989112,
+        "previous_snapshot": 2746,
+        "current_snapshot": 2747,
+        "previous_signed_distance_m": 0.00016196722580215828,
+        "current_signed_distance_m": -5.327741977975871e-07,
+        "bracket": {
+          "q_clear_m": 0.03426312684989112,
+          "q_overlap_m": 0.03426312677240508,
+          "d_clear_m": 1.980090353834174e-11,
+          "d_overlap_m": -5.7685114063926735e-11,
+          "width_m": 7.748603841895019e-11
+        },
+        "violations": [
+          "entry_witness_outside_registered_effective_face"
+        ],
+        "entry_audit": {
+          "passed": false,
+          "violations": [
+            "entry_witness_outside_registered_effective_face"
+          ],
+          "signed_distance_m": 1.980090353834174e-11,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4489430018199821,
+            -0.05837944970649816,
+            0.03412594563511619
+          ],
+          "object_witness_world_m": [
+            0.448943001839783,
+            -0.05837944970649816,
+            0.03412594563511619
+          ],
+          "pad_witness_pad_link_m": [
+            0.05805620844307318,
+            2.0000000145768147e-09,
+            0.0015044679655193023
+          ],
+          "pad_witness_G_m": [
+            -0.0019437915569268129,
+            -0.03426312484989107,
+            0.0015044679655193136
+          ],
+          "native_normal_on_B": [
+            -0.9999999999999999,
+            5.6378512225015904e-15,
+            -4.972873898821916e-14
+          ],
+          "normal_pad_to_object_world": [
+            0.9999999999999999,
+            -5.6378512225015904e-15,
+            4.972873898821916e-14
+          ],
+          "normal_pad_to_object_pad": [
+            4.7832115208760415e-15,
+            0.9999999999999999,
+            -3.077399520805692e-15
+          ],
+          "normal_pad_to_object_G": [
+            4.7832115208760415e-15,
+            0.9999999999999999,
+            -3.077399520805692e-15
+          ],
+          "normal_unit_error": 1.1102230246251565e-16,
+          "full_witness_residual_m": 2.038300083949633e-17,
+          "face_outside_m": 2.0000000145768147e-09,
+          "on_effective_inner_face": false,
+          "inward_normal_alignment": 0.9999999999999999,
+          "tip_depth_m": 0.0019437915569268174,
+          "tip_edge_risk": false,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "certificate_errors": [
+          "entry_solver_not_passed",
+          "entry_witness_face_audit_missing_or_failed",
+          "entry_face_outside_m",
+          "entry_not_on_effective_inner_face"
+        ]
+      }
+    },
+    {
+      "name": "preserve_historic_nominal_021",
+      "passed": true,
+      "evidence": {
+        "historical_result_sha256": "e5ba4db0bfa0075bda6a5af36ddc891998d9c909f74e083cc0c58456a436bc78",
+        "tail_sha256": "2772c0beedb650ada74bb7d33662f53c09c94d167863c886a149504f4e3a84b2",
+        "bilateral": 480,
+        "unsupported": 480,
+        "above_height": 480,
+        "steps": 4728
+      }
+    },
+    {
+      "name": "preserve_historic_nominal_014",
+      "passed": true,
+      "evidence": {
+        "historical_result_sha256": "2e2db2f005d80cf911d8c808eef75adf1e07176fc7143d4ce8c7ba0dd0ee1e3c",
+        "tail_sha256": "b73a3b399227ce3cc60a848d208e2742404308298a0b4f365057228b046f839b",
+        "bilateral": 480,
+        "unsupported": 480,
+        "above_height": 480,
+        "steps": 4728
+      }
+    },
+    {
+      "name": "asset_typed_replay_54",
+      "passed": true,
+      "evidence": {
+        "sha256": "0ec8ee470330e2646dc82f052bfa876cb718e513a009d961e7d1d25bce6e7513"
+      }
+    }
+  ],
+  "case_count": 31,
+  "connections": 0,
+  "physical_steps": 0,
+  "source_sha256": {
+    "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01/slots/09/static_preflight/dual_channel_snapshots.jsonl.gz": "c967909f3f8a92ed9de405bcf91f73b42bf8040e502f7835bc9b48a11955831f",
+    "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01/contact_aware_path.py": "f3137cc4fae81c1d528fde40719a8844fb2cf8374c5bc5ba23420d1500a242c5",
+    "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01/contact_semantics.py": "39259c3e1854346e08eb99316e827813d875a7021b3a955adc85660b9d78ebfa",
+    "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01/contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01/scope_replay20.py": "67fee18ac4c9391e113b03885864eb517543e96bad48164c41e95723d0a87573",
+    "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01/slots/08/static_preflight/contact_entries/left/queries.jsonl.gz": "17290d8674d25dbbfee36864cc620619fb9d8e325d859b3f30d7809f91eb5610"
+  }
+}

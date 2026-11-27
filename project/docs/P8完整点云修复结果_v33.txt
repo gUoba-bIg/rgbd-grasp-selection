@@ -1,0 +1,29 @@
+P8完整点云＋校准修复结果 v33
+2026-10-31T16:42:12.734001+08:00
+
+本次修复已完成并停止；工程完整只读和真实新进程冷重入通过；修复科学门槛通过=False。
+全部任务总进度64%；实验总进度80%。固定工作包内部修复不重复记分，不是成功率。
+旧P8 v32前景裁剪方案仍为负结果，没有回写或改称成功。P9未启动，周期任务未恢复。
+
+single-seed exposed-development repair on unchanged scenes/view/conditions; calibrated probabilities limited to original observable raw-top20 pools; no independent90-scene or robot claims
+本次修复受已公开的开发结果启发；未证明新场景独立泛化或机器人成功。
+
+输入路线：取消前景硬裁剪，使用已验收的完整点云候选与完整风险模型；抓取AP和分割图复用后经独立核对，不重训/重评已完成计算。
+四退化平均抓取AP：原始排序D0=0.18523472，风险排序D6=0.23727485；对固定简单基线D0提高5.2040个百分点。
+干净抓取AP损失=-4.5597个百分点（负数表示提升）；mask AP差值0仅为分割未改。
+概率校准仅适用于原始置信度top20观测候选池的离线mu<=.4标签，不能泛化为所有风险筛选后候选的真实成功概率。
+
+15场景留一关口：通过=False；未校准NLL=0.345318423，留出校准NLL=0.348075577。
+留一关口未通过，按冻结协议未拟合最终参数、未执行修复版验证指标；不增加第二种校准器或调参。
+
+科学门槛：{'scene_holdout_screen': False, 'degraded_grasp_AP_gain': True, 'clean_grasp_AP_preserved': True, 'clean_mask_AP_preserved': True, 'validation_calibration_support': False, 'calibration_ECE15_reduction': False, 'calibration_NLL_noninferior': False}
+
+可用性与下一步：
+当前修复主方案仍不能直接进入P9。完整点云风险排序的开发收益保留；概率校准未通过的部分不能宣称可用。
+后续建议：先分析各留出场景误差及样本支持，固定一个有明确理由的新校准假设；本次不自动追加试验。
+
+新增真实调用：{'calibration_fit': {'attempts': 15, 'known_returns': 15, 'unknown': []}, 'calibration_objective': {'attempts': 152, 'known_returns': 152, 'unknown': []}, 'calibration_apply': {'attempts': 15, 'known_returns': 15, 'unknown': []}, 'independent_objective': {'attempts': 227, 'known_returns': 227, 'unknown': []}, 'independent_apply': {'attempts': 15, 'known_returns': 15, 'unknown': []}, 'network_training_update': {'attempts': 0, 'known_returns': 0, 'unknown': []}, 'neural_forward': {'attempts': 0, 'known_returns': 0, 'unknown': []}, 'official_score': {'attempts': 0, 'known_returns': 0, 'unknown': []}, 'mask_AP': {'attempts': 0, 'known_returns': 0, 'unknown': []}}
+新增神经网络更新、神经前向、候选生成、官方抓取评分和mask AP均为0；标量拟合与应用单独列账。
+继承P8 v32控制链墙时=2125.953秒；本次固定累计上限1800秒，旧调用账本和未知历史均保留。
+P7历史未知上游调用2990905cbfa24838bb5e7b932827f9d7未改写为返回。
+证据：results/P8/whole_cloud_repair_v33/result.json、holdout_screen.json；logs/P8/whole_cloud_repair_v33/readonly.json、cold.json、calls.jsonl。

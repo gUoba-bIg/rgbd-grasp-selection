@@ -1,0 +1,419 @@
+{
+  "passed": true,
+  "checks": {
+    "all_calls_paired": true,
+    "single_client_two_urdf_loads_and_no_motion": true,
+    "all_filters_exact_thirteen_internal_plus_one_mount": true,
+    "registered_settle_commands": true,
+    "each_joint_urdf_velocity": true,
+    "frozen_distinct_speed_sources": true
+  },
+  "opening_command_speed_m_s": 0.04,
+  "close_command_reference_slope_m_s": 0.039,
+  "close_command_setter_max_velocity_m_s": 0.039,
+  "observed_speed_hard_limit_m_s": 0.04,
+  "actual_urdf_readbacks_per_side": {
+    "left": [
+      {
+        "api_seq": 18,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 193,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 194,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 222,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 296,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 297,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 325,
+        "link_id": 12,
+        "rated_m_s": 0.04
+      }
+    ],
+    "right": [
+      {
+        "api_seq": 20,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 195,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 196,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 228,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 298,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 299,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      },
+      {
+        "api_seq": 331,
+        "link_id": 14,
+        "rated_m_s": 0.04
+      }
+    ]
+  },
+  "zero_settle_motor_setters": [
+    {
+      "api_seq": 34,
+      "args": [
+        0,
+        12,
+        2
+      ],
+      "kwargs": {
+        "targetPosition": 0.0,
+        "targetVelocity": 0.0,
+        "positionGain": 0.1,
+        "velocityGain": 1.0,
+        "force": 20.0,
+        "maxVelocity": 0.04,
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "api_seq": 35,
+      "args": [
+        0,
+        14,
+        2
+      ],
+      "kwargs": {
+        "targetPosition": 0.0,
+        "targetVelocity": 0.0,
+        "positionGain": 0.1,
+        "velocityGain": 1.0,
+        "force": 20.0,
+        "maxVelocity": 0.04,
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "return_value": null
+    }
+  ],
+  "zero_native_filter_setters": [
+    {
+      "sequence": 1,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 266,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 2,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 267,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 3,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 268,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 4,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        4,
+        5,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 269,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 5,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        5,
+        6,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 270,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 6,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        6,
+        7,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 271,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 7,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        7,
+        11,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 272,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 8,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        12,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 273,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 9,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        14,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 274,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 10,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        12,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 275,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 11,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 276,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 12,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        14,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 277,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 13,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 278,
+      "returned": true,
+      "return_value": null
+    },
+    {
+      "sequence": 14,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        1,
+        1,
+        -1,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "api_seq": 385,
+      "returned": true,
+      "return_value": null
+    }
+  ],
+  "filter_audit": {
+    "passed": true,
+    "violations": [],
+    "count": 14
+  },
+  "counts": {
+    "connect": 1,
+    "setPhysicsEngineParameter": 1,
+    "setGravity": 1,
+    "loadURDF": 2,
+    "getNumJoints": 2,
+    "getJointInfo": 65,
+    "resetJointState": 6,
+    "changeDynamics": 6,
+    "setJointMotorControl2": 2,
+    "getDynamicsInfo": 36,
+    "getCollisionShapeData": 54,
+    "getBasePositionAndOrientation": 7,
+    "getJointState": 23,
+    "getLinkState": 19,
+    "getMatrixFromQuaternion": 55,
+    "getNumConstraints": 1,
+    "performCollisionDetection": 6,
+    "getContactPoints": 6,
+    "getLinkStates": 10,
+    "getClosestPoints": 37,
+    "computeViewMatrixFromYawPitchRoll": 1,
+    "computeProjectionMatrixFOV": 1,
+    "getCameraImage": 1,
+    "getPhysicsEngineParameters": 1,
+    "getJointStates": 2,
+    "getAABB": 30,
+    "setCollisionFilterPair": 14,
+    "createCollisionShape": 1,
+    "createVisualShape": 1,
+    "createMultiBody": 1,
+    "getBodyInfo": 1,
+    "getBaseVelocity": 1,
+    "getMeshData": 1,
+    "getNumBodies": 1,
+    "getBodyUniqueId": 3
+  },
+  "source_sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+  "complete_api_sequence_count": 400,
+  "prefix_file": "full_api/calls.jsonl.gz",
+  "prefix_compressed_bytes": 38204,
+  "prefix_sha256": "8b66ec2fe157550d06ee08c2bf19598e9aef525ea3edc921f99035f46c36aa2a",
+  "measurement_scope": "Zero-phase native joint metadata and actually submitted settle commands. Opening/closing values are frozen source settings. Live motor maxVelocity has no getter. Phase-specific setter calls and measured joint speeds are recorded in the physical slot."
+}

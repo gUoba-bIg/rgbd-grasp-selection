@@ -1,0 +1,12 @@
+{
+  "closed": "2026-11-08T10:49:26.193622+00:00",
+  "automatic_continuation": false,
+  "stop": "closed_after_shared_gate",
+  "workers": [
+    8,
+    9
+  ],
+  "remaining": 4,
+  "charged": 1,
+  "no_retry": true
+}

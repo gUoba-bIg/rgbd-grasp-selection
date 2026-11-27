@@ -1,0 +1,32 @@
+{
+  "at": "2026-11-05T02:46:20.559401+00:00",
+  "pid": 276888,
+  "permitted": [
+    6
+  ],
+  "input_bindings": {
+    "approved_task.txt": "00702a37df2653c474985960d2242f8d470758c31e841eb3d3307176ec64b976",
+    "audit_observations.py": "d4437eb2f01ac84e1308693f0d82c318105f32eee88998ed523a402794f6424e",
+    "episode_log.py": "234535dbec7e51a43ca02e90b32064f59058455cfd0c949cee04153c25af4f25",
+    "execution_control.py": "615d1ef6a8cc73a4823b9c0e5f3b2fb0d73e988ad94af16a9850357d8cbf445f",
+    "fixture_static.py": "3c7f17b056efeb256ab02a6a43f25e11cfa20cabb7ba0ac4f6cb5d9f5b61f93e",
+    "full_api.py": "6710d3984c0aa2f926c4944b63015cead96df0c5dec4a4877bb9c2e425def659",
+    "history/sources.json": "f15d736282080f891b9fbcbcdfd67b3990a736941382ecd1b58e60e917793f51",
+    "input_identity.py": "fe19fd58634eace8330fce81715745a968781fdb85aa1f730b63d3455686351f",
+    "ledger_initial.json": "6c2ad9f1153e1c117f7bfb7d8f392b01e96c8430050a30a2ba1db3b39d2d2743",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "mountpair.py": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+    "mountpair_registration.json": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+    "offline_replay.py": "7ad62b1bfe3ded78119e10baf4c479d4f198d0e22ff35da9830847781ef28dae",
+    "preregistration.json": "280d7c04ed585141b51778f9b293993a493f9a5b52760782446046d2cfbb6d04",
+    "run_once.py": "705c922009db201a59c0fc884ff9a5c9eb8effe10829b56399c2d034d757c732",
+    "seam_geometry.py": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+    "single_stop.py": "e65fa0cc8d932b15fa752c997b9ce1b647a8df534f9488bb29f650213233e8c7",
+    "stop_evaluator.py": "9950f3c140d07cef91a5bf4b7e64ab922c33fdef9cc39c6c6bcb66cd8d8f3c12",
+    "structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "trajectory.py": "f0ab343d2e76e4f20dcc0faf81934f66287061a85b336fdc4b6b9dcce6e34f4a",
+    "trajectory_plan.json": "971b8c0111376e1635587ebbb1e2b6e18573b6edae091f333fa8ceb2b365876a",
+    "zero_gate.py": "846d5eb06cd0115a8480b4f9bd90cb4c451c6c2e227f1dd433a95ad5cc1f9dbb"
+  }
+}

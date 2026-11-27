@@ -1,0 +1,274 @@
+{
+  "schema": 10,
+  "revision": "9073d1d4cb6c92272b6aa072545def5101e4fecb",
+  "base_url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb",
+  "archives": {
+    "train_1.zip": {
+      "size": 20411802782,
+      "etag": "\"e28d2b498c9a631f2dad3f6ca36f8c74096c79663d71ded824966970bc5b2c08\""
+    },
+    "models.zip": {
+      "size": 4599338858,
+      "etag": "\"7bf30437d9d6ccf5745b546bdfd4ba3f2ef5c549b74fef7d0c3754512e508e96\""
+    }
+  },
+  "entries": {
+    "models/062/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/062/nontextured.ply",
+      "compressed_bytes": 7257052,
+      "bytes": 13173880,
+      "crc32": 2177862384,
+      "header_offset": 518590184,
+      "compress_type": 8
+    },
+    "models/062/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/062/textured.sdf",
+      "compressed_bytes": 3420841,
+      "bytes": 9869142,
+      "crc32": 2297502785,
+      "header_offset": 532044547,
+      "compress_type": 8
+    },
+    "models/062/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/062/textured.obj",
+      "compressed_bytes": 11905745,
+      "bytes": 40997464,
+      "crc32": 2094330204,
+      "header_offset": 535465469,
+      "compress_type": 8
+    },
+    "models/052/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/052/nontextured.ply",
+      "compressed_bytes": 10164430,
+      "bytes": 19066420,
+      "crc32": 1222275119,
+      "header_offset": 621705959,
+      "compress_type": 8
+    },
+    "models/052/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/052/textured.sdf",
+      "compressed_bytes": 3425663,
+      "bytes": 10038622,
+      "crc32": 695257118,
+      "header_offset": 636105531,
+      "compress_type": 8
+    },
+    "models/052/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/052/textured.obj",
+      "compressed_bytes": 17529509,
+      "bytes": 60143632,
+      "crc32": 2696323474,
+      "header_offset": 639531275,
+      "compress_type": 8
+    },
+    "models/021/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/021/nontextured.ply",
+      "compressed_bytes": 9183108,
+      "bytes": 19399178,
+      "crc32": 1017975442,
+      "header_offset": 1114214121,
+      "compress_type": 8
+    },
+    "models/021/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/021/textured.sdf",
+      "compressed_bytes": 3756781,
+      "bytes": 11064028,
+      "crc32": 2970773675,
+      "header_offset": 1129601125,
+      "compress_type": 8
+    },
+    "models/021/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/021/textured.obj",
+      "compressed_bytes": 13861544,
+      "bytes": 61197282,
+      "crc32": 1357185388,
+      "header_offset": 1133357987,
+      "compress_type": 8
+    },
+    "models/044/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/044/nontextured.ply",
+      "compressed_bytes": 9313765,
+      "bytes": 16371320,
+      "crc32": 2818928500,
+      "header_offset": 1738581988,
+      "compress_type": 8
+    },
+    "models/044/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/044/textured.sdf",
+      "compressed_bytes": 3525980,
+      "bytes": 10004096,
+      "crc32": 2845382149,
+      "header_offset": 1753454637,
+      "compress_type": 8
+    },
+    "models/044/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/044/textured.obj",
+      "compressed_bytes": 15731944,
+      "bytes": 51429923,
+      "crc32": 3951384704,
+      "header_offset": 1756980698,
+      "compress_type": 8
+    },
+    "models/002/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/002/nontextured.ply",
+      "compressed_bytes": 9163451,
+      "bytes": 19398666,
+      "crc32": 2906494483,
+      "header_offset": 2006990771,
+      "compress_type": 8
+    },
+    "models/002/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/002/textured.sdf",
+      "compressed_bytes": 3652463,
+      "bytes": 10520025,
+      "crc32": 1557334398,
+      "header_offset": 2030473161,
+      "compress_type": 8
+    },
+    "models/002/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/002/textured.obj",
+      "compressed_bytes": 10212448,
+      "bytes": 51217685,
+      "crc32": 3050640359,
+      "header_offset": 2034125934,
+      "compress_type": 8
+    },
+    "models/022/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/022/nontextured.ply",
+      "compressed_bytes": 81978390,
+      "bytes": 131324467,
+      "crc32": 2015833002,
+      "header_offset": 2044338747,
+      "compress_type": 8
+    },
+    "models/022/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/022/textured.sdf",
+      "compressed_bytes": 3740309,
+      "bytes": 10783594,
+      "crc32": 697896586,
+      "header_offset": 2136991339,
+      "compress_type": 8
+    },
+    "models/022/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/022/textured.obj",
+      "compressed_bytes": 78355586,
+      "bytes": 255546568,
+      "crc32": 935022465,
+      "header_offset": 2140731729,
+      "compress_type": 8
+    },
+    "models/060/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/060/nontextured.ply",
+      "compressed_bytes": 14732243,
+      "bytes": 27049742,
+      "crc32": 4128211556,
+      "header_offset": 3072274288,
+      "compress_type": 8
+    },
+    "models/060/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/060/textured.sdf",
+      "compressed_bytes": 3495249,
+      "bytes": 10235868,
+      "crc32": 2398554464,
+      "header_offset": 3090269765,
+      "compress_type": 8
+    },
+    "models/060/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/060/textured.obj",
+      "compressed_bytes": 26004887,
+      "bytes": 86529892,
+      "crc32": 2671881289,
+      "header_offset": 3093765095,
+      "compress_type": 8
+    },
+    "models/043/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/043/nontextured.ply",
+      "compressed_bytes": 4502394,
+      "bytes": 8071110,
+      "crc32": 1226856507,
+      "header_offset": 3161213249,
+      "compress_type": 8
+    },
+    "models/043/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/043/textured.sdf",
+      "compressed_bytes": 3190503,
+      "bytes": 9943237,
+      "crc32": 3071900633,
+      "header_offset": 3167524861,
+      "compress_type": 8
+    },
+    "models/043/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/043/textured.obj",
+      "compressed_bytes": 7424974,
+      "bytes": 24315177,
+      "crc32": 3700731464,
+      "header_offset": 3170715445,
+      "compress_type": 8
+    },
+    "models/041/nontextured.ply": {
+      "archive": "models.zip",
+      "source_member": "models/041/nontextured.ply",
+      "compressed_bytes": 3962849,
+      "bytes": 7083333,
+      "crc32": 2772201890,
+      "header_offset": 3258471142,
+      "compress_type": 8
+    },
+    "models/041/textured.sdf": {
+      "archive": "models.zip",
+      "source_member": "models/041/textured.sdf",
+      "compressed_bytes": 3282264,
+      "bytes": 9902554,
+      "crc32": 4010996099,
+      "header_offset": 3265856510,
+      "compress_type": 8
+    },
+    "models/041/textured.obj": {
+      "archive": "models.zip",
+      "source_member": "models/041/textured.obj",
+      "compressed_bytes": 6531829,
+      "bytes": 21169102,
+      "crc32": 3325144047,
+      "header_offset": 3269138855,
+      "compress_type": 8
+    },
+    "scenes/scene_0003/realsense/annotations/0000.xml": {
+      "archive": "train_1.zip",
+      "source_member": "scene_0003/realsense/annotations/0000.xml",
+      "compressed_bytes": 540,
+      "bytes": 2497,
+      "crc32": 1703878368,
+      "header_offset": 2137713022,
+      "compress_type": 8
+    }
+  },
+  "selected_original_bytes": 1005848504,
+  "selected_compressed_bytes": 369306741,
+  "official_source": "https://graspnet.net/datasets.html",
+  "license_boundary": "Official page states BY-NC-SA, non-commercial, attribution to GraspNet team / MVIG / SJTU. Third-party mirror member checks do not establish official full-archive authenticity.",
+  "payload_downloaded_at_discovery": false
+}

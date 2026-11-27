@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-11-04T10:35:40.681073+00:00",
+  "version": "IP140_R1_smoke03_framefix_mountpair01",
+  "terminal": "stop_on_slot_1",
+  "passed_zero": true,
+  "new_zero_hash": "7e10e310698daa9c91218045e127c8411e361530c222b52c543b81d503920085",
+  "smoke02_zero_hash": "36d13700268228fe75090a58084951599dd5c8c5d99a02d26c772756cfb971cc",
+  "required_hard_mismatch_count": 0,
+  "zero_checks": 143,
+  "new_motion_summary_sha256": "2946e92063cd482ca259aec2c0c11de838b9f83081f334f196275f3669d7e548",
+  "started_slots": [
+    1
+  ],
+  "actual_returned_physics_steps": 1,
+  "retry": false
+}

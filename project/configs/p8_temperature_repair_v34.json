@@ -1,0 +1,350 @@
+{
+  "version": 34,
+  "at": "2026-10-31T16:59:02.200978+08:00",
+  "groups": {
+    "train": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      50,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      60,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      70,
+      71,
+      72,
+      73,
+      76,
+      77,
+      78,
+      83,
+      84,
+      85,
+      86,
+      87,
+      89,
+      90,
+      91,
+      92,
+      93,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "calibration": [
+      0,
+      1,
+      28,
+      29,
+      40,
+      48,
+      49,
+      51,
+      61,
+      69,
+      74,
+      81,
+      82,
+      88,
+      94
+    ],
+    "validation": [
+      2,
+      6,
+      7,
+      11,
+      13,
+      15,
+      18,
+      22,
+      33,
+      39,
+      52,
+      59,
+      75,
+      79,
+      80
+    ]
+  },
+  "conditions": [
+    "clean",
+    "noise5",
+    "missing15",
+    "shift3",
+    "joint"
+  ],
+  "prior_temperature": 1.1201578256177873,
+  "parent_binding": "logs/P8/temperature_repair_v34/parent_binding.json",
+  "protected": {
+    "scripts/p8_temperature_common_v34.py": {
+      "sha256": "efda8a60bbf06b74ad57e7b73e554d203efc34cf54dc07794fa7e45b04a2d394",
+      "bytes": 3133,
+      "mtime_ns": 1793436526791388700
+    },
+    "scripts/p8_temperature_experiment_v34.py": {
+      "sha256": "0899b2587743354008f7f84e6c509e6e45b507d36387e0fad7a1c0285e379289",
+      "bytes": 12743,
+      "mtime_ns": 1793436526792403100
+    },
+    "scripts/p8_temperature_lifecycle_v34.py": {
+      "sha256": "a396cf44e321c3d6b362c0d47a4b7a06e02c72f297e1649a833dc8769224f61a",
+      "bytes": 16533,
+      "mtime_ns": 1793436625409951200
+    },
+    "scripts/p8_repair_common_v33.py": {
+      "sha256": "5a9b707bed417e6aa3c799cbd337348c6dc78a493b4c0435f1ccc32deac2dee4",
+      "bytes": 4634,
+      "mtime_ns": 1793435612560830000
+    },
+    "scripts/p8_repair_run_v33.py": {
+      "sha256": "5dbbfd8af3e3dc283f17d6b0fb96954794c0881de553fabe8b65bf9d63248343",
+      "bytes": 8087,
+      "mtime_ns": 1793435724459275600
+    },
+    "scripts/p8_review_v32.py": {
+      "sha256": "4d79d344ea9ec8f0a7a1bf4f93c9da5b8721174a5c6ad36366efb43025defdb7",
+      "bytes": 10826,
+      "mtime_ns": 1793430091208007200
+    },
+    "scripts/p7_review_v31.py": {
+      "sha256": "8f823528b01045c539e56960ce45e8104294be1c053c4de6c493d6b7cbd3e21e",
+      "bytes": 14892,
+      "mtime_ns": 1793357073844023400
+    },
+    "scripts/p6_common_v24.py": {
+      "sha256": "d6959c4aeb1d687250ba6ee26084bb1c4425cf81c891721ffe46ceea5875087d",
+      "bytes": 4832,
+      "mtime_ns": 1793091284319385200
+    },
+    "scripts/p3_train_v27.py": {
+      "sha256": "b3235ed1d2a281780e1ca8a92295829e7e094dd27175246ed150742869a8c6f1",
+      "bytes": 8820,
+      "mtime_ns": 1793328699077315900
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168,
+      "mtime_ns": 1792550777180041600
+    },
+    "src/p8_math_v32.py": {
+      "sha256": "48f8e0f57909c5054218b3567c0844944b1f269427773df94ede11a90309b823",
+      "bytes": 2374,
+      "mtime_ns": 1793429473163874000
+    },
+    "docs/P8单参数温度修复协议_v34.txt": {
+      "sha256": "90f66e13e048d19ef43ebc9c4429529d8ac638fa8890e94ec61d1cbbbe1fb6e1",
+      "bytes": 4008,
+      "mtime_ns": 1793436526790345100
+    },
+    "docs/总进度固定工作包_监督版20261027.txt": {
+      "sha256": "18ff72fc286d53bb982fb5bb3f15047d386f7b588fed9d946e47904edde724c7",
+      "bytes": 3183,
+      "mtime_ns": 1793066507477206900
+    },
+    "configs/risk_calibration_v31.json": {
+      "sha256": "1c064c33359296dd0499590d787b9f0d4fc6b344eb6e5c81a63126831151bd4d",
+      "bytes": 99654,
+      "mtime_ns": 1793406154105918300
+    },
+    "configs/p8_whole_cloud_repair_v33.json": {
+      "sha256": "98449b9ae844ca1448814554820ed6109dfe0c3da02da92695a586ad7bc8c296",
+      "bytes": 8904,
+      "mtime_ns": 1793436088212572700
+    },
+    "logs/P8/temperature_repair_v34/parent_binding.json": {
+      "sha256": "f0f7d19d0fd30669a9bf6e4a52d0d1f37c588e3b10a118a0e73c5a1740b0c3f9",
+      "bytes": 10882908,
+      "mtime_ns": 1793437141412864500
+    },
+    "runtime/envs/vision/Lib/site-packages/scipy/optimize/_minimize.py": {
+      "sha256": "9cd5cdb8a36dfc1256ec89231079f797c4641187b0d6883a9691c883aee10daa",
+      "bytes": 50563,
+      "mtime_ns": 1792557723733956700
+    },
+    "runtime/envs/vision/Lib/site-packages/scipy/optimize/_optimize.py": {
+      "sha256": "c5c5aa02d28a21abf8546ce7aeb10bf4e955083b6b1f371f5c20ddfe763ee85b",
+      "bytes": 150757,
+      "mtime_ns": 1792557723741742300
+    }
+  },
+  "resources": {
+    "seconds": 900,
+    "rss_bytes": 4294967296,
+    "disk_reserve_bytes": 64424509440,
+    "output_bytes": 67108864
+  },
+  "call_limits": {
+    "temperature_fit": 15,
+    "temperature_objective": 1500,
+    "temperature_apply": 17,
+    "independent_objective": 1600,
+    "independent_apply": 17,
+    "network_training_update": 0,
+    "neural_forward": 0,
+    "official_score": 0,
+    "mask_AP": 0
+  },
+  "inherited_wall_seconds": {
+    "v32": 2125.9529999999795,
+    "v33": 26.109000000054948
+  },
+  "total_P8_wall_cap": 3052.0620000000345,
+  "inherited_output_bytes": 257110326,
+  "total_P8_output_cap": 324219190,
+  "inherited_calls": {
+    "v32": {
+      "grasp_forward": {
+        "intents": 152,
+        "known_returns": 152,
+        "unknown_ids": []
+      },
+      "risk_update": {
+        "intents": 1288,
+        "known_returns": 1288,
+        "unknown_ids": []
+      },
+      "risk_forward": {
+        "intents": 46,
+        "known_returns": 46,
+        "unknown_ids": []
+      },
+      "risk_audit_forward": {
+        "intents": 4,
+        "known_returns": 4,
+        "unknown_ids": []
+      },
+      "official_score": {
+        "intents": 7076,
+        "known_returns": 7076,
+        "unknown_ids": []
+      },
+      "upstream_oracle": {
+        "intents": 3,
+        "known_returns": 3,
+        "unknown_ids": []
+      },
+      "mask_AP": {
+        "intents": 75,
+        "known_returns": 75,
+        "unknown_ids": []
+      },
+      "temperature_objective": {
+        "intents": 12,
+        "known_returns": 12,
+        "unknown_ids": []
+      },
+      "temperature_audit": {
+        "intents": 1,
+        "known_returns": 1,
+        "unknown_ids": []
+      },
+      "risk_numpy_forward": {
+        "intents": 525,
+        "known_returns": 525,
+        "unknown_ids": []
+      },
+      "risk_numpy_audit": {
+        "intents": 529,
+        "known_returns": 529,
+        "unknown_ids": []
+      }
+    },
+    "v33": {
+      "calibration_fit": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "calibration_objective": {
+        "attempts": 152,
+        "known_returns": 152,
+        "unknown": []
+      },
+      "calibration_apply": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "independent_objective": {
+        "attempts": 227,
+        "known_returns": 227,
+        "unknown": []
+      },
+      "independent_apply": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "network_training_update": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "neural_forward": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "official_score": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "mask_AP": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      }
+    }
+  },
+  "scope": "one final temperature-only repair on exposed single-seed development scenes; probabilities limited to accepted observable raw-top20 pools; no independent90-scene or physical-robot claim",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1"
+  },
+  "no_further_calibrator_search_if_failed": true
+}

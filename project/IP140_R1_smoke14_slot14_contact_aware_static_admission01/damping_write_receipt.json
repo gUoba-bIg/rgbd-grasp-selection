@@ -1,0 +1,79 @@
+{
+  "object_id": "021",
+  "object_body": 2,
+  "link": -1,
+  "client_id": 0,
+  "api_sequence": 354,
+  "setter_method": "changeDynamics",
+  "args": [
+    2,
+    -1
+  ],
+  "kwargs": {
+    "lateralFriction": 0.6,
+    "restitution": 0.0,
+    "linearDamping": 0.04,
+    "angularDamping": 0.04,
+    "physicsClientId": 0
+  },
+  "synchronous_return": null,
+  "verification_mode": "audited_write_path",
+  "setter_call_count": 1,
+  "setter_returned_normally": true,
+  "binary_path": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+  "binary_sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49",
+  "source_sha256_evidence": [
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/static_precheck/damping_readback_blocker.json",
+      "sha256": "004155e652c4099d15fe5889c67da515cc25d02bc53be1ccac254109170fd4bb",
+      "lines": null
+    },
+    {
+      "path": "IP140_R1_smoke10_slot07_nominal021_01/static_precheck/damping_sources.txt",
+      "sha256": "18c14d1cf84e11252d1ebc24da8d60d2f2b20c55649564ddd222dbe9d012b12f",
+      "lines": null
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5",
+      "lines": [
+        10704,
+        10720
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c",
+      "lines": [
+        1519,
+        1526
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsClientC_API.cpp",
+      "sha256": "59e429568ad2f27b4b0a822837147f829822ce9298115ad1dcf77d82d59c2d27",
+      "lines": [
+        3469,
+        3490
+      ]
+    }
+  ],
+  "fields": {
+    "linearDamping": {
+      "verification_mode": "audited_write_path",
+      "target": 0.04,
+      "observed": null,
+      "public_readback_available": false,
+      "setter_call_count": 1,
+      "setter_returned_normally": true
+    },
+    "angularDamping": {
+      "verification_mode": "audited_write_path",
+      "target": 0.04,
+      "observed": null,
+      "public_readback_available": false,
+      "setter_call_count": 1,
+      "setter_returned_normally": true
+    }
+  }
+}

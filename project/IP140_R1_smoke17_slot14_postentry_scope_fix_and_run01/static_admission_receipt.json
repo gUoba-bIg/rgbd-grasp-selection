@@ -1,0 +1,37 @@
+{
+  "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+  "passed": true,
+  "allowed_next_step": "one fresh dynamic zero then conditional slot14 only",
+  "static_connections": 1,
+  "static_physics_calls": 0,
+  "paired_snapshots": 4728,
+  "two_roots_passed": true,
+  "exact_static_filters": 14,
+  "disconnect_confirmed": true,
+  "api_lines": 637102,
+  "frozen_inputs_sha256": "1f6986eeeef209e11b60494bc271c5ca2897e5819b4afda31a08420ead2e7a7c",
+  "evidence_sha256": {
+    "static_preflight/zero_readback.json": "27b41c6953b50f0d5427053a4b8af01d0ce654a47ce67bf1c1e0b9f1adb9b1b2",
+    "static_preflight/zero_step/result.json": "ff92bb2109e9d9f8ab2cf9c0046a9acc4ab754a0778de9a2e752304d3cd2c433",
+    "static_preflight/full_api/summary.json": "07a183a6890b4e3f5089eba5d002240925f601743516c201938c2c768ae3bc19",
+    "static_preflight/full_api/calls.jsonl.gz": "a045ba244da7bc8c83181919ec5a2722091275492a886c3f54f6bdde475d39a3",
+    "static_preflight/path_result.json": "dba05eb5b816611bf3fb24fe7e4d6eb4e4402f862ca2e3091673975f506d505b",
+    "static_preflight/left_right_contact_entry_roots.json": "68806c270a0da74b2d6a0714d4be1d9c6c27e3e5acb1e4f04e6ec30af009b99f",
+    "static_preflight/dual_channel_snapshots.jsonl.gz": "9fb3313f1b0f33e97360cdf31cd66928896c94e8a4334f14f0589e3f4f29d28c",
+    "static_preflight/zero_step/all_links_readback.json": "c1e8a68ac16a80bf23b9b8b784a8c2e1436b30f8ac81f6bafccb893a6fe7278e",
+    "static_preflight/contact_entries/left/result.json": "bd1b0f833127dce9234a4e278d081342bf4e46779ee0e3a8a3e101670a5b41c0",
+    "static_preflight/contact_entries/left/queries.jsonl.gz": "3610452d9ae42e6b62ad0c4106ebeedae25a7fb8e00b8b12d57b4b66aeca04dd",
+    "static_preflight/contact_entries/right/result.json": "026f60c7499dbff0183dc217fc6efa752601f46bf450d1b8b1eb3ccb34fa55f7",
+    "static_preflight/contact_entries/right/queries.jsonl.gz": "be573810a0607afd957271f3ceebecd6a144e29b58736e3bcac23d92b32dd526",
+    "positive_negative_replay.json": "0fb1b92fe616dd56ea72db7ce15d3e47c4890912684e038d54acd667ae01762d",
+    "offline_gate_replay.json": "9c8f55dc66abe94566561fc992cd9294d43bd35eb8a9d428e53343529f2cdbdf"
+  },
+  "checks": {
+    "static_zero_only": true,
+    "full_path": true,
+    "path_zero_physics_filters": true,
+    "disconnect_confirmed": true,
+    "two_roots_present": true,
+    "snapshot_hash": true
+  }
+}

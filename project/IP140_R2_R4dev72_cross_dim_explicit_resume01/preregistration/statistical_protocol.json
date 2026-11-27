@@ -1,0 +1,35 @@
+{
+  "primary": "C0 minus A, success-count difference divided by 24",
+  "pairwise": [
+    "A-Raw",
+    "C0-Raw"
+  ],
+  "denominator_per_method": 24,
+  "pairs": 24,
+  "one_attempt_per_method_per_unit": true,
+  "allow_retries": false,
+  "disposition": "terminal candidate-level no-executable/IK/path/collision/no-grasp/slip/height/timeout counts as unsuccessful; unstarted and shared-infrastructure-unknown are not fabricated outcomes",
+  "reporting": [
+    "C0-only wins",
+    "A-only wins",
+    "paired triple",
+    "selection agreement",
+    "A versus C0 rank disagreement",
+    "object/position/condition strata",
+    "per-stage wall time"
+  ],
+  "advance_requires": [
+    "C0 successes minus A successes >=2",
+    "C0-only minus A-only wins >=2",
+    "C0 successes >= Raw successes",
+    "C0 forbidden collisions <= both Raw and A",
+    "wins in >=2 different object-position base scenes",
+    "no shared integrity faults"
+  ],
+  "budget_quantity": "method trials, not monetary cost or count of native physics steps",
+  "scope": "exposed paired development only; separate approval required for larger comparisons",
+  "not_authorized": [
+    720,
+    240
+  ]
+}

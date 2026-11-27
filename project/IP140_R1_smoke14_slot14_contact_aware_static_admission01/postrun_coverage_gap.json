@@ -1,0 +1,25 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "original_offline_suite": {
+    "total": 99,
+    "passed": 99,
+    "source": "positive_negative_replay.json",
+    "sha256": "5758f48f23bf88044f961e5a92bc739a6091b0d22e02dc3c1c37069a3d066442"
+  },
+  "new_observed_counterexample": {
+    "source": "first_failure_positive_gap.json",
+    "phase": "close",
+    "manifold_distance_m": 0.00049950641845109,
+    "forces_N": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "actual_classifier_rejected": true
+  },
+  "original_suite_coverage_complete": false,
+  "added_runtime_fix": false,
+  "proposed_minimal_change": "For close-only registered pad-target proximity with positive distance, finite correctly identified face witness and zero force, preserve manifold as a near-contact record without claiming entry. Keep actual zero-distance positive-to-negative bracket/root mandatory. All nonpad and preclose gates unchanged.",
+  "not_implemented": true,
+  "new_execution_requires_review": true
+}

@@ -1,0 +1,10 @@
+{
+  "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+  "reason": "static_admission_blocked",
+  "slot14_started": false,
+  "slot8_to_12_started": false,
+  "new_connections_authorized": false,
+  "retry_allowed": false,
+  "result_sha256": "8900c88d2e9fb767109b2eb92d3de17fbd6f0d87ef57ab69260082bd4fe256dc",
+  "utc": "2026-11-08T04:07:57.163016+00:00"
+}

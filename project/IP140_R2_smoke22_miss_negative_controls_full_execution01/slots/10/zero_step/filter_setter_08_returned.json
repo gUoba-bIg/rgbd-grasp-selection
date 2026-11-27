@@ -1,0 +1,22 @@
+{
+  "sequence": 8,
+  "method": "setCollisionFilterPair",
+  "pair": [
+    "ip140_left_bone",
+    "ip140_left_pad"
+  ],
+  "args": [
+    0,
+    0,
+    12,
+    13,
+    0
+  ],
+  "kwargs": {
+    "physicsClientId": 0
+  },
+  "started_utc": "2026-11-08T13:39:16.376364+00:00",
+  "returned": true,
+  "return_value": null,
+  "returned_utc": "2026-11-08T13:39:16.378545+00:00"
+}

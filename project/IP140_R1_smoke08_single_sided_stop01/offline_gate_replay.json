@@ -1,0 +1,6573 @@
+{
+  "schema": "IP140_R1_smoke08_stop_offline_v1",
+  "passed": true,
+  "case_groups": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "source_sha256": {
+    "IP140_R1_smoke07_mount_baseline_invariant01/zero_step/all_links_readback.json": "50b68289ff588f50ae0f6a1ca8b9c7e096b1c83d3b6b578114861fcac29f09ae",
+    "IP140_R1_smoke07_mount_baseline_invariant01/preregistration.json": "052901379a153b75a64e1761d68aebfa351f13aea3d46ee53c24350e41c61412",
+    "IP140_R1_smoke08_single_sided_stop01/approved_task.txt": "00702a37df2653c474985960d2242f8d470758c31e841eb3d3307176ec64b976",
+    "IP140_R1_smoke08_single_sided_stop01/stop_evaluator.py": "9950f3c140d07cef91a5bf4b7e64ab922c33fdef9cc39c6c6bcb66cd8d8f3c12",
+    "IP140_R1_smoke08_single_sided_stop01/structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "IP140_R1_smoke08_single_sided_stop01/offline_replay.py": "7ad62b1bfe3ded78119e10baf4c479d4f198d0e22ff35da9830847781ef28dae"
+  },
+  "synthetic_fixture_body": 91,
+  "synthetic_robot_body": 0,
+  "rubric": "Post-step STOP classifier. Synthetic records exercise the live gate; SI units. A single registered right-pad point must exceed 0.2 N; subthreshold points are not summed. All fixtures here are offline test inputs. Nonfinite test values are serialized as explicit strings.",
+  "dt_s": 0.004166666666666667,
+  "case_count": 37,
+  "cases": [
+    {
+      "number": 1,
+      "variant": "last_24_right",
+      "passed": true,
+      "expected_slot_passed": true,
+      "expected_rejection": null,
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": true,
+        "slot_passed": true,
+        "expected_negative_detected": true,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 24,
+        "longest_streak": 24,
+        "terminal_interval": [
+          {
+            "step": 3193,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3194,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3195,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3196,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3197,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3198,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3199,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3200,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3201,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3202,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3203,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3204,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3205,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3206,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3207,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3208,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3209,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3210,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3211,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3212,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3213,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3214,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3215,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3216,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          }
+        ],
+        "violations": [],
+        "first_failure": null
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 1,
+      "variant": "reversed_body_order",
+      "passed": true,
+      "expected_slot_passed": true,
+      "expected_rejection": null,
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            91,
+            0,
+            -1,
+            15,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  91,
+                  -1
+                ],
+                [
+                  0,
+                  15
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                -0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": true,
+        "slot_passed": true,
+        "expected_negative_detected": true,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 24,
+        "longest_streak": 24,
+        "terminal_interval": [
+          {
+            "step": 3193,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3194,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3195,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3196,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3197,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3198,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3199,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3200,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3201,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3202,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3203,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3204,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3205,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3206,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3207,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3208,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3209,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3210,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3211,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3212,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3213,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3214,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3215,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3216,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          }
+        ],
+        "violations": [],
+        "first_failure": null
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 1,
+      "variant": "at_20N_motor_and_minus_1mm_and_speed_boundary",
+      "passed": true,
+      "expected_slot_passed": true,
+      "expected_rejection": null,
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.026000000000000002,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            -0.001,
+            24.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.025,
+            -0.04,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            -20.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": -0.001,
+              "normal_force_N": 24.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.1,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.1,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [
+            {
+              "side": "right",
+              "actual_motor_force_N": -20.0
+            }
+          ],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": true,
+        "slot_passed": true,
+        "expected_negative_detected": true,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 24,
+        "longest_streak": 24,
+        "terminal_interval": [
+          {
+            "step": 3193,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3194,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3195,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3196,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3197,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3198,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3199,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3200,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3201,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3202,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3203,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3204,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3205,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3206,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3207,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3208,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3209,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3210,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3211,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3212,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3213,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3214,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3215,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          },
+          {
+            "step": 3216,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              24.0
+            ]
+          }
+        ],
+        "violations": [],
+        "first_failure": null
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 24,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 2,
+      "variant": "terminal_23",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "terminal_23",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3194,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [],
+          "observed_return": 3194,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 23,
+        "longest_streak": 23,
+        "terminal_interval": [
+          {
+            "step": 3194,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3195,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3196,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3197,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3198,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3199,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3200,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3201,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3202,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3203,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3204,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3205,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3206,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3207,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3208,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3209,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3210,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3211,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3212,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3213,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3214,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3215,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3216,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          }
+        ],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 23,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 2,
+      "variant": "interrupted",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "interrupted",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3192,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [],
+          "observed_return": 3192,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 11,
+        "longest_streak": 13,
+        "terminal_interval": [
+          {
+            "step": 3206,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3207,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3208,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3209,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3210,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3211,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3212,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3213,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3214,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3215,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          },
+          {
+            "step": 3216,
+            "manifold_indices": [
+              0
+            ],
+            "Fn_N": [
+              0.25
+            ]
+          }
+        ],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 2,
+      "variant": "old_only",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "old_only",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3152,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": true,
+          "right_streak": 1,
+          "near_cap": [],
+          "observed_return": 3152,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 24,
+        "terminal_interval": [],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 3,
+      "variant": "subthreshold_0.2",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.2,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.2,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0008333333333333334,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0008333333333333334,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 3,
+      "variant": "subthreshold_0.1999999",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.1999999,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.1999999,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0008333329166666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0008333329166666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 3,
+      "variant": "subthreshold_0.0",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "missing_final_24_consecutive",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": true,
+          "violations": [],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3216,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": null
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 4,
+      "variant": "left_even_zero_force",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            13,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  13
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_left_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 1,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 5,
+      "variant": "bilateral",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          [
+            0,
+            0,
+            91,
+            13,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            },
+            {
+              "manifold_index": 1,
+              "body_links": [
+                [
+                  0,
+                  13
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_left_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 1,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 6,
+      "variant": "ip140_palm",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            11,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_palm",
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 6,
+      "variant": "ip140_left_bone",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            12,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  12
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_left_bone",
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 6,
+      "variant": "ip140_right_bone",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            14,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  14
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_bone",
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 6,
+      "variant": "wrist_3_link",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            7,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  7
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "wrist_3_link",
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 6,
+      "variant": "upper_arm_link",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            3,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "upper_arm_link",
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 7,
+      "variant": "minus_1mm_exceeded",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "penetration_below_minus_1mm",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.026000000000000002,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            -0.0010000000000000002,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "penetration_below_minus_1mm"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": -0.0010000000000000002,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "penetration_below_minus_1mm",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "penetration_below_minus_1mm"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 8,
+      "variant": "changed_native_field_2",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "unregistered_external_manifold",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            92,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "unregistered_external_manifold"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  92,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "unregistered_external_manifold",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "unregistered_external_manifold"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": []
+    },
+    {
+      "number": 8,
+      "variant": "changed_native_field_1",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "unregistered_external_manifold",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            100,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "unregistered_external_manifold"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  100,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "unregistered_external_manifold",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "unregistered_external_manifold"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": []
+    },
+    {
+      "number": 8,
+      "variant": "changed_native_field_4",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_fixture_link",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_fixture_link"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_fixture_link",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_fixture_link"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 8,
+      "variant": "changed_native_field_3",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "wrong_robot_link_on_fixture",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            98,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  98
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": null,
+              "classification": "forbidden robot/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "wrong_robot_link_on_fixture",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "wrong_robot_link_on_fixture"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden robot/non-target contact"
+      ]
+    },
+    {
+      "number": 9,
+      "variant": "nonfinite_normal_force",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "nonfinite_or_incomplete_contact",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            "nan",
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "nonfinite_or_incomplete_contact"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "nonfinite_or_incomplete_contact",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "nonfinite_or_incomplete_contact"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": []
+    },
+    {
+      "number": 9,
+      "variant": "nonfinite_witness",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "nonfinite_or_incomplete_contact",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              "inf",
+              0.0,
+              0.0
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "nonfinite_or_incomplete_contact"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "nonfinite_or_incomplete_contact",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "nonfinite_or_incomplete_contact"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": []
+    },
+    {
+      "number": 9,
+      "variant": "overflow_vector_impulse",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "nonfinite_impulse",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            1e+308,
+            [
+              1e+308,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "nonfinite_impulse"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 1e+308,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                "inf",
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": "inf",
+              "dt_s": 0.004166666666666667
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "nonfinite_impulse",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "nonfinite_impulse"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": []
+    },
+    {
+      "number": 9,
+      "variant": "velocity",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "finger_speed_above_0.04_m_s",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.0,
+            0.04000000000000001,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "finger_speed_above_0.04_m_s"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "finger_speed_above_0.04_m_s",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "finger_speed_above_0.04_m_s"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 9,
+      "variant": "motor_force",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "finger_motor_force_above_20_N",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            -20.00001
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "finger_motor_force_above_20_N"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [
+            {
+              "side": "right",
+              "actual_motor_force_N": -20.00001
+            }
+          ],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "finger_motor_force_above_20_N",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "finger_motor_force_above_20_N"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 1,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 9,
+      "variant": "nonfinite_velocity",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "nonfinite_or_incomplete_finger_state",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3193,
+        "phase": "close",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.25,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.0,
+            "inf",
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "nonfinite_or_incomplete_finger_state"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.25,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0010416666666666667,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0010416666666666667,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": true
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3193,
+          "phase": "close"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3193,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "nonfinite_or_incomplete_finger_state",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3193,
+          "violations": [
+            "nonfinite_or_incomplete_finger_state"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 10,
+      "variant": "13_registered_internal",
+      "passed": true,
+      "expected_rejection": null,
+      "actual": {
+        "passed": true,
+        "violations": [],
+        "count": 13
+      },
+      "synthetic_filter_records": [
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 1,
+          "pair": [
+            "base_link_inertia",
+            "shoulder_link"
+          ],
+          "args": [
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 2,
+          "pair": [
+            "shoulder_link",
+            "upper_arm_link"
+          ],
+          "args": [
+            0,
+            0,
+            2,
+            3,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 3,
+          "pair": [
+            "upper_arm_link",
+            "forearm_link"
+          ],
+          "args": [
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 4,
+          "pair": [
+            "forearm_link",
+            "wrist_1_link"
+          ],
+          "args": [
+            0,
+            0,
+            4,
+            5,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 5,
+          "pair": [
+            "wrist_1_link",
+            "wrist_2_link"
+          ],
+          "args": [
+            0,
+            0,
+            5,
+            6,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 6,
+          "pair": [
+            "wrist_2_link",
+            "wrist_3_link"
+          ],
+          "args": [
+            0,
+            0,
+            6,
+            7,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 7,
+          "pair": [
+            "wrist_3_link",
+            "ip140_palm"
+          ],
+          "args": [
+            0,
+            0,
+            7,
+            11,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 8,
+          "pair": [
+            "ip140_left_bone",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            12,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 9,
+          "pair": [
+            "ip140_right_bone",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            0,
+            14,
+            15,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 10,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            12,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 11,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 12,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            14,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 13,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            15,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "variant": "extra_fixture_filter",
+      "passed": true,
+      "expected_rejection": "fixture_filter",
+      "actual": {
+        "passed": false,
+        "violations": [
+          "filter_count",
+          "filter_pair_or_order",
+          "fixture_filter"
+        ],
+        "count": 14
+      },
+      "synthetic_filter_records": [
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 1,
+          "pair": [
+            "base_link_inertia",
+            "shoulder_link"
+          ],
+          "args": [
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 2,
+          "pair": [
+            "shoulder_link",
+            "upper_arm_link"
+          ],
+          "args": [
+            0,
+            0,
+            2,
+            3,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 3,
+          "pair": [
+            "upper_arm_link",
+            "forearm_link"
+          ],
+          "args": [
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 4,
+          "pair": [
+            "forearm_link",
+            "wrist_1_link"
+          ],
+          "args": [
+            0,
+            0,
+            4,
+            5,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 5,
+          "pair": [
+            "wrist_1_link",
+            "wrist_2_link"
+          ],
+          "args": [
+            0,
+            0,
+            5,
+            6,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 6,
+          "pair": [
+            "wrist_2_link",
+            "wrist_3_link"
+          ],
+          "args": [
+            0,
+            0,
+            6,
+            7,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 7,
+          "pair": [
+            "wrist_3_link",
+            "ip140_palm"
+          ],
+          "args": [
+            0,
+            0,
+            7,
+            11,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 8,
+          "pair": [
+            "ip140_left_bone",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            12,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 9,
+          "pair": [
+            "ip140_right_bone",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            0,
+            14,
+            15,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 10,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            12,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 11,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 12,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            14,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 13,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            15,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 14,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            91,
+            15,
+            -1,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "variant": "fixture_replaces_internal",
+      "passed": true,
+      "expected_rejection": "fixture_filter",
+      "actual": {
+        "passed": false,
+        "violations": [
+          "filter_pair_or_order",
+          "fixture_filter"
+        ],
+        "count": 13
+      },
+      "synthetic_filter_records": [
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 1,
+          "pair": [
+            "base_link_inertia",
+            "shoulder_link"
+          ],
+          "args": [
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 2,
+          "pair": [
+            "shoulder_link",
+            "upper_arm_link"
+          ],
+          "args": [
+            0,
+            0,
+            2,
+            3,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 3,
+          "pair": [
+            "upper_arm_link",
+            "forearm_link"
+          ],
+          "args": [
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 4,
+          "pair": [
+            "forearm_link",
+            "wrist_1_link"
+          ],
+          "args": [
+            0,
+            0,
+            4,
+            5,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 5,
+          "pair": [
+            "wrist_1_link",
+            "wrist_2_link"
+          ],
+          "args": [
+            0,
+            0,
+            5,
+            6,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 6,
+          "pair": [
+            "wrist_2_link",
+            "wrist_3_link"
+          ],
+          "args": [
+            0,
+            0,
+            6,
+            7,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 7,
+          "pair": [
+            "wrist_3_link",
+            "ip140_palm"
+          ],
+          "args": [
+            0,
+            0,
+            7,
+            11,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 8,
+          "pair": [
+            "ip140_left_bone",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            12,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 9,
+          "pair": [
+            "ip140_right_bone",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            0,
+            14,
+            15,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 10,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            12,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 11,
+          "pair": [
+            "ip140_palm",
+            "ip140_left_pad"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            13,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 12,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_bone"
+          ],
+          "args": [
+            0,
+            0,
+            11,
+            14,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        },
+        {
+          "method": "setCollisionFilterPair",
+          "sequence": 13,
+          "pair": [
+            "ip140_palm",
+            "ip140_right_pad"
+          ],
+          "args": [
+            0,
+            91,
+            15,
+            -1,
+            0
+          ],
+          "kwargs": {
+            "physicsClientId": 0
+          },
+          "returned": true,
+          "return_value": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "variant": "settle_has_fixture",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "fixture_contact_outside_close",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 240,
+        "phase": "settle",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "fixture_contact_outside_close"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 240,
+          "phase": "settle"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 240,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "fixture_contact_outside_close",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 240,
+          "violations": [
+            "fixture_contact_outside_close"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 11,
+      "variant": "opening_has_fixture",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "fixture_contact_outside_close",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 720,
+        "phase": "opening",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "fixture_contact_outside_close"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 720,
+          "phase": "opening"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 720,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "fixture_contact_outside_close",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 720,
+          "violations": [
+            "fixture_contact_outside_close"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 11,
+      "variant": "transit_has_fixture",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "fixture_contact_outside_close",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 1392,
+        "phase": "transit",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "fixture_contact_outside_close"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 1392,
+          "phase": "transit"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 1392,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "fixture_contact_outside_close",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 1392,
+          "violations": [
+            "fixture_contact_outside_close"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 11,
+      "variant": "pregrasp_has_fixture",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "fixture_contact_outside_close",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 2064,
+        "phase": "pregrasp",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "fixture_contact_outside_close"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 2064,
+          "phase": "pregrasp"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 2064,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "fixture_contact_outside_close",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 2064,
+          "violations": [
+            "fixture_contact_outside_close"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 11,
+      "variant": "approach_has_fixture",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "fixture_contact_outside_close",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 2736,
+        "phase": "approach",
+        "raw_manifolds": [
+          [
+            0,
+            0,
+            91,
+            15,
+            -1,
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.5,
+              -0.025,
+              0.28
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            0.0,
+            0.0,
+            0.0,
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            0.0,
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        ],
+        "raw_finger_states": [
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ],
+          [
+            0.05,
+            0.0,
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            0.0
+          ]
+        ],
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "fixture_contact_outside_close"
+          ],
+          "contacts": [
+            {
+              "manifold_index": 0,
+              "body_links": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  91,
+                  -1
+                ]
+              ],
+              "signed_distance_m": 0.0,
+              "normal_force_N": 0.0,
+              "lateral_1_N": 0.0,
+              "lateral_2_N": 0.0,
+              "impulse_world_Ns": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "impulse_norm_Ns": 0.0,
+              "dt_s": 0.004166666666666667,
+              "robot_link_name": "ip140_right_pad",
+              "classification": "forbidden pad/non-target contact",
+              "registered_negative_event_evidence": false
+            }
+          ],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 2736,
+          "phase": "approach"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 2736,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 0,
+        "terminal_interval": [],
+        "violations": [
+          "fixture_contact_outside_close",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 2736,
+          "violations": [
+            "fixture_contact_outside_close"
+          ]
+        }
+      },
+      "valid_right_steps": 0,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 12,
+      "variant": "after_recognition_lift",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "lift_or_hold_forbidden",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3217,
+        "phase": "lift",
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "unexpected_phase_or_extra_step",
+            "lift_or_hold_forbidden"
+          ],
+          "contacts": [],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3217,
+          "phase": "lift"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3217,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 24,
+        "terminal_interval": [],
+        "violations": [
+          "unexpected_phase_or_extra_step",
+          "lift_or_hold_forbidden",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3217,
+          "violations": [
+            "unexpected_phase_or_extra_step",
+            "lift_or_hold_forbidden"
+          ]
+        }
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    },
+    {
+      "number": 12,
+      "variant": "after_recognition_hold",
+      "passed": true,
+      "expected_slot_passed": false,
+      "expected_rejection": "lift_or_hold_forbidden",
+      "pattern": "terminal_24",
+      "source": "synthetic native-schema contact / archived link indices",
+      "selected_input_and_observation": {
+        "step": 3217,
+        "phase": "hold",
+        "evaluator_result": {
+          "passed": false,
+          "violations": [
+            "unexpected_phase_or_extra_step",
+            "lift_or_hold_forbidden"
+          ],
+          "contacts": [],
+          "valid_right_contact": false,
+          "right_streak": 0,
+          "near_cap": [],
+          "observed_return": 3217,
+          "phase": "hold"
+        }
+      },
+      "actual": {
+        "passed": false,
+        "slot_passed": false,
+        "expected_negative_detected": false,
+        "grasp_success": false,
+        "observed_steps": 3217,
+        "required_steps": 3216,
+        "end_streak": 0,
+        "longest_streak": 24,
+        "terminal_interval": [],
+        "violations": [
+          "unexpected_phase_or_extra_step",
+          "lift_or_hold_forbidden",
+          "incomplete_returned_steps",
+          "missing_final_24_consecutive"
+        ],
+        "first_failure": {
+          "step": 3217,
+          "violations": [
+            "unexpected_phase_or_extra_step",
+            "lift_or_hold_forbidden"
+          ]
+        }
+      },
+      "valid_right_steps": 24,
+      "left_fixture_step_count": 0,
+      "near_cap_sample_count": 0,
+      "classifications": [
+        "forbidden pad/non-target contact"
+      ]
+    }
+  ]
+}

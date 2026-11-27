@@ -1,0 +1,144 @@
+{
+  "schema": "smoke10_damping_readback_blocker_v1",
+  "status": "blocked_before_engine_connection",
+  "phase": "read_only_source_PE_analysis",
+  "required_parameters": {
+    "linearDamping": 0.04,
+    "angularDamping": 0.04
+  },
+  "actual_readback": {
+    "linearDamping": null,
+    "angularDamping": null
+  },
+  "available_python_dynamics_fields": 12,
+  "engine_status_has_actual_damping": true,
+  "python_tuple_exposes_base_damping": false,
+  "saveWorld_exposes_base_damping": false,
+  "saveBullet_multibody_exposes_base_damping": false,
+  "exported_C_dynamics_functions": [
+    "b3GetDynamicsInfo",
+    "b3GetDynamicsInfoCommandInit",
+    "b3GetDynamicsInfoCommandInit2",
+    "b3SubmitClientCommandAndWaitStatus"
+  ],
+  "missing_native_access_symbols": [
+    "getPhysicsClient",
+    "sPhysicsClients1",
+    "b3GetStatusDynamicsInfo",
+    "getDynamicsInfo2"
+  ],
+  "PE_export_count": 471,
+  "C_API_requirement": "Dynamics request requires the native b3PhysicsClientHandle or an existing command/status pointer. Python client index is not that pointer.",
+  "handle_binding": "pybullet.c stores the native handle in the static sPhysicsClients1 table. getPhysicsClient exists in source but is absent from the frozen PE export names.",
+  "existing_python_public_alternative": "Source method table exposes getConnectionInfo with isConnected/connectionMethod only. There is no getter returning a handle or full damping tuple.",
+  "source_evidence": [
+    {
+      "id": "private_client_table_and_handle_lookup",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "start_line": 68,
+      "end_line": 93,
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c"
+    },
+    {
+      "id": "connection_info_only_status_and_method",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "start_line": 791,
+      "end_line": 818,
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c"
+    },
+    {
+      "id": "python_dynamics_tuple_12_fields",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "start_line": 1573,
+      "end_line": 1662,
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c"
+    },
+    {
+      "id": "C_API_requires_native_client",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsClientC_API.h",
+      "start_line": 42,
+      "end_line": 60,
+      "sha256": "3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7"
+    },
+    {
+      "id": "C_dynamics_request_and_status_decode",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsClientC_API.h",
+      "start_line": 143,
+      "end_line": 154,
+      "sha256": "3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7"
+    },
+    {
+      "id": "native_dynamics_struct_has_damping",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/SharedMemoryPublic.h",
+      "start_line": 388,
+      "end_line": 408,
+      "sha256": "050817e2b2c14160fb03b4d40dd1d526e5b8780f3c5e382a05d656f45ac35df7"
+    },
+    {
+      "id": "server_damping_setters",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "start_line": 10704,
+      "end_line": 10720,
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    {
+      "id": "server_reads_actual_damping",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "start_line": 11242,
+      "end_line": 11271,
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    {
+      "id": "saveWorld_export_fields",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "start_line": 4367,
+      "end_line": 4520,
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    {
+      "id": "saveBullet_serializes_world",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "start_line": 15050,
+      "end_line": 15076,
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    {
+      "id": "world_multibody_serialization",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp",
+      "start_line": 834,
+      "end_line": 875,
+      "sha256": "9e1b4ed23532b71c2ab8e407d80cd9a2295d80cf3853fd26389176404a14d343"
+    },
+    {
+      "id": "multibody_serialization_struct_lacks_base_damping",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBody.h",
+      "start_line": 918,
+      "end_line": 955,
+      "sha256": "204aa54d0a1625b219b6814e1f203611a34506853ea0b2f443fd9b5c9f4fa03b"
+    },
+    {
+      "id": "multibody_serialize_fields",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBody.cpp",
+      "start_line": 2295,
+      "end_line": 2385,
+      "sha256": "522b66bd79c3635ac558814227e3f4a59d9feca50f95a585bf9aa57c832eacd4"
+    },
+    {
+      "id": "contact_material_defaults",
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btCollisionObject.cpp",
+      "start_line": 30,
+      "end_line": 43,
+      "sha256": "22fb4eb7f21b4e0aaece8e31c1dfd598a0d460e8b7d73cb2060dc4f58dbe1e60"
+    }
+  ],
+  "binary_path": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+  "binary_sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49",
+  "static_assets_passed": true,
+  "engine_import_count": 0,
+  "connection_count": 0,
+  "load_count": 0,
+  "physics_steps": 0,
+  "slot7_started": false,
+  "slot7_charged": false,
+  "further_implementation_required": "An approved getter exposing the existing native status fields in the same client would be required before this object-parameter readback gate can pass."
+}

@@ -1,0 +1,1122 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "scope": "Historical raw-reference semantic mapping only; no new root certificate or proxy observation for snapshots 2757/2758",
+  "historical_reclassification": {
+    "source_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz",
+    "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+    "original_stop_result_sha256": "1688bc2221ade8477ba7075de3b19b169f2d600ff92f28eadb60a3208cb05c61",
+    "raw_source_records_preserved": true,
+    "observations": [
+      {
+        "snapshot": 2751,
+        "jsonl_line_1based": 2751,
+        "q_ref_m": 0.03205335495843398,
+        "source_relative_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz",
+        "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+        "raw_contact": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4510999935701048,
+            0.059834161827004496,
+            0.03153423788036036
+          ],
+          [
+            0.4511119999885559,
+            0.059834161827004496,
+            0.03153423788036036
+          ],
+          [
+            -1.0,
+            6.52526315313188e-15,
+            4.589196063741102e-15
+          ],
+          1.2006418451134373e-05,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "frame_derivation": "actual_W_T_G from original record times frozen URDF prismatic+fixed pad transform",
+        "W_T_G": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.48315334852853875
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383027
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.031034237880362067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "W_T_pad": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.45109999357010166
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.060220289263830044
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.09103423788036039
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "effective_face_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 1.2006418451134373e-05,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4510999935701048,
+            0.059834161827004496,
+            0.03153423788036036
+          ],
+          "object_witness_world_m": [
+            0.4511119999885559,
+            0.059834161827004496,
+            0.03153423788036036
+          ],
+          "pad_witness_pad_link_m": [
+            0.059500000000000025,
+            7.401018666774086e-18,
+            0.0003861274368260632
+          ],
+          "pad_witness_G_m": [
+            -0.0004999999999999694,
+            -0.03205335495843394,
+            0.00038612743682605905
+          ],
+          "native_normal_on_B": [
+            -1.0,
+            6.52526315313188e-15,
+            4.589196063741102e-15
+          ],
+          "normal_pad_to_object_world": [
+            1.0,
+            -6.52526315313188e-15,
+            -4.589196063741102e-15
+          ],
+          "normal_pad_to_object_pad": [
+            5.6769678221123406e-14,
+            1.0,
+            -2.412032195100589e-15
+          ],
+          "normal_pad_to_object_G": [
+            5.6769678221123406e-14,
+            1.0,
+            -2.412032195100589e-15
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.843168579706684e-17,
+          "face_outside_m": 7.401018666774086e-18,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 1.0,
+          "tip_depth_m": 0.0004999999999999727,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "snapshot": 2752,
+        "jsonl_line_1based": 2752,
+        "q_ref_m": 0.03189085495843398,
+        "source_relative_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz",
+        "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+        "raw_contact": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4512624935701048,
+            0.05983416182700449,
+            0.03153423788036037
+          ],
+          [
+            0.4511119999885559,
+            0.05983416182700449,
+            0.03153423788036037
+          ],
+          [
+            -0.9999999999999999,
+            4.820438751509818e-15,
+            3.856351001207854e-15
+          ],
+          -0.00015049358154887527,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "frame_derivation": "actual_W_T_G from original record times frozen URDF prismatic+fixed pad transform",
+        "W_T_G": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.48315334852853875
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383027
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.031034237880362067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "W_T_pad": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.4512624935701016
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383004
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.0910342378803604
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "effective_face_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": -0.00015049358154887527,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4512624935701048,
+            0.05983416182700449,
+            0.03153423788036037
+          ],
+          "object_witness_world_m": [
+            0.4511119999885559,
+            0.05983416182700449,
+            0.03153423788036037
+          ],
+          "pad_witness_pad_link_m": [
+            0.05950000000000003,
+            6.291216989803152e-17,
+            0.0003861274368260632
+          ],
+          "pad_witness_G_m": [
+            -0.0004999999999999678,
+            -0.03189085495843393,
+            0.0003861274368260646
+          ],
+          "native_normal_on_B": [
+            -0.9999999999999999,
+            4.820438751509818e-15,
+            3.856351001207854e-15
+          ],
+          "normal_pad_to_object_world": [
+            0.9999999999999999,
+            -4.820438751509818e-15,
+            -3.856351001207854e-15
+          ],
+          "normal_pad_to_object_pad": [
+            5.603683315859016e-14,
+            0.9999999999999999,
+            -4.1168565967226555e-15
+          ],
+          "normal_pad_to_object_G": [
+            5.603683315859016e-14,
+            0.9999999999999999,
+            -4.1168565967226555e-15
+          ],
+          "normal_unit_error": 1.1102230246251565e-16,
+          "full_witness_residual_m": 1.8698475668552506e-17,
+          "face_outside_m": 6.291216989803152e-17,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 0.9999999999999999,
+          "tip_depth_m": 0.0004999999999999657,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "snapshot": 2757,
+        "jsonl_line_1based": 2757,
+        "q_ref_m": 0.03107835495843398,
+        "source_relative_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz",
+        "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+        "raw_contact": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4520749935701048,
+            0.05983416182700446,
+            0.03153423788036041
+          ],
+          [
+            0.4511119999885559,
+            0.05983416182700447,
+            0.03153423788036041
+          ],
+          [
+            -1.0,
+            9.287281905899939e-15,
+            3.2303589237912834e-15
+          ],
+          -0.000962993581548869,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "frame_derivation": "actual_W_T_G from original record times frozen URDF prismatic+fixed pad transform",
+        "W_T_G": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.48315334852853875
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383027
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.031034237880362067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "W_T_pad": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.4520749935701016
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383003
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.09103423788036044
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "effective_face_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": -0.000962993581548869,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4520749935701048,
+            0.05983416182700446,
+            0.03153423788036041
+          ],
+          "object_witness_world_m": [
+            0.4511119999885559,
+            0.05983416182700447,
+            0.03153423788036041
+          ],
+          "pad_witness_pad_link_m": [
+            0.05950000000000003,
+            6.291216989803152e-17,
+            0.00038612743682608404
+          ],
+          "pad_witness_G_m": [
+            -0.000499999999999967,
+            -0.031078354958433942,
+            0.00038612743682608507
+          ],
+          "native_normal_on_B": [
+            -1.0,
+            9.287281905899939e-15,
+            3.2303589237912834e-15
+          ],
+          "normal_pad_to_object_world": [
+            1.0,
+            -9.287281905899939e-15,
+            -3.2303589237912834e-15
+          ],
+          "normal_pad_to_object_pad": [
+            5.541084108117356e-14,
+            1.0,
+            3.499865576674584e-16
+          ],
+          "normal_pad_to_object_G": [
+            5.541084108117356e-14,
+            1.0,
+            3.499865576674584e-16
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.901194982309855e-17,
+          "face_outside_m": 6.291216989803152e-17,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 1.0,
+          "tip_depth_m": 0.0004999999999999657,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "snapshot": 2758,
+        "jsonl_line_1based": 2758,
+        "q_ref_m": 0.030915854958433978,
+        "source_relative_path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz",
+        "source_sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+        "raw_contact": [
+          0,
+          0,
+          2,
+          13,
+          -1,
+          [
+            0.4522374935701048,
+            0.05983416182700446,
+            0.031534237880360416
+          ],
+          [
+            0.4511119999885559,
+            0.05983416182700447,
+            0.03153423788036042
+          ],
+          [
+            -1.0,
+            3.474019517111191e-15,
+            4.632026022814921e-15
+          ],
+          -0.001125493581548879,
+          0.0,
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "frame_derivation": "actual_W_T_G from original record times frozen URDF prismatic+fixed pad transform",
+        "W_T_G": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.48315334852853875
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383027
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.031034237880362067
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "W_T_pad": [
+          [
+            5.218048215738236e-14,
+            1.0,
+            -8.937295348232509e-15,
+            0.4522374935701016
+          ],
+          [
+            8.715250743307477e-15,
+            -9.103828801926284e-15,
+            -1.0,
+            0.06022028926383003
+          ],
+          [
+            -1.0,
+            5.2180482157382345e-14,
+            -8.659739592076221e-15,
+            0.09103423788036046
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "effective_face_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": -0.001125493581548879,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.4522374935701048,
+            0.05983416182700446,
+            0.031534237880360416
+          ],
+          "object_witness_world_m": [
+            0.4511119999885559,
+            0.05983416182700447,
+            0.03153423788036042
+          ],
+          "pad_witness_pad_link_m": [
+            0.05950000000000004,
+            6.291216989803112e-17,
+            0.00038612743682608404
+          ],
+          "pad_witness_G_m": [
+            -0.0004999999999999655,
+            -0.030915854958433932,
+            0.0003861274368260836
+          ],
+          "native_normal_on_B": [
+            -1.0,
+            3.474019517111191e-15,
+            4.632026022814921e-15
+          ],
+          "normal_pad_to_object_world": [
+            1.0,
+            -3.474019517111191e-15,
+            -4.632026022814921e-15
+          ],
+          "normal_pad_to_object_pad": [
+            5.6812508180197246e-14,
+            1.0,
+            -5.463275831121277e-15
+          ],
+          "normal_pad_to_object_G": [
+            5.6812508180197246e-14,
+            1.0,
+            -5.463275831121277e-15
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.897129801605226e-17,
+          "face_outside_m": 6.291216989803112e-17,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 1.0,
+          "tip_depth_m": 0.0004999999999999588,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "comparisons": [
+      {
+        "snapshot": 2757,
+        "jsonl_line_1based": 2757,
+        "original_passed": true,
+        "original_violations": [],
+        "records": [
+          {
+            "source": "manifold",
+            "row_index": 0,
+            "raw_contact": [
+              0,
+              2,
+              0,
+              -1,
+              13,
+              [
+                0.4511119999885559,
+                0.05983416182700447,
+                0.03153423788036041
+              ],
+              [
+                0.4520749935701048,
+                0.05983416182700446,
+                0.03153423788036041
+              ],
+              [
+                1.0,
+                -9.287281905899939e-15,
+                -3.2303589237912834e-15
+              ],
+              -0.0009629935815488877,
+              0.0,
+              0.0,
+              [
+                9.287281905899939e-15,
+                1.0,
+                0.0
+              ],
+              0.0,
+              [
+                3.2303589237912834e-15,
+                -3.000125398248919e-29,
+                1.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "manifold",
+              "phase": "close",
+              "classification": "pad_target_static_geometry",
+              "violations": [
+                "pad_contact_without_legal_entry",
+                "missing_per_side_entry_certificate",
+                "reference_negative_or_manifold_before_legal_entry"
+              ],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 2,
+              "body_b": 0,
+              "link_a": -1,
+              "link_b": 13,
+              "signed_distance_m": -0.0009629935815488877
+            },
+            "conditional_semantic_label": "post_contact_motor_reference_overtravel",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          },
+          {
+            "source": "robot_target",
+            "row_index": 0,
+            "raw_contact": [
+              0,
+              0,
+              2,
+              12,
+              -1,
+              [
+                0.45007499357010466,
+                0.05935122157816388,
+                0.03273790516392251
+              ],
+              [
+                0.4511119999885559,
+                0.05935122157816387,
+                0.03273790516392256
+              ],
+              [
+                -1.0,
+                1.2991589537909264e-14,
+                -4.923128666997195e-14
+              ],
+              0.0010370064184512056,
+              0.0,
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "robot_target",
+              "phase": "close",
+              "classification": "forbidden_nonpad_target",
+              "violations": [],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 0,
+              "body_b": 2,
+              "link_a": 12,
+              "link_b": -1,
+              "signed_distance_m": 0.0010370064184512056
+            },
+            "conditional_semantic_label": "unchanged_clearance_or_other_geometry",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          },
+          {
+            "source": "robot_target",
+            "row_index": 1,
+            "raw_contact": [
+              0,
+              0,
+              2,
+              13,
+              -1,
+              [
+                0.4520749935701048,
+                0.05983416182700446,
+                0.03153423788036041
+              ],
+              [
+                0.4511119999885559,
+                0.05983416182700447,
+                0.03153423788036041
+              ],
+              [
+                -1.0,
+                9.287281905899939e-15,
+                3.2303589237912834e-15
+              ],
+              -0.000962993581548869,
+              0.0,
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "robot_target",
+              "phase": "close",
+              "classification": "pad_target_static_geometry",
+              "violations": [
+                "pad_contact_without_legal_entry",
+                "missing_per_side_entry_certificate",
+                "reference_negative_or_manifold_before_legal_entry"
+              ],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 0,
+              "body_b": 2,
+              "link_a": 13,
+              "link_b": -1,
+              "signed_distance_m": -0.000962993581548869
+            },
+            "conditional_semantic_label": "post_contact_motor_reference_overtravel",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          }
+        ],
+        "actual_new_engine_entry_or_proxy_validated": false,
+        "conclusion": "Only raw-reference semantics changes conditionally; original smoke13 stop remains. New entry localization and proxy must independently pass."
+      },
+      {
+        "snapshot": 2758,
+        "jsonl_line_1based": 2758,
+        "original_passed": false,
+        "original_violations": [
+          "manifold:0:external_penetration_below_minus_1mm",
+          "robot_target:1:external_penetration_below_minus_1mm"
+        ],
+        "records": [
+          {
+            "source": "manifold",
+            "row_index": 0,
+            "raw_contact": [
+              0,
+              2,
+              0,
+              -1,
+              13,
+              [
+                0.4511119999885559,
+                0.05983416182700447,
+                0.03153423788036042
+              ],
+              [
+                0.4522374935701048,
+                0.05983416182700446,
+                0.031534237880360416
+              ],
+              [
+                1.0,
+                -3.474019517111191e-15,
+                -4.632026022814921e-15
+              ],
+              -0.0011254935815488976,
+              0.0,
+              0.0,
+              [
+                3.474019517111191e-15,
+                1.0,
+                0.0
+              ],
+              0.0,
+              [
+                4.632026022814921e-15,
+                -1.6091748807025963e-29,
+                1.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "manifold",
+              "phase": "close",
+              "classification": "pad_target_static_geometry",
+              "violations": [
+                "pad_contact_without_legal_entry",
+                "missing_per_side_entry_certificate",
+                "reference_negative_or_manifold_before_legal_entry"
+              ],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 2,
+              "body_b": 0,
+              "link_a": -1,
+              "link_b": 13,
+              "signed_distance_m": -0.0011254935815488976
+            },
+            "conditional_semantic_label": "post_contact_motor_reference_overtravel",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          },
+          {
+            "source": "robot_target",
+            "row_index": 0,
+            "raw_contact": [
+              0,
+              0,
+              2,
+              12,
+              -1,
+              [
+                0.4502374935701047,
+                0.05935122157816388,
+                0.03273790516392252
+              ],
+              [
+                0.4511119999885559,
+                0.05935122157816387,
+                0.03273790516392256
+              ],
+              [
+                -1.0,
+                1.278482997295721e-14,
+                -4.8947634753607607e-14
+              ],
+              0.0008745064184511957,
+              0.0,
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "robot_target",
+              "phase": "close",
+              "classification": "forbidden_nonpad_target",
+              "violations": [],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 0,
+              "body_b": 2,
+              "link_a": 12,
+              "link_b": -1,
+              "signed_distance_m": 0.0008745064184511957
+            },
+            "conditional_semantic_label": "unchanged_clearance_or_other_geometry",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          },
+          {
+            "source": "robot_target",
+            "row_index": 1,
+            "raw_contact": [
+              0,
+              0,
+              2,
+              13,
+              -1,
+              [
+                0.4522374935701048,
+                0.05983416182700446,
+                0.031534237880360416
+              ],
+              [
+                0.4511119999885559,
+                0.05983416182700447,
+                0.03153423788036042
+              ],
+              [
+                -1.0,
+                3.474019517111191e-15,
+                4.632026022814921e-15
+              ],
+              -0.001125493581548879,
+              0.0,
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "strict_gate_without_new_entry_certificate": {
+              "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+              "channel": "reference",
+              "source": "robot_target",
+              "phase": "close",
+              "classification": "pad_target_static_geometry",
+              "violations": [
+                "pad_contact_without_legal_entry",
+                "missing_per_side_entry_certificate",
+                "reference_negative_or_manifold_before_legal_entry"
+              ],
+              "reference_only": false,
+              "dynamic_gate_applied": false,
+              "loaded_state_claim": false,
+              "required_supplementary_gates": [],
+              "body_a": 0,
+              "body_b": 2,
+              "link_a": 13,
+              "link_b": -1,
+              "signed_distance_m": -0.001125493581548879
+            },
+            "conditional_semantic_label": "post_contact_motor_reference_overtravel",
+            "condition": "Only if fresh same-side root and proxy independently pass; historical proof cannot admit",
+            "current_admission_passed": false
+          }
+        ],
+        "actual_new_engine_entry_or_proxy_validated": false,
+        "conclusion": "Only raw-reference semantics changes conditionally; original smoke13 stop remains. New entry localization and proxy must independently pass."
+      }
+    ],
+    "q_zero_linear_interpolation_m": 0.03204134853998284,
+    "historical_only_proof": {
+      "previous_snapshot": 2751,
+      "current_snapshot": 2752,
+      "previous_signed_distance_m": 1.2006418451134373e-05,
+      "current_signed_distance_m": -0.00015049358154887527,
+      "precontact_clean": true,
+      "q_zero_linear_interpolation_m": 0.03204134853998284,
+      "recorded_face_audit": {
+        "passed": true,
+        "violations": [],
+        "signed_distance_m": -0.00015049358154887527,
+        "native_endpoint_order": "pad_object",
+        "pad_witness_world_m": [
+          0.4512624935701048,
+          0.05983416182700449,
+          0.03153423788036037
+        ],
+        "object_witness_world_m": [
+          0.4511119999885559,
+          0.05983416182700449,
+          0.03153423788036037
+        ],
+        "pad_witness_pad_link_m": [
+          0.05950000000000003,
+          6.291216989803152e-17,
+          0.0003861274368260632
+        ],
+        "pad_witness_G_m": [
+          -0.0004999999999999678,
+          -0.03189085495843393,
+          0.0003861274368260646
+        ],
+        "native_normal_on_B": [
+          -0.9999999999999999,
+          4.820438751509818e-15,
+          3.856351001207854e-15
+        ],
+        "normal_pad_to_object_world": [
+          0.9999999999999999,
+          -4.820438751509818e-15,
+          -3.856351001207854e-15
+        ],
+        "normal_pad_to_object_pad": [
+          5.603683315859016e-14,
+          0.9999999999999999,
+          -4.1168565967226555e-15
+        ],
+        "normal_pad_to_object_G": [
+          5.603683315859016e-14,
+          0.9999999999999999,
+          -4.1168565967226555e-15
+        ],
+        "normal_unit_error": 1.1102230246251565e-16,
+        "full_witness_residual_m": 1.8698475668552506e-17,
+        "face_outside_m": 6.291216989803152e-17,
+        "on_effective_inner_face": true,
+        "inward_normal_alignment": 0.9999999999999999,
+        "tip_depth_m": 0.0004999999999999657,
+        "tip_edge_risk": true,
+        "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+        "raw_normal_and_tangential_force_N": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "evidence_kind": "historical bracket and face observations; not current root certificate",
+      "not_engine_entry_certificate": true,
+      "admission_passed": false
+    },
+    "limitation": "Linear interpolation is offline calculation, not new bisection. No fresh proxy/entry result is claimed."
+  },
+  "actual_smoke14_roots": {
+    "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+    "sides": {},
+    "both_found": false,
+    "both_passed": false,
+    "physics_steps": 0,
+    "object_pose_modified": false,
+    "proxy_used_by_controller": false
+  },
+  "actual_smoke14_stop_snapshot": 2748,
+  "actual_smoke14_reached_2757_or_2758": false,
+  "conditional_label": "post_contact_motor_reference_overtravel",
+  "conditions": "Both fresh same-side entry and the independent proxy must pass before current admission. Historical interpolation does not meet this condition.",
+  "new_admission_passed": false,
+  "original_smoke13_outcome_unchanged": true,
+  "dynamic_actual_minus_1mm_gate_unchanged": true,
+  "missing_values_not_filled": true
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "ip140_smoke03_inputs_v1",
+  "version": "IP140_R1_smoke03_framefix_mountpair01",
+  "smoke02_inventory_sha256": "5ccc7e88af867b96151d9a49c951412fa405a995872381b668ebf13cf03bf436",
+  "new_files": {
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "preregistration.json": "da8e96aa2b228f815aecbb4487453506391ab13ab5491786f86ab490dae9f943",
+    "ledger_initial.json": "e5ac0a5c66227732d60350adcfaf36931d94523e8a0ad9ae4289359c18127b0c",
+    "zero_gate.py": "595e86fd3407dc23e1ac0b320e7384d9b4a34540abcd7d06d69bb07c36cac4e4",
+    "empty_stroke.py": "9d9da54dc89d87956f6659fbc42aac996c79e5cb793177df6866ad83c4f54b07",
+    "episode_log.py": "b74c4d50a80d71f68a881a7dad46dac34299de201f7f111a8b31cccb7b143926",
+    "execution_control.py": "615d1ef6a8cc73a4823b9c0e5f3b2fb0d73e988ad94af16a9850357d8cbf445f",
+    "input_identity.py": "57f058499e8c443a0fa5c05dbd1d6a094550aac472a2296cf4e4efa9a15da860",
+    "mountpair.py": "5308e98713606d0b5431305e28624672802a3e015c6636c7dceb734971cbf021",
+    "mountpair_registration.json": "b41cb7d3a358e00ec023f3322e23ae8a00e66e510087d0de4fdd572a629d9cc8",
+    "run_once.py": "f223a7b2abe36b85415dc712ad9d82ee01f0634ccfcd6239b020544734e50928"
+  },
+  "smoke01_inventory_sha256": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794",
+  "smoke01_verified_files": 17,
+  "executable_slots": [
+    1,
+    2
+  ],
+  "total_budget": 12,
+  "maximum_direct_connections": 1,
+  "maximum_robot_loads": 1
+}

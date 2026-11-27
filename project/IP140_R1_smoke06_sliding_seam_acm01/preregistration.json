@@ -1,0 +1,1462 @@
+{
+  "version": "IP140_R1_smoke06_sliding_seam_acm01",
+  "frozen_at_utc": "2026-11-04T13:43:03.716479+00:00",
+  "max_starts": 12,
+  "retry": false,
+  "prior_physical_starts": 3,
+  "eligible_slots_after_zero_gate": [
+    4
+  ],
+  "start_requires": "Offline replay and all negative controls pass, all static gates satisfied, exactly 13 returned filters and zero integration at gate handoff.",
+  "stop": "Stop on first failing check, uncertain execution or completion. No retries. No further slots.",
+  "correction": "Retain all three charged failures. Defer former positive-y offset slot 4, in addition to deferred center.",
+  "historical_seed_rule": "First nominal (block+0) and miss (block+2) with identical XY/yaw/object in a 4-slot historical block, both intent.config.sha256 equal v52r2. Selected using schedule/intent before opening any results.",
+  "changed_slots": [
+    {
+      "object_id": "021",
+      "kind": "nominal",
+      "old_slot": 0,
+      "new_slot": 4
+    },
+    {
+      "object_id": "021",
+      "kind": "miss",
+      "old_slot": 2,
+      "new_slot": 6
+    }
+  ],
+  "selection_evidence": [
+    {
+      "object": "021",
+      "pair": [
+        0,
+        2
+      ],
+      "intent_config_hashes": [
+        "29bf8f6170bc36a4fb8a42229baedd4e72dad5ca870cc7386f384d431e7488dc",
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+      ],
+      "intents": [
+        {
+          "project_relative": "results/simulation_v52/episodes/001_slot_00_b16a59b4/intent.json",
+          "sha256": "9ba028b07c8e4b81dd2157ade2be58e4e403110119fd7f46065f64262b24c898",
+          "bytes": 654
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/003_slot_02_47f0daa9/intent.json",
+          "sha256": "7b019897a2cba38b36ff940b0795d732752f7d45d8912b507119ce3ef5b5ff26",
+          "bytes": 656
+        }
+      ],
+      "both_v52r2": false
+    },
+    {
+      "object": "021",
+      "pair": [
+        4,
+        6
+      ],
+      "intent_config_hashes": [
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+      ],
+      "intents": [
+        {
+          "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+          "sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+          "bytes": 656
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/007_slot_06_1739a47c/intent.json",
+          "sha256": "ba1d0a10a981804b0507d88423039aabb34f826d53ecc05cfb2b299767205f17",
+          "bytes": 656
+        }
+      ],
+      "both_v52r2": true
+    },
+    {
+      "object": "014",
+      "pair": [
+        16,
+        18
+      ],
+      "intent_config_hashes": [
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+      ],
+      "intents": [
+        {
+          "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+          "sha256": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/019_slot_18_ca6cde76/intent.json",
+          "sha256": "71bef38db5ef73eaadd908adaf0b4e1e9590680fa8a6d9e09571b69a41eecd67",
+          "bytes": 658
+        }
+      ],
+      "both_v52r2": true
+    },
+    {
+      "object": "017",
+      "pair": [
+        32,
+        34
+      ],
+      "intent_config_hashes": [
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+      ],
+      "intents": [
+        {
+          "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+          "sha256": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/intent.json",
+          "sha256": "16775cc35337a36635b51c6a65630982ca2503a1f5019745cb2c3109bb073c66",
+          "bytes": 658
+        }
+      ],
+      "both_v52r2": true
+    }
+  ],
+  "references": [
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "sha256": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "bytes": 13895
+    },
+    {
+      "project_relative": "scripts/sim_v52_math.py",
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "bytes": 2832
+    },
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/model_source_version.json",
+      "sha256": "a85b0e2b496c3190ae09bc601397ddb127935adf2b58709dc31ef083498ce9c6",
+      "bytes": 1497
+    },
+    {
+      "project_relative": "IP140-R1_执行端替换两页协议_小修02.pdf",
+      "sha256": "3a1b30adc529a7a8536b03e6aba4d200a9545d6083da5c245ab624b2a1e4579e",
+      "bytes": 238439
+    },
+    {
+      "project_relative": "IP140-R1_参数与证据附表_小修02.pdf",
+      "sha256": "ebda80ada9f7dac264bef1a4cc60bb4c3807429788784cf1e2ab7015abb02389",
+      "bytes": 431084
+    },
+    {
+      "project_relative": "IP140_R1_smoke01/preregistration.json",
+      "sha256": "4f62a02c16ecc56c962c108ce58382f801502e91485e475f8f9f032f9878a2c8",
+      "bytes": 31552
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "candidate_world": null,
+      "kind": "empty_stroke",
+      "fixture": null,
+      "arm_pose": "historical home joints, held throughout",
+      "opening_sequence_mm": [
+        0,
+        35,
+        70,
+        105,
+        140,
+        105,
+        70,
+        35,
+        0
+      ],
+      "seconds_each": 2.0,
+      "tail_s": 0.1,
+      "q_initial_m": [
+        0,
+        0
+      ],
+      "accept": "every sample of every settled tail meets frozen gap, midline, single-finger, symmetry and parallelism gates; no unexpected contact/impulse or penetration"
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "candidate_world": null,
+      "kind": "empty_stroke",
+      "fixture": null,
+      "arm_pose": "historical home joints, held throughout",
+      "opening_sequence_mm": [
+        0,
+        35,
+        70,
+        105,
+        140,
+        105,
+        70,
+        35,
+        0
+      ],
+      "seconds_each": 2.0,
+      "tail_s": 0.1,
+      "q_initial_m": [
+        0,
+        0
+      ],
+      "accept": "every sample of every settled tail meets frozen gap, midline, single-finger, symmetry and parallelism gates; no unexpected contact/impulse or penetration"
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-EMPTY-03:post-fixed-seam-filter",
+      "candidate_world": null,
+      "kind": "empty_stroke",
+      "fixture": null,
+      "arm_pose": "historical home joints, held throughout",
+      "opening_sequence_mm": [
+        0,
+        35,
+        70,
+        105,
+        140,
+        105,
+        70,
+        35,
+        0
+      ],
+      "seconds_each": 2.0,
+      "tail_s": 0.1,
+      "q_initial_m": [
+        0,
+        0
+      ],
+      "accept": "every sample of every settled tail meets frozen gap, midline, single-finger, symmetry and parallelism gates; no unexpected contact/impulse or penetration"
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-EMPTY-04:post-sliding-seam-acm",
+      "candidate_world": null,
+      "kind": "empty_stroke",
+      "fixture": null,
+      "arm_pose": "historical home joints, held throughout",
+      "opening_sequence_mm": [
+        0,
+        35,
+        70,
+        105,
+        140,
+        105,
+        70,
+        35,
+        0
+      ],
+      "seconds_each": 2.0,
+      "tail_s": 0.1,
+      "q_initial_m": [
+        0,
+        0
+      ],
+      "accept": "All 4320 returned physics steps, nine stations and 216 required tail samples, original geometric and arm/finger bounds, section 3+4 geometry, and empty-scene identity hard gate; stop on first failure."
+    },
+    {
+      "slot": 5,
+      "kind": "offset_negative_y",
+      "candidate_id": "IP140-BENCH-05:offset_negative_y",
+      "candidate_world": [
+        1.0,
+        0.1,
+        0.02,
+        0.02,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.5,
+        -0.06,
+        0.27,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.06
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.1,
+      "fixture": {
+        "full_sides_xyz_in_G_m": [
+          0.02,
+          0.04,
+          0.018
+        ],
+        "center_in_goal_G_m": [
+          -0.03,
+          -0.01,
+          0.0
+        ],
+        "center_world_m": [
+          0.5,
+          -0.06999999999999999,
+          0.28
+        ],
+        "R_W_fixture": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "fixed_to_world": true,
+        "base_mass_kg": 0.0,
+        "lateral_friction": 0.6,
+        "restitution": 0.0,
+        "rolling_friction": 0.0,
+        "spinning_friction": 0.0,
+        "margin_m": 0.0005,
+        "evaluation_class": "target_test_block"
+      },
+      "arm_pose": "from home; common pre-opening and approach; hold goal through close; end after 2s close",
+      "accept": "left pad first, strictly earlier step than right; both sustained during final 100ms",
+      "unexpected_fixture_collisions_fail": true
+    },
+    {
+      "slot": 6,
+      "kind": "single_sided_stop",
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "candidate_world": [
+        1.0,
+        0.1,
+        0.02,
+        0.02,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.5,
+        -0.06,
+        0.27,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.06
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.1,
+      "fixture": {
+        "full_sides_xyz_in_G_m": [
+          0.02,
+          0.01,
+          0.018
+        ],
+        "center_in_goal_G_m": [
+          -0.03,
+          0.03,
+          0.0
+        ],
+        "center_world_m": [
+          0.5,
+          -0.03,
+          0.28
+        ],
+        "R_W_fixture": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "fixed_to_world": true,
+        "base_mass_kg": 0.0,
+        "lateral_friction": 0.6,
+        "restitution": 0.0,
+        "rolling_friction": 0.0,
+        "spinning_friction": 0.0,
+        "margin_m": 0.0005,
+        "evaluation_class": "non_target_stop"
+      },
+      "arm_pose": "from home; common pre-opening and approach; hold goal through close; end after 2s close",
+      "accept": "right pad only; classifier reports a forbidden pad/non-target contact, left pad no active external contact, no other forbidden event",
+      "unexpected_fixture_collisions_fail": true
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "kind": "nominal",
+      "object_id": "021",
+      "candidate_world": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.48315334852869485
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.06022028926381637
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04381280043712453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.06898170991686796,
+      "original_slot": {
+        "slot_id": 4,
+        "object_id": "021",
+        "xy": [
+          0.48,
+          0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "4f097762f0894ddda2454852daf8da59",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.012778562556716472,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+          "sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+          "bytes": 656
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+          "sha256": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+          "bytes": 1176
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+          "sha256": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+          "bytes": 6432
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+          "sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+          "bytes": 30107
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+          "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+          "bytes": 548
+        },
+        "position_world_m": [
+          0.48,
+          0.06,
+          0.03079100090265274
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "success by frozen lift/hold/collision criteria"
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "object_id": "014",
+      "candidate_world": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4832061266700227
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05687498174103041
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04427004097255749
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.0721001881117848,
+      "original_slot": {
+        "slot_id": 16,
+        "object_id": "014",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "25e5b3b66aa7457296ef3f88d058a715",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.01208788689431367,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+          "sha256": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+          "sha256": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96",
+          "bytes": 1174
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+          "sha256": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd",
+          "bytes": 6415
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+          "sha256": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058",
+          "bytes": 30520
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+          "sha256": "e8fc9c87ed179c1beea91758e4727f0417b5eb94f272fe249fb54fdca64e65b2",
+          "bytes": 174015
+        },
+        "position_world_m": [
+          0.48,
+          -0.06,
+          0.03232400070130825
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "success by frozen lift/hold/collision criteria"
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "object_id": "017",
+      "candidate_world": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4825720225516049
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05720727490483328
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04390982392972809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.06965817974794884,
+      "original_slot": {
+        "slot_id": 32,
+        "object_id": "017",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "10f55c0447784348a2a61e7c9a5f3475",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.014903531131342462,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+          "sha256": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+          "sha256": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac",
+          "bytes": 1178
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+          "sha256": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1",
+          "bytes": 6437
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+          "sha256": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+          "bytes": 30122
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+          "sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+          "bytes": 135234
+        },
+        "position_world_m": [
+          0.48,
+          -0.06,
+          0.02952899920940399
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "success by frozen lift/hold/collision criteria"
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "kind": "miss",
+      "object_id": "021",
+      "candidate_world": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.6231533485286949,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6231533485286949
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.06022028926381637
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04381280043712453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.06898170991686796,
+      "original_slot": {
+        "slot_id": 6,
+        "object_id": "021",
+        "xy": [
+          0.48,
+          0.06
+        ],
+        "kind": "miss",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "1739a47c122841f0b5d34ccf5a847ab9",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.012778562556716472,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/007_slot_06_1739a47c/intent.json",
+          "sha256": "ba1d0a10a981804b0507d88423039aabb34f826d53ecc05cfb2b299767205f17",
+          "bytes": 656
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/007_slot_06_1739a47c/policy_input.json",
+          "sha256": "b2555c5bd10becf8ee4ed9ce90ddfb9141e1ecd6aed12978a598fbb6ee72818d",
+          "bytes": 1174
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/007_slot_06_1739a47c/result.json",
+          "sha256": "443f88a3ca24d371264962cca5ce499386cb2ee0fd98bf39d527b20de6705a1d",
+          "bytes": 6428
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/007_slot_06_1739a47c/observed_rgbd.npz",
+          "sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+          "bytes": 30107
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+          "sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+          "bytes": 548
+        },
+        "position_world_m": [
+          0.48,
+          0.06,
+          0.03079100090265274
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "motion executed; valid miss with no successful grasp; exceptions/other failure are not a correct negative"
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "object_id": "014",
+      "candidate_world": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.6232061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6232061266700227
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05687498174103041
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04427004097255749
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.0721001881117848,
+      "original_slot": {
+        "slot_id": 18,
+        "object_id": "014",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "miss",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "ca6cde76c24149a6af295d45e0650c97",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.01208788689431367,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/019_slot_18_ca6cde76/intent.json",
+          "sha256": "71bef38db5ef73eaadd908adaf0b4e1e9590680fa8a6d9e09571b69a41eecd67",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/019_slot_18_ca6cde76/policy_input.json",
+          "sha256": "6312c040bb82b8497344f323cbedce66826a34c3b213ac5519268d2ba6d2a1f9",
+          "bytes": 1174
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/019_slot_18_ca6cde76/result.json",
+          "sha256": "726dbd56004676d8cc0b1209272cad83c58e2561cb3a9f4b4eab50c3c5bd2b58",
+          "bytes": 6419
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/019_slot_18_ca6cde76/observed_rgbd.npz",
+          "sha256": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058",
+          "bytes": 30520
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+          "sha256": "e8fc9c87ed179c1beea91758e4727f0417b5eb94f272fe249fb54fdca64e65b2",
+          "bytes": 174015
+        },
+        "position_world_m": [
+          0.48,
+          -0.06,
+          0.03232400070130825
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "motion executed; valid miss with no successful grasp; exceptions/other failure are not a correct negative"
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "object_id": "017",
+      "candidate_world": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.6225720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.6225720225516049
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05720727490483328
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04390982392972809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.06965817974794884,
+      "original_slot": {
+        "slot_id": 34,
+        "object_id": "017",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "miss",
+        "yaw": 0.0
+      },
+      "original_attempt_id": "3256fc5fb95a450693c8114c9bad2d38",
+      "not_p3": true,
+      "height_adjustment_m_as_recorded": 0.014903531131342462,
+      "height_adjustment_source": "legacy result",
+      "check_stored_candidate_max_abs_error": 0.0,
+      "source_config": {
+        "project_relative": "configs/simulation_v52r2.json",
+        "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+        "bytes": 44807
+      },
+      "source_files": [
+        {
+          "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/intent.json",
+          "sha256": "16775cc35337a36635b51c6a65630982ca2503a1f5019745cb2c3109bb073c66",
+          "bytes": 658
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/policy_input.json",
+          "sha256": "b0f1b8c00cef96a2b75ec68acecd2f55b94976b60f135ff85bf6613f3b4b01bc",
+          "bytes": 1178
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/result.json",
+          "sha256": "8d93690091dc864b26b478fe183232c2a1207cdf508d42aea22e611c16e376c0",
+          "bytes": 6436
+        },
+        {
+          "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/observed_rgbd.npz",
+          "sha256": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+          "bytes": 30122
+        },
+        {
+          "project_relative": "scripts/sim_v52r2_episode.py",
+          "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+          "bytes": 20944
+        }
+      ],
+      "scene_setup_only": {
+        "urdf": {
+          "project_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+          "sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+          "bytes": 135234
+        },
+        "position_world_m": [
+          0.48,
+          -0.06,
+          0.02952899920940399
+        ],
+        "quaternion_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "lateral_friction": 0.6,
+        "restitution": 0,
+        "linear_damping": 0.04,
+        "angular_damping": 0.04,
+        "fixed_base": false
+      },
+      "accept": "motion executed; valid miss with no successful grasp; exceptions/other failure are not a correct negative"
+    }
+  ],
+  "no_score_export_or_comparison": true,
+  "policy": "manifest world candidate poses and held encoder references only; no object truth for any action, fixture identity only for post hoc evaluation",
+  "bench_scope": "Fourth empty stroke. No target, table, fixture or obstacle; no further run.",
+  "bench_contacts": "Empty world: any contact outside the single strictly monitored pad pair is a failure postfilter; filtered pairs must produce zero manifolds.",
+  "ids": "Attempts 1–4 are empty strokes without grasp candidates. Later original candidates stay historical only.",
+  "source_schedule_sha256": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50",
+  "revision_scope": "Four additional named sliding palm/finger interfaces filtered. Only attempt 4 is authorized, at most once.",
+  "prior_revision": "IP140_R1_smoke05_fixed_pad_mount_filter01",
+  "dynamic_q_band_m": [
+    -1e-05,
+    0.07001
+  ],
+  "command_q_m": [
+    0.0,
+    0.07
+  ],
+  "contact_numeric_zero_m": 1e-09,
+  "phase_rule": "Pre-filter capture static as-built mounting geometry, including measured historical wrist interface. After filters, no registered structural pair may create solver manifolds. Section 3 applies raw distance >= -1e-9 m and complete vector consistency to every postintegration closest query on the seven named gripper structural pairs including wrist–palm; no mounting-depth allowance in that test.",
+  "deferred_center": {
+    "prior_definition": {
+      "slot": 3,
+      "kind": "center",
+      "candidate_id": "IP140-BENCH-03:center",
+      "candidate_world": [
+        1.0,
+        0.1,
+        0.02,
+        0.02,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.5,
+        -0.06,
+        0.27,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.06
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.1,
+      "fixture": {
+        "full_sides_xyz_in_G_m": [
+          0.02,
+          0.04,
+          0.018
+        ],
+        "center_in_goal_G_m": [
+          -0.03,
+          0.0,
+          0.0
+        ],
+        "center_world_m": [
+          0.5,
+          -0.06,
+          0.28
+        ],
+        "R_W_fixture": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "fixed_to_world": true,
+        "base_mass_kg": 0.0,
+        "lateral_friction": 0.6,
+        "restitution": 0.0,
+        "rolling_friction": 0.0,
+        "spinning_friction": 0.0,
+        "margin_m": 0.0005,
+        "evaluation_class": "target_test_block"
+      },
+      "arm_pose": "from home; common pre-opening and approach; hold goal through close; end after 2s close",
+      "accept": "both pads in sustained independent external contact in final 100ms",
+      "unexpected_fixture_collisions_fail": true
+    },
+    "state": "deferred_engineering_budget_reallocation",
+    "assigned_new_slot": null
+  },
+  "approved_filter_order": [
+    "base_link_inertia|shoulder_link",
+    "shoulder_link|upper_arm_link",
+    "upper_arm_link|forearm_link",
+    "forearm_link|wrist_1_link",
+    "wrist_1_link|wrist_2_link",
+    "wrist_2_link|wrist_3_link",
+    "wrist_3_link|ip140_palm",
+    "ip140_left_bone|ip140_left_pad",
+    "ip140_right_bone|ip140_right_pad",
+    "ip140_palm|ip140_left_bone",
+    "ip140_palm|ip140_left_pad",
+    "ip140_palm|ip140_right_bone",
+    "ip140_palm|ip140_right_pad"
+  ],
+  "active_seam_criteria": {
+    "pair": [
+      "ip140_left_pad",
+      "ip140_right_pad"
+    ],
+    "scene_other_contact_rows": "any unregistered world contact is a failure irrespective of force or distance",
+    "min_d_m": -1e-09,
+    "closest_max_full_residual_m": 1e-09,
+    "solver_max_abs_normal_residual_m": 1e-09,
+    "solver_tangent_displacement": "record without numerical cutoff",
+    "max_abs_each_force_N": 1e-09,
+    "max_impulse_norm_Ns": 1e-12,
+    "closest_max_range_m": 0.002,
+    "closest_face_required": true
+  },
+  "arm_hold": {
+    "max_axis_abs_delta_q_rad": 0.01,
+    "max_axis_abs_dq_rad_s": 0.01,
+    "effort": "strictly below each frozen cap",
+    "max_tcp_drift_m": 0.005,
+    "max_tcp_drift_deg": 3,
+    "reference": "tool G relative to initial held home; save world pose every step"
+  },
+  "rail_band_scope": "The 10 micrometre dynamic slider readback band is 100 times smaller than the 1 mm physical opening tolerance. Commanded q must be strictly within the closed interval [0, 0.070] m. Observed q and physical pad geometry are checked independently and never clamped or reset.",
+  "deferred_offset_positive_y": {
+    "prior_definition": {
+      "slot": 4,
+      "kind": "offset_positive_y",
+      "candidate_id": "IP140-BENCH-04:offset_positive_y",
+      "candidate_world": [
+        1.0,
+        0.1,
+        0.02,
+        0.02,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.5,
+        -0.06,
+        0.27,
+        -1.0
+      ],
+      "T_W_G_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.06
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pre_open_m": 0.1,
+      "fixture": {
+        "full_sides_xyz_in_G_m": [
+          0.02,
+          0.04,
+          0.018
+        ],
+        "center_in_goal_G_m": [
+          -0.03,
+          0.01,
+          0.0
+        ],
+        "center_world_m": [
+          0.5,
+          -0.049999999999999996,
+          0.28
+        ],
+        "R_W_fixture": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "fixed_to_world": true,
+        "base_mass_kg": 0.0,
+        "lateral_friction": 0.6,
+        "restitution": 0.0,
+        "rolling_friction": 0.0,
+        "spinning_friction": 0.0,
+        "margin_m": 0.0005,
+        "evaluation_class": "target_test_block"
+      },
+      "arm_pose": "from home; common pre-opening and approach; hold goal through close; end after 2s close",
+      "accept": "right pad first, strictly earlier step than left; both sustained during final 100ms",
+      "unexpected_fixture_collisions_fail": true
+    },
+    "state": "deferred_due_engineering_budget_reallocation",
+    "assigned_new_slot": null
+  },
+  "source_authorization": {
+    "file": "approved_task.txt",
+    "sha256": "57fc804749ff6a8a2fb59bd202051a50eaf94f256e85f94524eedac2ee3f790a"
+  },
+  "required_completion": {
+    "steps": 4320,
+    "unknown": 0,
+    "stations": 9,
+    "tail_steps_per_station": 24,
+    "hard_violations": 0
+  }
+}

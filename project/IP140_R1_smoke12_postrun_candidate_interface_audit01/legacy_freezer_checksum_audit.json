@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "version": "IP140_R1_smoke01",
+      "file": "IP140_R1_smoke01/freeze_slots.py",
+      "actual_sha256": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "expected_sha256": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "expected_bytes": 10277,
+      "actual_bytes": 10277,
+      "passed": true,
+      "manifest_source": "IP140_R1_smoke01/SHA256SUMS.txt",
+      "manifest_copy": "sources/legacy/IP140_R1_smoke01/SHA256SUMS.txt",
+      "manifest_sha256": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794"
+    },
+    {
+      "version": "IP140_R1_smoke02_pathfix01",
+      "file": "IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "actual_sha256": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "expected_sha256": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "expected_bytes": 13895,
+      "actual_bytes": 13895,
+      "passed": true,
+      "manifest_source": "IP140_R1_smoke02_pathfix01/SHA256SUMS.txt",
+      "manifest_copy": "sources/legacy/IP140_R1_smoke02_pathfix01/SHA256SUMS.txt",
+      "manifest_sha256": "5ccc7e88af867b96151d9a49c951412fa405a995872381b668ebf13cf03bf436"
+    }
+  ]
+}

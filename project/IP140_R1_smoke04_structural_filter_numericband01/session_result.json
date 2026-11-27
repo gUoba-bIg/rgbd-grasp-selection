@@ -1,0 +1,10 @@
+{
+  "started": "2026-11-04T11:26:43.475065+00:00",
+  "slots": [
+    2
+  ],
+  "bench_entered": true,
+  "reason": "slot_2_failed_stop",
+  "ended": "2026-11-04T11:26:44.463332+00:00",
+  "retry": false
+}

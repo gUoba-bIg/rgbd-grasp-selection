@@ -1,0 +1,620 @@
+{
+  "version": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01",
+  "created_utc": "2026-11-06T06:04:20.942207+00:00",
+  "passed": true,
+  "all_checks_passed": true,
+  "mode": "pure offline preparation; no engine connection or physics",
+  "candidate_id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+  "parent_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+  "parent_slot": 7,
+  "slot": 14,
+  "old_candidate": [
+    1.0,
+    0.06898170991686796,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.48315334852869485,
+    0.06022028926381637,
+    0.06381280043712453,
+    -1.0
+  ],
+  "new_candidate": [
+    1.0,
+    0.06898170991686796,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.48315334852869485,
+    0.06022028926381637,
+    0.05103423788040806,
+    -1.0
+  ],
+  "npz_reconstructed_candidate": [
+    1.0,
+    0.06898170991686796,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.48315334852869485,
+    0.06022028926381637,
+    0.05103423788040806,
+    -1.0
+  ],
+  "two_path_max_abs_error": 0.0,
+  "changed_indices": [
+    15
+  ],
+  "element_comparison": [
+    {
+      "index": 0,
+      "old": 1.0,
+      "new": 1.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 1,
+      "old": 0.06898170991686796,
+      "new": 0.06898170991686796,
+      "same_binary_float64": true
+    },
+    {
+      "index": 2,
+      "old": 0.02,
+      "new": 0.02,
+      "same_binary_float64": true
+    },
+    {
+      "index": 3,
+      "old": 0.02,
+      "new": 0.02,
+      "same_binary_float64": true
+    },
+    {
+      "index": 4,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 5,
+      "old": 1.0,
+      "new": 1.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 6,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 7,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 8,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 9,
+      "old": -1.0,
+      "new": -1.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 10,
+      "old": -1.0,
+      "new": -1.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 11,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 12,
+      "old": 0.0,
+      "new": 0.0,
+      "same_binary_float64": true
+    },
+    {
+      "index": 13,
+      "old": 0.48315334852869485,
+      "new": 0.48315334852869485,
+      "same_binary_float64": true
+    },
+    {
+      "index": 14,
+      "old": 0.06022028926381637,
+      "new": 0.06022028926381637,
+      "same_binary_float64": true
+    },
+    {
+      "index": 15,
+      "old": 0.06381280043712453,
+      "new": 0.05103423788040806,
+      "same_binary_float64": false
+    },
+    {
+      "index": 16,
+      "old": -1.0,
+      "new": -1.0,
+      "same_binary_float64": true
+    }
+  ],
+  "delta_h_legacy_m": 0.012778562556716472,
+  "sources": [
+    {
+      "path": "IP140_R1_smoke12_slot07_base_table_mount_filter01/SHA256SUMS.txt",
+      "sha256": "bab65eaabbed65ddad90790c5fcaaf5a7a8f3c3d9dbf176ee1e96bc59eb63edb",
+      "bytes": 26213
+    },
+    {
+      "path": "IP140_R1_smoke12_postrun_candidate_interface_audit01/SHA256SUMS.txt",
+      "sha256": "b2658ce970785d735a35001d3ebe1325e30ea0742eabb2450519ab423510b072",
+      "bytes": 13143
+    },
+    {
+      "path": "IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json",
+      "sha256": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81",
+      "bytes": 46191
+    },
+    {
+      "path": "configs/simulation_v52r2.json",
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "bytes": 656
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "sha256": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "bytes": 1176
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "sha256": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "bytes": 6432
+    },
+    {
+      "path": "results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "bytes": 30107
+    },
+    {
+      "path": "scripts/sim_v52r2_episode.py",
+      "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "bytes": 20944
+    },
+    {
+      "path": "scripts/sim_v52_math.py",
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "bytes": 2832
+    },
+    {
+      "path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/model/manifest.json",
+      "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "bytes": 10393
+    },
+    {
+      "path": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/model/ur5e_ip140_r1.urdf",
+      "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "bytes": 15655
+    }
+  ],
+  "package_checks": [
+    {
+      "path": "IP140_R1_smoke12_slot07_base_table_mount_filter01/IP140_R1_smoke12_slot07_base_table_mount_filter01_审查包.zip",
+      "sha256": "741d4c3f2dc559a5fcbf9a36f5d0311177347edbdd30e984130e5fb50260687c",
+      "sidecar_sha256": "279f3e800ac8ea517d5a86a188e1c4a18d67c7b8e79b3714501a145bc83d3da5"
+    },
+    {
+      "path": "IP140_R1_smoke12_postrun_candidate_interface_audit01/IP140_R1_smoke12_postrun_candidate_interface_audit01_审查包.zip",
+      "sha256": "59f928436905d51d466224f07324b95147193ea8f62eb3e23aab68117a6d416d",
+      "sidecar_sha256": "11ad47f870554e52e9d5bd5ed8592db644888553c46ae1aea2d09d75a19537e3"
+    }
+  ],
+  "checks": [
+    {
+      "name": "package:IP140_R1_smoke12_slot07_base_table_mount_filter01",
+      "passed": true,
+      "actual": "741d4c3f2dc559a5fcbf9a36f5d0311177347edbdd30e984130e5fb50260687c",
+      "expected": "741d4c3f2dc559a5fcbf9a36f5d0311177347edbdd30e984130e5fb50260687c"
+    },
+    {
+      "name": "package:IP140_R1_smoke12_postrun_candidate_interface_audit01",
+      "passed": true,
+      "actual": "59f928436905d51d466224f07324b95147193ea8f62eb3e23aab68117a6d416d",
+      "expected": "59f928436905d51d466224f07324b95147193ea8f62eb3e23aab68117a6d416d"
+    },
+    {
+      "name": "new_input_is_exact_smoke12_copy",
+      "passed": true
+    },
+    {
+      "name": "parent_identity",
+      "passed": true
+    },
+    {
+      "name": "sha:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "sha:results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "passed": true,
+      "actual": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "expected": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124"
+    },
+    {
+      "name": "sha:results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "passed": true,
+      "actual": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "expected": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f"
+    },
+    {
+      "name": "sha:results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "passed": true,
+      "actual": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "expected": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9"
+    },
+    {
+      "name": "sha:results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "passed": true,
+      "actual": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "expected": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1"
+    },
+    {
+      "name": "sha:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "sha:scripts/sim_v52_math.py",
+      "passed": true,
+      "actual": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "expected": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02"
+    },
+    {
+      "name": "pure_math_definition_names",
+      "passed": true
+    },
+    {
+      "name": "no_import_in_selected_functions",
+      "passed": true
+    },
+    {
+      "name": "source_delta_exact",
+      "passed": true,
+      "actual": 0.012778562556716472
+    },
+    {
+      "name": "source_policy_equals_parent",
+      "passed": true
+    },
+    {
+      "name": "two_path_candidate_max_error",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "observation_identity",
+      "passed": true
+    },
+    {
+      "name": "only_candidate_index15_changes",
+      "passed": true,
+      "changed_indices": [
+        15
+      ]
+    },
+    {
+      "name": "all_other_npz_elements_binary_equal",
+      "passed": true
+    },
+    {
+      "name": "frozen_tz_and_new_tz",
+      "passed": true
+    },
+    {
+      "name": "finite_candidate",
+      "passed": true
+    },
+    {
+      "name": "new_G_z",
+      "passed": true,
+      "actual": 0.03103423788040806
+    },
+    {
+      "name": "sha:IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/model/ur5e_ip140_r1.urdf",
+      "passed": true,
+      "actual": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "expected": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b"
+    },
+    {
+      "name": "mount_070",
+      "passed": true
+    },
+    {
+      "name": "flange_G_roundtrip",
+      "passed": true,
+      "translation_error_m": 3.469446951953614e-18,
+      "rotation_error_rad": 0.0
+    },
+    {
+      "name": "candidate_G_roundtrip",
+      "passed": true,
+      "max_abs_error_m": 0.0
+    },
+    {
+      "name": "tip_initial_relative_height",
+      "passed": true,
+      "actual_m": 0.000243236977755322
+    },
+    {
+      "name": "nominal_component_table_clearance",
+      "passed": true,
+      "actual_m": 0.03103423788040806
+    },
+    {
+      "name": "historical_slots_verbatim_preserved",
+      "passed": true
+    },
+    {
+      "name": "trajectory_new_identity",
+      "passed": true
+    },
+    {
+      "name": "fresh_plan_joint_knots_changed",
+      "passed": true
+    },
+    {
+      "name": "trajectory_structure_preserved",
+      "passed": true
+    },
+    {
+      "name": "complete_4728_plan_reference_count",
+      "passed": true,
+      "actual": 4728
+    },
+    {
+      "name": "IK_target_roundtrip:transit",
+      "passed": true,
+      "translation_error_m": 1.2576071545399075e-13,
+      "rotation_error_rad": 4.28920463137961e-14
+    },
+    {
+      "name": "IK_target_roundtrip:pregrasp",
+      "passed": true,
+      "translation_error_m": 4.283266569816571e-11,
+      "rotation_error_rad": 1.4756120076158136e-11
+    },
+    {
+      "name": "IK_target_roundtrip:approach",
+      "passed": true,
+      "translation_error_m": 1.6332927412863248e-13,
+      "rotation_error_rad": 5.404198480288536e-14
+    },
+    {
+      "name": "IK_target_roundtrip:lift",
+      "passed": true,
+      "translation_error_m": 6.9370362331114405e-12,
+      "rotation_error_rad": 9.924973167418393e-13
+    }
+  ],
+  "pure_function_definition_lines": [
+    {
+      "name": "unproject",
+      "first_line": 21,
+      "last_line": 30
+    },
+    {
+      "name": "observed_proposal",
+      "first_line": 32,
+      "last_line": 49
+    }
+  ],
+  "observation": {
+    "point_count": 214,
+    "bbox_min": [
+      0.4581240067010732,
+      0.035218870983497096,
+      0.031879213608702474
+    ],
+    "bbox_max": [
+      0.5081826903563165,
+      0.08522170754413565,
+      0.05642588705528737
+    ],
+    "estimated_object_width_m": 0.05398170991686796,
+    "contact_center_world": [
+      0.48315334852869485,
+      0.06022028926381637,
+      0.031034237880408058
+    ],
+    "policy_inputs": "observed depth point cloud, fixed table/workspace, fixed requested yaw; no body pose or instance/physics labels"
+  },
+  "old_G": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.48315334852869485
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.06022028926381637
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.04381280043712453
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_G": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.48315334852869485
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.06022028926381637
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.03103423788040806
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_flange_pose": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.48315334852869485
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.06022028926381637
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.10103423788040806
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "roundtrip": {
+    "translation_error_m": 3.469446951953614e-18,
+    "rotation_error_rad": 0.0
+  },
+  "tip_relative_initial_object_center_m": 0.000243236977755322,
+  "static_component_clearance_m": {
+    "ip140_palm": 0.09103423788040807,
+    "ip140_left_bone": 0.03103423788040806,
+    "ip140_left_pad": 0.03103423788040806,
+    "ip140_right_bone": 0.03103423788040806,
+    "ip140_right_pad": 0.03103423788040806
+  },
+  "minimum_static_component_clearance_m": 0.03103423788040806,
+  "static_clearance_scope": "nominal IP140 boxes only at fixed target, without collision-margin or entire-path claim",
+  "plan_validation": {
+    "reference_count": 4728,
+    "all_references_finite": true,
+    "all_joint_position_velocity_limits": true,
+    "finger_command_range_m": [
+      0.0,
+      0.03449085495843398
+    ],
+    "max_abs_qdot_rad_s": [
+      0.4441701460307253,
+      0.17114229988482038,
+      0.1671380063216176,
+      0.2823098915995453,
+      7.302012328125329e-08,
+      0.49830766192597054
+    ],
+    "max_adjacent_command_delta_rad": [
+      0.001850702087317302,
+      0.000713090275101802,
+      0.0006964057803833246,
+      0.0011762868583640174,
+      3.042492924265616e-10,
+      0.002076274234758646
+    ],
+    "IK_target_errors": [
+      {
+        "phase": "transit",
+        "translation_error_m": 1.2576071545399075e-13,
+        "rotation_error_rad": 4.28920463137961e-14
+      },
+      {
+        "phase": "pregrasp",
+        "translation_error_m": 4.283266569816571e-11,
+        "rotation_error_rad": 1.4756120076158136e-11
+      },
+      {
+        "phase": "approach",
+        "translation_error_m": 1.6332927412863248e-13,
+        "rotation_error_rad": 5.404198480288536e-14
+      },
+      {
+        "phase": "lift",
+        "translation_error_m": 6.9370362331114405e-12,
+        "rotation_error_rad": 9.924973167418393e-13
+      }
+    ],
+    "plan_sha256": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f",
+    "plan_regenerated_not_reused": true,
+    "references_json_sha256": "84510266c229901f89bff78c0af6d32a3485c618fd36a26e99a2ca6081b51dbf"
+  },
+  "historical_parent_unchanged_sha256": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81",
+  "new_preregistration_sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+  "physical_steps": 0,
+  "charges": 0
+}

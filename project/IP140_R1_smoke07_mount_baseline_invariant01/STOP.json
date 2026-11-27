@@ -1,0 +1,28 @@
+{
+  "version": "IP140_R1_smoke07_mount_baseline_invariant01",
+  "finished_session_utc": "2026-11-05T01:23:12.076293+00:00",
+  "decision": "slot_5_passed_review_stop",
+  "physics_connection_closed": true,
+  "zero_passed": true,
+  "slot_started": [
+    5
+  ],
+  "slot_passed": true,
+  "this_version_step_returns": 4320,
+  "unknown_this_version": 0,
+  "first_violation": null,
+  "retries": 0,
+  "cumulative_charges": 5,
+  "remaining_budget": 7,
+  "remaining_authorized_now": [],
+  "success_scope": "One empty full-stroke engineering attempt only. Object execution and algorithm performance untested.",
+  "evidence_sha256": {
+    "slot_ledger.json": "4575579c79d96f2a223d1d0981aad8c0139762e73c1f204c656684b1f1094851",
+    "zero_readback.json": "4d358733f898534f1468cf7de5847732d65579402fde4c14bd6a48be1f3d3c69",
+    "offline_gate_replay.json": "8a5a4be174d6ffa181ac61a34ff1b2a6465b51a2f5354daf80da59b16474790c",
+    "episodes/05/result.json": "ef46ca39ef35ac4097f9d3ebbd96b636c1000911ba1e764486e9fb2b07a5783f",
+    "episodes/05/telemetry.jsonl.gz": "e06a40cc844c6563591b5db794514034e5263631d7b13d62ab74898f027a90e0",
+    "full_api/calls.jsonl.gz": "f069f68f199e3a467acf20506a73579b5da1382429925b85d0b10265d590c422",
+    "station_summary.json": "a76d2eb7f609f80be7b6f32fceaa25a177cff969d56e7d513782b1f789699c91"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+  "finished_utc": "2026-11-08T10:47:50.583162+00:00",
+  "workers": [
+    {
+      "slot": 8,
+      "exit_code": 0,
+      "session": {
+        "version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+        "slot": 8,
+        "object_id": "014",
+        "kind": "nominal",
+        "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+        "starts_before": 9,
+        "starts_after": 10,
+        "remaining_after": 4,
+        "total_budget": 14,
+        "charged": true,
+        "batch_can_continue": true,
+        "at": "2026-11-08T10:39:48.233668+00:00",
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": true,
+        "phase": "dynamic_episode",
+        "static_snapshots_completed": 4728,
+        "static_first_failure": null,
+        "stop": "engineering_complete",
+        "slot_passed": true,
+        "grasp_success": true,
+        "episode_sha256": "2e2db2f005d80cf911d8c808eef75adf1e07176fc7143d4ce8c7ba0dd0ee1e3c",
+        "actual_step_calls": 4728,
+        "actual_step_returns": 4728,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T10:46:32.468577+00:00"
+      }
+    },
+    {
+      "slot": 9,
+      "exit_code": 2,
+      "session": {
+        "version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+        "slot": 9,
+        "object_id": "017",
+        "kind": "nominal",
+        "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+        "starts_before": 10,
+        "starts_after": 10,
+        "remaining_after": 4,
+        "total_budget": 14,
+        "charged": false,
+        "batch_can_continue": false,
+        "at": "2026-11-08T10:46:34.615181+00:00",
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": false,
+        "phase": "static_zero_and_path",
+        "static_snapshots_completed": 2759,
+        "static_first_failure": {
+          "snapshot": 2759,
+          "phase": "close",
+          "phase_tick": 23,
+          "violations": [
+            "reference:robot_target:28:witness:entry_witness_outside_registered_effective_face",
+            "proxy:robot_target:28:witness:entry_witness_outside_registered_effective_face"
+          ]
+        },
+        "stop": "shared_engineering_stop",
+        "error": "ValueError('static admission failed')",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01\\run_authorized.py\", line 184, in main\n    raise ValueError(\"static admission failed\")\nValueError: static admission failed\n",
+        "actual_step_calls": 0,
+        "actual_step_returns": 0,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T10:47:50.485988+00:00"
+      }
+    }
+  ],
+  "charged": 1,
+  "cumulative_starts": 10,
+  "remaining": 4,
+  "following_slots_not_entered": [
+    10,
+    11,
+    12
+  ],
+  "retries": 0
+}

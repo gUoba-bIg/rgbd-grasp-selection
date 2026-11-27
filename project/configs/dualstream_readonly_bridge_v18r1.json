@@ -1,0 +1,52 @@
+{
+  "acceptance_interpreter": "runtime/envs/grasp_eval/Scripts/python.exe",
+  "failure_evidence": {
+    "docs/\u7b2c\u5341\u516b\u8f6e\u6700\u7ec8\u53ea\u8bfb\u5165\u53e3\u8865\u5145\u4fee\u8ba2\u8bf4\u660e.txt": "39c502b6ffd60cd6b541cf830c67c496a030fea74ed1b351426c598749f7aea5",
+    "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/component_tests_initial.stderr.log": "adee8b0251963a7c2f13e8d58299c5400dbe785f3648ccf384498ba37ee99659",
+    "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/component_tests_initial.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/component_tests_review.stderr.log": "136a1c4b099cbefb689341420ee75d333c7108730f62d351c612d58cf583359e",
+    "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/component_tests_review.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/independent_review.json": "e050b3648376233f9418e8f0363edaa2983ec395a6b0bbc5db2e0ca4b35569bd",
+    "logs/P4/dualstream_evaluation_v18/readonly_entry_failure_v18.json": "56b211c48b11f9668f1e8a06a99421199ee86fc6664e74deecc97c21330f48ff",
+    "logs/P4/dualstream_evaluation_v18/readonly_identity_diagnostic_dpython_v18r1.json": "eebaa67656b2b7b162b14636661900fb64e807771232dc2d06a3c23239e45f67",
+    "logs/P4/dualstream_evaluation_v18/readonly_identity_diagnostic_grasp_eval_v18r1.json": "ad32b325c3b8cb1572516c990af2deb07c2badacb9408ca5f1cd7d70699d954e",
+    "logs/P4/dualstream_evaluation_v18/readonly_preflight_failure_20261027T0514.json": "0ac9bdafee64da570892b809d24c51714e85d1c4d91afdb3c6567f1d840efad5",
+    "logs/P4/dualstream_evaluation_v18/readonly_preflight_failure_20261027T0514.stderr.log": "bb030f23850652a64bde0dbede675856d65ec7be7108c14149e31e47f32cc175"
+  },
+  "input_hashes": {
+    "configs/dualstream_evaluation_v18.json": "007fba530418fd815380557bfb00847b25deb16b797ba7c2ae3933d1c977c2f0",
+    "results/P4/dualstream_evaluation_v18_acceptance.json": "c892b21b5a5097e4868f599e1d18cb0fd36d7db6a056f7a19b56445368303a82",
+    "results/P4/dualstream_evaluation_v18_acceptance.json.sha256.json": "7c0b522afc0f5802a0d37004f7f921a0cf325562b609e1385f4091694a864976"
+  },
+  "interpreter_sha256": {
+    "acceptance": "fc9188d3eb84b0c8849da5987ea9e7802486a09afadb672dcd9cae9e64149076",
+    "pipeline": "5da31132fd6a415e71e3fd40c3a23853a799b91ea2821d2bcbf1bf0e8fa01e16"
+  },
+  "logs": "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1",
+  "pipeline_interpreter": "D:\\python\\python.exe",
+  "pipeline_python_version": "3.7.3",
+  "proof": "logs/P4/dualstream_evaluation_v18/readonly_bridge_v18r1/proof.json",
+  "protocol": "configs/dualstream_evaluation_v18.json",
+  "resources": {
+    "cpu_threads": 4,
+    "disk_reserve_bytes": 64424509440,
+    "gpu_allocated_soft_bytes": 14495514624,
+    "gpu_reserved_soft_bytes": 14495514624,
+    "invocation_soft_seconds": 1800,
+    "output_limit_bytes": 12884901888,
+    "rss_soft_bytes": 4294967296
+  },
+  "revision": "readonly_bridge_v18r1",
+  "schema": 18,
+  "source_hashes": {
+    "scripts/accept_dualstream_evaluation_v18.py": "e9e1e7fce02a8ac93bbdf27e5bae7f0a95854408464c285b0fea2419f82f217b",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "scripts/verify_dualstream_evaluation_readonly_v18.py": "f064405305c3fa9b93a15a9d415143662e42ddd3918f8b121b9b119079e26480",
+    "scripts/verify_dualstream_readonly_bridge_v18r1.py": "1460cd97f9249d604e8a97e65988eafcfc9a1d848eb7c2945a559784f74f04ac",
+    "scripts/verify_pipeline_readonly_identity_v18r1.py": "a1d2feaf39167ca04bcca9b7011974d7887e83a6eef6c21505104b3c9ac4342b",
+    "tests/test_dualstream_readonly_bridge_v18r1.py": "1fe3b6ddc239bf9276aedd76c64d245767ca564dcd084ff555f83b69a2809a2c",
+    "tests/test_dualstream_readonly_v18.py": "f208c037f68044e73e1dfbba0becf1b7a94a35b6d252d4358c3dd877daf3d401"
+  },
+  "stage": "P4E18",
+  "status": "frozen"
+}

@@ -1,0 +1,19 @@
+{
+  "sequence": 1,
+  "method": "setCollisionFilterPair",
+  "pair": [
+    "base_link_inertia",
+    "shoulder_link"
+  ],
+  "args": [
+    0,
+    0,
+    1,
+    2,
+    0
+  ],
+  "kwargs": {
+    "physicsClientId": 0
+  },
+  "started_utc": "2026-11-08T13:39:16.353824+00:00"
+}

@@ -1,0 +1,8 @@
+{
+  "pid": 263180,
+  "at": "2026-11-06T09:05:06.044220+00:00",
+  "identity_sha256": "287aa1c8788dc71eb442b47f9a365911e55e1cf4f45192433ed6c2ceff8d09f7",
+  "static_connections_allowed": 1,
+  "physical_steps_allowed": 0,
+  "slots_allowed": []
+}

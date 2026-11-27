@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-27T12:15:49.030755+08:00",
+  "source_sha256": "76c3f4fd56e96053be20b496b75103448c91c5494695a95a2a0abcfce70b823d",
+  "required": [
+    "training_and_export.json",
+    "rgb_full_development.json",
+    "rgbd_full_development.json",
+    "selection.json",
+    "evaluation/metrics.json",
+    "evaluation/readonly.json",
+    "evaluation/figures/index.json",
+    "representative_link/result.json",
+    "representative_link/readonly.json"
+  ],
+  "prior_progress": "logs/P4/baseline_grasp_link_v21/progress_after_trial.json",
+  "prior_progress_sha256": "fca132ce125a050b464b2d9232f8ba077646a48aa1b2399471bb25190ceed916",
+  "scope": "P4 stable development baseline part: paired RGB/RGBD at640x480, fixed320train/160development, stable/valid segmentation, complete official visible-mask AP and error visualization, and representative20view candidate interface. Official full-data grasp performance is P3/P8-P10 and is not completed here.",
+  "gates": "All frozen v22r1 scientific gates and complete independent segmentation/AP and representative-linkage acceptance. Source unchanged, exact matched-arm model selection and budget accounting. No threshold relaxation.",
+  "credit": {
+    "stable_baseline_closure": 2,
+    "representative_linkage": 1,
+    "maximum_all_tasks": 29,
+    "maximum_experiments": 36.25,
+    "no_new_total_weight": true
+  },
+  "boundaries": [
+    "No independent held-out generalization because development scenes repeatedly inspected",
+    "Single paired seed and matched model-only warm start; not P9 formal multi-seed training",
+    "R18 dual-stream zero-instance negative result unchanged; ordinary-fusion replacement does not prove quality gating",
+    "Official grasp checkpoint exposure unknown; candidate linkage is engineering-only, all new geometry outcomes unmeasured",
+    "P4 part may finish without RGBD outperforming RGB; no automatic P5 or P9 run"
+  ],
+  "stop_policy": "After whole-P4 delivery, stop and await user confirmation for next main part; automation remains absent; original pipeline/state.json is not manually edited."
+}

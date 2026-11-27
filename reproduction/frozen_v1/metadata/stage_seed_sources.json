@@ -1,0 +1,44 @@
+{
+  "R6FORMAL-001": {
+    "forward": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/forward/formal-017-p2-r03-joint/dispatch.json",
+      "24a860913de96f7cdf00a5c17885ea7e5e439ff2058716452b6f1b90954fc662"
+    ],
+    "method": [
+      "R6FORMAL-001",
+      "02b3a5de3ba32f3548ed27bb19e1ad5140e0cc2fcca93f42e3f421df0b4a5d3b"
+    ],
+    "rank": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/rank/formal-017-p2-r03-joint/dispatch.json",
+      "c9e3c9bf7db364a59136ce7aa40953ec537b8f268c5f257c64bd8d5d0e663954"
+    ]
+  },
+  "R6FORMAL-004": {
+    "forward": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/forward/formal-021-p1-r09-joint/dispatch.json",
+      "d0ab2da7487f6296f1d5e51e8a26ea96d589a350c4ae62a71f77e6b02de6b1d1"
+    ],
+    "method": [
+      "R6FORMAL-004",
+      "71bb28db862ee198f799f4e5662d73e2ffe8a7512cef8f79e77ece52aafa7528"
+    ],
+    "rank": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/rank/formal-021-p1-r09-joint/dispatch.json",
+      "1ccbd83ebf20f4e065ba463b0ec049c8c92f386c015846b43cadc0db6376bfef"
+    ]
+  },
+  "R6FORMAL-007": {
+    "forward": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/forward/formal-014-p3-r03-clean/dispatch.json",
+      "2501ca5e08652bfb45775d6db733922f2463ab06fcf6370110b1308e514aa38c"
+    ],
+    "method": [
+      "R6FORMAL-007",
+      "2e45c7a00031b35b11c0eff6d1f34e6481f865ef942c47ea4114766d30f703c0"
+    ],
+    "rank": [
+      "IP140_R2_R6formal720_raw_a_c0_paired01/run/jobs/rank/formal-014-p3-r03-clean/dispatch.json",
+      "e9a5189a1c0109c4376cec3058f8a2b7af4edf7c71750acfb2e4a8af1b655ba3"
+    ]
+  }
+}

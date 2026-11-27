@@ -1,0 +1,443 @@
+{
+  "schema": 14,
+  "purpose": "four_correlated_training_views_full_cloud_grasp_baseline",
+  "frozen_date_local": "2026-10-24",
+  "frames": [
+    "0016",
+    "0080",
+    "0160",
+    "0240"
+  ],
+  "scene_id": 3,
+  "camera": "realsense",
+  "seed": 20261021,
+  "num_points": 20000,
+  "maximum_depth_m": 2,
+  "object_ids": [
+    2,
+    21,
+    22,
+    41,
+    43,
+    44,
+    52,
+    60,
+    62
+  ],
+  "models_root": "data/raw/grasp_geometry_v10",
+  "camera_poses_path": "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/camera_poses.npy",
+  "cam0_wrt_table_path": "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/cam0_wrt_table.npy",
+  "checkpoint": {
+    "path": "checkpoints/pretrained/checkpoint-rs.tar",
+    "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+    "weights_only": true,
+    "strict": true
+  },
+  "interpreters": {
+    "vision": "runtime/envs/vision/Scripts/python.exe",
+    "grasp_eval": "runtime/envs/grasp_eval/Scripts/python.exe"
+  },
+  "runtimes": {
+    "vision": {
+      "python": "3.12.14",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "pillow": "11.3.0"
+    },
+    "grasp_eval": {
+      "python": "3.12.14",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "pillow": "11.3.0"
+    }
+  },
+  "model_runtime": {
+    "torch": "2.6.0+cu126",
+    "torchvision": "0.21.0+cu126",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  },
+  "frame_inputs": {
+    "0016": {
+      "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0016.png",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat",
+      "annotation": "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0016.xml"
+    },
+    "0080": {
+      "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0080.png",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat",
+      "annotation": "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0080.xml"
+    },
+    "0160": {
+      "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0160.png",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat",
+      "annotation": "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0160.xml"
+    },
+    "0240": {
+      "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0240.png",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat",
+      "annotation": "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0240.xml"
+    }
+  },
+  "generation_inputs": {
+    "0016": {
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0016.png": "429dc4b3085da9dd43cecca8b8508c5004b124f76ffb30b81ade34db59a82152",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png": "239f666cce34da79e8c95e54a900a8cf1f45f7f17105fceb70fccdd46c765983",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat": "b13bf00d7482695f9be6d61f2e1623e816112247597488a95ef4fbd6d540ed2b"
+    },
+    "0080": {
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0080.png": "37224b77914f83d80d9029a60c89e1efffe7f3b332c391caaa1f43b52cb96c49",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png": "289e4d741848ba05b9b958b972d97b21598b77cbf290af3ce19a94a6a0fb697e",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat": "caa5118d2c7b97f55b25438f19efa23a203ea4e6814e2803afdec3942f798cd0"
+    },
+    "0160": {
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0160.png": "936a71a0daafe4b49d6bbb3178472744fa837572ad2c1c2fe34876e864e5a6b6",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png": "5976addd527917aea8e703ae67faf9c875f7d743b5b72489b1371c2a4a0bdb38",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat": "cc0a613ac78fef71c024fe717853069853def9d1cc9378453eeeeeed0fa678bc"
+    },
+    "0240": {
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0240.png": "6a566e653025ba594b0ad3198eb4187fbdf891a18ab6f151f9d490be7dd0e0b2",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png": "be0129f71f32ec9297ee5e788aa4d8a5a1cd2b1a3fd9cb01c33c311a2435ed9b",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat": "a584d50dbfc8d8a57b41b6b4b3cf791dcc0230b851f1353dd88f5589ba30019e"
+    }
+  },
+  "generation_shared_inputs": {
+    "checkpoints/pretrained/checkpoint-rs.tar": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+    "data/manifests/scene_splits.json": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+    "runtime/build/graspnet/dataset/generate_tolerance_label.py": "1eef473a6299bb0260b85ff73e5cf097a8be05cc0965cbc89fedafad2557731f",
+    "runtime/build/graspnet/dataset/graspnet_dataset.py": "7e2306fade2d7f063a49b18c8293c4ec18478d172051554283d34a539773e9d4",
+    "runtime/build/graspnet/demo.py": "04b648a7d301f99028b1e18ec5c7b66c6816ad7784fc30a455d4f5b58e6df205",
+    "runtime/build/graspnet/knn/build/lib.win-amd64-cpython-312/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+    "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+    "runtime/build/graspnet/knn/setup.py": "bd1c0471ddb6a51b78c7c0304357dc241abd16618c387c513e9dc781290d0212",
+    "runtime/build/graspnet/knn/src/cpu/knn_cpu.cpp": "b958a062c759137e3c16c023346383f286bdea07fcf1c31d16a2649d8aa6b44e",
+    "runtime/build/graspnet/knn/src/cpu/vision.h": "539a4f0a11c25b2b3b9faf613eb7e81495eb4189097f44c2f9b64a930fb4a554",
+    "runtime/build/graspnet/knn/src/cuda/knn.cu": "aefe8b4d697ccc8c7f63b5fe4db005dbaed42b089b574f105a5f66dfc3dee2b1",
+    "runtime/build/graspnet/knn/src/cuda/vision.h": "c1619e75dd3a438731e16f8f12c4082cf1b67c88cc6dd0f4ae71dc49bed8a20e",
+    "runtime/build/graspnet/knn/src/knn.h": "7415b623db66b378e3cb466c22931362cf568ede6d24cf39bd70aae0a15f8690",
+    "runtime/build/graspnet/knn/src/vision.cpp": "6dc9c9b0e0b6a905077c9bf569d7f8c0e612875d351310403adcfc4619591534",
+    "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+    "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+    "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+    "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/ball_query.h": "0471321f53fffd783eb485543c63855944be2eccd4647e8d0a8cdd1b92eb7610",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/cuda_utils.h": "aa4f02d9bebf4335d5cb7209f7a087e167861a8fc6d2a4d165fcb16c58610c75",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/cylinder_query.h": "8be194a3b24946806a9f1c96b1e7e7ba90a2964fa38a0d0de5a49bb530ac2695",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/group_points.h": "a0484f9512e2192c1448fc8bc6ef551dd2603be4e68fede163661d0e8f6a6204",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/interpolate.h": "cf5b7e9d6eab01efc62a70f0f18f53d3ce13a28f384583f3b790ccfe293a0ad7",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/sampling.h": "0b4b5deff23735f5976bc738106fbd025a382eda64e110d6aaaba46f0ccc98d8",
+    "runtime/build/graspnet/pointnet2/_ext_src/include/utils.h": "57fd2d739f1e3e9030732fff4ba58aa6a0fafaf7d160fd5ffac5c358729df7e4",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query.cpp": "a9318c1160eebd3db834481def938ee757d9c178597c50c82dc95f944cff1125",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query_gpu.cu": "fe9c25682c20c1b8b49a934bf1f6a7aa5e96543bf70fc6f91fb51b3b9ac2efbc",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/bindings.cpp": "7f96f6463dbb478cdc83e674db14733fd9b8f52e28956ee8a0d1be385b40c3c8",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query.cpp": "9b125d627d51aa04f2ea21e51220baeca78fe81b4a7d5cfa3dd55092226a48e3",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query_gpu.cu": "f5bc80342ff9907ad44df29d4c3d251d827fdb8d015b2b478ae848cabbd9902f",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/group_points.cpp": "802bf2717094d7a381a426aec3fcf0722c7f4f1592f9d32e67d8f32fe1b76961",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/group_points_gpu.cu": "eeb6172b7b9fe3bd74ae78c18bda14c56558f6cf0b36ba2ab8ece65b10165333",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate.cpp": "fcbf7e5e68fa04dbf232e21757b87133c1e99a9e8b5d5155ad5bd3158836deb4",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate_gpu.cu": "f79234241609430e1a352c1ddf7c6eebbcaf241a3205fb3bae580b30a9bac625",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/sampling.cpp": "eca9be390a495b20442a7cf7a1af0bbbbb3995933f2c95abb748bc1e1e5879e4",
+    "runtime/build/graspnet/pointnet2/_ext_src/src/sampling_gpu.cu": "1be6b19ebc60403809c4e7907c53e8da6d2cbb3ad129af4f09b4c7e54791ff28",
+    "runtime/build/graspnet/pointnet2/build/lib.win-amd64-cpython-312/pointnet2/_ext.cp312-win_amd64.pyd": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd",
+    "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+    "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+    "runtime/build/graspnet/pointnet2/pytorch_utils.py": "e0e7fdd540f6437d922736240f9086870d432ea336122d3a90f88d38d67c8fb9",
+    "runtime/build/graspnet/pointnet2/setup.py": "ee4faaabdf62b32635143481ae5c260797cbf9ba3ae47b0a86cf8da8936c16ab",
+    "runtime/build/graspnet/test.py": "63186c12a6c6f5fa8d27129a7895eae568d05b35ed1a1fbb60d520b7443b8c41",
+    "runtime/build/graspnet/train.py": "94d7ebbb6c1259619296f0e47f8c4fb9b669be5a7096546111e77d3e68535157",
+    "runtime/build/graspnet/utils/collision_detector.py": "c8776ae298e2fa1972e94989074c7227467f37803c02217e950eefb0bae74bc8",
+    "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+    "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+    "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+    "runtime/envs/vision/Lib/site-packages/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+    "runtime/envs/vision/Lib/site-packages/pointnet2/_ext.cp312-win_amd64.pyd": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd"
+  },
+  "geometry_inputs": {
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat": "b13bf00d7482695f9be6d61f2e1623e816112247597488a95ef4fbd6d540ed2b",
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat": "caa5118d2c7b97f55b25438f19efa23a203ea4e6814e2803afdec3942f798cd0",
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat": "cc0a613ac78fef71c024fe717853069853def9d1cc9378453eeeeeed0fa678bc",
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat": "a584d50dbfc8d8a57b41b6b4b3cf791dcc0230b851f1353dd88f5589ba30019e",
+    "data/raw/grasp_geometry_v10/models/002/nontextured.ply": "65d7dbddbd9519119e7b23eeb3259c26bb79619326a1f46acedc8537ee35164a",
+    "data/raw/grasp_geometry_v10/models/002/textured.obj": "67dc8e513799b78de2917194c246dfbd2e774699d27a1bcced76c886beda9073",
+    "data/raw/grasp_geometry_v10/models/002/textured.sdf": "cf51bd20609c98b5540cac6963d5bd943dfc34d426ff2d879da8bc0a8e40ff18",
+    "data/raw/grasp_geometry_v10/models/021/nontextured.ply": "361626d75eb7e60a6d128b4e68a6d08b1890d2e73669e32ad08fb2640b882e74",
+    "data/raw/grasp_geometry_v10/models/021/textured.obj": "0a2b8fbac3623d91de3552bb54ba11d43011fc045c9d1b659a710e971f1de031",
+    "data/raw/grasp_geometry_v10/models/021/textured.sdf": "ecab4ebca594fe9cbc386268eeb55bb19ab3474c986bb38d356b483cfd6a4c21",
+    "data/raw/grasp_geometry_v10/models/022/nontextured.ply": "68ad72f7cb01f2776e761e14c853b26ead6b1afbc6a4578144b8509dfdee2ddc",
+    "data/raw/grasp_geometry_v10/models/022/textured.obj": "eea463361c66b41f77c839c0a57d016e0033ce5da0a8a6851410e9b93f4fd185",
+    "data/raw/grasp_geometry_v10/models/022/textured.sdf": "abd0e80529fbfa800cd154227d5fa70819b1f9a2c18941c93cfc6b27f6c6263e",
+    "data/raw/grasp_geometry_v10/models/041/nontextured.ply": "4b5823b39d23fbe665ad4d9e34decbad49f09ad9fc81725bc79dd490e344c988",
+    "data/raw/grasp_geometry_v10/models/041/textured.obj": "8c9c849a4aed893df7dfb48464e6aa1a2876d8e01a7f482cca0f39a6bc49d69e",
+    "data/raw/grasp_geometry_v10/models/041/textured.sdf": "33ccb15b64fd6c5079e88577cf519feaeb07c562fabec0850a7d739e16d37a45",
+    "data/raw/grasp_geometry_v10/models/043/nontextured.ply": "03a8007f872dda288aa5cafb8fdb31045d3ce78986952988cadb3dffb0efd10a",
+    "data/raw/grasp_geometry_v10/models/043/textured.obj": "3426fcf4ba0ef3d14c1db6e6eb6b43d2874ff2af628f9c968e6bb43ac91b9961",
+    "data/raw/grasp_geometry_v10/models/043/textured.sdf": "2dc1016a8a348180ff8f0b4d440eb680be365f88257eded42b8760bf686a4e70",
+    "data/raw/grasp_geometry_v10/models/044/nontextured.ply": "e4370d59e6ce1eda8365b937c60ab1975a02be6f847458f2f1ccc77f290f106c",
+    "data/raw/grasp_geometry_v10/models/044/textured.obj": "c380ebdf835b451233032a257383ee1ded7a911d4bdb927a6d2b72df6b13f5bb",
+    "data/raw/grasp_geometry_v10/models/044/textured.sdf": "b5f034fb226f8a8d71a50057de50253a9e95bb84c2789b3e5b498a3aed940682",
+    "data/raw/grasp_geometry_v10/models/052/nontextured.ply": "a69edd7487c608d455757aa1985a7977fba0651c7d4382d7699be40286123928",
+    "data/raw/grasp_geometry_v10/models/052/textured.obj": "3556d6d44e33841b8d76cb5d6759c973bc84b4b54530e3455873886604e9e005",
+    "data/raw/grasp_geometry_v10/models/052/textured.sdf": "0b628b49685493ee9a735095f5f08cf1dd8667bbdea559856ad3112181958c92",
+    "data/raw/grasp_geometry_v10/models/060/nontextured.ply": "7687918eafe20fc68ed463cc6165c5664be17f6fb36852d601096dde28d40694",
+    "data/raw/grasp_geometry_v10/models/060/textured.obj": "c4f1d1b44485698ac994021cfee436803425606805bd21505a119fadebf60e28",
+    "data/raw/grasp_geometry_v10/models/060/textured.sdf": "eaac47eaa043bc054e76ce07fccf6d15c4776378298111c384c8d5dbe8d049a5",
+    "data/raw/grasp_geometry_v10/models/062/nontextured.ply": "384385c4f5f8913cd6f1594a7c7a5911cbbbb9e836334222b047ad757b2b9ef3",
+    "data/raw/grasp_geometry_v10/models/062/textured.obj": "6be56c705b931f1a1e9b0ddd495beee30a503de9271db089d7455d50c955bd59",
+    "data/raw/grasp_geometry_v10/models/062/textured.sdf": "d88ecdd31e6e145d5ff5e17d9f37c7ccc731ebff4b06b1865f1842d0b824eace",
+    "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/cam0_wrt_table.npy": "8bcb627d060ffccc58198e4430d192d95ba4912dd67c9742b347c9ad863f8f98",
+    "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/camera_poses.npy": "4d7bf66b0cddb559c40623faa98fcc4190829063ab7577d2a929ad30faef0562",
+    "data/manifests/grasp_geometry_v10.json": "9620573aca35318546c2f6f6fde05ada6a16606cc7028712b80121142ba080e4",
+    "results/P3/grasp_geometry_audit_v10.json": "4f62656a7918a0911f4964f7f50e2c5232778911775a488a36bde1eca22f8d71",
+    "configs/grasp_geometry_v10.json": "e963c8eef98888e3b8372fac61c18e48956ce24efc2ba43985431b422877dd9e",
+    "configs/grasp_geometry_assets_v10.lock.json": "cab8c7034877eac0c730364adc49ebd0d19fb8cc73e441cee2fec49346bf01dd",
+    "results/P2/grasp_eval_environment_v7.json": "a6e4796402237c983c370d522eae55dd4b637e2ea16b17c237ec7d2c16641d0d",
+    "results/P2/grasp_geometry_v7.json": "3127e38241b3c9311abe3746ea5c409af46ca7cbf1fd84aa53e8db8aef009f09",
+    "results/P2/grasp_environment_acceptance_v7.json": "82dbc21c9deb53ea19d9327805526700b01980dd41618b22b12d181202d37cec",
+    "runtime/envs/grasp_eval/Lib/site-packages/grasp_nms.cp312-win_amd64.pyd": "8133ca8838968a5c7d323848e62bc4388de169b410cc2ebd4c0f744f97103eda",
+    "runtime/envs/grasp_eval/Lib/site-packages/graspnetAPI/utils/eval_utils.py": "ef9733f0d7b295bdccc037d6a94d1231b2cc5e7e50d7d4c402817dfeaf0f1912",
+    "runtime/envs/grasp_eval/Lib/site-packages/graspnetAPI/graspnet_eval.py": "ce0a40c12a290bf90a9691cf93a7527e8488bb4bedf9cf0c5a4e72af7b1f8986"
+  },
+  "asset_inputs": {
+    "configs/grasp_geometry_assets_v10.lock.json": "cab8c7034877eac0c730364adc49ebd0d19fb8cc73e441cee2fec49346bf01dd"
+  },
+  "source_hashes": {
+    "scripts/verify_grasp_geometry_v10.py": "30a704173e9397072fd7e2cb6f26e5a4aed12f56f7b194c7f35dfb157e9005a0",
+    "scripts/verify_grasp_observed_collision_v9.py": "f7784f5e9401cf674d4db051c53692876e2b7312e27d64ce73d25fbd8a816d86",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "third_party/patches/graspnet_windows.patch": "1f41c17aff4f5eb02a160d7625956967c2ed9d8f795f34d10d6894d9140b2f6a",
+    "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+    "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+    "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+    "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+    "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+    "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+    "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+    "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+    "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+    "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+    "src/remote_zip.py": "296e01ad1ef391fda1ddaadae36da1e37eb56fb3c18ce0ec307b4c2baf3be3e1",
+    "scripts/run_multiview_v14.py": "236e387221f36f89568a2ee6a606d1e3f17fffbda181edc229c58874b08de095",
+    "scripts/audit_grasp_geometry_v10.py": "0c2e99389c1b9ea315f61924619a7c7021c1276d83b79275d4805e640d0a6a19",
+    "scripts/resume_multiview_v14.ps1": "69ad2acc5d19c72a9baf51bce95b68dad9288f18dbd25af7f43a7e9c3116f408",
+    "logs/P3/multiview_tests_v14.log": "99b283adcf62215123a68da018f0a2000da28e91b9c85c50371379026e54e461",
+    "scripts/multiview_common_v14.py": "e6de7460be2a85dbaa9592f2f0e62da4b2af3aae08952d8ad71560337f3669b0",
+    "tests/test_multiview_generation_v14.py": "659cfa9615bee95dfb18730c7f56ebe91f8cad6bb84516bc4abd772cc36f6247",
+    "tests/test_multiview_acceptance_v14.py": "cb364cf95cd5766caa18a51c3b20110d3552f5c2899df1792b97ea677e35b44e",
+    "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+    "tests/test_multiview_assets_v14.py": "ec91f4b6ef66aa11e81526f949ead1ff6d64ebb69a7a55e47b43826fc2a0d049",
+    "tests/test_multiview_geometry_v14.py": "2365326e906f769b75e53f68aa62acb52b9d5e919e8c9fb05d0490de606d7f07",
+    "scripts/test_multiview_v14.py": "c7b2a47d58e4c03793c99a276b0cc6a90ac4d9e927440572b82a08c2b42ee7a4",
+    "tests/test_multiview_wrapper_v14.py": "698aeeee68202a0526a1f00aabe6a78b7b3fc716e3a7109480315202963e6067",
+    "scripts/fetch_multiview_assets_v14.py": "1a3ab1233ce6ed34ff7a88aa68a8b85baa2bacd43b5450bd4ab048fe3230c73a",
+    "docs/第十四轮多视角基线冻结方案.txt": "db01114f7620b0959374652d741645683036b5b281529ac8166e78d28d2f95dd",
+    "scripts/accept_multiview_grasps_v14.py": "70abe8e1731d02fb8ed31ff6c97dc23d274a33dc978c35a2253e831ecaf5cbec",
+    "scripts/evaluate_multiview_grasps_v14.py": "b9e36e0c8453bcac584b3fc2a807e204f545f513919a025adcc563816e89d396",
+    "scripts/generate_multiview_grasps_v14.py": "2277ab59be11d9e5c042446adaa30549a029487803e3ac1b6b44cdb4a5652685"
+  },
+  "outputs": {
+    "frames_root": "results/P3/grasp_multiview_v14/frames",
+    "assets_dir": "data/raw/grasp_multiview_v14",
+    "assets_resume_report": "results/P3/grasp_multiview_v14_assets_resume.json",
+    "generation_resume_report": "results/P3/grasp_multiview_v14_generation_resume.json",
+    "geometry_resume_report": "results/P3/grasp_multiview_v14_geometry_resume.json",
+    "acceptance_report": "results/P3/grasp_multiview_acceptance_v14.json",
+    "visuals_dir": "results/P3/grasp_multiview_visuals_v14"
+  },
+  "geometry_audit": {
+    "translation_abs_tolerance_m": 0.0001,
+    "rotation_angle_tolerance_rad": 0.001,
+    "rotation_orthogonality_tolerance": 0.00001,
+    "rotation_determinant_tolerance": 0.00001,
+    "homogeneous_row_tolerance": 1e-7,
+    "model_diagonal_min_m": 0.005,
+    "model_diagonal_max_m": 1,
+    "mesh_bounds_abs_tolerance_m": 0.002,
+    "mesh_bounds_voxel_tolerance": 2,
+    "sdf_bounds_margin_voxels": 1,
+    "sdf_surface_q95_max_voxels": 3,
+    "surface_sample_count": 4096,
+    "absolute_units_independently_proven": false,
+    "geometry_rescaling_allowed": false
+  },
+  "pose_limits": {
+    "translation_abs_tolerance_m": 0.0001,
+    "rotation_angle_tolerance_rad": 0.001,
+    "rotation_orthogonality_tolerance": 0.00001,
+    "rotation_determinant_tolerance": 0.00001,
+    "homogeneous_row_tolerance": 1e-7,
+    "model_diagonal_min_m": 0.005,
+    "model_diagonal_max_m": 1,
+    "mesh_bounds_abs_tolerance_m": 0.002,
+    "mesh_bounds_voxel_tolerance": 2,
+    "sdf_bounds_margin_voxels": 1,
+    "sdf_surface_q95_max_voxels": 3,
+    "surface_sample_count": 4096,
+    "absolute_units_independently_proven": false,
+    "geometry_rescaling_allowed": false
+  },
+  "scoring": {
+    "preserve_candidate_dtype": true,
+    "width_clip_m": [
+      0,
+      0.1
+    ],
+    "nms_translation_m": 0.03,
+    "nms_rotation_degrees": 30,
+    "model_voxel_size_m": 0.008,
+    "assignment": "closest transformed sampled model point; candidate object_id is ignored",
+    "per_object_limit": 10,
+    "global_score_rank": 50,
+    "retain_cutoff_ties": true,
+    "final_sort": "numpy.argsort(-confidence) with the frozen NumPy version",
+    "table": {
+      "size_m": [
+        1,
+        1,
+        0.05
+      ],
+      "offset_m": [
+        -0.5,
+        -0.5,
+        -0.05
+      ],
+      "grid_size_m": 0.008,
+      "transform": "inverse(cam0_wrt_table @ camera_poses[frame_id])"
+    },
+    "collision": {
+      "height_m": 0.02,
+      "finger_width_m": 0.01,
+      "base_depth_m": 0.02,
+      "outlier_m": 0.05,
+      "empty_threshold_points": 10,
+      "empty_is_collision": true
+    },
+    "friction_scoring_order": [
+      1.2,
+      1,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "friction_reporting_order": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2
+    ],
+    "reported_prefixes": 50,
+    "contact_diagnostic_check_approach": false,
+    "reference": "Unmodified pinned official eval_grasp; exact per-object row/order, collision and discrete score equality",
+    "new_training_updates": 0
+  },
+  "installed_api_tree_sha256": "70dc6b763f70ae8cfab93c8cdb8f9fa63ea8a4b3de3dc2c0e5d6c57da7e48d9e",
+  "resources": {
+    "assets": {
+      "cpu_threads": 2,
+      "rss_soft_bytes": 8589934592,
+      "output_limit_bytes": 1073741824,
+      "disk_reserve_bytes": 64424509440,
+      "invocation_soft_seconds": 300
+    },
+    "generation": {
+      "cpu_threads": 2,
+      "rss_soft_bytes": 8589934592,
+      "output_limit_bytes": 1073741824,
+      "disk_reserve_bytes": 64424509440,
+      "invocation_soft_seconds": 300,
+      "gpu_allocated_soft_bytes": 4294967296,
+      "gpu_reserved_soft_bytes": 4294967296,
+      "sample_interval_seconds": 0.1
+    },
+    "geometry": {
+      "cpu_threads": 2,
+      "rss_soft_bytes": 8589934592,
+      "output_limit_bytes": 1073741824,
+      "disk_reserve_bytes": 64424509440,
+      "invocation_soft_seconds": 1800
+    },
+    "acceptance": {
+      "cpu_threads": 2,
+      "rss_soft_bytes": 8589934592,
+      "output_limit_bytes": 1073741824,
+      "disk_reserve_bytes": 64424509440,
+      "invocation_soft_seconds": 300
+    }
+  },
+  "budget_paths": [
+    "data/raw/grasp_multiview_v14",
+    "results/P3/grasp_multiview_v14",
+    "results/P3/grasp_multiview_v14_assets_resume.json",
+    "results/P3/grasp_multiview_v14_generation_resume.json",
+    "results/P3/grasp_multiview_v14_geometry_resume.json",
+    "results/P3/grasp_multiview_acceptance_v14.json",
+    "results/P3/grasp_multiview_visuals_v14",
+    "logs/P3/multiview_v14"
+  ],
+  "asset_source": {
+    "repository": "https://huggingface.co/saic3d/graspnet",
+    "revision": "9073d1d4cb6c92272b6aa072545def5101e4fecb",
+    "base_url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb",
+    "official_data_page": "https://graspnet.net/datasets",
+    "license_boundary": "Retain upstream attribution, noncommercial and share-alike terms; mirror revision/CRC/local SHA are not an official whole-archive digest.",
+    "archive": "train_1.zip",
+    "archive_bytes": 20411802782,
+    "etag": "\"e28d2b498c9a631f2dad3f6ca36f8c74096c79663d71ded824966970bc5b2c08\"",
+    "maximum_network_bytes": 65536,
+    "entries": {
+      "0016": {
+        "source_member": "scene_0003/realsense/annotations/0016.xml",
+        "header_offset": 2137583459,
+        "compressed_bytes": 549,
+        "bytes": 2495,
+        "crc32": 720708098,
+        "compress_type": 8
+      },
+      "0080": {
+        "source_member": "scene_0003/realsense/annotations/0080.xml",
+        "header_offset": 2137647253,
+        "compressed_bytes": 548,
+        "bytes": 2493,
+        "crc32": 2805532647,
+        "compress_type": 8
+      },
+      "0160": {
+        "source_member": "scene_0003/realsense/annotations/0160.xml",
+        "header_offset": 2137669812,
+        "compressed_bytes": 543,
+        "bytes": 2496,
+        "crc32": 3723231029,
+        "compress_type": 8
+      },
+      "0240": {
+        "source_member": "scene_0003/realsense/annotations/0240.xml",
+        "header_offset": 2137664023,
+        "compressed_bytes": 547,
+        "bytes": 2501,
+        "crc32": 1722471935,
+        "compress_type": 8
+      }
+    }
+  },
+  "acceptance": {
+    "efficacy_gate": false,
+    "all_generation_before_geometry": true,
+    "include_empty_candidates_in_executable_mean": true,
+    "exclude_insufficient_input_from_executable_mean": true,
+    "reference_frame_0000_in_aggregate": false
+  },
+  "limitations": [
+    "Four correlated views of one previously used training scene; not independent scenes, held-out generalization, dataset AP or robot success.",
+    "No segmentation forward, soft-ranking modification, training update, seed/threshold search or retries for better outcomes.",
+    "Official pinned geometry is retained including known axial-sphere contact-search limitations; -1 is not an unambiguous physical failure.",
+    "Power-loss recovery is tested at process boundaries, not physical power removal.",
+    "All-requested zero-filled aggregate is an engineering coverage placeholder, not a measured score for insufficient input."
+  ]
+}

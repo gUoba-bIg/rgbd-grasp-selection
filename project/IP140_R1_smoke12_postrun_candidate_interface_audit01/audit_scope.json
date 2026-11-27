@@ -1,0 +1,13 @@
+{
+  "version": "IP140_R1_smoke12_postrun_candidate_interface_audit01",
+  "created_utc": "2026-11-06T03:28:52.181904+00:00",
+  "mode": "read_files_offline_calculation_only",
+  "engine_connects": 0,
+  "physics_steps": 0,
+  "charges": 0,
+  "cumulative_starts": 8,
+  "budget_total": 13,
+  "remaining": 5,
+  "forbidden": "engine connection, scene loading, physics, historical input/runtime edits, slots8-12",
+  "historical_result": "smoke12 charged=true grasp_success=false slot_passed=false unchanged"
+}

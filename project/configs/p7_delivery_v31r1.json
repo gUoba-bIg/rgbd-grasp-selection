@@ -1,0 +1,44 @@
+{
+  "version": "31r1",
+  "at": "2026-10-31T08:23:28.308533+08:00",
+  "wall_seconds": 43200,
+  "protected": {
+    "scripts/p7_delivery_v31r1.py": {
+      "sha256": "6831adbc331f2f55c53daec9b56dba6d3d3a2c4068deba6f41c7b4d20e92dafc",
+      "bytes": 5208,
+      "mtime_ns": 1793406178162836700
+    },
+    "configs/risk_calibration_v31.json": {
+      "sha256": "1c064c33359296dd0499590d787b9f0d4fc6b344eb6e5c81a63126831151bd4d",
+      "bytes": 99654,
+      "mtime_ns": 1793406154105918300
+    },
+    "logs/P7/risk_v31/freeze.json": {
+      "sha256": "e7395457dae286f7485d2c177862b28bdf2b3e2ca0fbf1686d255de19d957b2a",
+      "bytes": 131,
+      "mtime_ns": 1793406154113944300
+    },
+    "scripts/p7_prepare_v31r1.py": {
+      "sha256": "33028dbb4e056cc479fbefa1476acfb2651cdf127ea8ef947dbe3907aa8b93f0",
+      "bytes": 6614,
+      "mtime_ns": 1793406115331271300
+    },
+    "logs/P7/prepare_repair_v31r1/checks.json": {
+      "sha256": "7dacb92743b13ae9e2b871c1aa91644ed8a0831a6faed77359d0fd757444a116",
+      "bytes": 1067,
+      "mtime_ns": 1793406151719550200
+    },
+    "docs/P7启动入口修复_v31r1.txt": {
+      "sha256": "220fca19a3b2d7bd43e6b94edd2bfd5ced49916d67118bfd6af19dae62605fa1",
+      "bytes": 1547,
+      "mtime_ns": 1793406132974437100
+    }
+  },
+  "scope": "Same frozen P7 500conditions; original generation/scoring/fitting/review budgets unchanged",
+  "original_failure": "logs/P3/delivery_v31/P7_prepare_ab24fed204b4441cbf8ddfa43914d43d.stderr.log",
+  "P3_complete": true,
+  "P3_recompute": false,
+  "stop_after_P7": true,
+  "P8_allowed": false,
+  "recurring_automation": false
+}

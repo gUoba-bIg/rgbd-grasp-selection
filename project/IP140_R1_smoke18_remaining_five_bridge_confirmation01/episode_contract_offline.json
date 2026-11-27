@@ -1,0 +1,286 @@
+{
+  "passed": true,
+  "case_count": 43,
+  "cases": [
+    {
+      "kind": "nominal",
+      "completed": true,
+      "eng": true,
+      "grasp": true,
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": true,
+      "eng": true,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": true,
+      "eng": false,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": true,
+      "eng": false,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": false,
+      "eng": true,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": false,
+      "eng": true,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": false,
+      "eng": false,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "nominal",
+      "completed": false,
+      "eng": false,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": true,
+      "eng": true,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": true,
+      "eng": true,
+      "grasp": false,
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": true,
+      "eng": false,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": true,
+      "eng": false,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": false,
+      "eng": true,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": false,
+      "eng": true,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": false,
+      "eng": false,
+      "grasp": true,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "kind": "miss",
+      "completed": false,
+      "eng": false,
+      "grasp": false,
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "slot": 8,
+      "variant": "double_charge",
+      "passed": true
+    },
+    {
+      "slot": 8,
+      "variant": "wrong_starts",
+      "passed": true
+    },
+    {
+      "slot": 8,
+      "variant": "altered_receipt",
+      "passed": true
+    },
+    {
+      "slot": 8,
+      "test": "frozen_candidate_bound_to_registration_and_trajectory",
+      "passed": true
+    },
+    {
+      "slot": 9,
+      "variant": "double_charge",
+      "passed": true
+    },
+    {
+      "slot": 9,
+      "variant": "wrong_starts",
+      "passed": true
+    },
+    {
+      "slot": 9,
+      "variant": "altered_receipt",
+      "passed": true
+    },
+    {
+      "slot": 9,
+      "test": "frozen_candidate_bound_to_registration_and_trajectory",
+      "passed": true
+    },
+    {
+      "slot": 10,
+      "variant": "double_charge",
+      "passed": true
+    },
+    {
+      "slot": 10,
+      "variant": "wrong_starts",
+      "passed": true
+    },
+    {
+      "slot": 10,
+      "variant": "altered_receipt",
+      "passed": true
+    },
+    {
+      "slot": 10,
+      "test": "frozen_candidate_bound_to_registration_and_trajectory",
+      "passed": true
+    },
+    {
+      "slot": 11,
+      "variant": "double_charge",
+      "passed": true
+    },
+    {
+      "slot": 11,
+      "variant": "wrong_starts",
+      "passed": true
+    },
+    {
+      "slot": 11,
+      "variant": "altered_receipt",
+      "passed": true
+    },
+    {
+      "slot": 11,
+      "test": "frozen_candidate_bound_to_registration_and_trajectory",
+      "passed": true
+    },
+    {
+      "slot": 12,
+      "variant": "double_charge",
+      "passed": true
+    },
+    {
+      "slot": 12,
+      "variant": "wrong_starts",
+      "passed": true
+    },
+    {
+      "slot": 12,
+      "variant": "altered_receipt",
+      "passed": true
+    },
+    {
+      "slot": 12,
+      "test": "frozen_candidate_bound_to_registration_and_trajectory",
+      "passed": true
+    },
+    {
+      "test": "log_motor_commands_unchanged",
+      "passed": true
+    },
+    {
+      "test": "surfaces_unchanged",
+      "passed": true
+    },
+    {
+      "test": "arm_checks_unchanged",
+      "passed": true
+    },
+    {
+      "test": "get_object_state_unchanged",
+      "passed": true
+    },
+    {
+      "test": "corner_template_unchanged",
+      "passed": true
+    },
+    {
+      "test": "pose_drift_unchanged",
+      "passed": true
+    },
+    {
+      "test": "frozen_physical_evaluator_call_unchanged",
+      "passed": true
+    }
+  ],
+  "physical_steps": 0,
+  "connections": 0,
+  "scope": "Offline synthetic accounting and outcome gates; no engine imported or called.",
+  "sources": {
+    "dynamic_api.py": "5d451bc8b4e35f0aeaf4f17cb0e3c928f6eec076e50b0c7ca454edd5f8e80a6b",
+    "run_authorized.py": "65151e53a4e27bd23331f414676e40b5575b57cf973689b152ed4b7a9a52b9ef",
+    "object_episode.py": "91fafaef79d32710b585ecb271fcca2d8d929f88dcbaeac084cf9693216a912b"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "schema": "IP140_smoke08_slot_ledger_initial_v1",
+  "at_utc": "2026-11-05T02:37:52.736843+00:00",
+  "version": "IP140_R1_smoke08_single_sided_stop01",
+  "total_slots": 12,
+  "starts": 5,
+  "returned_episodes": 5,
+  "unknown_started_episodes": 0,
+  "retries": 0,
+  "physical_steps": 4330,
+  "existing_budget": 12,
+  "budget_added": 0,
+  "preregistration_sha256": "280d7c04ed585141b51778f9b293993a493f9a5b52760782446046d2cfbb6d04",
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke03_framefix_mountpair01/episodes/01/result.json",
+      "telemetry": "history/IP140_R1_smoke03_framefix_mountpair01/episodes/01/telemetry.jsonl.gz",
+      "result_sha256": "26974bd19e330895d99f9de43a5bbc8b620ae4c0c077faacb9518956cde9aea8",
+      "telemetry_sha256": "f891410e855c5e0597bc2dd0b105feb127d8ee447a91df432b2568c561376d82"
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke04_structural_filter_numericband01/episodes/02/result.json",
+      "telemetry": "history/IP140_R1_smoke04_structural_filter_numericband01/episodes/02/telemetry.jsonl.gz",
+      "result_sha256": "792162eccb0e089fba2b1b87e9381106e8a53e040bb42d7d7378f7b65dd981b9",
+      "telemetry_sha256": "564c08e8c00e3f1eff294761db5d995007cecb36782d547e5aa40ab7108129ee"
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-EMPTY-03:post-fixed-seam-filter",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/result.json",
+      "telemetry": "history/IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/telemetry.jsonl.gz",
+      "result_sha256": "167672de2ac1f4776928a54fa149ad6d455120912e726f09c974320c9bbf8569",
+      "telemetry_sha256": "d1eb49fe401aacf150d20b4a0d4d7ae226c385eb57922475ccc42393e55224a7"
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-EMPTY-04:post-sliding-seam-acm",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke06_sliding_seam_acm01/episodes/04/result.json",
+      "telemetry": "history/IP140_R1_smoke06_sliding_seam_acm01/episodes/04/telemetry.jsonl.gz",
+      "result_sha256": "37db6940b0007b87ed2428b707ef0e542ba2802ff6f56a33f8a517010830088c",
+      "telemetry_sha256": "1da7202c1b926d54c659f7f820683d7d11a6f3ea49743a7165e08a35320b9a6c"
+    },
+    {
+      "slot": 5,
+      "candidate_id": "IP140-BENCH-EMPTY-05:mount-baseline-invariant",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_passed",
+      "result": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/result.json",
+      "telemetry": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/telemetry.jsonl.gz",
+      "precharge": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/precharge.json",
+      "result_sha256": "ef46ca39ef35ac4097f9d3ebbd96b636c1000911ba1e764486e9fb2b07a5783f",
+      "telemetry_sha256": "e06a40cc844c6563591b5db794514034e5263631d7b13d62ab74898f027a90e0",
+      "precharge_sha256": "c409e1d48325cd4bf96e6065a0e38914de0cfcd4ef1057cd1d599a280148067a"
+    },
+    {
+      "slot": 6,
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "kind": "single_sided_stop",
+      "charged": false,
+      "state": "waiting_offline_and_zero_gate",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    }
+  ],
+  "unused_original_budget": 7,
+  "prior_starts": 5,
+  "prior_step_returns": 4330,
+  "prior_final_ledger": {
+    "package": "history/IP140_R1_smoke07_mount_baseline_invariant01/slot_ledger.json",
+    "sha256": "4575579c79d96f2a223d1d0981aad8c0139762e73c1f204c656684b1f1094851"
+  },
+  "steps_this_version": 0,
+  "starts_this_version": 0,
+  "deferred_center": {
+    "id": "IP140-BENCH-03:center",
+    "charged": false,
+    "reason": "engineering budget reallocation",
+    "new_slot": null
+  },
+  "deferred_offset_positive_y": {
+    "id": "IP140-BENCH-04:offset_positive_y",
+    "charged": false,
+    "reason": "deferred_due_engineering_budget_reallocation",
+    "new_slot": null
+  },
+  "deferred_offset_negative_y": {
+    "id": "IP140-BENCH-05:offset_negative_y",
+    "charged": false,
+    "reason": "deferred_due_engineering_budget_reallocation",
+    "new_slot": null
+  }
+}

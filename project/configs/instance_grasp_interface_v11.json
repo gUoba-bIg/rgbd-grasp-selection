@@ -1,0 +1,87 @@
+{
+  "schema": 11,
+  "purpose": "single_training_frame_predicted_instance_point_cloud_candidate_interface",
+  "frozen_date_local": "2026-10-24",
+  "frame": {"scene": 3, "camera": "realsense", "frame": "0000"},
+  "inputs": {
+    "rgb": {"path":"data/raw/graspnet/scenes/scene_0003/realsense/rgb/0000.png", "sha256":"c206af638f8014bd979e79a62b3413d28e33ccb7f1a8ad21b8c73767b4c1040c"},
+    "depth": {"path":"data/raw/graspnet/scenes/scene_0003/realsense/depth/0000.png", "sha256":"aed6a45f1f8d0c4167e0f79d18b3877848cb8f6ea6a6489d64c1c85c65e3c866"},
+    "meta": {"path":"data/raw/graspnet/scenes/scene_0003/realsense/meta/0000.mat", "sha256":"79318708230aa145e738ccb4d329b0cd1bcb5ddb522bb1006b61f303dc3343e9"}
+  },
+  "metadata_fields_read": ["intrinsic_matrix", "factor_depth"],
+  "checkpoint": {
+    "path":"experiments/segmentation_coverage_v8/coverage_expanded/checkpoints/checkpoint-1792634787992100100-b20cbc58b2d4.pt",
+    "sha256":"357a9cd7cc8e0e5657afd692899badd39fc0058647e6500f70c081e447ff0496",
+    "manifest_path":"experiments/segmentation_coverage_v8/coverage_expanded/checkpoints/checkpoint-1792634787992100100-b20cbc58b2d4.json",
+    "manifest_sha256":"8a5d84e5338fbc36e23daa336b19c4b73d5435a5314a7e4c9e0217c6edb2c135",
+    "config_fingerprint":"7b3b66664954f4c28707c8e166b0abd6788ac593eb7bb60e8f31b26ed67000d1",
+    "data_fingerprint":"18e36769bb9018b8854a1e19c96488bf19947a76bd441dc4e311241db0659fad",
+    "cursor":{"epoch":10,"next_batch":0,"global_step":1600},
+    "architecture":"src.segmentation.PilotInstanceNet(mode='rgbd', fpn_channels=48)",
+    "selection":"Frozen V8 coverage_expanded final checkpoint only; no optimizer update",
+    "trusted_local_payload":true
+  },
+  "preprocessing": {
+    "size":[240,320], "original_size":[720,1280], "mode":"rgbd", "depth_clip_m":2.0,
+    "rgb_mean":[0.485,0.456,0.406], "rgb_std":[0.229,0.224,0.225],
+    "rgb_resize":"bilinear", "depth_resize":"nearest", "mask_resize":"nearest", "augment":false
+  },
+  "decoder":{"foreground_threshold":0.5,"center_threshold":0.35,"min_pixels":20,"max_centers":64},
+  "precision":"float32",
+  "decoder_execution_device":"cpu_from_committed_float32_heads",
+  "inference_seed":20261022,
+  "deterministic_algorithms":true,
+  "allow_tf32":false,
+  "runtime":{"python":"3.12.14","torch":"2.6.0+cu126","torchvision":"0.21.0+cu126","numpy":"1.26.4","scipy":"1.14.1","pillow":"11.3.0","cuda":"12.6","cudnn":90501,"gpu":"NVIDIA GeForce RTX 4060 Ti"},
+  "resources":{"cpu_threads":2,"rss_soft_bytes":8589934592,"gpu_allocated_soft_bytes":2147483648,"gpu_reserved_soft_bytes":2147483648,"invocation_soft_seconds":300,"output_limit_bytes":268435456,"disk_reserve_bytes":64424509440,"sample_interval_seconds":0.1},
+  "outputs":{"perception_dir":"results/P3/instance_interface_v11","perception_report":"results/P3/instance_interface_v11.json","association_dir":"results/P3/grasp_instance_association_v11","association_report":"results/P3/grasp_instance_association_v11.json","acceptance_report":"results/P3/instance_grasp_acceptance_v11.json","visuals_dir":"results/P3/instance_grasp_visuals_v11"},
+  "candidate": {
+    "path":"results/P3/scene_0003_realsense_0000_candidates.npy",
+    "sha256":"b7fa679fc3b045bf23bc7792fec9401fd7d9f2782f677e7899523bd63cfe537f",
+    "count":236,
+    "smoke_path":"results/P3/inference_smoke.json",
+    "smoke_sha256":"d7eef1d9e58c55e5977a3b21370123d90c8847eba3d2ec77734f0c3aaf2011f1"
+  },
+  "association": {
+    "block_size":16,"sample_seed":20261021,"num_points":20000,"maximum_depth_m":2.0,"candidate_count":236,
+    "matching_policy":"exact_float32_xyz","minimum_exact_matches_per_candidate":1,
+    "duplicate_policy":"Record every exact sampled-point and pixel match; assign only if all predicted labels agree, otherwise ambiguous",
+    "background_is_valid_outcome":true,"foreground_count_gate":null,"reprojection_tolerance_pixels":0.001,
+    "valid_point_count":893333,"sampled_indices_sha256":"ed3bdc567cfcc15f99648fde42671f70fd4d39181993dbc5ce974002ee25c9b9",
+    "cpu_threads":2,"disk_reserve_bytes":64424509440,"output_limit_bytes":268435456,"rss_soft_bytes":4294967296,"invocation_soft_seconds":300
+  },
+  "input_hashes": {
+    "data/raw/graspnet/scenes/scene_0003/realsense/rgb/0000.png":"c206af638f8014bd979e79a62b3413d28e33ccb7f1a8ad21b8c73767b4c1040c",
+    "data/raw/graspnet/scenes/scene_0003/realsense/depth/0000.png":"aed6a45f1f8d0c4167e0f79d18b3877848cb8f6ea6a6489d64c1c85c65e3c866",
+    "data/raw/graspnet/scenes/scene_0003/realsense/meta/0000.mat":"79318708230aa145e738ccb4d329b0cd1bcb5ddb522bb1006b61f303dc3343e9",
+    "data/manifests/scene_splits.json":"dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+    "results/P3/scene_0003_realsense_0000_candidates.npy":"b7fa679fc3b045bf23bc7792fec9401fd7d9f2782f677e7899523bd63cfe537f",
+    "results/P3/inference_smoke.json":"d7eef1d9e58c55e5977a3b21370123d90c8847eba3d2ec77734f0c3aaf2011f1",
+    "results/第八轮训练覆盖对照验收.json":"692b09683901c1ee3d38b6f0e61c77f34eb49fd8e3a36a2f8d1fc5e96da0bf3a",
+    "results/P3/grasp_geometry_v10.json":"a47fa50bd15fc49b34b0c582fc6a51250753cade5a2864f90087eb47ffb93c7f"
+  },
+  "source_hashes": {
+    "src/segmentation.py":"554b1f1e9a46f551ed1a485895eed164d08f5466ebd8e41dfded2556afa90e55",
+    "src/graspnet_frames.py":"98c45d0a3d37b5ea86382ba96f9e59eb56e98e0878f0eedab474eae4faf310ff",
+    "src/checkpoints.py":"5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+    "scripts/run_grasp_inference_smoke.py":"aa586d79dbf0930818704ecfd0cd74974f0be1551306b262167dca5f24d92ae6",
+    "scripts/train_segmentation_coverage_v8.py":"d7e42d9decc2e591b26ed89a62a738751ebe34c41fdaa6a925b0f581a136f262",
+    "runtime/build/graspnet/models/graspnet.py":"ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+    "runtime/build/graspnet/models/backbone.py":"3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+    "runtime/build/graspnet/utils/data_utils.py":"c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd"
+  },
+  "audit": {
+    "label_path":"data/raw/graspnet/scenes/scene_0003/realsense/label/0000.png",
+    "label_sha256":"00cf6654c816383a3af2e642e49c5ca195915fa420dddb240afe0345895b8828",
+    "reference_frame_path":"results/P2/segmentation_coverage_v8_acceptance/frames/coverage_expanded_train_scene_0003_0000.json",
+    "reference_frame_sha256":"a019d1a0d84d5e396a367f79a337ec2641e3280d0ba9dd618a36473207d9ee7b",
+    "ground_truth_read_only_after_prediction_and_association_commits":true,
+    "legacy_metric_reproduction_required":true,
+    "center_probability_abs_tolerance":0.0000002,
+    "positive_performance_gain_required":false,
+    "overlay_seed_indices":"All236 original candidates; show seed translation projection, not gripper pose or closure center",
+    "visuals":"Fixed RGB, predicted-instance IDs and separately labelled GT-object diagnostic panels"
+  },
+  "acceptance":"Exact frozen preprocessing/decoder and old metrics reproduction; sampled-index hash; all236 candidates traceable; predicted labels consistent with original pixels; finite reprojection within tolerance; staged recovery and read-only reentry. Background and ambiguous outcomes are reported, not deleted.",
+  "limitations":["One reused training frame only; no generalization or segmentation-to-grasp gain claim.","No new optimization, grasp generation, ranking change or dataset AP.","Predicted instance IDs are frame-local regions, not ground-truth object classes.","Exact XYZ matches establish compatible sampled sources, not the unavailable original fp2 seed ordinal when duplicates exist.","Ground-truth labels are diagnostic-only after frozen deployment outputs exist.","Prior public-mirror and V7 contact-search limitations remain."]
+}

@@ -1,0 +1,11 @@
+{
+  "closed": "2026-11-08T11:41:55.993461+00:00",
+  "automatic_continuation": false,
+  "stop": "candidate_static_inadmissible",
+  "workers": [
+    9
+  ],
+  "remaining": 4,
+  "charged": 0,
+  "no_retry": true
+}

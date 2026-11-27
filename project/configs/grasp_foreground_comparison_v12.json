@@ -1,0 +1,161 @@
+{
+  "schema": 12,
+  "purpose": "single_training_frame_matched_point_budget_predicted_foreground_sampling_comparison",
+  "frozen_date_local": "2026-10-24",
+  "arms": [
+    "full_scene",
+    "predicted_foreground"
+  ],
+  "frame": {
+    "scene": 3,
+    "camera": "realsense",
+    "frame": "0000"
+  },
+  "seed": 20261021,
+  "num_points": 20000,
+  "maximum_depth_m": 2,
+  "association_input_dir": "results/P3/grasp_instance_association_v11",
+  "outputs": {
+    "root": "results/P3/grasp_foreground_v12",
+    "acceptance_report": "results/P3/grasp_foreground_comparison_v12.json",
+    "visuals_dir": "results/P3/grasp_foreground_visuals_v12"
+  },
+  "checkpoint": {
+    "path": "checkpoints/pretrained/checkpoint-rs.tar",
+    "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+    "weights_only": true,
+    "strict": true
+  },
+  "v10_protocol": {
+    "path": "configs/grasp_geometry_v10.json",
+    "sha256": "e963c8eef98888e3b8372fac61c18e48956ce24efc2ba43985431b422877dd9e"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.6.0+cu126",
+    "torchvision": "0.21.0+cu126",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "pillow": "11.3.0",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  },
+  "resources": {
+    "cpu_threads": 2,
+    "invocation_soft_seconds": 1800,
+    "rss_soft_bytes": 8589934592,
+    "output_limit_bytes": 536870912,
+    "disk_reserve_bytes": 64424509440
+  },
+  "generation_resources": {
+    "cpu_threads": 2,
+    "rss_soft_bytes": 8589934592,
+    "gpu_allocated_soft_bytes": 4294967296,
+    "gpu_reserved_soft_bytes": 4294967296,
+    "invocation_soft_seconds": 300,
+    "output_limit_bytes": 536870912,
+    "disk_reserve_bytes": 64424509440,
+    "sample_interval_seconds": 0.1
+  },
+  "acceptance_resources": {
+    "cpu_threads": 2,
+    "invocation_soft_seconds": 300,
+    "rss_soft_bytes": 8589934592,
+    "output_limit_bytes": 536870912,
+    "disk_reserve_bytes": 64424509440
+  },
+  "sampling": {
+    "full_scene": "Every sealed V11 finite 0<z<=2m point in original raster order",
+    "predicted_foreground": "The same sealed points restricted to predicted frame-local instance id>0; union, no per-instance quotas",
+    "replacement": false,
+    "insufficient_input": "Persist zero candidates and insufficient_input; do not alter point count, seed or use replacement. Comparable experiment remains incomplete.",
+    "full_scene_sampled_indices_sha256": "ed3bdc567cfcc15f99648fde42671f70fd4d39181993dbc5ce974002ee25c9b9",
+    "new_baseline_vs_old_candidates": "Diagnostic only; no repeated forward/seed search to force bitwise match"
+  },
+  "inference": {
+    "input": "XYZ only",
+    "precision": "float32",
+    "new_forwards_per_arm": 1,
+    "autocast": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "allow_tf32": false,
+    "no_claim_custom_cuda_bitwise_determinism": true,
+    "checkpoint_official_byte_identity_verified": false,
+    "new_training_updates": 0
+  },
+  "geometry": {
+    "settings": "Exact unchanged V10 SCORING and accepted assets; both generation arms sealed before any geometry evaluation",
+    "preserve_all_original_candidates": true,
+    "official_reference": "Exact candidate/order/collision/discrete-score match to unmodified pinned eval_grasp for each nonempty arm",
+    "empty_candidates": "Zero 50x6 matrix and explicit oracle not executed; do not claim official-oracle verification on empty input"
+  },
+  "effect_rule": {
+    "primary_friction": 0.4,
+    "primary_prefix": 50,
+    "friction_grid": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1,
+      1.2
+    ],
+    "prefixes": 50,
+    "matrix_definition": "M[k-1,j]=count(0<score<=mu_j in first k official confidence-ordered selected candidates)/k; unavailable candidates contribute failure",
+    "positive": "Both engineering-valid matched-20000-point arms; foreground top50 mu=.4 integer pass count strictly greater than full_scene AND exact Fraction mean of all300 matrix entries not lower",
+    "nonpositive": "Valid completed negative comparison; preserve both arms and do not adopt foreground sampling on these results",
+    "insufficient_input": "Incomplete matched-budget comparison, not an effect acceptance",
+    "no_posthoc_threshold_or_seed_changes": true
+  },
+  "input_hashes": {
+    "configs/instance_grasp_interface_v11.json": "2072a415ed02b15af69455b34b046d036505c51137f3de81dc073cb2b2e68adf",
+    "results/P3/instance_grasp_acceptance_v11.json": "188a7be2040523a6d032463a8c71523758411e0c497b0b351a9ea77d73082047",
+    "results/P3/instance_interface_v11/binding.json": "ec511dc87243486efdb117e90d2cada5c82c1907168e9f1b422c3aa2a028b5f3",
+    "results/P3/instance_interface_v11/completion.json": "811c5070c3a6a233294da8e8883e11139c5e42984f3e19d48b15eb8c43d1b7d0",
+    "results/P3/instance_interface_v11.json": "b66baa228fb1bbc4453710d9b7ea821e265ae63b95f9bf10e7b61f8c1703bb45",
+    "results/P3/grasp_instance_association_v11/binding.json": "8f04740cd60a4a2db22eadf8a0069e088dfeed8f88b937e7db1430a20ed90072",
+    "results/P3/grasp_instance_association_v11/completion.json": "60a15328b4b248e2d6560ab449b50b0bcfe8b0ab73031288f9ea7a209bc3c0d8",
+    "results/P3/grasp_instance_association_v11.json": "ea81292c0de7faedb12485783fb61587cac40469e0dfafe4a0b21de7823013a7",
+    "results/P3/grasp_instance_association_v11/valid_points.npy": "d40853faf6df0c026f1e1ea3b2cf672038ddd510b8b59b4eb8fbe33e2469e05d",
+    "results/P3/grasp_instance_association_v11/valid_pixel_indices.npy": "f9bc400c9dfc99cddb62d05764fec2d8156f6e7af56d872e2dd873047e504f40",
+    "results/P3/grasp_instance_association_v11/valid_instance_ids.npy": "0a3c4a2ae4e44af4c7740864a5376ea8abc794d97c7019318c9fc7a0697ddf56",
+    "results/P3/grasp_instance_association_v11/sampled_indices.npy": "e66fcbb211f2cd1a00336f29e7623f14dbf76a6bf11281074152ffbac630d9e4",
+    "results/P3/inference_smoke.json": "d7eef1d9e58c55e5977a3b21370123d90c8847eba3d2ec77734f0c3aaf2011f1",
+    "results/P3/scene_0003_realsense_0000_candidates.npy": "b7fa679fc3b045bf23bc7792fec9401fd7d9f2782f677e7899523bd63cfe537f",
+    "results/P3/grasp_geometry_v10.json": "a47fa50bd15fc49b34b0c582fc6a51250753cade5a2864f90087eb47ffb93c7f",
+    "results/P3/grasp_geometry_audit_v10.json": "4f62656a7918a0911f4964f7f50e2c5232778911775a488a36bde1eca22f8d71",
+    "data/manifests/grasp_geometry_v10.json": "9620573aca35318546c2f6f6fde05ada6a16606cc7028712b80121142ba080e4",
+    "data/manifests/scene_splits.json": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+    "checkpoints/pretrained/checkpoint-rs.tar": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868"
+  },
+  "source_hashes": {
+    "scripts/run_grasp_inference_smoke.py": "aa586d79dbf0930818704ecfd0cd74974f0be1551306b262167dca5f24d92ae6",
+    "scripts/verify_grasp_geometry_v10.py": "30a704173e9397072fd7e2cb6f26e5a4aed12f56f7b194c7f35dfb157e9005a0",
+    "scripts/verify_grasp_observed_collision_v9.py": "f7784f5e9401cf674d4db051c53692876e2b7312e27d64ce73d25fbd8a816d86",
+    "scripts/infer_instance_interface_v11.py": "53961bb45a2a7fa5ce79dccf78a3e48ac0e93b4a48152c2a7ace2ea6bcc454c2",
+    "scripts/associate_grasp_instances_v11.py": "4f5a4e2da13029674f95e90716baa87e5596ff0165f93145a68ae128d91a10b7",
+    "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "third_party/patches/graspnet_windows.patch": "1f41c17aff4f5eb02a160d7625956967c2ed9d8f795f34d10d6894d9140b2f6a",
+    "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+    "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+    "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+    "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+    "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+    "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+    "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+    "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+    "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+    "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56"
+  },
+  "limitations": [
+    "One reused training frame and one fixed sampling seed; no generalization, significance, dataset AP or robot success claim.",
+    "The changed factor is predicted foreground-union sampling, including density and background context, not instance identity, depth-quality modeling or uncertainty.",
+    "Same seed does not imply the same point coordinates between different populations.",
+    "The checkpoint is fixed public-mirror bytes; its training-scene separation is not independently established.",
+    "Unmodified V7 contact-search limitations and V10 asset-mirror attribution/noncommercial/share-alike boundaries remain.",
+    "No training, new assets, held-out validation, calibration, or official test access."
+  ]
+}

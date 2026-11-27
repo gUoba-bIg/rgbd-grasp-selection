@@ -1,0 +1,294 @@
+{
+  "schema": "v52e_zero_step_v1",
+  "at": "2026-11-03T15:26:17.479488+08:00",
+  "execution_authorized": true,
+  "python": "runtime/simulation_v52e/venv/Scripts/python.exe",
+  "pybullet_extension": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+  "expected_distribution_version": "3.2.7+v52e1",
+  "base_config": "configs/simulation_v52r2.json",
+  "robot_urdf": "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+  "robot_manifest": "data/simulation_v52/robot/robot_assets.json",
+  "targets": {
+    "lateralFriction": 1.0,
+    "collisionMargin": 0.0005,
+    "restitution": 0.0
+  },
+  "max_connections": 1,
+  "max_physics_steps": 0,
+  "limits": {
+    "wall_seconds": 120,
+    "rss_bytes": 6442450944
+  },
+  "unchanged_caps": {
+    "master_Nm": 10,
+    "gear_Nm": 80,
+    "mimic_rad": 0.03
+  },
+  "bindings": {
+    "configs/simulation_v52r2.json": {
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807,
+      "mtime_ns": 1793679409292058400
+    },
+    "data/simulation_v52/robot/expanded_official_before_adaptation.urdf": {
+      "sha256": "67623ff7f3918bc4bd5f05cca64048400a05c73ba9bbc16693259498e077fe6b",
+      "bytes": 21930,
+      "mtime_ns": 1793676854391259000
+    },
+    "data/simulation_v52/robot/inertia_check.json": {
+      "sha256": "8906d65e0a8a7cd08b55d3ab15dad6561162007fa64a2471699acdd0ee5ba14c",
+      "bytes": 5535,
+      "mtime_ns": 1793677402526899500
+    },
+    "data/simulation_v52/robot/meshes/material.mtl": {
+      "sha256": "14b5e00f03f6273b7e1cd38e0031e1211ce9493bd43d6e43f44ac9558ac654f2",
+      "bytes": 176,
+      "mtime_ns": 1793676856293520100
+    },
+    "data/simulation_v52/robot/meshes/material_0.png": {
+      "sha256": "edf7a2c819b32e7007ffa1491379f10057e91d8b69f63dff382124872ee8876f",
+      "bytes": 105,
+      "mtime_ns": 1793676856243125700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_base_link.stl": {
+      "sha256": "111e37f13a664989dd54226f80f521b32ea0b71c975282a16696b14be7cc9249",
+      "bytes": 86384,
+      "mtime_ns": 1793676407025034500
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_inner_finger.stl": {
+      "sha256": "043901d9c22b38d09b30d11326108ab3ef1445b4bd655ef313f94199f25f57ed",
+      "bytes": 7284,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_inner_knuckle.stl": {
+      "sha256": "d341d986aa8aca7262565c039c04fb6b4c0f2f5c93443519eb7ca9bfc67ba17c",
+      "bytes": 5484,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_outer_finger.stl": {
+      "sha256": "bd7da1b31b73f1aa1d61b26a582cea10f16f17396d54b8937890fa51547d26b0",
+      "bytes": 11684,
+      "mtime_ns": 1793676407026095800
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_collision_2f_140_robotiq_2f_140_outer_knuckle.stl": {
+      "sha256": "37c1779f71fb5504a5898048a36f9f4bfce0f5e7039ff1dce53808b95c229777",
+      "bytes": 9784,
+      "mtime_ns": 1793676407027295400
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_base_link.stl": {
+      "sha256": "74a62de75ae10cf77c60f2c49749b5d11f4c265f8624bbe7697a941fa86f6b3b",
+      "bytes": 1054984,
+      "mtime_ns": 1793676407050258500
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_inner_finger.stl": {
+      "sha256": "be21c5e18c901d4747cbc8fa1a2af15dad7173ff701482a8517e33278432bb21",
+      "bytes": 33984,
+      "mtime_ns": 1793676407052251700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_inner_knuckle.stl": {
+      "sha256": "d61e9c5304d8015333856e4a26d99e32b695b6ada993253986b1afe8e396ab11",
+      "bytes": 43484,
+      "mtime_ns": 1793676407052251700
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_outer_finger.stl": {
+      "sha256": "666a92ee075f6f320ffb13b39995a5b374657cee90ded4c52c23ede20a812f34",
+      "bytes": 76084,
+      "mtime_ns": 1793676407053250300
+    },
+    "data/simulation_v52/robot/meshes/robotiq_description_meshes_visual_2f_140_robotiq_2f_140_outer_knuckle.stl": {
+      "sha256": "f042edc44ede9773e7cad00f7d7354d0b7c1c6a6353fe897b2ca2e6ac71107fc",
+      "bytes": 78384,
+      "mtime_ns": 1793676407054246700
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl": {
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "bytes": 21084,
+      "mtime_ns": 1793676400113684500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_forearm.stl": {
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "bytes": 53284,
+      "mtime_ns": 1793676400114911900
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_shoulder.stl": {
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "bytes": 70084,
+      "mtime_ns": 1793676400115907500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_upperarm.stl": {
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "bytes": 99684,
+      "mtime_ns": 1793676400115907500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist1.stl": {
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "bytes": 59584,
+      "mtime_ns": 1793676400117127600
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist2.stl": {
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "bytes": 67584,
+      "mtime_ns": 1793676400118138100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist3.stl": {
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "bytes": 7184,
+      "mtime_ns": 1793676400118138100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_base.obj": {
+      "sha256": "8b33fd01fbfd3ec681fa0b7a58871bb8e3734b9891b2119f62bb4abc31fad478",
+      "bytes": 947062,
+      "mtime_ns": 1793676854538272100
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_forearm.obj": {
+      "sha256": "613f6cee150f5d8581012fbcbfd3dc35ccc85d52e402eb3062f11243584e9d92",
+      "bytes": 3083137,
+      "mtime_ns": 1793676855689886400
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_shoulder.obj": {
+      "sha256": "1212509d24e94e336d8b7e6e462c5d317812e4172aafd0ef9fa786ba3ef7bc7c",
+      "bytes": 4815481,
+      "mtime_ns": 1793676854858910500
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_upperarm.obj": {
+      "sha256": "81529558f226c1589c132ee583eed0d34bf2e0063d3c7f1dc557506c659e01f8",
+      "bytes": 8355110,
+      "mtime_ns": 1793676855434880800
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist1.obj": {
+      "sha256": "354806606ccbe6c056f66b169c9da91b76268c13b4bafe81e36ea88ccd4a661b",
+      "bytes": 3532784,
+      "mtime_ns": 1793676855947269900
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist2.obj": {
+      "sha256": "a17e39221db76947f2155afb8970cff3ecc07b45296bc92e5f3df629f3bfe0eb",
+      "bytes": 4164109,
+      "mtime_ns": 1793676856246745000
+    },
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_visual_wrist3.obj": {
+      "sha256": "11aeeb64a0fc0d6bfa839db67fd57db0143ccdc246eb3a1be51b877748ef66ed",
+      "bytes": 93588,
+      "mtime_ns": 1793676856293520100
+    },
+    "data/simulation_v52/robot/robot_assets.json": {
+      "sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "bytes": 147405,
+      "mtime_ns": 1793676857252212500
+    },
+    "data/simulation_v52/robot/selfcollision_allowlist.json": {
+      "sha256": "679f035d0070fc14002c33b984b4a1e5787b831aeefc2a0d9c15d7be589bed0c",
+      "bytes": 3936,
+      "mtime_ns": 1793677129944958600
+    },
+    "data/simulation_v52/robot/static_ik_checks.json": {
+      "sha256": "7fc444c1d9823927a1b1235d391fc77e1fb667470c61b77329b6ab0962605d52",
+      "bytes": 53625,
+      "mtime_ns": 1793677132018124700
+    },
+    "data/simulation_v52/robot/static_ik_refined.json": {
+      "sha256": "0d8c2eb8fe423ce4794232daaf2027c2889cf31d5120bf2c910770481e440cae",
+      "bytes": 40217,
+      "mtime_ns": 1793677213843813900
+    },
+    "data/simulation_v52/robot/static_path_checks.json": {
+      "sha256": "dbd22994d9343da399cec6f30c95e6a7c3e7c789a888b2c850873b45a1043e27",
+      "bytes": 6129,
+      "mtime_ns": 1793677295723767200
+    },
+    "data/simulation_v52/robot/static_selfcollision_observations.json": {
+      "sha256": "42c2560048c89a7abd2db8bf6c1be84e0d62cac1a0b1d944f3ab66d7b7821952",
+      "bytes": 46022,
+      "mtime_ns": 1793676996532886700
+    },
+    "data/simulation_v52/robot/structure_check.json": {
+      "sha256": "6aa9b41f36bdd66a135821c5bdb3c37e8643e4692a96e6d1eb852715e7bdf35b",
+      "bytes": 7851,
+      "mtime_ns": 1793676939963046200
+    },
+    "data/simulation_v52/robot/ur5e_2f140.urdf.xacro": {
+      "sha256": "56ef9fa45fcc69e1ec4f0717832e7cd0b92e6311c49f5ba7fcacc48d4484bae4",
+      "bytes": 949,
+      "mtime_ns": 1793676854265043600
+    },
+    "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf": {
+      "sha256": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "bytes": 23811,
+      "mtime_ns": 1793676856464540900
+    },
+    "logs/simulation_v52e/authorization.json": {
+      "sha256": "4f9c1f30f709de18a447beeb6832bb862f939bbc14261c9a20273dc0982cb1b5",
+      "bytes": 674,
+      "mtime_ns": 1793690105120107800
+    },
+    "logs/simulation_v52e/build_result.json": {
+      "sha256": "8251fdc98bec215ee81d2aa301d76d9897e900b94408a5dbcecf78433011ee01",
+      "bytes": 627,
+      "mtime_ns": 1793690610694639400
+    },
+    "logs/simulation_v52e/independent_source_review_v2.json": {
+      "sha256": "78512616e6149b83ba3063f67fb7adf3e9de3001cb0e903aaac66b5df8de89ca",
+      "bytes": 3778,
+      "mtime_ns": 1793690475612389800
+    },
+    "logs/simulation_v52e/install_result.json": {
+      "sha256": "6c6cd2632e972726df24a181ca13157cb7363270f9a0ddc6ff69ebe1d4db06c4",
+      "bytes": 359,
+      "mtime_ns": 1793690614196888200
+    },
+    "logs/simulation_v52e/patch/build_metadata.patch": {
+      "sha256": "00de125ad926654004df5816c0a4a51b763b06f6b6c2de38e50a645e34f9bae4",
+      "bytes": 865,
+      "mtime_ns": 1793690293584432000
+    },
+    "logs/simulation_v52e/patch/parameter_route.patch": {
+      "sha256": "2eeff3953263f48f2a1cad20b5a97f3e21a78f52042d9ea498574fafb6583599",
+      "bytes": 2469,
+      "mtime_ns": 1793690293583321200
+    },
+    "logs/simulation_v52e/patch/patch_manifest.json": {
+      "sha256": "ce4d3c2eac90a93ab2eb9a62831d7a3dce76e50df6555aa2ec4581b417ba39b6",
+      "bytes": 3503,
+      "mtime_ns": 1793690293686200800
+    },
+    "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c": {
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c",
+      "bytes": 418506,
+      "mtime_ns": 1793690293554358200
+    },
+    "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsClientC_API.cpp": {
+      "sha256": "59e429568ad2f27b4b0a822837147f829822ce9298115ad1dcf77d82d59c2d27",
+      "bytes": 266440,
+      "mtime_ns": 1793690293553316800
+    },
+    "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsClientC_API.h": {
+      "sha256": "3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7",
+      "bytes": 68864,
+      "mtime_ns": 1793690293553316800
+    },
+    "runtime/simulation_v52e/src/pybullet-3.2.7/setup.py": {
+      "sha256": "f2f3cc94be2b4a26bc234075ec4c7c26c9c6d6336989791a926b5e7758aa4a1f",
+      "bytes": 24675,
+      "mtime_ns": 1793690293554358200
+    },
+    "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd": {
+      "sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49",
+      "bytes": 5218816,
+      "mtime_ns": 1793690611630458500
+    },
+    "runtime/simulation_v52e/venv/Scripts/python.exe": {
+      "sha256": "9f29b8965d6bf169315bbc20946f33b23c9dacb4587c3cccaf1f536b844b2dc2",
+      "bytes": 277808,
+      "mtime_ns": 1793690147783564800
+    },
+    "scripts/sim_v52e_control.py": {
+      "sha256": "2817502efcf625c061a6aadb18a3a943f7d1ea4514093bfbe8624998607c2c65",
+      "bytes": 9029,
+      "mtime_ns": 1793690665691635700
+    },
+    "scripts/sim_v52e_zero_step.py": {
+      "sha256": "13a335126a97c58c2f12edc8c4d1aa614ada5e6bbbe1064cce905814d42519be",
+      "bytes": 16698,
+      "mtime_ns": 1793690156577454900
+    }
+  }
+}

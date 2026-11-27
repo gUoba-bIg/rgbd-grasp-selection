@@ -1,0 +1,203 @@
+{
+  "schema": "IP140_smoke11_ledger_before_start",
+  "at_utc": "2026-11-05T06:18:28.919151+00:00",
+  "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+  "total_slots": 13,
+  "starts": 7,
+  "returned_episodes": 7,
+  "unknown_started_episodes": 0,
+  "retries": 0,
+  "physical_steps": 10383,
+  "existing_budget": 13,
+  "budget_added": 0,
+  "preregistration_sha256": "21833e1c677ba59f36094c53d244d88914900d636faf793aa9fdcd232ae614e6",
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke03_framefix_mountpair01/episodes/01/result.json",
+      "telemetry": "history/IP140_R1_smoke03_framefix_mountpair01/episodes/01/telemetry.jsonl.gz",
+      "result_sha256": "26974bd19e330895d99f9de43a5bbc8b620ae4c0c077faacb9518956cde9aea8",
+      "telemetry_sha256": "f891410e855c5e0597bc2dd0b105feb127d8ee447a91df432b2568c561376d82"
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke04_structural_filter_numericband01/episodes/02/result.json",
+      "telemetry": "history/IP140_R1_smoke04_structural_filter_numericband01/episodes/02/telemetry.jsonl.gz",
+      "result_sha256": "792162eccb0e089fba2b1b87e9381106e8a53e040bb42d7d7378f7b65dd981b9",
+      "telemetry_sha256": "564c08e8c00e3f1eff294761db5d995007cecb36782d547e5aa40ab7108129ee"
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-EMPTY-03:post-fixed-seam-filter",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/result.json",
+      "telemetry": "history/IP140_R1_smoke05_fixed_pad_mount_filter01/episodes/03/telemetry.jsonl.gz",
+      "result_sha256": "167672de2ac1f4776928a54fa149ad6d455120912e726f09c974320c9bbf8569",
+      "telemetry_sha256": "d1eb49fe401aacf150d20b4a0d4d7ae226c385eb57922475ccc42393e55224a7"
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-EMPTY-04:post-sliding-seam-acm",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke06_sliding_seam_acm01/episodes/04/result.json",
+      "telemetry": "history/IP140_R1_smoke06_sliding_seam_acm01/episodes/04/telemetry.jsonl.gz",
+      "result_sha256": "37db6940b0007b87ed2428b707ef0e542ba2802ff6f56a33f8a517010830088c",
+      "telemetry_sha256": "1da7202c1b926d54c659f7f820683d7d11a6f3ea49743a7165e08a35320b9a6c"
+    },
+    {
+      "slot": 5,
+      "candidate_id": "IP140-BENCH-EMPTY-05:mount-baseline-invariant",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_passed",
+      "result": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/result.json",
+      "telemetry": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/telemetry.jsonl.gz",
+      "precharge": "history/IP140_R1_smoke07_mount_baseline_invariant01/episodes/05/precharge.json",
+      "result_sha256": "ef46ca39ef35ac4097f9d3ebbd96b636c1000911ba1e764486e9fb2b07a5783f",
+      "telemetry_sha256": "e06a40cc844c6563591b5db794514034e5263631d7b13d62ab74898f027a90e0",
+      "precharge_sha256": "c409e1d48325cd4bf96e6065a0e38914de0cfcd4ef1057cd1d599a280148067a"
+    },
+    {
+      "slot": 6,
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "kind": "single_sided_stop",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "history/IP140_R1_smoke08_single_sided_stop01/episodes/06/result.json",
+      "telemetry": "history/IP140_R1_smoke08_single_sided_stop01/episodes/06/telemetry.jsonl.gz",
+      "result_sha256": "69c47ae2084f59e7811a3ebdaff2f3fd57975e27420ef3412d32cfc6e5732538",
+      "precharge": "history/IP140_R1_smoke08_single_sided_stop01/episodes/06/precharge.json",
+      "precharge_sha256": "7043334c85683ec514f06b2f078f49d0f2597ebd2115f2300e5d4fbbdd1019e3",
+      "telemetry_sha256": "1e7cffebc9c3f8ae25758d3d119da1bacf4513fac0fb04576a3180b1b851a9b2",
+      "first_failed_step": 2837
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "kind": "nominal",
+      "charged": false,
+      "state": "authorized_only_after_offline_and_zero",
+      "result": null,
+      "telemetry": null,
+      "not_p3": true,
+      "prior_stop": "history/IP140_R1_smoke10_slot07_nominal021_01/STOP.json"
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_pending_review",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 13,
+      "candidate_id": "IP140-BENCH-13:single_sided_stop_close_speed_margin",
+      "kind": "single_sided_stop_corrective",
+      "execution_order": 7,
+      "repeat_of_slot": 6,
+      "development_corrective_repeat": true,
+      "independent_confirmation": false,
+      "state": "returned_passed",
+      "charged": true,
+      "result": "history/IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/result.json",
+      "telemetry": "history/IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/telemetry.jsonl.gz",
+      "result_sha256": "c873cf1a25f888e5508b6ecc5e29f5865414d26336d95726f5ef8c976ced203b",
+      "telemetry_sha256": "437a1f56b26b1f6cb704fa57b757355824d4b4ec1cbe8ab9e03dea597802c73f",
+      "precharge": "history/IP140_R1_smoke09_close_speed_margin_single_stop01/episodes/13/precharge.json",
+      "precharge_sha256": "2d8f08e11df11257f9a49a2e3e7506e612e9b6a8eea0a99e4d361f41a1980f65",
+      "slot_passed": true,
+      "expected_negative_detected": true,
+      "grasp_success": false,
+      "within_slot_retries": 0
+    }
+  ],
+  "unused_original_budget": 6,
+  "prior_starts": 7,
+  "prior_step_returns": 10383,
+  "prior_final_ledger": {
+    "package": "history/IP140_R1_smoke10_slot07_nominal021_01/slot_ledger.json",
+    "sha256": "cd731a2c470527d2d4e67124472b825077cfba30024d8892a0241a971b8803bb"
+  },
+  "steps_this_version": 0,
+  "starts_this_version": 0,
+  "deferred_center": {
+    "id": "IP140-BENCH-03:center",
+    "charged": false,
+    "reason": "engineering budget reallocation",
+    "new_slot": null
+  },
+  "deferred_offset_positive_y": {
+    "id": "IP140-BENCH-04:offset_positive_y",
+    "charged": false,
+    "reason": "deferred_due_engineering_budget_reallocation",
+    "new_slot": null
+  },
+  "deferred_offset_negative_y": {
+    "id": "IP140-BENCH-05:offset_negative_y",
+    "charged": false,
+    "reason": "deferred_due_engineering_budget_reallocation",
+    "new_slot": null
+  },
+  "remaining_total_budget": 6,
+  "additional_corrective_slot_available": false,
+  "charged_in_actual_execution_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    13
+  ],
+  "terminal": "pending_offline_and_zero"
+}

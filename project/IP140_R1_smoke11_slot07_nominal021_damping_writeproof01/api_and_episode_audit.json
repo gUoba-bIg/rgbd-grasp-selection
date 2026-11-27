@@ -1,0 +1,488 @@
+{
+  "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+  "passed": true,
+  "violations": [],
+  "observed": true,
+  "offline_passed": true,
+  "session_stop": "zero_gate_blocked",
+  "zero_passed": false,
+  "zero_required_mismatches": [
+    "initial_scene_all_body_link_manifolds_and_external_closest"
+  ],
+  "zero_snapshot_step_calls": 0,
+  "zero_first_rejected_geometry": {
+    "file": "zero_step/initial_world_contacts.json",
+    "failure": {
+      "query": "getContactPoints",
+      "index": 0,
+      "reason": "initial_robot_external_manifold",
+      "links": [
+        "base_link_inertia",
+        "table"
+      ],
+      "distance_m": -0.0010000957088204237
+    },
+    "raw_witness": [
+      0,
+      0,
+      1,
+      1,
+      -1,
+      [
+        0.008286136696253638,
+        -0.07507986178258438,
+        -0.0010000957088204237
+      ],
+      [
+        0.00828613669625372,
+        -0.07507986178258456,
+        0.0
+      ],
+      [
+        5.5516464646603244e-14,
+        -1.8042851010146054e-13,
+        1.0
+      ],
+      -0.0010000957088204237,
+      0.0,
+      0.0,
+      [
+        0.0,
+        -1.0,
+        -1.8042851010146054e-13
+      ],
+      0.0,
+      [
+        1.0,
+        1.001675300228703e-26,
+        -5.5516464646603244e-14
+      ]
+    ]
+  },
+  "zero_first_failed_field": {
+    "field": "initial_scene_all_body_link_manifolds_and_external_closest",
+    "expected": true,
+    "readback": false,
+    "status": "mismatch",
+    "atol": 1e-10
+  },
+  "zero_object_table_manifold_indices": [],
+  "zero_evidence_files": [
+    "zero_step/all_links_readback.json",
+    "zero_step/candidate_roundtrip.json",
+    "zero_step/collision_frame_diagnostics.json",
+    "zero_step/damping_write_audit.json",
+    "zero_step/filter_post.json",
+    "zero_step/filter_pre.json",
+    "zero_step/filter_setter_01_intent.json",
+    "zero_step/filter_setter_01_returned.json",
+    "zero_step/filter_setter_02_intent.json",
+    "zero_step/filter_setter_02_returned.json",
+    "zero_step/filter_setter_03_intent.json",
+    "zero_step/filter_setter_03_returned.json",
+    "zero_step/filter_setter_04_intent.json",
+    "zero_step/filter_setter_04_returned.json",
+    "zero_step/filter_setter_05_intent.json",
+    "zero_step/filter_setter_05_returned.json",
+    "zero_step/filter_setter_06_intent.json",
+    "zero_step/filter_setter_06_returned.json",
+    "zero_step/filter_setter_07_intent.json",
+    "zero_step/filter_setter_07_returned.json",
+    "zero_step/filter_setter_08_intent.json",
+    "zero_step/filter_setter_08_returned.json",
+    "zero_step/filter_setter_09_intent.json",
+    "zero_step/filter_setter_09_returned.json",
+    "zero_step/filter_setter_10_intent.json",
+    "zero_step/filter_setter_10_returned.json",
+    "zero_step/filter_setter_11_intent.json",
+    "zero_step/filter_setter_11_returned.json",
+    "zero_step/filter_setter_12_intent.json",
+    "zero_step/filter_setter_12_returned.json",
+    "zero_step/filter_setter_13_intent.json",
+    "zero_step/filter_setter_13_returned.json",
+    "zero_step/initial_world_contacts.json",
+    "zero_step/object021_readback.json",
+    "zero_step/post_filter_thirteen_pairs_closest_and_manifolds.json",
+    "zero_step/post_filter_wrist_mount_invariant.json",
+    "zero_step/pre_filter_wrist_fixed_chain.json",
+    "zero_step/pre_filter_wrist_mount_face_witnesses.json",
+    "zero_step/pre_filter_wrist_mount_invariant.json",
+    "zero_step/pre_filter_wrist_relative_transform.json",
+    "zero_step/result.json",
+    "zero_step/seams_after_filter.json",
+    "zero_step/seams_before_filter.json",
+    "zero_step/slot7_trajectory_mapping.json",
+    "zero_step/speed_and_complete_api_prefix.json",
+    "zero_step/start.json",
+    "zero_step/structural_filter_readback.json",
+    "zero_step/table_readback.json",
+    "zero_step/zero_contacts.json"
+  ],
+  "bindings": {
+    "robot": 0,
+    "object": 2,
+    "table": 1,
+    "client": 0
+  },
+  "urdf_loads": [
+    {
+      "seq": 4,
+      "body": 0,
+      "path": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/model/ur5e_ip140_r1.urdf"
+    },
+    {
+      "seq": 353,
+      "body": 2,
+      "path": "data/simulation_v52/objects/final_static_audit/021/object.urdf"
+    }
+  ],
+  "static_body_creations": [
+    {
+      "seq": 352,
+      "body": 1,
+      "args": [],
+      "kwargs": {
+        "baseMass": 0,
+        "baseCollisionShapeIndex": 0,
+        "baseVisualShapeIndex": 0,
+        "basePosition": [
+          0.45,
+          0,
+          -0.025
+        ],
+        "physicsClientId": 0
+      }
+    }
+  ],
+  "counts": {
+    "calls": {
+      "connect": 1,
+      "setPhysicsEngineParameter": 1,
+      "setGravity": 1,
+      "loadURDF": 2,
+      "getNumJoints": 2,
+      "getJointInfo": 63,
+      "resetJointState": 6,
+      "changeDynamics": 6,
+      "setJointMotorControl2": 2,
+      "getDynamicsInfo": 32,
+      "getCollisionShapeData": 52,
+      "getBasePositionAndOrientation": 3,
+      "getJointState": 23,
+      "getLinkState": 17,
+      "getMatrixFromQuaternion": 55,
+      "getNumConstraints": 1,
+      "performCollisionDetection": 4,
+      "getContactPoints": 4,
+      "getLinkStates": 10,
+      "getClosestPoints": 35,
+      "computeViewMatrixFromYawPitchRoll": 1,
+      "computeProjectionMatrixFOV": 1,
+      "getCameraImage": 1,
+      "getPhysicsEngineParameters": 1,
+      "getJointStates": 2,
+      "getAABB": 26,
+      "setCollisionFilterPair": 13,
+      "createCollisionShape": 1,
+      "createVisualShape": 1,
+      "createMultiBody": 1,
+      "getBodyInfo": 1,
+      "getBaseVelocity": 1,
+      "getMeshData": 1,
+      "getNumBodies": 1,
+      "getBodyUniqueId": 3,
+      "disconnect": 1
+    },
+    "returns": {
+      "connect": 1,
+      "setPhysicsEngineParameter": 1,
+      "setGravity": 1,
+      "loadURDF": 2,
+      "getNumJoints": 2,
+      "getJointInfo": 63,
+      "resetJointState": 6,
+      "changeDynamics": 6,
+      "setJointMotorControl2": 2,
+      "getDynamicsInfo": 32,
+      "getCollisionShapeData": 52,
+      "getBasePositionAndOrientation": 3,
+      "getJointState": 23,
+      "getLinkState": 17,
+      "getMatrixFromQuaternion": 55,
+      "getNumConstraints": 1,
+      "performCollisionDetection": 4,
+      "getContactPoints": 4,
+      "getLinkStates": 10,
+      "getClosestPoints": 35,
+      "computeViewMatrixFromYawPitchRoll": 1,
+      "computeProjectionMatrixFOV": 1,
+      "getCameraImage": 1,
+      "getPhysicsEngineParameters": 1,
+      "getJointStates": 2,
+      "getAABB": 26,
+      "setCollisionFilterPair": 13,
+      "createCollisionShape": 1,
+      "createVisualShape": 1,
+      "createMultiBody": 1,
+      "getBodyInfo": 1,
+      "getBaseVelocity": 1,
+      "getMeshData": 1,
+      "getNumBodies": 1,
+      "getBodyUniqueId": 3,
+      "disconnect": 1
+    },
+    "exceptions": {},
+    "total_calls": 376
+  },
+  "filter_calls": [
+    {
+      "seq": 266,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 267,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 268,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 269,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        4,
+        5,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 270,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        5,
+        6,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 271,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        6,
+        7,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 272,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        7,
+        11,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 273,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        12,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 274,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        14,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 275,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        12,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 276,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 277,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        14,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    },
+    {
+      "seq": 278,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    }
+  ],
+  "filter_count": 13,
+  "external_filter_count": 0,
+  "object_writes": [
+    {
+      "seq": 354,
+      "args": [
+        2,
+        -1
+      ],
+      "kwargs": {
+        "lateralFriction": 0.6,
+        "restitution": 0.0,
+        "linearDamping": 0.04,
+        "angularDamping": 0.04,
+        "physicsClientId": 0
+      },
+      "returned": true,
+      "value": null
+    }
+  ],
+  "damping_violations": [],
+  "damping_audit_observed": true,
+  "first_step_api_sequence": null,
+  "disconnect_api_sequence": 376,
+  "physics_step_calls": 0,
+  "physics_step_returns": 0,
+  "unknown_physics_steps": 0,
+  "precharged": false,
+  "expected_cumulative_starts": 7,
+  "expected_remaining": 6,
+  "telemetry_observed": false,
+  "states_per_phase": {},
+  "settle_baseline_z_m": null,
+  "max_observed_lift_m": null,
+  "contact_step_counts": null,
+  "final480_observed": 0,
+  "final480_range": [
+    4249,
+    4728
+  ],
+  "physics_observed": false
+}

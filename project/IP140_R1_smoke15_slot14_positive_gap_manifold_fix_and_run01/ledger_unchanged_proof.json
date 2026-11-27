@@ -1,0 +1,11 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "initial_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "final_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "byte_identical": true,
+  "starts": 8,
+  "total": 14,
+  "remaining": 6,
+  "slot14_charged": false,
+  "new_charges": 0
+}

@@ -1,0 +1,199 @@
+{
+  "version": "IP140_R1_smoke04_structural_filter_numericband01",
+  "actual_zero_hard_checks": 142,
+  "zero_mismatches": [],
+  "pre_filter_contact_rows": 7,
+  "post_filter_contact_rows": 0,
+  "solver_step_returns": [
+    273,
+    296
+  ],
+  "api_note": "solver_step_returns contains trace sequence IDs; two physics calls returned.",
+  "session_api_calls": 321,
+  "filter_action_trace_seq": [
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+  ],
+  "physical_steps_this_version": 2,
+  "completed_stations_mm": [],
+  "first_failed_step": 2,
+  "per_step": [
+    {
+      "step": 1,
+      "target_q_m": 0.0,
+      "actual_q_m": [
+        -1.2258761444663853e-07,
+        1.231616061096214e-07
+      ],
+      "arm_torque_Nm": [
+        -0.00026157826868300135,
+        24.568778555451154,
+        20.466511762894733,
+        1.959674406871802,
+        0.0003232773659558793,
+        -3.5747161986276916e-06
+      ],
+      "arm_cap_Nm": [
+        150.0,
+        150.0,
+        150.0,
+        28.0,
+        28.0,
+        28.0
+      ],
+      "finger_motor_force_N": [
+        -0.01366365833050846,
+        -0.02206811688921297
+      ],
+      "gap_m": 5.73991685778874e-10,
+      "midline_m": 1.2287461023663404e-07,
+      "filtered_pair_contact_rows": 0,
+      "num_contact_rows": 0,
+      "per_seam": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_m": 5.739917050776727e-10,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            2.461730291701585e-17
+          ]
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_m": 1.734723475976807e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            1.734723475976807e-17
+          ]
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_m": 4.336808689942018e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            1.214306433312476e-17
+          ]
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_m": 2.7755575615628914e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            2.7755575615628914e-17
+          ]
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_m": 3.469446951953614e-18,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            3.469446951953614e-18
+          ]
+        },
+        "ip140_left_pad|ip140_left_bone": {
+          "closest_m": -4.336808689942018e-18,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            4.336808689942018e-18
+          ]
+        },
+        "ip140_right_pad|ip140_right_bone": {
+          "closest_m": -4.336808689942018e-18,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            4.336808689942018e-18
+          ]
+        }
+      },
+      "violations": []
+    },
+    {
+      "step": 2,
+      "target_q_m": 0.0,
+      "actual_q_m": [
+        -2.3339719273262113e-07,
+        2.3471182958878455e-07
+      ],
+      "arm_torque_Nm": [
+        0.00013157956462301473,
+        24.618248932828063,
+        20.498636762595233,
+        1.9659323580649468,
+        -3.0607258819353306e-06,
+        2.093494740937432e-07
+      ],
+      "arm_cap_Nm": [
+        150.0,
+        150.0,
+        150.0,
+        28.0,
+        28.0,
+        28.0
+      ],
+      "finger_motor_force_N": [
+        -0.011501304525677849,
+        3.2159220947785595e-05
+      ],
+      "gap_m": 1.314636842095207e-09,
+      "midline_m": 2.34054511161208e-07,
+      "filtered_pair_contact_rows": 0,
+      "num_contact_rows": 8,
+      "per_seam": {
+        "ip140_left_pad|ip140_right_pad": {
+          "closest_m": 1.31463686854974e-09,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            2.805044076364161e-17
+          ]
+        },
+        "ip140_palm|ip140_left_pad": {
+          "closest_m": 2.0166160408230382e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            2.0166160408230382e-17
+          ]
+        },
+        "ip140_palm|ip140_left_bone": {
+          "closest_m": 1.3227266504323154e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            1.3227266504323153e-17
+          ]
+        },
+        "ip140_palm|ip140_right_pad": {
+          "closest_m": 3.230922474006803e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            2.3201926492986823e-17
+          ]
+        },
+        "ip140_palm|ip140_right_bone": {
+          "closest_m": 3.7513395167998453e-17,
+          "manifold_rows": 0,
+          "witness_residuals_m": [
+            1.799775606594917e-17
+          ]
+        },
+        "ip140_left_pad|ip140_left_bone": {
+          "closest_m": 1.3660947373317356e-17,
+          "manifold_rows": 4,
+          "witness_residuals_m": [
+            1.3660947373317356e-17
+          ]
+        },
+        "ip140_right_pad|ip140_right_bone": {
+          "closest_m": 1.3660947373317356e-17,
+          "manifold_rows": 4,
+          "witness_residuals_m": [
+            1.3660947373317356e-17
+          ]
+        }
+      },
+      "violations": [
+        "internal_seams.ip140_left_pad|ip140_left_bone:seam_manifold",
+        "internal_seams.ip140_right_pad|ip140_right_bone:seam_manifold"
+      ]
+    }
+  ],
+  "unknown_steps": 0
+}

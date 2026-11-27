@@ -1,0 +1,10 @@
+{
+  "exception": "LookupError: unknown encoding: utf8-sig",
+  "source": "static_api_audit.py:35",
+  "original_source_sha256": "ce20aa44a6f9abef07f1fab0960ce5e758dae267d9d460185bbc45f1a0d1a3ed",
+  "corrected_source": "static_api_audit_r2.py",
+  "corrected_source_sha256": "0cf18cb6b8d2850ec1e0c4c9d19441eb2bc134d579d13c723e5f200d7ba70ce2",
+  "change": "read-only audit decoder alias only; no runtime or experiment source altered",
+  "engine_connections": 0,
+  "physics_steps": 0
+}

@@ -1,0 +1,56 @@
+{
+  "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+  "passed": true,
+  "cases": [
+    {
+      "name": "next-slot admission counts actual launch after earlier uncharged candidate",
+      "passed": true
+    },
+    {
+      "name": "no dynamic classification for static nonadmission",
+      "passed": true
+    },
+    {
+      "name": "tampered uncharged row denied",
+      "passed": true
+    },
+    {
+      "name": "shared batch stop for unregistered_self_manifold",
+      "passed": true
+    },
+    {
+      "name": "shared batch stop for robot_table_contact",
+      "passed": true
+    },
+    {
+      "name": "shared batch stop for other_robot_table_manifold",
+      "passed": true
+    },
+    {
+      "name": "shared batch stop for nonpad_robot_object_contact",
+      "passed": true
+    },
+    {
+      "name": "shared batch stop for unknown_body_identity",
+      "passed": true
+    },
+    {
+      "name": "continue and record completed nominal episode, grasp_success=False",
+      "passed": true
+    },
+    {
+      "name": "continue and record completed nominal episode, grasp_success=True",
+      "passed": true
+    },
+    {
+      "name": "continue and record completed miss episode, grasp_success=True",
+      "passed": true
+    },
+    {
+      "name": "continue and record completed miss episode, grasp_success=False",
+      "passed": true
+    }
+  ],
+  "scope": "offline fixture only; no engine connection, no study ledger mutation",
+  "physical_steps": 0
+}

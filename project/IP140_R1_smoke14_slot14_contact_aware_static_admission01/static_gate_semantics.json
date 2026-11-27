@@ -1,0 +1,67 @@
+{
+  "schema": "IP140-smoke14-contact-aware-static-semantics-v1",
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "acquisition_policy": {
+    "path": "acquisition_policy.json",
+    "sha256": "f3696eff4d5c67859767fb9c3c4e7e17e74ee58bc8dd3db92a2a8d05a1341a9e",
+    "scope": "future approved static-query acquisition policy; this replay performs no acquisition or connection"
+  },
+  "source_sha256": {
+    "contact_semantics.py": "50b2567039f3e0b3f5e2be83efab8ffee5421737c2ffd4602ae79c05fc2b3baa",
+    "contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "positive_negative_replay.py": "57a27ff154804c228b3ba9310ef042787df986c413340eaa2334c335a0e20a22",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3"
+  },
+  "entry_certificate_numeric_requirements": {
+    "q_range_m": [
+      0.0,
+      0.07
+    ],
+    "bracket_width_max_m": 1e-10,
+    "clear_distance_strict_positive": true,
+    "overlap_distance_nonpositive": true,
+    "q_entry_equals_clear_endpoint": true,
+    "max_absolute_entry_distance_m": 1e-09,
+    "max_face_outside_m": 1e-09,
+    "max_full_witness_residual_m": 1e-09,
+    "max_normal_unit_error": 1e-09,
+    "on_effective_inner_face_required": true,
+    "inward_alignment_strict_positive": true
+  },
+  "reference": {
+    "meaning": "frozen commanded q_ref; not simulated loaded state",
+    "postcontact_exception_phases": [
+      "close",
+      "lift",
+      "hold"
+    ],
+    "allowed_reference_only_labels": [
+      "post_contact_motor_reference_overtravel",
+      "post_contact_bone_motor_reference_overclosure"
+    ],
+    "required": "same-side valid entry certificate; no palm/arm exemption"
+  },
+  "proxy": {
+    "meaning": "static contact-limited geometry; never controller target or loaded prediction",
+    "nonpad_target": "hard failure in every phase",
+    "pad_penetration_below_m": -0.001,
+    "entry_face": "exact frozen local y=0, x[0,.060], z[-.010,.010], full residual and face tolerance1e-9"
+  },
+  "unchanged": {
+    "dynamic_external_penetration_lower_m": -0.001,
+    "dynamic_evaluator_sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "precontact": "any early pad contact/negative gap rejected",
+    "nonpad_palm_arm": "hard in both channels",
+    "robot_table_self_unknown_nonfinite": "strict original gates remain",
+    "filters": 14
+  },
+  "no_new_dynamic_approval": true,
+  "offline_replay_sha256": "5758f48f23bf88044f961e5a92bc739a6091b0d22e02dc3c1c37069a3d066442",
+  "mandatory_supplementary_gates": [
+    "registered internal assembly invariants",
+    "active pad seam witnesses",
+    "fixed base-table mount invariant",
+    "entry effective face and no nonpad collision",
+    "unchanged trajectory and asset hashes"
+  ]
+}

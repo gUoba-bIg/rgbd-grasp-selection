@@ -1,0 +1,169 @@
+{
+  "version": 31,
+  "at": "2026-10-30T18:49:59.212018+08:00",
+  "existing_training_processes": [
+    {
+      "pid": 262308,
+      "creation_filetime": 134378306211715098
+    },
+    {
+      "pid": 278372,
+      "creation_filetime": 134378306212136687
+    }
+  ],
+  "wall_seconds": 108000,
+  "wall_limit_scope": "Single finite chain ceiling only; all original per-phase cumulative limits remain binding",
+  "protected": {
+    "scripts/p7_checks_v31.py": {
+      "sha256": "03e32b16fcb641bde631fef37bc03739faf10412cb59472dcab48ac115aef28f",
+      "bytes": 5620,
+      "mtime_ns": 1793357190296948900
+    },
+    "scripts/p7_common_v31.py": {
+      "sha256": "f23ec89156803a5528c732412c12c1a92f503229b86e8612d6811ca84bdb829c",
+      "bytes": 3394,
+      "mtime_ns": 1793357073811854100
+    },
+    "scripts/p7_finish_v31.py": {
+      "sha256": "6ea385ee35ca2b1275632e5be31f9b83e19a37802d7b6f8a30a5c7a70ff8a8ea",
+      "bytes": 4745,
+      "mtime_ns": 1793357073813160500
+    },
+    "scripts/p7_fit_v31.py": {
+      "sha256": "b5e4dc2c98eb47214e9dcd600c73766a5c11368a679069657d25a2e917794f2c",
+      "bytes": 6840,
+      "mtime_ns": 1793357073813160500
+    },
+    "scripts/p7_generate_v31.py": {
+      "sha256": "ee3a301e351075815da630d4d8e642c0676f5dafcb6b71f27d2d0b2daa69f8ec",
+      "bytes": 5771,
+      "mtime_ns": 1793357073814237700
+    },
+    "scripts/p7_model_identity_v31.py": {
+      "sha256": "ee26b5acc9eb6ec07b7e7df41d84193f0efa2bec94bf4f4afa640b572d40bf02",
+      "bytes": 1194,
+      "mtime_ns": 1793357073815397200
+    },
+    "scripts/p7_pool_v31.py": {
+      "sha256": "c6a86fd7dac86cc0d2c236f0b72e84b0338d29f64ae3b3838252255e8afae7e7",
+      "bytes": 2626,
+      "mtime_ns": 1793357120314131100
+    },
+    "scripts/p7_prepare_v31.py": {
+      "sha256": "6e93146d03aa724c2d5ac6ef2a28bb5599b48a7edde3ed41442d6876f7c22964",
+      "bytes": 5933,
+      "mtime_ns": 1793357073826905500
+    },
+    "scripts/p7_review_v31.py": {
+      "sha256": "8f823528b01045c539e56960ce45e8104294be1c053c4de6c493d6b7cbd3e21e",
+      "bytes": 14892,
+      "mtime_ns": 1793357073844023400
+    },
+    "scripts/p7_score_v31.py": {
+      "sha256": "27c68c3d9ee7ef9cbb5010259282982609e3873cc7f7cabab9151ee4d86a21d9",
+      "bytes": 6658,
+      "mtime_ns": 1793357073834172900
+    },
+    "src/risk_metrics_v31.py": {
+      "sha256": "b8525f98a3b9e9d75edec07cea2508014579210c0ff85a75c87bc1120ce01550",
+      "bytes": 1972,
+      "mtime_ns": 1793357073817390700
+    },
+    "src/risk_observations_v31.py": {
+      "sha256": "1fdb0dda089e3cb959e06d8c8614c116880cf4d5cf6e0ceb15d62e8f98a92e8a",
+      "bytes": 2823,
+      "mtime_ns": 1793357073817390700
+    },
+    "scripts/p3_filter_support_v30.py": {
+      "sha256": "8069f15e6e71518ea5b43716d2c57f9abc0fdec33534cebd3cbae1c7b8c3cac8",
+      "bytes": 1889,
+      "mtime_ns": 1793356544957379600
+    },
+    "scripts/p3_finish_v30.py": {
+      "sha256": "1ffbc9e1211a9f17e122dff6261b2480527cfbfed52c0e42613662442565817d",
+      "bytes": 4581,
+      "mtime_ns": 1793356544876440800
+    },
+    "scripts/p3_generate_v30.py": {
+      "sha256": "82e5fda8f27cf8e3faaa51c52659305672a9e8bf463eaa57ec7f0d4e257289b9",
+      "bytes": 4558,
+      "mtime_ns": 1793356544875444000
+    },
+    "scripts/p3_prepare_v30.py": {
+      "sha256": "4a4dc56df81377fa50b9a24c4413060ef6de6b400f0ea0ac4d9a585ccfabbf61",
+      "bytes": 5193,
+      "mtime_ns": 1793357008346767200
+    },
+    "scripts/p3_review_v30.py": {
+      "sha256": "0c605f1cf66347c428762f65a17ac65a9951fe4c5f8cb9e74639c78a3567b0eb",
+      "bytes": 7085,
+      "mtime_ns": 1793356544876440800
+    },
+    "scripts/p3_score_v30.py": {
+      "sha256": "2b1f046d5389d26b5df9c10649e788c66121fb234464b43f88b4b7676202d146",
+      "bytes": 7766,
+      "mtime_ns": 1793356544875444000
+    },
+    "scripts/p3_train_v30.py": {
+      "sha256": "1715a4137597c39bc9a1213a347c1611a007707668868dd80972de5f7fd48839",
+      "bytes": 9986,
+      "mtime_ns": 1793357008345701000
+    },
+    "scripts/p3_to_p7_v31.py": {
+      "sha256": "e128e06464f859db50d189edb6051968593ddd36dbcf297bff9777bb4c4e7ba8",
+      "bytes": 7483,
+      "mtime_ns": 1793357315652727700
+    },
+    "configs/candidate_v30.json": {
+      "sha256": "d4eaab4be25c63f276fa866b76ed11cef34222fdebb1be27b8d05b76da41b8f0",
+      "bytes": 144585,
+      "mtime_ns": 1793357008745376000
+    },
+    "logs/P3/candidate_v30/freeze.json": {
+      "sha256": "f80040b4f79b2a3429d3359913ad7141a7a10a81fb9bd9e90af1bdfe93d6a619",
+      "bytes": 131,
+      "mtime_ns": 1793357008752912300
+    },
+    "logs/P7/preflight_v31/checks.json": {
+      "sha256": "a939f12b0be01d73625869fb05071dd4ae8aabbfec3ce95241ebecf20c3239ce",
+      "bytes": 3148,
+      "mtime_ns": 1793357209100892500
+    },
+    "logs/P7/preflight_v31/filter_pool.json": {
+      "sha256": "5e394d0ae2292ce9ea3c0e3aa11d7762d9d5662d2a3c2b6e00959b069afbf629",
+      "bytes": 957,
+      "mtime_ns": 1793357209056071800
+    },
+    "src/grasp_observed_filter_v29.py": {
+      "sha256": "16f61d0f321119ec97131b9d7282f010c498f44859ce1c92fe8b881b11614534",
+      "bytes": 1577,
+      "mtime_ns": 1793356160233717600
+    },
+    "docs/P7固定候选风险与独立校准_v31_草案.txt": {
+      "sha256": "14acac9ae09fe938982abc903b3ff0547bb428a301f393c1388a55e87a6f5c7b",
+      "bytes": 2451,
+      "mtime_ns": 1793357120315187700
+    },
+    "scripts/p6_common_v24.py": {
+      "sha256": "d6959c4aeb1d687250ba6ee26084bb1c4425cf81c891721ffe46ceea5875087d",
+      "bytes": 4832,
+      "mtime_ns": 1793091284319385200
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168,
+      "mtime_ns": 1792550777180041600
+    }
+  },
+  "P3_final_gate": {
+    "positive_scenes_min": 10,
+    "positive_candidates_min": 30
+  },
+  "P7_requires_actual_P3_final_review_cold_integrity": true,
+  "P7_frozen": false,
+  "stop_after_P7": true,
+  "P8_allowed": false,
+  "recurring_automation": false,
+  "all_tasks_percent": 43,
+  "experiment_percent": 53.75
+}

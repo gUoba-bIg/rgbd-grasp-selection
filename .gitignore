@@ -1,0 +1,27 @@
+# Local secrets and generated execution material must never enter the source release.
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+private_audit/
+local_runtime/
+local_archives/
+new_outputs/
+*.zip
+*.7z
+*.whl
+*.pyd
+*.dll
+*.exe
+*.pt
+*.pth
+*.npz
+*.npy
+*.jsonl.gz

@@ -1,0 +1,79 @@
+{
+  "schema": "IP140-smoke15-positive-gap-manifold-semantics-v1",
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "acquisition_policy": {
+    "path": "acquisition_policy.json",
+    "sha256": "f3696eff4d5c67859767fb9c3c4e7e17e74ee58bc8dd3db92a2a8d05a1341a9e",
+    "scope": "future approved static-query acquisition policy; this replay performs no acquisition or connection"
+  },
+  "positive_gap_manifold": {
+    "classification": "positive_gap_zero_force_proximity_manifold",
+    "geometric_contact": "signed_distance <= 0",
+    "force_active": "any absolute Fn/Ft1/Ft2 > 1e-9 N",
+    "force_inconsistency_label": "positive_gap_nonzero_force_inconsistency",
+    "positive_gap_zero_force_requires": "same snapshot/channel fresh exact body/link pair with finite positive minimum distance and absolute difference <= 1e-9 m; effective-face witness audit remains mandatory",
+    "minimum_matching_rule": "No favorable branch selection; ambiguous branch not matching exact-pair minimum fails",
+    "not_an_entry_trigger": true,
+    "nonpad_exception": false
+  },
+  "source_sha256": {
+    "contact_semantics.py": "925d5b5c43fafcc70b8b64106299e352e46328a2b522ff6943bdd613c76bdd7a",
+    "contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "positive_negative_replay.py": "d3bb49a8febed52018685a74a9e1265b098402858aa70affb8318e3d49bf7115",
+    "smoke15_proximity_replay.py": "2faa9bc53f559b1853e7837ebc72eb5c250640a93b18366ac2f1c123cb0c4ef0",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3"
+  },
+  "entry_certificate_numeric_requirements": {
+    "q_range_m": [
+      0.0,
+      0.07
+    ],
+    "bracket_width_max_m": 1e-10,
+    "clear_distance_strict_positive": true,
+    "overlap_distance_nonpositive": true,
+    "q_entry_equals_clear_endpoint": true,
+    "max_absolute_entry_distance_m": 1e-09,
+    "max_face_outside_m": 1e-09,
+    "max_full_witness_residual_m": 1e-09,
+    "max_normal_unit_error": 1e-09,
+    "on_effective_inner_face_required": true,
+    "inward_alignment_strict_positive": true
+  },
+  "reference": {
+    "meaning": "frozen commanded q_ref; not simulated loaded state",
+    "postcontact_exception_phases": [
+      "close",
+      "lift",
+      "hold"
+    ],
+    "allowed_reference_only_labels": [
+      "post_contact_motor_reference_overtravel",
+      "post_contact_bone_motor_reference_overclosure"
+    ],
+    "required": "same-side valid entry certificate; no palm/arm exemption"
+  },
+  "proxy": {
+    "meaning": "static contact-limited geometry; never controller target or loaded prediction",
+    "nonpad_target": "hard failure in every phase",
+    "pad_penetration_below_m": -0.001,
+    "entry_face": "exact frozen local y=0, x[0,.060], z[-.010,.010], full residual and face tolerance1e-9"
+  },
+  "unchanged": {
+    "dynamic_external_penetration_lower_m": -0.001,
+    "dynamic_evaluator_sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "precontact": "any early pad contact/negative gap rejected",
+    "nonpad_palm_arm": "hard in both channels",
+    "robot_table_self_unknown_nonfinite": "strict original gates remain",
+    "filters": 14
+  },
+  "offline_replay_is_not_physical_success": true,
+  "execution_requires_all_separate_registered_admissions": true,
+  "offline_replay_sha256": "585772507789082c5d02dcd6b60810319d7a2e51dfa135da6b3c5c7c6c71b6e0",
+  "mandatory_supplementary_gates": [
+    "registered internal assembly invariants",
+    "active pad seam witnesses",
+    "fixed base-table mount invariant",
+    "entry effective face and no nonpad collision",
+    "unchanged trajectory and asset hashes"
+  ]
+}

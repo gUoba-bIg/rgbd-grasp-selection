@@ -1,0 +1,77 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "finished_utc": "2026-11-08T11:40:49.916520+00:00",
+  "workers": [
+    {
+      "slot": 9,
+      "exit_code": 2,
+      "session": {
+        "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+        "slot": 9,
+        "object_id": "017",
+        "kind": "nominal",
+        "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+        "starts_before": 10,
+        "starts_after": 10,
+        "remaining_after": 4,
+        "total_budget": 14,
+        "charged": false,
+        "batch_can_continue": false,
+        "at": "2026-11-08T11:39:31.490360+00:00",
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": false,
+        "phase": "static_zero_and_path",
+        "static_snapshots_completed": 2761,
+        "static_first_failure": {
+          "snapshot": 2761,
+          "phase": "close",
+          "phase_tick": 25,
+          "violations": [
+            "reference:left:entry_witness_outside_registered_effective_face",
+            "reference:left:entry_solver_not_passed",
+            "reference:left:entry_witness_face_audit_missing_or_failed",
+            "reference:left:entry_face_outside_m",
+            "reference:left:entry_not_on_effective_inner_face",
+            "reference:robot_target:28:pad_contact_without_legal_entry",
+            "reference:robot_target:28:missing_per_side_entry_certificate",
+            "reference:robot_target:28:reference_negative_or_manifold_before_legal_entry",
+            "reference:robot_target:28:witness:entry_witness_outside_registered_effective_face",
+            "reference:robot_target:46:pad_contact_without_legal_entry",
+            "reference:robot_target:46:missing_per_side_entry_certificate",
+            "reference:robot_target:46:reference_negative_or_manifold_before_legal_entry",
+            "reference:robot_target:46:witness:entry_witness_outside_registered_effective_face",
+            "proxy:robot_target:28:pad_contact_without_legal_entry",
+            "proxy:robot_target:28:missing_per_side_entry_certificate",
+            "proxy:robot_target:28:witness:entry_witness_outside_registered_effective_face",
+            "proxy:robot_target:46:pad_contact_without_legal_entry",
+            "proxy:robot_target:46:missing_per_side_entry_certificate",
+            "proxy:robot_target:46:witness:entry_witness_outside_registered_effective_face"
+          ]
+        },
+        "static_candidate_rejection": {
+          "side": "left",
+          "state": 2761,
+          "q_entry_m": 0.03080095764393101,
+          "face_outside_m": 0.00012068815648280749,
+          "evidence": "contact_entries/left/result.json"
+        },
+        "stop": "candidate_static_inadmissible",
+        "error": "ValueError('actual_crossing_outside_effective_face')",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01\\run_authorized.py\", line 191, in main\n    raise ValueError(\"actual_crossing_outside_effective_face\" if geometric else \"static admission failed\")\nValueError: actual_crossing_outside_effective_face\n",
+        "actual_step_calls": 0,
+        "actual_step_returns": 0,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T11:40:49.829951+00:00"
+      }
+    }
+  ],
+  "charged": 0,
+  "cumulative_starts": 10,
+  "remaining": 4,
+  "following_slots_not_entered": [
+    10,
+    11,
+    12
+  ],
+  "retries": 0
+}

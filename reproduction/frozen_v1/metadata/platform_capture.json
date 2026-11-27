@@ -1,0 +1,86 @@
+{
+  "active_env": {
+    "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6",
+    "CUDA_VISIBLE_DEVICES": null,
+    "MKL_NUM_THREADS": null,
+    "NUMBER_OF_PROCESSORS": "12",
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "PYTHONHASHSEED": null
+  },
+  "base": "${PYTHON_HOME}",
+  "cpu": {
+    "args": [
+      "powershell",
+      "-NoProfile",
+      "-Command",
+      "Get-CimInstance Win32_Processor | Select Name,NumberOfCores,NumberOfLogicalProcessors | ConvertTo-Json -Compress"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "{\"Name\":\"12th Gen Intel(R) Core(TM) i5-12400F\",\"NumberOfCores\":6,\"NumberOfLogicalProcessors\":12}"
+  },
+  "cuda_driver": {
+    "args": [
+      "nvidia-smi"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "Fri Nov 13 11:40:06 2026       \r\n+-----------------------------------------------------------------------------------------+\r\n| NVIDIA-SMI 610.88                 KMD Version: 610.88        CUDA UMD Version: 13.3     |\r\n+-----------------------------------------+------------------------+----------------------+\r\n| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |\r\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\r\n|                                         |                        |               MIG M. |\r\n|=========================================+========================+======================|\r\n|   0  NVIDIA GeForce RTX 4060 Ti   WDDM  |   00000000:01:00.0 Off |                  N/A |\r\n| 33%   44C    P0             28W /  165W |    1449MiB /  16380MiB |      9%      Default |\r\n|                                         |                        |                  N/A |\r\n+-----------------------------------------+------------------------+----------------------+\r\n\r\n+-----------------------------------------------------------------------------------------+\r\n[Unrelated host process listing omitted from the public metadata.]\n"
+  },
+  "git": {
+    "args": [
+      "C:\\Program Files\\Git\\cmd\\git.EXE",
+      "--version"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "git version 2.46.0.windows.1"
+  },
+  "gpu": {
+    "args": [
+      "nvidia-smi",
+      "--query-gpu=name,uuid,driver_version,memory.total,compute_cap",
+      "--format=csv,noheader"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "NVIDIA GeForce RTX 4060 Ti, GPU-c7003258-fc43-762c-f69b-3dc4c4392f05, 610.88, 16380 MiB, 8.9"
+  },
+  "interpreter": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "machine": {
+    "args": [
+      "powershell",
+      "-NoProfile",
+      "-Command",
+      "Get-CimInstance Win32_ComputerSystem | Select Model,TotalPhysicalMemory | ConvertTo-Json -Compress"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "{\"Model\":\"CVN B760I-A FROZEN WIFI\",\"TotalPhysicalMemory\":34159144960}"
+  },
+  "recorded_time": "capture time, not historical hardware telemetry",
+  "source_execution_env_origin": "IP140_R2_R6formal720_raw_a_c0_paired01/code/dispatch.py; IP140_R2_R6formal720_static_distance_uncertified_resume01/code/formal_dispatch.py; IP140_R2_R7ablation240_mechanism01/code/dispatch_ablation.py",
+  "system": "Windows-11-10.0.26200-SP0",
+  "toolchain": {
+    "args": [
+      "where",
+      "nvcc"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin\\nvcc.exe"
+  },
+  "utc": "2026-11-13T03:40:05.990662+00:00",
+  "windows": {
+    "args": [
+      "powershell",
+      "-NoProfile",
+      "-Command",
+      "Get-CimInstance Win32_OperatingSystem | Select Caption,Version,BuildNumber | ConvertTo-Json -Compress"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "{\"Caption\":\"Microsoft Windows 11 专业版\",\"Version\":\"10.0.26200\",\"BuildNumber\":\"26200\"}"
+  }
+}

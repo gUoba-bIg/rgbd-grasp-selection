@@ -1,0 +1,16 @@
+{
+  "purpose": "Read-only API syntax normalization, not experiment/runtime modification",
+  "original_failed_report": "static_api_audit.json",
+  "r2_script": "static_api_audit_r2.py",
+  "r3_script": "static_api_audit_r3.py",
+  "fix": "Accept mutually exclusive positional or keyword targetValue with all identity/finite/zero targetVelocity gates retained",
+  "new_connections": 0,
+  "new_physical_steps": 0,
+  "original_reports_preserved": true,
+  "sha256": {
+    "static_api_audit.py": "ce20aa44a6f9abef07f1fab0960ce5e758dae267d9d460185bbc45f1a0d1a3ed",
+    "static_api_audit_r2.py": "0cf18cb6b8d2850ec1e0c4c9d19441eb2bc134d579d13c723e5f200d7ba70ce2",
+    "static_api_audit_r3.py": "75f9cbc0528fffeadf514307b0bc8c245c9541df17b8d8dd5bf0f04a66c6834a",
+    "static_api_audit.json": "ec0c41f8f5e03d7db90f3a38dcd1f5e96f37cd3b0526c9f16bd5114b8e3a9631"
+  }
+}

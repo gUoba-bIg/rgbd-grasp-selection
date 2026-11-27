@@ -1,0 +1,438 @@
+{
+  "version": "IP140_R1_smoke12_postrun_candidate_interface_audit01",
+  "at_utc": "2026-11-06T03:45:37.001665+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "slot_identity_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "uncorrected_observation_p_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "legacy_delta_7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "slot_identity_8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "uncorrected_observation_p_8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "legacy_delta_8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "slot_identity_9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "uncorrected_observation_p_9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "legacy_delta_9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "legacy_all_source_and_math_checks",
+      "passed": true,
+      "details": 133
+    },
+    {
+      "name": "original_result_unchanged_in_copied_source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "required_selected_step_set",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "effective_records_recomputed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "support_all_4728_replayed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "support_new_and_historical_cases",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "readable_complete_projection_contacts/close_lift_contacts.jsonl.gz",
+      "passed": true,
+      "details": {
+        "records": 7825
+      }
+    },
+    {
+      "name": "readable_complete_projection_contacts/close_lift_wrenches.jsonl.gz",
+      "passed": true,
+      "details": {
+        "records": 1272
+      }
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke01/freeze_slots.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke02_pathfix01/preregistration.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_postrun_candidate_interface_audit01/scripts/static_interface.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/damping_write_receipt.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/result.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/telemetry.jsonl.gz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/calls.jsonl.gz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/model/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/model/ur5e_ip140_r1.urdf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/object_episode.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/object_evaluator.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/offline_gate_replay.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/offline_replay.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/seam_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/trajectory.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_readback.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_scene.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_step/all_links_readback.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_step/object021_readback.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:configs/simulation_v52r2.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/objects/final_static_audit/021/collision.obj",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/objects/voxel_repair/014/object.urdf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/objects/voxel_repair/017/object.urdf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/robot/robot_assets.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:runtime/simulation_v52/attempt001_static_geometry.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBody.cpp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyConstraintSolver.cpp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:scripts/sim_v52_math.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:scripts/sim_v52_robot_assets.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_sha:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_direct_engine_import:contact_wrench_replay.py",
+      "passed": true,
+      "details": [
+        "pathlib",
+        "gzip",
+        "json",
+        "hashlib",
+        "collections",
+        "xml.etree.ElementTree",
+        "numpy"
+      ]
+    },
+    {
+      "name": "no_direct_engine_import:legacy_height_trace.py",
+      "passed": true,
+      "details": [
+        "pathlib",
+        "ast",
+        "hashlib",
+        "json",
+        "shutil",
+        "datetime",
+        "numpy"
+      ]
+    },
+    {
+      "name": "no_direct_engine_import:static_interface.py",
+      "passed": true,
+      "details": [
+        "pathlib",
+        "json",
+        "hashlib",
+        "xml.etree.ElementTree",
+        "math",
+        "datetime",
+        "numpy"
+      ]
+    },
+    {
+      "name": "no_direct_engine_import:support_aggregation.py",
+      "passed": true,
+      "details": [
+        "pathlib",
+        "json",
+        "gzip",
+        "math",
+        "hashlib",
+        "copy",
+        "datetime"
+      ]
+    }
+  ],
+  "script_import_review": [
+    {
+      "file": "scripts/contact_wrench_replay.py",
+      "sha256": "7fb8fd730466f771c87ee47adf8468776a2d5e5cf65d943152ca7ca26b8b6e18",
+      "imports": [
+        "pathlib",
+        "gzip",
+        "json",
+        "hashlib",
+        "collections",
+        "xml.etree.ElementTree",
+        "numpy"
+      ]
+    },
+    {
+      "file": "scripts/legacy_height_trace.py",
+      "sha256": "e917c2b941692d9c155acdafd04c9fea60fd74108eda712dc75ba3ccff1f5fad",
+      "imports": [
+        "pathlib",
+        "ast",
+        "hashlib",
+        "json",
+        "shutil",
+        "datetime",
+        "numpy"
+      ]
+    },
+    {
+      "file": "scripts/static_interface.py",
+      "sha256": "a8348e9215edd7d78942eacaf02c9c79bba6a11d3403dccbb464183cc533a31f",
+      "imports": [
+        "pathlib",
+        "json",
+        "hashlib",
+        "xml.etree.ElementTree",
+        "math",
+        "datetime",
+        "numpy"
+      ]
+    },
+    {
+      "file": "scripts/support_aggregation.py",
+      "sha256": "6f37e996d97966469662aef7f6ec96fe5653d9f9176fa8f948989a6507c7ebdf",
+      "imports": [
+        "pathlib",
+        "json",
+        "gzip",
+        "math",
+        "hashlib",
+        "copy",
+        "datetime"
+      ]
+    }
+  ],
+  "scope_note": "Cross-artifact read-only validation and AST review; no engine/API calls. Input preservation independently checked against before snapshot. This is not a dynamic success proof."
+}

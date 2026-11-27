@@ -1,0 +1,636 @@
+{
+  "schema": 21,
+  "status": "frozen",
+  "created_at": "2026-10-27T11:32:46.120804+08:00",
+  "scope": "One supervised R16 cached-instance to R14 actual-seed/candidate interface experiment",
+  "selections": [
+    {
+      "frame": "0016",
+      "generation": "results/P3/grasp_multiview_v14r1/frames/0016/generation",
+      "prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0016/prediction.npz",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat",
+      "geometry_report": "results/P3/grasp_multiview_v14r1/frames/0016/geometry/report.json",
+      "candidate_count": 118
+    },
+    {
+      "frame": "0080",
+      "generation": "results/P3/grasp_multiview_v14r1/frames/0080/generation",
+      "prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0080/prediction.npz",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat",
+      "geometry_report": "results/P3/grasp_multiview_v14r1/frames/0080/geometry/report.json",
+      "candidate_count": 187
+    },
+    {
+      "frame": "0160",
+      "generation": "results/P3/grasp_multiview_v14r1/frames/0160/generation",
+      "prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0160/prediction.npz",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat",
+      "geometry_report": "results/P3/grasp_multiview_v14r1/frames/0160/geometry/report.json",
+      "candidate_count": 219
+    },
+    {
+      "frame": "0240",
+      "generation": "results/P3/grasp_multiview_v14r1/frames/0240/generation",
+      "prediction": "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0240/prediction.npz",
+      "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png",
+      "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat",
+      "geometry_report": "results/P3/grasp_multiview_v14r1/frames/0240/geometry/report.json",
+      "candidate_count": 195
+    }
+  ],
+  "protected": {
+    "configs/grasp_multiview_v14r1.json": {
+      "sha256": "9eb8b22ef926bc40f7d3e933e8ffe430635b95a3c70f8154a50e95fe13a1b1ec",
+      "bytes": 55269
+    },
+    "results/P3/grasp_multiview_acceptance_v14r1.json": {
+      "sha256": "0fba43be41b7af765b436a8ce81e1c2ac00306e74e06e6ff71e9392fcad25812",
+      "bytes": 96036
+    },
+    "configs/segmentation_baseline_v16.json": {
+      "sha256": "2edc0c1d1453bda5ce49a135eb1586d48b602210ce7c03fbd87e830daff281e0",
+      "bytes": 9125
+    },
+    "results/P4/segmentation_baseline_v16_acceptance.json": {
+      "sha256": "3b5f90c16d91f858066078d2199068af056912fa64f80dd86afdd296b8112d02",
+      "bytes": 807657
+    },
+    "results/P4/baseline_usability_v20b/closeout.json": {
+      "sha256": "77d7cce6a0b8074c42c6dbadb033e0a2965d2ee32d39c0cec8c40ed213b8c8f1",
+      "bytes": 1005
+    },
+    "results/P4/baseline_usability_v20b/readonly.json": {
+      "sha256": "d1e460f30a483492811f530cbf6722bd1d3472d24a5433e020e15cbcb88a18b5",
+      "bytes": 222
+    },
+    "runtime/pipeline/state.json": {
+      "sha256": "b48eadde3c1f7ea400c48dd206f707ecf804d54f6f018a013e9d662dcc4b2b76",
+      "bytes": 3127920
+    },
+    "configs/stages.json": {
+      "sha256": "d53814aa55ef5fb18a213417bd14af4d7c5137f8a29f7da2574c2915e465d572",
+      "bytes": 1124167
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168
+    },
+    "scripts/run_baseline_grasp_link_v21.py": {
+      "sha256": "88802ea9720e5491ab1c613e87595a776fc0f7ef93cc5900e7234862f3bb7eb7",
+      "bytes": 24340
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/completion.json": {
+      "sha256": "06041140006cfd0ac19c90023b882b2a8d6fee1b1419e7851dd3696368634ec8",
+      "bytes": 3544
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/binding.json": {
+      "sha256": "bac7919915f6ae288fedb1c74376784623d476f81edae48563d21b285b480b7d",
+      "bytes": 28646
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/candidates.npy": {
+      "sha256": "a42949fe6244517ced4d4074f2975f87c7f2ee116967712853a8bcf35bc42ca3",
+      "bytes": 8152
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/candidates.npy.sha256.json": {
+      "sha256": "e91e4b34fd37955d5ca3ef1467ae739ada4d579b2f5b3584f2c9d5f031be53c3",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/forward_bundle.npz": {
+      "sha256": "3f681fe37ef7e27806fd32e2dcebe28e6463bd29fca47fad0a914b86e594c5ae",
+      "bytes": 55594
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/forward_bundle.npz.sha256.json": {
+      "sha256": "721d55c731ab9e2f5b64ccb6a4f93f55001ab8c4a87a19a47783fb382ed84ffc",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/forward_commit.json": {
+      "sha256": "130266315a9b4248274dd4ccc6c223e54e650bb722411eb51bd0affe5c9466e8",
+      "bytes": 1414
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/forward_commit.json.sha256.json": {
+      "sha256": "00d716811129b075676bdd6a4a37490c2aa800408e40c3f9237986848d6e874e",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/input_commit.json": {
+      "sha256": "cd95b025a05b512054c001be1d325f98be57be44a10d6867dfdea1088ae1c855",
+      "bytes": 2202
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/input_commit.json.sha256.json": {
+      "sha256": "d8b22b89bfe938ad3afe6e7a7695d3b3c2ebae3771e8465eb0b72b68124e0cbe",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/report.json": {
+      "sha256": "03ae3cae3ba5c216f9491c63ecb73080c0b6d52beb1ee9e477b46fc25cc8ba3d",
+      "bytes": 3368
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/report.json.sha256.json": {
+      "sha256": "3e10f04d89b6b4018476f04bd4bc558a54e0edb1a39674c13fb0e36c506f48b8",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_pixel_indices.npy": {
+      "sha256": "1e38785016935b71c40f85c97b7ef4946256325c1304c426ff44cdebea31d91f",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_pixel_indices.npy.sha256.json": {
+      "sha256": "b658bb52d70afbd2c2ed1d97bd7242ea8fbf283003ee8aca59b5270327198296",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_points.npy": {
+      "sha256": "1abbae41cd6c0d2de73c8779e2ccc6cd300eecc14618d209aa482fbc519306aa",
+      "bytes": 240128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_points.npy.sha256.json": {
+      "sha256": "2868a21205b24c459b533ca156ecfea0d8b4fbc9394044e9b44c181c8e3e9c52",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_valid_indices.npy": {
+      "sha256": "f8a796b21fafdcc80a68b6fa1dce0db27bcb3266e8ea6421b1d475c29415f06f",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/sampled_valid_indices.npy.sha256.json": {
+      "sha256": "fd0ec82fb6d974ac01a77bc8324360d5fd5d1b9948ec50b22b5f4016682f18f4",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/seed_provenance.npz": {
+      "sha256": "feec17e3eb066784b1c6382f1d43a0a11bf0f0c6052dc90990f9c30820b9f5ab",
+      "bytes": 50988
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/seed_provenance.npz.sha256.json": {
+      "sha256": "bd16ea889239a724a089fdf90a7005f6f40d63f38fc7dcf979d548c767849a65",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/valid_pixel_indices.npy": {
+      "sha256": "3dfdc895814dd1b8c949b1aa7edaef841aef17a09bacc7f8063d21bde636375e",
+      "bytes": 6676176
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/valid_pixel_indices.npy.sha256.json": {
+      "sha256": "c26887ce0d8e9b02718199f96bd0bf082cfd055e7c0fb711be5882873dda1352",
+      "bytes": 212
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/valid_points.npy": {
+      "sha256": "2c598e92ce9a408409851e8bd5f491d6347e20b3a916c4c8a7bff1e5dfc2c2e8",
+      "bytes": 10014200
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/generation/valid_points.npy.sha256.json": {
+      "sha256": "27ac29fd8cd4a7292cd87beb8c98287164f5f807aff20f168e98da9483ed16f8",
+      "bytes": 213
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/geometry/completion.json": {
+      "sha256": "20445f96b688978421ccbd146a2fce81fd3c0cb8b51001e144be085dfdbcb8a7",
+      "bytes": 11707
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0016/geometry/report.json": {
+      "sha256": "381b914d714daaa56322e3ba8f4ea2c10d565b079d4bd852276261f0994c93f4",
+      "bytes": 72243
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0016/prediction.npz": {
+      "sha256": "837cf9b35089412e590f94f5d2ef347134ad73ecc2ec5957a026bcade6a6411e",
+      "bytes": 3382
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0016/prediction.npz.sha256.json": {
+      "sha256": "72f0daac7a9cca8d4ea89643b88e015fffd6248231c34a7e16f208f0cd432d12",
+      "bytes": 209
+    },
+    "results\\P4\\segmentation_baseline_v16_evaluation\\rgbd\\frames\\train\\scene_0003_0016\\record.json": {
+      "sha256": "f384c0ca2235db4234f51383e0891b7c310e160408464d81072b37320effd9f2",
+      "bytes": 1561
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0016.png": {
+      "sha256": "429dc4b3085da9dd43cecca8b8508c5004b124f76ffb30b81ade34db59a82152",
+      "bytes": 1147103
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png": {
+      "sha256": "239f666cce34da79e8c95e54a900a8cf1f45f7f17105fceb70fccdd46c765983",
+      "bytes": 246125
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat": {
+      "sha256": "b13bf00d7482695f9be6d61f2e1623e816112247597488a95ef4fbd6d540ed2b",
+      "bytes": 875
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/completion.json": {
+      "sha256": "90c8668337b4253ca866810f7dd2052bfd892235edf8e23f3ce0d012f161535a",
+      "bytes": 3544
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/binding.json": {
+      "sha256": "617ea589c2fdd3d9642964c2e81f9a18d53ebe5a6e8f1a73fda090ac299689af",
+      "bytes": 28646
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/candidates.npy": {
+      "sha256": "8b7c7d87edf0d65043be7f7e0df7ee587c0d1d9eb1c1083cf8f07f534899e821",
+      "bytes": 12844
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/candidates.npy.sha256.json": {
+      "sha256": "53a7b9f92e59da9ac6ceb58a2c96d10226c6f9ce25bd64824de9ef9c451dd79f",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/forward_bundle.npz": {
+      "sha256": "a22925208961ae5997374bd02f63b0e4147cdec947e5087d8f2fe6f6cd806179",
+      "bytes": 60838
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/forward_bundle.npz.sha256.json": {
+      "sha256": "a90d3ecf4341ef4c2bb5f5acbc11369d61f5ead9d24a99896c1a24ce000c7e67",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/forward_commit.json": {
+      "sha256": "e1de7d59a4b275cbb7dbd6cee59b9b0a7c4342cc017b49a5fb6b5330ac2a7e2c",
+      "bytes": 1414
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/forward_commit.json.sha256.json": {
+      "sha256": "1715c11a4f4288fe6f906f6a3a3bea9cbafc6e393541679f14ed4df05e1ec600",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/input_commit.json": {
+      "sha256": "f44dc4e0ca84d938c3aeea473bf251caf6e88240559f8c5e2ceda196577ffa51",
+      "bytes": 2202
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/input_commit.json.sha256.json": {
+      "sha256": "d8fbd05d8d78ed6f14e3b8d86f8eddfc268da793d7b8da1484c1d5ec89bd9ec8",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/report.json": {
+      "sha256": "6bf12e605cef6b237f4639d8673dea67f368f40e8de991a02d753ad965ace8e1",
+      "bytes": 3369
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/report.json.sha256.json": {
+      "sha256": "a40c77aec7e02b71316491401417478d9c07b6ec8fd937c52cc16e49e6118294",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_pixel_indices.npy": {
+      "sha256": "c3abb44033f6181331517667a3ce9b94b70a363b2aee6a56c3e00312c7c84243",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_pixel_indices.npy.sha256.json": {
+      "sha256": "b46c11aaa4a38a4de7aeb6409b6c7cec483a629d1543ca198d8cffae16fbe93b",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_points.npy": {
+      "sha256": "8d778f42d9ac4cb6e328a9ac57ddebf79b837ec64f9cd71b8d54e443c5de75cd",
+      "bytes": 240128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_points.npy.sha256.json": {
+      "sha256": "a4a5e674aea209773a3c2bbd88c73b9af8dee5c3201aeee07e035676bc0b4e14",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_valid_indices.npy": {
+      "sha256": "1be1a0a7b99044323caff218fb80426f4816a88291c75b7e21458faaa275f3ea",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/sampled_valid_indices.npy.sha256.json": {
+      "sha256": "a42a88631821830c6ad21eae3815761fafa537cdd7c5aa6978ae2cf59f3a7e94",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/seed_provenance.npz": {
+      "sha256": "d11dcccb8baac86624dc00984996bb7c1d445b3b44e56bc7ab2d5986b0519186",
+      "bytes": 53196
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/seed_provenance.npz.sha256.json": {
+      "sha256": "d091f29aeff82184c37b7d158cae76542324b492189c6502a2aecea2e082e8cc",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/valid_pixel_indices.npy": {
+      "sha256": "c605286846f1c10351ae5ee32c3d7c8548e98f1639ff705d9b641ecf7c5f24e7",
+      "bytes": 7071136
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/valid_pixel_indices.npy.sha256.json": {
+      "sha256": "02f9ccba5e7b0967a2907fbafd5ebb23375a69e9c63aa3c5f4bab372efe26ac4",
+      "bytes": 212
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/valid_points.npy": {
+      "sha256": "e244c46096cb49abd6ec0d60ca6e9ae95cecedc462e3e96a7b1579e3bbd199d2",
+      "bytes": 10606640
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/generation/valid_points.npy.sha256.json": {
+      "sha256": "5d8b5a1ca897bcc0bc5641650859766d7daa7de310934d369092e8b4e70c42b9",
+      "bytes": 213
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/geometry/completion.json": {
+      "sha256": "60e3943df6079f63f6b48569630acac07fcfe29d38ced502c66fee48b62fe154",
+      "bytes": 11707
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0080/geometry/report.json": {
+      "sha256": "804d1368f7f726f7acca33479b06528d14b2d7b933bb3bd7b5611e92591e8107",
+      "bytes": 79857
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0080/prediction.npz": {
+      "sha256": "3aaf3d10514b8ba75d92334416bd2aa835e670ecd19bcd7c613a3b264f8cb135",
+      "bytes": 3846
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0080/prediction.npz.sha256.json": {
+      "sha256": "5f85129a5ce221f6b66890744312044b2c13c884a38f16bc1e60241bc60d3bfb",
+      "bytes": 209
+    },
+    "results\\P4\\segmentation_baseline_v16_evaluation\\rgbd\\frames\\train\\scene_0003_0080\\record.json": {
+      "sha256": "eb51f0c8e00e92f7c71648b7b4410f0510665ecb8352d6f877f0a265ce2cb6da",
+      "bytes": 1549
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0080.png": {
+      "sha256": "37224b77914f83d80d9029a60c89e1efffe7f3b332c391caaa1f43b52cb96c49",
+      "bytes": 1247848
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png": {
+      "sha256": "289e4d741848ba05b9b958b972d97b21598b77cbf290af3ce19a94a6a0fb697e",
+      "bytes": 229655
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat": {
+      "sha256": "caa5118d2c7b97f55b25438f19efa23a203ea4e6814e2803afdec3942f798cd0",
+      "bytes": 876
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/completion.json": {
+      "sha256": "2c12d3db91ba278805b3fe88d829eafe832a03d060b2a34822a1dcf2fc77af87",
+      "bytes": 3418
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/binding.json": {
+      "sha256": "93f859ba15470188b01dcb1d463de8561b8238493d8101315081826d7ee533d8",
+      "bytes": 28646
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/candidates.npy": {
+      "sha256": "eed496a3ccad06d92351132a6d4f457b63d0289f051e74868622e1c961c2887c",
+      "bytes": 15020
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/candidates.npy.sha256.json": {
+      "sha256": "7a5fe40ccd5e5a932026438b2f7b536066bf64055f1b3770a202509d9a2d26b9",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/forward_bundle.npz": {
+      "sha256": "aa2b0e275ad9319199f7a8ddb4cbcff384909e46619e8b0012e969a8c63ea1e7",
+      "bytes": 63270
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/forward_bundle.npz.sha256.json": {
+      "sha256": "a6de1bb9992ca11e8af832e9c24ea010723b57804df228f8a27504b05f4e0d60",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/forward_commit.json": {
+      "sha256": "6de04bd5ceeaabdb6f88e4435e5afe6a0d079808129074641f3320e03a5039c8",
+      "bytes": 1288
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/forward_commit.json.sha256.json": {
+      "sha256": "d9805eeff272dbab9fdf57f706df726ed7008459d9350547bc4931c55b07715d",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/input_commit.json": {
+      "sha256": "c96bcfe8e94a9b035f50988d4fcb4c27e74d107c4d1fce01054f06bff52669fa",
+      "bytes": 2075
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/input_commit.json.sha256.json": {
+      "sha256": "d1237b7dd2b363a14688cebb4018b51b620f30190c93aa9e17d5877c16d61644",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/report.json": {
+      "sha256": "a7a7882585600dc86b0308a5599603d612de09ee3c8537fd1092a3241a5b6c35",
+      "bytes": 3244
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/report.json.sha256.json": {
+      "sha256": "9f87b81de73301ca407637a91c1ce6e55f640de0206909343dc221a5c206c698",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_pixel_indices.npy": {
+      "sha256": "1a0745de796caa228845a6bb4c3325b5309b49916cdec7dfbb20083d5e601cb7",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_pixel_indices.npy.sha256.json": {
+      "sha256": "ce4e5d70723a22b2cbee50fe4ce4cd31766f69cb8d48b3cb1ff00953a1808e2e",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_points.npy": {
+      "sha256": "db5e4416bfb43bc875cf4689891349f50a1b9a62bde3f6123645f7d491e85cef",
+      "bytes": 240128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_points.npy.sha256.json": {
+      "sha256": "60e49f5c264cf3910a592923e7739f4e1c46acd043e97581b48a04c444e22340",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_valid_indices.npy": {
+      "sha256": "eea9bf5f43b98e825c5e35c9f3999815f34669d5cf30e1c1134bac94d46199f7",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/sampled_valid_indices.npy.sha256.json": {
+      "sha256": "69004aae28b33be7038585ddf2d249ebf122dcbc60712dc305b967d989a02ecb",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/seed_provenance.npz": {
+      "sha256": "f53648dbbfb961c2fb9c1c962cec61e5bd70e639756a3f23a1bbb4b6c079b2f9",
+      "bytes": 54220
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/seed_provenance.npz.sha256.json": {
+      "sha256": "1d4a1b5fa5d4f0efd22026b10d1e948fb8c115fbd76f90e5faf26a3d0927ed7c",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/valid_pixel_indices.npy": {
+      "sha256": "b3ea8d118ed491a2ee36168c783583ca67c4fb1c39ed1f4ca20d767be108d0aa",
+      "bytes": 7046216
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/valid_pixel_indices.npy.sha256.json": {
+      "sha256": "422d8c4d9804ad16a641e52ad92baab5d84a61e7df713f19469003e94d8a1a22",
+      "bytes": 212
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/valid_points.npy": {
+      "sha256": "c08772e636b4e327ae9ff737632e3d8eac68167a01f601f55a8623709e05c147",
+      "bytes": 10569260
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/generation/valid_points.npy.sha256.json": {
+      "sha256": "9bcdc511a6e3e9b93476f3e0b13789aeb2ace3e8f754c61c0fe5a71ae40db822",
+      "bytes": 213
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/geometry/completion.json": {
+      "sha256": "b6bd0f2538e5fb6bb27a1280823d3d18c3dda4ce4eca2c59e5b0783af54f5881",
+      "bytes": 11707
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0160/geometry/report.json": {
+      "sha256": "a6ac8e419e943516551488d836cf358b38993c204631a46478138780f51a2d6c",
+      "bytes": 83951
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0160/prediction.npz": {
+      "sha256": "28b8b67be6656e57d0d5a3b2f5408c30bbe2c292bc08aaaa902be18e54ce0607",
+      "bytes": 4195
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0160/prediction.npz.sha256.json": {
+      "sha256": "af0e9f6f9b6ffeb494be327a05daba3703ed8291f731fbf28217b12b967a6389",
+      "bytes": 209
+    },
+    "results\\P4\\segmentation_baseline_v16_evaluation\\rgbd\\frames\\train\\scene_0003_0160\\record.json": {
+      "sha256": "9a1eace84aaeb15933b9efe8f3d26bb098b914636844e46040c5d0ed66edd3c0",
+      "bytes": 1549
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0160.png": {
+      "sha256": "936a71a0daafe4b49d6bbb3178472744fa837572ad2c1c2fe34876e864e5a6b6",
+      "bytes": 1230268
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png": {
+      "sha256": "5976addd527917aea8e703ae67faf9c875f7d743b5b72489b1371c2a4a0bdb38",
+      "bytes": 224417
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat": {
+      "sha256": "cc0a613ac78fef71c024fe717853069853def9d1cc9378453eeeeeed0fa678bc",
+      "bytes": 873
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/completion.json": {
+      "sha256": "25f2d5e05d0e31080396b44d15e3c198452ea5632ef0271212d17898baaa1e47",
+      "bytes": 3236
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/binding.json": {
+      "sha256": "a62cc2dd5e556102517e49153658fca04d4e4f1a108a113f703bab0ac0bbb9ce",
+      "bytes": 28646
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/candidates.npy": {
+      "sha256": "021cdd5e350915eef8dbde8015344d9e56e0a9639587ee8ad1a91317095fa3c5",
+      "bytes": 13388
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/candidates.npy.sha256.json": {
+      "sha256": "48245aa5c86fcf0ea70eb1e11c11cf44a13a655618447a415f89eeddbf72f054",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/forward_bundle.npz": {
+      "sha256": "cf90cd0e79ae16a52ea4fc363f7e6c11ad66f3e006bd6022883f1e2ded682d79",
+      "bytes": 61446
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/forward_bundle.npz.sha256.json": {
+      "sha256": "d7d7f224caf1e03b899471db3ddfbbeac97e9fa8b23bde6c9981c5f9fc7e170f",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/forward_commit.json": {
+      "sha256": "48905df87b75158ab3967ac7eebb344e936c16cb554f2740af0343d352a6fe36",
+      "bytes": 1106
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/forward_commit.json.sha256.json": {
+      "sha256": "dcca49bdb1f0ac2af6929a7d83b31d7483036906486ba4000f43436cc0f08946",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/input_commit.json": {
+      "sha256": "2f6d09b5440f68c6b7d684542dd7337ca5a8035c4c48485c36b8e89d95ae0648",
+      "bytes": 1893
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/input_commit.json.sha256.json": {
+      "sha256": "4b1952743ebcb72ee1fe4008b663ceb7cdd0c19d5919d6815392f6190fb37919",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/report.json": {
+      "sha256": "7470fc68e318b511f1e3a979f109bc024f48c7de31a96eb1ccafe5a3cae4d72b",
+      "bytes": 3062
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/report.json.sha256.json": {
+      "sha256": "4521bd0d1fefe0484c6ed2e41f2f185c625c30be5bc20d18959796e10a691e86",
+      "bytes": 209
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_pixel_indices.npy": {
+      "sha256": "5b2e862ef4e61a4077e44cad30a8f0ab5435e4d6317b8ba72383a1e4be72eb00",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_pixel_indices.npy.sha256.json": {
+      "sha256": "43e744341105f95459881f565a62f0125d2c66639e03c14c79b34d17a55b0932",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_points.npy": {
+      "sha256": "09cb0396d461ea9979d243e082cd54f0cbb5cb16c19bda6760c715a77bcf783b",
+      "bytes": 240128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_points.npy.sha256.json": {
+      "sha256": "4de82c58859acafe29eeaf9fb6a5a141f96a1b36870ed8f04dbb9fa7b1c2a4ec",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_valid_indices.npy": {
+      "sha256": "ce87b1ed88ee48a2ea19da2cb99d6fc9f292f4b7f0e2522e8791f697dbbc1700",
+      "bytes": 160128
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/sampled_valid_indices.npy.sha256.json": {
+      "sha256": "a1f6ef2519bcd406f5b477ebea13b75a5612a65cc29d1c33dde135cdf0d486fd",
+      "bytes": 211
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/seed_provenance.npz": {
+      "sha256": "f89b769338bc054459dc3424665336653395212f52200c5ecd57f08d0038ab14",
+      "bytes": 53452
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/seed_provenance.npz.sha256.json": {
+      "sha256": "0cf49b5cd78d1514ba6b719923af6300750a24183d5c8e20314569fb58a462b6",
+      "bytes": 210
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/valid_pixel_indices.npy": {
+      "sha256": "a7236be6ed8f98ceb62e4fb68d027f568c74316cc8e33b68e0b44503a8af320a",
+      "bytes": 7188864
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/valid_pixel_indices.npy.sha256.json": {
+      "sha256": "8c3c6181c27478b56f2ab45b5ab8dc505dc781e422eacf9c71b9880e3598cb4a",
+      "bytes": 212
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/valid_points.npy": {
+      "sha256": "5b1ee01f670e65580bdf3b1504112b721ec382d2a63bc0b59a20df39147296c5",
+      "bytes": 10783232
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/generation/valid_points.npy.sha256.json": {
+      "sha256": "a22ce53461a45c147d4be4dbfc096941bd0ef79c1d387e2f971a1a677f52ed73",
+      "bytes": 213
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/geometry/completion.json": {
+      "sha256": "7af1817a20b8991f5d4c9374dc5da33f53cc0c47e6c09b7c0a3a9c69dee8670d",
+      "bytes": 11707
+    },
+    "results/P3/grasp_multiview_v14r1/frames/0240/geometry/report.json": {
+      "sha256": "222dcae05073d1e2cd0ed619acb40a7e0d58926b6d18a475e3bbc1de7e704f7b",
+      "bytes": 81701
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0240/prediction.npz": {
+      "sha256": "7f06da1047cda053a0cf9fd99e637daf0da72d0452b4c70861b4b7bab84a033b",
+      "bytes": 3508
+    },
+    "results/P4/segmentation_baseline_v16_evaluation/rgbd/frames/train/scene_0003_0240/prediction.npz.sha256.json": {
+      "sha256": "1042dc1a7e3e7bd7eb37af5f763355b9f8b2b66575946ca934cfbe3a963c440e",
+      "bytes": 209
+    },
+    "results\\P4\\segmentation_baseline_v16_evaluation\\rgbd\\frames\\train\\scene_0003_0240\\record.json": {
+      "sha256": "210cb2cab6820ea0a5bfec0961f2f452bdc7ed974d95dbc6355a3e38810ecc2c",
+      "bytes": 1562
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0240.png": {
+      "sha256": "6a566e653025ba594b0ad3198eb4187fbdf891a18ab6f151f9d490be7dd0e0b2",
+      "bytes": 1232522
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png": {
+      "sha256": "be0129f71f32ec9297ee5e788aa4d8a5a1cd2b1a3fd9cb01c33c311a2435ed9b",
+      "bytes": 204880
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat": {
+      "sha256": "a584d50dbfc8d8a57b41b6b4b3cf791dcc0230b851f1353dd88f5589ba30019e",
+      "bytes": 875
+    },
+    "logs/P4/baseline_grasp_link_v21/progress_before_trial.json": {
+      "sha256": "f5ae5bfb4e66bf4ea8c079354e09c53bd625a9c63d885d448e62bb5993b78123",
+      "bytes": 9718
+    }
+  },
+  "resource": {
+    "run_seconds": 120,
+    "verify_seconds": 120,
+    "total_cap_seconds": 240,
+    "cpu_threads": 2,
+    "rss_bytes": 1073741824,
+    "output_bytes": 33554432,
+    "disk_reserve_bytes": 64424509440
+  },
+  "gates": [
+    "All 719 candidates retain exact 17-column values and original order",
+    "Actual SA1/SA2 seed composition and original depth pixel source match exactly",
+    "Independent mask mapping agrees; 0 unmatched/ambiguous; backgrounds retained",
+    "Original-pixel metric coordinate and <=0.001 pixel reprojection verified",
+    "At least one associated candidate in every frame; no minimum foreground fraction",
+    "Full read-only independent recount passes and prior files unchanged"
+  ],
+  "decision": "If passed, accept limited cached interface for development only. Never adopt a foreground-only hard filter or claim gain from this test.",
+  "labels": "Frame-local predicted seed instance IDs are sidecar fields; original object class stays -1. Seed location does not prove full-gripper ownership.",
+  "diagnostics": "After all label-free association outputs are sealed, join the existing 200 official labels; remaining 519 unknown, never negatives. No new scoring.",
+  "work_budget": {
+    "new_model_forward_calls": 0,
+    "new_training_updates": 0,
+    "new_official_scoring_calls": 0,
+    "new_random_sampling_calls": 0,
+    "frames": 4,
+    "candidates": 719
+  },
+  "stop": "One run plus one verification. Stop on completion or failure; no retries or next round without user confirmation. Automation stays deleted.",
+  "limitations": [
+    "Four related views of reused training scene 3, not independent/generalization evidence",
+    "No new candidates or scientific benefit comparison",
+    "Full P4/P6/P8 not completed by this trial"
+  ]
+}

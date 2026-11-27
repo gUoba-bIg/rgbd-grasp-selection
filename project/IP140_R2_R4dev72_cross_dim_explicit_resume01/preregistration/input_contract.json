@@ -1,0 +1,27 @@
+{
+  "subject": "R4 development, observation-only front end",
+  "scene_integer_key": "1..12, object order 021,014,017 then original table position order; never passed as P3/segmenter/ranker feature",
+  "simulation_render_frame_key": 0,
+  "condition_order_for_pairing": [
+    "clean",
+    "joint"
+  ],
+  "order_seed": 20261108,
+  "p3_base_seed": 20261021,
+  "p3_sample_seed": "frozen base + 1000 * scene integer key + frame",
+  "joint_corruption_epoch": 10000,
+  "joint_corruption": "original frozen corrupt() and complete per-unit returned recipe/seed; observed inputs only",
+  "ranking_inputs": [
+    "rgb",
+    "depth_buffer",
+    "view",
+    "projection",
+    "fixed optical calibration and frozen model weights",
+    "predicted instances and observed rays",
+    "frozen global training prior"
+  ],
+  "eligibility_role": "Lock the first candidate passing shared observation-only kinematics/known self and table path checks. Any subsequent isolated ground-truth target safety rejection is a path failure for the locked trial; never advance to another candidate for that reason.",
+  "settling": "12 independent base scenes; one stable clean render per object-position, with clean and degraded observations derived from it. All methods start from the same verified settled state. Preparation steps and method attempts accounted separately.",
+  "p3_and_g1_geometry": "candidate depth and axes untouched; W_T_G=[W_R_C R, W_T_C(t+d R[:,0])], w_pre=width; legacy correction 0; frozen IP140-G1 0.000216 cubic metres",
+  "measurements": "All timing fields measured independently; no synthetic labels or zero times for unrun phases."
+}

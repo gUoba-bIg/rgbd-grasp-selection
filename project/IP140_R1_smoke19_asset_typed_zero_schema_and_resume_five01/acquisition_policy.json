@@ -1,0 +1,12 @@
+{
+  "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+  "scope": "Static acquisition only; no physics/control changes",
+  "precontact_reference": "reset original q_ref then performCollisionDetection and read native manifolds plus fresh closest",
+  "post_entry_reference": "reset original q_ref, read current-transform fresh getClosestPoints without updating persistent broadphase collisions; raw_manifolds=null and raw_manifolds_requested=false",
+  "proxy": "Every snapshot reset independent q_proxy then performCollisionDetection and read all native manifolds; original strict gates mandatory",
+  "no_zero_fabrication": "Reference geometry audit solver manifold fields are null, never claimed empty/zero from observation",
+  "rationale": "Avoid reference motor-overclosure creating persistent contacts that contaminate proxy observation. No filter/white-list/threshold change.",
+  "unchanged_full_guards": "Reference and proxy retain all target-independent gates. Before lift, target checks retain their registered rules. During lift and hold, registered robot/target surface and contact geometry are diagnostics in the frozen-target scene; raw identity, finite values, witness arithmetic, and all dynamic checks remain enforced.",
+  "sources": "cache_query_source_audit.json and cache_query_source_audit.md",
+  "inherited_acquisition_basis": "IP140_R1_smoke14_slot14_contact_aware_static_admission01"
+}

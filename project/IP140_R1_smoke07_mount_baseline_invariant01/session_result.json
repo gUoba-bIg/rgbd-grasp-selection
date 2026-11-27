@@ -1,0 +1,10 @@
+{
+  "started": "2026-11-05T01:23:00.864320+00:00",
+  "slots": [
+    5
+  ],
+  "bench_entered": true,
+  "reason": "slot_5_passed_review_stop",
+  "ended": "2026-11-05T01:23:12.076293+00:00",
+  "retry": false
+}

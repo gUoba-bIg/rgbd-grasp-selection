@@ -1,0 +1,231 @@
+{
+  "schema": 16,
+  "scope": "Paired RGB/RGBD development baseline from scratch; not a complete mask-AP or quality-aware method study",
+  "created_date_local": "2026-10-25",
+  "seed": 20261022,
+  "arms": {
+    "rgb": {
+      "mode": "rgb",
+      "input_channels": 3,
+      "run_directory": "experiments/segmentation_baseline_v16/rgb"
+    },
+    "rgbd": {
+      "mode": "rgbd",
+      "input_channels": 5,
+      "run_directory": "experiments/segmentation_baseline_v16/rgbd"
+    }
+  },
+  "initialization": "Identical randomly initialized shared RGB stem/backbone/heads; extra RGBD depth and validity convolution weights zero; reset all RNG streams after model construction; no learned checkpoint inherited",
+  "input_size": [
+    240,
+    320
+  ],
+  "batch_size": 1,
+  "accumulation": 2,
+  "planned_steps": 1600,
+  "equivalent_epochs": 10,
+  "total_research_update_budget": 3200,
+  "segment_boundaries": [
+    200,
+    800,
+    1600
+  ],
+  "augment": true,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "warmup_steps": 80,
+  "min_learning_rate": 0.00001,
+  "amp": true,
+  "gradient_clip_norm": 1,
+  "save_every_steps": 10,
+  "keep_last": 3,
+  "num_workers": 0,
+  "free_disk_reserve_gib": 60,
+  "loss": "src.segmentation_v2.segmentation_loss",
+  "center_mse_weight": 200,
+  "camera": "realsense",
+  "frames": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240
+  ],
+  "train_scenes": [
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    12,
+    14,
+    16,
+    17,
+    19,
+    20,
+    30,
+    31,
+    34,
+    38,
+    42,
+    43,
+    57,
+    93
+  ],
+  "validation_scenes": [
+    2,
+    6,
+    7,
+    11,
+    13,
+    15,
+    18,
+    22,
+    33,
+    39
+  ],
+  "remaining_unopened_validation_scenes": [
+    52,
+    59,
+    75,
+    79,
+    80
+  ],
+  "data_root": "data/raw/graspnet_coverage_v8",
+  "data_manifest": "data/manifests/coverage_v8.json",
+  "data_audit": "results/P2/coverage_v8_data_audit.json",
+  "split": "data/manifests/scene_splits.json",
+  "data_protocol": "configs/segmentation_coverage_v8.json",
+  "data_protocol_sha256": "eba416a82b4c3fa7af5e082fefaf93ebece730f9c4089d7bb5d0ad780b7167e1",
+  "input_hashes": {
+    "configs/segmentation_coverage_v8.json": "eba416a82b4c3fa7af5e082fefaf93ebece730f9c4089d7bb5d0ad780b7167e1",
+    "data/manifests/coverage_v8.json": "2f6ea33e9f7167a60bb1a4bd4e2d6deb27d633a5cd17a11ebc29140780cd269f",
+    "results/P2/coverage_v8_data_audit.json": "247b491be3b200721bc42f348af4808b762a481aacb14d6f19ed0a8f6a716b80",
+    "data/manifests/scene_splits.json": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+    "results/P2/environment_lock.json": "e9fef1ba327266eb6246f61c54888d7ce0883fb92e89a211a0aa692b75fd5c9c",
+    "results/第八轮训练覆盖对照验收.json": "692b09683901c1ee3d38b6f0e61c77f34eb49fd8e3a36a2f8d1fc5e96da0bf3a"
+  },
+  "source_hashes": {
+    "docs/第十六轮配对基线冻结方案.txt": "8940477610af97d6f241aa418c5fba4782621ba770ba18d2622425125c0fa538",
+    "logs/P4/segmentation_baseline_v16_tests.log": "2ec3bb309ff7b83011b52d05a538e75cb79c639cbdd3977a8ca74f83f74c91cc",
+    "scripts/accept_segmentation_baseline_v16.py": "43c6525dcf6ae4e2e190d0267c8392382af1da73db8b814cfa27880bb081b287",
+    "scripts/accept_segmentation_expanded_v3.py": "e0ecad445cbd9caef8d23c5e9816a4e89fb93cfd955f9d021000a074b34d79e4",
+    "scripts/evaluate_segmentation_baseline_v16.py": "b4a0fee5a61523845dca054457cb01a04d734392a86e6c97d39dff68d3f30e4f",
+    "scripts/multiview_common_v14r1.py": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "scripts/render_segmentation_expanded_v3.py": "ab5adf62d6f7452e3c15dab3c9faf886a2903c4fb41a1706cefa762993bc2b65",
+    "scripts/resume_segmentation_baseline_v16.ps1": "178f419cb8968531568e4656af79b0fb64acb8ae3b2717b098fbbec0133b408f",
+    "scripts/run_segmentation_baseline_v16.py": "630a08303866e4adeb8f3c1eba1bb9e92d139018b39e92734c2d897749defe13",
+    "scripts/test_segmentation_baseline_v16.py": "c0a49cd13e8e58d71bf5a1bc013be21116df3089d617a023b2d9bf281ec6d5e3",
+    "scripts/train_segmentation_baseline_v16.py": "91401688bf693f877fbabf3fa610c4cdcbc234db8bb652da9508b8bbd51e306a",
+    "scripts/train_segmentation_coverage_v8.py": "d7e42d9decc2e591b26ed89a62a738751ebe34c41fdaa6a925b0f581a136f262",
+    "scripts/train_segmentation_expanded_v3.py": "3b116c8029e5cf6885a1148e86d446882755823caa4eda63f93bfa8d5ca2f458",
+    "scripts/train_segmentation_pilot.py": "2dec0d041cc47c6ddbfb662840782f4a8e63f9f17680526bd66994a509ddf6ae",
+    "scripts/train_segmentation_repair_v5.py": "051ec01f935a0b7986fa44d3ce078dd045c2293309c88d34ca1a489359134860",
+    "scripts/verify_gpu_resume.py": "8ff96ae0aaaec5c37e213a00d984e5e6ba62fe6c9bf8d978dc8df898bcc27e05",
+    "scripts/verify_segmentation_baseline_v16_resume.py": "d32044e00e6994c77264bc3f8601ae0ccf51c1eec66e4434fc02e3047912f47a",
+    "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+    "src/graspnet_frames.py": "98c45d0a3d37b5ea86382ba96f9e59eb56e98e0878f0eedab474eae4faf310ff",
+    "src/segmentation.py": "554b1f1e9a46f551ed1a485895eed164d08f5466ebd8e41dfded2556afa90e55",
+    "src/segmentation_v2.py": "1ee25fd2ca676c1432ff2b5c508800c874e95f414a58e92ece1d93700633aa1e",
+    "tests/test_baseline_evaluation_v16.py": "6acc88a5cf2224598939deef7151bfbbe4737a25c8941ba35acd472ef268e77b",
+    "tests/test_baseline_resume_v16.py": "9f5337e75e289b62bf3281fadb6a615578b5841cd0ea6e704e3742c2063cdcbe",
+    "tests/test_baseline_wrapper_v16.py": "c0e6e7c9ac375d652eb3789b6d6fd51e3039bcb8e4a14f520711a4ba3c23ce59",
+    "tests/test_segmentation_baseline_v16.py": "7756eb55aab5246e2482db014d814ac0034250a81b8248cb80445943a0a6f771"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.6.0+cu126",
+    "torchvision": "0.21.0+cu126",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "Pillow": "11.3.0",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  },
+  "recovery_contract": {
+    "continuous_steps": 162,
+    "interrupted_after_step": 161,
+    "durable_step": 160,
+    "checkpoint_interval": 2,
+    "initial_output_mode": "float32_without_autocast",
+    "initial_output_atol": 0.000001,
+    "initial_output_rtol": 0.00001,
+    "initial_sample": "first_seeded_training_sample_epoch0",
+    "shared_tensors": "bitwise_equal",
+    "resumed_payload_components": "model_optimizer_scheduler_scaler_cursor_rng_extra_bitwise_equal"
+  },
+  "interpreter": "runtime/envs/vision/Scripts/python.exe",
+  "decoder": {
+    "foreground_threshold": 0.5,
+    "center_threshold": 0.35,
+    "min_pixels": 20,
+    "max_centers": 64
+  },
+  "resources": {
+    "cpu_threads": 4,
+    "training_seconds_per_arm": 1800,
+    "evaluation_seconds_per_invocation": 1800,
+    "acceptance_seconds_per_invocation": 1800,
+    "rss_soft_bytes": 4294967296,
+    "gpu_allocated_soft_bytes": 14495514624,
+    "gpu_reserved_soft_bytes": 14495514624,
+    "output_limit_bytes": 12884901888,
+    "disk_reserve_bytes": 64424509440
+  },
+  "outputs": {
+    "training_report": "results/P4/segmentation_baseline_v16_training.json",
+    "training_resume_report": "results/P4/segmentation_baseline_v16_resume.json",
+    "evaluation_root": "results/P4/segmentation_baseline_v16_evaluation",
+    "evaluation_report": "results/P4/segmentation_baseline_v16_evaluation.json",
+    "evaluation_resume_report": "results/P4/segmentation_baseline_v16_evaluation_resume.json",
+    "acceptance_report": "results/P4/segmentation_baseline_v16_acceptance.json",
+    "visuals_dir": "results/P4/segmentation_baseline_v16_visuals"
+  },
+  "budget_paths": [
+    "experiments/segmentation_baseline_v16",
+    "runtime/verification/baseline_v16",
+    "logs/P4",
+    "results/P4",
+    "logs/pipeline/P4R16",
+    "logs/pipeline/P4T16",
+    "logs/pipeline/P4V16",
+    "logs/pipeline/P4E16"
+  ],
+  "evaluation": {
+    "partitions": [
+      "train",
+      "development"
+    ],
+    "mode": "float32_without_autocast",
+    "checkpoint": "final_step_1600_only",
+    "main_metrics": [
+      "scene_macro_instance_f1_iou50",
+      "scene_macro_foreground_pixel_iou"
+    ],
+    "pair_direction": "rgbd_minus_rgb",
+    "efficacy_gate": false,
+    "frame_probe_count": 2
+  },
+  "limitations": [
+    "All ten nontraining scenes were previously used for development; no independent confirmation or test generalization claim.",
+    "One seed, 320x240 early fusion pilot architecture, ten epochs; does not complete the original full-resolution dual-stream or multiple-seed plan.",
+    "Instance F1 at IoU0.50 is not mask AP, AP50 or AP75; no grasp scoring or real robot outcomes.",
+    "RGBD adds 6272 trainable first-convolution parameters; the input-modality comparison includes this difference.",
+    "No degradation, quality head, uncertainty propagation, probability calibration, extra epochs, threshold search or best-checkpoint selection.",
+    "Independent acceptance recomputes counts from cached predictions; it does not independently reproduce the neural forward pass."
+  ]
+}

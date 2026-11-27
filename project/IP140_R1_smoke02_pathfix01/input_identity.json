@@ -1,0 +1,25 @@
+{
+  "schema": "ip140_smoke02_inputs_v1",
+  "new_files": {
+    "model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "preregistration.json": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50",
+    "ledger_initial.json": "657fd109206ddeb9666ba402c519714107fafffaa126b23e97a9ad80543a6f13",
+    "zero_gate.py": "e7cfdcab80f21b69b386d6eaeca78523f4e92a67a3687b9d1719c4c95cd5aecd",
+    "empty_stroke.py": "07c1b56a05b92e6d8cc5049495d71945028adbdbee935cdffca429950441fb5e",
+    "episode_log.py": "b74c4d50a80d71f68a881a7dad46dac34299de201f7f111a8b31cccb7b143926",
+    "execution_control.py": "615d1ef6a8cc73a4823b9c0e5f3b2fb0d73e988ad94af16a9850357d8cbf445f",
+    "input_identity.py": "7dfc9d9aa92dc3b47559de72a81f4006de0b75d8d30388b684bd36cc8640001b",
+    "freeze_slots.py": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+    "run_once.py": "f223a7b2abe36b85415dc712ad9d82ee01f0634ccfcd6239b020544734e50928"
+  },
+  "smoke01_inventory_sha256": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794",
+  "smoke01_verified_files": 17,
+  "executable_slots": [
+    1,
+    2
+  ],
+  "total_budget": 12,
+  "maximum_direct_connections": 1,
+  "maximum_robot_loads": 1
+}

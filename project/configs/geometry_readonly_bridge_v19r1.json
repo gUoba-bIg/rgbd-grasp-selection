@@ -1,0 +1,50 @@
+{
+  "acceptance_interpreter": "runtime/envs/grasp_eval/Scripts/python.exe",
+  "failure_evidence": {
+    "docs/\u7b2c\u5341\u4e5d\u8f6e\u6700\u7ec8\u53ea\u8bfb\u5165\u53e3\u8865\u5145\u4fee\u8ba2\u8bf4\u660e.txt": "a34e3e6d23cea4b0be8223587711e18af05d8c9d36b6a1a64038c19ffb238ff1",
+    "logs/P4/dualstream_evaluation_v18/readonly_entry_failure_v18.json": "56b211c48b11f9668f1e8a06a99421199ee86fc6664e74deecc97c21330f48ff",
+    "logs/P4/dualstream_evaluation_v18/readonly_identity_diagnostic_dpython_v18r1.json": "eebaa67656b2b7b162b14636661900fb64e807771232dc2d06a3c23239e45f67",
+    "logs/P4/dualstream_evaluation_v18/readonly_identity_diagnostic_grasp_eval_v18r1.json": "ad32b325c3b8cb1572516c990af2deb07c2badacb9408ca5f1cd7d70699d954e",
+    "logs/P4/dualstream_evaluation_v18/readonly_preflight_failure_20261027T0514.json": "0ac9bdafee64da570892b809d24c51714e85d1c4d91afdb3c6567f1d840efad5",
+    "logs/P4/dualstream_evaluation_v18/readonly_preflight_failure_20261027T0514.stderr.log": "bb030f23850652a64bde0dbede675856d65ec7be7108c14149e31e47f32cc175",
+    "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1/component_tests_initial.stderr.log": "8c72cefc99aaef51a074b0d36bb8a2787ab087c95d399ec95ceca4de1e9f7bf6",
+    "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1/component_tests_initial.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1/independent_review.json": "9d59a1c886ba7b42bd64465b4fe7bac0b52131621fd109fc4f25ba02b3f30e60",
+    "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1/specification_review.json": "cb643c2a51b5d9e56fbe073b7e062fd5252848b80d115864c81e97cb3efa4fc4"
+  },
+  "input_hashes": {
+    "configs/geometry_propagation_v19.json": "b0cb13d8177a62f592a9b2c700280c68bf8a2fd35e8b454000f1aa1cd0d5aac8",
+    "results/P6/geometry_propagation_v19_acceptance.json": "c999e9cfc1f16e1a2a4bd7c65d2db606fdfaa2cce1ae16ae7f39a967936ace60",
+    "results/P6/geometry_propagation_v19_acceptance.json.sha256.json": "cc724715e1a8379240d8891b6bdebda7d3896d944b8520e88c303213a90bd726"
+  },
+  "interpreter_sha256": {
+    "acceptance": "fc9188d3eb84b0c8849da5987ea9e7802486a09afadb672dcd9cae9e64149076",
+    "pipeline": "5da31132fd6a415e71e3fd40c3a23853a799b91ea2821d2bcbf1bf0e8fa01e16"
+  },
+  "logs": "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1",
+  "pipeline_interpreter": "D:\\python\\python.exe",
+  "pipeline_python_version": "3.7.3",
+  "proof": "logs/P6/geometry_propagation_v19/readonly_bridge_v19r1/proof.json",
+  "protocol": "configs/geometry_propagation_v19.json",
+  "resources": {
+    "cpu_threads": 4,
+    "disk_reserve_bytes": 64424509440,
+    "driver_soft_seconds": 1800,
+    "output_limit_bytes": 1073741824,
+    "rss_soft_bytes": 2147483648,
+    "worker_timeout_seconds": 120
+  },
+  "revision": "geometry_readonly_bridge_v19r1",
+  "schema": 19,
+  "source_hashes": {
+    "scripts/accept_geometry_propagation_v19.py": "c0d079a02e456a4c92d6d8584438d2475931b9372647e38ddf8d8127b4eeff5b",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "scripts/verify_geometry_propagation_readonly_v19.py": "8e6556be843d795ee1cce4b7dd27e53291e67c11130513267908b54e37bd2c35",
+    "scripts/verify_geometry_readonly_bridge_v19r1.py": "720f13b5b1433983c02ff2af16d2955ec17d7806a8640c5da68faa570a902c39",
+    "scripts/verify_pipeline_readonly_identity_v19r1.py": "a800ec644882c88c493a4b1390b64608ab8cd982a31ddde3fcc197387eec4a6a",
+    "tests/test_geometry_propagation_readonly_v19.py": "526cd1be2789a9b78ca713965dfc503246ec22eb3edf932a9fca06c9e2bb2ba3",
+    "tests/test_geometry_readonly_bridge_v19r1.py": "3ba93c2ed0907cbaeab406d88b3e9ba95fb85e40c9a65c598dd66bc18bbef02b"
+  },
+  "stage": "P6E19",
+  "status": "frozen"
+}

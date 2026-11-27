@@ -1,0 +1,45 @@
+{
+  "version": "IP140_R1_smoke08_single_sided_stop01",
+  "stop": "slot_6_failed_stop",
+  "stopped_at_utc": "2026-11-05T02:46:29.942961+00:00",
+  "zero_passed": true,
+  "slot": 6,
+  "candidate_id": "IP140-BENCH-06:single_sided_stop",
+  "first_unexpected_hard_gate": [
+    "finger_speed_above_0.04_m_s"
+  ],
+  "first_failure_global_step": 2837,
+  "first_failure_phase": "close",
+  "first_failure_phase_tick": 101,
+  "slot_passed": false,
+  "expected_negative_detected": false,
+  "grasp_success": false,
+  "engine_disconnected": true,
+  "charged_slots": 6,
+  "remaining_budget": 6,
+  "unexecuted_slots": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "retries": 0,
+  "unknown_steps": 0,
+  "lift_steps": 0,
+  "hold_steps": 0,
+  "review_required": true,
+  "evidence_sha256": {
+    "slot_ledger.json": "a1f5d736270d04320c0ef1a9625ee41668764532a97e91e82e8ef5ecba82d3e1",
+    "zero_readback.json": "53439ccb1cdf24988e294953fb3db8dff51b42fe563273e7d8be26b40648ef62",
+    "zero_step/fixture_static.json": "36d7e10d4e89fbe52868af10ac76d32516632f382c97ecd370cf6b62b3cc7434",
+    "zero_step/fixture_filter_calls.json": "dceeac3473423a34ae09427fb252ace4337af92b7dd1c4f323417202d14318fc",
+    "offline_gate_replay.json": "598e1076397ffc13c89b6bc99d2a8ac11c5e37893bde86704141d209ba607d77",
+    "episodes/06/result.json": "69c47ae2084f59e7811a3ebdaff2f3fd57975e27420ef3412d32cfc6e5732538",
+    "episodes/06/telemetry.jsonl.gz": "1e7cffebc9c3f8ae25758d3d119da1bacf4513fac0fb04576a3180b1b851a9b2",
+    "full_api/calls.jsonl.gz": "43b2ca859aeb263c956d6bf4a022d6f65489738651002a8ae298b67e243e2403",
+    "first_failure_and_terminal_window.json": "3e6254a44c9d9cde6a058b96a9a5b13c7082cbde57b9d8184324ccb22de1be12",
+    "actual_log_audit.json": "105d5344232c957f26163ae246ed89532b02308037b9804fa84cfd12ea670bc6"
+  }
+}

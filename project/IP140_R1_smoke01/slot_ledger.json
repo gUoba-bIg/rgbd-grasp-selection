@@ -1,0 +1,143 @@
+{
+  "frozen_sha256": "4f62a02c16ecc56c962c108ce58382f801502e91485e475f8f9f032f9878a2c8",
+  "total_slots": 12,
+  "starts": 0,
+  "returned_episodes": 0,
+  "unknown_started_episodes": 0,
+  "retries": 0,
+  "eligible_to_start": false,
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "kind": "empty_stroke",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "kind": "empty_stroke",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-03:center",
+      "kind": "center",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-04:offset_positive_y",
+      "kind": "offset_positive_y",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 5,
+      "candidate_id": "IP140-BENCH-05:offset_negative_y",
+      "kind": "offset_negative_y",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 6,
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "kind": "single_sided_stop",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot00:b16a59b43ecc40f896f9fad34b76cfc5",
+      "kind": "nominal",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot02:47f0daa99122499cb888a141febfe4da",
+      "kind": "miss",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "state": "not_started_zero_gate_blocked",
+      "attempt_charged": false,
+      "physics_step_calls": 0,
+      "measured_outcome": null,
+      "telemetry": null,
+      "image": null
+    }
+  ]
+}

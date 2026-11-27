@@ -1,0 +1,632 @@
+{
+  "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+  "recorded_utc": "2026-11-08T04:07:56.451319+00:00",
+  "status": "static_admission_blocked",
+  "static_admission_passed": false,
+  "static_snapshot_count": 3280,
+  "static_snapshot_planned": 4728,
+  "static_first_failure": {
+    "snapshot": 3280,
+    "phase": "lift",
+    "phase_tick": 64,
+    "violations": [
+      "proxy:manifold:0:witness:entry_witness_outside_registered_effective_face",
+      "proxy:robot_target:1:witness:entry_witness_outside_registered_effective_face"
+    ]
+  },
+  "static_result": {
+    "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+    "started_at": "2026-11-08T04:06:35.086648+00:00",
+    "passed": false,
+    "status": "static_contact_aware_admission_blocked",
+    "physical_steps": 0,
+    "charged": false,
+    "new_charges": 0,
+    "slot14_started": false,
+    "cumulative_starts": 8,
+    "total_budget": 14,
+    "remaining": 6,
+    "slots8_to_12_frozen": true,
+    "planned_snapshots": 4728,
+    "snapshots_completed": 3280,
+    "first_failure": {
+      "snapshot": 3280,
+      "phase": "lift",
+      "phase_tick": 64,
+      "violations": [
+        "proxy:manifold:0:witness:entry_witness_outside_registered_effective_face",
+        "proxy:robot_target:1:witness:entry_witness_outside_registered_effective_face"
+      ]
+    },
+    "episode_completed": null,
+    "engineering_gate_passed": null,
+    "grasp_success": null,
+    "slot_passed": null,
+    "target_pose_modified": false,
+    "proxy_used_by_controller": false,
+    "reference_state_is_dynamic_prediction": false,
+    "proxy_is_dynamic_prediction": false,
+    "reference_source_sha256": {
+      "trajectory.py": "831191134d75065e168f85ff1c0b39e4011018093e6dd8e584ff060563ecf50d",
+      "trajectory_plan.json": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f"
+    },
+    "witness_policy": {
+      "fresh": "all rows need finite identities, unit normal and full 3-D residual <= 1e-9 m",
+      "cached": "registered face, unit normal, signed normal projection residual <= 1e-9 m; tangential/full errors diagnostic",
+      "face_scope": "cache, same-state matching fresh minimum, entry and proxy near contact require the registered inner face; clearance survey and certified q_ref overtravel retain measured face diagnostics",
+      "basis": "smoke15 contact_aware_path.classify recorded clearance/overtravel face geometry without a physical contact claim; root and near-contact proxy are effective-face witnesses",
+      "decision": "fresh closest alone controls geometric contact and consecutive sign bracket; cached distance never triggers entry"
+    },
+    "checked_phase_counts": {
+      "settle": 240,
+      "opening": 480,
+      "transit": 672,
+      "pregrasp": 672,
+      "approach": 672,
+      "close": 480,
+      "lift": 64
+    },
+    "violations": [
+      "proxy:manifold:0:witness:entry_witness_outside_registered_effective_face",
+      "proxy:robot_target:1:witness:entry_witness_outside_registered_effective_face"
+    ],
+    "last_unchecked_snapshots": 1448,
+    "body_robot": 0,
+    "body_object": 2,
+    "body_table": 1,
+    "client": 0,
+    "joint_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12,
+      14
+    ],
+    "initial_target_pose": [
+      [
+        0.48,
+        0.06,
+        0.03079100090265274
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "initial_table_pose": [
+      [
+        0.45,
+        0.0,
+        -0.025
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "face_spec": {
+      "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "sides": {
+        "left": {
+          "pad_link": "ip140_left_pad",
+          "bone_link": "ip140_left_bone",
+          "effective_inner_face_pad_link_m": {
+            "x": [
+              0.0,
+              0.06
+            ],
+            "y": [
+              0.0,
+              0.0
+            ],
+            "z": [
+              -0.01,
+              0.01
+            ]
+          },
+          "effective_inner_face_G_x_m": [
+            -0.06,
+            0.0
+          ],
+          "inward_normal_in_pad_link": [
+            0.0,
+            1,
+            0.0
+          ],
+          "tip_plane_in_pad_link_x_m": 0.06,
+          "palm_end_in_pad_link_x_m": 0.0,
+          "tip_edge_risk_distance_m": 0.001,
+          "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+        },
+        "right": {
+          "pad_link": "ip140_right_pad",
+          "bone_link": "ip140_right_bone",
+          "effective_inner_face_pad_link_m": {
+            "x": [
+              0.0,
+              0.06
+            ],
+            "y": [
+              0.0,
+              0.0
+            ],
+            "z": [
+              -0.01,
+              0.01
+            ]
+          },
+          "effective_inner_face_G_x_m": [
+            -0.06,
+            0.0
+          ],
+          "inward_normal_in_pad_link": [
+            0.0,
+            -1,
+            0.0
+          ],
+          "tip_plane_in_pad_link_x_m": 0.06,
+          "palm_end_in_pad_link_x_m": 0.0,
+          "tip_edge_risk_distance_m": 0.001,
+          "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+        }
+      },
+      "statement": "The effective inner face is local y=0. Local y=+/-0.002 m is the fixed bone/pad back seam."
+    },
+    "ended_at": "2026-11-08T04:07:23.338150+00:00",
+    "classification_counts": {
+      "same_link_closest_query": 78720,
+      "registered_internal_assembly": 170560,
+      "unregistered_self_pair": 4986,
+      "active_opposing_pads": 1712,
+      "registered_fixed_world_mount": 6560,
+      "registered_target_table_support_geometry": 6560,
+      "pad_target_static_geometry": 1534,
+      "forbidden_nonpad_target": 1493,
+      "positive_gap_zero_force_proximity_manifold": 996,
+      "persistent_pad_target_manifold": 65,
+      "post_contact_motor_reference_overtravel": 1020,
+      "post_contact_bone_motor_reference_overclosure": 995
+    },
+    "physics_step_calls": 0,
+    "filter_call_count": 14,
+    "dual_channel_sha256": "3f57932e191d19f978c3c06f9c07d2b045adbe69197f7d92ce4b5961f33fda15"
+  },
+  "entry_roots": {
+    "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+    "sides": {
+      "left": {
+        "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+        "side": "left",
+        "passed": true,
+        "status": "geometric_entry_localized",
+        "robot_body_id": 0,
+        "target_body_id": 2,
+        "pad_link_index": 13,
+        "phase": "close",
+        "source_snapshot": {
+          "phase": "close",
+          "previous_snapshot": 2751,
+          "current_snapshot": 2752,
+          "previous_signed_distance_m": 1.2006418451134373e-05,
+          "current_signed_distance_m": -0.00015049358154887527,
+          "precontact_clean": true
+        },
+        "physics_step_calls": 0,
+        "charged": false,
+        "geometric_entry_only": true,
+        "dynamic_contact_force_verified": false,
+        "caller_must_restore_command_reference": true,
+        "object_pose_modified": false,
+        "root_bracket_tolerance_m": 1e-10,
+        "root_distance_tolerance_m": 1e-09,
+        "max_bisections": 48,
+        "query_distance_m": 0.2,
+        "q_clear_input_m": 0.03205335495843398,
+        "q_overlap_input_m": 0.03189085495843398,
+        "other_finger_q_m": 0.03189085495843398,
+        "queries_completed": 24,
+        "bisections": 21,
+        "model_face_spec": {
+          "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+          "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+          "sides": {
+            "left": {
+              "pad_link": "ip140_left_pad",
+              "bone_link": "ip140_left_bone",
+              "effective_inner_face_pad_link_m": {
+                "x": [
+                  0.0,
+                  0.06
+                ],
+                "y": [
+                  0.0,
+                  0.0
+                ],
+                "z": [
+                  -0.01,
+                  0.01
+                ]
+              },
+              "effective_inner_face_G_x_m": [
+                -0.06,
+                0.0
+              ],
+              "inward_normal_in_pad_link": [
+                0.0,
+                1,
+                0.0
+              ],
+              "tip_plane_in_pad_link_x_m": 0.06,
+              "palm_end_in_pad_link_x_m": 0.0,
+              "tip_edge_risk_distance_m": 0.001,
+              "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+            },
+            "right": {
+              "pad_link": "ip140_right_pad",
+              "bone_link": "ip140_right_bone",
+              "effective_inner_face_pad_link_m": {
+                "x": [
+                  0.0,
+                  0.06
+                ],
+                "y": [
+                  0.0,
+                  0.0
+                ],
+                "z": [
+                  -0.01,
+                  0.01
+                ]
+              },
+              "effective_inner_face_G_x_m": [
+                -0.06,
+                0.0
+              ],
+              "inward_normal_in_pad_link": [
+                0.0,
+                -1,
+                0.0
+              ],
+              "tip_plane_in_pad_link_x_m": 0.06,
+              "palm_end_in_pad_link_x_m": 0.0,
+              "tip_edge_risk_distance_m": 0.001,
+              "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+            }
+          },
+          "statement": "The effective inner face is local y=0. Local y=+/-0.002 m is the fixed bone/pad back seam."
+        },
+        "source_sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+        "violations": [],
+        "previous_snapshot": 2751,
+        "current_snapshot": 2752,
+        "previous_signed_distance_m": 1.2006418451134373e-05,
+        "current_signed_distance_m": -0.00015049358154887527,
+        "precontact_clean": true,
+        "precontact_context_source": "caller verified previous snapshot and current proxy; not inferred by root solver",
+        "object_initial_pose": [
+          [
+            0.48,
+            0.06,
+            0.03079100090265274
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bracket": {
+          "q_clear_m": 0.03204134857429968,
+          "q_overlap_m": 0.03204134849681364,
+          "d_clear_m": 3.431684580598726e-11,
+          "d_overlap_m": -4.3169227307432445e-11,
+          "width_m": 7.748603841895019e-11
+        },
+        "q_entry_m": 0.03204134857429968,
+        "entry_query_index": 24,
+        "entry_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 3.431684580598726e-11,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.45111199995423906,
+            0.05983416182700449,
+            0.03153423788036036
+          ],
+          "object_witness_world_m": [
+            0.4511119999885559,
+            0.05983416182700449,
+            0.03153423788036036
+          ],
+          "pad_witness_pad_link_m": [
+            0.059500000000000025,
+            7.401018666774086e-18,
+            0.00038612743682604934
+          ],
+          "pad_witness_G_m": [
+            -0.0004999999999999688,
+            -0.032041348574299654,
+            0.0003861274368260659
+          ],
+          "native_normal_on_B": [
+            -1.0,
+            5.637851167942443e-15,
+            2.3129645817199767e-15
+          ],
+          "normal_pad_to_object_world": [
+            1.0,
+            -5.637851167942443e-15,
+            -2.3129645817199767e-15
+          ],
+          "normal_pad_to_object_pad": [
+            5.4493446739102287e-14,
+            1.0,
+            -3.2994441802900455e-15
+          ],
+          "normal_pad_to_object_G": [
+            5.4493446739102287e-14,
+            1.0,
+            -3.2994441802900455e-15
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 1.8648277366750676e-17,
+          "face_outside_m": 7.401018666774086e-18,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 1.0,
+          "tip_depth_m": 0.0004999999999999727,
+          "tip_edge_risk": true,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "nonpad_target_collisions_at_entry": [],
+        "entry_nonpad_gate": "fresh closest geometric intersection only; actual proxy manifolds independently required",
+        "persistent_manifold_evidence_observed": false,
+        "endpoint_or_intermediate_nonpad_collision_queries": [],
+        "endpoint_nonpad_semantics": "All endpoint/intermediate overlaps retained. Only final localized entry establishes simultaneous-entry collision; deep closed reference endpoint is not a loaded trajectory.",
+        "filter_call_count": 14,
+        "query_log_sha256": "ba20a6f059384181c5b1f42fb4802f4acbebcf71e6856ec2174d2bc49005840f"
+      },
+      "right": {
+        "version": "IP140_R1_smoke16_slot14_static_role_split_and_run01",
+        "side": "right",
+        "passed": true,
+        "status": "geometric_entry_localized",
+        "robot_body_id": 0,
+        "target_body_id": 2,
+        "pad_link_index": 15,
+        "phase": "close",
+        "source_snapshot": {
+          "phase": "close",
+          "previous_snapshot": 2789,
+          "current_snapshot": 2790,
+          "previous_signed_distance_m": 0.0001437034755285226,
+          "current_signed_distance_m": -1.879652447143174e-05,
+          "precontact_clean": true
+        },
+        "physics_step_calls": 0,
+        "charged": false,
+        "geometric_entry_only": true,
+        "dynamic_contact_force_verified": false,
+        "caller_must_restore_command_reference": true,
+        "object_pose_modified": false,
+        "root_bracket_tolerance_m": 1e-10,
+        "root_distance_tolerance_m": 1e-09,
+        "max_bisections": 48,
+        "query_distance_m": 0.2,
+        "q_clear_input_m": 0.025878354958433977,
+        "q_overlap_input_m": 0.02571585495843398,
+        "other_finger_q_m": 0.03204134857429968,
+        "queries_completed": 24,
+        "bisections": 21,
+        "model_face_spec": {
+          "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+          "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+          "sides": {
+            "left": {
+              "pad_link": "ip140_left_pad",
+              "bone_link": "ip140_left_bone",
+              "effective_inner_face_pad_link_m": {
+                "x": [
+                  0.0,
+                  0.06
+                ],
+                "y": [
+                  0.0,
+                  0.0
+                ],
+                "z": [
+                  -0.01,
+                  0.01
+                ]
+              },
+              "effective_inner_face_G_x_m": [
+                -0.06,
+                0.0
+              ],
+              "inward_normal_in_pad_link": [
+                0.0,
+                1,
+                0.0
+              ],
+              "tip_plane_in_pad_link_x_m": 0.06,
+              "palm_end_in_pad_link_x_m": 0.0,
+              "tip_edge_risk_distance_m": 0.001,
+              "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+            },
+            "right": {
+              "pad_link": "ip140_right_pad",
+              "bone_link": "ip140_right_bone",
+              "effective_inner_face_pad_link_m": {
+                "x": [
+                  0.0,
+                  0.06
+                ],
+                "y": [
+                  0.0,
+                  0.0
+                ],
+                "z": [
+                  -0.01,
+                  0.01
+                ]
+              },
+              "effective_inner_face_G_x_m": [
+                -0.06,
+                0.0
+              ],
+              "inward_normal_in_pad_link": [
+                0.0,
+                -1,
+                0.0
+              ],
+              "tip_plane_in_pad_link_x_m": 0.06,
+              "palm_end_in_pad_link_x_m": 0.0,
+              "tip_edge_risk_distance_m": 0.001,
+              "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+            }
+          },
+          "statement": "The effective inner face is local y=0. Local y=+/-0.002 m is the fixed bone/pad back seam."
+        },
+        "source_sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+        "violations": [],
+        "previous_snapshot": 2789,
+        "current_snapshot": 2790,
+        "previous_signed_distance_m": 0.0001437034755285226,
+        "current_signed_distance_m": -1.879652447143174e-05,
+        "precontact_clean": true,
+        "precontact_context_source": "caller verified previous snapshot and current proxy; not inferred by root solver",
+        "object_initial_pose": [
+          [
+            0.48,
+            0.06,
+            0.03079100090265274
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bracket": {
+          "q_clear_m": 0.025734651521582476,
+          "q_overlap_m": 0.025734651444096437,
+          "d_clear_m": 3.867708367119582e-11,
+          "d_overlap_m": -3.88089304616257e-11,
+          "width_m": 7.748603841895019e-11
+        },
+        "q_entry_m": 0.025734651521582476,
+        "entry_query_index": 24,
+        "entry_audit": {
+          "passed": true,
+          "violations": [],
+          "signed_distance_m": 3.867708367119582e-11,
+          "native_endpoint_order": "pad_object",
+          "pad_witness_world_m": [
+            0.5088880000501211,
+            0.05923177289453458,
+            0.03278597219971496
+          ],
+          "object_witness_world_m": [
+            0.5088880000114441,
+            0.05923177289453458,
+            0.03278597219971496
+          ],
+          "pad_witness_pad_link_m": [
+            0.05824826568064844,
+            -3.2821137765656997e-17,
+            0.000988516369295448
+          ],
+          "pad_witness_G_m": [
+            -0.001751734319351562,
+            0.025734651521582486,
+            0.0009885163692954478
+          ],
+          "native_normal_on_B": [
+            1.0,
+            -1.4600588879665997e-14,
+            4.8572256074928457e-14
+          ],
+          "normal_pad_to_object_world": [
+            -1.0,
+            1.4600588879665997e-14,
+            -4.8572256074928457e-14
+          ],
+          "normal_pad_to_object_pad": [
+            -3.6082260824537745e-15,
+            -1.0,
+            -5.6632935314330675e-15
+          ],
+          "normal_pad_to_object_G": [
+            -3.6082260824537745e-15,
+            -1.0,
+            -5.6632935314330675e-15
+          ],
+          "normal_unit_error": 0.0,
+          "full_witness_residual_m": 2.2117724318704377e-17,
+          "face_outside_m": 3.2821137765656997e-17,
+          "on_effective_inner_face": true,
+          "inward_normal_alignment": 1.0,
+          "tip_depth_m": 0.001751734319351557,
+          "tip_edge_risk": false,
+          "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+          "raw_normal_and_tangential_force_N": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "nonpad_target_collisions_at_entry": [],
+        "entry_nonpad_gate": "fresh closest geometric intersection only; actual proxy manifolds independently required",
+        "persistent_manifold_evidence_observed": false,
+        "endpoint_or_intermediate_nonpad_collision_queries": [],
+        "endpoint_nonpad_semantics": "All endpoint/intermediate overlaps retained. Only final localized entry establishes simultaneous-entry collision; deep closed reference endpoint is not a loaded trajectory.",
+        "filter_call_count": 14,
+        "query_log_sha256": "cf0b4c53e74126262d203235a7af6032a358f1e8f2708f6384fffdffb5a66204"
+      }
+    },
+    "both_found": true,
+    "both_passed": true,
+    "physics_steps": 0,
+    "object_pose_modified": false,
+    "proxy_used_by_controller": false
+  },
+  "zero_checks_count": 217,
+  "zero_passed": true,
+  "charged": false,
+  "new_charges": 0,
+  "slot14_started": false,
+  "api_step_intents": 0,
+  "first_native_call_evidence": null,
+  "physical_step_calls": 0,
+  "physical_step_returns": 0,
+  "unknown_physical_steps": 0,
+  "cumulative_starts": 8,
+  "total_budget": 14,
+  "remaining": 6,
+  "slots8_to_12_frozen": true,
+  "episode_result": null,
+  "episode_completed": null,
+  "engineering_gate_passed": null,
+  "grasp_success": null,
+  "slot_passed": null,
+  "independent_confirmation": false,
+  "algorithm_effects_tested": false,
+  "IP140_overall_passed": null,
+  "budget_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "prohibited_followup_started": false
+}

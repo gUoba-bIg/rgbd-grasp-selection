@@ -1,0 +1,1720 @@
+{
+  "version": "IP140_R2_R4dev72_raw_a_c0_paired01",
+  "created_utc": "2026-11-08T14:38:38.430699+00:00",
+  "order_seed": 20261108,
+  "rejection_sampling_design_draw": 20171,
+  "units": [
+    {
+      "base_scene": "scene-017-p1",
+      "object_id": "017",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 32,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-017-p1-clean",
+      "method_order": [
+        "Raw",
+        "A",
+        "C0"
+      ],
+      "unit_order": 1
+    },
+    {
+      "base_scene": "scene-021-p2",
+      "object_id": "021",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 4,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-021-p2-clean",
+      "method_order": [
+        "C0",
+        "Raw",
+        "A"
+      ],
+      "unit_order": 2
+    },
+    {
+      "base_scene": "scene-014-p4",
+      "object_id": "014",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 28,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-014-p4-clean",
+      "method_order": [
+        "C0",
+        "A",
+        "Raw"
+      ],
+      "unit_order": 3
+    },
+    {
+      "base_scene": "scene-014-p3",
+      "object_id": "014",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 24,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-014-p3-clean",
+      "method_order": [
+        "Raw",
+        "C0",
+        "A"
+      ],
+      "unit_order": 4
+    },
+    {
+      "base_scene": "scene-021-p2",
+      "object_id": "021",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 4,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-021-p2-joint",
+      "method_order": [
+        "A",
+        "C0",
+        "Raw"
+      ],
+      "unit_order": 5
+    },
+    {
+      "base_scene": "scene-017-p3",
+      "object_id": "017",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 40,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-017-p3-clean",
+      "method_order": [
+        "A",
+        "Raw",
+        "C0"
+      ],
+      "unit_order": 6
+    },
+    {
+      "base_scene": "scene-021-p1",
+      "object_id": "021",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 0,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-021-p1-clean",
+      "method_order": [
+        "Raw",
+        "C0",
+        "A"
+      ],
+      "unit_order": 7
+    },
+    {
+      "base_scene": "scene-021-p1",
+      "object_id": "021",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 0,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-021-p1-joint",
+      "method_order": [
+        "C0",
+        "A",
+        "Raw"
+      ],
+      "unit_order": 8
+    },
+    {
+      "base_scene": "scene-017-p4",
+      "object_id": "017",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 44,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-017-p4-joint",
+      "method_order": [
+        "Raw",
+        "C0",
+        "A"
+      ],
+      "unit_order": 9
+    },
+    {
+      "base_scene": "scene-021-p4",
+      "object_id": "021",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 12,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-021-p4-clean",
+      "method_order": [
+        "A",
+        "Raw",
+        "C0"
+      ],
+      "unit_order": 10
+    },
+    {
+      "base_scene": "scene-021-p3",
+      "object_id": "021",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 8,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-021-p3-clean",
+      "method_order": [
+        "A",
+        "C0",
+        "Raw"
+      ],
+      "unit_order": 11
+    },
+    {
+      "base_scene": "scene-014-p4",
+      "object_id": "014",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 28,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-014-p4-joint",
+      "method_order": [
+        "C0",
+        "Raw",
+        "A"
+      ],
+      "unit_order": 12
+    },
+    {
+      "base_scene": "scene-017-p2",
+      "object_id": "017",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 36,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-017-p2-joint",
+      "method_order": [
+        "Raw",
+        "C0",
+        "A"
+      ],
+      "unit_order": 13
+    },
+    {
+      "base_scene": "scene-014-p1",
+      "object_id": "014",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 16,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-014-p1-clean",
+      "method_order": [
+        "C0",
+        "Raw",
+        "A"
+      ],
+      "unit_order": 14
+    },
+    {
+      "base_scene": "scene-014-p2",
+      "object_id": "014",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 20,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-014-p2-joint",
+      "method_order": [
+        "A",
+        "Raw",
+        "C0"
+      ],
+      "unit_order": 15
+    },
+    {
+      "base_scene": "scene-014-p2",
+      "object_id": "014",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 20,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-014-p2-clean",
+      "method_order": [
+        "Raw",
+        "A",
+        "C0"
+      ],
+      "unit_order": 16
+    },
+    {
+      "base_scene": "scene-021-p3",
+      "object_id": "021",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 8,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-021-p3-joint",
+      "method_order": [
+        "C0",
+        "Raw",
+        "A"
+      ],
+      "unit_order": 17
+    },
+    {
+      "base_scene": "scene-017-p3",
+      "object_id": "017",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 40,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-017-p3-joint",
+      "method_order": [
+        "C0",
+        "A",
+        "Raw"
+      ],
+      "unit_order": 18
+    },
+    {
+      "base_scene": "scene-017-p2",
+      "object_id": "017",
+      "position_index": 2,
+      "xy_m": [
+        0.48,
+        0.06
+      ],
+      "first_nominal_registry_slot": 36,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-017-p2-clean",
+      "method_order": [
+        "C0",
+        "A",
+        "Raw"
+      ],
+      "unit_order": 19
+    },
+    {
+      "base_scene": "scene-017-p4",
+      "object_id": "017",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 44,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "clean",
+      "unit_id": "scene-017-p4-clean",
+      "method_order": [
+        "A",
+        "C0",
+        "Raw"
+      ],
+      "unit_order": 20
+    },
+    {
+      "base_scene": "scene-014-p1",
+      "object_id": "014",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 16,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-014-p1-joint",
+      "method_order": [
+        "A",
+        "C0",
+        "Raw"
+      ],
+      "unit_order": 21
+    },
+    {
+      "base_scene": "scene-021-p4",
+      "object_id": "021",
+      "position_index": 4,
+      "xy_m": [
+        0.58,
+        0.06
+      ],
+      "first_nominal_registry_slot": 12,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-021-p4-joint",
+      "method_order": [
+        "Raw",
+        "A",
+        "C0"
+      ],
+      "unit_order": 22
+    },
+    {
+      "base_scene": "scene-014-p3",
+      "object_id": "014",
+      "position_index": 3,
+      "xy_m": [
+        0.58,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 24,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-014-p3-joint",
+      "method_order": [
+        "Raw",
+        "A",
+        "C0"
+      ],
+      "unit_order": 23
+    },
+    {
+      "base_scene": "scene-017-p1",
+      "object_id": "017",
+      "position_index": 1,
+      "xy_m": [
+        0.48,
+        -0.06
+      ],
+      "first_nominal_registry_slot": 32,
+      "first_registered_nominal_yaw_rad": 0.0,
+      "registry_yaw_role": "legacy nominal proposal yaw metadata, never overwrite a P3 rotation",
+      "object_placement_quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "condition": "joint",
+      "unit_id": "scene-017-p1-joint",
+      "method_order": [
+        "A",
+        "Raw",
+        "C0"
+      ],
+      "unit_order": 24
+    }
+  ],
+  "control_order": [
+    {
+      "trial_id": "R4DEV-001",
+      "unit_id": "scene-017-p1-clean",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-002",
+      "unit_id": "scene-017-p1-clean",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-003",
+      "unit_id": "scene-017-p1-clean",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-004",
+      "unit_id": "scene-021-p2-clean",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-005",
+      "unit_id": "scene-021-p2-clean",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-006",
+      "unit_id": "scene-021-p2-clean",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-007",
+      "unit_id": "scene-014-p4-clean",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-008",
+      "unit_id": "scene-014-p4-clean",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-009",
+      "unit_id": "scene-014-p4-clean",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-010",
+      "unit_id": "scene-014-p3-clean",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-011",
+      "unit_id": "scene-014-p3-clean",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-012",
+      "unit_id": "scene-014-p3-clean",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-013",
+      "unit_id": "scene-021-p2-joint",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-014",
+      "unit_id": "scene-021-p2-joint",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-015",
+      "unit_id": "scene-021-p2-joint",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-016",
+      "unit_id": "scene-017-p3-clean",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-017",
+      "unit_id": "scene-017-p3-clean",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-018",
+      "unit_id": "scene-017-p3-clean",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-019",
+      "unit_id": "scene-021-p1-clean",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-020",
+      "unit_id": "scene-021-p1-clean",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-021",
+      "unit_id": "scene-021-p1-clean",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-022",
+      "unit_id": "scene-021-p1-joint",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-023",
+      "unit_id": "scene-021-p1-joint",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-024",
+      "unit_id": "scene-021-p1-joint",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-025",
+      "unit_id": "scene-017-p4-joint",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-026",
+      "unit_id": "scene-017-p4-joint",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-027",
+      "unit_id": "scene-017-p4-joint",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-028",
+      "unit_id": "scene-021-p4-clean",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-029",
+      "unit_id": "scene-021-p4-clean",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-030",
+      "unit_id": "scene-021-p4-clean",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-031",
+      "unit_id": "scene-021-p3-clean",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-032",
+      "unit_id": "scene-021-p3-clean",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-033",
+      "unit_id": "scene-021-p3-clean",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-034",
+      "unit_id": "scene-014-p4-joint",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-035",
+      "unit_id": "scene-014-p4-joint",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-036",
+      "unit_id": "scene-014-p4-joint",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-037",
+      "unit_id": "scene-017-p2-joint",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-038",
+      "unit_id": "scene-017-p2-joint",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-039",
+      "unit_id": "scene-017-p2-joint",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-040",
+      "unit_id": "scene-014-p1-clean",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-041",
+      "unit_id": "scene-014-p1-clean",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-042",
+      "unit_id": "scene-014-p1-clean",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-043",
+      "unit_id": "scene-014-p2-joint",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-044",
+      "unit_id": "scene-014-p2-joint",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-045",
+      "unit_id": "scene-014-p2-joint",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-046",
+      "unit_id": "scene-014-p2-clean",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-047",
+      "unit_id": "scene-014-p2-clean",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-048",
+      "unit_id": "scene-014-p2-clean",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-049",
+      "unit_id": "scene-021-p3-joint",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-050",
+      "unit_id": "scene-021-p3-joint",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-051",
+      "unit_id": "scene-021-p3-joint",
+      "method": "A",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-052",
+      "unit_id": "scene-017-p3-joint",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-053",
+      "unit_id": "scene-017-p3-joint",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-054",
+      "unit_id": "scene-017-p3-joint",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-055",
+      "unit_id": "scene-017-p2-clean",
+      "method": "C0",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-056",
+      "unit_id": "scene-017-p2-clean",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-057",
+      "unit_id": "scene-017-p2-clean",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-058",
+      "unit_id": "scene-017-p4-clean",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-059",
+      "unit_id": "scene-017-p4-clean",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-060",
+      "unit_id": "scene-017-p4-clean",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-061",
+      "unit_id": "scene-014-p1-joint",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-062",
+      "unit_id": "scene-014-p1-joint",
+      "method": "C0",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-063",
+      "unit_id": "scene-014-p1-joint",
+      "method": "Raw",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-064",
+      "unit_id": "scene-021-p4-joint",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-065",
+      "unit_id": "scene-021-p4-joint",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-066",
+      "unit_id": "scene-021-p4-joint",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-067",
+      "unit_id": "scene-014-p3-joint",
+      "method": "Raw",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-068",
+      "unit_id": "scene-014-p3-joint",
+      "method": "A",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-069",
+      "unit_id": "scene-014-p3-joint",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-070",
+      "unit_id": "scene-017-p1-joint",
+      "method": "A",
+      "within_unit_index": 1,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-071",
+      "unit_id": "scene-017-p1-joint",
+      "method": "Raw",
+      "within_unit_index": 2,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    },
+    {
+      "trial_id": "R4DEV-072",
+      "unit_id": "scene-017-p1-joint",
+      "method": "C0",
+      "within_unit_index": 3,
+      "state": "reserved_unstarted",
+      "counted": false,
+      "trial_completed": false,
+      "engineering_gate_passed": null,
+      "grasp_success": null,
+      "negative_control_passed": null,
+      "execution_intent_sha256": null,
+      "result_sha256": null,
+      "failure_class": null
+    }
+  ],
+  "source": {
+    "path": "configs/simulation_v52r2.json",
+    "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+  },
+  "paired_outcomes": "same base object-position stable state reused across clean and joint; same observation/condition and candidate pool across methods",
+  "seeds_scope": "counterbalance only; joint corruption and P3 sampling seeds require policy binding before intent sealing"
+}

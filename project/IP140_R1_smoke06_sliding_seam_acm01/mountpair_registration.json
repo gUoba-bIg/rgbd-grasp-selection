@@ -1,0 +1,114 @@
+{
+  "schema": "IP140_R1_smoke06_fixed_mountpair_v3",
+  "pair": [
+    "wrist_3_link",
+    "ip140_palm"
+  ],
+  "scope": "Pre-filter zero-step wrist/flange/palm topology, pose, margin and historic mounting-face tests; separate strict current wrist closest gate on every integrated step.",
+  "required_fixed_path": [
+    "wrist_3_link",
+    "flange",
+    "ip140_palm"
+  ],
+  "required_joints": [
+    "wrist_3-flange",
+    "ip140_mount"
+  ],
+  "T_wrist_G": [
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.07
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "frame": "G is the link frame of ip140_palm, determined from world COM and inverse local inertia transform",
+  "unit": "m unless noted",
+  "palm_back_x_G": -0.07,
+  "palm_yz_half_m": [
+    0.08,
+    0.01
+  ],
+  "palm_margin_m": 0.0005,
+  "wrist_margin_m": 0.001,
+  "wrist_mesh_origin_geometry": "URDF wrist collision xyz=(0,-0.0005,-0.0989), rotation X=pi/2",
+  "wrist_mesh_AABB_G_m": [
+    [
+      -0.11575468077659606,
+      -0.04401700469851494,
+      -0.037626683712005615
+    ],
+    [
+      -0.06994055404663085,
+      0.03753716227412224,
+      0.03747909143567085
+    ]
+  ],
+  "expected_static_interference": "collision mesh extends past plane by 0.05945 mm before its 1 mm margin; use expanded wrist AABB and actual collision-face witnesses, not a blanket signed-distance exemption",
+  "closest_query_m": 0.002,
+  "floating_zero_m": 1e-09,
+  "rules": [
+    "Only ordered or reversed exact same-body link IDs on the registered fixed path.",
+    "Both witnesses projected in y,z must lie within palm footprint and wrist expanded-box footprint.",
+    "Palm witness must belong to the back face or its 0.5mm rounded rim; its normal must have rearward x as unique dominant component. Wrist witness cannot project beyond CAD mesh extreme x plus its original 1mm collision margin.",
+    "Negative signed distances remain negative in logs. Axial overlap must be consistent with observed signed depth, normal and relative witnesses; non-mount pairs are processed by unchanged limits.",
+    "No force clipping. Persist pre-filter witness records and finite forces as observed. After the thirteen filters are set, any wrist/palm solver manifold fails. Missing closest witness, nonfinite data or an out-of-envelope pre-filter witness fails."
+  ],
+  "historic_witness": {
+    "pair": [
+      "wrist_3_link",
+      "ip140_palm"
+    ],
+    "signed_distance_m": -0.0010361016226507268,
+    "zero_step_normal_force_N": 0.0,
+    "witnesses_in_G_m": [
+      [
+        -0.06896389922484858,
+        -0.008295187200224657,
+        -0.009499046747268314
+      ],
+      [
+        -0.06999999920957217,
+        -0.008295187200224536,
+        -0.00950088905973362
+      ]
+    ]
+  },
+  "source_sha256": {
+    "IP140_R1_smoke02_pathfix01/zero_step/zero_contacts.json": "31942e490aab07be76362c799562f4cf090b0ef95a06f6e3624abbd08d28c6da",
+    "IP140_R1_smoke02_pathfix01/frame_and_contact_review.json": "ee8221c8423212bc340e53c87e693ddf660a75612c5c5a45b1b1c8bc16b3b5b6",
+    "IP140_R1_smoke02_pathfix01/zero_step/all_links_readback.json": "29429af2d88a0157bff262b0b4a2a3ebc703fe31e13b0a439b294ad1915b3ecd",
+    "IP140_R1_smoke02_pathfix01/model/manifest.json": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "IP140_R1_smoke03_framefix_mountpair01/model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_wrist3.stl": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3"
+  },
+  "stage_policy": {
+    "pre_filter_zero_step": {
+      "wrist_palm_pair_filter_applied": false,
+      "geometry_audit": "fixed chain, actual T_wrist_G, same-time closest and manifold witnesses"
+    },
+    "post_filter_zero_step_and_dynamic": {
+      "wrist_palm_pair_filter_applied": true,
+      "solver_response": "disabled for this exact named pair by one of thirteen documented setters",
+      "verification": "Post-filter zero requires closest witnesses and no manifolds. At EVERY physical step the current closest additionally requires signed d >= -1e-9 m, full vector witness residual <=1e-9 m, registered faces, relative pose and finite raw data. The historical static overlap is never a dynamic exception."
+    }
+  }
+}

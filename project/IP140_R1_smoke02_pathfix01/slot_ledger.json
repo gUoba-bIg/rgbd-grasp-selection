@@ -1,0 +1,130 @@
+{
+  "schema": "IP140.smoke02.ledger.final",
+  "at_utc": "2026-11-04T10:03:32.506895+00:00",
+  "version": "IP140_R1_smoke02_pathfix01",
+  "total_slots": 12,
+  "starts": 0,
+  "returned_episodes": 0,
+  "unknown_started_episodes": 0,
+  "retries": 0,
+  "physical_steps": 0,
+  "existing_budget": 12,
+  "budget_added": 0,
+  "preregistration_sha256": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50",
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": false,
+      "state": "not_started_hard_gate_failed",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": false,
+      "state": "not_started_hard_gate_failed",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-03:center",
+      "kind": "center",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-04:offset_positive_y",
+      "kind": "offset_positive_y",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 5,
+      "candidate_id": "IP140-BENCH-05:offset_negative_y",
+      "kind": "offset_negative_y",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 6,
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "kind": "single_sided_stop",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized_in_this_run",
+      "result": null,
+      "telemetry": null
+    }
+  ],
+  "smoke_budget_charged": 0,
+  "unused_original_budget": 12,
+  "additional_budget": 0,
+  "slots_1_2_outcome": null,
+  "slots_3_12": "not_authorized",
+  "slot_telemetry": null
+}

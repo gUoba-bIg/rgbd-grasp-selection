@@ -1,0 +1,46 @@
+{
+  "version": "IP140_R1_smoke18_remaining_five_bridge_confirmation01",
+  "finished_utc": "2026-11-08T08:54:02.477955+00:00",
+  "workers": [
+    {
+      "slot": 8,
+      "exit_code": 2,
+      "session": {
+        "version": "IP140_R1_smoke18_remaining_five_bridge_confirmation01",
+        "slot": 8,
+        "object_id": "014",
+        "kind": "nominal",
+        "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+        "starts_before": 9,
+        "starts_after": 9,
+        "remaining_after": 5,
+        "total_budget": 14,
+        "charged": false,
+        "batch_can_continue": false,
+        "at": "2026-11-08T08:50:16.791212+00:00",
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": false,
+        "phase": "static_zero_and_path",
+        "static_snapshots_completed": 4728,
+        "static_first_failure": null,
+        "stop": "shared_engineering_stop",
+        "error": "ValueError(\"static admission gates: ['static_zero_only']\")",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\IP140_R1_smoke18_remaining_five_bridge_confirmation01\\run_authorized.py\", line 185, in main\n    admission=verify_static_complete()\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\IP140_R1_smoke18_remaining_five_bridge_confirmation01\\static_admission_check.py\", line 42, in verify_static_complete\n    if not all(checks.values()):raise ValueError(\"static admission gates: \"+str([k for k,v in checks.items() if not v]))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: static admission gates: ['static_zero_only']\n",
+        "actual_step_calls": 0,
+        "actual_step_returns": 0,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T08:54:02.379708+00:00"
+      }
+    }
+  ],
+  "charged": 0,
+  "cumulative_starts": 9,
+  "remaining": 5,
+  "following_slots_not_entered": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "retries": 0
+}

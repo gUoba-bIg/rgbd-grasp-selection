@@ -1,0 +1,2199 @@
+{
+  "version": "IP140_R2_smoke22_miss_negative_controls_full_execution01",
+  "initial_charged": 11,
+  "new_charges": 3,
+  "final_charged": 14,
+  "remaining": 0,
+  "accounting_consistent": true,
+  "history_verification": {
+    "checked_files": 3847,
+    "checked_directories": 20,
+    "differences": [],
+    "passed": true,
+    "source_snapshot_sha256": "dd584136a7ff91652e4e887b7e5167d260b02e6a0d06fa002fd86801c2ea9e05",
+    "utc": "2026-11-08T13:48:11.162778+00:00"
+  },
+  "historical_nominals": [
+    {
+      "slot": 14,
+      "object_id": "021",
+      "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+      "scope": "开发纠错桥接",
+      "original_result_sha256": "e5ba4db0bfa0075bda6a5af36ddc891998d9c909f74e083cc0c58456a436bc78",
+      "original_result": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/episodes/14/result.json",
+      "grasp_success": true,
+      "engineering_gate_passed": true,
+      "native_step_returns": 4728,
+      "max_lift_m": 0.1499920862633893
+    },
+    {
+      "slot": 8,
+      "object_id": "014",
+      "version": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01",
+      "scope": "历史工程正例",
+      "original_result_sha256": "2e2db2f005d80cf911d8c808eef75adf1e07176fc7143d4ce8c7ba0dd0ee1e3c",
+      "original_result": "IP140_R1_smoke19_asset_typed_zero_schema_and_resume_five01/slots/08/episodes/08/result.json",
+      "grasp_success": true,
+      "engineering_gate_passed": true,
+      "native_step_returns": 4728,
+      "max_lift_m": 0.14998945336851255
+    },
+    {
+      "slot": 9,
+      "object_id": "017",
+      "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+      "scope": "R2开发纠错",
+      "original_result_sha256": "a9c92229de396065d4f0f8a809249b991f07a349af1aa8553a7bdc6fc1123771",
+      "original_result": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01/slots/09/episodes/09/result.json",
+      "grasp_success": true,
+      "engineering_gate_passed": true,
+      "native_step_returns": 4728,
+      "max_lift_m": 0.14998954557029007
+    }
+  ],
+  "misses": [
+    {
+      "slot": 10,
+      "kind": "miss",
+      "object_id": "021",
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "candidate_vector_sha256": "0141ab0063cb8fa8eda7d3cb7ea3ddbdafc5f16b2edc0f12cb49577ff6b45ef3",
+      "charged": true,
+      "classification": "correct_negative",
+      "actual_motion_complete": true,
+      "static_result": {
+        "passed": true,
+        "states": 4728,
+        "first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "missing_entry_sides": [
+          "left",
+          "right"
+        ],
+        "valid_entry_sides": [],
+        "path_sha256": "87fd3e2b04055e2584f78021ea8c570384b77b6ddd35575a3c103857280ea380",
+        "receipt_sha256": "334b51d2216c82fbc16eba3684df9bd3710bf03da9d707036f058f4c7a566e8a"
+      },
+      "api": {
+        "static": {
+          "scope": "static",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": null,
+          "step_calls": 0,
+          "step_returns": 0,
+          "calls": 321925,
+          "returns": 321925,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              385,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 75654,
+          "errors": [],
+          "source": "slots/10/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "68ea4b8bee1cbcf16891780febe37020da76fd4a07d01c529c9f688d874c6c65"
+        },
+        "dynamic": {
+          "scope": "dynamic",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": 438,
+          "step_calls": 4728,
+          "step_returns": 4728,
+          "calls": 123367,
+          "returns": 123367,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              385,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 6,
+          "errors": [],
+          "source": "slots/10/full_api/calls.jsonl.gz",
+          "sha256": "0786cf229ec2efe60fd7a278df07029f42751de257c23f262954df7b81e9d22a"
+        }
+      },
+      "physical": {
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": false,
+        "slot_passed": true,
+        "failure_stage": null,
+        "failure_reason": [],
+        "grasp_failure_reasons": [
+          "missing_final_480_valid_hold_steps",
+          "no_bilateral_grasp_observed",
+          "terminal_height_requirement",
+          "terminal_bilateral_contact_requirement",
+          "terminal_table_support_observed",
+          "terminal_aggregate_table_support_observed"
+        ],
+        "outcome_class": "expected_miss_detected",
+        "max_lift_m": 7.170306015602534e-14,
+        "slipped": false,
+        "grasp_formed": false,
+        "unknown_steps": 0,
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "terminal_observation_count": 480,
+        "final_hold_streak": 0,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        }
+      },
+      "measured": {
+        "observed_states": 4728,
+        "states_by_phase": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "saved_terminal_window": 480,
+        "initial_object_state": {
+          "body_id": 2,
+          "position": [
+            0.48,
+            0.06,
+            0.03079100090265274
+          ],
+          "orientation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "settle_240_object_state": {
+          "body_id": 2,
+          "position": [
+            0.4800047096738593,
+            0.060006996356335614,
+            0.02878193930774322
+          ],
+          "orientation": [
+            -0.00010848474550998972,
+            9.84897356207319e-05,
+            -0.00012355052410763877,
+            0.9999999816330498
+          ],
+          "linear_velocity": [
+            9.421180422717362e-06,
+            -1.9426963297982343e-06,
+            5.608901063255955e-07
+          ],
+          "angular_velocity": [
+            9.719633799243083e-05,
+            0.00037108261207722865,
+            -0.00032445223248936476
+          ]
+        },
+        "last_observed_object_state": {
+          "body_id": 2,
+          "position": [
+            0.47997929295131436,
+            0.060024335424273836,
+            0.028781939307814922
+          ],
+          "orientation": [
+            -0.00010816199752612124,
+            9.884409222608207e-05,
+            -0.0033949105642641212,
+            0.9999942265398778
+          ],
+          "linear_velocity": [
+            9.408712310262297e-06,
+            -2.0048566802396083e-06,
+            5.608884648816703e-07
+          ],
+          "angular_velocity": [
+            9.962207653521366e-05,
+            0.00037043824694587635,
+            -0.00032430718922049146
+          ]
+        },
+        "displacement_initial_to_last_xyz_m": [
+          -2.070704868561979e-05,
+          2.4335424273838613e-05,
+          -0.0020090615948378174
+        ],
+        "displacement_settle_to_last_xyz_m": [
+          -2.5416722544913117e-05,
+          1.7339067938222652e-05,
+          7.170306015602534e-14
+        ],
+        "max_translation_from_initial": {
+          "step": 5,
+          "m": 0.0020129256480393145
+        },
+        "max_translation_from_settle": {
+          "step": 4727,
+          "m": 3.080482400771361e-05
+        },
+        "all_relative_lift_range_m": [
+          -1.6929348745781114e-08,
+          7.170306015602534e-14
+        ],
+        "lift_hold_relative_lift_range_m": [
+          -1.6929289088640775e-08,
+          7.170306015602534e-14
+        ],
+        "full_contact_state_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 4724,
+          "pointwise_table_support": 4723,
+          "table_contact_present": 4725,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "by_phase": {
+          "settle": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 236,
+            "pointwise_table_support": 235,
+            "table_contact_present": 237,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "opening": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "transit": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "pregrasp": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "approach": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "close": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "lift": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 792,
+            "pointwise_table_support": 792,
+            "table_contact_present": 792,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "hold": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 720,
+            "pointwise_table_support": 720,
+            "table_contact_present": 720,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          }
+        },
+        "external_contact_pairs": {
+          "table.-1 / target.-1": {
+            "points": 14169,
+            "min_signed_distance_m": -1.7914669306083597e-05,
+            "max_Fn_N": 1.247292678012074
+          }
+        },
+        "first_engineering_violation": null,
+        "terminal480_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 480,
+          "pointwise_table_support": 480,
+          "table_contact_present": 480,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "terminal480_lift_range_m": [
+          -1.6929269250343104e-08,
+          7.170306015602534e-14
+        ],
+        "terminal480_table_sum_Fn_range_N": [
+          0.39237176948065117,
+          0.3924557976556058
+        ],
+        "terminal480_table_load_fraction_range": [
+          0.9999280567804565,
+          1.0001421958603613
+        ],
+        "fingers_L_R": {
+          "peak_abs_speed_m_s": [
+            0.039971306076810986,
+            0.039999933223943344
+          ],
+          "peak_abs_motor_force_N": [
+            0.0400449775405942,
+            0.040039265858753365
+          ],
+          "near_19p8_N_steps": [
+            0,
+            0
+          ],
+          "at_20_N_steps": [
+            0,
+            0
+          ]
+        },
+        "arm_peak_abs_torque_Nm": [
+          1.1197914120921866,
+          40.20420267874152,
+          20.66195612203698,
+          1.9968620117760394,
+          0.026970222620707522,
+          0.0007765637942370568
+        ],
+        "arm_torque_margin_Nm": [
+          148.88020858790782,
+          109.79579732125848,
+          129.33804387796303,
+          26.003137988223962,
+          27.973029777379292,
+          27.999223436205764
+        ],
+        "telemetry_sha256": "5ca37e61a430ecdc6bf6aceaacec6e8f0d242a0ab0c3819803910d083213bade",
+        "terminal_sha256": "2c9df9de6eb8f7ae16c4e591ec7d49341f4f73fd51fce76f2c6ccfe0e2a0cada",
+        "derived_series_sha256": "2f3afcbcc54223ccbafa0183a35af60b573690dc7355e7983777cba40556f7cd"
+      },
+      "verification_errors": [],
+      "session_status": {
+        "version": "IP140_R2_smoke22_miss_negative_controls_full_execution01",
+        "slot": 10,
+        "object_id": "021",
+        "kind": "miss",
+        "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+        "starts_before": 11,
+        "starts_after": 12,
+        "remaining_after": 2,
+        "total_budget": 14,
+        "charged": true,
+        "batch_can_continue": true,
+        "at": "2026-11-08T13:36:58.863632+00:00",
+        "registered_surface_revision": "IP140_R2",
+        "negative_control_execution": true,
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": true,
+        "phase": "dynamic_episode",
+        "static_snapshots_completed": 4728,
+        "static_first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "stop": "engineering_complete",
+        "slot_passed": true,
+        "grasp_success": false,
+        "episode_sha256": "a5f7d98d9c7aaba68a3bf7d05959c57d0f4cabef223f2cec969339334beb6be6",
+        "actual_step_calls": 4728,
+        "actual_step_returns": 4728,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T13:39:48.819785+00:00"
+      },
+      "episode_result_sha256": "a5f7d98d9c7aaba68a3bf7d05959c57d0f4cabef223f2cec969339334beb6be6"
+    },
+    {
+      "slot": 11,
+      "kind": "miss",
+      "object_id": "014",
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "candidate_vector_sha256": "9188133d215648ae722354a77bbe0b5869c9772ef29b466b09761770277c0c6d",
+      "charged": true,
+      "classification": "correct_negative",
+      "actual_motion_complete": true,
+      "static_result": {
+        "passed": true,
+        "states": 4728,
+        "first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "missing_entry_sides": [
+          "left",
+          "right"
+        ],
+        "valid_entry_sides": [],
+        "path_sha256": "be2d24808f563d291946d2d7f3a97af22f5dd345b6fae289656e90c0a6be0ec2",
+        "receipt_sha256": "075cdfd563cdcd37c797db4d904411ba8323b31cce641ac506dd17869db4089c"
+      },
+      "api": {
+        "static": {
+          "scope": "static",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": null,
+          "step_calls": 0,
+          "step_returns": 0,
+          "calls": 321924,
+          "returns": 321924,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              384,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 75654,
+          "errors": [],
+          "source": "slots/11/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "d52afce60b3c25237d5916ec0d6152a35e3009760e63415c16b452d79f277534"
+        },
+        "dynamic": {
+          "scope": "dynamic",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": 437,
+          "step_calls": 4728,
+          "step_returns": 4728,
+          "calls": 123366,
+          "returns": 123366,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              384,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 6,
+          "errors": [],
+          "source": "slots/11/full_api/calls.jsonl.gz",
+          "sha256": "49c292dfc5a08abeb940484aefa6c006537c33276aa3e2aed50a1aa53088d5a2"
+        }
+      },
+      "physical": {
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": false,
+        "slot_passed": true,
+        "failure_stage": null,
+        "failure_reason": [],
+        "grasp_failure_reasons": [
+          "missing_final_480_valid_hold_steps",
+          "no_bilateral_grasp_observed",
+          "terminal_height_requirement",
+          "terminal_bilateral_contact_requirement",
+          "terminal_table_support_observed",
+          "terminal_aggregate_table_support_observed"
+        ],
+        "outcome_class": "expected_miss_detected",
+        "max_lift_m": 9.983646852666783e-07,
+        "slipped": false,
+        "grasp_formed": false,
+        "unknown_steps": 0,
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "terminal_observation_count": 480,
+        "final_hold_streak": 0,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        }
+      },
+      "measured": {
+        "observed_states": 4728,
+        "states_by_phase": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "saved_terminal_window": 480,
+        "initial_object_state": {
+          "body_id": 2,
+          "position": [
+            0.48,
+            -0.06,
+            0.03232400070130825
+          ],
+          "orientation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "settle_240_object_state": {
+          "body_id": 2,
+          "position": [
+            0.4800025652070925,
+            -0.05999670303640846,
+            0.02931420654719541
+          ],
+          "orientation": [
+            -5.568512801449885e-05,
+            -6.08973541808906e-06,
+            0.00014333170215845523,
+            0.9999999881590523
+          ],
+          "linear_velocity": [
+            2.917271919835844e-06,
+            -2.589761326835502e-07,
+            2.8585883660170452e-12
+          ],
+          "angular_velocity": [
+            7.646945150896997e-10,
+            2.0807936572940035e-10,
+            0.0002861942672446414
+          ]
+        },
+        "last_observed_object_state": {
+          "body_id": 2,
+          "position": [
+            0.4798473491839987,
+            -0.059946088885585565,
+            0.02931515855875162
+          ],
+          "orientation": [
+            -9.294062507976493e-05,
+            -3.554486835867385e-05,
+            0.003122749829337297,
+            0.9999951192541421
+          ],
+          "linear_velocity": [
+            1.7987803929683087e-05,
+            -5.591316586545667e-06,
+            -4.431178355336629e-06
+          ],
+          "angular_velocity": [
+            0.00018463120247615874,
+            0.000859376902588485,
+            -0.0008874600886921249
+          ]
+        },
+        "displacement_initial_to_last_xyz_m": [
+          -0.00015265081600129848,
+          5.3911114414433026e-05,
+          -0.0030088421425566343
+        ],
+        "displacement_settle_to_last_xyz_m": [
+          -0.0001552160230938182,
+          5.061415082289328e-05,
+          9.52011556209359e-07
+        ],
+        "max_translation_from_initial": {
+          "step": 6,
+          "m": 0.0035754474206077316
+        },
+        "max_translation_from_settle": {
+          "step": 4727,
+          "m": 0.00016334129615464322
+        },
+        "all_relative_lift_range_m": [
+          -5.365341553334457e-08,
+          9.983646852666783e-07
+        ],
+        "lift_hold_relative_lift_range_m": [
+          5.065628431201452e-07,
+          9.983646852666783e-07
+        ],
+        "full_contact_state_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 4722,
+          "pointwise_table_support": 4678,
+          "table_contact_present": 4722,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "by_phase": {
+          "settle": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 234,
+            "pointwise_table_support": 190,
+            "table_contact_present": 234,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "opening": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "transit": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "pregrasp": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "approach": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "close": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "lift": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 792,
+            "pointwise_table_support": 792,
+            "table_contact_present": 792,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "hold": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 720,
+            "pointwise_table_support": 720,
+            "table_contact_present": 720,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          }
+        },
+        "external_contact_pairs": {
+          "table.-1 / target.-1": {
+            "points": 188880,
+            "min_signed_distance_m": -0.0005754474206344819,
+            "max_Fn_N": 1.4678902517798798
+          }
+        },
+        "first_engineering_violation": null,
+        "terminal480_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 480,
+          "pointwise_table_support": 480,
+          "table_contact_present": 480,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "terminal480_lift_range_m": [
+          9.52011556209359e-07,
+          9.704759814238573e-07
+        ],
+        "terminal480_table_sum_Fn_range_N": [
+          0.9807873134373079,
+          0.9812126865791875
+        ],
+        "terminal480_table_load_fraction_range": [
+          0.9997831941256959,
+          1.0002168058911187
+        ],
+        "fingers_L_R": {
+          "peak_abs_speed_m_s": [
+            0.0399713803590573,
+            0.039999933223943344
+          ],
+          "peak_abs_motor_force_N": [
+            0.0400449775405942,
+            0.04003927357185281
+          ],
+          "near_19p8_N_steps": [
+            0,
+            0
+          ],
+          "at_20_N_steps": [
+            0,
+            0
+          ]
+        },
+        "arm_peak_abs_torque_Nm": [
+          0.8175093767133765,
+          40.14943055081299,
+          20.661299314240907,
+          1.9966498063155529,
+          0.019190721706119556,
+          0.0007870339392136506
+        ],
+        "arm_torque_margin_Nm": [
+          149.1824906232866,
+          109.85056944918702,
+          129.33870068575908,
+          26.003350193684447,
+          27.98080927829388,
+          27.999212966060785
+        ],
+        "telemetry_sha256": "2b4b6e4700f2ba47dd440ae7af237bae4c8890fc5b3c2c5729e6aa9d054e8b74",
+        "terminal_sha256": "58aecea478b447bafc08e0ba031afc2fb863a2669656db28773806f9ddb74ce7",
+        "derived_series_sha256": "5298eb265a2dbfebed92b160b92bfd0d39265ac678f83c17eaa99239020d2a79"
+      },
+      "verification_errors": [],
+      "session_status": {
+        "version": "IP140_R2_smoke22_miss_negative_controls_full_execution01",
+        "slot": 11,
+        "object_id": "014",
+        "kind": "miss",
+        "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+        "starts_before": 12,
+        "starts_after": 13,
+        "remaining_after": 1,
+        "total_budget": 14,
+        "charged": true,
+        "batch_can_continue": true,
+        "at": "2026-11-08T13:39:54.100407+00:00",
+        "registered_surface_revision": "IP140_R2",
+        "negative_control_execution": true,
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": true,
+        "phase": "dynamic_episode",
+        "static_snapshots_completed": 4728,
+        "static_first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "stop": "engineering_complete",
+        "slot_passed": true,
+        "grasp_success": false,
+        "episode_sha256": "c138c541840f79e6a8345ebd0a0661f62380a5a55a303a0865e2ae0dd3cb06e5",
+        "actual_step_calls": 4728,
+        "actual_step_returns": 4728,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T13:43:30.574101+00:00"
+      },
+      "episode_result_sha256": "c138c541840f79e6a8345ebd0a0661f62380a5a55a303a0865e2ae0dd3cb06e5"
+    },
+    {
+      "slot": 12,
+      "kind": "miss",
+      "object_id": "017",
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "candidate_vector_sha256": "f2ac9a9225545f0e614bb2a10160e40060ea21853f9a54364530c5f8345f868c",
+      "charged": true,
+      "classification": "correct_negative",
+      "actual_motion_complete": true,
+      "static_result": {
+        "passed": true,
+        "states": 4728,
+        "first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "missing_entry_sides": [
+          "left",
+          "right"
+        ],
+        "valid_entry_sides": [],
+        "path_sha256": "02d37078aadc5b152cba0701a80c09ac1072a4540be71f5894baefe63bcf0ac3",
+        "receipt_sha256": "7649e3385402d2cbcb7584d896949451badbf3a9fe63c3b6976af38fa5023959"
+      },
+      "api": {
+        "static": {
+          "scope": "static",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": null,
+          "step_calls": 0,
+          "step_returns": 0,
+          "calls": 321924,
+          "returns": 321924,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              384,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 75654,
+          "errors": [],
+          "source": "slots/12/static_preflight/full_api/calls.jsonl.gz",
+          "sha256": "b157806d075e923a993bb731db47111010d6f8675feffbaf207ffe4d349db875"
+        },
+        "dynamic": {
+          "scope": "dynamic",
+          "paired_without_exception": true,
+          "first_native_physics_sequence": 437,
+          "step_calls": 4728,
+          "step_returns": 4728,
+          "calls": 123366,
+          "returns": 123366,
+          "connections": [
+            0
+          ],
+          "disconnects": 1,
+          "filter_calls": [
+            [
+              266,
+              [
+                0,
+                0,
+                1,
+                2,
+                0
+              ]
+            ],
+            [
+              267,
+              [
+                0,
+                0,
+                2,
+                3,
+                0
+              ]
+            ],
+            [
+              268,
+              [
+                0,
+                0,
+                3,
+                4,
+                0
+              ]
+            ],
+            [
+              269,
+              [
+                0,
+                0,
+                4,
+                5,
+                0
+              ]
+            ],
+            [
+              270,
+              [
+                0,
+                0,
+                5,
+                6,
+                0
+              ]
+            ],
+            [
+              271,
+              [
+                0,
+                0,
+                6,
+                7,
+                0
+              ]
+            ],
+            [
+              272,
+              [
+                0,
+                0,
+                7,
+                11,
+                0
+              ]
+            ],
+            [
+              273,
+              [
+                0,
+                0,
+                12,
+                13,
+                0
+              ]
+            ],
+            [
+              274,
+              [
+                0,
+                0,
+                14,
+                15,
+                0
+              ]
+            ],
+            [
+              275,
+              [
+                0,
+                0,
+                11,
+                12,
+                0
+              ]
+            ],
+            [
+              276,
+              [
+                0,
+                0,
+                11,
+                13,
+                0
+              ]
+            ],
+            [
+              277,
+              [
+                0,
+                0,
+                11,
+                14,
+                0
+              ]
+            ],
+            [
+              278,
+              [
+                0,
+                0,
+                11,
+                15,
+                0
+              ]
+            ],
+            [
+              384,
+              [
+                0,
+                1,
+                1,
+                -1,
+                0
+              ]
+            ]
+          ],
+          "pre_step_robot_joint_resets": 6,
+          "errors": [],
+          "source": "slots/12/full_api/calls.jsonl.gz",
+          "sha256": "bbfd5fd82e594817248e8171e83e82a6b00ef6d649c5926a537c2bacd161da0b"
+        }
+      },
+      "physical": {
+        "episode_completed": true,
+        "engineering_gate_passed": true,
+        "grasp_success": false,
+        "slot_passed": true,
+        "failure_stage": null,
+        "failure_reason": [],
+        "grasp_failure_reasons": [
+          "missing_final_480_valid_hold_steps",
+          "no_bilateral_grasp_observed",
+          "terminal_height_requirement",
+          "terminal_bilateral_contact_requirement",
+          "terminal_table_support_observed",
+          "terminal_aggregate_table_support_observed"
+        ],
+        "outcome_class": "expected_miss_detected",
+        "max_lift_m": 3.3354994314477304e-07,
+        "slipped": false,
+        "grasp_formed": false,
+        "unknown_steps": 0,
+        "step_intents": 4728,
+        "step_returns": 4728,
+        "terminal_observation_count": 480,
+        "final_hold_streak": 0,
+        "step_counts": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        }
+      },
+      "measured": {
+        "observed_states": 4728,
+        "states_by_phase": {
+          "settle": 240,
+          "opening": 480,
+          "transit": 672,
+          "pregrasp": 672,
+          "approach": 672,
+          "close": 480,
+          "lift": 792,
+          "hold": 720
+        },
+        "saved_terminal_window": 480,
+        "initial_object_state": {
+          "body_id": 2,
+          "position": [
+            0.48,
+            -0.06,
+            0.02952899920940399
+          ],
+          "orientation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "linear_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "settle_240_object_state": {
+          "body_id": 2,
+          "position": [
+            0.4800083473747173,
+            -0.060006685106287344,
+            0.026519288606465692
+          ],
+          "orientation": [
+            -6.881684044871223e-05,
+            3.722691428630559e-05,
+            0.00039712809021402354,
+            0.9999999180838363
+          ],
+          "linear_velocity": [
+            6.643195395841376e-06,
+            -1.276554772685284e-05,
+            6.859547652116049e-12
+          ],
+          "angular_velocity": [
+            8.14938096822625e-11,
+            -9.435611542024882e-10,
+            0.0008940310925593925
+          ]
+        },
+        "last_observed_object_state": {
+          "body_id": 2,
+          "position": [
+            0.48011803379196333,
+            -0.05997477812615241,
+            0.026519151622594758
+          ],
+          "orientation": [
+            -4.2488569725083256e-05,
+            7.24853480839121e-05,
+            0.0024326445180367015,
+            0.9999970375862344
+          ],
+          "linear_velocity": [
+            1.3473088201085802e-05,
+            -5.654343727695918e-06,
+            -1.1586773207561407e-12
+          ],
+          "angular_velocity": [
+            3.894437435225798e-10,
+            2.7058705046342254e-10,
+            0.0015789333051432692
+          ]
+        },
+        "displacement_initial_to_last_xyz_m": [
+          0.00011803379196334562,
+          2.5221873847590393e-05,
+          -0.0030098475868092327
+        ],
+        "displacement_settle_to_last_xyz_m": [
+          0.00010968641724601325,
+          3.19069801349367e-05,
+          -1.369838709339155e-07
+        ],
+        "max_translation_from_initial": {
+          "step": 6,
+          "m": 0.003575447420607728
+        },
+        "max_translation_from_settle": {
+          "step": 4728,
+          "m": 0.00011423302619723708
+        },
+        "all_relative_lift_range_m": [
+          -5.136262078882237e-07,
+          3.3354994314477304e-07
+        ],
+        "lift_hold_relative_lift_range_m": [
+          -4.823684992931454e-07,
+          -1.3697769535650495e-07
+        ],
+        "full_contact_state_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 4722,
+          "pointwise_table_support": 4722,
+          "table_contact_present": 4722,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "by_phase": {
+          "settle": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 234,
+            "pointwise_table_support": 234,
+            "table_contact_present": 234,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "opening": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "transit": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "pregrasp": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "approach": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 672,
+            "pointwise_table_support": 672,
+            "table_contact_present": 672,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "close": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 480,
+            "pointwise_table_support": 480,
+            "table_contact_present": 480,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "lift": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 792,
+            "pointwise_table_support": 792,
+            "table_contact_present": 792,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          },
+          "hold": {
+            "left_effective": 0,
+            "right_effective": 0,
+            "bilateral": 0,
+            "target_pad_manifold_steps": 0,
+            "nonpad_target_steps": 0,
+            "aggregate_table_support": 720,
+            "pointwise_table_support": 720,
+            "table_contact_present": 720,
+            "eligible": 0,
+            "slipped": 0,
+            "gate_violation": 0
+          }
+        },
+        "external_contact_pairs": {
+          "table.-1 / target.-1": {
+            "points": 339984,
+            "min_signed_distance_m": -0.0005754474206087386,
+            "max_Fn_N": 4.36342706452795
+          }
+        },
+        "first_engineering_violation": null,
+        "terminal480_counts": {
+          "left_effective": 0,
+          "right_effective": 0,
+          "bilateral": 0,
+          "target_pad_manifold_steps": 0,
+          "nonpad_target_steps": 0,
+          "aggregate_table_support": 480,
+          "pointwise_table_support": 480,
+          "table_contact_present": 480,
+          "eligible": 0,
+          "slipped": 0,
+          "gate_violation": 0
+        },
+        "terminal480_lift_range_m": [
+          -1.369838709339155e-07,
+          -1.3698150659255393e-07
+        ],
+        "terminal480_table_sum_Fn_range_N": [
+          0.9809999999999696,
+          0.9810000000000233
+        ],
+        "terminal480_table_load_fraction_range": [
+          0.9999999999999689,
+          1.0000000000000238
+        ],
+        "fingers_L_R": {
+          "peak_abs_speed_m_s": [
+            0.039971322200472385,
+            0.039999933223943344
+          ],
+          "peak_abs_motor_force_N": [
+            0.0400449775405942,
+            0.04003926736147947
+          ],
+          "near_19p8_N_steps": [
+            0,
+            0
+          ],
+          "at_20_N_steps": [
+            0,
+            0
+          ]
+        },
+        "arm_peak_abs_torque_Nm": [
+          0.814637133628576,
+          40.20223672081848,
+          20.659741801094544,
+          1.9972330988760336,
+          0.019154458351774036,
+          0.0007787919364874294
+        ],
+        "arm_torque_margin_Nm": [
+          149.18536286637143,
+          109.79776327918151,
+          129.34025819890545,
+          26.002766901123966,
+          27.980845541648225,
+          27.999221208063513
+        ],
+        "telemetry_sha256": "a5f2bfbe1e5933bb3a7ab1656b1061db49dc658b580fab09a7c5c8e83120effc",
+        "terminal_sha256": "032ca3549c8e44228f44e3c469c3bbc5d99213af588dcaac72717d52432f3629",
+        "derived_series_sha256": "98a3e80bb8008f9e71fb14d55b88edcdf4cc4ac6051cce024d453dcf1bc3f7d6"
+      },
+      "verification_errors": [],
+      "session_status": {
+        "version": "IP140_R2_smoke22_miss_negative_controls_full_execution01",
+        "slot": 12,
+        "object_id": "017",
+        "kind": "miss",
+        "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+        "starts_before": 13,
+        "starts_after": 14,
+        "remaining_after": 0,
+        "total_budget": 14,
+        "charged": true,
+        "batch_can_continue": true,
+        "at": "2026-11-08T13:43:35.881987+00:00",
+        "registered_surface_revision": "IP140_R2",
+        "negative_control_execution": true,
+        "static_connection_attempted": true,
+        "dynamic_connection_attempted": true,
+        "phase": "dynamic_episode",
+        "static_snapshots_completed": 4728,
+        "static_first_failure": null,
+        "pre_lift_bilateral_entry_absent": true,
+        "stop": "engineering_complete",
+        "slot_passed": true,
+        "grasp_success": false,
+        "episode_sha256": "843e6f46d8c95247385af3edc7ad838f0a0c3947cdd718c031855b14ee8e6edb",
+        "actual_step_calls": 4728,
+        "actual_step_returns": 4728,
+        "unknown_step_returns": 0,
+        "finished_utc": "2026-11-08T13:47:52.318145+00:00"
+      },
+      "episode_result_sha256": "843e6f46d8c95247385af3edc7ad838f0a0c3947cdd718c031855b14ee8e6edb"
+    }
+  ],
+  "applies_to": [
+    10,
+    11,
+    12
+  ],
+  "independent_confirmation": false,
+  "request_72_development_comparison": true,
+  "ran_72": false,
+  "frozen_protocol_limit_observed": false,
+  "decision_zh": "申请审核72回合Raw/A/C0配对开发比较。本次已停止；72回合尚未启动。"
+}

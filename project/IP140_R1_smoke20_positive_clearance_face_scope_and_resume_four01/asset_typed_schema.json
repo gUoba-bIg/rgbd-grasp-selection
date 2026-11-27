@@ -1,0 +1,1034 @@
+{
+  "common_required": {
+    "G_T_tip_midline_origin_from_distal_faces_m": 1e-09,
+    "active_opposing_pads.post_signed_distance_face_force_and_impulse": 1e-10,
+    "active_opposing_pads.pre_signed_distance_face_force_and_impulse": 1e-10,
+    "active_seams_not_filtered": 1e-10,
+    "actual_connect_count": 1e-10,
+    "actual_table_body_count": 1e-10,
+    "actual_urdf_load_count": 1e-10,
+    "actual_zero_step_calls": 1e-10,
+    "all_other_external_filters_absent": 1e-10,
+    "arm_home_positions": 1e-10,
+    "base_table_mount.pre_post_identity_witness_baseline_and_exact_filter": 1e-10,
+    "complete_world_13_emptied_pair_manifolds": 1e-10,
+    "distinct_thirteen_structural_pairs": 1e-10,
+    "exactly_one_registered_external_mount_filter": 1e-10,
+    "fixed_substep_s": 1e-12,
+    "flange_T_G": 1e-09,
+    "gravity_world_m_s2": 1e-10,
+    "initial_scene_all_body_link_manifolds_and_external_closest": 1e-10,
+    "ip140_left_bone.box.G_origin": 1e-09,
+    "ip140_left_bone.box.link_origin": 1e-09,
+    "ip140_left_bone.box.link_rotation": 1e-09,
+    "ip140_left_bone.box.size": 1e-09,
+    "ip140_left_bone.box.type": 1e-10,
+    "ip140_left_bone.box.world_route_equivalence": 1e-09,
+    "ip140_left_bone.center_in_link_m": 1e-10,
+    "ip140_left_bone.collisionMargin_m": 1e-10,
+    "ip140_left_bone.collision_count": 1e-10,
+    "ip140_left_bone.inertia_at_com_kg_m2": 1e-10,
+    "ip140_left_bone.lateralFriction": 1e-10,
+    "ip140_left_bone.mass_kg": 1e-10,
+    "ip140_left_bone.orientation_xyzw": 1e-10,
+    "ip140_left_bone.restitution": 1e-10,
+    "ip140_left_bone.rollingFriction": 1e-10,
+    "ip140_left_bone.shape_body_id": 1e-10,
+    "ip140_left_bone.shape_link_index": 1e-10,
+    "ip140_left_bone.spinningFriction": 1e-10,
+    "ip140_left_pad.box.G_origin": 1e-09,
+    "ip140_left_pad.box.link_origin": 1e-09,
+    "ip140_left_pad.box.link_rotation": 1e-09,
+    "ip140_left_pad.box.size": 1e-09,
+    "ip140_left_pad.box.type": 1e-10,
+    "ip140_left_pad.box.world_route_equivalence": 1e-09,
+    "ip140_left_pad.center_in_link_m": 1e-10,
+    "ip140_left_pad.collisionMargin_m": 1e-10,
+    "ip140_left_pad.collision_count": 1e-10,
+    "ip140_left_pad.inertia_at_com_kg_m2": 1e-10,
+    "ip140_left_pad.lateralFriction": 1e-10,
+    "ip140_left_pad.mass_kg": 1e-10,
+    "ip140_left_pad.orientation_xyzw": 1e-10,
+    "ip140_left_pad.restitution": 1e-10,
+    "ip140_left_pad.rollingFriction": 1e-10,
+    "ip140_left_pad.shape_body_id": 1e-10,
+    "ip140_left_pad.shape_link_index": 1e-10,
+    "ip140_left_pad.spinningFriction": 1e-10,
+    "ip140_left_pad_mount.name": 1e-10,
+    "ip140_left_pad_mount.parent": 1e-10,
+    "ip140_left_pad_mount.type": 1e-10,
+    "ip140_left_slide.URDF_damping": 1e-10,
+    "ip140_left_slide.URDF_dry_friction": 1e-10,
+    "ip140_left_slide.URDF_effort_rating": 1e-10,
+    "ip140_left_slide.URDF_speed_rating": 1e-10,
+    "ip140_left_slide.limits_m": 1e-10,
+    "ip140_left_slide.name": 1e-10,
+    "ip140_left_slide.opening_axis": 1e-10,
+    "ip140_left_slide.parent": 1e-10,
+    "ip140_left_slide.q_loaded_zero": 1e-10,
+    "ip140_left_slide.type": 1e-10,
+    "ip140_mount.name": 1e-10,
+    "ip140_mount.parent": 1e-10,
+    "ip140_mount.type": 1e-10,
+    "ip140_palm.box.G_origin": 1e-09,
+    "ip140_palm.box.link_origin": 1e-09,
+    "ip140_palm.box.link_rotation": 1e-09,
+    "ip140_palm.box.size": 1e-09,
+    "ip140_palm.box.type": 1e-10,
+    "ip140_palm.box.world_route_equivalence": 1e-09,
+    "ip140_palm.center_in_link_m": 1e-10,
+    "ip140_palm.collisionMargin_m": 1e-10,
+    "ip140_palm.collision_count": 1e-10,
+    "ip140_palm.inertia_at_com_kg_m2": 1e-10,
+    "ip140_palm.lateralFriction": 1e-10,
+    "ip140_palm.mass_kg": 1e-10,
+    "ip140_palm.orientation_xyzw": 1e-10,
+    "ip140_palm.restitution": 1e-10,
+    "ip140_palm.rollingFriction": 1e-10,
+    "ip140_palm.shape_body_id": 1e-10,
+    "ip140_palm.shape_link_index": 1e-10,
+    "ip140_palm.spinningFriction": 1e-10,
+    "ip140_right_bone.box.G_origin": 1e-09,
+    "ip140_right_bone.box.link_origin": 1e-09,
+    "ip140_right_bone.box.link_rotation": 1e-09,
+    "ip140_right_bone.box.size": 1e-09,
+    "ip140_right_bone.box.type": 1e-10,
+    "ip140_right_bone.box.world_route_equivalence": 1e-09,
+    "ip140_right_bone.center_in_link_m": 1e-10,
+    "ip140_right_bone.collisionMargin_m": 1e-10,
+    "ip140_right_bone.collision_count": 1e-10,
+    "ip140_right_bone.inertia_at_com_kg_m2": 1e-10,
+    "ip140_right_bone.lateralFriction": 1e-10,
+    "ip140_right_bone.mass_kg": 1e-10,
+    "ip140_right_bone.orientation_xyzw": 1e-10,
+    "ip140_right_bone.restitution": 1e-10,
+    "ip140_right_bone.rollingFriction": 1e-10,
+    "ip140_right_bone.shape_body_id": 1e-10,
+    "ip140_right_bone.shape_link_index": 1e-10,
+    "ip140_right_bone.spinningFriction": 1e-10,
+    "ip140_right_pad.box.G_origin": 1e-09,
+    "ip140_right_pad.box.link_origin": 1e-09,
+    "ip140_right_pad.box.link_rotation": 1e-09,
+    "ip140_right_pad.box.size": 1e-09,
+    "ip140_right_pad.box.type": 1e-10,
+    "ip140_right_pad.box.world_route_equivalence": 1e-09,
+    "ip140_right_pad.center_in_link_m": 1e-10,
+    "ip140_right_pad.collisionMargin_m": 1e-10,
+    "ip140_right_pad.collision_count": 1e-10,
+    "ip140_right_pad.inertia_at_com_kg_m2": 1e-10,
+    "ip140_right_pad.lateralFriction": 1e-10,
+    "ip140_right_pad.mass_kg": 1e-10,
+    "ip140_right_pad.orientation_xyzw": 1e-10,
+    "ip140_right_pad.restitution": 1e-10,
+    "ip140_right_pad.rollingFriction": 1e-10,
+    "ip140_right_pad.shape_body_id": 1e-10,
+    "ip140_right_pad.shape_link_index": 1e-10,
+    "ip140_right_pad.spinningFriction": 1e-10,
+    "ip140_right_pad_mount.name": 1e-10,
+    "ip140_right_pad_mount.parent": 1e-10,
+    "ip140_right_pad_mount.type": 1e-10,
+    "ip140_right_slide.URDF_damping": 1e-10,
+    "ip140_right_slide.URDF_dry_friction": 1e-10,
+    "ip140_right_slide.URDF_effort_rating": 1e-10,
+    "ip140_right_slide.URDF_speed_rating": 1e-10,
+    "ip140_right_slide.limits_m": 1e-10,
+    "ip140_right_slide.name": 1e-10,
+    "ip140_right_slide.opening_axis": 1e-10,
+    "ip140_right_slide.parent": 1e-10,
+    "ip140_right_slide.q_loaded_zero": 1e-10,
+    "ip140_right_slide.type": 1e-10,
+    "mount_baseline.post_filter_negative_drift_within_1nm_and_zero_manifolds": 1e-10,
+    "mount_baseline.post_filter_same_classifier_as_physical_steps": 1e-10,
+    "mount_baseline.pre_filter_geometric_reference": 1e-10,
+    "object_base_damping_audited_write": 1e-10,
+    "observed_gear_or_loop_constraints": 1e-10,
+    "only_fourteen_filter_writes_in_full_api": 1e-10,
+    "only_opposing_pads_remain_active": 1e-10,
+    "post.fixed_pad_mount.left": 1e-10,
+    "post.fixed_pad_mount.right": 1e-10,
+    "post.sliding_mount.left.bone": 1e-10,
+    "post.sliding_mount.left.pad": 1e-10,
+    "post.sliding_mount.right.bone": 1e-10,
+    "post.sliding_mount.right.pad": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.base_link_inertia|shoulder_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.forearm_link|wrist_1_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_left_bone|ip140_left_pad": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_bone": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_pad": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_bone": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_pad": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.ip140_right_bone|ip140_right_pad": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.shoulder_link|upper_arm_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.upper_arm_link|forearm_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.wrist_1_link|wrist_2_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.wrist_2_link|wrist_3_link": 1e-10,
+    "post_filter.closest_present_and_manifold_absent.wrist_3_link|ip140_palm": 1e-10,
+    "pre.fixed_pad_mount.left": 1e-10,
+    "pre.fixed_pad_mount.right": 1e-10,
+    "pre.sliding_mount.left.bone": 1e-10,
+    "pre.sliding_mount.left.pad": 1e-10,
+    "pre.sliding_mount.right.bone": 1e-10,
+    "pre.sliding_mount.right.pad": 1e-10,
+    "registered_pose_roundtrips_count": 1e-10,
+    "registered_roundtrip_residual": 1e-10,
+    "registered_world_bodies_only": 1e-10,
+    "separate_pad_and_bone_link_IDs": 1e-10,
+    "separated_speed_sources_rated_limits_and_actual_api": 1e-10,
+    "slot.fixed_path_and_live_tcp_mapping": 1e-10,
+    "solver_iterations": 1e-10,
+    "structural_filter.exact_list_normal_returns_and_post_manifolds": 1e-10,
+    "structural_filter.setter_count": 1e-10,
+    "table.box_dimensions": 1e-10,
+    "table.mass": 1e-10,
+    "table.orientation": 1e-10,
+    "table.position": 1e-10,
+    "table.shape_identity": 1e-10,
+    "table.shape_local_quaternion": 1e-10,
+    "table.shape_local_translation": 1e-10,
+    "table.single_collision_shape": 1e-10,
+    "target.body_info_names": 1e-10,
+    "target.collision_margin_m": 1e-12,
+    "target.initial_orientation": 1e-10,
+    "target.initial_position": 1e-10,
+    "target.initial_twist": 1e-10,
+    "target.lateral_friction": 1e-12,
+    "target.local_inertial_orientation": 1e-12,
+    "target.local_inertial_origin": 1e-12,
+    "target.mass": 1e-12,
+    "target.num_joints": 1e-10,
+    "target.principal_inertia": 1e-12,
+    "target.restitution": 1e-12,
+    "target.rolling_friction": 1e-12,
+    "target.spinning_friction": 1e-12,
+    "wrist3_flange_palm.fixed_chain_topology": 1e-10,
+    "wrist3_palm.fixed_chain_transform_and_collision_margins": 1e-10,
+    "wrist3_palm.mounting_face_witnesses_pre_filter": 1e-10,
+    "wrist3_palm.zero_relative_transform": 1e-10,
+    "zero_midline_within_0.5mm": 1e-10,
+    "zero_min_corner_geometric_floating_bound": 1e-10,
+    "zero_parallel_spread_within_0.5mm": 1e-10,
+    "zero_single_face_target_0.5mm": 1e-10,
+    "zero_symmetry_1mm": 1e-10,
+    "zero_width_within_1mm": 1e-10
+  },
+  "branches": {
+    "named_mesh": [
+      "one_collision_shape",
+      "mesh_identity",
+      "mesh_scale",
+      "mesh_pose_xyz",
+      "mesh_pose_xyzw",
+      "collision_hull_geometry",
+      "mesh_filename"
+    ],
+    "anonymous_mesh": [
+      "one_collision_shape",
+      "mesh_identity",
+      "mesh_scale",
+      "mesh_pose_xyz",
+      "mesh_pose_xyzw",
+      "collision_hull_geometry"
+    ],
+    "compound_boxes": [
+      "compound_collision_shape_count",
+      "compound_registered_identity_and_box_types",
+      "compound_all_dims",
+      "compound_all_pos",
+      "compound_all_quat",
+      "compound_collision_geometry"
+    ]
+  },
+  "assets": {
+    "data/simulation_v52/objects/voxel_repair/014/object.urdf": {
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+      "urdf_sha256": "e8fc9c87ed179c1beea91758e4727f0417b5eb94f272fe249fb54fdca64e65b2",
+      "link_count": 1,
+      "primitive_count": 819,
+      "mode": "compound_boxes",
+      "aabb_expansion_m": 0.001
+    },
+    "data/simulation_v52/objects/voxel_repair/017/object.urdf": {
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+      "urdf_sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+      "link_count": 1,
+      "primitive_count": 640,
+      "mode": "compound_boxes",
+      "aabb_expansion_m": 0.001
+    },
+    "data/simulation_v52/objects/final_static_audit/021/object.urdf": {
+      "urdf_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "urdf_sha256": "e466549854af23fed9aca660264bb41120374a72a7763da03eba5c21dc7dcaf5",
+      "link_count": 1,
+      "primitive_count": 1,
+      "mode": "named_mesh",
+      "obj_relative": "data/simulation_v52/objects/final_static_audit/021/collision.obj",
+      "obj_sha256": "73f7cb9459d780fdada3b2b9ff934c53c92f6441da02d9c6f4c4c6250fb9a3c2",
+      "aabb_expansion_m": 0.003
+    }
+  },
+  "registrations": {
+    "8": {
+      "candidate_id": "ip140bridge:slot08:undo-legacy-z014:nominal",
+      "object_id": "014",
+      "reg_sha256": "37ed746c6250a55357d19258adcfdd2308891817768308e64f8530c579e2203b",
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+      "source": "active_slot"
+    },
+    "9": {
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "object_id": "017",
+      "reg_sha256": "02a32f533ea7bef3a6131384aed4b80d6584803ff3a88daec0fef7c97646b068",
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+      "source": "active_slot"
+    },
+    "10": {
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "object_id": "021",
+      "reg_sha256": "ddc1ae3ba47a83501a957d50bf3543bdd594f316c615e7ac9c221ae851017c8d",
+      "urdf_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "source": "active_slot"
+    },
+    "11": {
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "object_id": "014",
+      "reg_sha256": "eda6d1ca31d0cac0eb99aa39093cb944789e8dba319272e363a0f254582c0e20",
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/014/object.urdf",
+      "source": "active_slot"
+    },
+    "12": {
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "object_id": "017",
+      "reg_sha256": "c41b6b0ee31822080bd775411041937b567b9f3e5e3469032bbefd3565b91c4d",
+      "urdf_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+      "source": "active_slot"
+    },
+    "14": {
+      "candidate_id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+      "object_id": "021",
+      "reg_sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+      "urdf_relative": "data/simulation_v52/objects/final_static_audit/021/object.urdf",
+      "source": "historical_regression"
+    }
+  },
+  "active_slots": [
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "field_atol_source": {
+    "mesh": {
+      "one_collision_shape": 1e-10,
+      "mesh_identity": 1e-10,
+      "mesh_scale": 1e-10,
+      "mesh_pose_xyz": 1e-10,
+      "mesh_pose_xyzw": 1e-10,
+      "collision_hull_geometry": 1e-10,
+      "mesh_filename": 1e-10
+    },
+    "compound": {
+      "compound_collision_shape_count": 1e-10,
+      "compound_registered_identity_and_box_types": 1e-10,
+      "compound_all_dims": 1e-10,
+      "compound_all_pos": 1e-10,
+      "compound_all_quat": 1e-10,
+      "compound_collision_geometry": 1e-10
+    }
+  },
+  "interface_source": "IP140_R1_smoke18_remaining_five_bridge_confirmation01/postrun_analysis/zero_schema_diagnosis.json",
+  "interface_source_sha256": "c28ae9c5db32ed815775848df877e6ba3ed3c9c1104ed671c6003bae29e0b6ea",
+  "naming": "target. and slot. are canonical display names. Check exact concrete field names; the legacy mesh-margin spelling is selected by registered geometry.",
+  "registered_anonymous_mesh_count": 0,
+  "common_value_format": {
+    "G_T_tip_midline_origin_from_distal_faces_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "active_opposing_pads.post_signed_distance_face_force_and_impulse": "bool",
+    "active_opposing_pads.pre_signed_distance_face_force_and_impulse": "bool",
+    "active_seams_not_filtered": "bool",
+    "actual_connect_count": "number",
+    "actual_table_body_count": "number",
+    "actual_urdf_load_count": "number",
+    "actual_zero_step_calls": "number",
+    "all_other_external_filters_absent": "number",
+    "arm_home_positions": [
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "base_table_mount.pre_post_identity_witness_baseline_and_exact_filter": "bool",
+    "complete_world_13_emptied_pair_manifolds": "bool",
+    "distinct_thirteen_structural_pairs": "number",
+    "exactly_one_registered_external_mount_filter": "number",
+    "fixed_substep_s": "number",
+    "flange_T_G": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "gravity_world_m_s2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "initial_scene_all_body_link_manifolds_and_external_closest": "bool",
+    "ip140_left_bone.box.G_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.box.link_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.box.link_rotation": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_left_bone.box.size": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.box.type": "number",
+    "ip140_left_bone.box.world_route_equivalence": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_left_bone.center_in_link_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.collisionMargin_m": "number",
+    "ip140_left_bone.collision_count": "number",
+    "ip140_left_bone.inertia_at_com_kg_m2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.lateralFriction": "number",
+    "ip140_left_bone.mass_kg": "number",
+    "ip140_left_bone.orientation_xyzw": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_bone.restitution": "number",
+    "ip140_left_bone.rollingFriction": "number",
+    "ip140_left_bone.shape_body_id": "number",
+    "ip140_left_bone.shape_link_index": "number",
+    "ip140_left_bone.spinningFriction": "number",
+    "ip140_left_pad.box.G_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.box.link_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.box.link_rotation": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_left_pad.box.size": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.box.type": "number",
+    "ip140_left_pad.box.world_route_equivalence": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_left_pad.center_in_link_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.collisionMargin_m": "number",
+    "ip140_left_pad.collision_count": "number",
+    "ip140_left_pad.inertia_at_com_kg_m2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.lateralFriction": "number",
+    "ip140_left_pad.mass_kg": "number",
+    "ip140_left_pad.orientation_xyzw": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_pad.restitution": "number",
+    "ip140_left_pad.rollingFriction": "number",
+    "ip140_left_pad.shape_body_id": "number",
+    "ip140_left_pad.shape_link_index": "number",
+    "ip140_left_pad.spinningFriction": "number",
+    "ip140_left_pad_mount.name": "text",
+    "ip140_left_pad_mount.parent": "number",
+    "ip140_left_pad_mount.type": "number",
+    "ip140_left_slide.URDF_damping": "number",
+    "ip140_left_slide.URDF_dry_friction": "number",
+    "ip140_left_slide.URDF_effort_rating": "number",
+    "ip140_left_slide.URDF_speed_rating": "number",
+    "ip140_left_slide.limits_m": [
+      "number",
+      "number"
+    ],
+    "ip140_left_slide.name": "text",
+    "ip140_left_slide.opening_axis": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_left_slide.parent": "number",
+    "ip140_left_slide.q_loaded_zero": "number",
+    "ip140_left_slide.type": "number",
+    "ip140_mount.name": "text",
+    "ip140_mount.parent": "number",
+    "ip140_mount.type": "number",
+    "ip140_palm.box.G_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.box.link_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.box.link_rotation": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_palm.box.size": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.box.type": "number",
+    "ip140_palm.box.world_route_equivalence": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_palm.center_in_link_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.collisionMargin_m": "number",
+    "ip140_palm.collision_count": "number",
+    "ip140_palm.inertia_at_com_kg_m2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.lateralFriction": "number",
+    "ip140_palm.mass_kg": "number",
+    "ip140_palm.orientation_xyzw": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_palm.restitution": "number",
+    "ip140_palm.rollingFriction": "number",
+    "ip140_palm.shape_body_id": "number",
+    "ip140_palm.shape_link_index": "number",
+    "ip140_palm.spinningFriction": "number",
+    "ip140_right_bone.box.G_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.box.link_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.box.link_rotation": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_right_bone.box.size": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.box.type": "number",
+    "ip140_right_bone.box.world_route_equivalence": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_right_bone.center_in_link_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.collisionMargin_m": "number",
+    "ip140_right_bone.collision_count": "number",
+    "ip140_right_bone.inertia_at_com_kg_m2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.lateralFriction": "number",
+    "ip140_right_bone.mass_kg": "number",
+    "ip140_right_bone.orientation_xyzw": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_bone.restitution": "number",
+    "ip140_right_bone.rollingFriction": "number",
+    "ip140_right_bone.shape_body_id": "number",
+    "ip140_right_bone.shape_link_index": "number",
+    "ip140_right_bone.spinningFriction": "number",
+    "ip140_right_pad.box.G_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.box.link_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.box.link_rotation": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_right_pad.box.size": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.box.type": "number",
+    "ip140_right_pad.box.world_route_equivalence": [
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "ip140_right_pad.center_in_link_m": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.collisionMargin_m": "number",
+    "ip140_right_pad.collision_count": "number",
+    "ip140_right_pad.inertia_at_com_kg_m2": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.lateralFriction": "number",
+    "ip140_right_pad.mass_kg": "number",
+    "ip140_right_pad.orientation_xyzw": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_pad.restitution": "number",
+    "ip140_right_pad.rollingFriction": "number",
+    "ip140_right_pad.shape_body_id": "number",
+    "ip140_right_pad.shape_link_index": "number",
+    "ip140_right_pad.spinningFriction": "number",
+    "ip140_right_pad_mount.name": "text",
+    "ip140_right_pad_mount.parent": "number",
+    "ip140_right_pad_mount.type": "number",
+    "ip140_right_slide.URDF_damping": "number",
+    "ip140_right_slide.URDF_dry_friction": "number",
+    "ip140_right_slide.URDF_effort_rating": "number",
+    "ip140_right_slide.URDF_speed_rating": "number",
+    "ip140_right_slide.limits_m": [
+      "number",
+      "number"
+    ],
+    "ip140_right_slide.name": "text",
+    "ip140_right_slide.opening_axis": [
+      "number",
+      "number",
+      "number"
+    ],
+    "ip140_right_slide.parent": "number",
+    "ip140_right_slide.q_loaded_zero": "number",
+    "ip140_right_slide.type": "number",
+    "mount_baseline.post_filter_negative_drift_within_1nm_and_zero_manifolds": "bool",
+    "mount_baseline.post_filter_same_classifier_as_physical_steps": "bool",
+    "mount_baseline.pre_filter_geometric_reference": "bool",
+    "object_base_damping_audited_write": "bool",
+    "observed_gear_or_loop_constraints": "number",
+    "only_fourteen_filter_writes_in_full_api": "bool",
+    "only_opposing_pads_remain_active": "bool",
+    "post.fixed_pad_mount.left": "bool",
+    "post.fixed_pad_mount.right": "bool",
+    "post.sliding_mount.left.bone": "bool",
+    "post.sliding_mount.left.pad": "bool",
+    "post.sliding_mount.right.bone": "bool",
+    "post.sliding_mount.right.pad": "bool",
+    "post_filter.closest_present_and_manifold_absent.base_link_inertia|shoulder_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.forearm_link|wrist_1_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_left_bone|ip140_left_pad": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_bone": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_pad": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_bone": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_pad": "bool",
+    "post_filter.closest_present_and_manifold_absent.ip140_right_bone|ip140_right_pad": "bool",
+    "post_filter.closest_present_and_manifold_absent.shoulder_link|upper_arm_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.upper_arm_link|forearm_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.wrist_1_link|wrist_2_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.wrist_2_link|wrist_3_link": "bool",
+    "post_filter.closest_present_and_manifold_absent.wrist_3_link|ip140_palm": "bool",
+    "pre.fixed_pad_mount.left": "bool",
+    "pre.fixed_pad_mount.right": "bool",
+    "pre.sliding_mount.left.bone": "bool",
+    "pre.sliding_mount.left.pad": "bool",
+    "pre.sliding_mount.right.bone": "bool",
+    "pre.sliding_mount.right.pad": "bool",
+    "registered_pose_roundtrips_count": "number",
+    "registered_roundtrip_residual": "bool",
+    "registered_world_bodies_only": "bool",
+    "separate_pad_and_bone_link_IDs": "number",
+    "separated_speed_sources_rated_limits_and_actual_api": "bool",
+    "slot.fixed_path_and_live_tcp_mapping": "bool",
+    "solver_iterations": "number",
+    "structural_filter.exact_list_normal_returns_and_post_manifolds": "bool",
+    "structural_filter.setter_count": "number",
+    "table.box_dimensions": [
+      "number",
+      "number",
+      "number"
+    ],
+    "table.mass": "number",
+    "table.orientation": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "table.position": [
+      "number",
+      "number",
+      "number"
+    ],
+    "table.shape_identity": [
+      "number",
+      "number",
+      "number"
+    ],
+    "table.shape_local_quaternion": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "table.shape_local_translation": [
+      "number",
+      "number",
+      "number"
+    ],
+    "table.single_collision_shape": "number",
+    "target.body_info_names": "bool",
+    "target.collision_margin_m": "number",
+    "target.initial_orientation": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "target.initial_position": [
+      "number",
+      "number",
+      "number"
+    ],
+    "target.initial_twist": [
+      [
+        "number",
+        "number",
+        "number"
+      ],
+      [
+        "number",
+        "number",
+        "number"
+      ]
+    ],
+    "target.lateral_friction": "number",
+    "target.local_inertial_orientation": [
+      "number",
+      "number",
+      "number",
+      "number"
+    ],
+    "target.local_inertial_origin": [
+      "number",
+      "number",
+      "number"
+    ],
+    "target.mass": "number",
+    "target.num_joints": "number",
+    "target.principal_inertia": [
+      "number",
+      "number",
+      "number"
+    ],
+    "target.restitution": "number",
+    "target.rolling_friction": "number",
+    "target.spinning_friction": "number",
+    "wrist3_flange_palm.fixed_chain_topology": "bool",
+    "wrist3_palm.fixed_chain_transform_and_collision_margins": "bool",
+    "wrist3_palm.mounting_face_witnesses_pre_filter": "bool",
+    "wrist3_palm.zero_relative_transform": "bool",
+    "zero_midline_within_0.5mm": "bool",
+    "zero_min_corner_geometric_floating_bound": "bool",
+    "zero_parallel_spread_within_0.5mm": "bool",
+    "zero_single_face_target_0.5mm": "bool",
+    "zero_symmetry_1mm": "bool",
+    "zero_width_within_1mm": "bool"
+  },
+  "specific_value_format": {
+    "mesh": {
+      "one_collision_shape": "number",
+      "mesh_identity": [
+        "number",
+        "number",
+        "number"
+      ],
+      "mesh_scale": [
+        "number",
+        "number",
+        "number"
+      ],
+      "mesh_pose_xyz": [
+        "number",
+        "number",
+        "number"
+      ],
+      "mesh_pose_xyzw": [
+        "number",
+        "number",
+        "number",
+        "number"
+      ],
+      "collision_hull_geometry": "bool",
+      "mesh_filename": "bool"
+    },
+    "compound": {
+      "compound_collision_shape_count": "number",
+      "compound_registered_identity_and_box_types": "bool",
+      "compound_all_dims": "bool",
+      "compound_all_pos": "bool",
+      "compound_all_quat": "bool",
+      "compound_collision_geometry": "bool"
+    }
+  }
+}

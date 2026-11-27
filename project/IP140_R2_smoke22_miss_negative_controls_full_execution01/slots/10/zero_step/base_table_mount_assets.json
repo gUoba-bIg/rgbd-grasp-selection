@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "violations": [],
+  "source_sha256": {
+    "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/zero_step/all_links_readback.json": "74874462d15ac3fabf3c322038c96c6643e666032fc577b69f8a6ac4a6b6c0ce",
+    "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/zero_step/table_readback.json": "babc9199e014d37fb4e71345e9db1bf949b16753db763bf488b63a8b9132db4e",
+    "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/zero_step/initial_world_contacts.json": "ede593074efb7568613686d1120afddbfeaed3c8f2ef3ea22bcb999971a88c7e",
+    "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/full_api/calls.jsonl.gz": "1756d9b150cfb91fb1bf0093f93eee8790927b807c1471684acbd533d5a69d22",
+    "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01/model/ur5e_ip140_r1.urdf": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b"
+  },
+  "robot_load_call": [
+    4,
+    "call",
+    1794145156118419900,
+    "loadURDF",
+    [
+      "IP140_R2_smoke22_miss_negative_controls_full_execution01/model/ur5e_ip140_r1.urdf"
+    ],
+    {
+      "useFixedBase": true,
+      "flags": 8202,
+      "physicsClientId": 0
+    }
+  ],
+  "table_create_call": [
+    352,
+    "call",
+    1794145156439219700,
+    "createMultiBody",
+    [],
+    {
+      "baseMass": 0,
+      "baseCollisionShapeIndex": 0,
+      "baseVisualShapeIndex": 0,
+      "basePosition": [
+        0.45,
+        0,
+        -0.025
+      ],
+      "physicsClientId": 0
+    }
+  ],
+  "base_joint_topology": [
+    [
+      0,
+      "base_joint",
+      4,
+      -1,
+      -1,
+      0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      "base_link",
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      -1
+    ],
+    [
+      1,
+      "base_link-base_link_inertia",
+      4,
+      -1,
+      -1,
+      0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      "base_link_inertia",
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        -6.123233995736766e-17
+      ],
+      0
+    ]
+  ],
+  "base_collision_shapes": [
+    [
+      0,
+      1,
+      5,
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "IP140_R2_smoke22_miss_negative_controls_full_execution01/model/../../data/simulation_v52/robot/meshes/ur_description_meshes_ur5e_collision_base.stl",
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        6.123233995736766e-17
+      ]
+    ]
+  ],
+  "table_collision_shapes": [
+    [
+      1,
+      -1,
+      3,
+      [
+        1.2,
+        1.2,
+        0.05
+      ],
+      "",
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ]
+}

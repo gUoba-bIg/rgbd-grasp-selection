@@ -1,0 +1,34 @@
+{
+  "derived_from": "episodes/05/telemetry.jsonl.gz",
+  "source_sha256": "e06a40cc844c6563591b5db794514034e5263631d7b13d62ab74898f027a90e0",
+  "maxima": {
+    "translation_error_m": {
+      "value": 1.7554167342883506e-16,
+      "step": 1132
+    },
+    "rotation_error_rad": {
+      "value": 4.128378473845149e-15,
+      "step": 549
+    },
+    "max_abs_distance_deviation_m": {
+      "value": 1.1362438767648086e-16,
+      "step": 2477
+    },
+    "full_witness_residual_world_m": {
+      "value": 4.651936808631085e-17,
+      "step": 249
+    },
+    "separation_vector_residual_m": {
+      "value": 1.6987148714873e-16,
+      "step": 610
+    },
+    "stable_abs_gap_error_m": {
+      "value": 8.505954890263012e-08,
+      "step": 457
+    }
+  },
+  "state_count": 4320,
+  "states_with_any_world_manifold": 0,
+  "states_with_failed_mount_invariant": 0,
+  "stable_count": 216
+}

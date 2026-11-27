@@ -1,0 +1,2629 @@
+{
+  "version": "IP140_R1_smoke09_close_speed_margin_single_stop01",
+  "started_at": "2026-11-05T03:16:55.975008+00:00",
+  "passed": true,
+  "status": "passed_with_deferred_runtime_checks",
+  "actual_physics_steps": 0,
+  "physics_step_calls": 0,
+  "offline_replay_verified": true,
+  "offline_replay": {
+    "verified": true,
+    "sha256": "6eb484d12f798d4122b49bfccf9ad988a3976520bbab7ef148e2a6d35679b832",
+    "checks": {
+      "authorized_slot": true,
+      "frozen_input_version": true,
+      "recorded_pass": true,
+      "historical_contact_controls_correction_speed_proofs_and_source_hashes": true,
+      "prior_wrist_baseline": true
+    },
+    "frozen_input_sha256": "a2c91ab1a26c5a9905ec8da41dce3d6a32a4e26a1b85e91fb1de59e056c692c1",
+    "checked_history_inventories": {
+      "IP140_R1_smoke01": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794",
+      "IP140_R1_smoke02_pathfix01": "5ccc7e88af867b96151d9a49c951412fa405a995872381b668ebf13cf03bf436",
+      "IP140_R1_smoke03_framefix_mountpair01": "801c981c53f4ed2dff9440c58d36d2b513e1525d6a4e868c8570ddcb479e1832",
+      "IP140_R1_smoke04_structural_filter_numericband01": "6b0cca00b8e9b4cb6cc95650b32aa6f6699f44b827dd7cfe271f435496df79a3",
+      "IP140_R1_smoke05_fixed_pad_mount_filter01": "6c92d61e71c31ef5e73120a6659830d3d04f3f850d8e0d288196e56f16dc3960",
+      "IP140_R1_smoke06_sliding_seam_acm01": "de2d751d438a666b93eb04c44e5e8de2dece9cbc54b3e7b6634a87c90ab57d0c",
+      "IP140_R1_smoke07_mount_baseline_invariant01": "f66b6347f9bffe786c002fa7b32d2abd8c98779a06ed6818d1b8ddf37dae01ec",
+      "IP140_R1_smoke08_single_sided_stop01": "e7f57505f1bb605f368674be29560e371a25d25b046422ca14c84921f0c6cef4"
+    }
+  },
+  "eligible_slots_after_zero_gate": [
+    13
+  ],
+  "connection_starts": 1,
+  "connection_returns": 1,
+  "disconnected": false,
+  "preregistration_sha256": "7b298011960d4cdb5762981d65a1478a672e5edb123ef9bd0907035506efaca7",
+  "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+  "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+  "worker_sha256": "e14468cfa888de376351f0af3169d7c594dd786c599803579d2aab810b3be876",
+  "engine": {
+    "version": "3.2.7+v52e1",
+    "path": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+    "sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49"
+  },
+  "fields": [
+    {
+      "field": "flange_T_G",
+      "expected": [
+        [
+          1,
+          0,
+          0,
+          0.07
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "readback": [
+        [
+          0.9999999999999999,
+          -1.6997115861466585e-16,
+          5.225976672461859e-22,
+          0.07
+        ],
+        [
+          -7.40114346835882e-24,
+          -3.736342752167631e-15,
+          -1.0,
+          -5.551115123125783e-17
+        ],
+        [
+          1.6097471518343099e-16,
+          1.0,
+          -3.5787725947527125e-15,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "separate_pad_and_bone_link_IDs",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "observed_gear_or_loop_constraints",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "arm_home_positions",
+      "expected": [
+        2.80262806465,
+        -1.66920895915,
+        -1.69304715957,
+        -1.35013295836,
+        1.57079644829,
+        -1.90976089573
+      ],
+      "readback": [
+        2.80262806465,
+        -1.66920895915,
+        -1.69304715957,
+        -1.35013295836,
+        1.57079644829,
+        -1.90976089573
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.mass_kg",
+      "expected": 0.0864,
+      "readback": 0.0864,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.inertia_at_com_kg_m2",
+      "expected": [
+        0.0001872,
+        3.6e-06,
+        0.00018504
+      ],
+      "readback": [
+        0.0001872,
+        3.6e-06,
+        0.00018504
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.center_in_link_m",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.size",
+      "expected": [
+        0.01,
+        0.16,
+        0.02
+      ],
+      "readback": [
+        0.009999999999999995,
+        0.16,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.shape_link_index",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999999691671
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2999999990804617
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3949999999301021
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999999691671
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2999999990804617
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3949999999301021
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.link_origin",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.G_origin",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.mass_kg",
+      "expected": 0.02592,
+      "readback": 0.02592,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.inertia_at_com_kg_m2",
+      "expected": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "readback": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.center_in_link_m",
+      "expected": [
+        0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.size",
+      "expected": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.007999999999999993,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.shape_link_index",
+      "expected": 12,
+      "readback": 12,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999983057613
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2939999939356077
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.36000000081207745
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999983057613
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2939999939356077
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.36000000081207745
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.link_origin",
+      "expected": [
+        0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.G_origin",
+      "expected": [
+        -0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        -0.00599999999999995,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.mass_kg",
+      "expected": 0.00264,
+      "readback": 0.00264,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.lateralFriction",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.inertia_at_com_kg_m2",
+      "expected": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "readback": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.center_in_link_m",
+      "expected": [
+        0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.size",
+      "expected": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.0020000000000000018,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.shape_link_index",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999820676334
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.29899999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3600000000770983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999820676334
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.29899999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3600000000770983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.link_origin",
+      "expected": [
+        0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.G_origin",
+      "expected": [
+        -0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        -0.0009999999999999454,
+        -5.551115123125783e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.mass_kg",
+      "expected": 0.02592,
+      "readback": 0.02592,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.inertia_at_com_kg_m2",
+      "expected": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "readback": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.center_in_link_m",
+      "expected": [
+        0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.size",
+      "expected": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.007999999999999993,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.shape_link_index",
+      "expected": 14,
+      "readback": 14,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999806816615
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.3059999939356076
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3599999990481275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999806816615
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.3059999939356076
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3599999990481275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.link_origin",
+      "expected": [
+        0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.G_origin",
+      "expected": [
+        -0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        0.006000000000000005,
+        -5.551115123125783e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.mass_kg",
+      "expected": 0.00264,
+      "readback": 0.00264,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.lateralFriction",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.inertia_at_com_kg_m2",
+      "expected": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "readback": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.center_in_link_m",
+      "expected": [
+        0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.size",
+      "expected": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.0020000000000000018,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.shape_link_index",
+      "expected": 15,
+      "readback": 15,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999816716413
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.30099999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.35999999978310665
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999816716413
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.30099999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.35999999978310665
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.link_origin",
+      "expected": [
+        0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.G_origin",
+      "expected": [
+        -0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        0.0010000000000000009,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_mount.name",
+      "expected": "ip140_mount",
+      "readback": "ip140_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_mount.parent",
+      "expected": 9,
+      "readback": 9,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.name",
+      "expected": "ip140_left_slide",
+      "readback": "ip140_left_slide",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.parent",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.type",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.opening_axis",
+      "expected": [
+        0,
+        -1,
+        0
+      ],
+      "readback": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.limits_m",
+      "expected": [
+        0,
+        0.07
+      ],
+      "readback": [
+        0.0,
+        0.07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.q_loaded_zero",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_damping",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_dry_friction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_effort_rating",
+      "expected": 20.0,
+      "readback": 20.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_speed_rating",
+      "expected": 0.04,
+      "readback": 0.04,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.name",
+      "expected": "ip140_left_pad_mount",
+      "readback": "ip140_left_pad_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.parent",
+      "expected": 12,
+      "readback": 12,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.name",
+      "expected": "ip140_right_slide",
+      "readback": "ip140_right_slide",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.parent",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.type",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.opening_axis",
+      "expected": [
+        0,
+        1,
+        0
+      ],
+      "readback": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.limits_m",
+      "expected": [
+        0,
+        0.07
+      ],
+      "readback": [
+        0.0,
+        0.07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.q_loaded_zero",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_damping",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_dry_friction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_effort_rating",
+      "expected": 20.0,
+      "readback": 20.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_speed_rating",
+      "expected": 0.04,
+      "readback": 0.04,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.name",
+      "expected": "ip140_right_pad_mount",
+      "readback": "ip140_right_pad_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.parent",
+      "expected": 14,
+      "readback": 14,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_width_within_1mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_midline_within_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_parallel_spread_within_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_min_corner_geometric_floating_bound",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_single_face_target_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_symmetry_1mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "G_T_tip_midline_origin_from_distal_faces_m",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "readback": [
+        2.7755575615628914e-17,
+        2.7755576248182934e-17,
+        -2.7755575615628914e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "slot13.fixed_path_and_live_tcp_mapping",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "slot13.fixture_identity_geometry_pose_and_parameters",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "slot13.fixture_clear_before_filtering",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_flange_palm.fixed_chain_topology",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.zero_relative_transform",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.mounting_face_witnesses_pre_filter",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.fixed_chain_transform_and_collision_margins",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_opposing_pads.pre_signed_distance_face_force_and_impulse",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "distinct_thirteen_structural_pairs",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "only_opposing_pads_remain_active",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_seams_not_filtered",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "registered_pose_roundtrips_count",
+      "expected": 6,
+      "readback": 6,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "registered_roundtrip_residual",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "fixed_substep_s",
+      "expected": 0.004166666666666667,
+      "readback": 0.004166666666666667,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "solver_iterations",
+      "expected": 150,
+      "readback": 150,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "structural_filter.exact_list_normal_returns_and_post_manifolds",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "structural_filter.setter_count",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "slot13.filter_writes_include_robot_pairs_only",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.pre_filter_geometric_reference",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.post_filter_same_classifier_as_physical_steps",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.post_filter_negative_drift_within_1nm_and_zero_manifolds",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.base_link_inertia|shoulder_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.shoulder_link|upper_arm_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.upper_arm_link|forearm_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.forearm_link|wrist_1_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_1_link|wrist_2_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_2_link|wrist_3_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_3_link|ip140_palm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_left_bone|ip140_left_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_right_bone|ip140_right_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.left.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.left.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.fixed_pad_mount.left",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.right.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.right.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.fixed_pad_mount.right",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.left.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.left.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.fixed_pad_mount.left",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.right.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.right.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.fixed_pad_mount.right",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "slot13.fixture_clear_at_handoff",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_opposing_pads.post_signed_distance_face_force_and_impulse",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_zero_step_calls_at_handoff",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_connect_calls_at_handoff",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_load_calls_at_handoff",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "exactly_one_static_fixture_body_created",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "only_thirteen_filter_writes_in_full_API_history",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "slot13.separated_speed_sources_rated_limits_and_actual_api",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    }
+  ],
+  "required_mismatches": [],
+  "required_complete": true,
+  "sources": {
+    "shape_query": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "lines": "14327,14360-14382",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    "shape_import": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp",
+      "lines": "1528",
+      "sha256": "7d53470a85498b32947ac8d3ce120b7ff89e4da1040e8350e6f9f72fe6ba7b3b"
+    },
+    "python_fields": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "lines": "1573-1653, 5208-5306, 5339-5444, 12961-12963",
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c"
+    },
+    "live_motor_setters_and_damping_scope": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "lines": "7305-7354, 10711-10717, 11257-11258, 11310-11311",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    "motor_data": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyJointMotor.h",
+      "lines": "27-32, 46-58",
+      "sha256": "49c480c7d7099c5f23b26b5d042cc60b33474c22ad0164623dfa9fd0d515c398"
+    },
+    "model_export": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBody.cpp",
+      "lines": "120-121, 2295-2383",
+      "sha256": "522b66bd79c3635ac558814227e3f4a59d9feca50f95a585bf9aa57c832eacd4"
+    },
+    "world_export": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp",
+      "lines": "834-875",
+      "sha256": "9e1b4ed23532b71c2ab8e407d80cd9a2295d80cf3853fd26389176404a14d343"
+    },
+    "parent_flags": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/Importers/ImportURDFDemo/URDF2Bullet.cpp",
+      "lines": "718-728",
+      "sha256": "996719b47e5744d4f923eae1339b1e65504a809c3f7f220a4e37cfe8a2e273f6"
+    }
+  },
+  "cwd": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区",
+  "model_arg": "IP140_R1_smoke09_close_speed_margin_single_stop01/model/ur5e_ip140_r1.urdf",
+  "physics_step_call_count_scope": "zero readback phase only",
+  "deferred_no_getter": [
+    "effective_collision_pair_policy",
+    "live_motor.Kp_Kd",
+    "live_motor.maxVelocity_m_s",
+    "live_motor.mode",
+    "live_motor.per_finger_max_force_N",
+    "live_motor.reference"
+  ],
+  "first_step_watchdogs": [
+    "arm_motor_saturation",
+    "arm_path_and_tcp",
+    "dynamic_slide_limit_band",
+    "filtered_structural_pairs",
+    "filtered_wrist_closest",
+    "fixed_pad_mounts",
+    "fixture_contact",
+    "initial_contact_impulse",
+    "palm_finger_root_contact",
+    "q0_pad_pad_contact",
+    "registered_active_seams",
+    "unknown_contact"
+  ],
+  "deferred_evidence_plan": {
+    "live_motor.mode": "No getter. Preserve command and observe trajectory.",
+    "live_motor.Kp_Kd": "No live gains getter. Preserve setter and track errors.",
+    "live_motor.reference": "Command logged, actual q/dq independently observed.",
+    "live_motor.maxVelocity_m_s": "URDF metadata only. Check actual speed every step.",
+    "live_motor.per_finger_max_force_N": "Motor clamp not exposed. Check reported force every step.",
+    "effective_collision_pair_policy": "Effective filter cannot be completely queried. Retain flags, observed pair identities and witnesses."
+  },
+  "watchdog_checks": {
+    "filtered_structural_pairs": "All thirteen exact filtered pairs remain absent from the solver manifold on each step.",
+    "arm_path_and_tcp": "Track phase-specific frozen inverse-kinematic setpoints and TCP reference as the arm moves; hold the achieved final target reference while closing.",
+    "fixture_contact": "Before close, reject all fixture contact. While closing, fully classify exact body/link identities and count only qualifying right-pad samples.",
+    "arm_motor_saturation": "Read all six arm motor torques; stop on saturation against the submitted finite ceilings.",
+    "filtered_wrist_closest": "At post-filter zero and every physical step, audit raw signed wrist/palm distance against the frozen mounting baseline, both mounting faces, signed normal, relative transform and the absence of a solver manifold.",
+    "unknown_contact": "Any contact outside the phase-specific registered set, at any load, fails.",
+    "dynamic_slide_limit_band": "Retain actual q; stop outside [-1e-5,0.07001] m. Command limits remain [0,0.070] m.",
+    "initial_contact_impulse": "First actual integrated step, residual impulse/contact must be examined.",
+    "q0_pad_pad_contact": "Opposing pads at the closed endpoint: keep raw witnesses; only finite registered tangent-band, zero-force/zero-impulse rows may qualify under the active-seam thresholds.",
+    "palm_finger_root_contact": "Check current closest, shared faces and prismatic relation for four filtered sliding pairs; any solver manifold fails.",
+    "fixed_pad_mounts": "Audit fixed left/right pad mounts before filtering, preserve closest geometry and require empty solver manifolds after filtering.",
+    "registered_active_seams": "Only opposite pads may have an active manifold. Apply projected normal residual, signed distance, unit normal, forces and impulse limits; log tangential offset. Current closest supplies independent shared-face evidence."
+  },
+  "backend_limits": {
+    "rigid_linear_and_angular_damping_per_new_link": {
+      "actual_readback": null,
+      "per_link_setter_applied": false,
+      "reason": "Rigid linear/angular damping live at multibody scope. No global change."
+    }
+  },
+  "execution_hashes": {
+    "audit_observations.py": "88759c429e90917cbb3857be233ab3ec36f814e067dbc5f6821204aa5811d3f2",
+    "episode_log.py": "dcc9f7df6747246d8412454c391461c5f1c7faeca7c016737bd462f15a7ba0ce",
+    "execution_control.py": "9a845ad968afff583f6ad4a7199a6679881957452540b7be669d8971152f5f4e",
+    "fixture_static.py": "3c7f17b056efeb256ab02a6a43f25e11cfa20cabb7ba0ac4f6cb5d9f5b61f93e",
+    "full_api.py": "6710d3984c0aa2f926c4944b63015cead96df0c5dec4a4877bb9c2e425def659",
+    "input_identity.py": "5a05920c2e51b34c8c585cde446a1e76e73cc2462a09e5037fc0616fdfae1969",
+    "mountpair.py": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+    "offline_replay.py": "072cb1631dc58c885ebac5b87615559b74e2751496240b13959970f3206520e2",
+    "review_speed_contact.py": "bec65f63fc5ee0202634e5c4eec9bf3a58389d3473399c7daadea65151d145d7",
+    "run_once.py": "d34d4a1076236d1112ccd1a05b9c2071c3bf6fc8412248abcee9f1d700de30d0",
+    "seam_geometry.py": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+    "single_stop.py": "2fea6bb3737c9b5499c3b6cb4d40cd235735d9e8827c2b9c30e4f0e65477bafd",
+    "speed_policy.py": "59746eeea19df50687c4d8df1aad10d379ff6b960bb3db0bb06f4c8970bd9abe",
+    "static_proof.py": "c84d8614da2667a757164720c17e93edc9217aa876573045c3a7426f42d3e838",
+    "stop_evaluator.py": "66739844d0e021dd7dd7cf32464ff9017d29a79f626cca7a9e5f70ec16087f28",
+    "structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "trajectory.py": "25bb9adb7b407950b6602784b0e32c56a768aff2703182a7787622c02c8485b7",
+    "zero_gate.py": "e14468cfa888de376351f0af3169d7c594dd786c599803579d2aab810b3be876"
+  },
+  "collision_transform_policy": "W_T_link @ link_T_inertial @ inertial_T_shape; cross-check against W_T_COM @ inertial_T_shape",
+  "pure_matrix_zero_tolerance_m": 1e-09,
+  "registered_internal_seam_numeric_zero_m": 1e-09,
+  "fixture_ready_for_slot13": true,
+  "speed_sources_and_actual_zero_api_verified": true,
+  "fixture_filter_policy_passed": true,
+  "trajectory_mapping_passed": true,
+  "initial_fixture_contact_absent": true,
+  "post_filter_wrist_baseline_passed": true,
+  "wrist_static_hard_gates_passed": true,
+  "all_thirteen_post_filter_closest_and_empty_manifolds": true,
+  "structural_filter_passed": true,
+  "structural_filter_setter_count": 13,
+  "post_filter_seams_passed": true,
+  "load_calls_started": 1,
+  "load_calls_returned": 1,
+  "load_flags": {
+    "mask": 8202,
+    "self_collision": true,
+    "include_parent": true,
+    "merge_fixed_links": false,
+    "source": "submitted load flags; not a filter-state getter"
+  },
+  "body_id": 0,
+  "arm_home": {
+    "joint_names": [
+      "shoulder_pan_joint",
+      "shoulder_lift_joint",
+      "elbow_joint",
+      "wrist_1_joint",
+      "wrist_2_joint",
+      "wrist_3_joint"
+    ],
+    "positions": [
+      2.80262806465,
+      -1.66920895915,
+      -1.69304715957,
+      -1.35013295836,
+      1.57079644829,
+      -1.90976089573
+    ],
+    "config_sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+    "arm_manifest_sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337"
+  },
+  "opening_q0": {
+    "corners_left_G_m": [
+      [
+        -0.05999999999999997,
+        5.5511150585604617e-17,
+        -0.010000000000000057
+      ],
+      [
+        -0.05999999999999997,
+        5.5511150611802983e-17,
+        0.009999999999999946
+      ],
+      [
+        2.7755575615628914e-17,
+        5.551115185071266e-17,
+        -0.010000000000000057
+      ],
+      [
+        2.7755575615628914e-17,
+        5.551115187691103e-17,
+        0.009999999999999946
+      ]
+    ],
+    "corners_right_G_m": [
+      [
+        -0.05999999999999997,
+        -6.456532092681463e-25,
+        -0.010000000000000002
+      ],
+      [
+        -0.05999999999999997,
+        -6.194548436975596e-25,
+        0.010000000000000002
+      ],
+      [
+        2.7755575615628914e-17,
+        6.194548436975596e-25,
+        -0.010000000000000002
+      ],
+      [
+        2.7755575615628914e-17,
+        6.456532092681463e-25,
+        0.010000000000000002
+      ]
+    ],
+    "signed_gaps_m": [
+      -5.551115123125783e-17,
+      -5.551115123125783e-17,
+      -5.551115123125782e-17,
+      -5.551115123125782e-17
+    ],
+    "raw_net_m": -5.551115123125783e-17,
+    "midline_m": 2.7755575615628914e-17,
+    "raw_min_m": -5.551115123125783e-17,
+    "qualification": "floating-point transformed witnesses; comparison not clipped"
+  },
+  "trajectory_plan_sha256": "5223bf27e679f2c019823701d87a45d7ab165645089e4245371388fea6a4e528",
+  "fixture_static": {
+    "passed": true,
+    "body_id": 1,
+    "base_link": -1,
+    "collision_shape_id": 0,
+    "visual_shape_id": 0,
+    "shape_readback": [
+      [
+        1,
+        -1,
+        3,
+        [
+          0.020000000000000004,
+          0.009999999999999995,
+          0.018000000000000002
+        ],
+        "",
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    ],
+    "center_world_m": [
+      0.5,
+      -0.03,
+      0.28
+    ],
+    "orientation_xyzw": [
+      0.0,
+      0.7071067811865475,
+      0.0,
+      0.7071067811865476
+    ],
+    "R_W_fixture_readback": [
+      [
+        2.220446049250313e-16,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        2.220446049250313e-16
+      ]
+    ],
+    "raw_base_dynamics": [
+      0.0,
+      0.6,
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      2,
+      0.0005
+    ],
+    "base_velocity": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "scene_body_ids": [
+      0,
+      1
+    ],
+    "world_aabb_readback": [
+      [
+        0.491,
+        -0.034999999999999996,
+        0.27
+      ],
+      [
+        0.509,
+        -0.025,
+        0.29000000000000004
+      ]
+    ],
+    "fixture_joint_count": 0,
+    "registration": {
+      "full_sides_xyz_in_G_m": [
+        0.02,
+        0.01,
+        0.018
+      ],
+      "center_in_goal_G_m": [
+        -0.03,
+        0.03,
+        0.0
+      ],
+      "center_world_m": [
+        0.5,
+        -0.03,
+        0.28
+      ],
+      "R_W_fixture": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "fixed_to_world": true,
+      "base_mass_kg": 0.0,
+      "lateral_friction": 0.6,
+      "restitution": 0.0,
+      "rolling_friction": 0.0,
+      "spinning_friction": 0.0,
+      "margin_m": 0.0005,
+      "evaluation_class": "non_target_stop"
+    },
+    "checked_against_slot": "IP140-BENCH-13:single_sided_stop_close_speed_margin",
+    "registration_checks": {
+      "full_dimensions": true,
+      "mount_frame": true,
+      "world_position": true,
+      "world_rotation": true,
+      "target_frame_consistent": true,
+      "frozen_parameters": true,
+      "fixed_non_target_stop": true
+    },
+    "checks": {
+      "world_contains_exactly_robot_and_fixture": true,
+      "whole_body_fixed_base": true,
+      "label_on_registered_base": true,
+      "world_position": true,
+      "world_rotation": true,
+      "size": true,
+      "collision_identity": true,
+      "collision_local_pose": true,
+      "zero_initial_velocity": true,
+      "base_mass_kg": true,
+      "lateral_friction": true,
+      "restitution": true,
+      "rolling_friction": true,
+      "spinning_friction": true,
+      "margin_m": true
+    },
+    "evaluation_class_readback": "non_target_stop",
+    "user_data_id": 0,
+    "violations": []
+  },
+  "fixture_body_id": 1,
+  "physics_readback": {
+    "fixedTimeStep": 0.004166666666666667,
+    "numSubSteps": 0,
+    "numSolverIterations": 150,
+    "useRealTimeSimulation": 0,
+    "gravityAccelerationX": 0.0,
+    "gravityAccelerationY": 0.0,
+    "gravityAccelerationZ": -9.81,
+    "numNonContactInnerIterations": 1
+  },
+  "structural_filter_violations": [],
+  "complete_api_counts_at_zero_handoff": {
+    "connect": 1,
+    "setPhysicsEngineParameter": 1,
+    "setGravity": 1,
+    "loadURDF": 1,
+    "getNumJoints": 2,
+    "getJointInfo": 63,
+    "resetJointState": 6,
+    "changeDynamics": 6,
+    "setJointMotorControl2": 2,
+    "getDynamicsInfo": 31,
+    "getCollisionShapeData": 51,
+    "getBasePositionAndOrientation": 2,
+    "getJointState": 23,
+    "getLinkState": 17,
+    "getMatrixFromQuaternion": 57,
+    "getNumConstraints": 1,
+    "createCollisionShape": 1,
+    "createVisualShape": 1,
+    "getQuaternionFromEuler": 1,
+    "createMultiBody": 1,
+    "addUserData": 1,
+    "getUserDataId": 1,
+    "getUserData": 1,
+    "getNumBodies": 1,
+    "getBodyUniqueId": 2,
+    "getBaseVelocity": 1,
+    "getAABB": 25,
+    "performCollisionDetection": 3,
+    "getContactPoints": 5,
+    "getLinkStates": 10,
+    "getClosestPoints": 32,
+    "computeViewMatrixFromYawPitchRoll": 1,
+    "computeProjectionMatrixFOV": 1,
+    "getCameraImage": 1,
+    "getPhysicsEngineParameters": 1,
+    "getJointStates": 2,
+    "setCollisionFilterPair": 13
+  },
+  "observed_collision_filter_api_counts": {
+    "setCollisionFilterPair": 13
+  },
+  "speed_evidence_sha256": "910bc5a4722df39689b75464686437f88da6c3eb6d04192448a3ea29fdc971e4",
+  "other_collision_monitoring_evidence": {
+    "load_flags": {
+      "mask": 8202,
+      "self_collision": true,
+      "include_parent": true,
+      "merge_fixed_links": false,
+      "source": "submitted load flags; not a filter-state getter"
+    },
+    "exact_pair_record": "zero_step/structural_filter_readback.json",
+    "registered_gripper_seams_pre": "zero_step/seams_before_filter.json",
+    "post_seams_observed": true,
+    "full_api_filter_setter_counts": {
+      "setCollisionFilterPair": 13
+    },
+    "physical_scope": "Only thirteen named structural pairs changed. No filter-state getter; pre/post detection and each-step raw contact monitoring supply observational evidence. Only the registered fixed stop is external; all of its collision routing remains enabled, with zero initial contact."
+  },
+  "zero_sample_finished_at": "2026-11-05T03:16:56.601500+00:00",
+  "artifacts": {
+    "all_links_readback.json": "48e79a0e10f457c29863757ddb51249fbc3a478a840c19eaf83a3cfc359039af",
+    "candidate_roundtrip.json": "9cbc1cab66497aa884ce93bf5db5ff7acef67c9c24c9ee31bf3f83dab69456d8",
+    "collision_frame_diagnostics.json": "5112c80aeb3836767e8847d4b5a24b056164e2a66b0ff15d57e238684d067353",
+    "filter_post.json": "8aaa73465d54ceff7e7a6cc38acb3100ac24ca353ad9ba4430d8d161a696de82",
+    "filter_pre.json": "5b04a5f14fd4de391d199508bc19e560d34c76f04a81578e408bef195b49a589",
+    "filter_setter_01_intent.json": "a2698a5303eca45607f7fd73fbe6e681bf2e49e3206f71f81abb2bc51afd347e",
+    "filter_setter_01_returned.json": "c491b36e2b45721fb9dbddea4c68f6d7007f1597bcd3647167dffd4c87610e73",
+    "filter_setter_02_intent.json": "b589e91dbdf2402dc07e88f9a0c240ed086df7c14f38ba163ffe23e3991c4372",
+    "filter_setter_02_returned.json": "ba0738886eebaba33f75fcff3d339a8e239b9742210f5a1b780b50a2768a2911",
+    "filter_setter_03_intent.json": "3e6ccff4487b44047f1495f68642acbf9e6ef46db928b168ba666c20494be745",
+    "filter_setter_03_returned.json": "a2fec4f66b0db1725c09e484a1849454ec9e19063ae40456b09599dcdf1f5fe9",
+    "filter_setter_04_intent.json": "2c8a4c1e80208b0162cb92b6c2a6f9a7fb51fee168266a9bb6c488bd77697ed8",
+    "filter_setter_04_returned.json": "12731b1065afba6634b787775d787fc83a0ac1cb36909ce6f411c538e871f61a",
+    "filter_setter_05_intent.json": "a3f7dec3cb6b7311be8ec9564870030839be016d54c6235b7b17fcaa72f919dc",
+    "filter_setter_05_returned.json": "7627839df5fbd49b39689b07ef883dc3de6193e8db2c1d358b2ac98edfde2bca",
+    "filter_setter_06_intent.json": "4fd0adf6b15f39b279b784a48568b2188b5127c63e95bb5d3ffe089d0c9b6776",
+    "filter_setter_06_returned.json": "8b9a7030e586a7bc77cd08a4b70199bc9774737ea7b16bf5ec57e5794e9a0eff",
+    "filter_setter_07_intent.json": "471e398c22046adecbdf8df58fa508b1a40887ec4c9687394b29e7a3ee58b399",
+    "filter_setter_07_returned.json": "7b80dda5254a0872289c1a36aa283ef4b87db5d84e52f519057e19bfa108e666",
+    "filter_setter_08_intent.json": "d0703647750becabf18bac87d9541296da35d56c35f5c4517c0680840939af44",
+    "filter_setter_08_returned.json": "cf8173b583151ba5847b2f8e5f904541f0deaf83778e9ef0231d01dabf579561",
+    "filter_setter_09_intent.json": "2d220266225f17e9717a9426e6e2d3aeb26027650e1451884abea2aa31fa8a33",
+    "filter_setter_09_returned.json": "91e3b6f0eb28d788cf05de39259398d725eab1f9e57d18a41fc925a967a9bd63",
+    "filter_setter_10_intent.json": "1e4a866b508f3d877bc666bf1a6271b123158ab936cb6a44bd0f4426e0962f9b",
+    "filter_setter_10_returned.json": "df5da8615516261438b2cc6938a8d416b0acc0ea302554af1c021fea28c51ec7",
+    "filter_setter_11_intent.json": "660bac789905446657ca2046203337d326ab3b84a80db176dda1863bd35253d8",
+    "filter_setter_11_returned.json": "3302dd78192ec3ba60c2b55258b3c72fe549c99100c4a90995665f6707aba169",
+    "filter_setter_12_intent.json": "5f993ecde843dfa0b43794e6ec2248650084c95c7ec00694ded1c32f742d6bfe",
+    "filter_setter_12_returned.json": "490eabd13ccd1cef57dfcfb126883d173475609abc1aeb0bbaf4b2d515532304",
+    "filter_setter_13_intent.json": "7f9374908e8054309d6d3688a8be3ccef2d2d7931bfdcdbd2a5dba5c215cbc9c",
+    "filter_setter_13_returned.json": "36c9d1c152f0ace0be650d6cdc86ccbe906e1eea42abede175a062d7e0d23092",
+    "fixture_filter_calls.json": "dceeac3473423a34ae09427fb252ace4337af92b7dd1c4f323417202d14318fc",
+    "fixture_initial_contacts.json": "379cc9872d7a1d922da3511e32857d0c205e39713715fe0ce18a9eff95df1c9a",
+    "fixture_initial_contacts_pre_filter.json": "9f5071e724d4fa1b57776638ec60732fb247b3e2675b0927b746de6f726a2a32",
+    "fixture_static.json": "59fbf2852cc384d6deee59bdabb1aa80cd36802937dc14bd281303f7dddda20a",
+    "post_filter_thirteen_pairs_closest_and_manifolds.json": "efeed5d5f7271d9340d709519f39eecdfef1f530bef5f869fee9aa56cc75edd5",
+    "post_filter_wrist_mount_invariant.json": "921e74f7ff6f794789d50604f3e2dbccb0f5c92bbfa145426f6719cedaf26953",
+    "pre_filter_wrist_fixed_chain.json": "1dbe30f3486fdcf230c20c04358f67cfb4f23a0dc98cfa8519380a6b06074427",
+    "pre_filter_wrist_mount_face_witnesses.json": "c57f834e2d05a612f435d2cfc003fe1def748e05e31cefe7a9cc21fe8bff9cf2",
+    "pre_filter_wrist_mount_invariant.json": "c182f99ff7e1958b1eab33413adeed4a08b46bbdba7f33b1b076c535d18fffdd",
+    "pre_filter_wrist_relative_transform.json": "b8b0fee31817336ded9d382719d86d8dfc533339202f101c2ba9ceac897c797b",
+    "seams_after_filter.json": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+    "seams_before_filter.json": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+    "slot13_trajectory_mapping.json": "7e924d89a038886d7345c8a38eaff19faa829f4a59587ab53b3f81e34aa03688",
+    "speed_and_complete_api_prefix.json": "910bc5a4722df39689b75464686437f88da6c3eb6d04192448a3ea29fdc971e4",
+    "start.json": "bdab981adeaadb0614863d40654456919170e5431b8f371f06fb83a6eafe2854",
+    "structural_filter_readback.json": "6c06a7d44f33daf044ff4f366b6834d229dc456e66df69ed8bf0ff5dcc775bea",
+    "zero_assembly.png": "67f2e289c009ab55bb052082c8cd6d784031394cc3c12b9345fd65019fa2d1f6",
+    "zero_contacts.json": "5eb96ae7617b1b3d591a4128937a65ff9766ddde7b51f2d7b249f768ce3e31cc"
+  },
+  "zero_api_call_prefix": {
+    "bytes": 31867,
+    "sha256": "40ad4dafa36cf8c59645b1c0d786c3f3a71e0c7a20c72bf75f0c605f7b33b276"
+  }
+}

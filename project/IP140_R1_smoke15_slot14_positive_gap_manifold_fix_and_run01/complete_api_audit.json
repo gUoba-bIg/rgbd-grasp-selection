@@ -1,0 +1,381 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "static": {
+    "present": true,
+    "passed": true,
+    "calls": {
+      "connect": 1,
+      "setPhysicsEngineParameter": 1,
+      "setGravity": 1,
+      "loadURDF": 2,
+      "getNumJoints": 3,
+      "getJointInfo": 82,
+      "resetJointState": 52230,
+      "changeDynamics": 6,
+      "setJointMotorControl2": 2,
+      "getDynamicsInfo": 12996,
+      "getCollisionShapeData": 54,
+      "getBasePositionAndOrientation": 25979,
+      "getJointState": 23,
+      "getLinkState": 6499,
+      "getMatrixFromQuaternion": 55,
+      "getNumConstraints": 1,
+      "performCollisionDetection": 5998,
+      "getContactPoints": 5998,
+      "getLinkStates": 6538,
+      "getClosestPoints": 84325,
+      "computeViewMatrixFromYawPitchRoll": 1,
+      "computeProjectionMatrixFOV": 1,
+      "getCameraImage": 1,
+      "getPhysicsEngineParameters": 1,
+      "getJointStates": 6530,
+      "getAABB": 12990,
+      "setCollisionFilterPair": 14,
+      "createCollisionShape": 1,
+      "createVisualShape": 1,
+      "createMultiBody": 1,
+      "getBodyInfo": 1,
+      "getBaseVelocity": 1,
+      "getMeshData": 1,
+      "getNumBodies": 1,
+      "getBodyUniqueId": 3,
+      "disconnect": 1
+    },
+    "returns": {
+      "connect": 1,
+      "setPhysicsEngineParameter": 1,
+      "setGravity": 1,
+      "loadURDF": 2,
+      "getNumJoints": 3,
+      "getJointInfo": 82,
+      "resetJointState": 52230,
+      "changeDynamics": 6,
+      "setJointMotorControl2": 2,
+      "getDynamicsInfo": 12996,
+      "getCollisionShapeData": 54,
+      "getBasePositionAndOrientation": 25979,
+      "getJointState": 23,
+      "getLinkState": 6499,
+      "getMatrixFromQuaternion": 55,
+      "getNumConstraints": 1,
+      "performCollisionDetection": 5998,
+      "getContactPoints": 5998,
+      "getLinkStates": 6538,
+      "getClosestPoints": 84325,
+      "computeViewMatrixFromYawPitchRoll": 1,
+      "computeProjectionMatrixFOV": 1,
+      "getCameraImage": 1,
+      "getPhysicsEngineParameters": 1,
+      "getJointStates": 6530,
+      "getAABB": 12990,
+      "setCollisionFilterPair": 14,
+      "createCollisionShape": 1,
+      "createVisualShape": 1,
+      "createMultiBody": 1,
+      "getBodyInfo": 1,
+      "getBaseVelocity": 1,
+      "getMeshData": 1,
+      "getNumBodies": 1,
+      "getBodyUniqueId": 3,
+      "disconnect": 1
+    },
+    "errors": {},
+    "unknown_calls": {},
+    "filters": [
+      {
+        "line": 531,
+        "raw": [
+          266,
+          "call",
+          1793964199239600500,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            1,
+            2,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 533,
+        "raw": [
+          267,
+          "call",
+          1793964199242636400,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            2,
+            3,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 535,
+        "raw": [
+          268,
+          "call",
+          1793964199245885100,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            3,
+            4,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 537,
+        "raw": [
+          269,
+          "call",
+          1793964199248037500,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            4,
+            5,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 539,
+        "raw": [
+          270,
+          "call",
+          1793964199251930300,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            5,
+            6,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 541,
+        "raw": [
+          271,
+          "call",
+          1793964199254112100,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            6,
+            7,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 543,
+        "raw": [
+          272,
+          "call",
+          1793964199257899700,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            7,
+            11,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 545,
+        "raw": [
+          273,
+          "call",
+          1793964199261035000,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            12,
+            13,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 547,
+        "raw": [
+          274,
+          "call",
+          1793964199263146300,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            14,
+            15,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 549,
+        "raw": [
+          275,
+          "call",
+          1793964199267039000,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            11,
+            12,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 551,
+        "raw": [
+          276,
+          "call",
+          1793964199269358400,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            11,
+            13,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 553,
+        "raw": [
+          277,
+          "call",
+          1793964199271733700,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            11,
+            14,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 555,
+        "raw": [
+          278,
+          "call",
+          1793964199277893200,
+          "setCollisionFilterPair",
+          [
+            0,
+            0,
+            11,
+            15,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      },
+      {
+        "line": 769,
+        "raw": [
+          385,
+          "call",
+          1793964199409741900,
+          "setCollisionFilterPair",
+          [
+            0,
+            1,
+            1,
+            -1,
+            0
+          ],
+          {
+            "physicsClientId": 0
+          }
+        ]
+      }
+    ],
+    "first_step_api_line": null,
+    "reset_after_first_step": [],
+    "violations": [],
+    "source": "static_preflight/full_api/calls.jsonl.gz",
+    "sha256": "10d45ca7c333eb356b95db851dc5fb509fd7ba2b98591dc7e70f0917e7c685aa"
+  },
+  "dynamic": {
+    "present": false,
+    "calls": {},
+    "returns": {},
+    "errors": {},
+    "passed": null
+  },
+  "static_snapshot_classifications": {
+    "same_link_closest_query": 77760,
+    "registered_internal_assembly": 168480,
+    "unregistered_self_pair": 4746,
+    "active_opposing_pads": 1632,
+    "registered_fixed_world_mount": 6480,
+    "registered_target_table_support_geometry": 6480,
+    "pad_target_static_geometry": 1478,
+    "forbidden_nonpad_target": 1413,
+    "positive_gap_zero_force_proximity_manifold": 929,
+    "post_contact_motor_reference_overtravel": 941,
+    "post_contact_bone_motor_reference_overclosure": 915
+  },
+  "charged": false,
+  "physical_steps": 0,
+  "caution": "API evidence consistency does not imply geometry or grasp success"
+}

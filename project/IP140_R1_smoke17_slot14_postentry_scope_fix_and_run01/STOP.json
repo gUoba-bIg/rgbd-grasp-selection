@@ -1,0 +1,10 @@
+{
+  "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+  "reason": "slot14_returned",
+  "slot14_started": true,
+  "slot8_to_12_started": false,
+  "new_connections_authorized": false,
+  "retry_allowed": false,
+  "result_sha256": "266cd84400eabd21cb8a14cd6d6c49803b1b6613059cb0250cf83e377391b5c6",
+  "utc": "2026-11-08T04:44:41.236785+00:00"
+}

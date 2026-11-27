@@ -1,0 +1,52 @@
+{
+  "checked_utc": "2026-11-05T03:57:54.877485+00:00",
+  "historical_versions": [
+    {
+      "version": "IP140_R1_smoke01",
+      "manifest_sha256": "86bf8ebd739a0c3b520bb70d246c159ea79dd49368cd182ec27b955807caf794",
+      "matched_files": 17
+    },
+    {
+      "version": "IP140_R1_smoke02_pathfix01",
+      "manifest_sha256": "5ccc7e88af867b96151d9a49c951412fa405a995872381b668ebf13cf03bf436",
+      "matched_files": 32
+    },
+    {
+      "version": "IP140_R1_smoke03_framefix_mountpair01",
+      "manifest_sha256": "801c981c53f4ed2dff9440c58d36d2b513e1525d6a4e868c8570ddcb479e1832",
+      "matched_files": 37
+    },
+    {
+      "version": "IP140_R1_smoke04_structural_filter_numericband01",
+      "manifest_sha256": "6b0cca00b8e9b4cb6cc95650b32aa6f6699f44b827dd7cfe271f435496df79a3",
+      "matched_files": 66
+    },
+    {
+      "version": "IP140_R1_smoke05_fixed_pad_mount_filter01",
+      "manifest_sha256": "6c92d61e71c31ef5e73120a6659830d3d04f3f850d8e0d288196e56f16dc3960",
+      "matched_files": 92
+    },
+    {
+      "version": "IP140_R1_smoke06_sliding_seam_acm01",
+      "manifest_sha256": "de2d751d438a666b93eb04c44e5e8de2dece9cbc54b3e7b6634a87c90ab57d0c",
+      "matched_files": 111
+    },
+    {
+      "version": "IP140_R1_smoke07_mount_baseline_invariant01",
+      "manifest_sha256": "f66b6347f9bffe786c002fa7b32d2abd8c98779a06ed6818d1b8ddf37dae01ec",
+      "matched_files": 128
+    },
+    {
+      "version": "IP140_R1_smoke08_single_sided_stop01",
+      "manifest_sha256": "e7f57505f1bb605f368674be29560e371a25d25b046422ca14c84921f0c6cef4",
+      "matched_files": 146
+    },
+    {
+      "version": "IP140_R1_smoke09_close_speed_margin_single_stop01",
+      "manifest_sha256": "c352f00497986ee2d2a90c1b4a516b1019034707418f3f4f706a06a54e974587",
+      "matched_files": 167
+    }
+  ],
+  "package_history_copies_checked": 73,
+  "all_passed": true
+}

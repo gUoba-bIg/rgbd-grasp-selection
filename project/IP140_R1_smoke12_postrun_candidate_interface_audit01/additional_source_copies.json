@@ -1,0 +1,79 @@
+[
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/01bc864be4cf639dedc07940500decd3608eb41082197f6754cc68e4abb9ffa3.bin.gz",
+    "copy": "sources/smoke12/full_api/01bc864be4cf639dedc07940500decd3608eb41082197f6754cc68e4abb9ffa3.bin.gz",
+    "sha256": "142570b685e24bdbd63cb6469340b4549c6b49c1b487906d6716b81bbfa5607e",
+    "bytes": 8648,
+    "copy_sha256": "142570b685e24bdbd63cb6469340b4549c6b49c1b487906d6716b81bbfa5607e"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/0a5bdc00734c3300870ebca6584d430ccb9c1dbba71fe738ae564a4a93c84d9f.bin.gz",
+    "copy": "sources/smoke12/full_api/0a5bdc00734c3300870ebca6584d430ccb9c1dbba71fe738ae564a4a93c84d9f.bin.gz",
+    "sha256": "bae7bd59bc8f8b242bd2b972e3605c6596aa717c28d42cd4d5e07fa86faf90d3",
+    "bytes": 114446,
+    "copy_sha256": "bae7bd59bc8f8b242bd2b972e3605c6596aa717c28d42cd4d5e07fa86faf90d3"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/4f7590402093c437224857b1ac61894ed88f55b3ad85a204d17479d0f6a319bf.bin.gz",
+    "copy": "sources/smoke12/full_api/4f7590402093c437224857b1ac61894ed88f55b3ad85a204d17479d0f6a319bf.bin.gz",
+    "sha256": "bebe81ee2822a833f657e4c94ba394811ac39fc9c51f3edccf8abb6dc83d13b5",
+    "bytes": 8652,
+    "copy_sha256": "bebe81ee2822a833f657e4c94ba394811ac39fc9c51f3edccf8abb6dc83d13b5"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/6031f2043e4cbfbe447ac0fd6331ad0abad502e142cee428634f5cae09b591a8.bin.gz",
+    "copy": "sources/smoke12/full_api/6031f2043e4cbfbe447ac0fd6331ad0abad502e142cee428634f5cae09b591a8.bin.gz",
+    "sha256": "e425a2ca75d8c48104196cb00964c568628fe3b33ada857aee1741854a565107",
+    "bytes": 104611,
+    "copy_sha256": "e425a2ca75d8c48104196cb00964c568628fe3b33ada857aee1741854a565107"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/89f9fabb352a86386b42ada00e519d567a9948ceaf6ae1ad84600ffb1fe85d51.bin.gz",
+    "copy": "sources/smoke12/full_api/89f9fabb352a86386b42ada00e519d567a9948ceaf6ae1ad84600ffb1fe85d51.bin.gz",
+    "sha256": "e55fea3bd40a448b1975a7c07b27b9dda5963b1104c4174e5951903f43ef937e",
+    "bytes": 18960,
+    "copy_sha256": "e55fea3bd40a448b1975a7c07b27b9dda5963b1104c4174e5951903f43ef937e"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/9906cea47c4d4ca098127d8e0f377f54bce1e788ab9d88f3066feef6901690b4.bin.gz",
+    "copy": "sources/smoke12/full_api/9906cea47c4d4ca098127d8e0f377f54bce1e788ab9d88f3066feef6901690b4.bin.gz",
+    "sha256": "14ed96727ca062e6d6c292bd9c47191c223792acd591a3a8ebc573bd718986eb",
+    "bytes": 11812,
+    "copy_sha256": "14ed96727ca062e6d6c292bd9c47191c223792acd591a3a8ebc573bd718986eb"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/a312a258f996042f166787f2923c6d401429491dbb7e921d1a57c4e9da4d9f15.bin.gz",
+    "copy": "sources/smoke12/full_api/a312a258f996042f166787f2923c6d401429491dbb7e921d1a57c4e9da4d9f15.bin.gz",
+    "sha256": "74cc9293b746d68fcb0854e1f3a95b0ced57dccb63b9c1729783cbe67ec20402",
+    "bytes": 6977,
+    "copy_sha256": "74cc9293b746d68fcb0854e1f3a95b0ced57dccb63b9c1729783cbe67ec20402"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/abfb50522e3b0a120fa70bc4d8907912e30b2d3f58a5a3fbf136342e86590d9c.bin.gz",
+    "copy": "sources/smoke12/full_api/abfb50522e3b0a120fa70bc4d8907912e30b2d3f58a5a3fbf136342e86590d9c.bin.gz",
+    "sha256": "17a5d627a18336d170f77f66628d794bfd980c07c1fba8d2d324024c924a0215",
+    "bytes": 16439,
+    "copy_sha256": "17a5d627a18336d170f77f66628d794bfd980c07c1fba8d2d324024c924a0215"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/calls.jsonl.gz",
+    "copy": "sources/smoke12/full_api/calls.jsonl.gz",
+    "sha256": "70b5d1d7efa9a7c061e6484ffd174673332ae81910fd7a25d8abc87b7a26d279",
+    "bytes": 12362897,
+    "copy_sha256": "70b5d1d7efa9a7c061e6484ffd174673332ae81910fd7a25d8abc87b7a26d279"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/f80a61416ca2b33e85a9454c147863be544a05de54082824cf243f848058dc40.bin.gz",
+    "copy": "sources/smoke12/full_api/f80a61416ca2b33e85a9454c147863be544a05de54082824cf243f848058dc40.bin.gz",
+    "sha256": "67245021f2a635e263da3be31dc7e561837034f37d7438aa913de3d740e89fcb",
+    "bytes": 109059,
+    "copy_sha256": "67245021f2a635e263da3be31dc7e561837034f37d7438aa913de3d740e89fcb"
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/full_api/summary.json",
+    "copy": "sources/smoke12/full_api/summary.json",
+    "sha256": "95d70ece91b411e1570e0918f16bba24e72f4d470762b3d134b089adb94385c7",
+    "bytes": 3193,
+    "copy_sha256": "95d70ece91b411e1570e0918f16bba24e72f4d470762b3d134b089adb94385c7"
+  }
+]

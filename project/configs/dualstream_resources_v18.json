@@ -1,0 +1,99 @@
+{
+  "amp_gate_strength": 1,
+  "base_python": {
+    "path": "${PYTHON_HOME}/python.exe",
+    "sha256": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe"
+  },
+  "budget_paths": [
+    "runtime/verification/dualstream_resources_v18",
+    "results/P4/dualstream_resources_v18.json",
+    "results/P4/dualstream_resources_v18.json.sha256.json",
+    "results/P4/dualstream_resources_v18_resume.json",
+    "logs/P4/dualstream_resources_v18",
+    "logs/pipeline/P4R18"
+  ],
+  "driver_interpreter": "runtime/envs/grasp_eval/Scripts/python.exe",
+  "fp32_gate_strength": 0,
+  "input_hashes": {
+    "configs/mask_ap_v17.json": "0c48bbef36940a9f4f98c6b659e43289ebba9ac047c47279dc052525e5f7d7f6",
+    "logs/P4/mask_ap_v17/cold_reentry.json": "000e6fdfc8342184a90b15d867679f894e741466d51ae86a630b8606896c5ebe",
+    "results/P4/mask_ap_v17_acceptance.json": "1df66e0ab9690bc5a6ebf69ef532c9f5b37c630fb121f0731e5aa278764ffd12",
+    "results/P4/mask_ap_v17_readonly_verification.json": "3fad8c9a848ddc218db72bcc499ba9630a4f882f4c3f7f72d302441528680eaa",
+    "runtime/envs/grasp_eval/Scripts/python.exe": "fc9188d3eb84b0c8849da5987ea9e7802486a09afadb672dcd9cae9e64149076",
+    "runtime/envs/grasp_eval/pyvenv.cfg": "2c23be86b6c3c592390445e08a24b2e797ae477883c7c7895711e53451c39aff",
+    "runtime/envs/vision/Scripts/python.exe": "fc9188d3eb84b0c8849da5987ea9e7802486a09afadb672dcd9cae9e64149076",
+    "runtime/envs/vision/pyvenv.cfg": "7437c927441a1566970548f79bb6e04142df0ceb2638b2953e00beb01d7c2c5d"
+  },
+  "input_seed": 18001,
+  "input_shape": [
+    1,
+    5,
+    480,
+    640
+  ],
+  "interpreter": "runtime/envs/vision/Scripts/python.exe",
+  "limitations": [
+    "Synthetic 480x640 resource and numerical smoke probe only; no real research frames or optimizer updates.",
+    "Four nominal model calls; interrupted attempts without conclusive outcomes are unknown and remain separately recorded.",
+    "AMP uses one unscaled synthetic loss backward per arm; no optimizer or GradScaler state is tested.",
+    "Synthetic MSE targets do not define research quality supervision or sensor reliability.",
+    "Resource measurements are boundary sampled and successful-unit peaks; failed or unconfirmed attempts remain in the ledger.",
+    "Passing resource limits does not establish segmentation effectiveness, training resume correctness, or method completion."
+  ],
+  "optimizer_updates": 0,
+  "outputs": {
+    "report": "results/P4/dualstream_resources_v18.json",
+    "resume_report": "results/P4/dualstream_resources_v18_resume.json",
+    "root": "runtime/verification/dualstream_resources_v18"
+  },
+  "parent_acceptance_report": "results/P4/mask_ap_v17_acceptance.json",
+  "parent_acceptance_sha256": "1df66e0ab9690bc5a6ebf69ef532c9f5b37c630fb121f0731e5aa278764ffd12",
+  "parent_protocol": "configs/mask_ap_v17.json",
+  "parent_protocol_sha256": "0c48bbef36940a9f4f98c6b659e43289ebba9ac047c47279dc052525e5f7d7f6",
+  "phase": "synthetic_gpu_resources",
+  "real_frames": 0,
+  "resources": {
+    "cpu_threads": 4,
+    "disk_reserve_bytes": 64424509440,
+    "gpu_allocated_soft_bytes": 14495514624,
+    "gpu_reserved_soft_bytes": 14495514624,
+    "invocation_timeout_seconds": 1800,
+    "output_limit_bytes": 1073741824,
+    "rss_soft_bytes": 4294967296,
+    "worker_timeout_seconds": 180
+  },
+  "runtime": {
+    "Pillow": "11.3.0",
+    "cuda": "12.6",
+    "cudnn": 90501,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "numpy": "1.26.4",
+    "python": "3.12.14",
+    "scipy": "1.14.1",
+    "torch": "2.6.0+cu126",
+    "torchvision": "0.21.0+cu126"
+  },
+  "schema": 18,
+  "seed": 20261022,
+  "source_hashes": {
+    "docs/第十八轮资源探针冻结方案.txt": "74d2c1d069f5257d53d797438b0eb19f29c4ff5d28cfcd78c60df68ff1151e55",
+    "logs/P4/dualstream_resources_v18_tests.log": "4208138c5d9f176d383eea68dd6528fb331fe269cb702cb1631d281f679deee6",
+    "scripts/multiview_common_v14r1.py": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "scripts/probe_dualstream_resources_v18.py": "74028d0f5a5f8e9aba98278a8117544f44ecb0e29cd39b2b0d7d815080176b32",
+    "scripts/resume_dualstream_resources_v18.ps1": "56b72ab2c7e3517c1dde14f3f744e871908a58dacc1949d16d0b20e79c791864",
+    "scripts/run_dualstream_resources_v18.py": "9ccb99bd6ce4f210dc68ebca57091db776ec689e090f2297dbe183385628e6ba",
+    "scripts/test_dualstream_resources_v18.py": "a77fa032bf37789393959f158e125d39a022e5aceb69baaed342a7d99a6eeb16",
+    "src/segmentation_dualstream_v18.py": "42a571bb755064179e9490a56e9dcd2b0e43341f0a89f6b69b3c47e37ca0692a",
+    "tests/test_dualstream_model_v18.py": "f215c19f24ef4364051db28115c925e08b5295084f057aaa376fc77e3c012e39",
+    "tests/test_dualstream_resources_v18.py": "15d40ac0fa2fbd3b5a73f07cd7634bd8bdf9620d7c32fcdd070ac3225e34426d",
+    "tests/test_dualstream_resources_wrapper_v18.py": "1490d9577a0e8e3c021c29de99927a96b22a96229f6c9448cb50168dc400f494"
+  },
+  "status": "frozen",
+  "units": [
+    "fixed_fp32",
+    "quality_fp32",
+    "fixed_amp",
+    "quality_amp"
+  ]
+}

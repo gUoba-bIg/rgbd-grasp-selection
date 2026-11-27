@@ -1,0 +1,43 @@
+{
+  "verified_physics_steps": 3216,
+  "returned_actuator_calls_matching_frozen_targets": {
+    "six_axis_arm": 3216,
+    "bilateral_slider_setters": 6432,
+    "per_phase_slider_setters": {
+      "settle": 480,
+      "opening": 960,
+      "transit": 1344,
+      "pregrasp": 1344,
+      "approach": 1344,
+      "close": 960
+    }
+  },
+  "close_zero_reference_first_phase_tick": 308,
+  "following_close_ticks": 172,
+  "target_positions_equal_frozen_generator_bit_for_bit": true,
+  "terminal_interval": [
+    3193,
+    3216
+  ],
+  "terminal_observed_count": 24,
+  "total_raw_points_last24": 96,
+  "effective_right_points_last24": 24,
+  "min_and_max_per_step_peak_Fn_N": [
+    19.999638152930334,
+    19.999828709361744
+  ],
+  "raw_signed_distance_range_m": [
+    -1.4274465804919966e-05,
+    -5.536957062186685e-06
+  ],
+  "raw_distances_signed": true,
+  "starts_at_step": 2839,
+  "valid_final_step_streak": 378,
+  "source_sha256": {
+    "episodes/13/result.json": "c873cf1a25f888e5508b6ecc5e29f5865414d26336d95726f5ef8c976ced203b",
+    "episodes/13/telemetry.jsonl.gz": "437a1f56b26b1f6cb704fa57b757355824d4b4ec1cbe8ab9e03dea597802c73f",
+    "full_api/calls.jsonl.gz": "bd4afde037f37a9c9f98ddb417f8dbd3738af3bf66516829938976ee08359b75",
+    "actual_speed_and_terminal24.json": "e9822de031e353c00809c8d72b3cfd0a1c2d2e2db33b3eb5d52e30678249897a",
+    "trajectory_plan.json": "5223bf27e679f2c019823701d87a45d7ab165645089e4245371388fea6a4e528"
+  }
+}

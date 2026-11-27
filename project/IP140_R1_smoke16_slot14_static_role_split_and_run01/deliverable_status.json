@@ -1,0 +1,17 @@
+{
+  "static_api": "static_preflight/full_api/calls.jsonl.gz",
+  "new_dual_snapshots": "static_preflight/dual_channel_snapshots.jsonl.gz",
+  "new_root_evidence": "static_preflight/left_right_contact_entry_roots.json",
+  "field_availability": {
+    "dynamic_api": null,
+    "slot14_telemetry": null,
+    "final480": null,
+    "dynamic_result": null
+  },
+  "reason": "Static admission stopped at snapshot 3280 before a dynamic connection. No observations exist for these artifacts.",
+  "ledger": "slot_ledger.json",
+  "starts": 8,
+  "total": 14,
+  "remaining": 6,
+  "first_native_invocation_count": 0
+}

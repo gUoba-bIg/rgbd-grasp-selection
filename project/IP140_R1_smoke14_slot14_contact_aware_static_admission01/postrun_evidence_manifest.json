@@ -1,0 +1,16 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "created_utc": "2026-11-06T09:27:09.601672+00:00",
+  "script_sha256": "5de95fd4d1b79e3447de8fa69790d384070f4a5754787d9effc2e425155a2c84",
+  "inputs": {
+    "result.json": "ce09b0c01c38ee9b950001a28a641199aa56ace610a6f0fa5a84e30b0098dfe6",
+    "static_api_audit_r3.json": "a2e72024ecc7b8029b161d6453d92518b77209605661d7315bc3c64ef939f7fc",
+    "positive_negative_replay.json": "5758f48f23bf88044f961e5a92bc739a6091b0d22e02dc3c1c37069a3d066442",
+    "left_right_contact_entry_roots.json": "90a5c130f7e7917346962a973416ccb932a6eac201e8ed824c30ef035a835e2e",
+    "dual_channel_snapshots.jsonl.gz": "fa03b410ca812d350f69cc2cae18462ab7d7fb5173d7ba62703eb7d6c1c523c8",
+    "full_api/calls.jsonl.gz": "b157f337d464abbe5a79048717b886f67f4d92aa91c073dff74dd592d2632f3c"
+  },
+  "scope": "Read-only extraction; does not connect or load an engine, query collisions, move state, change original records or change the ledger",
+  "physical_steps": 0,
+  "new_charges": 0
+}

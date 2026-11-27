@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-11-04T08:46:50.636893+00:00",
+  "phase": "stopped_at_first_zero_step_blocker",
+  "model_constructed": true,
+  "static_xml_checked": true,
+  "mesh_count": 14,
+  "in_engine_model_pass": false,
+  "zero_readback_pass": false,
+  "smoke_gate": "not_entered",
+  "smoke_starts": 0,
+  "algorithm_effect": "not_tested",
+  "physical_steps_executed": 0,
+  "first_error": "error('Cannot load URDF file.')",
+  "fix_executed": false,
+  "awaiting_external_review": true
+}

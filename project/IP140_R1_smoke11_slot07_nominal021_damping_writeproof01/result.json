@@ -1,0 +1,30 @@
+{
+  "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+  "slot": 7,
+  "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+  "object_id": "021",
+  "not_p3": true,
+  "status": "zero_gate_blocked",
+  "charged": false,
+  "starts_before": 7,
+  "starts_after": 7,
+  "remaining_after": 6,
+  "total_budget": 13,
+  "formal_offline_passed": true,
+  "zero_gate_passed": false,
+  "connect_calls": 1,
+  "disconnect_returns": 1,
+  "actual_step_calls": 0,
+  "actual_step_returns": 0,
+  "unknown_step_returns": 0,
+  "episode_completed": false,
+  "engineering_gate_passed": null,
+  "grasp_success": null,
+  "slot_passed": null,
+  "failure_stage": "zero_step",
+  "failure_reason": [
+    "initial_scene_all_body_link_manifolds_and_external_closest"
+  ],
+  "historical_smoke10_charge": 0,
+  "utc": "2026-11-05T06:27:00.688805+00:00"
+}

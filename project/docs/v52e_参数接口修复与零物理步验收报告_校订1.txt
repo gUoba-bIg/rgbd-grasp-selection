@@ -1,0 +1,130 @@
+v52e 参数接口修复与零物理步验收报告
+生成时间：2026-11-03T15:34:40.036759+08:00
+项目根目录：C:\Users\ITHOU\Desktop\稿件\SCI3区
+
+一、结论与停止点
+独立版本 PyBullet 3.2.7+v52e1 已完成 C API 与 Python 绑定修复，并通过当前 UR5e + Robotiq 2F-140 两个指垫的实际参数读回验收。
+唯一已登记会话：1 次 DIRECT 连接、1 次原机器人加载、2 次 changeDynamics 设置；全部 328 次引擎调用均有返回，0 未知，0 重试，0 物理步。
+左、右指垫最终实际读回均为：lateralFriction=1.0、collisionMargin=0.0005 m、restitution=0.0（原冻结配置）。base 与其余 link 未被误改。
+本结论仅限参数路由和零步读回。未证明受载耦合误差已经降至 0.03 rad，未证明抓取成功或机械模型正确。M1 未实施，新 12 次、新 48 回合、R4/72/720/240 均未启动。
+本轮交付后停止，等待用户审核；不得依照历史心跳、旧授权或本报告自行启动后续动力学。
+
+二、根因和独立修复
+原 3.2.7 Python changeDynamics 解析了 linkIndex，但 collisionMargin 分支调用旧 C setter 时未传入该值。旧 setter 把共享命令的 m_linkIndex 置为 -1；同一命令此前设置的摩擦/恢复系数标记仍然保留，最终作用于 base。仅拆分 Python 调用不能解决单独 margin 仍指向 base 的问题。
+修改 1：PhysicsClientC_API.h 新增导出函数 b3ChangeDynamicsInfoSetCollisionMargin2(handle, bodyUniqueId, linkIndex, collisionMargin)。
+修改 2：PhysicsClientC_API.cpp 新函数将传入的 linkIndex 写入命令，继续使用原 collision-margin 更新标记。旧 setter 的签名和函数体保持原样，保留原 C ABI；直接调用旧 C setter 的客户端仍保留原 base-only 行为，须显式采用新函数。
+修改 3：examples/pybullet/pybullet.c 将 margin 分支改为调用上述新函数，并传入 Python 已解析的目标 linkIndex。
+原服务端已有非负 linkIndex 的 margin 处理路径，本次未改服务端、共享命令布局、碰撞形状实现或动力学求解器。当前指垫为恒等局部变换的单 box 子形状；此验收不扩展到任意复杂 compound 形状或所有 body-global/link 参数混合调用。
+setup.py 仅增加本地版本号 3.2.7+v52e1 和编译并行数限制（PYBULLET_BUILD_JOBS=2），不改物理代码及编译选项。原 sdist 的 5936 个源文件中，仅上述 4 个源/构建元数据文件发生预期修改；build/egg-info 为编译生成物。
+源码差异：logs/simulation_v52e/patch/parameter_route.patch
+构建元数据差异：logs/simulation_v52e/patch/build_metadata.patch
+完整修改清单及原文件备份：logs/simulation_v52e/patch/patch_manifest.json 与 patch/original_from_sdist/
+
+三、环境、编译与资源记录
+旧环境：runtime/simulation_v52/venv，保留原 PyBullet 3.2.7，未覆盖。
+新环境：runtime/simulation_v52e/venv；独立源码：runtime/simulation_v52e/src/pybullet-3.2.7。
+实际加载版本：3.2.7+v52e1；API 版本：202010061
+实际解释器：3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+注意：上行 MSC 标识属于 Python 自身构建；本轮扩展编译器信息如下。
+扩展编译器：C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\Hostx64\x64\cl.exe
+编译器 FileVersion=19.41.34120.0；ProductVersion=14.41.34120.0
+编译命令与环境完整记录：logs/simulation_v52e/build_intent.json；依赖安装记录：build_dependencies.log。
+构建/安装均返回 exit_code=0；wheel=runtime/simulation_v52e/wheels/pybullet-3.2.7+v52e1-cp312-cp312-win_amd64.whl
+编译墙钟 186.734 s，采样进程树峰值 RSS 1.138 GiB。
+零步验收受控子进程墙钟 1.828 s，采样进程树峰值 RSS 148.91 MiB。
+上述 RSS 为采样值，非连续峰值测量；本轮无 GPU 训练、无神经网络前向、无动力学积分。
+编译日志含警告（包括 Py_DEBUG 配置未设置的 ABI-tag 警告），未隐藏或删去；完整日志 compile.log、安装日志 install.log 均保留。二进制实际导入、执行本次零步读回成功。
+
+四、零物理步方法与实际调用
+配置 configs/simulation_v52e.json 以及 53 个源码、机器人、原配置和构建证据身份在执行前冻结。尝试在进程启动前记账；入口发现已有账本即拒绝第二次运行。
+加载原 data/simulation_v52/robot/ur5e_robotiq_2f140.urdf，fixedBase；沿用原惯量、自碰撞及父子排除加载标志。不 reset 机器人、不设重力或时间步、不发送电机控制命令，不额外创建 gear 约束或被抓取物体（loadURDF 内部创建的默认关节电机仍存在）、不执行实时或离散物理步。
+先读取 base(-1) 和全部 24 个 link 的 dynamics、碰撞形状、位姿/速度及关节状态，形成 baseline。
+左指垫调用：changeDynamics(bodyUniqueId=0, linkIndex=16, lateralFriction=1.0, restitution=0.0, collisionMargin=0.0005, physicsClientId=0)。
+立即重读全部 base/link，验证 afterL；通过后才执行同样参数的右指垫 linkIndex=21 调用，再重读形成 afterR。每个指垫仍用同一次调用同时设摩擦、恢复系数、margin，不以拆分调用规避问题。
+摩擦、恢复系数和 margin 必须实际读回与目标一致；任一不一致将停止，禁止下一参数修改或物理运动。此次两次均一致。调用参数与返回逐条保存在 events.jsonl。
+非目标 dynamics/geometry 使用完整 tuple 一致检查。目标 dynamics 仅允许摩擦、恢复系数、margin 三字段变化，质量、惯量等保持不变；目标外形数值仅采用 1e-12 绝对 / 1e-10 相对舍入容差。该容差仅用于未变外形的浮点比较，不涉及 0.03 rad 耦合验收门槛。
+原 10 Nm 主动驱动上限、80 Nm 约束上限、0.03 rad 门槛由原配置身份校验保持；本轮没有实际驱动/约束受载测量，不能将配置未变写成力矩实测通过。
+
+五、全部 base/link 实际读回表
+每个三元组依次为：摩擦系数 / collisionMargin(m) / restitution。
+baseline 是本次新加载后、修改前的引擎读数；不是把历史 v52d 的错误 base 参数当成新的基准。
+linkIndex | link名称 | baseline | afterL | afterR
+-1 | BASE | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+0 | base_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+1 | base_link_inertia | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+2 | shoulder_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+3 | upper_arm_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+4 | forearm_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+5 | wrist_1_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+6 | wrist_2_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+7 | wrist_3_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+8 | ft_frame | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+9 | flange | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+10 | tool0 | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+11 | rq_robotiq_base_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+12 | rq_robotiq_140_base_link | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+13 | rq_left_outer_knuckle | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+14 | rq_left_outer_finger | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+15 | rq_left_inner_finger | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+16 | rq_left_inner_finger_pad | 0.5/0.001/0 | 1/0.0005/0 | 1/0.0005/0
+17 | rq_left_inner_knuckle | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+18 | rq_right_outer_knuckle | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+19 | rq_right_outer_finger | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+20 | rq_right_inner_finger | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+21 | rq_right_inner_finger_pad | 0.5/0.001/0 | 0.5/0.001/0 | 1/0.0005/0
+22 | rq_right_inner_knuckle | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+23 | base | 0.5/0.001/0 | 0.5/0.001/0 | 0.5/0.001/0
+
+逐次修改时，24 个非目标 base/link 的完整 dynamics 记录均不变。总体最终只有两指垫的摩擦与 margin 数值改变；两指垫 restitution 原为 0，设置后仍为 0。base 保持 0.5 / 0.001 / 0，其他 22 个非指垫 link 保持各自原值。所有 link 的质量、惯量、其余动力学字段及加载状态未变。
+机器可读表：results/simulation_v52e/readback_table.json；全部原始 12 项 dynamics 与碰撞形状、位姿状态见 baseline.json、afterL.json、afterR.json。
+
+六、修改前后 SHA256 与构建身份
+以下源码 before 来自保留的原 3.2.7 sdist，after 来自独立本地源码；不是修改旧安装环境。
+examples/SharedMemory/PhysicsClientC_API.h
+  before: 9e12b308c48a29ea4dd81cc06f42f00325ab4a445592e24581a64d18bb5614da
+  after : 3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7
+examples/SharedMemory/PhysicsClientC_API.cpp
+  before: 97fab1c4b0cf66a3680c22a008dd9855147dfd524de0702f4d8f99015b5383ff
+  after : 59e429568ad2f27b4b0a822837147f829822ce9298115ad1dcf77d82d59c2d27
+examples/pybullet/pybullet.c
+  before: 9c7be986f599fcb6e327542fa65786f5099f549a19bf7bae7ac8d544f52836d6
+  after : 9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c
+setup.py
+  before: 830fd2f47f79897b4a5e3addad64ab80e7e743b4b56d751c56b0ebbdd487b372
+  after : f2f3cc94be2b4a26bc234075ec4c7c26c9c6d6336989791a926b5e7758aa4a1f
+旧安装 pyd（交付前复核未变）：fd0ad28feab598579bd5a7d404cb55865523adb81eca41e82e06042a556b2848
+新独立 pyd：882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49
+新 wheel：8bb74bb9797e534a039f10cf480edaac945b1d9fd3f6be173f842afe0dd7e0e6
+原源码归档：042879db8d101ac7590dee475fc6aded508b85fe1273fdbbfde1d88bd200e14f
+冻结配置：705ed1fc8a4d189954f2d40ef6ba57e69e02cd4d206dbed16c2e0950ac4809e6
+实际结果：05816a838ee429e635b92714c2375808f39100e5c6872e04f58172c61a34c995
+baseline：194c70b395a628ba4b9ccbc729b8b89bd82e95a51416c57c72aba1165fffab60
+afterL：fc504a2ea03dd842131fbad1c0ee9336644109976217bdc6b17fcdbaa5088fc1
+afterR：bc500c4e6599cfd57fc18a38578cdb3e481f2d08bdaeefb9bbfa43f74cfb0352
+原 PyBullet 环境及历史实验的 14494 个受保护文件已按 SHA256、字节数、mtime_ns 复核无变化。旧 P5/P6 科学未通过、旧 48 回合未通过和 v52d 参数审查失败均保持原结论。
+
+七、独立复核、失败证据与修订记录
+源码复核：independent_source_review_v2.json；执行控制复核：independent_control_review.json；最终读回复核：independent_readback_review_v2.json（28 项通过）。
+最终复核只读取 JSON、源码、ZIP 和哈希，不启动新引擎连接。核对 328 个调用均有对应返回、三份快照与原始返回逐值一致、新 pyd 与已构建 wheel 内成员一致。
+准备阶段原源码审查把编译生成的 build 等生成物当成额外源文件，原失败审查保留；v2 区分原 sdist 源文件与生成物，确认只有 4 个预期源/元数据修改。
+控制脚本冻结前修正了未知结果不能写成已知零步的状态记录，旧脚本保存在 preparation/control_before_unknown_status_fix.py；正式调用未出现未知。
+最终读回复核初稿用 LF 字面匹配 wheel METADATA 的版本行，因 CRLF 格式误判；原 independent_readback_review.json 保留。v2 使用标准 header parser 读出 3.2.7+v52e1，未改任何实验结果、快照或二进制。
+以上均为准备/只读审查修订，不是新增或重试物理实验。
+
+八、后续边界与待审核事项
+已满足本轮“参数路由及零物理步读回”目标。下一步是否开展任何有限动力学诊断，必须由用户另行审核和授权；此报告不自动启动。
+正确指垫参数与历史错误路由下的实际参数不同，未来诊断必须独立登记版本与预算，不能将新参数结果追认成旧 M0 同条件复验，也不能反向覆盖旧失败。
+M1 机械闭环改造继续暂停。新 12 次诊断、新 48 回合工程准入、R4 算法比较、720 正式和 240 消融均未启动。
+交付前未发现活动的 v52e/v52d 物理工作进程；项目执行锁和本版本锁均正常取得，交付退出时释放。
+全部任务总进度：旧主交付范围 45%；实验总进度：旧主交付范围 56.25%。新增机器人物理仿真范围尚未建立固定权重，两个扩展后总百分比仍待重算；本次接口修复不机械上调旧比例。
+当前阶段单列：v52e 参数修复完成，1 次零步验收通过，0 物理步；已停止等待审核。
+
+九、证据入口
+独立状态：runtime/pipeline/simulation_v52e.json
+单次账本：logs/simulation_v52e/acceptance_attempts.jsonl
+执行汇总：results/simulation_v52e/execution_summary.json
+完整验收目录：results/simulation_v52e/attempts/001_ZERO001_2b433b45
+编译/安装：logs/simulation_v52e/build_result.json、install_result.json、compile.log、install.log
+交付清单：results/simulation_v52e/delivery_closeout_revision1.json（保留原 delivery_closeout.json）
+
+校订1说明：仅澄清 loadURDF 内部默认关节电机与用户控制命令的区别，以及首次源码审查的生成物措辞。原报告与原交付清单完整保留；参数、验收结果、物理步数和停止状态均不变，未新增任何引擎连接。

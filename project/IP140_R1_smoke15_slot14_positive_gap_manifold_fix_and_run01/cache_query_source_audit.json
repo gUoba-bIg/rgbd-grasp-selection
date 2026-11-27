@@ -1,0 +1,1763 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "audit_kind": "read_only_frozen_backend_source",
+  "engine_connections": 0,
+  "physics_steps": 0,
+  "new_probe_experiments": 0,
+  "findings": [
+    {
+      "kind": "source_fact",
+      "claim": "resetJointState updates multibody joint q, forward kinematics, collider world transforms and AABBs without performing collision dispatch.",
+      "source": 0,
+      "lines": [
+        11822,
+        11870,
+        11875,
+        11877,
+        11880
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "getContactPoints reports dispatcher persistent manifolds. The response buffer is distinct from the persistent manifold cache.",
+      "source": 0,
+      "lines": [
+        8542,
+        8553,
+        8555,
+        8559
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "A persistent point may survive at positive distance up to its contact breaking threshold. Resetting q or repeating collision detection is not a proof of an empty manifold cache.",
+      "source": 6,
+      "lines": [
+        241,
+        242,
+        243
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "Fresh getClosestPoints uses contactPairTest and current collision-object world transforms; it does not dispatch the persistent broadphase collision pair.",
+      "source": 0,
+      "lines": [
+        8943,
+        8949,
+        8950
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "contactPairTest passes sharedManifold=0 and BT_CLOSEST_POINT_ALGORITHMS, then destructs and frees the query algorithm.",
+      "source": 1,
+      "lines": [
+        1244,
+        1245,
+        1247,
+        1253,
+        1255,
+        1256
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "The convex closest-query algorithm may temporarily own a newly allocated manifold. Its destructor releases that manifold; saying no manifold is ever created would be inaccurate.",
+      "source": 3,
+      "lines": [
+        201,
+        203,
+        205,
+        206,
+        275,
+        278,
+        279
+      ]
+    },
+    {
+      "kind": "source_fact",
+      "claim": "The compound child path uses temporary closest algorithms when the distance threshold is positive and frees them. Compound-compound uses the same temporary allocation/release pattern.",
+      "source": 4,
+      "lines": [
+        152,
+        154,
+        155,
+        202,
+        204,
+        205
+      ]
+    },
+    {
+      "kind": "engineering_inference",
+      "claim": "In this synchronous single-client path, resetting the reference pose and using only fresh positive-distance closest queries avoids storing reference overclosure as persistent manifolds for the proxy channel. Restore the proxy pose before collision dispatch."
+    },
+    {
+      "kind": "engineering_inference",
+      "claim": "Only querying proxy-state persistent manifolds preserves the strict proxy nonpad rule without creating reference-side historical contact artifacts. It does not prove the proxy is dynamically reachable."
+    },
+    {
+      "kind": "limitation",
+      "claim": "No physical experiment or cache probe was run. The claim is source-backed operation ordering, not a new engine performance result. Existing proxy-origin persistent contacts remain subject to the original hard gates."
+    },
+    {
+      "kind": "limitation",
+      "claim": "The 0.02 m global source initializer is not asserted as an actual per-manifold runtime threshold. No threshold is changed."
+    },
+    {
+      "kind": "limitation",
+      "claim": "A move to home is not used. DBVT incremental pair cleanup and manifold refresh mean one home collision-detection call is not a proven universal cache-clear operation."
+    }
+  ],
+  "adopted_protocol": {
+    "reference_after_legal_entry": [
+      "reset robot registered joints to frozen reference",
+      "fresh getClosestPoints with positive query radius",
+      "do not performCollisionDetection",
+      "do not query getContactPoints",
+      "raw_manifolds=null; raw_manifolds_requested=false; manifold-derived audits unobserved"
+    ],
+    "proxy": [
+      "reset same robot joints to frozen contact-feasible proxy",
+      "performCollisionDetection",
+      "record full getContactPoints and fresh closest",
+      "apply all original strict proxy gates"
+    ],
+    "root_queries": "Root localization must likewise avoid creating persistent contacts from diagnostic overlap snapshots; fresh closest reports geometry, not force.",
+    "prohibited_changes": [
+      "no new connection",
+      "no body or scene reload",
+      "no object reset or teleport",
+      "no filter toggle",
+      "no breaking-threshold change",
+      "no new physical step",
+      "no relaxation of proxy or future dynamic gates"
+    ]
+  },
+  "sources": [
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5",
+      "bytes": 580169,
+      "excerpts": [
+        {
+          "first_line": 11707,
+          "last_line": 11718,
+          "lines": [
+            {
+              "number": 11707,
+              "text": "bool PhysicsServerCommandProcessor::processInitPoseCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)"
+            },
+            {
+              "number": 11708,
+              "text": "{"
+            },
+            {
+              "number": 11709,
+              "text": "\tbool hasStatus = true;"
+            },
+            {
+              "number": 11710,
+              "text": ""
+            },
+            {
+              "number": 11711,
+              "text": "\tBT_PROFILE(\"CMD_INIT_POSE\");"
+            },
+            {
+              "number": 11712,
+              "text": ""
+            },
+            {
+              "number": 11713,
+              "text": "\tif (m_data->m_verboseOutput)"
+            },
+            {
+              "number": 11714,
+              "text": "\t{"
+            },
+            {
+              "number": 11715,
+              "text": "\t\tb3Printf(\"Server Init Pose not implemented yet\");"
+            },
+            {
+              "number": 11716,
+              "text": "\t}"
+            },
+            {
+              "number": 11717,
+              "text": "\tint bodyUniqueId = clientCmd.m_initPoseArgs.m_bodyUniqueId;"
+            },
+            {
+              "number": 11718,
+              "text": "\tInternalBodyData* body = m_data->m_bodyHandles.getHandle(bodyUniqueId);"
+            }
+          ]
+        },
+        {
+          "first_line": 11801,
+          "last_line": 11824,
+          "lines": [
+            {
+              "number": 11801,
+              "text": "\t\tif (clientCmd.m_updateFlags & INIT_POSE_HAS_JOINT_STATE)"
+            },
+            {
+              "number": 11802,
+              "text": "\t\t{"
+            },
+            {
+              "number": 11803,
+              "text": "\t\t\tint uDofIndex = 6;"
+            },
+            {
+              "number": 11804,
+              "text": "\t\t\tint posVarCountIndex = 7;"
+            },
+            {
+              "number": 11805,
+              "text": "\t\t\tfor (int i = 0; i < mb->getNumLinks(); i++)"
+            },
+            {
+              "number": 11806,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 11807,
+              "text": "\t\t\t\tint posVarCount = mb->getLink(i).m_posVarCount;"
+            },
+            {
+              "number": 11808,
+              "text": "\t\t\t\tbool hasPosVar = posVarCount > 0;"
+            },
+            {
+              "number": 11809,
+              "text": ""
+            },
+            {
+              "number": 11810,
+              "text": "\t\t\t\tfor (int j = 0; j < posVarCount; j++)"
+            },
+            {
+              "number": 11811,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 11812,
+              "text": "\t\t\t\t\tif (clientCmd.m_initPoseArgs.m_hasInitialStateQ[posVarCountIndex + j] == 0)"
+            },
+            {
+              "number": 11813,
+              "text": "\t\t\t\t\t{"
+            },
+            {
+              "number": 11814,
+              "text": "\t\t\t\t\t\thasPosVar = false;"
+            },
+            {
+              "number": 11815,
+              "text": "\t\t\t\t\t\tbreak;"
+            },
+            {
+              "number": 11816,
+              "text": "\t\t\t\t\t}"
+            },
+            {
+              "number": 11817,
+              "text": "\t\t\t\t}"
+            },
+            {
+              "number": 11818,
+              "text": "\t\t\t\tif (hasPosVar)"
+            },
+            {
+              "number": 11819,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 11820,
+              "text": "\t\t\t\t\tif (mb->getLink(i).m_dofCount == 1)"
+            },
+            {
+              "number": 11821,
+              "text": "\t\t\t\t\t{"
+            },
+            {
+              "number": 11822,
+              "text": "\t\t\t\t\t\tmb->setJointPos(i, clientCmd.m_initPoseArgs.m_initialStateQ[posVarCountIndex]);"
+            },
+            {
+              "number": 11823,
+              "text": "\t\t\t\t\t\tmb->setJointVel(i, 0);  //backwards compatibility"
+            },
+            {
+              "number": 11824,
+              "text": "\t\t\t\t\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 11867,
+          "last_line": 11881,
+          "lines": [
+            {
+              "number": 11867,
+              "text": "\t\tbtAlignedObjectArray<btQuaternion> scratch_q;"
+            },
+            {
+              "number": 11868,
+              "text": "\t\tbtAlignedObjectArray<btVector3> scratch_m;"
+            },
+            {
+              "number": 11869,
+              "text": ""
+            },
+            {
+              "number": 11870,
+              "text": "\t\tmb->forwardKinematics(scratch_q, scratch_m);"
+            },
+            {
+              "number": 11871,
+              "text": "\t\tint nLinks = mb->getNumLinks();"
+            },
+            {
+              "number": 11872,
+              "text": "\t\tscratch_q.resize(nLinks + 1);"
+            },
+            {
+              "number": 11873,
+              "text": "\t\tscratch_m.resize(nLinks + 1);"
+            },
+            {
+              "number": 11874,
+              "text": ""
+            },
+            {
+              "number": 11875,
+              "text": "\t\tmb->updateCollisionObjectWorldTransforms(scratch_q, scratch_m);"
+            },
+            {
+              "number": 11876,
+              "text": "\t\t"
+            },
+            {
+              "number": 11877,
+              "text": "\t\tm_data->m_dynamicsWorld->updateSingleAabb(mb->getBaseCollider());"
+            },
+            {
+              "number": 11878,
+              "text": "\t\tfor (int i=0;i<mb->getNumLinks();i++)"
+            },
+            {
+              "number": 11879,
+              "text": "\t\t{"
+            },
+            {
+              "number": 11880,
+              "text": "\t\t\tm_data->m_dynamicsWorld->updateSingleAabb(mb->getLinkCollider(i));"
+            },
+            {
+              "number": 11881,
+              "text": "\t\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 8532,
+          "last_line": 8559,
+          "lines": [
+            {
+              "number": 8532,
+              "text": "bool PhysicsServerCommandProcessor::processRequestContactpointInformationCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)"
+            },
+            {
+              "number": 8533,
+              "text": "{"
+            },
+            {
+              "number": 8534,
+              "text": "\tbool hasStatus = true;"
+            },
+            {
+              "number": 8535,
+              "text": "\tBT_PROFILE(\"CMD_REQUEST_CONTACT_POINT_INFORMATION\");"
+            },
+            {
+              "number": 8536,
+              "text": "\tSharedMemoryStatus& serverCmd = serverStatusOut;"
+            },
+            {
+              "number": 8537,
+              "text": "\tserverCmd.m_sendContactPointArgs.m_numContactPointsCopied = 0;"
+            },
+            {
+              "number": 8538,
+              "text": ""
+            },
+            {
+              "number": 8539,
+              "text": "\t//make a snapshot of the contact manifolds into individual contact points"
+            },
+            {
+              "number": 8540,
+              "text": "\tif (clientCmd.m_requestContactPointArguments.m_startingContactPointIndex == 0)"
+            },
+            {
+              "number": 8541,
+              "text": "\t{"
+            },
+            {
+              "number": 8542,
+              "text": "\t\tm_data->m_cachedContactPoints.resize(0);"
+            },
+            {
+              "number": 8543,
+              "text": ""
+            },
+            {
+              "number": 8544,
+              "text": "\t\tint mode = CONTACT_QUERY_MODE_REPORT_EXISTING_CONTACT_POINTS;"
+            },
+            {
+              "number": 8545,
+              "text": ""
+            },
+            {
+              "number": 8546,
+              "text": "\t\tif (clientCmd.m_updateFlags & CMD_REQUEST_CONTACT_POINT_HAS_QUERY_MODE)"
+            },
+            {
+              "number": 8547,
+              "text": "\t\t{"
+            },
+            {
+              "number": 8548,
+              "text": "\t\t\tmode = clientCmd.m_requestContactPointArguments.m_mode;"
+            },
+            {
+              "number": 8549,
+              "text": "\t\t}"
+            },
+            {
+              "number": 8550,
+              "text": ""
+            },
+            {
+              "number": 8551,
+              "text": "\t\tswitch (mode)"
+            },
+            {
+              "number": 8552,
+              "text": "\t\t{"
+            },
+            {
+              "number": 8553,
+              "text": "\t\t\tcase CONTACT_QUERY_MODE_REPORT_EXISTING_CONTACT_POINTS:"
+            },
+            {
+              "number": 8554,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 8555,
+              "text": "\t\t\t\tint numContactManifolds = m_data->m_dynamicsWorld->getDispatcher()->getNumManifolds();"
+            },
+            {
+              "number": 8556,
+              "text": "\t\t\t\tm_data->m_cachedContactPoints.reserve(numContactManifolds * 4);"
+            },
+            {
+              "number": 8557,
+              "text": "\t\t\t\tfor (int i = 0; i < numContactManifolds; i++)"
+            },
+            {
+              "number": 8558,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 8559,
+              "text": "\t\t\t\t\tconst btPersistentManifold* manifold = m_data->m_dynamicsWorld->getDispatcher()->getInternalManifoldPointer()[i];"
+            }
+          ]
+        },
+        {
+          "first_line": 8682,
+          "last_line": 8696,
+          "lines": [
+            {
+              "number": 8682,
+              "text": "\t\t\tcase CONTACT_QUERY_MODE_COMPUTE_CLOSEST_POINTS:"
+            },
+            {
+              "number": 8683,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 8684,
+              "text": "\t\t\t\t//todo(erwincoumans) compute closest points between all, and vs all, pair"
+            },
+            {
+              "number": 8685,
+              "text": "\t\t\t\tbtScalar closestDistanceThreshold = 0.f;"
+            },
+            {
+              "number": 8686,
+              "text": ""
+            },
+            {
+              "number": 8687,
+              "text": "\t\t\t\tif (clientCmd.m_updateFlags & CMD_REQUEST_CONTACT_POINT_HAS_CLOSEST_DISTANCE_THRESHOLD)"
+            },
+            {
+              "number": 8688,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 8689,
+              "text": "\t\t\t\t\tclosestDistanceThreshold = clientCmd.m_requestContactPointArguments.m_closestDistanceThreshold;"
+            },
+            {
+              "number": 8690,
+              "text": "\t\t\t\t}"
+            },
+            {
+              "number": 8691,
+              "text": ""
+            },
+            {
+              "number": 8692,
+              "text": "\t\t\t\tint bodyUniqueIdA = clientCmd.m_requestContactPointArguments.m_objectAIndexFilter;"
+            },
+            {
+              "number": 8693,
+              "text": "\t\t\t\tint bodyUniqueIdB = clientCmd.m_requestContactPointArguments.m_objectBIndexFilter;"
+            },
+            {
+              "number": 8694,
+              "text": ""
+            },
+            {
+              "number": 8695,
+              "text": "\t\t\t\tbool hasLinkIndexAFilter = (0 != (clientCmd.m_updateFlags & CMD_REQUEST_CONTACT_POINT_HAS_LINK_INDEX_A_FILTER));"
+            },
+            {
+              "number": 8696,
+              "text": "\t\t\t\tbool hasLinkIndexBFilter = (0 != (clientCmd.m_updateFlags & CMD_REQUEST_CONTACT_POINT_HAS_LINK_INDEX_B_FILTER));"
+            }
+          ]
+        },
+        {
+          "first_line": 8937,
+          "last_line": 8952,
+          "lines": [
+            {
+              "number": 8937,
+              "text": "\t\t\t\t\tMyContactResultCallback cb(m_data->m_cachedContactPoints);"
+            },
+            {
+              "number": 8938,
+              "text": ""
+            },
+            {
+              "number": 8939,
+              "text": "\t\t\t\t\tcb.m_bodyUniqueIdA = bodyUniqueIdA;"
+            },
+            {
+              "number": 8940,
+              "text": "\t\t\t\t\tcb.m_bodyUniqueIdB = bodyUniqueIdB;"
+            },
+            {
+              "number": 8941,
+              "text": "\t\t\t\t\tcb.m_deltaTime = m_data->m_numSimulationSubSteps > 0 ? m_data->m_physicsDeltaTime / m_data->m_numSimulationSubSteps : m_data->m_physicsDeltaTime;"
+            },
+            {
+              "number": 8942,
+              "text": ""
+            },
+            {
+              "number": 8943,
+              "text": "\t\t\t\t\tfor (int i = 0; i < setA.size(); i++)"
+            },
+            {
+              "number": 8944,
+              "text": "\t\t\t\t\t{"
+            },
+            {
+              "number": 8945,
+              "text": "\t\t\t\t\t\tcb.m_linkIndexA = setALinkIndex[i];"
+            },
+            {
+              "number": 8946,
+              "text": "\t\t\t\t\t\tfor (int j = 0; j < setB.size(); j++)"
+            },
+            {
+              "number": 8947,
+              "text": "\t\t\t\t\t\t{"
+            },
+            {
+              "number": 8948,
+              "text": "\t\t\t\t\t\t\tcb.m_linkIndexB = setBLinkIndex[j];"
+            },
+            {
+              "number": 8949,
+              "text": "\t\t\t\t\t\t\tcb.m_closestDistanceThreshold = closestDistanceThreshold;"
+            },
+            {
+              "number": 8950,
+              "text": "\t\t\t\t\t\t\tthis->m_data->m_dynamicsWorld->contactPairTest(setA[i], setB[j], cb);"
+            },
+            {
+              "number": 8951,
+              "text": "\t\t\t\t\t\t}"
+            },
+            {
+              "number": 8952,
+              "text": "\t\t\t\t\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 10536,
+          "last_line": 10550,
+          "lines": [
+            {
+              "number": 10536,
+              "text": "bool PhysicsServerCommandProcessor::performCollisionDetectionCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)"
+            },
+            {
+              "number": 10537,
+              "text": "{"
+            },
+            {
+              "number": 10538,
+              "text": "\tbool hasStatus = true;"
+            },
+            {
+              "number": 10539,
+              "text": ""
+            },
+            {
+              "number": 10540,
+              "text": "\tBT_PROFILE(\"CMD_PERFORM_COLLISION_DETECTION\");"
+            },
+            {
+              "number": 10541,
+              "text": ""
+            },
+            {
+              "number": 10542,
+              "text": "\tif (m_data->m_verboseOutput)"
+            },
+            {
+              "number": 10543,
+              "text": "\t{"
+            },
+            {
+              "number": 10544,
+              "text": "\t\tb3Printf(\"Perform Collision Detection command\");"
+            },
+            {
+              "number": 10545,
+              "text": "\t\tb3Printf(\"CMD_PERFORM_COLLISION_DETECTION clientCmd = %d\\n\", clientCmd.m_sequenceNumber);"
+            },
+            {
+              "number": 10546,
+              "text": "\t}"
+            },
+            {
+              "number": 10547,
+              "text": ""
+            },
+            {
+              "number": 10548,
+              "text": "\t m_data->m_dynamicsWorld->performDiscreteCollisionDetection();"
+            },
+            {
+              "number": 10549,
+              "text": "\t SharedMemoryStatus& serverCmd = serverStatusOut;"
+            },
+            {
+              "number": 10550,
+              "text": "\t serverCmd.m_type = CMD_PERFORM_COLLISION_DETECTION_COMPLETED;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btCollisionWorld.cpp",
+      "sha256": "e79733f5b8be9fe7df9652f1ccb8b97dcc8b0b313dd52de23b7a9b720eaeb797",
+      "bytes": 63713,
+      "excerpts": [
+        {
+          "first_line": 153,
+          "last_line": 160,
+          "lines": [
+            {
+              "number": 153,
+              "text": "void btCollisionWorld::updateSingleAabb(btCollisionObject* colObj)"
+            },
+            {
+              "number": 154,
+              "text": "{"
+            },
+            {
+              "number": 155,
+              "text": "\tbtVector3 minAabb, maxAabb;"
+            },
+            {
+              "number": 156,
+              "text": "\tcolObj->getCollisionShape()->getAabb(colObj->getWorldTransform(), minAabb, maxAabb);"
+            },
+            {
+              "number": 157,
+              "text": "\t//need to increase the aabb for contact thresholds"
+            },
+            {
+              "number": 158,
+              "text": "\tbtVector3 contactThreshold(gContactBreakingThreshold, gContactBreakingThreshold, gContactBreakingThreshold);"
+            },
+            {
+              "number": 159,
+              "text": "\tminAabb -= contactThreshold;"
+            },
+            {
+              "number": 160,
+              "text": "\tmaxAabb += contactThreshold;"
+            }
+          ]
+        },
+        {
+          "first_line": 220,
+          "last_line": 236,
+          "lines": [
+            {
+              "number": 220,
+              "text": "void btCollisionWorld::performDiscreteCollisionDetection()"
+            },
+            {
+              "number": 221,
+              "text": "{"
+            },
+            {
+              "number": 222,
+              "text": "\tBT_PROFILE(\"performDiscreteCollisionDetection\");"
+            },
+            {
+              "number": 223,
+              "text": ""
+            },
+            {
+              "number": 224,
+              "text": "\tbtDispatcherInfo& dispatchInfo = getDispatchInfo();"
+            },
+            {
+              "number": 225,
+              "text": ""
+            },
+            {
+              "number": 226,
+              "text": "\tupdateAabbs();"
+            },
+            {
+              "number": 227,
+              "text": ""
+            },
+            {
+              "number": 228,
+              "text": "\tcomputeOverlappingPairs();"
+            },
+            {
+              "number": 229,
+              "text": ""
+            },
+            {
+              "number": 230,
+              "text": "\tbtDispatcher* dispatcher = getDispatcher();"
+            },
+            {
+              "number": 231,
+              "text": "\t{"
+            },
+            {
+              "number": 232,
+              "text": "\t\tBT_PROFILE(\"dispatchAllCollisionPairs\");"
+            },
+            {
+              "number": 233,
+              "text": "\t\tif (dispatcher)"
+            },
+            {
+              "number": 234,
+              "text": "\t\t\tdispatcher->dispatchAllCollisionPairs(m_broadphasePairCache->getOverlappingPairCache(), dispatchInfo, m_dispatcher1);"
+            },
+            {
+              "number": 235,
+              "text": "\t}"
+            },
+            {
+              "number": 236,
+              "text": "}"
+            }
+          ]
+        },
+        {
+          "first_line": 1240,
+          "last_line": 1258,
+          "lines": [
+            {
+              "number": 1240,
+              "text": "///contactTest performs a discrete collision test between two collision objects and calls the resultCallback if overlap if detected."
+            },
+            {
+              "number": 1241,
+              "text": "///it reports one or more contact points (including the one with deepest penetration)"
+            },
+            {
+              "number": 1242,
+              "text": "void btCollisionWorld::contactPairTest(btCollisionObject* colObjA, btCollisionObject* colObjB, ContactResultCallback& resultCallback)"
+            },
+            {
+              "number": 1243,
+              "text": "{"
+            },
+            {
+              "number": 1244,
+              "text": "\tbtCollisionObjectWrapper obA(0, colObjA->getCollisionShape(), colObjA, colObjA->getWorldTransform(), -1, -1);"
+            },
+            {
+              "number": 1245,
+              "text": "\tbtCollisionObjectWrapper obB(0, colObjB->getCollisionShape(), colObjB, colObjB->getWorldTransform(), -1, -1);"
+            },
+            {
+              "number": 1246,
+              "text": ""
+            },
+            {
+              "number": 1247,
+              "text": "\tbtCollisionAlgorithm* algorithm = getDispatcher()->findAlgorithm(&obA, &obB, 0, BT_CLOSEST_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 1248,
+              "text": "\tif (algorithm)"
+            },
+            {
+              "number": 1249,
+              "text": "\t{"
+            },
+            {
+              "number": 1250,
+              "text": "\t\tbtBridgedManifoldResult contactPointResult(&obA, &obB, resultCallback);"
+            },
+            {
+              "number": 1251,
+              "text": "\t\tcontactPointResult.m_closestPointDistanceThreshold = resultCallback.m_closestDistanceThreshold;"
+            },
+            {
+              "number": 1252,
+              "text": "\t\t//discrete collision detection query"
+            },
+            {
+              "number": 1253,
+              "text": "\t\talgorithm->processCollision(&obA, &obB, getDispatchInfo(), &contactPointResult);"
+            },
+            {
+              "number": 1254,
+              "text": ""
+            },
+            {
+              "number": 1255,
+              "text": "\t\talgorithm->~btCollisionAlgorithm();"
+            },
+            {
+              "number": 1256,
+              "text": "\t\tgetDispatcher()->freeCollisionAlgorithm(algorithm);"
+            },
+            {
+              "number": 1257,
+              "text": "\t}"
+            },
+            {
+              "number": 1258,
+              "text": "}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btCollisionDispatcher.cpp",
+      "sha256": "62c1a73bc762267a7b6c3bceadf3fc90b2a9793907dd97cce64f4bcd015bf21a",
+      "bytes": 10498,
+      "excerpts": [
+        {
+          "first_line": 128,
+          "last_line": 145,
+          "lines": [
+            {
+              "number": 128,
+              "text": "btCollisionAlgorithm* btCollisionDispatcher::findAlgorithm(const btCollisionObjectWrapper* body0Wrap, const btCollisionObjectWrapper* body1Wrap, btPersistentManifold* sharedManifold, ebtDispatcherQueryType algoType)"
+            },
+            {
+              "number": 129,
+              "text": "{"
+            },
+            {
+              "number": 130,
+              "text": "\tbtCollisionAlgorithmConstructionInfo ci;"
+            },
+            {
+              "number": 131,
+              "text": ""
+            },
+            {
+              "number": 132,
+              "text": "\tci.m_dispatcher1 = this;"
+            },
+            {
+              "number": 133,
+              "text": "\tci.m_manifold = sharedManifold;"
+            },
+            {
+              "number": 134,
+              "text": "\tbtCollisionAlgorithm* algo = 0;"
+            },
+            {
+              "number": 135,
+              "text": "\tif (algoType == BT_CONTACT_POINT_ALGORITHMS)"
+            },
+            {
+              "number": 136,
+              "text": "\t{"
+            },
+            {
+              "number": 137,
+              "text": "\t\talgo = m_doubleDispatchContactPoints[body0Wrap->getCollisionShape()->getShapeType()][body1Wrap->getCollisionShape()->getShapeType()]->CreateCollisionAlgorithm(ci, body0Wrap, body1Wrap);"
+            },
+            {
+              "number": 138,
+              "text": "\t}"
+            },
+            {
+              "number": 139,
+              "text": "\telse"
+            },
+            {
+              "number": 140,
+              "text": "\t{"
+            },
+            {
+              "number": 141,
+              "text": "\t\talgo = m_doubleDispatchClosestPoints[body0Wrap->getCollisionShape()->getShapeType()][body1Wrap->getCollisionShape()->getShapeType()]->CreateCollisionAlgorithm(ci, body0Wrap, body1Wrap);"
+            },
+            {
+              "number": 142,
+              "text": "\t}"
+            },
+            {
+              "number": 143,
+              "text": ""
+            },
+            {
+              "number": 144,
+              "text": "\treturn algo;"
+            },
+            {
+              "number": 145,
+              "text": "}"
+            }
+          ]
+        },
+        {
+          "first_line": 236,
+          "last_line": 255,
+          "lines": [
+            {
+              "number": 236,
+              "text": "\tif (dispatcher.needsCollision(colObj0, colObj1))"
+            },
+            {
+              "number": 237,
+              "text": "\t{"
+            },
+            {
+              "number": 238,
+              "text": "\t\tbtCollisionObjectWrapper obj0Wrap(0, colObj0->getCollisionShape(), colObj0, colObj0->getWorldTransform(), -1, -1);"
+            },
+            {
+              "number": 239,
+              "text": "\t\tbtCollisionObjectWrapper obj1Wrap(0, colObj1->getCollisionShape(), colObj1, colObj1->getWorldTransform(), -1, -1);"
+            },
+            {
+              "number": 240,
+              "text": ""
+            },
+            {
+              "number": 241,
+              "text": "\t\t//dispatcher will keep algorithms persistent in the collision pair"
+            },
+            {
+              "number": 242,
+              "text": "\t\tif (!collisionPair.m_algorithm)"
+            },
+            {
+              "number": 243,
+              "text": "\t\t{"
+            },
+            {
+              "number": 244,
+              "text": "\t\t\tcollisionPair.m_algorithm = dispatcher.findAlgorithm(&obj0Wrap, &obj1Wrap, 0, BT_CONTACT_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 245,
+              "text": "\t\t}"
+            },
+            {
+              "number": 246,
+              "text": ""
+            },
+            {
+              "number": 247,
+              "text": "\t\tif (collisionPair.m_algorithm)"
+            },
+            {
+              "number": 248,
+              "text": "\t\t{"
+            },
+            {
+              "number": 249,
+              "text": "\t\t\tbtManifoldResult contactPointResult(&obj0Wrap, &obj1Wrap);"
+            },
+            {
+              "number": 250,
+              "text": ""
+            },
+            {
+              "number": 251,
+              "text": "\t\t\tif (dispatchInfo.m_dispatchFunc == btDispatcherInfo::DISPATCH_DISCRETE)"
+            },
+            {
+              "number": 252,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 253,
+              "text": "\t\t\t\t//discrete collision detection query"
+            },
+            {
+              "number": 254,
+              "text": ""
+            },
+            {
+              "number": 255,
+              "text": "\t\t\t\tcollisionPair.m_algorithm->processCollision(&obj0Wrap, &obj1Wrap, dispatchInfo, &contactPointResult);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btConvexConvexAlgorithm.cpp",
+      "sha256": "7b02cbe1ce4d7024b37129905fffeffc68110923de3de6308e1d93b61d88760c",
+      "bytes": 31225,
+      "excerpts": [
+        {
+          "first_line": 201,
+          "last_line": 207,
+          "lines": [
+            {
+              "number": 201,
+              "text": "btConvexConvexAlgorithm::~btConvexConvexAlgorithm()"
+            },
+            {
+              "number": 202,
+              "text": "{"
+            },
+            {
+              "number": 203,
+              "text": "\tif (m_ownManifold)"
+            },
+            {
+              "number": 204,
+              "text": "\t{"
+            },
+            {
+              "number": 205,
+              "text": "\t\tif (m_manifoldPtr)"
+            },
+            {
+              "number": 206,
+              "text": "\t\t\tm_dispatcher->releaseManifold(m_manifoldPtr);"
+            },
+            {
+              "number": 207,
+              "text": "\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 275,
+          "last_line": 281,
+          "lines": [
+            {
+              "number": 275,
+              "text": "\tif (!m_manifoldPtr)"
+            },
+            {
+              "number": 276,
+              "text": "\t{"
+            },
+            {
+              "number": 277,
+              "text": "\t\t//swapped?"
+            },
+            {
+              "number": 278,
+              "text": "\t\tm_manifoldPtr = m_dispatcher->getNewManifold(body0Wrap->getCollisionObject(), body1Wrap->getCollisionObject());"
+            },
+            {
+              "number": 279,
+              "text": "\t\tm_ownManifold = true;"
+            },
+            {
+              "number": 280,
+              "text": "\t}"
+            },
+            {
+              "number": 281,
+              "text": "\tresultOut->setPersistentManifold(m_manifoldPtr);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btCompoundCollisionAlgorithm.cpp",
+      "sha256": "a835af4929c6fec2202b1b6d1a59ddeb5467870dda7dad273a05444dd3bca550",
+      "bytes": 15023,
+      "excerpts": [
+        {
+          "first_line": 149,
+          "last_line": 165,
+          "lines": [
+            {
+              "number": 149,
+              "text": "\t\t\tbtCollisionAlgorithm* algo = 0;"
+            },
+            {
+              "number": 150,
+              "text": "\t\t\tbool allocatedAlgorithm = false;"
+            },
+            {
+              "number": 151,
+              "text": ""
+            },
+            {
+              "number": 152,
+              "text": "\t\t\tif (m_resultOut->m_closestPointDistanceThreshold > 0)"
+            },
+            {
+              "number": 153,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 154,
+              "text": "\t\t\t\talgo = m_dispatcher->findAlgorithm(&compoundWrap, m_otherObjWrap, 0, BT_CLOSEST_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 155,
+              "text": "\t\t\t\tallocatedAlgorithm = true;"
+            },
+            {
+              "number": 156,
+              "text": "\t\t\t}"
+            },
+            {
+              "number": 157,
+              "text": "\t\t\telse"
+            },
+            {
+              "number": 158,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 159,
+              "text": "\t\t\t\t//the contactpoint is still projected back using the original inverted worldtrans"
+            },
+            {
+              "number": 160,
+              "text": "\t\t\t\tif (!m_childCollisionAlgorithms[index])"
+            },
+            {
+              "number": 161,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 162,
+              "text": "\t\t\t\t\tm_childCollisionAlgorithms[index] = m_dispatcher->findAlgorithm(&compoundWrap, m_otherObjWrap, m_sharedManifold, BT_CONTACT_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 163,
+              "text": "\t\t\t\t}"
+            },
+            {
+              "number": 164,
+              "text": "\t\t\t\talgo = m_childCollisionAlgorithms[index];"
+            },
+            {
+              "number": 165,
+              "text": "\t\t\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 202,
+          "last_line": 206,
+          "lines": [
+            {
+              "number": 202,
+              "text": "\t\t\tif (allocatedAlgorithm)"
+            },
+            {
+              "number": 203,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 204,
+              "text": "\t\t\t\talgo->~btCollisionAlgorithm();"
+            },
+            {
+              "number": 205,
+              "text": "\t\t\t\tm_dispatcher->freeCollisionAlgorithm(algo);"
+            },
+            {
+              "number": 206,
+              "text": "\t\t\t}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/CollisionDispatch/btCompoundCompoundCollisionAlgorithm.cpp",
+      "sha256": "87b2e4ece837e18743537e5f44a0b43ad00487144085dba9ae31080fab8ba2d0",
+      "bytes": 15849,
+      "excerpts": [
+        {
+          "first_line": 164,
+          "last_line": 184,
+          "lines": [
+            {
+              "number": 164,
+              "text": "\t\t\tbtSimplePair* pair = m_childCollisionAlgorithmCache->findPair(childIndex0, childIndex1);"
+            },
+            {
+              "number": 165,
+              "text": "\t\t\tbool removePair = false;"
+            },
+            {
+              "number": 166,
+              "text": "\t\t\tbtCollisionAlgorithm* colAlgo = 0;"
+            },
+            {
+              "number": 167,
+              "text": "\t\t\tif (m_resultOut->m_closestPointDistanceThreshold > 0)"
+            },
+            {
+              "number": 168,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 169,
+              "text": "\t\t\t\tcolAlgo = m_dispatcher->findAlgorithm(&compoundWrap0, &compoundWrap1, 0, BT_CLOSEST_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 170,
+              "text": "\t\t\t\tremovePair = true;"
+            },
+            {
+              "number": 171,
+              "text": "\t\t\t}"
+            },
+            {
+              "number": 172,
+              "text": "\t\t\telse"
+            },
+            {
+              "number": 173,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 174,
+              "text": "\t\t\t\tif (pair)"
+            },
+            {
+              "number": 175,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 176,
+              "text": "\t\t\t\t\tcolAlgo = (btCollisionAlgorithm*)pair->m_userPointer;"
+            },
+            {
+              "number": 177,
+              "text": "\t\t\t\t}"
+            },
+            {
+              "number": 178,
+              "text": "\t\t\t\telse"
+            },
+            {
+              "number": 179,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 180,
+              "text": "\t\t\t\t\tcolAlgo = m_dispatcher->findAlgorithm(&compoundWrap0, &compoundWrap1, m_sharedManifold, BT_CONTACT_POINT_ALGORITHMS);"
+            },
+            {
+              "number": 181,
+              "text": "\t\t\t\t\tpair = m_childCollisionAlgorithmCache->addOverlappingPair(childIndex0, childIndex1);"
+            },
+            {
+              "number": 182,
+              "text": "\t\t\t\t\tbtAssert(pair);"
+            },
+            {
+              "number": 183,
+              "text": "\t\t\t\t\tpair->m_userPointer = colAlgo;"
+            },
+            {
+              "number": 184,
+              "text": "\t\t\t\t}"
+            }
+          ]
+        },
+        {
+          "first_line": 201,
+          "last_line": 210,
+          "lines": [
+            {
+              "number": 201,
+              "text": "\t\t\tcolAlgo->processCollision(&compoundWrap0, &compoundWrap1, m_dispatchInfo, m_resultOut);"
+            },
+            {
+              "number": 202,
+              "text": ""
+            },
+            {
+              "number": 203,
+              "text": "\t\t\tm_resultOut->setBody0Wrap(tmpWrap0);"
+            },
+            {
+              "number": 204,
+              "text": "\t\t\tm_resultOut->setBody1Wrap(tmpWrap1);"
+            },
+            {
+              "number": 205,
+              "text": ""
+            },
+            {
+              "number": 206,
+              "text": "\t\t\tif (removePair)"
+            },
+            {
+              "number": 207,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 208,
+              "text": "\t\t\t\tcolAlgo->~btCollisionAlgorithm();"
+            },
+            {
+              "number": 209,
+              "text": "\t\t\t\tm_dispatcher->freeCollisionAlgorithm(colAlgo);"
+            },
+            {
+              "number": 210,
+              "text": "\t\t\t}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/NarrowPhaseCollision/btPersistentManifold.h",
+      "sha256": "e229c8db36881778c1fbbe4124598002563ee2ea4841285bfc73a16d9f2b1d17",
+      "bytes": 13008,
+      "excerpts": [
+        {
+          "first_line": 241,
+          "last_line": 246,
+          "lines": [
+            {
+              "number": 241,
+              "text": "\tbool validContactDistance(const btManifoldPoint& pt) const"
+            },
+            {
+              "number": 242,
+              "text": "\t{"
+            },
+            {
+              "number": 243,
+              "text": "\t\treturn pt.m_distance1 <= getContactBreakingThreshold();"
+            },
+            {
+              "number": 244,
+              "text": "\t}"
+            },
+            {
+              "number": 245,
+              "text": "\t/// calculated new worldspace coordinates and depth, and reject points that exceed the collision margin"
+            },
+            {
+              "number": 246,
+              "text": "\tvoid refreshContactPoints(const btTransform& trA, const btTransform& trB);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/NarrowPhaseCollision/btPersistentManifold.cpp",
+      "sha256": "de382ea711ec461c33f1f13c3cc8ff71612158d22054e75beac4e6aee19ef615",
+      "bytes": 18050,
+      "excerpts": [
+        {
+          "first_line": 26,
+          "last_line": 30,
+          "lines": [
+            {
+              "number": 26,
+              "text": "btScalar gContactBreakingThreshold = btScalar(0.02);"
+            },
+            {
+              "number": 27,
+              "text": "ContactDestroyedCallback gContactDestroyedCallback = 0;"
+            },
+            {
+              "number": 28,
+              "text": "ContactProcessedCallback gContactProcessedCallback = 0;"
+            },
+            {
+              "number": 29,
+              "text": "ContactStartedCallback gContactStartedCallback = 0;"
+            },
+            {
+              "number": 30,
+              "text": "ContactEndedCallback gContactEndedCallback = 0;"
+            }
+          ]
+        },
+        {
+          "first_line": 259,
+          "last_line": 290,
+          "lines": [
+            {
+              "number": 259,
+              "text": "\t/// first refresh worldspace positions and distance"
+            },
+            {
+              "number": 260,
+              "text": "\tfor (i = getNumContacts() - 1; i >= 0; i--)"
+            },
+            {
+              "number": 261,
+              "text": "\t{"
+            },
+            {
+              "number": 262,
+              "text": "\t\tbtManifoldPoint& manifoldPoint = m_pointCache[i];"
+            },
+            {
+              "number": 263,
+              "text": "\t\tmanifoldPoint.m_positionWorldOnA = trA(manifoldPoint.m_localPointA);"
+            },
+            {
+              "number": 264,
+              "text": "\t\tmanifoldPoint.m_positionWorldOnB = trB(manifoldPoint.m_localPointB);"
+            },
+            {
+              "number": 265,
+              "text": "\t\tmanifoldPoint.m_distance1 = (manifoldPoint.m_positionWorldOnA - manifoldPoint.m_positionWorldOnB).dot(manifoldPoint.m_normalWorldOnB);"
+            },
+            {
+              "number": 266,
+              "text": "\t\tmanifoldPoint.m_lifeTime++;"
+            },
+            {
+              "number": 267,
+              "text": "\t}"
+            },
+            {
+              "number": 268,
+              "text": ""
+            },
+            {
+              "number": 269,
+              "text": "\t/// then"
+            },
+            {
+              "number": 270,
+              "text": "\tbtScalar distance2d;"
+            },
+            {
+              "number": 271,
+              "text": "\tbtVector3 projectedDifference, projectedPoint;"
+            },
+            {
+              "number": 272,
+              "text": "\tfor (i = getNumContacts() - 1; i >= 0; i--)"
+            },
+            {
+              "number": 273,
+              "text": "\t{"
+            },
+            {
+              "number": 274,
+              "text": "\t\tbtManifoldPoint& manifoldPoint = m_pointCache[i];"
+            },
+            {
+              "number": 275,
+              "text": "\t\t//contact becomes invalid when signed distance exceeds margin (projected on contactnormal direction)"
+            },
+            {
+              "number": 276,
+              "text": "\t\tif (!validContactDistance(manifoldPoint))"
+            },
+            {
+              "number": 277,
+              "text": "\t\t{"
+            },
+            {
+              "number": 278,
+              "text": "\t\t\tremoveContactPoint(i);"
+            },
+            {
+              "number": 279,
+              "text": "\t\t}"
+            },
+            {
+              "number": 280,
+              "text": "\t\telse"
+            },
+            {
+              "number": 281,
+              "text": "\t\t{"
+            },
+            {
+              "number": 282,
+              "text": "\t\t\t//todo: friction anchor may require the contact to be around a bit longer"
+            },
+            {
+              "number": 283,
+              "text": "\t\t\t//contact also becomes invalid when relative movement orthogonal to normal exceeds margin"
+            },
+            {
+              "number": 284,
+              "text": "\t\t\tprojectedPoint = manifoldPoint.m_positionWorldOnA - manifoldPoint.m_normalWorldOnB * manifoldPoint.m_distance1;"
+            },
+            {
+              "number": 285,
+              "text": "\t\t\tprojectedDifference = manifoldPoint.m_positionWorldOnB - projectedPoint;"
+            },
+            {
+              "number": 286,
+              "text": "\t\t\tdistance2d = projectedDifference.dot(projectedDifference);"
+            },
+            {
+              "number": 287,
+              "text": "\t\t\tif (distance2d > getContactBreakingThreshold() * getContactBreakingThreshold())"
+            },
+            {
+              "number": 288,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 289,
+              "text": "\t\t\t\tremoveContactPoint(i);"
+            },
+            {
+              "number": 290,
+              "text": "\t\t\t}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp",
+      "sha256": "1bd9a019c6ba58331edba6acc14b7479be663c1f054db7003379855f815ebbaf",
+      "bytes": 22861,
+      "excerpts": [
+        {
+          "first_line": 581,
+          "last_line": 608,
+          "lines": [
+            {
+              "number": 581,
+              "text": "\t/* clean up\t\t\t\t*/"
+            },
+            {
+              "number": 582,
+              "text": "\tif (m_needcleanup)"
+            },
+            {
+              "number": 583,
+              "text": "\t{"
+            },
+            {
+              "number": 584,
+              "text": "\t\tSPC(m_profiling.m_cleanup);"
+            },
+            {
+              "number": 585,
+              "text": "\t\tbtBroadphasePairArray& pairs = m_paircache->getOverlappingPairArray();"
+            },
+            {
+              "number": 586,
+              "text": "\t\tif (pairs.size() > 0)"
+            },
+            {
+              "number": 587,
+              "text": "\t\t{"
+            },
+            {
+              "number": 588,
+              "text": "\t\t\tint ni = btMin(pairs.size(), btMax<int>(m_newpairs, (pairs.size() * m_cupdates) / 100));"
+            },
+            {
+              "number": 589,
+              "text": "\t\t\tfor (int i = 0; i < ni; ++i)"
+            },
+            {
+              "number": 590,
+              "text": "\t\t\t{"
+            },
+            {
+              "number": 591,
+              "text": "\t\t\t\tbtBroadphasePair& p = pairs[(m_cid + i) % pairs.size()];"
+            },
+            {
+              "number": 592,
+              "text": "\t\t\t\tbtDbvtProxy* pa = (btDbvtProxy*)p.m_pProxy0;"
+            },
+            {
+              "number": 593,
+              "text": "\t\t\t\tbtDbvtProxy* pb = (btDbvtProxy*)p.m_pProxy1;"
+            },
+            {
+              "number": 594,
+              "text": "\t\t\t\tif (!Intersect(pa->leaf->volume, pb->leaf->volume))"
+            },
+            {
+              "number": 595,
+              "text": "\t\t\t\t{"
+            },
+            {
+              "number": 596,
+              "text": "#if DBVT_BP_SORTPAIRS"
+            },
+            {
+              "number": 597,
+              "text": "\t\t\t\t\tif (pa->m_uniqueId > pb->m_uniqueId)"
+            },
+            {
+              "number": 598,
+              "text": "\t\t\t\t\t\tbtSwap(pa, pb);"
+            },
+            {
+              "number": 599,
+              "text": "#endif"
+            },
+            {
+              "number": 600,
+              "text": "\t\t\t\t\tm_paircache->removeOverlappingPair(pa, pb, dispatcher);"
+            },
+            {
+              "number": 601,
+              "text": "\t\t\t\t\t--ni;"
+            },
+            {
+              "number": 602,
+              "text": "\t\t\t\t\t--i;"
+            },
+            {
+              "number": 603,
+              "text": "\t\t\t\t}"
+            },
+            {
+              "number": 604,
+              "text": "\t\t\t}"
+            },
+            {
+              "number": 605,
+              "text": "\t\t\tif (pairs.size() > 0)"
+            },
+            {
+              "number": 606,
+              "text": "\t\t\t\tm_cid = (m_cid + ni) % pairs.size();"
+            },
+            {
+              "number": 607,
+              "text": "\t\t\telse"
+            },
+            {
+              "number": 608,
+              "text": "\t\t\t\tm_cid = 0;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp",
+      "sha256": "c5e8ac555b6f8912f7b805596126e33780b46f2164320d355e775145164eecf6",
+      "bytes": 17149,
+      "excerpts": [
+        {
+          "first_line": 36,
+          "last_line": 44,
+          "lines": [
+            {
+              "number": 36,
+              "text": "void btHashedOverlappingPairCache::cleanOverlappingPair(btBroadphasePair& pair, btDispatcher* dispatcher)"
+            },
+            {
+              "number": 37,
+              "text": "{"
+            },
+            {
+              "number": 38,
+              "text": "\tif (pair.m_algorithm && dispatcher)"
+            },
+            {
+              "number": 39,
+              "text": "\t{"
+            },
+            {
+              "number": 40,
+              "text": "\t\t{"
+            },
+            {
+              "number": 41,
+              "text": "\t\t\tpair.m_algorithm->~btCollisionAlgorithm();"
+            },
+            {
+              "number": 42,
+              "text": "\t\t\tdispatcher->freeCollisionAlgorithm(pair.m_algorithm);"
+            },
+            {
+              "number": 43,
+              "text": "\t\t\tpair.m_algorithm = 0;"
+            },
+            {
+              "number": 44,
+              "text": "\t\t}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

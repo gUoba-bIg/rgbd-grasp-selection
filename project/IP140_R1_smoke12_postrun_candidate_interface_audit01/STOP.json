@@ -1,0 +1,18 @@
+{
+  "version": "IP140_R1_smoke12_postrun_candidate_interface_audit01",
+  "at_utc": "2026-11-06T03:48:37.069564+00:00",
+  "mode": "read_only_audit_complete",
+  "engine_connections": 0,
+  "physics_steps": 0,
+  "new_charges": 0,
+  "cumulative_starts": 8,
+  "budget_total": 13,
+  "remaining": 5,
+  "slots8_to12": "frozen_pending_review",
+  "historical_smoke12": {
+    "charged": true,
+    "grasp_success": false,
+    "slot_passed": false
+  },
+  "next_action": "await_user_research_review_no_implementation"
+}

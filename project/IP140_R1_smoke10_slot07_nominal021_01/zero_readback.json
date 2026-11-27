@@ -1,0 +1,24 @@
+{
+  "version": "IP140_R1_smoke10_slot07_nominal021_01",
+  "status": "not_performed_source_readback_blocked",
+  "actual_readback_performed": false,
+  "passed": false,
+  "connect_calls": 0,
+  "physics_step_calls": 0,
+  "object_linear_damping": {
+    "target": 0.04,
+    "observed": null,
+    "readback_available": false
+  },
+  "object_angular_damping": {
+    "target": 0.04,
+    "observed": null,
+    "readback_available": false
+  },
+  "required_mismatches": [],
+  "required_unavailable": [
+    "object.linearDamping",
+    "object.angularDamping"
+  ],
+  "absence_scope": "No model loaded, no new measured dynamics data. This reports unavailable readback, not a measured parameter mismatch."
+}

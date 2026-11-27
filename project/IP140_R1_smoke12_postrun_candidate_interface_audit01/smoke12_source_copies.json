@@ -1,0 +1,170 @@
+[
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/result.json",
+    "copy": "sources/smoke12/result.json",
+    "bytes": 930,
+    "sha256": "351a2a9fb4bb22e3fed9d5a12b6c439771569a95fec005cb76d4aaf81bb9caab",
+    "source_mtime_ns": 1793932340115917000,
+    "copied_mtime_ns": 1793932340115917000
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/slot_ledger.json",
+    "copy": "sources/smoke12/slot_ledger.json",
+    "bytes": 8384,
+    "sha256": "c243bfe4d63ff1e7efa0268ba6af171921850233e667458707fac4a379fbde11",
+    "source_mtime_ns": 1793932340136883400,
+    "copied_mtime_ns": 1793932340136883400
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json",
+    "copy": "sources/smoke12/preregistration.json",
+    "bytes": 46191,
+    "sha256": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81",
+    "source_mtime_ns": 1793931582026952800,
+    "copied_mtime_ns": 1793931582026952800
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/trajectory_plan.json",
+    "copy": "sources/smoke12/trajectory_plan.json",
+    "bytes": 8164,
+    "sha256": "9ca846bb086fe8378c465659f40cb4d623dcc70904a3b57830afa5cf51517cfd",
+    "source_mtime_ns": 1793850856800656100,
+    "copied_mtime_ns": 1793850856800656100
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/object_evaluator.py",
+    "copy": "sources/smoke12/object_evaluator.py",
+    "bytes": 13289,
+    "sha256": "8dff34dc19c968ecbf70e6a7f5dee223418f57895607529d7a9b0e139d1fac85",
+    "source_mtime_ns": 1793931639975939800,
+    "copied_mtime_ns": 1793931639975939800
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/offline_replay.py",
+    "copy": "sources/smoke12/offline_replay.py",
+    "bytes": 15139,
+    "sha256": "6aecc1d8e7516c6b29f18c8d33ce63fe562013400927eda93f07aea73b4a5925",
+    "source_mtime_ns": 1793931779604128000,
+    "copied_mtime_ns": 1793931779604128000
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/offline_gate_replay.json",
+    "copy": "sources/smoke12/offline_gate_replay.json",
+    "bytes": 1275744,
+    "sha256": "56cee692a212d322abfd0c1eb99bcefa0a549b10c338086525a7133d986819e4",
+    "source_mtime_ns": 1793932103489956200,
+    "copied_mtime_ns": 1793932103489956200
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_readback.json",
+    "copy": "sources/smoke12/zero_readback.json",
+    "bytes": 70307,
+    "sha256": "1e4aa1ab74d39c738fdfc4ff51f82308a0f00e34263ffe350b29d6c48b341831",
+    "source_mtime_ns": 1793932104804208700,
+    "copied_mtime_ns": 1793932104804208700
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_step/object021_readback.json",
+    "copy": "sources/smoke12/zero_step/object021_readback.json",
+    "bytes": 249379,
+    "sha256": "7e96c5a3ce2bbd3ec89578a4b669b59c72ab37daef2436be3813cb581c0075e2",
+    "source_mtime_ns": 1793932104507876300,
+    "copied_mtime_ns": 1793932104507876300
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_step/all_links_readback.json",
+    "copy": "sources/smoke12/zero_step/all_links_readback.json",
+    "bytes": 35880,
+    "sha256": "6f682d7e2f8b1c1fd40f9b0e0af954fea0751ed58f818cad2b897e325f3c3d84",
+    "source_mtime_ns": 1793932104264258400,
+    "copied_mtime_ns": 1793932104264258400
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_step/table_readback.json",
+    "copy": "sources/smoke12/zero_step/table_readback.json",
+    "bytes": 877,
+    "sha256": "babc9199e014d37fb4e71345e9db1bf949b16753db763bf488b63a8b9132db4e",
+    "source_mtime_ns": 1793932104509948900,
+    "copied_mtime_ns": 1793932104509948900
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/model/ur5e_ip140_r1.urdf",
+    "copy": "sources/smoke12/model/ur5e_ip140_r1.urdf",
+    "bytes": 15655,
+    "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "source_mtime_ns": 1793788114760846800,
+    "copied_mtime_ns": 1793788114760846800
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/model/manifest.json",
+    "copy": "sources/smoke12/model/manifest.json",
+    "bytes": 10393,
+    "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "source_mtime_ns": 1793788114760846800,
+    "copied_mtime_ns": 1793788114760846800
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/result.json",
+    "copy": "sources/smoke12/episodes/07/result.json",
+    "bytes": 3871,
+    "sha256": "1d76eb761418eba5af763c2d66d7f681e09fbb037ba19f403311f10a6051330d",
+    "source_mtime_ns": 1793932121784086000,
+    "copied_mtime_ns": 1793932121784086000
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/telemetry.jsonl.gz",
+    "copy": "sources/smoke12/episodes/07/telemetry.jsonl.gz",
+    "bytes": 28050426,
+    "sha256": "100352e0d13857eeb04eff0db21b885f0947e79aa44178fab62f5abc4448a83d",
+    "source_mtime_ns": 1793932121760769100,
+    "copied_mtime_ns": 1793932121760769100
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/final_480_steps.json",
+    "copy": "sources/smoke12/episodes/07/final_480_steps.json",
+    "bytes": 1952333,
+    "sha256": "4972e32bb2ae0a90dc1c66c9061777302298445b67debf7f96a9b3d9f8d0b413",
+    "source_mtime_ns": 1793932121752805800,
+    "copied_mtime_ns": 1793932121752805800
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/initial.png",
+    "copy": "sources/smoke12/episodes/07/initial.png",
+    "bytes": 11177,
+    "sha256": "413405e866c28a6db9783e6dc30e5379b58374f96a71204b483ab66d9cba2987",
+    "source_mtime_ns": 1793932105075228700,
+    "copied_mtime_ns": 1793932105075228700
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/episodes/07/terminal.png",
+    "copy": "sources/smoke12/episodes/07/terminal.png",
+    "bytes": 12688,
+    "sha256": "27a57bad62920af676fc3c5cf9774fbae4c74ee7338649c96a078c305898db2a",
+    "source_mtime_ns": 1793932121637983400,
+    "copied_mtime_ns": 1793932121637983400
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/SHA256SUMS.txt",
+    "copy": "sources/smoke12/SHA256SUMS.txt",
+    "bytes": 26213,
+    "sha256": "bab65eaabbed65ddad90790c5fcaaf5a7a8f3c3d9dbf176ee1e96bc59eb63edb",
+    "source_mtime_ns": 1793932957293543700,
+    "copied_mtime_ns": 1793932957293543700
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/damping_write_receipt.json",
+    "copy": "sources/smoke12/damping_write_receipt.json",
+    "bytes": 2426,
+    "sha256": "a21f7b48cc40018d6ffd964a41183e169a146cf1cfd0e676793bc888c0e82ee4",
+    "source_mtime_ns": 1793932104469776400,
+    "copied_mtime_ns": 1793932104469776400
+  },
+  {
+    "source": "IP140_R1_smoke12_slot07_base_table_mount_filter01/api_and_episode_audit.json",
+    "copy": "sources/smoke12/api_and_episode_audit.json",
+    "bytes": 10976,
+    "sha256": "f712c0aaf55ab92e5d8e7da9d70d5eb40edaa3439a24de4df0198fcedf262f98",
+    "source_mtime_ns": 1793932346117824400,
+    "copied_mtime_ns": 1793932346117824400
+  }
+]

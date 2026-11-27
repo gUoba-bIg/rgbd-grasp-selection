@@ -1,0 +1,19 @@
+{
+  "sequence": 9,
+  "method": "setCollisionFilterPair",
+  "pair": [
+    "ip140_right_bone",
+    "ip140_right_pad"
+  ],
+  "args": [
+    0,
+    0,
+    14,
+    15,
+    0
+  ],
+  "kwargs": {
+    "physicsClientId": 0
+  },
+  "started_utc": "2026-11-08T13:39:16.379728+00:00"
+}

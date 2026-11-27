@@ -1,0 +1,85 @@
+{
+  "schema": 17,
+  "phase": "isolated_coco_environment",
+  "python_version": "3.12.14",
+  "base_python": {
+    "path": "${PYTHON_HOME}/python.exe",
+    "sha256": "7a4102b91959bb234507850ea584e1d31d300a6831b171e4aadc59ff592f0234"
+  },
+  "env_dir": "runtime/envs/coco_eval_v17",
+  "interpreter": "runtime/envs/coco_eval_v17/Scripts/python.exe",
+  "wheels": [
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "path": "runtime/downloads/grasp_eval_v7/archives/numpy-1.26.4-cp312-cp312-win_amd64.whl",
+      "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+      "bytes": 15517754
+    },
+    {
+      "name": "Pillow",
+      "version": "11.3.0",
+      "path": "runtime/downloads/grasp_eval_v7/archives/pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "sha256": "a6444696fce635783440b7f7a9fc24b3ad10a9ea3f0ab66c5905be1c19ccf17d",
+      "bytes": 6986324
+    },
+    {
+      "name": "pycocotools",
+      "version": "2.0.11",
+      "path": "runtime/downloads/coco_eval_v17/pycocotools-2.0.11-cp312-abi3-win_amd64.whl",
+      "sha256": "ffe806ce535f5996445188f9a35643791dc54beabc61bd81e2b03367356d604f",
+      "url": "https://files.pythonhosted.org/packages/83/b4/f6708404ff494706b80e714b919f76dc4ec9845a4007affd6d6b0843f928/pycocotools-2.0.11-cp312-abi3-win_amd64.whl",
+      "maximum_download_bytes": 1048576
+    }
+  ],
+  "expected_packages": {
+    "pip": "25.0.1",
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0",
+    "pycocotools": "2.0.11"
+  },
+  "outputs": {
+    "report": "results/P4/mask_ap_environment_v17.json",
+    "work_dir": "runtime/coco_eval_setup_v17",
+    "logs_dir": "logs/P4/mask_ap_v17/environment"
+  },
+  "source_hashes": {
+    "scripts/setup_coco_eval_environment_v17.py": "daa8ba0c6b160c291e3c2fe05d2b1ca22a7cf4489078223a9110a0424ab5b95a",
+    "tests/test_coco_environment_v17.py": "7209db8dfa994366daa0ed3b19179c633f04293ff2d675933a2ea3e5ace98cc5",
+    "docs/第十七轮独立评价环境冻结方案.txt": "92c782f937dcd6edf6765e91a3d0e211c2f180d996fe5419f001aa9279953c65",
+    "logs/P4/mask_ap_v17/environment_tests.log": "abb550b666f3212b046bd8973901201ef8ec7f69198f899d7135ffd0f9b99af2",
+    "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+    "scripts/test_mask_ap_v17.py": "0c010958a917c92ba3eab610269d34c1da11e1a67e7f94106f1c0bc290fc0042",
+    "scripts/mask_ap_common_v17.py": "0303172e1f5e4cb999cdca2e4a73f53d47440d0a5e467b6a255d14ef182190a5",
+    "scripts/multiview_common_v14r1.py": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526"
+  },
+  "resources": {
+    "cpu_threads": 4,
+    "invocation_soft_seconds": 1800,
+    "rss_soft_bytes": 4294967296,
+    "gpu_allocated_soft_bytes": 14495514624,
+    "gpu_reserved_soft_bytes": 14495514624,
+    "output_limit_bytes": 3221225472,
+    "disk_reserve_bytes": 64424509440
+  },
+  "budget_paths": [
+    "runtime/envs/coco_eval_v17",
+    "runtime/downloads/coco_eval_v17",
+    "runtime/coco_eval_setup_v17",
+    "runtime/mask_ap_v17",
+    "results/P4/mask_ap_v17",
+    "results/P4/mask_ap_environment_v17.json",
+    "results/P4/mask_ap_environment_v17.json.sha256.json",
+    "results/P4/mask_ap_v17_scores_resume.json",
+    "results/P4/mask_ap_v17_metrics.json",
+    "results/P4/mask_ap_v17_metrics.json.sha256.json",
+    "results/P4/mask_ap_v17_metrics_resume.json",
+    "results/P4/mask_ap_v17_acceptance.json",
+    "results/P4/mask_ap_v17_visuals",
+    "logs/P4/mask_ap_v17",
+    "logs/pipeline/P4D17",
+    "logs/pipeline/P4S17",
+    "logs/pipeline/P4A17",
+    "logs/pipeline/P4E17"
+  ]
+}

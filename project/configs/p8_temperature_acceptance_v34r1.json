@@ -1,0 +1,440 @@
+{
+  "at": "2026-10-31T17:05:11.358683+08:00",
+  "protected": {
+    "scripts/p8_temperature_recovery_v34r1.py": {
+      "sha256": "8b582c40330078192ce57f84516c3fe129237f9beab9506e5fcf450b51fd4bf8",
+      "bytes": 14831,
+      "mtime_ns": 1793437508263877200
+    },
+    "docs/P8温度复验修正说明_v34r1.txt": {
+      "sha256": "af1ad43f6a0f877f44f490cd7c8cace600bca16f32967f8367637741cebd4f6f",
+      "bytes": 2402,
+      "mtime_ns": 1793437474940667800
+    },
+    "logs/P8/temperature_repair_v34/full_readonly_084fb15da0824fafa9222aa909df95aa.stderr.log": {
+      "sha256": "f2232e7629d7a67fec2866156182f136b57f09a4860964530d0af55828b23f91",
+      "bytes": 1775,
+      "mtime_ns": 1793437182993654900
+    },
+    "scripts/p7_fit_v31.py": {
+      "sha256": "b5e4dc2c98eb47214e9dcd600c73766a5c11368a679069657d25a2e917794f2c",
+      "bytes": 6840,
+      "mtime_ns": 1793357073813160500
+    },
+    "scripts/p7_review_v31.py": {
+      "sha256": "8f823528b01045c539e56960ce45e8104294be1c053c4de6c493d6b7cbd3e21e",
+      "bytes": 14892,
+      "mtime_ns": 1793357073844023400
+    },
+    "src/risk_metrics_v31.py": {
+      "sha256": "b8525f98a3b9e9d75edec07cea2508014579210c0ff85a75c87bc1120ce01550",
+      "bytes": 1972,
+      "mtime_ns": 1793357073817390700
+    },
+    "logs/P7/risk_v31/calls.jsonl": {
+      "sha256": "8a8b69c4afe2af8e57dbc6ab13f9286e1592f4383b2b6ef147b2ca95b8cdf9fb",
+      "bytes": 4773838,
+      "mtime_ns": 1793420668072323700
+    },
+    "logs/P7/risk_v31/readonly.json": {
+      "sha256": "770b06dfc454a881c3bce1b21bbec70cc60684e9765cd6a2e2d12a84395530fe",
+      "bytes": 6202115,
+      "mtime_ns": 1793420676096659700
+    },
+    "logs/P7/risk_v31/cold.json": {
+      "sha256": "9cd5ae25f6521103b58dd827ef3fd465b907edc915acbc3e8551ff97956de284",
+      "bytes": 6202108,
+      "mtime_ns": 1793420689300245500
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/failure_diagnosis.json": {
+      "sha256": "4f317cc291d1bc77753bcf3bbd1ea69b75cd43c501268804d3bf2d516a3a6917",
+      "bytes": 4923,
+      "mtime_ns": 1793437309048567500
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/failure_diagnosis.json.receipt.json": {
+      "sha256": "b1f8a990b2bd9780e131808ffa0af2a26a4fa38dfbbedd4c218f9fdfb34a43eb",
+      "bytes": 140,
+      "mtime_ns": 1793437309059351700
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/p8_temperature_delivery_v34.json": {
+      "sha256": "1bda44bc4541460c3fb1317611ca0181c39dd742c5b57b3f92775f7c63377c13",
+      "bytes": 268,
+      "mtime_ns": 1793437184517277000
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/p8_temperature_v34.json": {
+      "sha256": "3373a67b6cbfd1ec4df0c574fdb283ba8d2159ba506439822ada9ec67fdef188",
+      "bytes": 344,
+      "mtime_ns": 1793437184517277000
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/calls.jsonl": {
+      "sha256": "d48bffd9119d059eb020b3b40c41e5dc787089fdc9881e229c26c67d6542d89d",
+      "bytes": 153259,
+      "mtime_ns": 1793437182991077100
+    },
+    "logs/P8/temperature_repair_v34/engineering_recovery_v34r1/controller.jsonl": {
+      "sha256": "786d6e48e544ed0fb87f46519cf06f9fd1a384542acbd51f1c57f821220d76d6",
+      "bytes": 1983,
+      "mtime_ns": 1793437184515847200
+    },
+    "results/P8/temperature_repair_v34/holdout_screen.json": {
+      "sha256": "cc22f156c5bfb769368d7cd46d84390d2b2ef8ade06bafd616e38464d0e03e7c",
+      "bytes": 46902,
+      "mtime_ns": 1793437178920442500
+    },
+    "results/P8/temperature_repair_v34/holdout_screen.json.receipt.json": {
+      "sha256": "943a539f39fa7f4faf1df1ecf5e9f3fd1c10cb2f2dd3540c8bea067228c49891",
+      "bytes": 141,
+      "mtime_ns": 1793437178930016900
+    },
+    "results/P8/temperature_repair_v34/ranking_evidence.json": {
+      "sha256": "fca22de116fd600054af49cd126a58008beb0a5fbcd9439bb2f53173911958d9",
+      "bytes": 41337,
+      "mtime_ns": 1793437178935186300
+    },
+    "results/P8/temperature_repair_v34/ranking_evidence.json.receipt.json": {
+      "sha256": "d718c3b00bbdc8ef3feb735b8b5c5a46dc8c279b3349eab2799504f6b08de898",
+      "bytes": 141,
+      "mtime_ns": 1793437178945958400
+    },
+    "results/P8/temperature_repair_v34/result.json": {
+      "sha256": "e37b109ac563172587fd80a52e2cbeb3392589bc66b79fa04891ffba9f6671d9",
+      "bytes": 51018,
+      "mtime_ns": 1793437179193583000
+    },
+    "results/P8/temperature_repair_v34/result.json.receipt.json": {
+      "sha256": "329d29afc0494e0f66511726b5a747b097ade32a73c9639dac55ea56013022d6",
+      "bytes": 141,
+      "mtime_ns": 1793437179205126400
+    },
+    "results/P8/temperature_repair_v34/applications/calibration_frozen_P7_temperature.json": {
+      "sha256": "c7e2b6672bd220d52e4d34619cde04b3170b64b27a7cb8c3e0d5c437d6482f59",
+      "bytes": 38534,
+      "mtime_ns": 1793437179155044300
+    },
+    "results/P8/temperature_repair_v34/applications/calibration_frozen_P7_temperature.json.receipt.json": {
+      "sha256": "bb04d90877828d777dfb68569df2f79992a313cc126fec0ebdc6b9681c42dfc8",
+      "bytes": 141,
+      "mtime_ns": 1793437179166942900
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0000.json": {
+      "sha256": "38c09b5e0a995dd179c72605ba685d65d34295a5c4c5e9c4592b99849ee2c64a",
+      "bytes": 2727,
+      "mtime_ns": 1793437177603872000
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0000.json.receipt.json": {
+      "sha256": "94d067202d69aebb9735fd79b910b5626341e6e6ce0124038e24313e5e3f5831",
+      "bytes": 140,
+      "mtime_ns": 1793437177613759900
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0001.json": {
+      "sha256": "c308047c64ca31d15f78b12bc3de835c61b87731a0efd3638773263f8bd686ac",
+      "bytes": 2751,
+      "mtime_ns": 1793437177691300100
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0001.json.receipt.json": {
+      "sha256": "609501e3bc0c824abf7eca7d69d7d9a463d33b1f335ce39207470e40d87ccd29",
+      "bytes": 140,
+      "mtime_ns": 1793437177702111500
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0028.json": {
+      "sha256": "79434979ecb9803c335f96d7f9df1eb73a98e9d8da997a775ad384147e01efd6",
+      "bytes": 2726,
+      "mtime_ns": 1793437177795613300
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0028.json.receipt.json": {
+      "sha256": "fd159a82b7c7a5b504b1ec9bb44fa1087d83fb72a6d557a10ef7d914c46c006b",
+      "bytes": 140,
+      "mtime_ns": 1793437177806773700
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0029.json": {
+      "sha256": "409b0a6c11eaca7463644d3867d02deaed2a661c7cc5bee83e661873fe24bfa5",
+      "bytes": 2756,
+      "mtime_ns": 1793437177898703200
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0029.json.receipt.json": {
+      "sha256": "c7226672922c389af659a9785b7914e15a402c5d2cdd4397cff3da346ce72bb6",
+      "bytes": 140,
+      "mtime_ns": 1793437177909682100
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0040.json": {
+      "sha256": "9c8092ce03991b76c6919ec954772c8cae62e2cc559c924809ad57572b584f25",
+      "bytes": 2758,
+      "mtime_ns": 1793437177996528600
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0040.json.receipt.json": {
+      "sha256": "287d891782c4b474392431e825024cd2d69f855416842534e32dd2a563817fa8",
+      "bytes": 140,
+      "mtime_ns": 1793437178006458600
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0048.json": {
+      "sha256": "d2743fbce62e86f2e76838ad104f8ebaeef56dfa4767b4ad4810734da3bf4aba",
+      "bytes": 2739,
+      "mtime_ns": 1793437178080499200
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0048.json.receipt.json": {
+      "sha256": "200d6524c2afcc7e7add0577fae1e8648fed9af935d7f864c27eda79d7426a49",
+      "bytes": 140,
+      "mtime_ns": 1793437178091323800
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0049.json": {
+      "sha256": "0b91df6ec85094d47eaa6371917c9a8566fa0499a4827baeb4f7b8dfde19302e",
+      "bytes": 2743,
+      "mtime_ns": 1793437178179676900
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0049.json.receipt.json": {
+      "sha256": "e315ef647f19999750ec954edfaf89554ae847a4351c687f7d1b95e1bce357d4",
+      "bytes": 140,
+      "mtime_ns": 1793437178187380300
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0051.json": {
+      "sha256": "78d6566946183e5e57612a3829579026cd632139eebfaecd4066d43950b22265",
+      "bytes": 2749,
+      "mtime_ns": 1793437178262739400
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0051.json.receipt.json": {
+      "sha256": "3f24ffb98382729d6b38fa0a4601e4aad8b7d7d32e089276481fcd99676ec2cd",
+      "bytes": 140,
+      "mtime_ns": 1793437178272130200
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0061.json": {
+      "sha256": "b702332d47da3261f40810a4beb92a4e2d920be8df1bc2a3d62150ab603b809f",
+      "bytes": 2748,
+      "mtime_ns": 1793437178360164800
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0061.json.receipt.json": {
+      "sha256": "df7417d023df2219a68e8cbfa6967d23802378e014ac88a4cd7e2db8a882a503",
+      "bytes": 140,
+      "mtime_ns": 1793437178370406200
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0069.json": {
+      "sha256": "b3f0d33dfb5fb51971503d6953b1af145a1612bc0d3fcbc35d678e25100b904a",
+      "bytes": 2744,
+      "mtime_ns": 1793437178448756700
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0069.json.receipt.json": {
+      "sha256": "e32842a56feb78c023072b3944ae9b252d4af2c0e52f1acf210f7de26ddee190",
+      "bytes": 140,
+      "mtime_ns": 1793437178458802500
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0074.json": {
+      "sha256": "1bd504c82071d60b3e01d8c83fc15e2ea337907fc65297ea29176507bb535194",
+      "bytes": 2755,
+      "mtime_ns": 1793437178544627300
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0074.json.receipt.json": {
+      "sha256": "0b5b37d0b2406bfd77c26fb3eff326174721925e0ba2ab39b788a775606b72a1",
+      "bytes": 140,
+      "mtime_ns": 1793437178553755000
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0081.json": {
+      "sha256": "e989dd8d8963197b3a8622152ea1174b0843318f83406354bcedd29790ac138b",
+      "bytes": 2748,
+      "mtime_ns": 1793437178632059400
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0081.json.receipt.json": {
+      "sha256": "b999c609d9e90ecac71337fb7e9bf635718bad1c84b935c0b0d2b7e6230e24e1",
+      "bytes": 140,
+      "mtime_ns": 1793437178645087600
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0082.json": {
+      "sha256": "b8281f651573f38d48862e3342e7056aebf7b75e61e220a897882f37ebe9f4fb",
+      "bytes": 2754,
+      "mtime_ns": 1793437178723724400
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0082.json.receipt.json": {
+      "sha256": "b79d1fd83f3bfedffb9e6476726a16a17ec2678e430412513cdacb05082fdf77",
+      "bytes": 140,
+      "mtime_ns": 1793437178734574400
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0088.json": {
+      "sha256": "2cb03c2538938c2f9e4670873faedc6640e298ae233ddb53bf775d56e448c157",
+      "bytes": 2753,
+      "mtime_ns": 1793437178816935000
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0088.json.receipt.json": {
+      "sha256": "bfa6f3159a9b799a170a299932d39525b0fde456f7cb02d68fbb49eb2e0717e2",
+      "bytes": 140,
+      "mtime_ns": 1793437178827014000
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0094.json": {
+      "sha256": "12231f1389e9e1eaad54d22d36a1b99f598dc506bcab71231fdd0b8a63d967a5",
+      "bytes": 2756,
+      "mtime_ns": 1793437178902406200
+    },
+    "results/P8/temperature_repair_v34/applications/held_scene_0094.json.receipt.json": {
+      "sha256": "9e1b50de2150eef5024d85406a12d8bc794c71e255376ea5b365d42f1de03552",
+      "bytes": 140,
+      "mtime_ns": 1793437178912110400
+    },
+    "results/P8/temperature_repair_v34/applications/validation_frozen_P7_temperature.json": {
+      "sha256": "c812ed55a0852f64e7d26ec53702e6b9339b22bf8e8fdba60eb34692ed3effd9",
+      "bytes": 38467,
+      "mtime_ns": 1793437179176693100
+    },
+    "results/P8/temperature_repair_v34/applications/validation_frozen_P7_temperature.json.receipt.json": {
+      "sha256": "df3bc01eb1f5b6bace1cc02deff233a693c348bcf753ac778fac47b687aae5ac",
+      "bytes": 141,
+      "mtime_ns": 1793437179186607000
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0000.json": {
+      "sha256": "0567dec001abc047163a25c5f5ecae2906d4a5cbd606f7548f2c601ffb02de6a",
+      "bytes": 2586,
+      "mtime_ns": 1793437177587266400
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0000.json.receipt.json": {
+      "sha256": "c2da1d58dbc3096fef69dbf75e89da188f5b5af021796e712a08dc2f58d944c9",
+      "bytes": 140,
+      "mtime_ns": 1793437177597663500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0001.json": {
+      "sha256": "7880762b56b939efaf41b0311f1eb7df6224f321bc2cb5b8d72cf5af8e0774c3",
+      "bytes": 2445,
+      "mtime_ns": 1793437177676290300
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0001.json.receipt.json": {
+      "sha256": "26e653e07d302ec48fc04b16c589975e0fb787e6356386ead6d546a97b25ff52",
+      "bytes": 140,
+      "mtime_ns": 1793437177685900500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0028.json": {
+      "sha256": "2c83e9fe9eaa9fd1cc48409b7ffd3e924b86d6c75b2c190ebd16cb4dcf782d48",
+      "bytes": 2446,
+      "mtime_ns": 1793437177779136000
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0028.json.receipt.json": {
+      "sha256": "511029bcdfd24a8022285e07797cb79961e4f9c2ffaac2f3cba79abee278e35e",
+      "bytes": 140,
+      "mtime_ns": 1793437177789902600
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0029.json": {
+      "sha256": "742e2e97e75ddcba31b408b10321cc42cd11139dce24a16ab67ba272e8c7593e",
+      "bytes": 2446,
+      "mtime_ns": 1793437177882290700
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0029.json.receipt.json": {
+      "sha256": "24962a881ba250ead06a0601517888fd28f4a92d91bdbbd1b0e4f75170d7d6d1",
+      "bytes": 140,
+      "mtime_ns": 1793437177893645900
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0040.json": {
+      "sha256": "80b8944684d14d9abac967e6f58f36cd67af676dc81508c33fc9f365e301dc56",
+      "bytes": 2444,
+      "mtime_ns": 1793437177980206100
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0040.json.receipt.json": {
+      "sha256": "99ab0c11419f27b8d3d34aaf4f67e98dc7fbc88e420596fc83929045dc179e79",
+      "bytes": 140,
+      "mtime_ns": 1793437177991914800
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0048.json": {
+      "sha256": "eb2caf04616b09f6262f8b958caf9163b4eb691fffb3910ce141c9c55e210bc4",
+      "bytes": 2441,
+      "mtime_ns": 1793437178066776500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0048.json.receipt.json": {
+      "sha256": "fecb4be30c7367a8f5bc0e23b37212c6994cd3dc674c8dcb5d77eca78ef89ee9",
+      "bytes": 140,
+      "mtime_ns": 1793437178076411100
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0049.json": {
+      "sha256": "02758d99c0954aabe47b563b51eee6314e3dca5404865ae193f18afaaa81e78f",
+      "bytes": 2586,
+      "mtime_ns": 1793437178164725800
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0049.json.receipt.json": {
+      "sha256": "2c296937986af37abef134b2d047031e16f70823ae7f181ebd160b43a1d5d9fe",
+      "bytes": 140,
+      "mtime_ns": 1793437178173655100
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0051.json": {
+      "sha256": "29f306dc00933aad1d1dc94ae0624029fa357e3878d111ab35e03b281a1ad080",
+      "bytes": 2443,
+      "mtime_ns": 1793437178248692500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0051.json.receipt.json": {
+      "sha256": "c1a6a6c5f2bcb3660bbbf433c6ce5bd2678b2789c78d453d3ef5d3ff71bc6d63",
+      "bytes": 140,
+      "mtime_ns": 1793437178258555600
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0061.json": {
+      "sha256": "4b09f4d5514fd1adeddb8b71a548027a755a7c70c221850c8d41404cbc8e39a9",
+      "bytes": 2446,
+      "mtime_ns": 1793437178344623300
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0061.json.receipt.json": {
+      "sha256": "c10409db8f3e9d4f9bb2b527487ae02e0003677d16d68344c14b422f3e3c08b0",
+      "bytes": 140,
+      "mtime_ns": 1793437178354974200
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0069.json": {
+      "sha256": "233057512f0d87afa204d76e0517d41fcd124095d355e6c85902fd6a87563496",
+      "bytes": 2447,
+      "mtime_ns": 1793437178433875500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0069.json.receipt.json": {
+      "sha256": "24034e0d07daa0dcf5ab9523b4821da0eb0dcf63d0a038a3d5614191f441fdb9",
+      "bytes": 140,
+      "mtime_ns": 1793437178443443700
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0074.json": {
+      "sha256": "5da8224ec1cd3a1525289a164a53228d1c4ed64e9ebb533cf879cc673bcdda74",
+      "bytes": 2445,
+      "mtime_ns": 1793437178529105700
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0074.json.receipt.json": {
+      "sha256": "5c6442846807ac8fb65006313550d3dfd415c7a2be757a71980f822d3594de36",
+      "bytes": 140,
+      "mtime_ns": 1793437178538802000
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0081.json": {
+      "sha256": "c70c6e8caa658569b35b4185244759a2555cfc95c9d04c6271679ce4a2dcb29d",
+      "bytes": 2440,
+      "mtime_ns": 1793437178617093100
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0081.json.receipt.json": {
+      "sha256": "8884cc258a9e8a1015bf0e104693eecf28135425d0392736e17c6ed52689ce53",
+      "bytes": 140,
+      "mtime_ns": 1793437178626412200
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0082.json": {
+      "sha256": "a0ab87c391a7f073216fa7f2fbe285ca7a8e906cef054cf5d9913d9fb71742f8",
+      "bytes": 2444,
+      "mtime_ns": 1793437178708846300
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0082.json.receipt.json": {
+      "sha256": "74a41a12c16981f06bd2ab8c037a9ad21833cf7da2b7134a23a53bc9d5e9ac64",
+      "bytes": 140,
+      "mtime_ns": 1793437178719139200
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0088.json": {
+      "sha256": "1db6d61698546458061e71b5b69d735710fa481c921dfb60b0eda6032c558a31",
+      "bytes": 2440,
+      "mtime_ns": 1793437178802026200
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0088.json.receipt.json": {
+      "sha256": "07d8cc3fbbc4d7e37ec15a1206495a6d1893a8ed04b437061bac5c217215350a",
+      "bytes": 140,
+      "mtime_ns": 1793437178811931500
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0094.json": {
+      "sha256": "0b538750307b77abb82f3623e479df87a587d23f78898d8aa52c60a2e1306091",
+      "bytes": 2446,
+      "mtime_ns": 1793437178887842100
+    },
+    "results/P8/temperature_repair_v34/fits/scene_0094.json.receipt.json": {
+      "sha256": "e829efb3dd67474948edd5cf97ae4657a1a6ee7a1398deb3733d011c1aecc1af",
+      "bytes": 140,
+      "mtime_ns": 1793437178897808100
+    }
+  },
+  "original_config": {
+    "sha256": "42394f4a7f5ce29e511f67ecae364685ff6b51e3dce273a7efdf5826ac87aee0",
+    "bytes": 8580,
+    "mtime_ns": 1793437142220414100
+  },
+  "resource_caps_unchanged": true,
+  "scientific_gates_unchanged": true,
+  "new_parameter_fits": 0,
+  "legacy_NLL_optimality_tolerance": 1e-06,
+  "scope": "supplemental engineering acceptance; original erroneous float64 legacy assertion remains a recorded failure"
+}

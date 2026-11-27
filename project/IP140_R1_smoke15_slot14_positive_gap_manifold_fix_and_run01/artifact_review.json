@@ -1,0 +1,22 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "read_only_review_passed": true,
+  "findings": [
+    "README zero_step path label corrected to static_preflight/zero_step; prior draft retained"
+  ],
+  "counts_and_conclusions_verified": {
+    "classification_replay": 181,
+    "path_replay": 20,
+    "runtime_evaluator_replay": 131,
+    "zero_checks": 217,
+    "snapshots": 3240,
+    "first_failure": "lift24 full_witness_residual",
+    "root_queries_each": 24,
+    "root_bisections_each": 21,
+    "physics_steps": 0,
+    "new_charges": 0,
+    "budget": "8/14"
+  },
+  "final_readme_sha256": "531efab6e26ca0d344a38cf8ccddefe95239f2185f3f0d48f681ad37b80a9a82",
+  "final_report_sha256": "ff63dee5863db55d079dd473fc9a3cc38e9a02716b96b71fc49e5eacef5bdc8a"
+}

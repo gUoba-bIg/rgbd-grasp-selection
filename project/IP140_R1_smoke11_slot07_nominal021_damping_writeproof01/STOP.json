@@ -1,0 +1,11 @@
+{
+  "slot": 7,
+  "reason": "zero_gate_blocked",
+  "utc": "2026-11-05T06:27:00.693617+00:00",
+  "step_calls": 0,
+  "step_returns": 0,
+  "starts": 7,
+  "retry": false,
+  "slots8_to_12_started": false,
+  "result_sha256": "ade95093b3481c1454010e6af3e27143794eea1bd11adaa512a4ae641b54a207"
+}

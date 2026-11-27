@@ -1,0 +1,2866 @@
+{
+  "version": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01",
+  "started_at": "2026-11-08T04:43:36.562283+00:00",
+  "passed": true,
+  "status": "passed_with_deferred_runtime_checks",
+  "actual_physics_steps": 0,
+  "physics_step_calls": 0,
+  "offline_replay_verified": true,
+  "offline_replay": {
+    "verified": true,
+    "sha256": "0fb1b92fe616dd56ea72db7ce15d3e47c4890912684e038d54acd667ae01762d",
+    "checks": {
+      "version_identity": true,
+      "recorded_pass": true,
+      "cases_passed": true,
+      "preflight_physics_forbidden": true,
+      "prior_wrist_baseline": true
+    },
+    "frozen_input_sha256": "1f6986eeeef209e11b60494bc271c5ca2897e5819b4afda31a08420ead2e7a7c"
+  },
+  "eligible_slots_after_zero_gate": [
+    14
+  ],
+  "static_candidate_slot": 14,
+  "dynamic_execution_authorized": true,
+  "connection_scope": "dynamic",
+  "connection_starts": 1,
+  "connection_returns": 1,
+  "disconnected": false,
+  "preregistration_sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+  "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+  "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+  "worker_sha256": "449b07f130febd2bfab6779f9468291bb6662b013ce5c5a865241f1f6162470c",
+  "engine": {
+    "version": "3.2.7+v52e1",
+    "path": "runtime/simulation_v52e/venv/Lib/site-packages/pybullet.cp312-win_amd64.pyd",
+    "sha256": "882cd523a255e66c94d5b91c119f9c688fdbc0956161eff30f2171e21677ab49"
+  },
+  "fields": [
+    {
+      "field": "flange_T_G",
+      "expected": [
+        [
+          1,
+          0,
+          0,
+          0.07
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "readback": [
+        [
+          0.9999999999999999,
+          -1.6997115861466585e-16,
+          5.225976672461859e-22,
+          0.07
+        ],
+        [
+          -7.40114346835882e-24,
+          -3.736342752167631e-15,
+          -1.0,
+          -5.551115123125783e-17
+        ],
+        [
+          1.6097471518343099e-16,
+          1.0,
+          -3.5787725947527125e-15,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "separate_pad_and_bone_link_IDs",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "observed_gear_or_loop_constraints",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "arm_home_positions",
+      "expected": [
+        2.80262806465,
+        -1.66920895915,
+        -1.69304715957,
+        -1.35013295836,
+        1.57079644829,
+        -1.90976089573
+      ],
+      "readback": [
+        2.80262806465,
+        -1.66920895915,
+        -1.69304715957,
+        -1.35013295836,
+        1.57079644829,
+        -1.90976089573
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.mass_kg",
+      "expected": 0.0864,
+      "readback": 0.0864,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.inertia_at_com_kg_m2",
+      "expected": [
+        0.0001872,
+        3.6e-06,
+        0.00018504
+      ],
+      "readback": [
+        0.0001872,
+        3.6e-06,
+        0.00018504
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.center_in_link_m",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.size",
+      "expected": [
+        0.01,
+        0.16,
+        0.02
+      ],
+      "readback": [
+        0.009999999999999995,
+        0.16,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.shape_link_index",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_palm.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999999691671
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2999999990804617
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3949999999301021
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999999691671
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2999999990804617
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3949999999301021
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.link_origin",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_palm.box.G_origin",
+      "expected": [
+        -0.065,
+        0,
+        0
+      ],
+      "readback": [
+        -0.065,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.mass_kg",
+      "expected": 0.02592,
+      "readback": 0.02592,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.inertia_at_com_kg_m2",
+      "expected": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "readback": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.center_in_link_m",
+      "expected": [
+        0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.size",
+      "expected": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.007999999999999993,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.shape_link_index",
+      "expected": 12,
+      "readback": 12,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_bone.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999983057613
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2939999939356077
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.36000000081207745
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.4499999983057613
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.2939999939356077
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.36000000081207745
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.link_origin",
+      "expected": [
+        0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_bone.box.G_origin",
+      "expected": [
+        -0.03,
+        -0.006,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        -0.00599999999999995,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.mass_kg",
+      "expected": 0.00264,
+      "readback": 0.00264,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.lateralFriction",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.inertia_at_com_kg_m2",
+      "expected": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "readback": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.center_in_link_m",
+      "expected": [
+        0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.size",
+      "expected": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.0020000000000000018,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.shape_link_index",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999820676334
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.29899999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3600000000770983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999820676334
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.29899999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3600000000770983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.link_origin",
+      "expected": [
+        0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        -0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_left_pad.box.G_origin",
+      "expected": [
+        -0.03,
+        -0.001,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        -0.0009999999999999454,
+        -5.551115123125783e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.mass_kg",
+      "expected": 0.02592,
+      "readback": 0.02592,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.lateralFriction",
+      "expected": 0.5,
+      "readback": 0.5,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.inertia_at_com_kg_m2",
+      "expected": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "readback": [
+        1.00224e-06,
+        8.64e-06,
+        7.91424e-06
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.center_in_link_m",
+      "expected": [
+        0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.size",
+      "expected": [
+        0.06,
+        0.008,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.007999999999999993,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.shape_link_index",
+      "expected": 14,
+      "readback": 14,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_bone.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999806816615
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.3059999939356076
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3599999990481275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999806816615
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.3059999939356076
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.3599999990481275
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.link_origin",
+      "expected": [
+        0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.006,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_bone.box.G_origin",
+      "expected": [
+        -0.03,
+        0.006,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        0.006000000000000005,
+        -5.551115123125783e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.mass_kg",
+      "expected": 0.00264,
+      "readback": 0.00264,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.lateralFriction",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.inertia_at_com_kg_m2",
+      "expected": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "readback": [
+        8.888e-08,
+        8.8e-07,
+        7.9288e-07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.center_in_link_m",
+      "expected": [
+        0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.orientation_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.restitution",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.rollingFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.spinningFriction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.collisionMargin_m",
+      "expected": 0.0005,
+      "readback": 0.0005,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.collision_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.type",
+      "expected": 3,
+      "readback": 3,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.size",
+      "expected": [
+        0.06,
+        0.002,
+        0.02
+      ],
+      "readback": [
+        0.06,
+        0.0020000000000000018,
+        0.020000000000000004
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.shape_body_id",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.shape_link_index",
+      "expected": 15,
+      "readback": 15,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad.box.world_route_equivalence",
+      "expected": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999816716413
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.30099999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.35999999978310665
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          -5.092009702778455e-08,
+          -1.979959903297508e-08,
+          -0.9999999999999986,
+          0.44999999816716413
+        ],
+        [
+          1.4699583012479296e-07,
+          -0.9999999999999891,
+          1.9799591547932965e-08,
+          -0.30099999393560767
+        ],
+        [
+          -0.9999999999999879,
+          -1.469958291165956e-07,
+          5.0920099914364414e-08,
+          0.35999999978310665
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.link_origin",
+      "expected": [
+        0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        0.03,
+        0.001,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.link_rotation",
+      "expected": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "readback": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_right_pad.box.G_origin",
+      "expected": [
+        -0.03,
+        0.001,
+        0
+      ],
+      "readback": [
+        -0.02999999999999997,
+        0.0010000000000000009,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "ip140_mount.name",
+      "expected": "ip140_mount",
+      "readback": "ip140_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_mount.parent",
+      "expected": 9,
+      "readback": 9,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.name",
+      "expected": "ip140_left_slide",
+      "readback": "ip140_left_slide",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.parent",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.type",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.opening_axis",
+      "expected": [
+        0,
+        -1,
+        0
+      ],
+      "readback": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.limits_m",
+      "expected": [
+        0,
+        0.07
+      ],
+      "readback": [
+        0.0,
+        0.07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.q_loaded_zero",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_damping",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_dry_friction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_effort_rating",
+      "expected": 20.0,
+      "readback": 20.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_slide.URDF_speed_rating",
+      "expected": 0.04,
+      "readback": 0.04,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.name",
+      "expected": "ip140_left_pad_mount",
+      "readback": "ip140_left_pad_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.parent",
+      "expected": 12,
+      "readback": 12,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_left_pad_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.name",
+      "expected": "ip140_right_slide",
+      "readback": "ip140_right_slide",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.parent",
+      "expected": 11,
+      "readback": 11,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.type",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.opening_axis",
+      "expected": [
+        0,
+        1,
+        0
+      ],
+      "readback": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.limits_m",
+      "expected": [
+        0,
+        0.07
+      ],
+      "readback": [
+        0.0,
+        0.07
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.q_loaded_zero",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_damping",
+      "expected": 1.0,
+      "readback": 1.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_dry_friction",
+      "expected": 0.0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_effort_rating",
+      "expected": 20.0,
+      "readback": 20.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_slide.URDF_speed_rating",
+      "expected": 0.04,
+      "readback": 0.04,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.name",
+      "expected": "ip140_right_pad_mount",
+      "readback": "ip140_right_pad_mount",
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.parent",
+      "expected": 14,
+      "readback": 14,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "ip140_right_pad_mount.type",
+      "expected": 4,
+      "readback": 4,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_width_within_1mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_midline_within_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_parallel_spread_within_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_min_corner_geometric_floating_bound",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_single_face_target_0.5mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "zero_symmetry_1mm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "G_T_tip_midline_origin_from_distal_faces_m",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "readback": [
+        2.7755575615628914e-17,
+        2.7755576248182934e-17,
+        -2.7755575615628914e-17
+      ],
+      "status": "pass",
+      "atol": 1e-09
+    },
+    {
+      "field": "slot14.fixed_path_and_live_tcp_mapping",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_flange_palm.fixed_chain_topology",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.zero_relative_transform",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.mounting_face_witnesses_pre_filter",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "wrist3_palm.fixed_chain_transform_and_collision_margins",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_opposing_pads.pre_signed_distance_face_force_and_impulse",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "distinct_thirteen_structural_pairs",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "only_opposing_pads_remain_active",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_seams_not_filtered",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "registered_pose_roundtrips_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "registered_roundtrip_residual",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "fixed_substep_s",
+      "expected": 0.004166666666666667,
+      "readback": 0.004166666666666667,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "solver_iterations",
+      "expected": 150,
+      "readback": 150,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "gravity_world_m_s2",
+      "expected": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        -9.81
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "structural_filter.exact_list_normal_returns_and_post_manifolds",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "structural_filter.setter_count",
+      "expected": 13,
+      "readback": 13,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.pre_filter_geometric_reference",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.post_filter_same_classifier_as_physical_steps",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "mount_baseline.post_filter_negative_drift_within_1nm_and_zero_manifolds",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.base_link_inertia|shoulder_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.shoulder_link|upper_arm_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.upper_arm_link|forearm_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.forearm_link|wrist_1_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_1_link|wrist_2_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_2_link|wrist_3_link",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.wrist_3_link|ip140_palm",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_left_bone|ip140_left_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_right_bone|ip140_right_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_left_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post_filter.closest_present_and_manifold_absent.ip140_palm|ip140_right_pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.left.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.left.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.fixed_pad_mount.left",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.right.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.sliding_mount.right.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "pre.fixed_pad_mount.right",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.left.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.left.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.fixed_pad_mount.left",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.right.bone",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.sliding_mount.right.pad",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "post.fixed_pad_mount.right",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "active_opposing_pads.post_signed_distance_face_force_and_impulse",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object_base_damping_audited_write",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.body_info_names",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.num_joints",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.initial_position",
+      "expected": [
+        0.48,
+        0.06,
+        0.03079100090265274
+      ],
+      "readback": [
+        0.48,
+        0.06,
+        0.03079100090265274
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.initial_orientation",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.initial_twist",
+      "expected": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "readback": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mass",
+      "expected": 0.04,
+      "readback": 0.04,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.lateral_friction",
+      "expected": 0.6,
+      "readback": 0.6,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.principal_inertia",
+      "expected": [
+        2.07736088843e-05,
+        2.06677370108e-05,
+        2.08456197305e-05
+      ],
+      "readback": [
+        2.07736088843e-05,
+        2.06677370108e-05,
+        2.08456197305e-05
+      ],
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.local_inertial_origin",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.local_inertial_orientation",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.restitution",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.rolling_friction",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.spinning_friction",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.mesh_margin_m",
+      "expected": 0.001,
+      "readback": 0.001,
+      "status": "pass",
+      "atol": 1e-12
+    },
+    {
+      "field": "object021.one_collision_shape",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mesh_identity",
+      "expected": [
+        2,
+        -1,
+        5
+      ],
+      "readback": [
+        2,
+        -1,
+        5
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mesh_scale",
+      "expected": [
+        1,
+        1,
+        1
+      ],
+      "readback": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mesh_pose_xyz",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mesh_pose_xyzw",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.mesh_filename",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "object021.collision_hull_geometry",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.mass",
+      "expected": 0,
+      "readback": 0.0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.position",
+      "expected": [
+        0.45,
+        0,
+        -0.025
+      ],
+      "readback": [
+        0.45,
+        0.0,
+        -0.025
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.orientation",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.single_collision_shape",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.shape_identity",
+      "expected": [
+        1,
+        -1,
+        3
+      ],
+      "readback": [
+        1,
+        -1,
+        3
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.box_dimensions",
+      "expected": [
+        1.2,
+        1.2,
+        0.05
+      ],
+      "readback": [
+        1.2,
+        1.2,
+        0.05
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.shape_local_translation",
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "table.shape_local_quaternion",
+      "expected": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "readback": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "registered_world_bodies_only",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "base_table_mount.pre_post_identity_witness_baseline_and_exact_filter",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "initial_scene_all_body_link_manifolds_and_external_closest",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "complete_world_13_emptied_pair_manifolds",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_zero_step_calls",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_connect_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_urdf_load_count",
+      "expected": 2,
+      "readback": 2,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "actual_table_body_count",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "only_fourteen_filter_writes_in_full_api",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "separated_speed_sources_rated_limits_and_actual_api",
+      "expected": true,
+      "readback": true,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "exactly_one_registered_external_mount_filter",
+      "expected": 1,
+      "readback": 1,
+      "status": "pass",
+      "atol": 1e-10
+    },
+    {
+      "field": "all_other_external_filters_absent",
+      "expected": 0,
+      "readback": 0,
+      "status": "pass",
+      "atol": 1e-10
+    }
+  ],
+  "required_mismatches": [],
+  "required_complete": true,
+  "sources": {
+    "shape_query": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "lines": "14327,14360-14382",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    "shape_import": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/Importers/ImportURDFDemo/BulletUrdfImporter.cpp",
+      "lines": "1528",
+      "sha256": "7d53470a85498b32947ac8d3ce120b7ff89e4da1040e8350e6f9f72fe6ba7b3b"
+    },
+    "python_fields": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/pybullet/pybullet.c",
+      "lines": "1573-1653, 5208-5306, 5339-5444, 12961-12963",
+      "sha256": "9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c"
+    },
+    "live_motor_setters_and_damping_scope": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/SharedMemory/PhysicsServerCommandProcessor.cpp",
+      "lines": "7305-7354, 10711-10717, 11257-11258, 11310-11311",
+      "sha256": "9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5"
+    },
+    "motor_data": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyJointMotor.h",
+      "lines": "27-32, 46-58",
+      "sha256": "49c480c7d7099c5f23b26b5d042cc60b33474c22ad0164623dfa9fd0d515c398"
+    },
+    "model_export": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBody.cpp",
+      "lines": "120-121, 2295-2383",
+      "sha256": "522b66bd79c3635ac558814227e3f4a59d9feca50f95a585bf9aa57c832eacd4"
+    },
+    "world_export": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/src/BulletDynamics/Featherstone/btMultiBodyDynamicsWorld.cpp",
+      "lines": "834-875",
+      "sha256": "9e1b4ed23532b71c2ab8e407d80cd9a2295d80cf3853fd26389176404a14d343"
+    },
+    "parent_flags": {
+      "path": "runtime/simulation_v52e/src/pybullet-3.2.7/examples/Importers/ImportURDFDemo/URDF2Bullet.cpp",
+      "lines": "718-728",
+      "sha256": "996719b47e5744d4f923eae1339b1e65504a809c3f7f220a4e37cfe8a2e273f6"
+    }
+  },
+  "cwd": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区",
+  "model_arg": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/model/ur5e_ip140_r1.urdf",
+  "physics_step_call_count_scope": "zero readback phase only",
+  "deferred_no_getter": [
+    "effective_collision_pair_policy",
+    "live_motor.Kp_Kd",
+    "live_motor.maxVelocity_m_s",
+    "live_motor.mode",
+    "live_motor.per_finger_max_force_N",
+    "live_motor.reference"
+  ],
+  "first_step_watchdogs": [
+    "arm_motor_saturation",
+    "arm_path_and_tcp",
+    "dynamic_slide_limit_band",
+    "filtered_structural_pairs",
+    "filtered_wrist_closest",
+    "fixed_pad_mounts",
+    "initial_contact_impulse",
+    "object_table_contacts",
+    "palm_finger_root_contact",
+    "q0_pad_pad_contact",
+    "registered_active_seams",
+    "registered_base_table_mount",
+    "unknown_contact"
+  ],
+  "deferred_evidence_plan": {
+    "live_motor.mode": "No getter. Preserve command and observe trajectory.",
+    "live_motor.Kp_Kd": "No live gains getter. Preserve setter and track errors.",
+    "live_motor.reference": "Command logged, actual q/dq independently observed.",
+    "live_motor.maxVelocity_m_s": "URDF metadata only. Check actual speed every step.",
+    "live_motor.per_finger_max_force_N": "Motor clamp not exposed. Check reported force every step.",
+    "effective_collision_pair_policy": "Effective filter cannot be completely queried. Retain flags, observed pair identities and witnesses."
+  },
+  "watchdog_checks": {
+    "filtered_structural_pairs": "All thirteen exact filtered pairs remain absent from the solver manifold on each step.",
+    "arm_path_and_tcp": "Track phase-specific frozen inverse-kinematic setpoints and TCP reference as the arm moves; hold the achieved final target reference while closing.",
+    "object_table_contacts": "Classify all registered body/link identities. Only finger pads may touch the target. Any robot-table solver manifold fails. Evaluate object support separately.",
+    "registered_base_table_mount": "The one registered filtered mount must retain its signed-distance baseline, fixed relative transform, witness identity and finite geometry on every returned step. Its solver manifold must remain absent.",
+    "arm_motor_saturation": "Read all six arm motor torques; stop on saturation against the submitted finite ceilings.",
+    "filtered_wrist_closest": "At post-filter zero and every physical step, audit raw signed wrist/palm distance against the frozen mounting baseline, both mounting faces, signed normal, relative transform and the absence of a solver manifold.",
+    "unknown_contact": "Any contact outside the phase-specific registered set, at any load, fails.",
+    "dynamic_slide_limit_band": "Retain actual q; stop outside [-1e-5,0.07001] m. Command limits remain [0,0.070] m.",
+    "initial_contact_impulse": "First actual integrated step, residual impulse/contact must be examined.",
+    "q0_pad_pad_contact": "Opposing pads at the closed endpoint: keep raw witnesses; only finite registered tangent-band, zero-force/zero-impulse rows may qualify under the active-seam thresholds.",
+    "palm_finger_root_contact": "Check current closest, shared faces and prismatic relation for four filtered sliding pairs; any solver manifold fails.",
+    "fixed_pad_mounts": "Audit fixed left/right pad mounts before filtering, preserve closest geometry and require empty solver manifolds after filtering.",
+    "registered_active_seams": "Only opposite pads may have an active manifold. Apply projected normal residual, signed distance, unit normal, forces and impulse limits; log tangential offset. Current closest supplies independent shared-face evidence."
+  },
+  "backend_limits": {
+    "rigid_linear_and_angular_damping_per_new_link": {
+      "actual_readback": null,
+      "per_link_setter_applied": false,
+      "reason": "Rigid linear/angular damping live at multibody scope. No global change."
+    }
+  },
+  "execution_hashes": {
+    "aggregate_support.py": "cd36fad11df20851893652692e5b0895818b40a1f5194dd8c2ca247abbd3b7a1",
+    "aggregate_support_replay.py": "8e18b1e6ddfa305ba510857dd6fac4e90b266c90030d07b5ab628353691b85f5",
+    "audit_api.py": "a195295f088813dd8bd8ae565fbbb55c1b8c1651ad29abd82ea413b1d74d18c7",
+    "base_table_mount.py": "b64c183fd547636c5a756d215dc880a3bfb51fff59cb475149a50616e849425d",
+    "candidate_prepare.py": "6a16fdd4b7131c2b58862a8022cd31611bfcea7c8ef50b32add6a88aaa588c94",
+    "compare_outcomes.py": "a2a7420221e7d979421889b02596ddfd0b4f121fbeaf089ee0b744e2c552c866",
+    "contact_aware_path.py": "a882fe764f420fd3ba537afc966f5976275a2e7145b4e8e15e8d18700f43bd32",
+    "contact_entry.py": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+    "contact_semantics.py": "890b80af5b74aaca5cc3749b555287a6df9a1d8597d02dca4da481cd137146f7",
+    "damping_write.py": "63cc1714dd48ce61ab9b14ead002bdefd9267a6cda6fcc4ce60ebbcfed4c12c9",
+    "dynamic_api.py": "fbef8c3302b3dd06090351f6e42a59476fff864312c5df6c5b35af1ec5f2b1c1",
+    "episode_log.py": "5e8ecfffb5eea3b7536a04b8f41733e37a1516c0a4325e8e13dc477158c187a1",
+    "full_api.py": "fb2fa1216ed1eb07b7ed155249b7923e9127c69279fd66fa237cb3f2228ffed8",
+    "input_identity.py": "6e5d8f810e4ca701daef6332d8b9c2af0cac541e6676574168f60ad8e894c5e1",
+    "mount_offline.py": "48ee97afb26ee33f62c4af9d3f940a109791f3a8f276ec0ff85941265f928f14",
+    "mountpair.py": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+    "object_episode.py": "d64159164584eba4926fee5064d8b1ef89b0751f84e6ba041e624d9a97e72d74",
+    "object_evaluator.py": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+    "object_scene_static.py": "9ec442aa4efceb121bf07adf21d638f7c1445def3b0752a44330aea544a4496a",
+    "offline_checks.py": "41348821a719ec7f166c707ebd15c34839a775808064c6f33962fb7d6b41caf7",
+    "offline_replay.py": "0bd319a0fc324a82da71373d08460e5fbfc0378e68ee93cd80fc3013f9a3c28b",
+    "pad_surface.py": "641257c30ef4bd038c2f0b83c7d0b92e4f5ce23e620a3acb8948aa47b479888f",
+    "path_integration_replay.py": "89eedb95bd086744f819e859a5c4cdf8fe46a2ff6b372a7354e7d52a4ebbff4b",
+    "path_precheck.py": "06a8e04017aca68715fe67bb66249f81039cecec55a31cb9881f327365dd8b40",
+    "positive_negative_replay.py": "34678edba5a6bba3a0d6b7b2b00ffd3d6382d444ed6e36bbf59cf56f70b476c0",
+    "postrun17.py": "c5a58e8440c4fab0b129c48626a288088ab0f279997bd1c1ff6cc1df03402f27",
+    "run_authorized.py": "b0fb0718395eed471e81302af86d3185f3b0b2ef198977cb45c72bc2d60cc1b6",
+    "run_once.py": "07855c7ad64350a0b5f37019f56eae56458ffd89227c751d6768d9c51186e846",
+    "seal_results.py": "fac97e56bf4f0dd20ca975e9015bfe45c0c9d4694a05af97305fdafdcef60645",
+    "seal_static.py": "25fcda094870d7f7f7085ff70bfb33f5bedda4939c3837d37d11407ae555dc68",
+    "seal_static_r2.py": "dee0954885afcd7840f3b71f5e30067d18375819ce6a39b8088001d5a8fdb937",
+    "seam_geometry.py": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+    "smoke15_proximity_replay.py": "2faa9bc53f559b1853e7837ebc72eb5c250640a93b18366ac2f1c123cb0c4ef0",
+    "speed_policy.py": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+    "static_admission_check.py": "bb592b111b24e12b43ebb7d6ff8e19fb1f5155cdcabb2615ff404d4d9cd3e509",
+    "static_api_audit.py": "ce20aa44a6f9abef07f1fab0960ce5e758dae267d9d460185bbc45f1a0d1a3ed",
+    "static_api_audit_r2.py": "0cf18cb6b8d2850ec1e0c4c9d19441eb2bc134d579d13c723e5f200d7ba70ce2",
+    "static_api_audit_r3.py": "75f9cbc0528fffeadf514307b0bc8c245c9541df17b8d8dd5bf0f04a66c6834a",
+    "static_identity.py": "4a10763e9b621114c48245f86afc8118acdfb3b7ddcb79f9804e98cb3483e35d",
+    "static_path_offline_replay.py": "814d1588c9dcf001c1f7eb50ce10199ca542c738ad20ae3ac47057a575d58859",
+    "structural_filter.py": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+    "trajectory.py": "831191134d75065e168f85ff1c0b39e4011018093e6dd8e584ff060563ecf50d",
+    "zero_scene.py": "449b07f130febd2bfab6779f9468291bb6662b013ce5c5a865241f1f6162470c"
+  },
+  "collision_transform_policy": "W_T_link @ link_T_inertial @ inertial_T_shape; cross-check against W_T_COM @ inertial_T_shape",
+  "pure_matrix_zero_tolerance_m": 1e-09,
+  "registered_internal_seam_numeric_zero_m": 1e-09,
+  "world_contact_audit_passed": true,
+  "speed_sources_and_actual_zero_api_verified": true,
+  "trajectory_mapping_passed": true,
+  "native_external_filter_calls": 1,
+  "native_forbidden_external_filter_calls": 0,
+  "total_filter_setter_count": 14,
+  "mount_filter_passed": true,
+  "post_filter_wrist_baseline_passed": true,
+  "wrist_static_hard_gates_passed": true,
+  "all_thirteen_post_filter_closest_and_empty_manifolds": true,
+  "structural_filter_passed": true,
+  "structural_filter_setter_count": 13,
+  "post_filter_seams_passed": true,
+  "load_calls_started": 2,
+  "load_calls_returned": 2,
+  "load_flags": {
+    "mask": 8202,
+    "self_collision": true,
+    "include_parent": true,
+    "merge_fixed_links": false,
+    "source": "submitted load flags; not a filter-state getter"
+  },
+  "gravity_command": {
+    "value_m_s2": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "verification_mode": "audited_write_path",
+    "public_readback": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "setter_returned_normally": true
+  },
+  "body_id": 0,
+  "arm_home": {
+    "joint_names": [
+      "shoulder_pan_joint",
+      "shoulder_lift_joint",
+      "elbow_joint",
+      "wrist_1_joint",
+      "wrist_2_joint",
+      "wrist_3_joint"
+    ],
+    "positions": [
+      2.80262806465,
+      -1.66920895915,
+      -1.69304715957,
+      -1.35013295836,
+      1.57079644829,
+      -1.90976089573
+    ],
+    "config_sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+    "arm_manifest_sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337"
+  },
+  "opening_q0": {
+    "corners_left_G_m": [
+      [
+        -0.05999999999999997,
+        5.5511150585604617e-17,
+        -0.010000000000000057
+      ],
+      [
+        -0.05999999999999997,
+        5.5511150611802983e-17,
+        0.009999999999999946
+      ],
+      [
+        2.7755575615628914e-17,
+        5.551115185071266e-17,
+        -0.010000000000000057
+      ],
+      [
+        2.7755575615628914e-17,
+        5.551115187691103e-17,
+        0.009999999999999946
+      ]
+    ],
+    "corners_right_G_m": [
+      [
+        -0.05999999999999997,
+        -6.456532092681463e-25,
+        -0.010000000000000002
+      ],
+      [
+        -0.05999999999999997,
+        -6.194548436975596e-25,
+        0.010000000000000002
+      ],
+      [
+        2.7755575615628914e-17,
+        6.194548436975596e-25,
+        -0.010000000000000002
+      ],
+      [
+        2.7755575615628914e-17,
+        6.456532092681463e-25,
+        0.010000000000000002
+      ]
+    ],
+    "signed_gaps_m": [
+      -5.551115123125783e-17,
+      -5.551115123125783e-17,
+      -5.551115123125782e-17,
+      -5.551115123125782e-17
+    ],
+    "raw_net_m": -5.551115123125783e-17,
+    "midline_m": 2.7755575615628914e-17,
+    "raw_min_m": -5.551115123125783e-17,
+    "qualification": "floating-point transformed witnesses; comparison not clipped"
+  },
+  "trajectory_plan_sha256": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f",
+  "physics_readback": {
+    "fixedTimeStep": 0.004166666666666667,
+    "numSubSteps": 0,
+    "numSolverIterations": 150,
+    "useRealTimeSimulation": 0,
+    "gravityAccelerationX": 0.0,
+    "gravityAccelerationY": 0.0,
+    "gravityAccelerationZ": -9.81,
+    "numNonContactInnerIterations": 1
+  },
+  "gravity_world_m_s2_readback": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "structural_filter_violations": [],
+  "object_body_id": 2,
+  "table_body_id": 1,
+  "object_link_index": -1,
+  "robot_body_id": 0,
+  "actual_client": 0,
+  "complete_api_counts_at_zero_handoff": {
+    "connect": 1,
+    "setPhysicsEngineParameter": 1,
+    "setGravity": 1,
+    "loadURDF": 2,
+    "getNumJoints": 2,
+    "getJointInfo": 65,
+    "resetJointState": 6,
+    "changeDynamics": 6,
+    "setJointMotorControl2": 2,
+    "getDynamicsInfo": 36,
+    "getCollisionShapeData": 54,
+    "getBasePositionAndOrientation": 7,
+    "getJointState": 23,
+    "getLinkState": 19,
+    "getMatrixFromQuaternion": 55,
+    "getNumConstraints": 1,
+    "performCollisionDetection": 6,
+    "getContactPoints": 6,
+    "getLinkStates": 10,
+    "getClosestPoints": 37,
+    "computeViewMatrixFromYawPitchRoll": 1,
+    "computeProjectionMatrixFOV": 1,
+    "getCameraImage": 1,
+    "getPhysicsEngineParameters": 1,
+    "getJointStates": 2,
+    "getAABB": 30,
+    "setCollisionFilterPair": 14,
+    "createCollisionShape": 1,
+    "createVisualShape": 1,
+    "createMultiBody": 1,
+    "getBodyInfo": 1,
+    "getBaseVelocity": 1,
+    "getMeshData": 1,
+    "getNumBodies": 1,
+    "getBodyUniqueId": 3
+  },
+  "observed_collision_filter_api_counts": {
+    "setCollisionFilterPair": 14
+  },
+  "speed_evidence_sha256": "cb6d0af25801d7f3c527d7149e3800749e4734a41c7d125b71b09da038a2e447",
+  "zero_sample_finished_at": "2026-11-08T04:43:36.908199+00:00",
+  "artifacts": {
+    "all_links_readback.json": "c1e8a68ac16a80bf23b9b8b784a8c2e1436b30f8ac81f6bafccb893a6fe7278e",
+    "base_table_filter_intent.json": "1b8e63604b9aa6a32a7922fd0639ed90673b41da7e4e54ec5a9efa927217c24f",
+    "base_table_filter_return.json": "eb604141cdbeadeefd4515f052d7187664d4340b069caba0ba0157c19d1ce79d",
+    "base_table_mount_assets.json": "cffb8eb1a3cf63f3d7a049c0545b78ac7cfe77f8a42e6c135081fc6e538a70bf",
+    "base_table_mount_post.json": "c1947ac67bca945050835e055142afc8ac5935bcc7b931817bf5bd3cbb01066f",
+    "base_table_mount_pre.json": "b2b32c94664f81d1f642c64709e2690f804f948ad2785143b4cc30b9f8549381",
+    "candidate_roundtrip.json": "0f21f5b78e9088f02fb99ff4c4f1eb963e274fafbbdac76597189e17af520251",
+    "collision_frame_diagnostics.json": "5112c80aeb3836767e8847d4b5a24b056164e2a66b0ff15d57e238684d067353",
+    "damping_write_audit.json": "56c07364d046f158063f0aa3df99b4132440ebf98109338442dab98467e45081",
+    "filter_post.json": "ba7120f4c124b1c24da8cf808e31860f2d276ce3eaedff2ba4ba19ecc131fcb8",
+    "filter_pre.json": "3dfe9a0ce5fa6e8d557324aecfdb41d76ab7da9bf1fda60a7a832fbef6841b33",
+    "filter_setter_01_intent.json": "9e37e277e9159788b24f3e2d562639875ff671a8f194a79bb169fb7d7f19d330",
+    "filter_setter_01_returned.json": "f3a6f349643294ea0dcb12701c2efa3c2f620ac521ea6fa88f97f1a38c92ea4d",
+    "filter_setter_02_intent.json": "43297a4ff8825bf68f523f56ac35bde8d65812900e94a4b6a24cec82c4a85356",
+    "filter_setter_02_returned.json": "e02d1bbc30893cd6e5b0fde9ffd4a959dee05ddf307644d2b66cfb01e50a97f5",
+    "filter_setter_03_intent.json": "ef731e1b5e89a725378ab34a2308d341d1d05ad2e136913f2cb69092017ef7fb",
+    "filter_setter_03_returned.json": "a8b934ea462f6bfd8d12a46541937f522bb264d879b9c6a21634a7a78c83ffb7",
+    "filter_setter_04_intent.json": "58c52c9f7339c94142b6f2aac34a2468064f2f2d012fd026ba67a28f0a4e8e0c",
+    "filter_setter_04_returned.json": "e81650ae46a6d567ddae529723bc4bae49f2a2cd7044808670c105ca5042c912",
+    "filter_setter_05_intent.json": "c155cc5b317e9d3b127cc1c5a63d680ca4a53d6063c611dd8a8bae47e7ac5252",
+    "filter_setter_05_returned.json": "6920339e68c0b69f6fb2c37cec5d59a35ed17e857b02c6faef09932e23af2188",
+    "filter_setter_06_intent.json": "014086d5112ac146eebe1063ea4a06aee8521b2e58d4104ecb85bab7246c7e46",
+    "filter_setter_06_returned.json": "895e537f12546f858f5e859eea3bbe1c04dec2400c1b242b8ac9791fd39d9577",
+    "filter_setter_07_intent.json": "02e3026d23e687395d19b92e7d24a75d706773c9e2f17eeb69186ffb22e3c509",
+    "filter_setter_07_returned.json": "de53f02276e0e005c5ea5cfb10acb7ad5dd362985d63e9edb5e9d7df2ed7a26c",
+    "filter_setter_08_intent.json": "f612a9d3db513fdfe207dd5cbfd3b8ab58317c9d0d030d23e31330a4c934210c",
+    "filter_setter_08_returned.json": "6b3e064c21e599255424f090b12c1540d337ac84830d9a2c819fe95617c710c2",
+    "filter_setter_09_intent.json": "686710709ab76bca8da36096e56fd2a9c685758ab7043ed6c56d806bca64cea0",
+    "filter_setter_09_returned.json": "3c7b94a83491452bf4ab03f36225feb810c25983e36b87be4ee3956a8693c61b",
+    "filter_setter_10_intent.json": "83d772d725fcbbfc5ca504b5d1a63fa90dde4d0b78413c166c91fb7f6a586fa6",
+    "filter_setter_10_returned.json": "07754d9603f02af92ae9672c518c0548c8dc66bb434c0e6da218983c3ff4b3b1",
+    "filter_setter_11_intent.json": "f3ba4b3661c8442bb9351ce803246b94c2c41a713241dc252910edf033db6ab2",
+    "filter_setter_11_returned.json": "3f1cfa594c36e17a8ce67d2ab0ba4304892bb9eb6eefef059732a8fbd84701eb",
+    "filter_setter_12_intent.json": "db86671fe88a97957ee3381b1f63db130860382775a4aa25663d5b46a5c791a3",
+    "filter_setter_12_returned.json": "69c58b98906a0e1f5ce8b0b4d436a55db2e69f2d4fa61986508cf0a9e9a7f695",
+    "filter_setter_13_intent.json": "7da263046f1b6add9b0b9d12090881a14c7ba95f56e08682f06fd0d95a64d2cd",
+    "filter_setter_13_returned.json": "9bb1a361d643337958358cf09881976ca16beff9cb37d317dcace7c27c4f9662",
+    "initial_world_contacts.json": "eacdf6e7a9818a8672425540e1550f215a3c88d34f8819a96303b6af6c38f1fb",
+    "object021_readback.json": "7e96c5a3ce2bbd3ec89578a4b669b59c72ab37daef2436be3813cb581c0075e2",
+    "post_filter_thirteen_pairs_closest_and_manifolds.json": "efeed5d5f7271d9340d709519f39eecdfef1f530bef5f869fee9aa56cc75edd5",
+    "post_filter_wrist_mount_invariant.json": "921e74f7ff6f794789d50604f3e2dbccb0f5c92bbfa145426f6719cedaf26953",
+    "pre_filter_wrist_fixed_chain.json": "1dbe30f3486fdcf230c20c04358f67cfb4f23a0dc98cfa8519380a6b06074427",
+    "pre_filter_wrist_mount_face_witnesses.json": "c57f834e2d05a612f435d2cfc003fe1def748e05e31cefe7a9cc21fe8bff9cf2",
+    "pre_filter_wrist_mount_invariant.json": "c182f99ff7e1958b1eab33413adeed4a08b46bbdba7f33b1b076c535d18fffdd",
+    "pre_filter_wrist_relative_transform.json": "b8b0fee31817336ded9d382719d86d8dfc533339202f101c2ba9ceac897c797b",
+    "registered_base_table_mount_filter.json": "303b33588835db2dd855e974a33d16f78dcdf2d8275bba6e0a1e6ee1bf609842",
+    "seams_after_filter.json": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+    "seams_before_filter.json": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+    "slot14_trajectory_mapping.json": "905fd102a443d4adf5887b0f9a9aeb884271bf5800c7a0deb9b3138ed57c649d",
+    "speed_and_complete_api_prefix.json": "cb6d0af25801d7f3c527d7149e3800749e4734a41c7d125b71b09da038a2e447",
+    "start.json": "d505840c8d8e543371f0d3f5ea4dadffb1a80f9d2d9e611cbc4977b6353ae6bc",
+    "structural_filter_readback.json": "7a2f97535b9a1f94816e79e868002fd027242cca7d5487be8d67745528e82ccd",
+    "table_readback.json": "babc9199e014d37fb4e71345e9db1bf949b16753db763bf488b63a8b9132db4e",
+    "zero_assembly.png": "12243652c675023da38eabb0c0c86db2178919550e1855460cee7336e3b4b673",
+    "zero_contacts.json": "5eb96ae7617b1b3d591a4128937a65ff9766ddde7b51f2d7b249f768ce3e31cc"
+  },
+  "zero_api_call_prefix": {
+    "bytes": 31871,
+    "sha256": "23ae7333acf2c049102dcd1fae7f305247748f089342e3f6d07fc1cc1bbe6cf5"
+  }
+}

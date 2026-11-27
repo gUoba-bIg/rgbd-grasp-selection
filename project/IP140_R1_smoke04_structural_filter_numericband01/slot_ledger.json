@@ -1,0 +1,137 @@
+{
+  "schema": "IP140.smoke04.ledger.final",
+  "at_utc": "2026-11-04T11:28:05.578610+00:00",
+  "version": "IP140_R1_smoke04_structural_filter_numericband01",
+  "total_slots": 12,
+  "starts": 2,
+  "returned_episodes": 2,
+  "unknown_started_episodes": 0,
+  "retries": 0,
+  "physical_steps": 3,
+  "existing_budget": 12,
+  "budget_added": 0,
+  "preregistration_sha256": "0cedc47269798ab0949a7cf399a978630ec4e7a857517ea386cb3243bfdaae3c",
+  "slots": [
+    {
+      "slot": 1,
+      "candidate_id": "IP140-BENCH-01:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "../IP140_R1_smoke03_framefix_mountpair01/episodes/01/result.json",
+      "telemetry": "../IP140_R1_smoke03_framefix_mountpair01/episodes/01/telemetry.jsonl.gz",
+      "result_sha256": "26974bd19e330895d99f9de43a5bbc8b620ae4c0c077faacb9518956cde9aea8",
+      "telemetry_sha256": "f891410e855c5e0597bc2dd0b105feb127d8ee447a91df432b2568c561376d82"
+    },
+    {
+      "slot": 2,
+      "candidate_id": "IP140-BENCH-02:empty-stroke",
+      "kind": "empty_stroke",
+      "charged": true,
+      "state": "returned_failed",
+      "result": "episodes/02/result.json",
+      "telemetry": "episodes/02/telemetry.jsonl.gz",
+      "result_sha256": "792162eccb0e089fba2b1b87e9381106e8a53e040bb42d7d7378f7b65dd981b9",
+      "telemetry_sha256": "564c08e8c00e3f1eff294761db5d995007cecb36782d547e5aa40ab7108129ee"
+    },
+    {
+      "slot": 3,
+      "candidate_id": "IP140-BENCH-03:center",
+      "kind": "center",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 4,
+      "candidate_id": "IP140-BENCH-04:offset_positive_y",
+      "kind": "offset_positive_y",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 5,
+      "candidate_id": "IP140-BENCH-05:offset_negative_y",
+      "kind": "offset_negative_y",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 6,
+      "candidate_id": "IP140-BENCH-06:single_sided_stop",
+      "kind": "single_sided_stop",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 7,
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 8,
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 9,
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "kind": "nominal",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 10,
+      "candidate_id": "v52eng:slot06:1739a47c122841f0b5d34ccf5a847ab9",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 11,
+      "candidate_id": "v52eng:slot18:ca6cde76c24149a6af295d45e0650c97",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    },
+    {
+      "slot": 12,
+      "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+      "kind": "miss",
+      "charged": false,
+      "state": "not_authorized",
+      "result": null,
+      "telemetry": null
+    }
+  ],
+  "unused_original_budget": 10,
+  "prior_starts": 1,
+  "prior_step_returns": 1,
+  "prior_final_ledger": {
+    "project_relative": "IP140_R1_smoke03_framefix_mountpair01/slot_ledger.json",
+    "sha256": "3cf7dd71c801eeb73daccc68745a39031a48276a10dc836ad88a010061ebf456"
+  },
+  "steps_this_version": 2,
+  "starts_this_version": 1
+}

@@ -1,0 +1,59 @@
+{
+  "review": "Independent read-only artifact review; only task-time/API-time distinction corrected",
+  "scope_counts_and_conclusion_agree": true,
+  "old_report_sha256": "b468c1689c1d627a26e9a3685012baca9c3f842f39aee83777631f6224364783",
+  "final_report_sha256": "76ba8736b0a1da809cd899d93273b93f9e1c3f390f6708889e2fc1e01f01df7d",
+  "api_records": [
+    {
+      "line": 1,
+      "raw": [
+        1,
+        "call",
+        1793955907483877100,
+        "connect",
+        [
+          2
+        ],
+        {}
+      ],
+      "utc": "2026-11-06T09:05:07.483877+00:00"
+    },
+    {
+      "line": 2,
+      "raw": [
+        1,
+        "return",
+        1793955907493269700,
+        0
+      ],
+      "utc": "2026-11-06T09:05:07.493270+00:00"
+    },
+    {
+      "line": 374569,
+      "raw": [
+        187285,
+        "call",
+        1793955946121905800,
+        "disconnect",
+        [],
+        {
+          "physicsClientId": 0
+        }
+      ],
+      "utc": "2026-11-06T09:05:46.121906+00:00"
+    },
+    {
+      "line": 374570,
+      "raw": [
+        187285,
+        "return",
+        1793955946130906600,
+        null
+      ],
+      "utc": "2026-11-06T09:05:46.130907+00:00"
+    }
+  ],
+  "new_connection": false,
+  "new_physical_steps": 0,
+  "new_charges": 0
+}

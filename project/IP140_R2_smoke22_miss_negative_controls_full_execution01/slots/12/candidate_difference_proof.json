@@ -1,0 +1,348 @@
+{
+  "slot": 12,
+  "new_candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+  "object_id": "017",
+  "kind": "miss",
+  "not_p3": true,
+  "parent_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+  "parent_registration_path": "IP140_R1_smoke17_slot14_postentry_scope_fix_and_run01/preregistration.json",
+  "parent_registration_sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+  "parent_frozen_record": {
+    "slot": 12,
+    "candidate_id": "v52eng:slot34:3256fc5fb95a450693c8114c9bad2d38",
+    "kind": "miss",
+    "object_id": "017",
+    "candidate_world": [
+      1.0,
+      0.06965817974794884,
+      0.02,
+      0.02,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.6225720225516049,
+      -0.05720727490483328,
+      0.06390982392972809,
+      -1.0
+    ],
+    "T_W_G_m": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.6225720225516049
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        -0.05720727490483328
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.04390982392972809
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pre_open_m": 0.06965817974794884,
+    "original_slot": {
+      "slot_id": 34,
+      "object_id": "017",
+      "xy": [
+        0.48,
+        -0.06
+      ],
+      "kind": "miss",
+      "yaw": 0.0
+    },
+    "original_attempt_id": "3256fc5fb95a450693c8114c9bad2d38",
+    "not_p3": true,
+    "height_adjustment_m_as_recorded": 0.014903531131342462,
+    "height_adjustment_source": "legacy result",
+    "check_stored_candidate_max_abs_error": 0.0,
+    "source_config": {
+      "project_relative": "configs/simulation_v52r2.json",
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807
+    },
+    "source_files": [
+      {
+        "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/intent.json",
+        "sha256": "16775cc35337a36635b51c6a65630982ca2503a1f5019745cb2c3109bb073c66",
+        "bytes": 658
+      },
+      {
+        "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/policy_input.json",
+        "sha256": "b0f1b8c00cef96a2b75ec68acecd2f55b94976b60f135ff85bf6613f3b4b01bc",
+        "bytes": 1178
+      },
+      {
+        "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/result.json",
+        "sha256": "8d93690091dc864b26b478fe183232c2a1207cdf508d42aea22e611c16e376c0",
+        "bytes": 6436
+      },
+      {
+        "project_relative": "results/simulation_v52/episodes/035_slot_34_3256fc5f/observed_rgbd.npz",
+        "sha256": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+        "bytes": 30122
+      },
+      {
+        "project_relative": "scripts/sim_v52r2_episode.py",
+        "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+        "bytes": 20944
+      }
+    ],
+    "scene_setup_only": {
+      "urdf": {
+        "project_relative": "data/simulation_v52/objects/voxel_repair/017/object.urdf",
+        "sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+        "bytes": 135234
+      },
+      "position_world_m": [
+        0.48,
+        -0.06,
+        0.02952899920940399
+      ],
+      "quaternion_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "lateral_friction": 0.6,
+      "restitution": 0,
+      "linear_damping": 0.04,
+      "angular_damping": 0.04,
+      "fixed_base": false
+    },
+    "accept": "motion executed; valid miss with no successful grasp; exceptions/other failure are not a correct negative"
+  },
+  "parent_record_canonical_sha256": "d7eba13664ee6096b5557b27ffdcec2baf2a511ff1bb381409653f41d0a3d55f",
+  "old_candidate": [
+    1.0,
+    0.06965817974794884,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.6225720225516049,
+    -0.05720727490483328,
+    0.06390982392972809,
+    -1.0
+  ],
+  "new_candidate": [
+    1.0,
+    0.06965817974794884,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.6225720225516049,
+    -0.05720727490483328,
+    0.04900629279838563,
+    -1.0
+  ],
+  "npz_observed_before_registered_miss_offset": [
+    1.0,
+    0.06965817974794884,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.4825720225516049,
+    -0.05720727490483328,
+    0.04900629279838563,
+    -1.0
+  ],
+  "source_branch_world_x_shift_m": 0.14,
+  "npz_reconstructed_candidate": [
+    1.0,
+    0.06965817974794884,
+    0.02,
+    0.02,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.6225720225516049,
+    -0.05720727490483328,
+    0.04900629279838563,
+    -1.0
+  ],
+  "legacy_height_removed_m": 0.014903531131342462,
+  "two_path_max_abs_error": 0.0,
+  "changed_candidate_indices": [
+    15
+  ],
+  "changed_pose_indices": [
+    [
+      2,
+      3
+    ]
+  ],
+  "old_G": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.6225720225516049
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      -0.05720727490483328
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.04390982392972809
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_G": [
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.6225720225516049
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      -0.05720727490483328
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.029006292798385628
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "parent_sources": {
+    "configs/simulation_v52r2.json": {
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807
+    },
+    "results/simulation_v52/episodes/035_slot_34_3256fc5f/intent.json": {
+      "sha256": "16775cc35337a36635b51c6a65630982ca2503a1f5019745cb2c3109bb073c66",
+      "bytes": 658
+    },
+    "results/simulation_v52/episodes/035_slot_34_3256fc5f/policy_input.json": {
+      "sha256": "b0f1b8c00cef96a2b75ec68acecd2f55b94976b60f135ff85bf6613f3b4b01bc",
+      "bytes": 1178
+    },
+    "results/simulation_v52/episodes/035_slot_34_3256fc5f/result.json": {
+      "sha256": "8d93690091dc864b26b478fe183232c2a1207cdf508d42aea22e611c16e376c0",
+      "bytes": 6436
+    },
+    "results/simulation_v52/episodes/035_slot_34_3256fc5f/observed_rgbd.npz": {
+      "sha256": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+      "bytes": 30122
+    },
+    "scripts/sim_v52r2_episode.py": {
+      "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "bytes": 20944
+    },
+    "scripts/sim_v52_math.py": {
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "bytes": 2832
+    },
+    "data/simulation_v52/objects/voxel_repair/017/object.urdf": {
+      "sha256": "b832a504b117af362534449feaac3c7043102ce04feb36487f7e3316b5deceb3",
+      "bytes": 135234
+    },
+    "data/simulation_v52/objects/voxel_repair/017/visual.obj": {
+      "sha256": "d452e27e0dd6ccb831c3b144afb912d825a6d9d22257d8d4538de77e76188443",
+      "bytes": 1163466
+    },
+    "IP140_R1_smoke18_remaining_five_bridge_confirmation01/model/ur5e_ip140_r1.urdf": {
+      "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "bytes": 15655
+    }
+  },
+  "scene_setup_unchanged": true,
+  "checks_passed": true,
+  "artifact_sha256": {
+    "preregistration.json": "c41b6b0ee31822080bd775411041937b567b9f3e5e3469032bbefd3565b91c4d",
+    "trajectory_plan.json": "b67b91773737caf8a716f635636fd253b1137fd58b0d226d95232bf5a2cb046d",
+    "frozen_trajectory_commands.jsonl.gz": "8a90777a628c28d6e0d302bd88be015005ffbcda7920d6c2b0a289ddf2c88541"
+  },
+  "regenerated_reference_count": 4728,
+  "ik_roundtrips": [
+    {
+      "phase": "transit",
+      "FK_translation_error_m": 6.346873868107313e-13,
+      "FK_rotation_error_rad": 1.8903612962177358e-13
+    },
+    {
+      "phase": "pregrasp",
+      "FK_translation_error_m": 1.9724528346102964e-12,
+      "FK_rotation_error_rad": 6.808623738257183e-13
+    },
+    {
+      "phase": "approach",
+      "FK_translation_error_m": 6.304436229797388e-12,
+      "FK_rotation_error_rad": 2.220120223476995e-12
+    },
+    {
+      "phase": "lift",
+      "FK_translation_error_m": 1.0086930687837635e-13,
+      "FK_rotation_error_rad": 3.398650216148702e-14
+    }
+  ],
+  "passed": true,
+  "physics_steps": 0
+}

@@ -1,0 +1,202 @@
+{
+  "version": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01",
+  "side": "left",
+  "passed": false,
+  "status": "entry_not_admitted",
+  "robot_body_id": 0,
+  "target_body_id": 2,
+  "pad_link_index": 13,
+  "phase": "close",
+  "source_snapshot": {
+    "phase": "close",
+    "previous_snapshot": 2760,
+    "current_snapshot": 2761,
+    "previous_signed_distance_m": 9.93843752128598e-05,
+    "current_signed_distance_m": -2.5902105848273895e-05,
+    "precontact_clean": true
+  },
+  "physics_step_calls": 0,
+  "charged": false,
+  "geometric_entry_only": true,
+  "dynamic_contact_force_verified": false,
+  "caller_must_restore_command_reference": true,
+  "object_pose_modified": false,
+  "root_bracket_tolerance_m": 1e-10,
+  "root_distance_tolerance_m": 1e-09,
+  "max_bisections": 48,
+  "query_distance_m": 0.2,
+  "q_clear_input_m": 0.03092908987397442,
+  "q_overlap_input_m": 0.03076658987397442,
+  "other_finger_q_m": 0.03076658987397442,
+  "queries_completed": 24,
+  "bisections": 21,
+  "model_face_spec": {
+    "model_sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+    "manifest_sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+    "sides": {
+      "left": {
+        "pad_link": "ip140_left_pad",
+        "bone_link": "ip140_left_bone",
+        "effective_inner_face_pad_link_m": {
+          "x": [
+            0.0,
+            0.06
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            -0.01,
+            0.01
+          ]
+        },
+        "effective_inner_face_G_x_m": [
+          -0.06,
+          0.0
+        ],
+        "inward_normal_in_pad_link": [
+          0.0,
+          1,
+          0.0
+        ],
+        "tip_plane_in_pad_link_x_m": 0.06,
+        "palm_end_in_pad_link_x_m": 0.0,
+        "tip_edge_risk_distance_m": 0.001,
+        "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+      },
+      "right": {
+        "pad_link": "ip140_right_pad",
+        "bone_link": "ip140_right_bone",
+        "effective_inner_face_pad_link_m": {
+          "x": [
+            0.0,
+            0.06
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            -0.01,
+            0.01
+          ]
+        },
+        "effective_inner_face_G_x_m": [
+          -0.06,
+          0.0
+        ],
+        "inward_normal_in_pad_link": [
+          0.0,
+          -1,
+          0.0
+        ],
+        "tip_plane_in_pad_link_x_m": 0.06,
+        "palm_end_in_pad_link_x_m": 0.0,
+        "tip_edge_risk_distance_m": 0.001,
+        "tip_edge_risk_scope": "descriptive static proximity only; not a dynamic gate or new success threshold"
+      }
+    },
+    "statement": "The effective inner face is local y=0. Local y=+/-0.002 m is the fixed bone/pad back seam."
+  },
+  "source_sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+  "violations": [
+    "entry_witness_outside_registered_effective_face"
+  ],
+  "previous_snapshot": 2760,
+  "current_snapshot": 2761,
+  "previous_signed_distance_m": 9.93843752128598e-05,
+  "current_signed_distance_m": -2.5902105848273895e-05,
+  "precontact_clean": true,
+  "precontact_context_source": "caller verified previous snapshot and current proxy; not inferred by root solver",
+  "object_initial_pose": [
+    [
+      0.48,
+      -0.06,
+      0.02952899920940399
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "bracket": {
+    "q_clear_m": 0.03080095764393101,
+    "q_overlap_m": 0.03080095756644497,
+    "d_clear_m": 2.4088553851261962e-11,
+    "d_overlap_m": -3.4694172231300446e-11,
+    "width_m": 7.748603841895019e-11
+  },
+  "q_entry_m": 0.03080095764393101,
+  "entry_query_index": 24,
+  "entry_audit": {
+    "passed": false,
+    "violations": [
+      "entry_witness_outside_registered_effective_face"
+    ],
+    "signed_distance_m": 2.4088553851261962e-11,
+    "native_endpoint_order": "pad_object",
+    "pad_witness_world_m": [
+      0.4516503767510395,
+      -0.058552474907012306,
+      0.02918052827392817
+    ],
+    "object_witness_world_m": [
+      0.45165037676931363,
+      -0.058552474907012306,
+      0.029180528258233775
+    ],
+    "pad_witness_pad_link_m": [
+      0.059825764524415403,
+      -0.00012068815648280749,
+      0.0013452000022317753
+    ],
+    "pad_witness_G_m": [
+      -0.00017423547558456363,
+      -0.03092164580041382,
+      0.0013452000022317798
+    ],
+    "native_normal_on_B": [
+      -0.7586236870343901,
+      8.818177527937339e-15,
+      0.6515290488307852
+    ],
+    "normal_pad_to_object_world": [
+      0.7586236870343901,
+      -8.818177527937339e-15,
+      -0.6515290488307852
+    ],
+    "normal_pad_to_object_pad": [
+      0.6515290488308249,
+      0.7586236870343561,
+      -1.2709098692957413e-15
+    ],
+    "normal_pad_to_object_G": [
+      0.6515290488308249,
+      0.7586236870343561,
+      -1.2709098692957413e-15
+    ],
+    "normal_unit_error": 0.0,
+    "full_witness_residual_m": 1.2475692433444245e-17,
+    "face_outside_m": 0.00012068815648280749,
+    "on_effective_inner_face": false,
+    "inward_normal_alignment": 0.7586236870343561,
+    "tip_depth_m": 0.0001742354755845943,
+    "tip_edge_risk": true,
+    "tip_edge_risk_scope": "static descriptive flag; no dynamic success/failure meaning",
+    "raw_normal_and_tangential_force_N": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "nonpad_target_collisions_at_entry": [],
+  "entry_nonpad_gate": "fresh closest geometric intersection only; actual proxy manifolds independently required",
+  "persistent_manifold_evidence_observed": false,
+  "endpoint_or_intermediate_nonpad_collision_queries": [],
+  "endpoint_nonpad_semantics": "All endpoint/intermediate overlaps retained. Only final localized entry establishes simultaneous-entry collision; deep closed reference endpoint is not a loaded trajectory.",
+  "filter_call_count": 14,
+  "query_log_sha256": "91843d5a087188946f8a63f92301b01ae356df711b314b50dbdbbbab94a9cfeb"
+}

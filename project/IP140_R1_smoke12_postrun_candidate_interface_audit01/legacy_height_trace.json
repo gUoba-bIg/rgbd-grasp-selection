@@ -1,0 +1,2196 @@
+{
+  "version": "IP140_R1_smoke12_postrun_candidate_interface_audit01",
+  "created_utc": "2026-11-06T03:36:05.381191+00:00",
+  "mode": "existing files plus numpy arithmetic only",
+  "engine_imported": false,
+  "connections": 0,
+  "physics_steps": 0,
+  "new_charges": 0,
+  "checks": [
+    {
+      "name": "copied_hash:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json",
+      "passed": true,
+      "actual": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81",
+      "expected": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81"
+    },
+    {
+      "name": "sha256:scripts/sim_v52_math.py",
+      "passed": true,
+      "actual": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "expected": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02"
+    },
+    {
+      "name": "bytes:scripts/sim_v52_math.py",
+      "passed": true,
+      "actual": 2832,
+      "expected": 2832
+    },
+    {
+      "name": "copied_hash:scripts/sim_v52_math.py",
+      "passed": true,
+      "actual": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "expected": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02"
+    },
+    {
+      "name": "sha256:scripts/sim_v52_robot_assets.py",
+      "passed": true,
+      "actual": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd",
+      "expected": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd"
+    },
+    {
+      "name": "bytes:scripts/sim_v52_robot_assets.py",
+      "passed": true,
+      "actual": 16406,
+      "expected": 16406
+    },
+    {
+      "name": "copied_hash:scripts/sim_v52_robot_assets.py",
+      "passed": true,
+      "actual": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd",
+      "expected": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd"
+    },
+    {
+      "name": "sha256:data/simulation_v52/robot/robot_assets.json",
+      "passed": true,
+      "actual": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "expected": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337"
+    },
+    {
+      "name": "bytes:data/simulation_v52/robot/robot_assets.json",
+      "passed": true,
+      "actual": 147405,
+      "expected": 147405
+    },
+    {
+      "name": "copied_hash:data/simulation_v52/robot/robot_assets.json",
+      "passed": true,
+      "actual": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "expected": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337"
+    },
+    {
+      "name": "sha256:data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "passed": true,
+      "actual": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "expected": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950"
+    },
+    {
+      "name": "bytes:data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "passed": true,
+      "actual": 23811,
+      "expected": 23811
+    },
+    {
+      "name": "copied_hash:data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "passed": true,
+      "actual": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "expected": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950"
+    },
+    {
+      "name": "copied_hash:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke01/freeze_slots.py",
+      "passed": true,
+      "actual": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "expected": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "passed": true,
+      "actual": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "expected": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke02_pathfix01/preregistration.json",
+      "passed": true,
+      "actual": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50",
+      "expected": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50"
+    },
+    {
+      "name": "copied_hash:runtime/simulation_v52/attempt001_static_geometry.json",
+      "passed": true,
+      "actual": "c811be5951438aca7277bdcebfcf50592d17f9817639ab136b6287d6c3f1975f",
+      "expected": "c811be5951438aca7277bdcebfcf50592d17f9817639ab136b6287d6c3f1975f"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke12_slot07_base_table_mount_filter01/model/manifest.json",
+      "passed": true,
+      "actual": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "expected": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke12_slot07_base_table_mount_filter01/model/ur5e_ip140_r1.urdf",
+      "passed": true,
+      "actual": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "expected": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_scene.py",
+      "passed": true,
+      "actual": "b5b6b504dc377c85f5d52271d393f5d22ca0b98e84d30a9ea8150b24311831d0",
+      "expected": "b5b6b504dc377c85f5d52271d393f5d22ca0b98e84d30a9ea8150b24311831d0"
+    },
+    {
+      "name": "copied_hash:IP140_R1_smoke12_slot07_base_table_mount_filter01/trajectory.py",
+      "passed": true,
+      "actual": "557e8836ea3597939879ed2f0b967a535d92049807fcbf597bc9231153465a89",
+      "expected": "557e8836ea3597939879ed2f0b967a535d92049807fcbf597bc9231153465a89"
+    },
+    {
+      "name": "pure_function_set:scripts/sim_v52_math.py",
+      "passed": true,
+      "actual": [
+        "grasp_to_tool",
+        "observed_proposal",
+        "transform",
+        "unproject"
+      ],
+      "expected": [
+        "grasp_to_tool",
+        "observed_proposal",
+        "transform",
+        "unproject"
+      ]
+    },
+    {
+      "name": "pure_function_set:scripts/sim_v52_robot_assets.py",
+      "passed": true,
+      "actual": [
+        "driver_for_width",
+        "tcp_offset_for_driver"
+      ],
+      "expected": [
+        "driver_for_width",
+        "tcp_offset_for_driver"
+      ]
+    },
+    {
+      "name": "sha256:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "bytes:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": 44807,
+      "expected": 44807
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "passed": true,
+      "actual": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "expected": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "passed": true,
+      "actual": 656,
+      "expected": 656
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "passed": true,
+      "actual": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "expected": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "passed": true,
+      "actual": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "expected": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "passed": true,
+      "actual": 1176,
+      "expected": 1176
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "passed": true,
+      "actual": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "expected": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "passed": true,
+      "actual": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "expected": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "passed": true,
+      "actual": 6432,
+      "expected": 6432
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "passed": true,
+      "actual": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "expected": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "passed": true,
+      "actual": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "expected": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "passed": true,
+      "actual": 30107,
+      "expected": 30107
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "passed": true,
+      "actual": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "expected": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1"
+    },
+    {
+      "name": "sha256:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "bytes:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": 20944,
+      "expected": 20944
+    },
+    {
+      "name": "slot7:intent_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot7:result_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot7:source_binding",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "slot7:source_command",
+      "passed": true,
+      "actual": "scripts/sim_v52r2_episode.py",
+      "expected": "scripts/sim_v52r2_episode.py"
+    },
+    {
+      "name": "slot7:original_slot",
+      "passed": true,
+      "actual": {
+        "slot_id": 4,
+        "object_id": "021",
+        "xy": [
+          0.48,
+          0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "expected": {
+        "slot_id": 4,
+        "object_id": "021",
+        "xy": [
+          0.48,
+          0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      }
+    },
+    {
+      "name": "slot7:policy_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot7:result_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot7:recomputed_observation:point_count",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:recomputed_observation:bbox_min",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:recomputed_observation:bbox_max",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:recomputed_observation:estimated_object_width_m",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:recomputed_observation:contact_center_world",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:recomputed_correction",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:q_contact",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:pad_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:minimum_tool_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:reconstructed_policy",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:reconstructed_old_goal",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:ip140_G",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot7:old_pad_midpoint_equals_p",
+      "passed": true,
+      "max_abs_error": 1.3877787807814457e-17,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "sha256:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "bytes:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": 44807,
+      "expected": 44807
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+      "passed": true,
+      "actual": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f",
+      "expected": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+      "passed": true,
+      "actual": 658,
+      "expected": 658
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+      "passed": true,
+      "actual": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f",
+      "expected": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+      "passed": true,
+      "actual": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96",
+      "expected": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+      "passed": true,
+      "actual": 1174,
+      "expected": 1174
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+      "passed": true,
+      "actual": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96",
+      "expected": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+      "passed": true,
+      "actual": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd",
+      "expected": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+      "passed": true,
+      "actual": 6415,
+      "expected": 6415
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+      "passed": true,
+      "actual": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd",
+      "expected": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+      "passed": true,
+      "actual": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058",
+      "expected": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+      "passed": true,
+      "actual": 30520,
+      "expected": 30520
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+      "passed": true,
+      "actual": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058",
+      "expected": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058"
+    },
+    {
+      "name": "sha256:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "bytes:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": 20944,
+      "expected": 20944
+    },
+    {
+      "name": "slot8:intent_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot8:result_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot8:source_binding",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "slot8:source_command",
+      "passed": true,
+      "actual": "scripts/sim_v52r2_episode.py",
+      "expected": "scripts/sim_v52r2_episode.py"
+    },
+    {
+      "name": "slot8:original_slot",
+      "passed": true,
+      "actual": {
+        "slot_id": 16,
+        "object_id": "014",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "expected": {
+        "slot_id": 16,
+        "object_id": "014",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      }
+    },
+    {
+      "name": "slot8:policy_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot8:result_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot8:recomputed_observation:point_count",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:recomputed_observation:bbox_min",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:recomputed_observation:bbox_max",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:recomputed_observation:estimated_object_width_m",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:recomputed_observation:contact_center_world",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:recomputed_correction",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:q_contact",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:pad_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:minimum_tool_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:reconstructed_policy",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:reconstructed_old_goal",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:ip140_G",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot8:old_pad_midpoint_equals_p",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "sha256:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "bytes:configs/simulation_v52r2.json",
+      "passed": true,
+      "actual": 44807,
+      "expected": 44807
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+      "passed": true,
+      "actual": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b",
+      "expected": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+      "passed": true,
+      "actual": 658,
+      "expected": 658
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+      "passed": true,
+      "actual": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b",
+      "expected": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+      "passed": true,
+      "actual": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac",
+      "expected": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+      "passed": true,
+      "actual": 1178,
+      "expected": 1178
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+      "passed": true,
+      "actual": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac",
+      "expected": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+      "passed": true,
+      "actual": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1",
+      "expected": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+      "passed": true,
+      "actual": 6437,
+      "expected": 6437
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+      "passed": true,
+      "actual": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1",
+      "expected": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1"
+    },
+    {
+      "name": "sha256:results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+      "passed": true,
+      "actual": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+      "expected": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955"
+    },
+    {
+      "name": "bytes:results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+      "passed": true,
+      "actual": 30122,
+      "expected": 30122
+    },
+    {
+      "name": "copied_hash:results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+      "passed": true,
+      "actual": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+      "expected": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955"
+    },
+    {
+      "name": "sha256:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "bytes:scripts/sim_v52r2_episode.py",
+      "passed": true,
+      "actual": 20944,
+      "expected": 20944
+    },
+    {
+      "name": "slot9:intent_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot9:result_config",
+      "passed": true,
+      "actual": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "expected": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9"
+    },
+    {
+      "name": "slot9:source_binding",
+      "passed": true,
+      "actual": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "expected": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d"
+    },
+    {
+      "name": "slot9:source_command",
+      "passed": true,
+      "actual": "scripts/sim_v52r2_episode.py",
+      "expected": "scripts/sim_v52r2_episode.py"
+    },
+    {
+      "name": "slot9:original_slot",
+      "passed": true,
+      "actual": {
+        "slot_id": 32,
+        "object_id": "017",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      },
+      "expected": {
+        "slot_id": 32,
+        "object_id": "017",
+        "xy": [
+          0.48,
+          -0.06
+        ],
+        "kind": "nominal",
+        "yaw": 0.0
+      }
+    },
+    {
+      "name": "slot9:policy_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot9:result_candidate",
+      "passed": true,
+      "actual": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ],
+      "expected": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ]
+    },
+    {
+      "name": "slot9:recomputed_observation:point_count",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:recomputed_observation:bbox_min",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:recomputed_observation:bbox_max",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:recomputed_observation:estimated_object_width_m",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:recomputed_observation:contact_center_world",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:recomputed_correction",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:q_contact",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:pad_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:minimum_tool_z",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:reconstructed_policy",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:reconstructed_old_goal",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:ip140_G",
+      "passed": true,
+      "max_abs_error": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "name": "slot9:old_pad_midpoint_equals_p",
+      "passed": true,
+      "max_abs_error": 2.7755575615628914e-17,
+      "tolerance": 1e-12
+    }
+  ],
+  "all_checks_passed": true,
+  "rows": [
+    {
+      "slot": 7,
+      "object_id": "021",
+      "candidate_id": "v52eng:slot04:4f097762f0894ddda2454852daf8da59",
+      "legacy_slot": 4,
+      "original_paths": {
+        "intent.json": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+        "policy_input.json": "results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+        "result.json": "results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+        "observed_rgbd.npz": "results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz"
+      },
+      "npz_schema": {
+        "depth_buffer": {
+          "shape": [
+            240,
+            320
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        },
+        "view": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        },
+        "projection": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        }
+      },
+      "recomputed_observation": {
+        "point_count": 214,
+        "bbox_min": [
+          0.4581240067010732,
+          0.035218870983497096,
+          0.031879213608702474
+        ],
+        "bbox_max": [
+          0.5081826903563165,
+          0.08522170754413565,
+          0.05642588705528737
+        ],
+        "estimated_object_width_m": 0.05398170991686796,
+        "contact_center_world": [
+          0.48315334852869485,
+          0.06022028926381637,
+          0.031034237880408058
+        ],
+        "policy_inputs": "observed depth point cloud, fixed table/workspace, fixed requested yaw; no body pose or instance/physics labels"
+      },
+      "unprojected_shape": [
+        240,
+        320,
+        3
+      ],
+      "unadjusted_observation_candidate": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.05103423788040806,
+        -1.0
+      ],
+      "legacy_corrected_candidate": [
+        1.0,
+        0.06898170991686796,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453,
+        -1.0
+      ],
+      "legacy_height_correction_recomputed_m": 0.012778562556716472,
+      "legacy_height_correction_logged_m": 0.012778562556716472,
+      "estimated_robotiq_contact_driver_rad": 0.4256765738908348,
+      "robotiq_pad_center_offset_z_m": 0.19684454906287546,
+      "legacy_preliminary_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.48315334852869485
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.06022028926381637
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.22787878694328353
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "legacy_minimum_tool_z_m": 0.2406573495,
+      "legacy_final_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.48315334852869485
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.06022028926381637
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.2406573495
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_candidate": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "depth_m": 0.02,
+      "unadjusted_t_world_m": [
+        0.48315334852869485,
+        0.06022028926381637,
+        0.05103423788040806
+      ],
+      "corrected_t_world_m": [
+        0.48315334852869485,
+        0.06022028926381637,
+        0.06381280043712453
+      ],
+      "unadjusted_p_world_m": [
+        0.48315334852869485,
+        0.06022028926381637,
+        0.03103423788040806
+      ],
+      "corrected_p_world_m": [
+        0.48315334852869485,
+        0.06022028926381637,
+        0.04381280043712453
+      ],
+      "IP140_current_W_T_G": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.48315334852869485
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.06022028926381637
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04381280043712453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "initial_scene_object_center_z_m": 0.03079100090265274,
+      "legacy_settled_evaluation_object_center_z_m": 0.02878193930774322,
+      "current_tip_minus_initial_object_center_m": 0.01302179953447179,
+      "undo_legacy_tip_minus_initial_object_center_m": 0.000243236977755322,
+      "current_tip_minus_legacy_settled_object_center_m": 0.01503086112938131,
+      "undo_legacy_tip_minus_legacy_settled_object_center_m": 0.0022522985726648424,
+      "IP140_pad_effective_face_center_offsets_in_G_m": {
+        "left": [
+          -0.03,
+          -0.03449085495843398,
+          0
+        ],
+        "right": [
+          -0.03,
+          0.03449085495843398,
+          0
+        ]
+      },
+      "IP140_pad_midpoint_in_G_m": [
+        -0.03,
+        0,
+        0
+      ],
+      "IP140_current_pad_midpoint_world_m": [
+        0.48315334852869485,
+        0.06022028926381637,
+        0.07381280043712453
+      ],
+      "legacy_height_basis_logged": "Frozen robot collision envelope plus existing known-table clearance; no object truth and no historical P3 candidate edit",
+      "not_p3": true
+    },
+    {
+      "slot": 8,
+      "object_id": "014",
+      "candidate_id": "v52eng:slot16:25e5b3b66aa7457296ef3f88d058a715",
+      "legacy_slot": 16,
+      "original_paths": {
+        "intent.json": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+        "policy_input.json": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+        "result.json": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+        "observed_rgbd.npz": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz"
+      },
+      "npz_schema": {
+        "depth_buffer": {
+          "shape": [
+            240,
+            320
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        },
+        "view": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        },
+        "projection": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        }
+      },
+      "recomputed_observation": {
+        "point_count": 260,
+        "bbox_min": [
+          0.4549144502239701,
+          -0.08525869023452994,
+          0.032366079259311537
+        ],
+        "bbox_max": [
+          0.5114978031160754,
+          -0.02849127324753088,
+          0.05851300741498877
+        ],
+        "estimated_object_width_m": 0.0571001881117848,
+        "contact_center_world": [
+          0.4832061266700227,
+          -0.05687498174103041,
+          0.032182154078243826
+        ],
+        "policy_inputs": "observed depth point cloud, fixed table/workspace, fixed requested yaw; no body pose or instance/physics labels"
+      },
+      "unprojected_shape": [
+        240,
+        320,
+        3
+      ],
+      "unadjusted_observation_candidate": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.05218215407824382,
+        -1.0
+      ],
+      "legacy_corrected_candidate": [
+        1.0,
+        0.0721001881117848,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575,
+        -1.0
+      ],
+      "legacy_height_correction_recomputed_m": 0.01208788689431367,
+      "legacy_height_correction_logged_m": 0.01208788689431367,
+      "estimated_robotiq_contact_driver_rad": 0.4094273835085192,
+      "robotiq_pad_center_offset_z_m": 0.19638730852744252,
+      "legacy_preliminary_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4832061266700227
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05687498174103041
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.22856946260568634
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "legacy_minimum_tool_z_m": 0.2406573495,
+      "legacy_final_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4832061266700227
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05687498174103041
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.2406573495
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_candidate": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "depth_m": 0.02,
+      "unadjusted_t_world_m": [
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.05218215407824382
+      ],
+      "corrected_t_world_m": [
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.0642700409725575
+      ],
+      "unadjusted_p_world_m": [
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.03218215407824382
+      ],
+      "corrected_p_world_m": [
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.04427004097255749
+      ],
+      "IP140_current_W_T_G": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4832061266700227
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05687498174103041
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04427004097255749
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "initial_scene_object_center_z_m": 0.03232400070130825,
+      "legacy_settled_evaluation_object_center_z_m": 0.02931420654719541,
+      "current_tip_minus_initial_object_center_m": 0.011946040271249236,
+      "undo_legacy_tip_minus_initial_object_center_m": -0.0001418466230644344,
+      "current_tip_minus_legacy_settled_object_center_m": 0.01495583442536208,
+      "undo_legacy_tip_minus_legacy_settled_object_center_m": 0.0028679475310484093,
+      "IP140_pad_effective_face_center_offsets_in_G_m": {
+        "left": [
+          -0.03,
+          -0.0360500940558924,
+          0
+        ],
+        "right": [
+          -0.03,
+          0.0360500940558924,
+          0
+        ]
+      },
+      "IP140_pad_midpoint_in_G_m": [
+        -0.03,
+        0,
+        0
+      ],
+      "IP140_current_pad_midpoint_world_m": [
+        0.4832061266700227,
+        -0.05687498174103041,
+        0.07427004097255749
+      ],
+      "legacy_height_basis_logged": "Frozen robot collision envelope plus existing known-table clearance; no object truth and no historical P3 candidate edit",
+      "not_p3": true
+    },
+    {
+      "slot": 9,
+      "object_id": "017",
+      "candidate_id": "v52eng:slot32:10f55c0447784348a2a61e7c9a5f3475",
+      "legacy_slot": 32,
+      "original_paths": {
+        "intent.json": "results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+        "policy_input.json": "results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+        "result.json": "results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+        "observed_rgbd.npz": "results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz"
+      },
+      "npz_schema": {
+        "depth_buffer": {
+          "shape": [
+            240,
+            320
+          ],
+          "dtype": "float32"
+        },
+        "rgb": {
+          "shape": [
+            240,
+            320,
+            3
+          ],
+          "dtype": "uint8"
+        },
+        "view": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        },
+        "projection": {
+          "shape": [
+            16
+          ],
+          "dtype": "float64"
+        }
+      },
+      "recomputed_observation": {
+        "point_count": 210,
+        "bbox_min": [
+          0.45707919006197734,
+          -0.0822419443093531,
+          0.024011974830285533
+        ],
+        "bbox_max": [
+          0.5080648550412324,
+          -0.03217260550031347,
+          0.052738714178882956
+        ],
+        "estimated_object_width_m": 0.05465817974794884,
+        "contact_center_world": [
+          0.4825720225516049,
+          -0.05720727490483328,
+          0.029006292798385628
+        ],
+        "policy_inputs": "observed depth point cloud, fixed table/workspace, fixed requested yaw; no body pose or instance/physics labels"
+      },
+      "unprojected_shape": [
+        240,
+        320,
+        3
+      ],
+      "unadjusted_observation_candidate": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.04900629279838563,
+        -1.0
+      ],
+      "legacy_corrected_candidate": [
+        1.0,
+        0.06965817974794884,
+        0.02,
+        0.02,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809,
+        -1.0
+      ],
+      "legacy_height_correction_recomputed_m": 0.014903531131342462,
+      "legacy_height_correction_logged_m": 0.014903531131342462,
+      "estimated_robotiq_contact_driver_rad": 0.4221578077022932,
+      "robotiq_pad_center_offset_z_m": 0.1967475255702719,
+      "legacy_preliminary_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4825720225516049
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05720727490483328
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.22575381836865754
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "legacy_minimum_tool_z_m": 0.2406573495,
+      "legacy_final_tool_T": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4825720225516049
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05720727490483328
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.2406573495
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_candidate": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "depth_m": 0.02,
+      "unadjusted_t_world_m": [
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.04900629279838563
+      ],
+      "corrected_t_world_m": [
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.06390982392972809
+      ],
+      "unadjusted_p_world_m": [
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.029006292798385628
+      ],
+      "corrected_p_world_m": [
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.04390982392972809
+      ],
+      "IP140_current_W_T_G": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4825720225516049
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.05720727490483328
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04390982392972809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "initial_scene_object_center_z_m": 0.02952899920940399,
+      "legacy_settled_evaluation_object_center_z_m": 0.026519288606465692,
+      "current_tip_minus_initial_object_center_m": 0.014380824720324096,
+      "undo_legacy_tip_minus_initial_object_center_m": -0.000522706411018363,
+      "current_tip_minus_legacy_settled_object_center_m": 0.017390535323262395,
+      "undo_legacy_tip_minus_legacy_settled_object_center_m": 0.002487004191919936,
+      "IP140_pad_effective_face_center_offsets_in_G_m": {
+        "left": [
+          -0.03,
+          -0.03482908987397442,
+          0
+        ],
+        "right": [
+          -0.03,
+          0.03482908987397442,
+          0
+        ]
+      },
+      "IP140_pad_midpoint_in_G_m": [
+        -0.03,
+        0,
+        0
+      ],
+      "IP140_current_pad_midpoint_world_m": [
+        0.4825720225516049,
+        -0.05720727490483328,
+        0.07390982392972809
+      ],
+      "legacy_height_basis_logged": "Frozen robot collision envelope plus existing known-table clearance; no object truth and no historical P3 candidate edit",
+      "not_p3": true
+    }
+  ],
+  "sources": [
+    {
+      "project_relative": "configs/simulation_v52r2.json",
+      "sha256": "c2c1ba647efad56d7cbb6648cfbf7917e01315cbef69ed8f15698e865ec7fda9",
+      "bytes": 44807,
+      "mtime_ns": 1793679409292058400,
+      "copy_relative": "sources/legacy/configs/simulation_v52r2.json"
+    },
+    {
+      "project_relative": "IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json",
+      "sha256": "4a292eb6a45e0f154bead1b4a044d4cc9c43da787954bd0e4d70252d04cedd81",
+      "bytes": 46191,
+      "mtime_ns": 1793931582026952800,
+      "copy_relative": "sources/legacy/IP140_R1_smoke12_slot07_base_table_mount_filter01/preregistration.json"
+    },
+    {
+      "project_relative": "scripts/sim_v52_math.py",
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "bytes": 2832,
+      "mtime_ns": 1793677390626594900,
+      "copy_relative": "sources/legacy/scripts/sim_v52_math.py"
+    },
+    {
+      "project_relative": "scripts/sim_v52_robot_assets.py",
+      "sha256": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd",
+      "bytes": 16406,
+      "mtime_ns": 1793676930799799400,
+      "copy_relative": "sources/legacy/scripts/sim_v52_robot_assets.py"
+    },
+    {
+      "project_relative": "data/simulation_v52/robot/robot_assets.json",
+      "sha256": "9aaa7310ea4f6e495c3e5d60ce1645f181c8138f62c855871ee27df57911f337",
+      "bytes": 147405,
+      "mtime_ns": 1793676857252212500,
+      "copy_relative": "sources/legacy/data/simulation_v52/robot/robot_assets.json"
+    },
+    {
+      "project_relative": "data/simulation_v52/robot/ur5e_robotiq_2f140.urdf",
+      "sha256": "8bb0507bf59236e1914e3c8885c7cf8c16a19c12958279bd091a7818f0034950",
+      "bytes": 23811,
+      "mtime_ns": 1793676856464540900,
+      "copy_relative": "sources/legacy/data/simulation_v52/robot/ur5e_robotiq_2f140.urdf"
+    },
+    {
+      "project_relative": "scripts/sim_v52r2_episode.py",
+      "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "bytes": 20944,
+      "mtime_ns": 1793679404031554300,
+      "copy_relative": "sources/legacy/scripts/sim_v52r2_episode.py"
+    },
+    {
+      "project_relative": "IP140_R1_smoke01/freeze_slots.py",
+      "sha256": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "bytes": 10277,
+      "mtime_ns": 1793781394124017600,
+      "copy_relative": "sources/legacy/IP140_R1_smoke01/freeze_slots.py"
+    },
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "sha256": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "bytes": 13895,
+      "mtime_ns": 1793786214092112100,
+      "copy_relative": "sources/legacy/IP140_R1_smoke02_pathfix01/freeze_slots.py"
+    },
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/preregistration.json",
+      "sha256": "73c2ebfbb0f3d4a16ff9051fd36f0fe638905bafedc3a7bf06e3a2d4081a8c50",
+      "bytes": 35428,
+      "mtime_ns": 1793786245090715800,
+      "copy_relative": "sources/legacy/IP140_R1_smoke02_pathfix01/preregistration.json"
+    },
+    {
+      "project_relative": "runtime/simulation_v52/attempt001_static_geometry.json",
+      "sha256": "c811be5951438aca7277bdcebfcf50592d17f9817639ab136b6287d6c3f1975f",
+      "bytes": 60807,
+      "mtime_ns": 1793678620965670100,
+      "copy_relative": "sources/legacy/runtime/simulation_v52/attempt001_static_geometry.json"
+    },
+    {
+      "project_relative": "IP140_R1_smoke12_slot07_base_table_mount_filter01/model/manifest.json",
+      "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "bytes": 10393,
+      "mtime_ns": 1793788114760846800,
+      "copy_relative": "sources/legacy/IP140_R1_smoke12_slot07_base_table_mount_filter01/model/manifest.json"
+    },
+    {
+      "project_relative": "IP140_R1_smoke12_slot07_base_table_mount_filter01/model/ur5e_ip140_r1.urdf",
+      "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "bytes": 15655,
+      "mtime_ns": 1793788114760846800,
+      "copy_relative": "sources/legacy/IP140_R1_smoke12_slot07_base_table_mount_filter01/model/ur5e_ip140_r1.urdf"
+    },
+    {
+      "project_relative": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_scene.py",
+      "sha256": "b5b6b504dc377c85f5d52271d393f5d22ca0b98e84d30a9ea8150b24311831d0",
+      "bytes": 43529,
+      "mtime_ns": 1793931753039243500,
+      "copy_relative": "sources/legacy/IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_scene.py"
+    },
+    {
+      "project_relative": "IP140_R1_smoke12_slot07_base_table_mount_filter01/trajectory.py",
+      "sha256": "557e8836ea3597939879ed2f0b967a535d92049807fcbf597bc9231153465a89",
+      "bytes": 8252,
+      "mtime_ns": 1793850699754820800,
+      "copy_relative": "sources/legacy/IP140_R1_smoke12_slot07_base_table_mount_filter01/trajectory.py"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/intent.json",
+      "sha256": "580253655d8b605015606480821933e51998926653511781cc73f700b5290124",
+      "bytes": 656,
+      "mtime_ns": 1793679599084060000,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/005_slot_04_4f097762/intent.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json",
+      "sha256": "6ac1c11ee8c2a3e5b239272408d2c248fc95beb69ac45636c5798309fb22353f",
+      "bytes": 1176,
+      "mtime_ns": 1793679600149751800,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/005_slot_04_4f097762/policy_input.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/result.json",
+      "sha256": "3b26feed480e928799c58b995e8a6027a51237ab1b6be0685fd4ddd520c188a9",
+      "bytes": 6432,
+      "mtime_ns": 1793679602884590300,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/005_slot_04_4f097762/result.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz",
+      "sha256": "76680c27c2677c29eb647a930c33f6adfc3733119862581748d554048ceb83d1",
+      "bytes": 30107,
+      "mtime_ns": 1793679600139141000,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/005_slot_04_4f097762/observed_rgbd.npz"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json",
+      "sha256": "4843e4444baab01ae5a6a65914b39c40e5a2bffac4b57359ecd82a8cff8e406f",
+      "bytes": 658,
+      "mtime_ns": 1793679717376401100,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/017_slot_16_25e5b3b6/intent.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json",
+      "sha256": "d090edc5f38e4d137b92fb0f9c6c1ec1c7501a6e538f7d39cd971dd2945c5d96",
+      "bytes": 1174,
+      "mtime_ns": 1793679718494400400,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/017_slot_16_25e5b3b6/policy_input.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json",
+      "sha256": "b26f262c55a17d474bc60e8293980dfad603da67a3952d03c3fb8d2f62fcb6fd",
+      "bytes": 6415,
+      "mtime_ns": 1793679721832107100,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/017_slot_16_25e5b3b6/result.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz",
+      "sha256": "4b7ffe457e4b58be68ec7abb04681c6c4b9a8612ea51a1ee121ac7761d2ca058",
+      "bytes": 30520,
+      "mtime_ns": 1793679718485463700,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/017_slot_16_25e5b3b6/observed_rgbd.npz"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json",
+      "sha256": "b47716f07b7b8bc2f57b0b756041575e886953e5fe09ffb15eb31148b485a84b",
+      "bytes": 658,
+      "mtime_ns": 1793679783466186600,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/033_slot_32_10f55c04/intent.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json",
+      "sha256": "56f19c020c5323dc181f2057841c0644cdeffa8f253fef9256d9875dc84bd4ac",
+      "bytes": 1178,
+      "mtime_ns": 1793679784572976100,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/033_slot_32_10f55c04/policy_input.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/result.json",
+      "sha256": "fde230a42480914120dd8c1e5f483e174aba458359aa96dd26795bc8f14765e1",
+      "bytes": 6437,
+      "mtime_ns": 1793679788808627200,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/033_slot_32_10f55c04/result.json"
+    },
+    {
+      "project_relative": "results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz",
+      "sha256": "4da44658165611fa8df7163189237426216087fd0d78b4b8bc205ae198776955",
+      "bytes": 30122,
+      "mtime_ns": 1793679784564968100,
+      "copy_relative": "sources/legacy/results/simulation_v52/episodes/033_slot_32_10f55c04/observed_rgbd.npz"
+    }
+  ],
+  "pure_function_sources": {
+    "transform": {
+      "file": "scripts/sim_v52_math.py",
+      "first_line": 4,
+      "last_line": 10
+    },
+    "grasp_to_tool": {
+      "file": "scripts/sim_v52_math.py",
+      "first_line": 12,
+      "last_line": 19
+    },
+    "unproject": {
+      "file": "scripts/sim_v52_math.py",
+      "first_line": 21,
+      "last_line": 30
+    },
+    "observed_proposal": {
+      "file": "scripts/sim_v52_math.py",
+      "first_line": 32,
+      "last_line": 49
+    },
+    "driver_for_width": {
+      "file": "scripts/sim_v52_robot_assets.py",
+      "first_line": 197,
+      "last_line": 202
+    },
+    "tcp_offset_for_driver": {
+      "file": "scripts/sim_v52_robot_assets.py",
+      "first_line": 204,
+      "last_line": 207
+    }
+  },
+  "formula": {
+    "observation": "p_obs = center from observed depth ROI; t_obs=p_obs-R[:,0]*depth, depth=0.02",
+    "legacy_tool": "T_W_tool = T_W_candidate * T_candidate_tool; tool translation offset in candidate x = depth - old_pad_z",
+    "legacy_correction": "delta_h=max(0,table_z + old_collision_envelope + clearance - T_W_tool_preliminary[2,3]); t_z <- t_z + delta_h",
+    "IP140": "R_G=R_candidate, G_origin=p=t+R[:,0]*depth; this p is distal tip-plane midpoint, not IP140 pad center",
+    "IP140_pad_faces": "G x in [-0.060,0], z in [-0.010,+0.010], y=-q_left or +q_right; effective-face centers at x=-0.030",
+    "roundtrip": "G->F->G checks inverse matrix multiplication and registration only; no object-contact geometry is a constraint of that check"
+  },
+  "facts": [
+    "The saved observed_proposal observation.contact_center_world is unchanged by legacy correction; policy_input.candidate_world is written after correction.",
+    "engineering_proposal_height_adjustment_m is computed after pure observation using frozen old Robotiq geometry/width-dependent pad offset, not by observed_proposal.",
+    "The original freezer reapplies the stored correction to a newly reconstructed observation candidate so it matches the historical already-adjusted policy exactly; it is not a second addition to an already-adjusted candidate.",
+    "The smoke02 freezer selected paired original slots 4/6,16/18,32/34 by common v52r2 intent lineage; new IP140 results were not inputs to that selection.",
+    "Old Robotiq candidate p maps to two pad collision-box centers midpoint; IP140 candidate p maps to its distal plane midpoint; these physical semantics differ.",
+    "The archived Robot collision envelope pertains to rq_* Robotiq links, including pad half-length; no IP140 asset occurs in that source evidence."
+  ],
+  "inferences": [
+    "The correction has an executor-specific geometric rationale and is not a measurement invariant. Reusing its numerical values as an IP140 observation correction has no validated derivation in these files.",
+    "A single-variable future correction should be considered at the legacy observation-to-execution adaptation layer, not by relabeling depth or silently editing F_T_G. Historical candidates and billed failure must remain immutable.",
+    "Undoing legacy correction recovers the original observation-derived p without changing depth/R/width, but by itself does not prove physical IP140 pad-center placement or successful grasp."
+  ],
+  "not_verified": [
+    "No new dynamics, contact force, grasp outcome or admission result for any corrected candidate.",
+    "No guarantee that undoing legacy correction alone yields safe whole-robot/table clearance through the trajectory.",
+    "No inference that initial scene center equals settled center; both are separately reported.",
+    "Archived collision-envelope calculation was not rerun as an engine operation; its saved numerical result is read and bound by SHA."
+  ],
+  "geometry_evidence": {
+    "source": "runtime/simulation_v52/attempt001_static_geometry.json",
+    "recorded_max_extent_m": 0.2356573495142663,
+    "configured_envelope_m": 0.2356573495,
+    "rounding_delta_m": -1.426631035528203e-11,
+    "recorded_scope": "Saved plan and official robot geometry only; no object load/physics step/episode",
+    "recorded_proposal": {
+      "rule": "contact_z=max(table+.55*observed_height, table+max_q(gripper_extent_z(q))-tcp_z(q_contact)+existing_clearance); q∈[q_open,.695]",
+      "existing_table_clearance_m": 0.005,
+      "old_contact_z": 0.031032113112562022,
+      "observed_height_m": 0.05642202384102185,
+      "new_contact_z": 0.04381090810677276,
+      "tool_z": 0.24065734951426632,
+      "raise_m": 0.012778794994210738,
+      "limitation": "This is engineering-only candidate construction. GraspNet t/R/depth semantics and all old P3 candidates remain unchanged. Static clearance does not prove dynamic clearance."
+    }
+  },
+  "source_excerpts": [
+    {
+      "file": "scripts/sim_v52r2_episode.py",
+      "sha256": "d63f29c310ffd3901f37567ebc3c1dd3b4782649552ca5424e34bbdf188ceb0d",
+      "lines": [
+        140,
+        168
+      ],
+      "text": "140:         Image.fromarray(rgba[:,:,:3]).save(directory/'initial_rgb.png')\n141:         np.savez_compressed(directory/'observed_rgbd.npz',depth_buffer=depth,rgb=rgba[:,:,:3],view=view,projection=proj)\n142:         cloud=unproject(depth,view,proj)\n143:         candidate,observation=observed_proposal(cloud,slot['yaw'],cfg['table_z'],cfg['workspace'])\n144:         if candidate[1]>manifest['opening_calibration'][0]['inner_pad_gap_m']:\n145:             raise ExecutionRejected('gripper_width_infeasible')\n146:         q_open=driver_for_width(float(candidate[1]),manifest)\n147:         q_contact=driver_for_width(max(observation['estimated_object_width_m'],.002),manifest)\n148:         pad_z=float(tcp_offset_for_driver(q_contact,manifest)[2])\n149:         # Engineering proposal only. Respect the entire known robot envelope,\n150:         # including pad half-length while closing, before constructing controls.\n151:         preliminary=grasp_to_tool(np.eye(4),candidate,pad_z)\n152:         minimum_tool_z=cfg['table_z']+cfg['engineering_repair']['downward_collision_envelope_m']+cfg['criteria']['contact_table_clearance_m']\n153:         height_correction=max(0.,minimum_tool_z-float(preliminary[2,3]))\n154:         candidate[15]+=height_correction\n155:         result['engineering_proposal_height_adjustment_m']=height_correction\n156:         result['minimum_tool_height_from_robot_geometry_m']=minimum_tool_z\n157:         if slot['kind']=='miss':\n158:             candidate[13]+=cfg['negative_controls']['miss_x_m']\n159:         elif slot['kind']=='table_collision':\n160:             # GraspNet x axis points down, so contact_z = translation_z-depth.\n161:             candidate[15]=cfg['table_z']+cfg['negative_controls']['contact_z_relative_table_m']+candidate[3]\n162:         goal=grasp_to_tool(np.eye(4),candidate,pad_z)\n163:         result['observation']=observation\n164:         result['engineering_height_basis']='Frozen robot collision envelope plus existing known-table clearance; no object truth and no historical P3 candidate edit'\n165:         result['candidate_world']=candidate.tolist()\n166:         result['goal_tool_world']=goal.tolist()\n167:         result['estimated_contact_driver_rad']=q_contact\n168:         result['requested_opening_m']=float(candidate[1])"
+    },
+    {
+      "file": "scripts/sim_v52_math.py",
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "lines": [
+        12,
+        19
+      ],
+      "text": "12: def grasp_to_tool(T_world_camera, candidate, pad_center_z):\n13:     \"\"\"^A T_B maps B coordinates to A. GraspNet contact=t+R[:,0]*depth.\"\"\"\n14:     candidate = np.asarray(candidate, dtype=float)\n15:     T_camera_grasp = transform(candidate[4:13].reshape(3, 3), candidate[13:16])\n16:     # Gripper +z is approach; +y is closing. Its +x is GraspNet -z.\n17:     R_grasp_tool = np.array([[0., 0., 1.], [0., 1., 0.], [-1., 0., 0.]])\n18:     T_grasp_tool = transform(R_grasp_tool, [candidate[3]-pad_center_z, 0., 0.])\n19:     return np.asarray(T_world_camera) @ T_camera_grasp @ T_grasp_tool"
+    },
+    {
+      "file": "scripts/sim_v52_math.py",
+      "sha256": "53e69943996df3f90f78c439b1a8a84429c52f0779f76f4a2b756566827f4b02",
+      "lines": [
+        32,
+        49
+      ],
+      "text": "32: def observed_proposal(points_world, yaw, table_z, workspace):\n33:     cloud = np.asarray(points_world).reshape(-1,3)\n34:     lo, hi = np.asarray(workspace[0]), np.asarray(workspace[1])\n35:     selected = cloud[np.isfinite(cloud).all(axis=1) & (cloud>lo).all(axis=1) & (cloud<hi).all(axis=1)]\n36:     if len(selected)<30:\n37:         raise ValueError('empty_observation')\n38:     bmin, bmax = np.quantile(selected, [.01,.99], axis=0)\n39:     closing = np.array([np.cos(yaw), np.sin(yaw), 0.])\n40:     approach = np.array([0.,0.,-1.])\n41:     rotation = np.column_stack((approach, closing, np.cross(approach, closing)))\n42:     width = float(np.ptp(selected @ closing))\n43:     center = (bmin+bmax)/2\n44:     center[2] = table_z + (bmax[2]-table_z)*.55\n45:     depth = .02\n46:     candidate = np.r_[1., width+.015, .02, depth, rotation.ravel(), center-approach*depth, -1.]\n47:     return candidate, dict(point_count=len(selected), bbox_min=bmin.tolist(), bbox_max=bmax.tolist(),\n48:                            estimated_object_width_m=width, contact_center_world=center.tolist(),\n49:                            policy_inputs='observed depth point cloud, fixed table/workspace, fixed requested yaw; no body pose or instance/physics labels')"
+    },
+    {
+      "file": "scripts/sim_v52_robot_assets.py",
+      "sha256": "b48e0edadf384f02b6c3e53d79556786ad8e3729d5c0012e52e64817608d50dd",
+      "lines": [
+        180,
+        208
+      ],
+      "text": "180:           'urdf':str(URDF),'urdf_sha256':sha(URDF),'source_repositories':sources,\n181:           'licenses':licenses,'mesh_assets':meshes,'inertial_assumptions':inertial_assumptions,\n182:           'arm_joint_names':ARM_NAMES,'arm_ee_link':'tool0','gripper_base_link':'rq_robotiq_140_base_link',\n183:           'T_tool0_gripper_base':np.eye(4).tolist(),'mount_assumption':'coincident flange plane; stock macro +pi/2 cancelled by supplied -pi/2; no adapter thickness',\n184:           'master_joint':MASTER,'master_range_rad':[0.,.695],'mimic_joints':mimic,'pad_links':PADS,\n185:           'opening_calibration':calibration,'tcp_definition':'midpoint of two official pad collision-box centers; varies with q; orientation equals gripper base',\n186:           'width_definition':'distance between inner collision faces, using exact official FK, not width/2',\n187:           'candidate_axes':{'approach_gripper_base':[0,0,1],'closing_gripper_base':[0,1,0],\n188:                             'R_gripperBase_grasp':[[0,0,-1],[0,1,0],[1,0,0]]},\n189:           'limitations':['UR default nominal kinematics, not a particular calibrated real robot',\n190:                          'Robotiq upstream 2f140 description has not been hardware validated',\n191:                          'PyBullet mesh collision uses convex hulls per collision link; no physical grasp has been run',\n192:                          'pads have explicitly assumed mass; motor/contact dynamics require engineering admission'],\n193:           'grasp_episodes_executed':0}\n194:     dump(MANIFEST,data)\n195:     print(json.dumps({'exported':str(URDF),'gap_open_m':gaps[0],'gap_closed_m':gaps[-1],'mimic_count':len(mimic)}))\n196: \n197: def driver_for_width(width, manifest=None):\n198:     m=manifest or json.loads(MANIFEST.read_text(encoding='utf-8'))\n199:     cal=m['opening_calibration']\n200:     lo,hi=cal[-1]['inner_pad_gap_m'],cal[0]['inner_pad_gap_m']\n201:     if width<lo-1e-9 or width>hi+1e-9: raise ValueError(f'width {width} outside [{lo},{hi}]; no silent clipping')\n202:     return float(np.interp(width,[x['inner_pad_gap_m'] for x in cal][::-1],[x['driver_rad'] for x in cal][::-1]))\n203: \n204: def tcp_offset_for_driver(q, manifest=None):\n205:     m=manifest or json.loads(MANIFEST.read_text(encoding='utf-8'))\n206:     cal=m['opening_calibration']; grid=[r['driver_rad'] for r in cal]\n207:     return np.array([np.interp(q,grid,[r['tcp_in_gripper_base_m'][i] for r in cal]) for i in range(3)])\n208: "
+    },
+    {
+      "file": "IP140_R1_smoke01/freeze_slots.py",
+      "sha256": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "lines": [
+        68,
+        93
+      ],
+      "text": "68:             assert sha(ROOT / \"scripts/sim_v52_math.py\") == cfg[\"bindings\"][\"scripts/sim_v52_math.py\"][\"sha256\"]\n69:             with np.load(depth_file, allow_pickle=False) as archived:\n70:                 points = math.unproject(archived[\"depth_buffer\"], archived[\"view\"], archived[\"projection\"])\n71:             nominal, obs = math.observed_proposal(points, slot[\"yaw\"], cfg[\"table_z\"], cfg[\"workspace\"])\n72:             assert obs[\"point_count\"] == policy[\"observation\"][\"point_count\"]\n73:             assert abs(obs[\"estimated_object_width_m\"] - policy[\"observation\"][\"estimated_object_width_m\"]) < 1e-12\n74:             correction = result.get(\"engineering_proposal_height_adjustment_m\")\n75:             if correction is not None:\n76:                 nominal[15] += correction  # Preserve the signed, logged legacy height adjustment.\n77:             else:\n78:                 assert config_path == original\n79:             if kind == \"miss\":\n80:                 nominal[13] += cfg[\"negative_controls\"][\"miss_x_m\"]\n81:             max_diff = float(np.max(np.abs(nominal - data)))\n82:             if max_diff > 1e-12:\n83:                 raise ValueError(f\"Stored observation and original policy disagree: {episode.name} / {max_diff}\")\n84:             R = np.array(data[4:13]).reshape(3, 3)\n85:             T = np.eye(4)\n86:             T[:3, :3] = R\n87:             T[:3, 3] = np.array(data[13:16]) + data[3] * R[:, 0]\n88:             asset = cfg[\"objects\"][object_id]\n89:             row = {\"slot\": len(records) + 7, \"candidate_id\": f\"v52eng:slot{number:02d}:{intent['attempt_id']}\",\n90:                    \"kind\": kind, \"object_id\": object_id, \"candidate_world\": data, \"T_W_G_m\": T.tolist(),\n91:                    \"pre_open_m\": data[1], \"original_slot\": slot, \"original_attempt_id\": intent[\"attempt_id\"],\n92:                    \"not_p3\": True, \"height_adjustment_m_as_recorded\": correction,\n93:                    \"height_adjustment_source\": \"legacy result\" if correction is not None else \"no adjustment field in v52 original\","
+    },
+    {
+      "file": "IP140_R1_smoke02_pathfix01/freeze_slots.py",
+      "sha256": "88279f9c924a9715957f04b6e9b2caf04ba844255fea75e167db85f7780a37d8",
+      "lines": [
+        47,
+        115
+      ],
+      "text": "47: def select_pairs(settings, repair_hash):\n48:     # Use only the schedule and pre-run intent, never the result/outcome for selection.\n49:     expected = {\"021\": (4, 6), \"014\": (16, 18), \"017\": (32, 34)}\n50:     chosen, ancestry = {}, []\n51:     for oid in expected:\n52:         for nominal in settings[\"slots\"]:\n53:             a = nominal[\"slot_id\"]\n54:             if nominal[\"object_id\"] != oid or nominal[\"kind\"] != \"nominal\" or a % 4 != 0:\n55:                 continue\n56:             b = a + 2\n57:             miss = settings[\"slots\"][b]\n58:             if not (miss[\"slot_id\"] == b and miss[\"object_id\"] == oid and miss[\"kind\"] == \"miss\"\n59:                     and miss[\"xy\"] == nominal[\"xy\"] and miss[\"yaw\"] == nominal[\"yaw\"]):\n60:                 raise ValueError(f\"Invalid paired schedule for {oid}: {a}/{b}\")\n61:             intents = [archive_episode(i)/\"intent.json\" for i in (a, b)]\n62:             hashes = [read_json(p)[\"config\"][\"sha256\"] for p in intents]\n63:             valid = hashes == [repair_hash, repair_hash]\n64:             ancestry.append({\"object\":oid, \"pair\":[a,b], \"intent_config_hashes\":hashes,\n65:                              \"intents\":[source(p) for p in intents], \"both_v52r2\":valid})\n66:             if valid:\n67:                 chosen[oid] = (a, b)\n68:                 break\n69:         if chosen.get(oid) != expected[oid]:\n70:             raise ValueError(f\"Historical lineage does not reproduce authorized pair for {oid}\")\n71:     return chosen, ancestry\n72: \n73: \n74: def candidates():\n75:     math = archival_math()\n76:     repair = ROOT / \"configs/simulation_v52r2.json\"\n77:     settings = read_json(repair)\n78:     selected, ancestry = select_pairs(settings, sha(repair))\n79:     records = []\n80:     for kind in (\"nominal\",\"miss\"):\n81:         for object_id in (\"021\",\"014\",\"017\"):\n82:             number = selected[object_id][0 if kind == \"nominal\" else 1]\n83:             slot = settings[\"slots\"][number]\n84:             episode = archive_episode(number)\n85:             intent_file = episode / \"intent.json\"\n86:             result_file = episode / \"result.json\"\n87:             policy_file = episode / \"policy_input.json\"\n88:             depth_file = episode / \"observed_rgbd.npz\"\n89:             intent, result, policy = (read_json(p) for p in (intent_file, result_file, policy_file))\n90:             data = policy[\"candidate_world\"]\n91:             config_path = repair\n92:             assert intent[\"config\"][\"sha256\"] == sha(repair)\n93:             cfg = read_json(config_path)\n94:             assert result[\"slot\"] == slot == cfg[\"slots\"][number] and intent[\"slot_id\"] == number\n95:             assert result[\"config_identity\"][\"sha256\"] == sha(config_path)\n96:             assert result[\"candidate_world\"] == data and len(data) == 17 and np.isfinite(data).all()\n97:             exe_source = ROOT / intent[\"command\"][2]\n98:             assert sha(exe_source) == result[\"source_identity\"][\"sha256\"]\n99:             assert sha(ROOT / \"scripts/sim_v52_math.py\") == cfg[\"bindings\"][\"scripts/sim_v52_math.py\"][\"sha256\"]\n100:             with np.load(depth_file, allow_pickle=False) as archived:\n101:                 points = math.unproject(archived[\"depth_buffer\"], archived[\"view\"], archived[\"projection\"])\n102:             nominal, obs = math.observed_proposal(points, slot[\"yaw\"], cfg[\"table_z\"], cfg[\"workspace\"])\n103:             assert obs[\"point_count\"] == policy[\"observation\"][\"point_count\"]\n104:             assert abs(obs[\"estimated_object_width_m\"] - policy[\"observation\"][\"estimated_object_width_m\"]) < 1e-12\n105:             correction = result.get(\"engineering_proposal_height_adjustment_m\")\n106:             if correction is not None:\n107:                 nominal[15] += correction  # Preserve the signed, logged legacy height adjustment.\n108:             else:\n109:                 raise ValueError(\"Expected archived v52r2 height adjustment\")\n110:             if kind == \"miss\":\n111:                 nominal[13] += cfg[\"negative_controls\"][\"miss_x_m\"]\n112:             max_diff = float(np.max(np.abs(nominal - data)))\n113:             if max_diff > 1e-12:\n114:                 raise ValueError(f\"Stored observation and original policy disagree: {episode.name} / {max_diff}\")\n115:             R = np.array(data[4:13]).reshape(3, 3)"
+    },
+    {
+      "file": "IP140_R1_smoke12_slot07_base_table_mount_filter01/zero_scene.py",
+      "sha256": "b5b6b504dc377c85f5d52271d393f5d22ca0b98e84d30a9ea8150b24311831d0",
+      "lines": [
+        389,
+        412
+      ],
+      "text": "389:         check(\"zero_midline_within_0.5mm\",True,bool(abs(result[\"opening_q0\"][\"midline_m\"])<=.0005))\n390:         check(\"zero_parallel_spread_within_0.5mm\",True,bool(np.ptp(gaps)<=.0005))\n391:         check(\"zero_min_corner_geometric_floating_bound\",True,bool(min(gaps)>=-1e-9))\n392:         check(\"zero_single_face_target_0.5mm\",True,bool(max(abs(face[:,1].mean()) for face in faces)<=.0005))\n393:         check(\"zero_symmetry_1mm\",True,bool(abs(faces[0][:,1].mean()+faces[1][:,1].mean())<=.001))\n394:         distal_midpoint=np.mean([face[2:,:].mean(axis=0) for face in faces],axis=0)\n395:         check(\"G_T_tip_midline_origin_from_distal_faces_m\",[0,0,0],distal_midpoint,1e-9)\n396:         # Validate the motion independently of all evaluation-only object pose and contact observations.\n397:         candidate=np.asarray(slot7[\"candidate_world\"],dtype=float)\n398:         requested=np.eye(4)\n399:         requested[:3,:3]=candidate[4:13].reshape(3,3)\n400:         requested[:3,3]=candidate[13:16]+candidate[3]*requested[:3,0]\n401:         goal_flange=requested@np.linalg.inv(fg)\n402:         phases=[[\"settle\",240],[\"opening\",480],[\"transit\",672],[\"pregrasp\",672],[\"approach\",672],[\"close\",480],[\"lift\",792],[\"hold\",720]]\n403:         path_checks={\n404:             \"same_candidate\":plan[\"candidate_id\"]==slot7[\"candidate_id\"] and plan[\"candidate_world\"]==slot7[\"candidate_world\"],\n405:             \"preopening_from_frozen_engineering_candidate\":candidate[1]==plan[\"pre_open_m\"]==slot7[\"pre_open_m\"]==0.06898170991686796,\n406:             \"candidate_to_tip\":np.allclose(requested,slot7[\"T_W_G_m\"],atol=1e-9,rtol=0),\n407:             \"tip_ends_at_registered_goal\":np.allclose(plan[\"W_T_G_goal\"],requested,atol=1e-9,rtol=0),\n408:             \"actual_flange_to_tip_roundtrip\":np.allclose(goal_flange@fg,requested,atol=1e-9,rtol=0),\n409:             \"home_joint_coordinates\":np.allclose(plan[\"home_joints\"],home,atol=1e-9,rtol=0),\n410:             \"actual_initial_home_fk\":np.allclose(plan[\"W_T_G_home\"],G,atol=1e-9,rtol=0),\n411:             \"eight_phase_order_and_durations\":plan[\"phase_steps\"]==phases}\n412:         result[\"trajectory_plan_sha256\"]=sha(HERE/\"trajectory_plan.json\")"
+    }
+  ],
+  "recommendation_status": "freeze slots8-12; no execution authorized by this audit; do not change billed smoke12 result"
+}

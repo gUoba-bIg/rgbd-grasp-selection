@@ -1,0 +1,10 @@
+{
+  "original_source": "IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/slot_ledger.json",
+  "original_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "copy_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+  "byte_identical": true,
+  "cumulative_starts": 8,
+  "total_budget": 14,
+  "remaining": 6,
+  "slot14_uncharged": true
+}

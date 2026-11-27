@@ -1,0 +1,37 @@
+{
+  "schema": 15,
+  "revision": 1,
+  "parent_protocol": "configs/grasp_local_risk_v15.json",
+  "parent_protocol_sha256": "bc3dae233b9b276b227cd22c58770fc5a779abe18de118b45793df0f0f7a2435",
+  "change": "centroid_set_identity_without_reclassifying_means",
+  "absolute_tolerance_m": 1e-12,
+  "relative_tolerance": 0,
+  "outputs": {
+    "acceptance_report": "results/P3/grasp_local_risk_acceptance_v15r1.json",
+    "visuals_dir": "results/P3/grasp_local_risk_visuals_v15r1"
+  },
+  "source_hashes": {
+    "scripts/accept_local_risk_v15r1.py": "e2401eeabea5f6e4326e4e1453d5380f65ae0230557d91ff6c7965a4cc128f70",
+    "tests/test_local_risk_acceptance_v15r1.py": "53cdfd3cfd98c4e819d0a319515352a0acfc06241b3e1bc6beadfdf3a6beb1f9",
+    "scripts/resume_local_risk_v15r1.ps1": "cf47672e98d8ab1a728980b5074c6347eda825709d7ae61f60b62a7dda833342",
+    "docs/第十五轮体素集合验收修订说明.txt": "5ede5affed8e18f787bfea500e32f8128aad0ab1e1766585f887871598d068d6",
+    "logs/P3/local_risk_acceptance_v15r1_tests.log": "8bba8e041ca89b016bba553e8576e3be448b4a9fbd32ca2956e63ce955b73f38"
+  },
+  "evidence_hashes": {
+    "results/P3/grasp_local_risk_v15_acceptance_failure_record.json": "aaae11fa87564ea81a3600200b906b84087fca75328f42c7e7d0f8ebf26e6d20",
+    "logs/pipeline/P3E15/20261025T003445-e12c3e2d/stderr.log": "66abc076ba50d0157b629870c931f4e8bff4a2d43110fdc9293f53f9566f3b4c"
+  },
+  "budget_paths": [
+    "results/P3/grasp_local_risk_acceptance_v15r1.json",
+    "results/P3/grasp_local_risk_visuals_v15r1",
+    "results/P3/grasp_local_risk_v15_acceptance_failure_record.json",
+    "logs/P3/local_risk_acceptance_v15r1_tests.log",
+    "logs/pipeline/P3E15R1"
+  ],
+  "preserved": {
+    "original_failing_stage": "P3E15",
+    "features_and_evaluation_reused": true,
+    "threshold_or_tolerance_changed": false,
+    "production_recomputed": false
+  }
+}

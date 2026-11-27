@@ -1,0 +1,16 @@
+{
+  "version": "IP140_R1_smoke11_slot07_nominal021_damping_writeproof01",
+  "requested_steps": [
+    4249,
+    4728
+  ],
+  "planned_count": 480,
+  "observed_count": 0,
+  "rows": [],
+  "status": "not_reached",
+  "reason": [
+    "initial_scene_all_body_link_manifolds_and_external_closest"
+  ],
+  "settle_reference": null,
+  "actual_step_returns": 0
+}

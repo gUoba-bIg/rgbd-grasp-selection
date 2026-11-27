@@ -1,0 +1,1327 @@
+{
+  "version": 36,
+  "at": "2026-10-31T18:45:32.226402+08:00",
+  "seed": 20261021,
+  "seeds": [
+    20261031,
+    20261101,
+    20261102
+  ],
+  "data_root": "data/raw/p10_v36",
+  "groups": {
+    "test_seen": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "test_similar": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "test_novel": [
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ]
+  },
+  "conditions": [
+    "clean",
+    "noise5",
+    "missing15",
+    "shift3",
+    "joint",
+    "noise1",
+    "noise3",
+    "missing5",
+    "missing30",
+    "shift1",
+    "shift5",
+    "block"
+  ],
+  "primary_degraded": [
+    "noise5",
+    "missing15",
+    "shift3",
+    "joint"
+  ],
+  "extra_conditions": [
+    "noise1",
+    "noise3",
+    "missing5",
+    "missing30",
+    "shift1",
+    "shift5",
+    "block"
+  ],
+  "temperatures": {
+    "20261031": 1.1346944689230078,
+    "20261101": 1.0990246469379528,
+    "20261102": 1.0973456923898428
+  },
+  "quality_screen_epoch": 10000,
+  "decoder": {
+    "foreground_threshold": 0.5,
+    "center_threshold": 0.35,
+    "min_pixels": 20,
+    "max_centers": 64
+  },
+  "candidate_checkpoint": "experiments/candidate_v30/epoch_18_final.pt",
+  "quality_checkpoint": "experiments/p5_quality_gate_v23/quality_final.pt",
+  "segmentation_checkpoint": "experiments/p5_quality_gate_v23/epochs/09_fixed.pt",
+  "scope": "90 held-out scenes in three official groups, one fixed RealSense frame64 each,12 frozen corruption conditions; fixed upstream backbones and three retained risk seeds; not full256-frame benchmark; no calibration-improvement claim",
+  "parent_binding": "logs/P10/heldout_v36/parent_binding.json",
+  "asset_config": {
+    "sha256": "ffecd21a56c7b022bf1377f8e3965279e253c87a026d6b9b445bcabe4367d86b",
+    "bytes": 166828,
+    "mtime_ns": 1793443518649311900
+  },
+  "protected": {
+    "scripts/p10_assets_v36.py": {
+      "sha256": "7583537f742ef1036e9f07cfcd2e8be0c99559ed2ee213ab14cd6dfd842fa858",
+      "bytes": 6311,
+      "mtime_ns": 1793442823539889800
+    },
+    "scripts/p10_common_v36.py": {
+      "sha256": "0654390b9867e47a14d01618d415b83dafae96d1bce919a4d15170b125d32ceb",
+      "bytes": 4696,
+      "mtime_ns": 1793442976434292300
+    },
+    "scripts/p10_generate_v36.py": {
+      "sha256": "edc0701cb4aacb62c87c223be9985b83a3ce2e541fc17b28f9d967935f8aa7de",
+      "bytes": 5220,
+      "mtime_ns": 1793442976434292300
+    },
+    "scripts/p10_geometry_v36.py": {
+      "sha256": "2ac44ff2a0c9aac3bbcb97567e79c98d5f607a91f3965bef09bd6c8aac07b097",
+      "bytes": 6883,
+      "mtime_ns": 1793443517360331000
+    },
+    "scripts/p10_lifecycle_v36.py": {
+      "sha256": "df65c60d512e75d8631209e168d08fc83dec1d283a73742e39c002b933365545",
+      "bytes": 18220,
+      "mtime_ns": 1793443413634063600
+    },
+    "scripts/p10_metrics_v36.py": {
+      "sha256": "fdb4246aad2334ecc920cda2d83bf240e9f74baaced1a9bdb42c2fc20bf520ec",
+      "bytes": 4059,
+      "mtime_ns": 1793443060231893700
+    },
+    "scripts/p10_preflight_v36.py": {
+      "sha256": "11ae1ba1aa472a314fc24871a513403814bdb9adcc8ac9fbfd8c2499fd41ccf2",
+      "bytes": 6749,
+      "mtime_ns": 1793443273639445500
+    },
+    "scripts/p10_review_v36.py": {
+      "sha256": "c29fbb5555f8632087b4ed97bf29d2dee205ad62eac5fab4f341093d520cb4e1",
+      "bytes": 8054,
+      "mtime_ns": 1793443517361328000
+    },
+    "docs/P10独立测试与路线修订协议_v36.txt": {
+      "sha256": "b60738964d403aa60017b39ff407abefba735df1218947eadad2e4054aa90511",
+      "bytes": 7589,
+      "mtime_ns": 1793443517362324800
+    },
+    "configs/p10_assets_v36.json": {
+      "sha256": "ffecd21a56c7b022bf1377f8e3965279e253c87a026d6b9b445bcabe4367d86b",
+      "bytes": 166828,
+      "mtime_ns": 1793443518649311900
+    },
+    "logs/P10/heldout_v36/preflight/checks.json": {
+      "sha256": "222a935ee43615c1e30c6c56c83f831c4db6c15d07d53a8dda49bb989e5b30c6",
+      "bytes": 1645,
+      "mtime_ns": 1793443418675949800
+    },
+    "src/remote_zip.py": {
+      "sha256": "296e01ad1ef391fda1ddaadae36da1e37eb56fb3c18ce0ec307b4c2baf3be3e1",
+      "bytes": 6570,
+      "mtime_ns": 1792557867312075900
+    },
+    "scripts/p23_fetch_v26.py": {
+      "sha256": "83cfa0cae7444d751df0b70aa54ceddbe4c91618dfadd4be48f27bd6c7882257",
+      "bytes": 11881,
+      "mtime_ns": 1793325921508608400
+    },
+    "scripts/p23_common_v26.py": {
+      "sha256": "c3f036f1761330f9836c629596551984815edd4577133748bc7cfc19d7521344",
+      "bytes": 1264,
+      "mtime_ns": 1793325427281777400
+    },
+    "scripts/p7_checks_v31.py": {
+      "sha256": "03e32b16fcb641bde631fef37bc03739faf10412cb59472dcab48ac115aef28f",
+      "bytes": 5620,
+      "mtime_ns": 1793357190296948900
+    },
+    "scripts/p7_common_v31.py": {
+      "sha256": "f23ec89156803a5528c732412c12c1a92f503229b86e8612d6811ca84bdb829c",
+      "bytes": 3394,
+      "mtime_ns": 1793357073811854100
+    },
+    "scripts/p7_finish_v31.py": {
+      "sha256": "6ea385ee35ca2b1275632e5be31f9b83e19a37802d7b6f8a30a5c7a70ff8a8ea",
+      "bytes": 4745,
+      "mtime_ns": 1793357073813160500
+    },
+    "scripts/p7_fit_v31.py": {
+      "sha256": "b5e4dc2c98eb47214e9dcd600c73766a5c11368a679069657d25a2e917794f2c",
+      "bytes": 6840,
+      "mtime_ns": 1793357073813160500
+    },
+    "scripts/p7_generate_v31.py": {
+      "sha256": "ee3a301e351075815da630d4d8e642c0676f5dafcb6b71f27d2d0b2daa69f8ec",
+      "bytes": 5771,
+      "mtime_ns": 1793357073814237700
+    },
+    "scripts/p7_model_identity_v31.py": {
+      "sha256": "ee26b5acc9eb6ec07b7e7df41d84193f0efa2bec94bf4f4afa640b572d40bf02",
+      "bytes": 1194,
+      "mtime_ns": 1793357073815397200
+    },
+    "scripts/p7_pool_v31.py": {
+      "sha256": "c6a86fd7dac86cc0d2c236f0b72e84b0338d29f64ae3b3838252255e8afae7e7",
+      "bytes": 2626,
+      "mtime_ns": 1793357120314131100
+    },
+    "scripts/p7_prepare_v31.py": {
+      "sha256": "6e93146d03aa724c2d5ac6ef2a28bb5599b48a7edde3ed41442d6876f7c22964",
+      "bytes": 5933,
+      "mtime_ns": 1793357073826905500
+    },
+    "scripts/p7_review_v31.py": {
+      "sha256": "8f823528b01045c539e56960ce45e8104294be1c053c4de6c493d6b7cbd3e21e",
+      "bytes": 14892,
+      "mtime_ns": 1793357073844023400
+    },
+    "scripts/p7_score_v31.py": {
+      "sha256": "27c68c3d9ee7ef9cbb5010259282982609e3873cc7f7cabab9151ee4d86a21d9",
+      "bytes": 6658,
+      "mtime_ns": 1793357073834172900
+    },
+    "src/risk_metrics_v31.py": {
+      "sha256": "b8525f98a3b9e9d75edec07cea2508014579210c0ff85a75c87bc1120ce01550",
+      "bytes": 1972,
+      "mtime_ns": 1793357073817390700
+    },
+    "src/risk_observations_v31.py": {
+      "sha256": "1fdb0dda089e3cb959e06d8c8614c116880cf4d5cf6e0ceb15d62e8f98a92e8a",
+      "bytes": 2823,
+      "mtime_ns": 1793357073817390700
+    },
+    "configs/candidate_v30.json": {
+      "sha256": "d4eaab4be25c63f276fa866b76ed11cef34222fdebb1be27b8d05b76da41b8f0",
+      "bytes": 144585,
+      "mtime_ns": 1793357008745376000
+    },
+    "results/P3/candidate_v30/closeout.json": {
+      "sha256": "b8295638e81463c76b54174645005cfe3e98bb26229330af2bb7cd718a356e9b",
+      "bytes": 987,
+      "mtime_ns": 1793386102627584700
+    },
+    "data/manifests/scene_splits.json": {
+      "sha256": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+      "bytes": 2816,
+      "mtime_ns": 1792550967232956100
+    },
+    "src/p5_quality_v23.py": {
+      "sha256": "cd5919e283f2894844879116d57bd1a48da6cb779b45d2841752b4e08ca29230",
+      "bytes": 5999,
+      "mtime_ns": 1793082371928335000
+    },
+    "src/graspnet_frames.py": {
+      "sha256": "98c45d0a3d37b5ea86382ba96f9e59eb56e98e0878f0eedab474eae4faf310ff",
+      "bytes": 8056,
+      "mtime_ns": 1792557735800424500
+    },
+    "src/segmentation.py": {
+      "sha256": "554b1f1e9a46f551ed1a485895eed164d08f5466ebd8e41dfded2556afa90e55",
+      "bytes": 7283,
+      "mtime_ns": 1792557735801421300
+    },
+    "src/grasp_prerequisite_data_v27.py": {
+      "sha256": "202274a4a11eac9ce65ceef2b7f1544ece2960a9398ae2187c55d8f181627764",
+      "bytes": 6809,
+      "mtime_ns": 1793326110885329600
+    },
+    "scripts/p6_common_v24.py": {
+      "sha256": "d6959c4aeb1d687250ba6ee26084bb1c4425cf81c891721ffe46ceea5875087d",
+      "bytes": 4832,
+      "mtime_ns": 1793091284319385200
+    },
+    "scripts/p3_train_v27.py": {
+      "sha256": "b3235ed1d2a281780e1ca8a92295829e7e094dd27175246ed150742869a8c6f1",
+      "bytes": 8820,
+      "mtime_ns": 1793328699077315900
+    },
+    "scripts/p3_train_v27r1.py": {
+      "sha256": "c927bc7563b65092c652c319ad9bf87712cbe31df77e426c0017464f3b9973cf",
+      "bytes": 9320,
+      "mtime_ns": 1793329782482526200
+    },
+    "scripts/verify_grasp_geometry_v10.py": {
+      "sha256": "30a704173e9397072fd7e2cb6f26e5a4aed12f56f7b194c7f35dfb157e9005a0",
+      "bytes": 26516,
+      "mtime_ns": 1792811486122038300
+    },
+    "scripts/extract_mask_scores_v17.py": {
+      "sha256": "0291c4bf8229e68f8994276661ccb4208b651250b8293194853b383e140dec84",
+      "bytes": 28203,
+      "mtime_ns": 1792891092940342300
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168,
+      "mtime_ns": 1792550777180041600
+    },
+    "scripts/p7_prepare_v31r1.py": {
+      "sha256": "33028dbb4e056cc479fbefa1476acfb2651cdf127ea8ef947dbe3907aa8b93f0",
+      "bytes": 6614,
+      "mtime_ns": 1793406115331271300
+    },
+    "src/p7_split_contract_v31r1.py": {
+      "sha256": "bac7c90186504dcbf65d2ae67d3437ebc5225cbbf232d68c4992bafa0e066154",
+      "bytes": 766,
+      "mtime_ns": 1793406132974437100
+    },
+    "src/grasp_observed_filter_v29.py": {
+      "sha256": "16f61d0f321119ec97131b9d7282f010c498f44859ce1c92fe8b881b11614534",
+      "bytes": 1577,
+      "mtime_ns": 1793356160233717600
+    },
+    "configs/p3_filter_trial_v29.json": {
+      "sha256": "5ba8381f6bf52562e59340c77333a4c3cfc1198632d7e74d2710254b66b0c1f7",
+      "bytes": 162447,
+      "mtime_ns": 1793356221383036700
+    },
+    "experiments/candidate_v30/epoch_18_final.pt": {
+      "sha256": "31794ec4837fad05785b7d5375e069b20de8964aef1338a18ce102f2efc2cd99",
+      "bytes": 12495776,
+      "mtime_ns": 1793385325767300500
+    },
+    "experiments/p5_quality_gate_v23/quality_final.pt": {
+      "sha256": "2b22a1f98ba1ca2e3f9e1fa0edbe2936895bfe437747f0504ec1fd961381006a",
+      "bytes": 27640,
+      "mtime_ns": 1793083279259777600
+    },
+    "experiments/p5_quality_gate_v23/epochs/09_fixed.pt": {
+      "sha256": "95d6942c32334a0e3194565f834642e1412ac1a264a951c3605d3dcadabcb406",
+      "bytes": 45067266,
+      "mtime_ns": 1793084760069517000
+    },
+    "runtime/build/graspnet/demo.py": {
+      "sha256": "04b648a7d301f99028b1e18ec5c7b66c6816ad7784fc30a455d4f5b58e6df205",
+      "bytes": 4895,
+      "mtime_ns": 1792557598279376700
+    },
+    "runtime/build/graspnet/test.py": {
+      "sha256": "63186c12a6c6f5fa8d27129a7895eae568d05b35ed1a1fbb60d520b7443b8c41",
+      "bytes": 5375,
+      "mtime_ns": 1792557598314190400
+    },
+    "runtime/build/graspnet/train.py": {
+      "sha256": "94d7ebbb6c1259619296f0e47f8c4fb9b669be5a7096546111e77d3e68535157",
+      "bytes": 10519,
+      "mtime_ns": 1792557598314190400
+    },
+    "runtime/build/graspnet/dataset/generate_tolerance_label.py": {
+      "sha256": "1eef473a6299bb0260b85ff73e5cf097a8be05cc0965cbc89fedafad2557731f",
+      "bytes": 3614,
+      "mtime_ns": 1792557598279376700
+    },
+    "runtime/build/graspnet/dataset/graspnet_dataset.py": {
+      "sha256": "7e2306fade2d7f063a49b18c8293c4ec18478d172051554283d34a539773e9d4",
+      "bytes": 13158,
+      "mtime_ns": 1792557851484639600
+    },
+    "runtime/build/graspnet/knn/knn_modules.py": {
+      "sha256": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+      "bytes": 498,
+      "mtime_ns": 1792557598300702500
+    },
+    "runtime/build/graspnet/knn/setup.py": {
+      "sha256": "bd1c0471ddb6a51b78c7c0304357dc241abd16618c387c513e9dc781290d0212",
+      "bytes": 1937,
+      "mtime_ns": 1792557598301698800
+    },
+    "runtime/build/graspnet/models/backbone.py": {
+      "sha256": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+      "bytes": 4688,
+      "mtime_ns": 1792557598303759300
+    },
+    "runtime/build/graspnet/models/graspnet.py": {
+      "sha256": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+      "bytes": 6107,
+      "mtime_ns": 1792557598303759300
+    },
+    "runtime/build/graspnet/models/loss.py": {
+      "sha256": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+      "bytes": 7064,
+      "mtime_ns": 1792557598304784900
+    },
+    "runtime/build/graspnet/models/modules.py": {
+      "sha256": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+      "bytes": 9699,
+      "mtime_ns": 1792557598304784900
+    },
+    "runtime/build/graspnet/pointnet2/pointnet2_modules.py": {
+      "sha256": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+      "bytes": 18127,
+      "mtime_ns": 1792557598311898500
+    },
+    "runtime/build/graspnet/pointnet2/pointnet2_utils.py": {
+      "sha256": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+      "bytes": 17640,
+      "mtime_ns": 1792557598312897700
+    },
+    "runtime/build/graspnet/pointnet2/pytorch_utils.py": {
+      "sha256": "e0e7fdd540f6437d922736240f9086870d432ea336122d3a90f88d38d67c8fb9",
+      "bytes": 7799,
+      "mtime_ns": 1792557598312897700
+    },
+    "runtime/build/graspnet/pointnet2/setup.py": {
+      "sha256": "ee4faaabdf62b32635143481ae5c260797cbf9ba3ae47b0a86cf8da8936c16ab",
+      "bytes": 1160,
+      "mtime_ns": 1792557984525947800
+    },
+    "runtime/build/graspnet/utils/collision_detector.py": {
+      "sha256": "c8776ae298e2fa1972e94989074c7227467f37803c02217e950eefb0bae74bc8",
+      "bytes": 6725,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/data_utils.py": {
+      "sha256": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+      "bytes": 5908,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/label_generation.py": {
+      "sha256": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+      "bytes": 8631,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/loss_utils.py": {
+      "sha256": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+      "bytes": 4475,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/knn/build/lib.win-amd64-cpython-312/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": {
+      "sha256": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+      "bytes": 207360,
+      "mtime_ns": 1792558117403970300
+    },
+    "runtime/build/graspnet/pointnet2/build/lib.win-amd64-cpython-312/pointnet2/_ext.cp312-win_amd64.pyd": {
+      "sha256": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd",
+      "bytes": 393216,
+      "mtime_ns": 1792558195019253500
+    },
+    "runtime/build/graspnetAPI_eval_v7/copy_rect_labels.py": {
+      "sha256": "05a27b1afe0cf064d0297e40082301569d2524ea52c1a75785016b6f4aeb96bd",
+      "bytes": 794,
+      "mtime_ns": 1792631648714186400
+    },
+    "runtime/build/graspnetAPI_eval_v7/gen_pickle_dexmodel.py": {
+      "sha256": "b704b5aadd087faf1e3efc9e5a485c488534b784995a70946b70a17a40efd53d",
+      "bytes": 657,
+      "mtime_ns": 1792631648778755400
+    },
+    "runtime/build/graspnetAPI_eval_v7/setup.py": {
+      "sha256": "5ac2fb03b93fdff8446b09ab54927fb3e1f3ecaa7210d19bfffc50442b490151",
+      "bytes": 868,
+      "mtime_ns": 1792631648796510400
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_check_data.py": {
+      "sha256": "0cb9b7731f72541cf1b5cfbb074e32208f46e0a0ba01c0e596bdc2a39e050434",
+      "bytes": 693,
+      "mtime_ns": 1792631648775811800
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_convert.py": {
+      "sha256": "3e9a5a831703cbb22e0269bd57a9caf044c5034ed35c84c479ebbab28e94d0e4",
+      "bytes": 2555,
+      "mtime_ns": 1792631648776862000
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_eval.py": {
+      "sha256": "719bcf3f7522555e19dc5a1617045c025bc3fdfa2528c2e4496d9b6589a09102",
+      "bytes": 1158,
+      "mtime_ns": 1792631648776862000
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_generate_rectangle_grasp.py": {
+      "sha256": "5aba6d248f69e8eb6203b2f9b585916b519faba2594615dd47173a838d9812e8",
+      "bytes": 2265,
+      "mtime_ns": 1792631648777478600
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_grasp_format.py": {
+      "sha256": "b90204ac7691db1615f63b852179adcf8a8857c894dad22f83d5b033e2bdd6a9",
+      "bytes": 3473,
+      "mtime_ns": 1792631648777478600
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_loadGrasp.py": {
+      "sha256": "3cb024f302763fc0d2bef7057396207469936d800abdbac41deefc24f4b42292",
+      "bytes": 1596,
+      "mtime_ns": 1792631648777478600
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_nms.py": {
+      "sha256": "20317a4ec601f7374850df69abe7ab6f5db1b3ce0d257dc14c26d8cfc748bb5e",
+      "bytes": 1440,
+      "mtime_ns": 1792631648778755400
+    },
+    "runtime/build/graspnetAPI_eval_v7/examples/exam_vis.py": {
+      "sha256": "0519e011224b822500b79f451ae1345eec887dff3ae9e1abe5a2dbee57adbe84",
+      "bytes": 850,
+      "mtime_ns": 1792631648778755400
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/grasp.py": {
+      "sha256": "8df6479b2c5dae9601aa7fce7ee8310d3770697ec85706b5712751e2dc7a665f",
+      "bytes": 35545,
+      "mtime_ns": 1792631648781306300
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/graspnet.py": {
+      "sha256": "a0d68b21cb0ae21afc8cf66b3699e4f3a5f43eee909388b5011425e5a32cd8f7",
+      "bytes": 35999,
+      "mtime_ns": 1792631648782304900
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/graspnet_eval.py": {
+      "sha256": "ce0a40c12a290bf90a9691cf93a7527e8488bb4bedf9cf0c5a4e72af7b1f8986",
+      "bytes": 12712,
+      "mtime_ns": 1792631648782304900
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/__init__.py": {
+      "sha256": "6f786d573ba62fd1e9de2cbe992cad133fdd275691e76d7763c97bd65ad16fb0",
+      "bytes": 186,
+      "mtime_ns": 1792631648781306300
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/grasp.py": {
+      "sha256": "8df6479b2c5dae9601aa7fce7ee8310d3770697ec85706b5712751e2dc7a665f",
+      "bytes": 35545,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/graspnet.py": {
+      "sha256": "a0d68b21cb0ae21afc8cf66b3699e4f3a5f43eee909388b5011425e5a32cd8f7",
+      "bytes": 35999,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/graspnet_eval.py": {
+      "sha256": "ce0a40c12a290bf90a9691cf93a7527e8488bb4bedf9cf0c5a4e72af7b1f8986",
+      "bytes": 12712,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/__init__.py": {
+      "sha256": "6f786d573ba62fd1e9de2cbe992cad133fdd275691e76d7763c97bd65ad16fb0",
+      "bytes": 186,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/config.py": {
+      "sha256": "309943fa4a3dbcff513e42bf60a7cee028cb5b5f291ead823d40b9a51cf28de3",
+      "bytes": 650,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/eval_utils.py": {
+      "sha256": "ef9733f0d7b295bdccc037d6a94d1231b2cc5e7e50d7d4c402817dfeaf0f1912",
+      "bytes": 13246,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/pose.py": {
+      "sha256": "46d8158163cd0092fb2812a261b5f125a59ef0fbaad345fed6e1a0531a76d634",
+      "bytes": 2591,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/rotation.py": {
+      "sha256": "a080127a0acff9243a9d2da197fecdd9ff6d77a0ef39afd4e9d909d7f77993f2",
+      "bytes": 4381,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/trans3d.py": {
+      "sha256": "429ffa459626ab0f0ed5d19bf45f0615d966c5c263475639fa33f475c3ec0fa6",
+      "bytes": 1519,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/utils.py": {
+      "sha256": "fddf1c04f7d0c8d5e6e202c96054d9967e524bce70c1e0b197a040198ed02f71",
+      "bytes": 27336,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/vis.py": {
+      "sha256": "1fde3a053377873e25bb235d3310692a5beb4a2a62cc0190a4fae7b2e0ba885c",
+      "bytes": 14728,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/xmlhandler.py": {
+      "sha256": "35be7b94d498274a15853e30463bf5d5c7fe4db7dc3cb0aafd9dfd3158276130",
+      "bytes": 6253,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/abstractstatic.py": {
+      "sha256": "f63defdde236311e120fd4b5b413afa8fecb096a75cfa187141693cb8426d7e4",
+      "bytes": 1722,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/constants.py": {
+      "sha256": "94414b33ac09f14ac9005f0812af3d97ea04cffaf9e18d5bb370891beaf27bb0",
+      "bytes": 1903,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/__init__.py": {
+      "sha256": "27fd74c7ff8155804d16b95571a1f4cf595e5b1807e14ceb462dab589de840ab",
+      "bytes": 1505,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/contacts.py": {
+      "sha256": "329786223729c4adecad4dbf397e1fffd0267a5b907163ef27e57471a9ef0239",
+      "bytes": 29636,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/grasp.py": {
+      "sha256": "1be805b8fdacce029b223efcbf731a582d7b688b7143502eca589bc9a0c23b40",
+      "bytes": 47661,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/graspable_object.py": {
+      "sha256": "b0c6d6b8d9e4f4d21f0de8f7eb7d99b2f2245c030d1c17acd70de2fffa315b56",
+      "bytes": 8695,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/grasp_quality_config.py": {
+      "sha256": "fba2575dafa41c630e200e88163baa63039a217d583718b22da7bfa80a0be3db",
+      "bytes": 7196,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/grasp_quality_function.py": {
+      "sha256": "c638c08b241b670c7f2843d699f573bebe566a2454b07caa1af3d016bf7bdd59",
+      "bytes": 8789,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/quality.py": {
+      "sha256": "b67178209bf973fe77109245131accf820b859c024f1676019df6092015a411b",
+      "bytes": 34312,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/__init__.py": {
+      "sha256": "94a92180b7beee37583a144b9ee0c07e0611cf7c14709b7a8099094cf3d827af",
+      "bytes": 1337,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/mesh.py": {
+      "sha256": "99724beb5862fdb4bca693ede79560f2331f9eaf4c446a84a2fb6ba1c730bc63",
+      "bytes": 71525,
+      "mtime_ns": 1792631649000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/obj_file.py": {
+      "sha256": "372c9e59b2285d323d1846d9cfa0c55ea5fa67ee414a4048f31443c0bccb060b",
+      "bytes": 5081,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/sdf.py": {
+      "sha256": "be67fab6c10e783865264cd959d1f55f2e9e3ebc13ddaff189dafdd53647e828",
+      "bytes": 28490,
+      "mtime_ns": 1792631649000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/sdf_file.py": {
+      "sha256": "1cd01b33a87ba7e5063cc573fec8e9230d1f4386f5b011ea3e4b3594a6bf2c2d",
+      "bytes": 3493,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/stable_pose.py": {
+      "sha256": "f741a7396431ce17df01729f3a29bc8d9e60b1a37a541829b86a9f94876dcaa3",
+      "bytes": 2996,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/build/lib/graspnetAPI/utils/dexnet/grasping/meshpy/__init__.py": {
+      "sha256": "9f6ba173a43c64852c6215d364f6024c6e972b283c0f4f4111ac0fa210e7a7c3",
+      "bytes": 1228,
+      "mtime_ns": 1792631648000000000
+    },
+    "runtime/build/graspnetAPI_eval_v7/docs/source/conf.py": {
+      "sha256": "799583a354c510d4891274c2f2a5ce7341977ccd357ec132f7a594d527e0a9d2",
+      "bytes": 2089,
+      "mtime_ns": 1792631648771272300
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/config.py": {
+      "sha256": "309943fa4a3dbcff513e42bf60a7cee028cb5b5f291ead823d40b9a51cf28de3",
+      "bytes": 650,
+      "mtime_ns": 1792631648784399300
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/eval_utils.py": {
+      "sha256": "ef9733f0d7b295bdccc037d6a94d1231b2cc5e7e50d7d4c402817dfeaf0f1912",
+      "bytes": 13246,
+      "mtime_ns": 1792631648793465100
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/pose.py": {
+      "sha256": "46d8158163cd0092fb2812a261b5f125a59ef0fbaad345fed6e1a0531a76d634",
+      "bytes": 2591,
+      "mtime_ns": 1792631648793465100
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/rotation.py": {
+      "sha256": "a080127a0acff9243a9d2da197fecdd9ff6d77a0ef39afd4e9d909d7f77993f2",
+      "bytes": 4381,
+      "mtime_ns": 1792631648794461300
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/trans3d.py": {
+      "sha256": "429ffa459626ab0f0ed5d19bf45f0615d966c5c263475639fa33f475c3ec0fa6",
+      "bytes": 1519,
+      "mtime_ns": 1792631648794461300
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/utils.py": {
+      "sha256": "fddf1c04f7d0c8d5e6e202c96054d9967e524bce70c1e0b197a040198ed02f71",
+      "bytes": 27336,
+      "mtime_ns": 1792631648795497200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/vis.py": {
+      "sha256": "1fde3a053377873e25bb235d3310692a5beb4a2a62cc0190a4fae7b2e0ba885c",
+      "bytes": 14728,
+      "mtime_ns": 1792631648795497200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/xmlhandler.py": {
+      "sha256": "35be7b94d498274a15853e30463bf5d5c7fe4db7dc3cb0aafd9dfd3158276130",
+      "bytes": 6253,
+      "mtime_ns": 1792631648796510400
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mtime_ns": 1792631648783301500
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/abstractstatic.py": {
+      "sha256": "f63defdde236311e120fd4b5b413afa8fecb096a75cfa187141693cb8426d7e4",
+      "bytes": 1722,
+      "mtime_ns": 1792631648785407600
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/constants.py": {
+      "sha256": "94414b33ac09f14ac9005f0812af3d97ea04cffaf9e18d5bb370891beaf27bb0",
+      "bytes": 1903,
+      "mtime_ns": 1792631648785407600
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/__init__.py": {
+      "sha256": "27fd74c7ff8155804d16b95571a1f4cf595e5b1807e14ceb462dab589de840ab",
+      "bytes": 1505,
+      "mtime_ns": 1792631648785407600
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/contacts.py": {
+      "sha256": "329786223729c4adecad4dbf397e1fffd0267a5b907163ef27e57471a9ef0239",
+      "bytes": 29636,
+      "mtime_ns": 1792631648787518200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/grasp.py": {
+      "sha256": "1be805b8fdacce029b223efcbf731a582d7b688b7143502eca589bc9a0c23b40",
+      "bytes": 47661,
+      "mtime_ns": 1792631648787518200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/graspable_object.py": {
+      "sha256": "b0c6d6b8d9e4f4d21f0de8f7eb7d99b2f2245c030d1c17acd70de2fffa315b56",
+      "bytes": 8695,
+      "mtime_ns": 1792631648788697200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/grasp_quality_config.py": {
+      "sha256": "fba2575dafa41c630e200e88163baa63039a217d583718b22da7bfa80a0be3db",
+      "bytes": 7196,
+      "mtime_ns": 1792631648787518200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/grasp_quality_function.py": {
+      "sha256": "c638c08b241b670c7f2843d699f573bebe566a2454b07caa1af3d016bf7bdd59",
+      "bytes": 8789,
+      "mtime_ns": 1792631648788697200
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/quality.py": {
+      "sha256": "b67178209bf973fe77109245131accf820b859c024f1676019df6092015a411b",
+      "bytes": 34312,
+      "mtime_ns": 1792631648792263600
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/__init__.py": {
+      "sha256": "94a92180b7beee37583a144b9ee0c07e0611cf7c14709b7a8099094cf3d827af",
+      "bytes": 1337,
+      "mtime_ns": 1792631648786521700
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/mesh.py": {
+      "sha256": "99724beb5862fdb4bca693ede79560f2331f9eaf4c446a84a2fb6ba1c730bc63",
+      "bytes": 71525,
+      "mtime_ns": 1792631649978991700
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/obj_file.py": {
+      "sha256": "372c9e59b2285d323d1846d9cfa0c55ea5fa67ee414a4048f31443c0bccb060b",
+      "bytes": 5081,
+      "mtime_ns": 1792631648791179500
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/sdf.py": {
+      "sha256": "be67fab6c10e783865264cd959d1f55f2e9e3ebc13ddaff189dafdd53647e828",
+      "bytes": 28490,
+      "mtime_ns": 1792631649977535400
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/sdf_file.py": {
+      "sha256": "1cd01b33a87ba7e5063cc573fec8e9230d1f4386f5b011ea3e4b3594a6bf2c2d",
+      "bytes": 3493,
+      "mtime_ns": 1792631648791179500
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/stable_pose.py": {
+      "sha256": "f741a7396431ce17df01729f3a29bc8d9e60b1a37a541829b86a9f94876dcaa3",
+      "bytes": 2996,
+      "mtime_ns": 1792631648792263600
+    },
+    "runtime/build/graspnetAPI_eval_v7/graspnetAPI/utils/dexnet/grasping/meshpy/__init__.py": {
+      "sha256": "9f6ba173a43c64852c6215d364f6024c6e972b283c0f4f4111ac0fa210e7a7c3",
+      "bytes": 1228,
+      "mtime_ns": 1792631648790183200
+    },
+    "scripts/p9_calibrate_v35.py": {
+      "sha256": "5d44523c0ba87e8da991bcb852dcdb64493f66dd5d14d4098911ed4f70a4cca7",
+      "bytes": 4041,
+      "mtime_ns": 1793439370320411800
+    },
+    "scripts/p9_common_v35.py": {
+      "sha256": "0f228be12a6b69c1ebd6fe787ef0fe975b3f557099c657d0f4d316c9b1bbe928",
+      "bytes": 3953,
+      "mtime_ns": 1793439303584154400
+    },
+    "scripts/p9_geometry_v35.py": {
+      "sha256": "45be78be7285326c1576f702e78d02cfd56e4d6d27d854c619caca4d0cbe62eb",
+      "bytes": 5360,
+      "mtime_ns": 1793439370321408600
+    },
+    "scripts/p9_lifecycle_v35.py": {
+      "sha256": "2066064b97bb5b09aef652f17f6e2d5f59a03144460a9f3ce5a5255a5def6d42",
+      "bytes": 18865,
+      "mtime_ns": 1793439652549073000
+    },
+    "scripts/p9_metrics_v35.py": {
+      "sha256": "b8b19398655fa6566f0291a4eec1d6ccdb4fc6fbe823054fff189c73e1b19179",
+      "bytes": 4427,
+      "mtime_ns": 1793439496460889400
+    },
+    "scripts/p9_review_v35.py": {
+      "sha256": "b77233279f224fe9fa3f0e1486d5c06ecd0283779e565f30c4c96814f3f5d29a",
+      "bytes": 12233,
+      "mtime_ns": 1793439496460889400
+    },
+    "scripts/p9_train_v35.py": {
+      "sha256": "2e06c8ba4919fed7ed44169fc34901da733e3b1886668e4952f09346020caf40",
+      "bytes": 5654,
+      "mtime_ns": 1793439652548076700
+    },
+    "scripts/p8_geometry_v32.py": {
+      "sha256": "f864790d3bf42e457b4aca4636b6c2f2fd3635b7f9b12e5e94932779524466f3",
+      "bytes": 12259,
+      "mtime_ns": 1793430026642898400
+    },
+    "scripts/p8_common_v32.py": {
+      "sha256": "0ae7857f261f954229c9827051260efbe67a168ea356b02f83dc33e437bfd933",
+      "bytes": 3791,
+      "mtime_ns": 1793429473163874000
+    },
+    "scripts/p8_review_v32.py": {
+      "sha256": "4d79d344ea9ec8f0a7a1bf4f93c9da5b8721174a5c6ad36366efb43025defdb7",
+      "bytes": 10826,
+      "mtime_ns": 1793430091208007200
+    },
+    "scripts/p8_repair_common_v33.py": {
+      "sha256": "5a9b707bed417e6aa3c799cbd337348c6dc78a493b4c0435f1ccc32deac2dee4",
+      "bytes": 4634,
+      "mtime_ns": 1793435612560830000
+    },
+    "scripts/p8_temperature_experiment_v34.py": {
+      "sha256": "0899b2587743354008f7f84e6c509e6e45b507d36387e0fad7a1c0285e379289",
+      "bytes": 12743,
+      "mtime_ns": 1793436526792403100
+    },
+    "scripts/p8_temperature_common_v34.py": {
+      "sha256": "efda8a60bbf06b74ad57e7b73e554d203efc34cf54dc07794fa7e45b04a2d394",
+      "bytes": 3133,
+      "mtime_ns": 1793436526791388700
+    },
+    "src/p8_math_v32.py": {
+      "sha256": "48f8e0f57909c5054218b3567c0844944b1f269427773df94ede11a90309b823",
+      "bytes": 2374,
+      "mtime_ns": 1793429473163874000
+    },
+    "results/P7/risk_v31/predictions/train.npz": {
+      "sha256": "f204ccb6c91c42879b732bfd196948d26f54a90f585b7a17a0b276febff389f1",
+      "bytes": 274124,
+      "mtime_ns": 1793420001048660600
+    },
+    "results/P9/risk_seeds_v35/seeds/20261031/weights.npz": {
+      "sha256": "6d313b1b13c59bdbf4b19eba4fd41234ec43c5518ad2e38bd179b6587db95dca",
+      "bytes": 41504,
+      "mtime_ns": 1793439762157407900
+    },
+    "experiments/risk_seeds_v35/20261031/epoch_18.pt": {
+      "sha256": "1df7c14f82447442faaaf3d71d9f1d849272fed4fc7f682e92cd402d0522c1c0",
+      "bytes": 151947,
+      "mtime_ns": 1793439761248192600
+    },
+    "results/P9/risk_seeds_v35/seeds/20261031/calibration.json": {
+      "sha256": "8c00e175fd0205794b7a125bed4d000ca2fd6949b92264f67a18b0bd81fa7527",
+      "bytes": 52484,
+      "mtime_ns": 1793439770915328200
+    },
+    "results/P9/risk_seeds_v35/seeds/20261101/weights.npz": {
+      "sha256": "43155ab641195e91af26025fde494aaa1afa516ea16c2dc5f1e4f159956e3cde",
+      "bytes": 41471,
+      "mtime_ns": 1793439765459947600
+    },
+    "experiments/risk_seeds_v35/20261101/epoch_13.pt": {
+      "sha256": "9e95d85d4215ffaba89333d59458b00a6ade480d7a998877e1f4efa75b9d19f9",
+      "bytes": 151691,
+      "mtime_ns": 1793439764516043000
+    },
+    "results/P9/risk_seeds_v35/seeds/20261101/calibration.json": {
+      "sha256": "95f08d1dc7f2ee39f3e9b4c1186f924ab5ad6466f5df8ab8a61c99f5dc7f4f86",
+      "bytes": 52452,
+      "mtime_ns": 1793439772094235600
+    },
+    "results/P9/risk_seeds_v35/seeds/20261102/weights.npz": {
+      "sha256": "c716c9f37113bb649d4a2e0844eb3fb00d5eb0be2b2fbc68a5b26b80b13550a8",
+      "bytes": 41440,
+      "mtime_ns": 1793439768527267700
+    },
+    "experiments/risk_seeds_v35/20261102/epoch_12.pt": {
+      "sha256": "83556ff02e7a14462830f6d921584b4b7ba78df0fa42e17034628fb4bf2a0e3f",
+      "bytes": 151755,
+      "mtime_ns": 1793439767653605500
+    },
+    "results/P9/risk_seeds_v35/seeds/20261102/calibration.json": {
+      "sha256": "736c63cbd209f7482ffb05c4662bc973507711e8c2d9f948ab32dc9d08da0c94",
+      "bytes": 52451,
+      "mtime_ns": 1793439773269724100
+    }
+  },
+  "call_limits": {
+    "grasp_forward": 1092,
+    "quality_forward": 1092,
+    "segmentation_forward": 1092,
+    "corruption": 1090,
+    "corruption_audit": 1090,
+    "risk_forward": 3270,
+    "risk_numpy_audit": 3270,
+    "official_score": 237600,
+    "upstream_oracle": 12
+  },
+  "phase_seconds": {
+    "generation": 7200,
+    "features": 21600,
+    "scoring": 108000,
+    "metrics": 1800,
+    "review": 21600,
+    "cold": 1800,
+    "finish": 600
+  },
+  "wall_seconds": 129600,
+  "limits": {
+    "gpu_bytes": 14495514624,
+    "rss_bytes": 17179869184,
+    "output_bytes": 34359738368,
+    "disk_reserve_bytes": 64424509440
+  },
+  "inherited_calls": {
+    "P7": {
+      "grasp_forward": {
+        "attempts": 502,
+        "known_returns": 502,
+        "unknown": []
+      },
+      "quality_forward": {
+        "attempts": 502,
+        "known_returns": 502,
+        "unknown": []
+      },
+      "segmentation_forward": {
+        "attempts": 502,
+        "known_returns": 502,
+        "unknown": []
+      },
+      "official_score": {
+        "attempts": 9987,
+        "known_returns": 9987,
+        "unknown": []
+      },
+      "upstream_oracle": {
+        "attempts": 4,
+        "known_returns": 3,
+        "unknown": [
+          "2990905cbfa24838bb5e7b932827f9d7"
+        ]
+      },
+      "risk_update": {
+        "attempts": 644,
+        "known_returns": 644,
+        "unknown": []
+      },
+      "risk_forward": {
+        "attempts": 26,
+        "known_returns": 26,
+        "unknown": []
+      },
+      "temperature_objective": {
+        "attempts": 21,
+        "known_returns": 21,
+        "unknown": []
+      },
+      "risk_audit_forward": {
+        "attempts": 3,
+        "known_returns": 3,
+        "unknown": []
+      },
+      "corruption": {
+        "attempts": 500,
+        "known_returns": 500,
+        "unknown": []
+      },
+      "corruption_audit": {
+        "attempts": 500,
+        "known_returns": 500,
+        "unknown": []
+      }
+    },
+    "P8_v32": {
+      "grasp_forward": {
+        "intents": 152,
+        "known_returns": 152,
+        "unknown_ids": []
+      },
+      "risk_update": {
+        "intents": 1288,
+        "known_returns": 1288,
+        "unknown_ids": []
+      },
+      "risk_forward": {
+        "intents": 46,
+        "known_returns": 46,
+        "unknown_ids": []
+      },
+      "risk_audit_forward": {
+        "intents": 4,
+        "known_returns": 4,
+        "unknown_ids": []
+      },
+      "official_score": {
+        "intents": 7076,
+        "known_returns": 7076,
+        "unknown_ids": []
+      },
+      "upstream_oracle": {
+        "intents": 3,
+        "known_returns": 3,
+        "unknown_ids": []
+      },
+      "mask_AP": {
+        "intents": 75,
+        "known_returns": 75,
+        "unknown_ids": []
+      },
+      "temperature_objective": {
+        "intents": 12,
+        "known_returns": 12,
+        "unknown_ids": []
+      },
+      "temperature_audit": {
+        "intents": 1,
+        "known_returns": 1,
+        "unknown_ids": []
+      },
+      "risk_numpy_forward": {
+        "intents": 525,
+        "known_returns": 525,
+        "unknown_ids": []
+      },
+      "risk_numpy_audit": {
+        "intents": 529,
+        "known_returns": 529,
+        "unknown_ids": []
+      }
+    },
+    "P8_v33": {
+      "calibration_fit": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "calibration_objective": {
+        "attempts": 152,
+        "known_returns": 152,
+        "unknown": []
+      },
+      "calibration_apply": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "independent_objective": {
+        "attempts": 227,
+        "known_returns": 227,
+        "unknown": []
+      },
+      "independent_apply": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "network_training_update": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "neural_forward": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "official_score": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "mask_AP": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      }
+    },
+    "P8_v34": {
+      "temperature_fit": {
+        "attempts": 15,
+        "known_returns": 15,
+        "unknown": []
+      },
+      "temperature_objective": {
+        "attempts": 182,
+        "known_returns": 182,
+        "unknown": []
+      },
+      "temperature_apply": {
+        "attempts": 17,
+        "known_returns": 17,
+        "unknown": []
+      },
+      "independent_objective": {
+        "attempts": 498,
+        "known_returns": 498,
+        "unknown": []
+      },
+      "independent_apply": {
+        "attempts": 17,
+        "known_returns": 17,
+        "unknown": []
+      },
+      "network_training_update": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "neural_forward": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "official_score": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      },
+      "mask_AP": {
+        "attempts": 0,
+        "known_returns": 0,
+        "unknown": []
+      }
+    }
+  },
+  "P9_calls": {
+    "risk_update": {
+      "attempts": 1624,
+      "known_returns": 1624,
+      "unknown": []
+    },
+    "risk_forward": {
+      "attempts": 292,
+      "known_returns": 292,
+      "unknown": []
+    },
+    "risk_numpy_audit": {
+      "attempts": 292,
+      "known_returns": 292,
+      "unknown": []
+    },
+    "temperature_fit": {
+      "attempts": 48,
+      "known_returns": 48,
+      "unknown": []
+    },
+    "temperature_objective": {
+      "attempts": 582,
+      "known_returns": 582,
+      "unknown": []
+    },
+    "temperature_apply": {
+      "attempts": 51,
+      "known_returns": 51,
+      "unknown": []
+    },
+    "independent_objective": {
+      "attempts": 726,
+      "known_returns": 726,
+      "unknown": []
+    },
+    "independent_apply": {
+      "attempts": 51,
+      "known_returns": 51,
+      "unknown": []
+    },
+    "official_score": {
+      "attempts": 291,
+      "known_returns": 291,
+      "unknown": []
+    },
+    "upstream_oracle": {
+      "attempts": 3,
+      "known_returns": 3,
+      "unknown": []
+    },
+    "candidate_forward": {
+      "attempts": 0,
+      "known_returns": 0,
+      "unknown": []
+    },
+    "segmentation_forward": {
+      "attempts": 0,
+      "known_returns": 0,
+      "unknown": []
+    },
+    "quality_forward": {
+      "attempts": 0,
+      "known_returns": 0,
+      "unknown": []
+    },
+    "mask_AP": {
+      "attempts": 0,
+      "known_returns": 0,
+      "unknown": []
+    }
+  },
+  "preflight_calls": {
+    "at": "2026-10-31T18:43:38.674938+08:00",
+    "passed": true,
+    "checks": [
+      "Actual three upstream model forwards exactly replay old development frame",
+      "independent corruption clean",
+      "independent corruption noise5",
+      "independent corruption missing15",
+      "independent corruption shift3",
+      "independent corruption joint",
+      "independent corruption noise1",
+      "independent corruption noise3",
+      "independent corruption missing5",
+      "independent corruption missing30",
+      "independent corruption shift1",
+      "independent corruption shift5",
+      "independent corruption block",
+      "AP empty/incomplete denominator 0",
+      "AP empty/incomplete denominator 3",
+      "ECE15 empty/ties 0",
+      "ECE15 empty/ties 14",
+      "ECE15 empty/ties 15",
+      "ECE15 empty/ties 16",
+      "ECE15 empty/ties 151",
+      "Deterministic ranking and ties",
+      "All old frame features and observed collision masks",
+      "New bounded geometry adapter and independent selection identity",
+      "Six actual official labels match accepted results with new mesh cache",
+      "Actual full upstream reference agrees",
+      "Risk-network export 20261031",
+      "Risk-network export 20261101",
+      "Risk-network export 20261102"
+    ],
+    "actual_calls": {
+      "corruption": 1,
+      "grasp_forward": 1,
+      "quality_forward": 1,
+      "segmentation_forward": 1,
+      "official_score": 6,
+      "upstream_oracle": 1
+    },
+    "extra_corruption_replays": 24,
+    "extra_old_risk_identity_forwards": 3,
+    "extra_independent_risk_identity_forwards": 3,
+    "official_test_images_opened": 0,
+    "seconds": 144.59400000004098
+  },
+  "baseline_chosen_before_test": "D0",
+  "new_P10_points_after_closeout": 8
+}

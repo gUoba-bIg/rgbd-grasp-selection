@@ -1,0 +1,35 @@
+{
+  "version": "0.1",
+  "status": "初版训练配置，需通过基线兼容性与小规模试跑后锁定",
+  "seeds": [20261021, 20261022, 20261023],
+  "primary_camera": "realsense",
+  "segmentation": {
+    "architecture": "ResNet18双分支编码器与FPN，类别无关掩膜及中心偏移实例解码",
+    "input_size": [480, 640],
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "num_workers_exact_resume": 0,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "pilot_epochs": 5,
+    "max_epochs": 40,
+    "early_stopping_patience": 8,
+    "amp": true,
+    "gradient_clip_norm": 1.0,
+    "scheduler": "cosine with 2 epoch warmup"
+  },
+  "grasp": {
+    "candidate_generator": "official GraspNet baseline first, EconomicGrasp after compatibility check",
+    "num_points": 20000,
+    "freeze_for_risk_training": true,
+    "max_epochs": "遵循锁定的上游基线配置，不预先保证训练耗时",
+    "candidate_cache": "按场景帧保存并记录候选模型及输入数据指纹"
+  },
+  "risk_head": {"hidden_dimensions": [128, 64], "learning_rate": 0.001, "batch_size": 256, "max_epochs": 30, "early_stopping_patience": 5},
+  "checkpoint": {"every_optimizer_steps": 100, "max_seconds_target": 300, "retain_recent": 2, "keep_best": true, "keep_epoch_end": true, "save_only_at_optimizer_boundary": true},
+  "budgets": {"gpu_peak_target_gib": 13.5, "stop_free_disk_gib": 60, "pilot_disk_cap_gib": 80, "pilot_max_gpu_hours": 12},
+  "evaluation": {"main_friction_coefficient": 0.4, "calibration_bins": 15, "bootstrap_scene_replicates": 2000, "confidence_level": 0.95, "paired_scene_test": true, "seed_aggregation": "mean within scene before bootstrap", "p_value_method": "paired scene sign permutation", "permutation_replicates": 10000, "primary_comparisons": ["B2-B1", "B5-B3", "B6-B5"], "correction": "Holm", "calibration_fit_split": "calibration", "calibration_assessment_split": "validation then locked test"},
+  "pilot_gates": {"degraded_grasp_ap_gain_pp_target": 1.0, "max_clean_grasp_ap_drop_pp": 1.0, "max_clean_mask_ap_drop_pp": 1.0, "ece_relative_reduction_target": 0.1},
+  "limitations": ["门槛是项目继续投入的初始判断标准，不代表发表保证", "正式结果只在未用于选择模型的测试场景报告", "断点恢复机制需接入各实际训练器后再次验证"]
+}

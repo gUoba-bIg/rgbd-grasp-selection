@@ -1,0 +1,21 @@
+{
+  "scope": "publication source check, not cold-start reproduction or an experiment",
+  "verified_original_files": 3179,
+  "source_identity_mismatches": 0,
+  "high_confidence_credential_findings": 0,
+  "credential_assignments_flagged": 0,
+  "python_syntax_errors": 0,
+  "private_document_publication": false,
+  "new_model_calls": 0,
+  "new_physics_steps": 0,
+  "excluded_runtime_material": "manifests/external_files.csv",
+  "external_download_links_available": false,
+  "limitations": [
+    "Static source scan does not certify complete runtime availability.",
+    "Historical absolute paths remain in original source.",
+    "Complete experiments have not been rerun for this release."
+  ],
+  "byte_identical_source_files": 3166,
+  "publication_normalized_files": 13,
+  "identity_comparison": "published files checked against their declared transforms; original hashes retained separately"
+}

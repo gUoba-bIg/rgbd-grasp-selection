@@ -1,0 +1,62 @@
+{
+  "version": "IP140_R2_smoke21_registered_pad_surface_and_resume_four01",
+  "slot": 10,
+  "object_id": "021",
+  "kind": "miss",
+  "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+  "starts_before": 11,
+  "starts_after": 11,
+  "remaining_after": 3,
+  "total_budget": 14,
+  "charged": false,
+  "batch_can_continue": true,
+  "at": "2026-11-08T12:54:21.490238+00:00",
+  "registered_surface_revision": "IP140_R2",
+  "development_corrective_slot9": false,
+  "static_connection_attempted": true,
+  "dynamic_connection_attempted": false,
+  "phase": "static_zero_and_path",
+  "static_snapshots_completed": 3216,
+  "static_first_failure": {
+    "snapshot": 3217,
+    "phase": "lift",
+    "phase_tick": 1,
+    "error": "ValueError('both_registered_entries_required_before_lift')"
+  },
+  "static_candidate_rejection": {
+    "reason": "required_bilateral_entry_not_observed_by_end_of_close",
+    "missing_sides": [
+      "left",
+      "right"
+    ],
+    "last_static_snapshot": 3216,
+    "first_failure": {
+      "snapshot": 3217,
+      "phase": "lift",
+      "phase_tick": 1,
+      "error": "ValueError('both_registered_entries_required_before_lift')"
+    },
+    "available_roots": [],
+    "queried_missing_side_positive_minima_m": {},
+    "close_states_with_query": {
+      "reference_channel/left": 480,
+      "reference_channel/right": 480,
+      "proxy_channel/left": 480,
+      "proxy_channel/right": 480
+    },
+    "native_static_api_sha256": "f29be4355feef6840adc276d343a6aa4371b9b57b796c9c7a41c6f2bf7d890c3",
+    "root_summary_sha256": "7668c81b7983d0eaba75f93d2b88faf97e81e8e683e645ac9289aa79eb9482af",
+    "dual_channel_snapshots_sha256": "e443dd189c5569cf86d379458cd3f7463150c4ac49e501a97d70b362349b444c",
+    "path_result_sha256": "39dcfdaec05c78d552bdd835e56b0b4efdb3cae5ddf160fd6dfc4a778a50ac2e"
+  },
+  "stop": "candidate_static_inadmissible",
+  "reason": "required_bilateral_entry_not_observed_by_end_of_close",
+  "static_admitted": false,
+  "grasp_success": null,
+  "slot_passed": null,
+  "engineering_gate_passed": null,
+  "actual_step_calls": 0,
+  "actual_step_returns": 0,
+  "unknown_step_returns": 0,
+  "finished_utc": "2026-11-08T12:55:25.304180+00:00"
+}

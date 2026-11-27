@@ -1,0 +1,11 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "utc": "2026-11-06T09:16:34.744763+00:00",
+  "reason": "static_contact_aware_admission_blocked",
+  "physical_steps": 0,
+  "new_charges": 0,
+  "slot14_started": false,
+  "slots8_to_12_started": false,
+  "requires_new_review": true,
+  "result_sha256": "ce09b0c01c38ee9b950001a28a641199aa56ace610a6f0fa5a84e30b0098dfe6"
+}

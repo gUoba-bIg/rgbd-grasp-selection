@@ -1,0 +1,40 @@
+{
+  "version": "IP140_R1_smoke02_pathfix01",
+  "created_at_utc": "2026-11-04T09:57:25.081278+00:00",
+  "prior_zero": "Windows path lookup failure, not physics/model failure",
+  "unchanged_model_identity": [
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/model/ur5e_ip140_r1.urdf",
+      "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "bytes": 15655
+    },
+    {
+      "project_relative": "IP140_R1_smoke02_pathfix01/model/manifest.json",
+      "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "bytes": 10393
+    }
+  ],
+  "prior_seal": [
+    {
+      "project_relative": "IP140_R1_smoke01/STOP.json",
+      "sha256": "a924cdc7afd3b0402cf373179eca466bb94f0cf3ef7cdaa0bec8166494db0c6f",
+      "bytes": 492
+    },
+    {
+      "project_relative": "IP140_R1_smoke01/slot_ledger.json",
+      "sha256": "63a8c70f96728422fa083d0e1c7ab4d8edd68013db137d3b9337a94856c71dc4",
+      "bytes": 4099
+    },
+    {
+      "project_relative": "IP140_R1_smoke01/preregistration.json",
+      "sha256": "4f62a02c16ecc56c962c108ce58382f801502e91485e475f8f9f032f9878a2c8",
+      "bytes": 31552
+    },
+    {
+      "project_relative": "IP140_R1_smoke01/freeze_slots.py",
+      "sha256": "775f8e8b5b07abbe1ef35e6e86b312c46cd8afb24daaa09b4936c166f1771596",
+      "bytes": 10277
+    }
+  ],
+  "model_manifest_note": "Manifest retains the byte-identical smoke01 version string intentionally; this sidecar identifies the new execution version."
+}

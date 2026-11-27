@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "pending_cases": [
+    {
+      "slot": 9,
+      "candidate_id": "ip140bridge:slot09:undo-legacy-z017:nominal",
+      "pending_sha256": "e1b34f7691654aa4f487db6dd92a2c6df87336b863cafcc278c76e2c8252fbb8",
+      "pending_bound": true,
+      "wrong_identity_or_vector_rejected": true
+    },
+    {
+      "slot": 10,
+      "candidate_id": "ip140bridge:slot10:undo-legacy-z021:miss",
+      "pending_sha256": "0141ab0063cb8fa8eda7d3cb7ea3ddbdafc5f16b2edc0f12cb49577ff6b45ef3",
+      "pending_bound": true,
+      "wrong_identity_or_vector_rejected": true
+    },
+    {
+      "slot": 11,
+      "candidate_id": "ip140bridge:slot11:undo-legacy-z014:miss",
+      "pending_sha256": "9188133d215648ae722354a77bbe0b5869c9772ef29b466b09761770277c0c6d",
+      "pending_bound": true,
+      "wrong_identity_or_vector_rejected": true
+    },
+    {
+      "slot": 12,
+      "candidate_id": "ip140bridge:slot12:undo-legacy-z017:miss",
+      "pending_sha256": "f2ac9a9225545f0e614bb2a10160e40060ea21853f9a54364530c5f8345f868c",
+      "pending_bound": true,
+      "wrong_identity_or_vector_rejected": true
+    }
+  ],
+  "continuation_cases": [
+    [
+      "nominal",
+      true,
+      "continue",
+      true
+    ],
+    [
+      "nominal",
+      false,
+      "continue",
+      false
+    ],
+    [
+      "miss",
+      false,
+      "continue",
+      true
+    ],
+    [
+      "miss",
+      true,
+      "continue",
+      false
+    ],
+    [
+      [
+        "nonpad_robot_object_contact"
+      ],
+      "physical_episode_terminated_on_frozen_gate",
+      false
+    ],
+    [
+      [
+        "other_robot_table_manifold",
+        "robot_table_contact"
+      ],
+      "physical_episode_terminated_on_frozen_gate",
+      false
+    ],
+    [
+      [
+        "finger_speed_above_0.04_m_s"
+      ],
+      "physical_episode_terminated_on_frozen_gate",
+      false
+    ],
+    [
+      [
+        "filtered_pair_manifold"
+      ],
+      "shared_stop",
+      false
+    ],
+    [
+      [
+        "wrong_object_link"
+      ],
+      "shared_stop",
+      false
+    ],
+    [
+      [
+        "robot_table_contact",
+        "filtered_pair_manifold"
+      ],
+      "shared_stop",
+      false
+    ]
+  ],
+  "unknown_rejected": true,
+  "prior_slot8_unchanged": true,
+  "source_ledger_sha256": "2ce144ace4fa5db45e7ffd1ebab3b925bbc909d1c8c88c0b9c6c7f593121fc23",
+  "physical_calls": 0,
+  "connections": 0
+}

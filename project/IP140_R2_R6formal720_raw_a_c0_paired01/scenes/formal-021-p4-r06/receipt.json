@@ -1,0 +1,61 @@
+{
+  "scene_key": "formal-021-p4-r06",
+  "base": "formal-021-p4-r06",
+  "observation_rgbd_sha256": "9c6b3b2003a2a8f6480d56a108bdccdda8fca080ce08fbe71e1578d74cb0f50e",
+  "settled_state_sha256": "817b4666e873e5362156b8f75f6b5ad524f13c8e3ab1334528b2c4250ae05d06",
+  "admission_sha256": "0e4038a4ff9357154c89031cdf46468bc3d5b896e0bdcbfc76ea55e143a78413",
+  "camera_intrinsics": [
+    [
+      257.3408317565918,
+      0.0,
+      159.5
+    ],
+    [
+      0.0,
+      257.3408317565918,
+      119.5
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_world_camera": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.5299999713897705
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.8999999761581421
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "native_width": 320,
+  "native_height": 240,
+  "valid_native_depth_pixels": 74160,
+  "camera_mode": "TinyRenderer RGB-D, segmentation disabled",
+  "actual_steps": 240,
+  "step_returns": 240,
+  "method_trials": 0,
+  "grasp_outcomes": 0,
+  "observed_methods": [],
+  "wall_seconds": 1.6903299000114202,
+  "full_native_api_summary_sha256": "e4b52162d24171950c01d73951265fcaeef49ab36c1d0509bc2b325844a30f41"
+}

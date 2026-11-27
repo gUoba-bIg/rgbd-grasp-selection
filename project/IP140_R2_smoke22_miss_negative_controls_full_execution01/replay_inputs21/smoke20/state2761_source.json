@@ -1,0 +1,9 @@
+{
+  "extraction": "Exact archived uncompressed JSONL record; only gzip envelope differs",
+  "source": "IP140_R1_smoke20_positive_clearance_face_scope_and_resume_four01/slots/09/static_preflight/dual_channel_snapshots.jsonl.gz",
+  "source_sha256": "2888e9c7af63dc711246f28936c408374121ca135f0547d8dd40b2286bbf0e46",
+  "snapshot": 2761,
+  "raw_record_bytes": 574263,
+  "raw_record_sha256": "1c3e581e3c10dda9bd7df66be802c00fe9d27977eb026df1232882f8918d5a28",
+  "bundle_sha256": "a576d77c6e9a49f3e49ae6c07326a747ebeacbed7c3d1e2f76b1bb9121a33fb7"
+}

@@ -1,0 +1,1171 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "files": {
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/acquisition_policy.json": {
+      "sha256": "f3696eff4d5c67859767fb9c3c4e7e17e74ee58bc8dd3db92a2a8d05a1341a9e",
+      "bytes": 1175,
+      "mtime_ns": 1793954769987471800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/aggregate_support.py": {
+      "sha256": "cd36fad11df20851893652692e5b0895818b40a1f5194dd8c2ca247abbd3b7a1",
+      "bytes": 3048,
+      "mtime_ns": 1793945009734985100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/aggregate_support_replay.py": {
+      "sha256": "8e18b1e6ddfa305ba510857dd6fac4e90b266c90030d07b5ab628353691b85f5",
+      "bytes": 7094,
+      "mtime_ns": 1793945081626761500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/approved_scope.md": {
+      "sha256": "f2e068cd50c176d0c523072fd7c63ca5cb6f537489f13dd08991ba93454cb2ef",
+      "bytes": 369,
+      "mtime_ns": 1793949707579347700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/artifact_review.json": {
+      "sha256": "f141fa61f2bd5bcaebfe33d3124360a99da5a5216259305b014357a96b93ceb2",
+      "bytes": 1313,
+      "mtime_ns": 1793957614954471400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/audit_api.py": {
+      "sha256": "a195295f088813dd8bd8ae565fbbb55c1b8c1651ad29abd82ea413b1d74d18c7",
+      "bytes": 26391,
+      "mtime_ns": 1793945975972477200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/base_table_mount.py": {
+      "sha256": "b64c183fd547636c5a756d215dc880a3bfb51fff59cb475149a50616e849425d",
+      "bytes": 14071,
+      "mtime_ns": 1793931967871857900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/base_table_registration.json": {
+      "sha256": "449dd057a46491a95f34a36b9b9bf2512a27641e49cf9239a002fabc423c70ac",
+      "bytes": 13811,
+      "mtime_ns": 1793931821981024700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/cache_query_source_audit.json": {
+      "sha256": "05fdb53ac4343557b23ee464c658994c9a7b3de55f8db1a2460080080a92f38a",
+      "bytes": 53881,
+      "mtime_ns": 1793954736908355700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/cache_query_source_audit.md": {
+      "sha256": "2652afc8eda3d39f633eec6f035eaebc15dfb8439cf7570adb496f9f9abb0e92",
+      "bytes": 4804,
+      "mtime_ns": 1793954736909361600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/candidate_difference_proof.json": {
+      "sha256": "8381e8a8b7c73f05e0d9f043995648e67e2b4b00bae8e1ea591d8586bf7d72da",
+      "bytes": 15950,
+      "mtime_ns": 1793945060974267400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/candidate_invariance.json": {
+      "sha256": "dea2cd01058d242462c5c791371e46bcb8cba6ad8cd09d2932fb17a44aeeeb46",
+      "bytes": 27053,
+      "mtime_ns": 1793949962177530700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/candidate_prepare.py": {
+      "sha256": "6a16fdd4b7131c2b58862a8022cd31611bfcea7c8ef50b32add6a88aaa588c94",
+      "bytes": 14773,
+      "mtime_ns": 1793945059943722400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/compare_outcomes.py": {
+      "sha256": "a2a7420221e7d979421889b02596ddfd0b4f121fbeaf089ee0b744e2c552c866",
+      "bytes": 5934,
+      "mtime_ns": 1793945839854969400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/contact_aware_path.py": {
+      "sha256": "db181fa87be7612ecbc489daf905c185a516a978a82b4b44029fc03b4754fcdf",
+      "bytes": 15951,
+      "mtime_ns": 1793954769987471800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/contact_entry.py": {
+      "sha256": "d2196bd5ecf0716d313b60a60c0b4371078ffef8f06fcba676a4f38d1e9e43d0",
+      "bytes": 17984,
+      "mtime_ns": 1793955074899667400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/contact_semantics.py": {
+      "sha256": "50b2567039f3e0b3f5e2be83efab8ffee5421737c2ffd4602ae79c05fc2b3baa",
+      "bytes": 10741,
+      "mtime_ns": 1793951959159840200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/damping_write.py": {
+      "sha256": "63cc1714dd48ce61ab9b14ead002bdefd9267a6cda6fcc4ce60ebbcfed4c12c9",
+      "bytes": 7464,
+      "mtime_ns": 1793859534419009700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/damping_write_receipt.json": {
+      "sha256": "a21f7b48cc40018d6ffd964a41183e169a146cf1cfd0e676793bc888c0e82ee4",
+      "bytes": 2426,
+      "mtime_ns": 1793955908131438500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/DIRECTORY.tsv": {
+      "sha256": "5c3dd177364319ee1febed8241f112418dc36c7e9541eb811fe8b91388a66bc2",
+      "bytes": 15279,
+      "mtime_ns": 1793957616027717200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/dual_channel_snapshots.jsonl.gz": {
+      "sha256": "fa03b410ca812d350f69cc2cae18462ab7d7fb5173d7ba62703eb7d6c1c523c8",
+      "bytes": 36654604,
+      "mtime_ns": 1793955946083302000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/episode_log.py": {
+      "sha256": "5e8ecfffb5eea3b7536a04b8f41733e37a1516c0a4325e8e13dc477158c187a1",
+      "bytes": 4174,
+      "mtime_ns": 1793859508920972700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/first_contact_tip_edge_evidence.json": {
+      "sha256": "998a04526262889422cc6de6b49c1da608a5aadcc6daa3a863057c5528576f72",
+      "bytes": 5191,
+      "mtime_ns": 1793957229600670200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/first_failure_positive_gap.json": {
+      "sha256": "800cfcaced43c9ca4e19a9c3a129ba96d087c0c96e0c5f5f38b6f762dce763c1",
+      "bytes": 29000,
+      "mtime_ns": 1793957229599667600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/frozen_trajectory_commands.jsonl.gz": {
+      "sha256": "66916ad8428e487ec4c183e0bc88dcf0a140ed4eb33045eeb772b60102188213",
+      "bytes": 295435,
+      "mtime_ns": 1793946409525605500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api.py": {
+      "sha256": "fb2fa1216ed1eb07b7ed155249b7923e9127c69279fd66fa237cb3f2228ffed8",
+      "bytes": 5026,
+      "mtime_ns": 1793950222294300800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history_integrity_after.json": {
+      "sha256": "0c294b5aa4384c54ec4a319def226e27058700e06bd8ea4b1e91ebb3b2c58714",
+      "bytes": 75220,
+      "mtime_ns": 1793956594942789400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history_snapshot_before.json": {
+      "sha256": "3e94ab45c30acab641d5f2d3a68adde3e7462568b1e7c551ac90392178f1be89",
+      "bytes": 76487,
+      "mtime_ns": 1793949707525830500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/implementation.diff": {
+      "sha256": "a79cdf921b9172cf19d4a0594a67342e24fb72e87c35878515c8ba80bc122192",
+      "bytes": 166501,
+      "mtime_ns": 1793957616013512600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/input_identity.py": {
+      "sha256": "6e5d8f810e4ca701daef6332d8b9c2af0cac541e6676574168f60ad8e894c5e1",
+      "bytes": 5842,
+      "mtime_ns": 1793946012201312600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/IP140_R1_smoke14_slot14_contact_aware_static_admission01_审查包.zip": {
+      "sha256": "0f871736996e98dcebfdf0d30969797552cf418465a148a9a353c7d33859bec9",
+      "bytes": 82109326,
+      "mtime_ns": 1793957616466249400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/IP140_R1_smoke14_slot14_contact_aware_static_admission01_审查包.zip.sha256": {
+      "sha256": "f0fe6d898d8fda27732cd5ae36d5698c82ec7afe18917f8e1e07a84149b6d4e3",
+      "bytes": 138,
+      "mtime_ns": 1793957616643075800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/ledger_unchanged_proof.json": {
+      "sha256": "c4b691d547478a0a8811f74dbdec7627b5c08d04152e1152349709b803811aec",
+      "bytes": 406,
+      "mtime_ns": 1793956594752663300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/left_right_contact_entry_roots.json": {
+      "sha256": "90a5c130f7e7917346962a973416ccb932a6eac201e8ed824c30ef035a835e2e",
+      "bytes": 230,
+      "mtime_ns": 1793955946084391100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/missing_evidence.json": {
+      "sha256": "cabc550e9c7b884bc4e5bd833b367fcfeece3db28cd47df3b177a77f6e91aef4",
+      "bytes": 746,
+      "mtime_ns": 1793957229601672100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/mountpair.py": {
+      "sha256": "3155662a1cc772688f708667bddca074b73674b422fe15ef6ca7f19de24f0b15",
+      "bytes": 13328,
+      "mtime_ns": 1793841576131679500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/mountpair_registration.json": {
+      "sha256": "16df022c2cbdf86d4134214c84d68fb3abfae49a335141eea5b5dc5bff63866c",
+      "bytes": 4678,
+      "mtime_ns": 1793841576132685100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/mount_offline.py": {
+      "sha256": "48ee97afb26ee33f62c4af9d3f940a109791f3a8f276ec0ff85941265f928f14",
+      "bytes": 7209,
+      "mtime_ns": 1793931894045658200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_episode.py": {
+      "sha256": "d64159164584eba4926fee5064d8b1ef89b0751f84e6ba041e624d9a97e72d74",
+      "bytes": 19937,
+      "mtime_ns": 1793945343046399600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_evaluator.py": {
+      "sha256": "e30f651ba25fa909d9dc53622ec09c21bcd9ac6736117057bf75bdbec4b9d7b3",
+      "bytes": 14820,
+      "mtime_ns": 1793945009734985100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/object_scene_static.py": {
+      "sha256": "9ec442aa4efceb121bf07adf21d638f7c1445def3b0752a44330aea544a4496a",
+      "bytes": 10983,
+      "mtime_ns": 1793944962228544900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/offline_checks.py": {
+      "sha256": "41348821a719ec7f166c707ebd15c34839a775808064c6f33962fb7d6b41caf7",
+      "bytes": 9224,
+      "mtime_ns": 1793945153713201200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/offline_replay.py": {
+      "sha256": "0bd319a0fc324a82da71373d08460e5fbfc0378e68ee93cd80fc3013f9a3c28b",
+      "bytes": 18618,
+      "mtime_ns": 1793945153712204500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/path_precheck.py": {
+      "sha256": "06a8e04017aca68715fe67bb66249f81039cecec55a31cb9881f327365dd8b40",
+      "bytes": 16561,
+      "mtime_ns": 1793945438795129400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/path_result.json": {
+      "sha256": "d2fba45998618f932150521e77883d636804d633199fdf4f4c1547715ba2b32d",
+      "bytes": 4765,
+      "mtime_ns": 1793955946121905800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/positive_negative_replay.json": {
+      "sha256": "5758f48f23bf88044f961e5a92bc739a6091b0d22e02dc3c1c37069a3d066442",
+      "bytes": 255463,
+      "mtime_ns": 1793955741019459700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/positive_negative_replay.py": {
+      "sha256": "57a27ff154804c228b3ba9310ef042787df986c413340eaa2334c335a0e20a22",
+      "bytes": 21132,
+      "mtime_ns": 1793955739087949500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_audit_tool_differences.diff": {
+      "sha256": "58698165913491dbea51092f0773b5bfbeb4fb152bf21e915a9a779a43f76dfd",
+      "bytes": 2686,
+      "mtime_ns": 1793957478306027000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_coverage_gap.json": {
+      "sha256": "b259ff094bad840f842a442b9bed17beb17619c3d4dec0c9eaac974264f07293",
+      "bytes": 1010,
+      "mtime_ns": 1793957229601672100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_evidence_manifest.json": {
+      "sha256": "622a20d3c1a50cfc6f2b38a2c4ee44824958498043594759be8422e6b93157ef",
+      "bytes": 1032,
+      "mtime_ns": 1793957229648604100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_review.py": {
+      "sha256": "5de95fd4d1b79e3447de8fa69790d384070f4a5754787d9effc2e425155a2c84",
+      "bytes": 6585,
+      "mtime_ns": 1793957225283731100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/preregistration.json": {
+      "sha256": "99ceb2ca7596910309cf3ab4c700fc22047a778dc44f97c021240c8b412c9fc8",
+      "bytes": 51611,
+      "mtime_ns": 1793945060815094600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/README.md": {
+      "sha256": "70642303aa447829813084a35cc3e3d79796316b6c8ec16ab7a53f366a804ead",
+      "bytes": 3192,
+      "mtime_ns": 1793957412294624400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/result.json": {
+      "sha256": "ce09b0c01c38ee9b950001a28a641199aa56ace610a6f0fa5a84e30b0098dfe6",
+      "bytes": 1231,
+      "mtime_ns": 1793956594744763300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/run_once.py": {
+      "sha256": "07855c7ad64350a0b5f37019f56eae56458ffd89227c751d6768d9c51186e846",
+      "bytes": 2958,
+      "mtime_ns": 1793952458281816100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/seal_results.py": {
+      "sha256": "fac97e56bf4f0dd20ca975e9015bfe45c0c9d4694a05af97305fdafdcef60645",
+      "bytes": 9854,
+      "mtime_ns": 1793945734846539300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/seal_static.py": {
+      "sha256": "25fcda094870d7f7f7085ff70bfb33f5bedda4939c3837d37d11407ae555dc68",
+      "bytes": 5465,
+      "mtime_ns": 1793954247569492400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/seal_static_r2.py": {
+      "sha256": "dee0954885afcd7840f3b71f5e30067d18375819ce6a39b8088001d5a8fdb937",
+      "bytes": 5399,
+      "mtime_ns": 1793957412296050500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/seam_geometry.py": {
+      "sha256": "877e7f18c497d46a8b5508886a7357e41ef1c65bf0db504717f7687919feed0d",
+      "bytes": 5955,
+      "mtime_ns": 1793799794573588900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/session_claim.json": {
+      "sha256": "7cae1d6ec802dd7c85fb27df26fc8d880fcef6a545e9e8911060f4174a4b0656",
+      "bytes": 242,
+      "mtime_ns": 1793955906045485300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/session_result.json": {
+      "sha256": "167c5b9ad3afcf4ae265e4ab1200edd130e3b22b8c1543a2ded8c3a60ab53190",
+      "bytes": 436,
+      "mtime_ns": 1793955946709818700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/setup_log.json": {
+      "sha256": "3d4dd14060e76a6c28e63f3ba3e8043fc9085eb1fa96c77a77182e5e4bf68ea7",
+      "bytes": 399,
+      "mtime_ns": 1793949707579347700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/SHA256SUMS.txt": {
+      "sha256": "2e46dce975c93510c68bc55a4625dfb333f92e2b5f63135df61b29538070acfb",
+      "bytes": 30256,
+      "mtime_ns": 1793957616234584600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/slot_ledger.json": {
+      "sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+      "bytes": 9139,
+      "mtime_ns": 1793946178465426700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/smoke13_2757_2758_reclassification.json": {
+      "sha256": "09a79458afdde3dce52c7c8873ea5f70a67ebaf195491864476caeb2df906086",
+      "bytes": 33629,
+      "mtime_ns": 1793957229600670200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/speed_policy.py": {
+      "sha256": "186202a7d45f42db0c4642bbcda73bf3faa6544819b62ac61d68d38a9915c4c8",
+      "bytes": 1573,
+      "mtime_ns": 1793850665998608300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit.json": {
+      "sha256": "ec0c41f8f5e03d7db90f3a38dcd1f5e96f37cd3b0526c9f16bd5114b8e3a9631",
+      "bytes": 14682,
+      "mtime_ns": 1793956754492128600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit.py": {
+      "sha256": "ce20aa44a6f9abef07f1fab0960ce5e758dae267d9d460185bbc45f1a0d1a3ed",
+      "bytes": 20324,
+      "mtime_ns": 1793955199553003600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit_failure01.json": {
+      "sha256": "8b93d0cd80f8dc2d6df078f3cd17dee6c3e1e6b45a04086760d39bdba225f350",
+      "bytes": 488,
+      "mtime_ns": 1793956745568401200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit_failure02_and_correction.json": {
+      "sha256": "aa22868ac45c769655bb9a711eecb2910ec5d6669d761ca9ca0c547f17c71ec9",
+      "bytes": 867,
+      "mtime_ns": 1793957049010774900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit_r2.py": {
+      "sha256": "0cf18cb6b8d2850ec1e0c4c9d19441eb2bc134d579d13c723e5f200d7ba70ce2",
+      "bytes": 20633,
+      "mtime_ns": 1793956745557200200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit_r3.json": {
+      "sha256": "a2e72024ecc7b8029b161d6453d92518b77209605661d7315bc3c64ef939f7fc",
+      "bytes": 11932,
+      "mtime_ns": 1793957058406054800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_api_audit_r3.py": {
+      "sha256": "75f9cbc0528fffeadf514307b0bc8c245c9541df17b8d8dd5bf0f04a66c6834a",
+      "bytes": 20605,
+      "mtime_ns": 1793957048997240300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_gate_semantics.json": {
+      "sha256": "c1df633069d432f963a81226791cac2ee10f5905484f53c991eabaadfc53834a",
+      "bytes": 2805,
+      "mtime_ns": 1793955741026857700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_identity.py": {
+      "sha256": "1a661a80579b41eac3b024c2edd27ec4fab1729d4a495182f4851aeb633c5b70",
+      "bytes": 2969,
+      "mtime_ns": 1793955445286735700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_input_identity.json": {
+      "sha256": "287aa1c8788dc71eb442b47f9a365911e55e1cf4f45192433ed6c2ceff8d09f7",
+      "bytes": 151189,
+      "mtime_ns": 1793955876007144500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_path_offline_replay.py": {
+      "sha256": "814d1588c9dcf001c1f7eb50ce10199ca542c738ad20ae3ac47057a575d58859",
+      "bytes": 9617,
+      "mtime_ns": 1793945728184091700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/STOP.json": {
+      "sha256": "61e5ba59ba4d20cb5eded4fe0c0e6fafda78565bf589d08e1ba7f0d1da19ef30",
+      "bytes": 396,
+      "mtime_ns": 1793956594751177600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/structural_filter.py": {
+      "sha256": "244b4aa426ede2f8f4ba0b454fcfd204d7b9388181857029b15fa90b16ef1c52",
+      "bytes": 19860,
+      "mtime_ns": 1793841615181488900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/trajectory.py": {
+      "sha256": "831191134d75065e168f85ff1c0b39e4011018093e6dd8e584ff060563ecf50d",
+      "bytes": 8904,
+      "mtime_ns": 1793944958310200400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/trajectory_plan.json": {
+      "sha256": "cf9377cc6fd9c984aeb8cac4a19f10aae14b16d0a46d01fc84e6fda7f6602b0f",
+      "bytes": 8282,
+      "mtime_ns": 1793945060942207300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_readback.json": {
+      "sha256": "b29e330fc6a3804e22b12d2250e1ef938bab6987c3cf0bbdef67e9000d5b43c6",
+      "bytes": 72279,
+      "mtime_ns": 1793955908413416500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_scene.py": {
+      "sha256": "fd575dec17d5dd056ea992f028135702498d27ce57cc8d5ed47ab30927cf1612",
+      "bytes": 45228,
+      "mtime_ns": 1793950222293100800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/审查报告.md": {
+      "sha256": "76ba8736b0a1da809cd899d93273b93f9e1c3f390f6708889e2fc1e01f01df7d",
+      "bytes": 8557,
+      "mtime_ns": 1793957614942341800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/development_before_cache_isolation/contact_entry.py": {
+      "sha256": "5ae8e8e4578cc115fc3afa7fa3d0d43e1b340b184f1226a08631918d0af72078",
+      "bytes": 17843,
+      "mtime_ns": 1793950237793251900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/development_before_cache_isolation/positive_negative_replay.json": {
+      "sha256": "594290ff00ecfb59f85f6a1e55a5eba9c6ac70505c7b650ceee5ffc917c04dca",
+      "bytes": 254786,
+      "mtime_ns": 1793952542081682800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/development_before_cache_isolation/positive_negative_replay.py": {
+      "sha256": "dd8143698f367d16b2193ff60e1d7381f88ce8327c7b69b240b7949d5f4557c3",
+      "bytes": 20172,
+      "mtime_ns": 1793952347996569800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/development_before_cache_isolation/static_gate_semantics.json": {
+      "sha256": "31821ff1a3d8a40982d1b53bb5677430b6a8ab448fe80668a7707b74bf8e7c24",
+      "bytes": 2539,
+      "mtime_ns": 1793952542089540100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api/9906cea47c4d4ca098127d8e0f377f54bce1e788ab9d88f3066feef6901690b4.bin.gz": {
+      "sha256": "f0341419de6e52b444e8574a8c3e00fdff52278c4f095e25d03259dfd15c7397",
+      "bytes": 11812,
+      "mtime_ns": 1793955907965763300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api/a312a258f996042f166787f2923c6d401429491dbb7e921d1a57c4e9da4d9f15.bin.gz": {
+      "sha256": "c6cd951ee26b934359821f0104f10267dc59a2bdb4de1b1a7623bb6e21613be1",
+      "bytes": 6977,
+      "mtime_ns": 1793955907973345000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api/calls.jsonl.gz": {
+      "sha256": "b157f337d464abbe5a79048717b886f67f4d92aa91c073dff74dd592d2632f3c",
+      "bytes": 15845664,
+      "mtime_ns": 1793955946131908600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api/f80a61416ca2b33e85a9454c147863be544a05de54082824cf243f848058dc40.bin.gz": {
+      "sha256": "7e7f1a82992223dc9d3d97e170ef3e72af28e35435b31e5338a8d3daa859f85e",
+      "bytes": 109059,
+      "mtime_ns": 1793955907970866200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/full_api/summary.json": {
+      "sha256": "179ced712e902108f2141756296c2f7cb32b4fdcf2c33a8e2d909d741d89612d",
+      "bytes": 2575,
+      "mtime_ns": 1793955946131908600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/model/manifest.json": {
+      "sha256": "f1b63142ab2639863e3292468be188d17baa11559c8ba19846c20bce4bef873d",
+      "bytes": 10393,
+      "mtime_ns": 1793788114760846800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/model/ur5e_ip140_r1.urdf": {
+      "sha256": "368a6e7d830b2e3fad85c335fab010728c3e8a058ce3988ca1ff931693915c8b",
+      "bytes": 15655,
+      "mtime_ns": 1793788114760846800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_evidence/api_excerpt.json": {
+      "sha256": "cb33224bd8b7a84b47eb8491b307a731d6554227370f95f0dc7f2a8d684d2386",
+      "bytes": 6415,
+      "mtime_ns": 1793957229566847000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_evidence/snapshot_2747.json": {
+      "sha256": "44dc841dc41c75259ee6fe4e34312258421ee387f14f187ad9a1a7fb20a56e9c",
+      "bytes": 207397,
+      "mtime_ns": 1793957229217661700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/postrun_evidence/snapshot_2748.json": {
+      "sha256": "e7680fd5a0d6555060fa64673c98456682798d9466fa4302e8e05025ec6c1e6d",
+      "bytes": 216491,
+      "mtime_ns": 1793957229223488900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/review_revisions/审查报告_时间标注修订前.md": {
+      "sha256": "b468c1689c1d627a26e9a3685012baca9c3f842f39aee83777631f6224364783",
+      "bytes": 8466,
+      "mtime_ns": 1793957614942341800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_precheck/asset_source_audit.json": {
+      "sha256": "8ce973bea01f116dff87034016298a3b72cdb28e109069b0c55e4c880d407caf",
+      "bytes": 8599,
+      "mtime_ns": 1793850979728051600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_precheck/damping_readback_blocker.json": {
+      "sha256": "004155e652c4099d15fe5889c67da515cc25d02bc53be1ccac254109170fd4bb",
+      "bytes": 6186,
+      "mtime_ns": 1793850979733037800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_precheck/damping_sources.txt": {
+      "sha256": "18c14d1cf84e11252d1ebc24da8d60d2f2b20c55649564ddd222dbe9d012b12f",
+      "bytes": 29101,
+      "mtime_ns": 1793850979546495900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/static_precheck/pybullet_pyd_exports.txt": {
+      "sha256": "f2ae32a12327525238dc0105b552f90b51c5de50c5ebec5fddc5fee4a82819a3",
+      "bytes": 15450,
+      "mtime_ns": 1793850979509723400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/all_links_readback.json": {
+      "sha256": "c4fe6e86e0179fb4c98478ff85239af979a3e5fcff72f81efe9d7bb01aa988df",
+      "bytes": 35929,
+      "mtime_ns": 1793955907907046200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/base_table_filter_intent.json": {
+      "sha256": "1b8e63604b9aa6a32a7922fd0639ed90673b41da7e4e54ec5a9efa927217c24f",
+      "bytes": 157,
+      "mtime_ns": 1793955908171340600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/base_table_filter_return.json": {
+      "sha256": "eb604141cdbeadeefd4515f052d7187664d4340b069caba0ba0157c19d1ce79d",
+      "bytes": 74,
+      "mtime_ns": 1793955908173441400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/base_table_mount_assets.json": {
+      "sha256": "6b45404414cbe7347941b1e03aada0cd6a8b65fa900b3855fd41e815c1d95a73",
+      "bytes": 3238,
+      "mtime_ns": 1793955908169275400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/base_table_mount_post.json": {
+      "sha256": "c1947ac67bca945050835e055142afc8ac5935bcc7b931817bf5bd3cbb01066f",
+      "bytes": 5228,
+      "mtime_ns": 1793955908175472800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/base_table_mount_pre.json": {
+      "sha256": "b2b32c94664f81d1f642c64709e2690f804f948ad2785143b4cc30b9f8549381",
+      "bytes": 7713,
+      "mtime_ns": 1793955908170337500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/calls.jsonl": {
+      "sha256": "5c491e6d1db841264066aa8f505f703c0bd1d2e29c7c6dcd26b85d9b49183fac",
+      "bytes": 32115,
+      "mtime_ns": 1793955946130906600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/candidate_roundtrip.json": {
+      "sha256": "0f21f5b78e9088f02fb99ff4c4f1eb963e274fafbbdac76597189e17af520251",
+      "bytes": 1464,
+      "mtime_ns": 1793955907923046000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/collision_frame_diagnostics.json": {
+      "sha256": "5112c80aeb3836767e8847d4b5a24b056164e2a66b0ff15d57e238684d067353",
+      "bytes": 15334,
+      "mtime_ns": 1793955907913775200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/damping_write_audit.json": {
+      "sha256": "56c07364d046f158063f0aa3df99b4132440ebf98109338442dab98467e45081",
+      "bytes": 43,
+      "mtime_ns": 1793955908138189700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_post.json": {
+      "sha256": "444bbd349e2871311f9b7bdb52b19caf6904c17168354f6262f84ac7a27f6d09",
+      "bytes": 156386,
+      "mtime_ns": 1793955908048883400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_pre.json": {
+      "sha256": "e23d15ba25a9f407dabaadc0df334a39ab3ca481dceb38d4152a1ed7f496aaef",
+      "bytes": 178167,
+      "mtime_ns": 1793955907994735000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_01_intent.json": {
+      "sha256": "7f78d6ed3acac79f55e21b229dfe910cb2c0b3cd9d583448c65cb9624b6b34f3",
+      "bytes": 285,
+      "mtime_ns": 1793955907995736700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_01_returned.json": {
+      "sha256": "b76d7a1facd4b74124f82006fd24faed102bba961c26a3a5d957dd219c4b8d3b",
+      "bytes": 386,
+      "mtime_ns": 1793955907997086400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_02_intent.json": {
+      "sha256": "7328db07bd79730f473c0af8a8baae14b6d00fa46c769c13fcccbbb4ac8194c8",
+      "bytes": 282,
+      "mtime_ns": 1793955907999057900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_02_returned.json": {
+      "sha256": "ed8f48eaec37cc7a203aff301f6d6f7e66a1e88835d46181ac8005e098fd0df1",
+      "bytes": 383,
+      "mtime_ns": 1793955908000059800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_03_intent.json": {
+      "sha256": "0379f54da1a10c71872306a4f2b7dad2a770ad0fc53e8332dc1d2d17f3452dfa",
+      "bytes": 281,
+      "mtime_ns": 1793955908002149700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_03_returned.json": {
+      "sha256": "d097c6a564bfd47e0d4a6c9c159fb0c0b964661b643cc584980bd4732e51cde3",
+      "bytes": 382,
+      "mtime_ns": 1793955908003343300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_04_intent.json": {
+      "sha256": "3d8b3d19dd741cf3c36469738aee8344c7de19840c9fa9c291c2dc9369859091",
+      "bytes": 279,
+      "mtime_ns": 1793955908004341900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_04_returned.json": {
+      "sha256": "5a9fac7bdfc4d388c93607b8eb90a820e8089355a5310ca13c0b9bb12bfbab6a",
+      "bytes": 380,
+      "mtime_ns": 1793955908005691900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_05_intent.json": {
+      "sha256": "da8f5bc341f2b06d7a4e116e75243d7341996f267d0dae53d96e750028174eb9",
+      "bytes": 279,
+      "mtime_ns": 1793955908007720900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_05_returned.json": {
+      "sha256": "07c6a2562ddb25f31cbd5385b4856fa26495c0706d77d4afe4aac636149b4d24",
+      "bytes": 380,
+      "mtime_ns": 1793955908009231600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_06_intent.json": {
+      "sha256": "5de720122b685ed8a63eddb2a6215a890205eb3acebc4bc0f5c0fec8d1f94df1",
+      "bytes": 279,
+      "mtime_ns": 1793955908010857800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_06_returned.json": {
+      "sha256": "9b08b2778f02f175d9ec931f19ca03f0d66da81bcbfc76a30157cf824c9c2b25",
+      "bytes": 380,
+      "mtime_ns": 1793955908011871200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_07_intent.json": {
+      "sha256": "2c492d954ac4b58d8e4a899934dc72e6dc40c653f9ada15a3e5ca1016fab9afc",
+      "bytes": 278,
+      "mtime_ns": 1793955908014271700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_07_returned.json": {
+      "sha256": "63e313a41c69c189683d75387f5bdc37ea8c9666661a0db41a732daf5c4db93b",
+      "bytes": 379,
+      "mtime_ns": 1793955908015452800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_08_intent.json": {
+      "sha256": "9f105cef316cba872dccf9e9d9415f99063f6a1ec70a14e50be86f04f221af62",
+      "bytes": 286,
+      "mtime_ns": 1793955908016482500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_08_returned.json": {
+      "sha256": "f2ba23c7f408c3af03f66cf282327d5c02e7b694b3e16fd42091f11a18de7a59",
+      "bytes": 387,
+      "mtime_ns": 1793955908017684400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_09_intent.json": {
+      "sha256": "30c57a4effd3a3dc3f2e4d5ea71e5f1bf6520999236feb151a34bc97442ffab2",
+      "bytes": 288,
+      "mtime_ns": 1793955908019765100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_09_returned.json": {
+      "sha256": "8846a6d0db19da8806054a2e765a5e79b4e55da5efa9ea095b5079d9f45481ac",
+      "bytes": 389,
+      "mtime_ns": 1793955908021162600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_10_intent.json": {
+      "sha256": "fb9fc578ce3956907f684d0444ab7c7952ae1ae07398c00600fba4d1db848756",
+      "bytes": 283,
+      "mtime_ns": 1793955908023196800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_10_returned.json": {
+      "sha256": "ba06f76b7af8341ed07dba027150c34409c499f86453d5fc7dc6613851de4554",
+      "bytes": 384,
+      "mtime_ns": 1793955908026915200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_11_intent.json": {
+      "sha256": "54388b2559cae61be81d4d2b2b2863a9fb93722c9ab8bc12653a3fd6df67c9c4",
+      "bytes": 282,
+      "mtime_ns": 1793955908027813300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_11_returned.json": {
+      "sha256": "f411ee305b6cdd5a4aae4ff5cc18ca46ab5e00ead93ba87f50eb37178cb7128c",
+      "bytes": 383,
+      "mtime_ns": 1793955908030083800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_12_intent.json": {
+      "sha256": "0d1f30cda5b80dc7b1d672564051ed37005eea223c8acdaa9dbbd0ce1b8cb6f4",
+      "bytes": 284,
+      "mtime_ns": 1793955908031207600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_12_returned.json": {
+      "sha256": "b0fb247fdc2c595ec566c800bca72988f84b7ae00c78c885da074ff7486a419c",
+      "bytes": 385,
+      "mtime_ns": 1793955908032201900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_13_intent.json": {
+      "sha256": "0a3c8a11962522e81541015e2f95826fb42b7eb314c49f6be4644f439d8d149c",
+      "bytes": 283,
+      "mtime_ns": 1793955908034331300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/filter_setter_13_returned.json": {
+      "sha256": "927908309b57515453368c2c2dcd2f92c8929fb03bbcf93a880724afe69ef679",
+      "bytes": 384,
+      "mtime_ns": 1793955908035415900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/initial_world_contacts.json": {
+      "sha256": "eacdf6e7a9818a8672425540e1550f215a3c88d34f8819a96303b6af6c38f1fb",
+      "bytes": 4123,
+      "mtime_ns": 1793955908178998800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/object021_readback.json": {
+      "sha256": "7e96c5a3ce2bbd3ec89578a4b669b59c72ab37daef2436be3813cb581c0075e2",
+      "bytes": 249379,
+      "mtime_ns": 1793955908162999300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/post_filter_thirteen_pairs_closest_and_manifolds.json": {
+      "sha256": "efeed5d5f7271d9340d709519f39eecdfef1f530bef5f869fee9aa56cc75edd5",
+      "bytes": 10648,
+      "mtime_ns": 1793955908067877500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/post_filter_wrist_mount_invariant.json": {
+      "sha256": "921e74f7ff6f794789d50604f3e2dbccb0f5c92bbfa145426f6719cedaf26953",
+      "bytes": 5267,
+      "mtime_ns": 1793955908065825800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/pre_filter_wrist_fixed_chain.json": {
+      "sha256": "1dbe30f3486fdcf230c20c04358f67cfb4f23a0dc98cfa8519380a6b06074427",
+      "bytes": 1495,
+      "mtime_ns": 1793955907918550700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/pre_filter_wrist_mount_face_witnesses.json": {
+      "sha256": "c57f834e2d05a612f435d2cfc003fe1def748e05e31cefe7a9cc21fe8bff9cf2",
+      "bytes": 3951,
+      "mtime_ns": 1793955907920562500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/pre_filter_wrist_mount_invariant.json": {
+      "sha256": "c182f99ff7e1958b1eab33413adeed4a08b46bbdba7f33b1b076c535d18fffdd",
+      "bytes": 6176,
+      "mtime_ns": 1793955908064566300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/pre_filter_wrist_relative_transform.json": {
+      "sha256": "b8b0fee31817336ded9d382719d86d8dfc533339202f101c2ba9ceac897c797b",
+      "bytes": 712,
+      "mtime_ns": 1793955907919559400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/registered_base_table_mount_filter.json": {
+      "sha256": "0a655d4064c48e8a883653f58f0a5ee374534fa26c41b541830a779eca638b1c",
+      "bytes": 18266,
+      "mtime_ns": 1793955908177604900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/result.json": {
+      "sha256": "1787da4af607727c321a71951bffacdfd85311a113954ed1a2f0f7ab6fe71ffb",
+      "bytes": 72417,
+      "mtime_ns": 1793955946146008900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/seams_after_filter.json": {
+      "sha256": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+      "bytes": 2131,
+      "mtime_ns": 1793955908069175400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/seams_before_filter.json": {
+      "sha256": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+      "bytes": 2131,
+      "mtime_ns": 1793955907921629100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/slot14_trajectory_mapping.json": {
+      "sha256": "905fd102a443d4adf5887b0f9a9aeb884271bf5800c7a0deb9b3138ed57c649d",
+      "bytes": 7779,
+      "mtime_ns": 1793955907915346200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/speed_and_complete_api_prefix.json": {
+      "sha256": "e217d28062f0f2e1b6ec2df0950c671e4dd298b7cd4a87f16349f9ed890d5e18",
+      "bytes": 8701,
+      "mtime_ns": 1793955908191653500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/start.json": {
+      "sha256": "34f813172079b604e4bf82c9e271a76d9ba191d93c04ed2df3f2252c1ff3b91f",
+      "bytes": 111,
+      "mtime_ns": 1793955907471644400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/structural_filter_readback.json": {
+      "sha256": "53e5db9c8dbbd82ab33695ad3ace247356691dc420704d2cf8fc23d31a6fdef6",
+      "bytes": 368711,
+      "mtime_ns": 1793955908063543900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/table_readback.json": {
+      "sha256": "babc9199e014d37fb4e71345e9db1bf949b16753db763bf488b63a8b9132db4e",
+      "bytes": 877,
+      "mtime_ns": 1793955908163996900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/zero_assembly.png": {
+      "sha256": "12243652c675023da38eabb0c0c86db2178919550e1855460cee7336e3b4b673",
+      "bytes": 7708,
+      "mtime_ns": 1793955907979283600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/zero_step/zero_contacts.json": {
+      "sha256": "5eb96ae7617b1b3d591a4128937a65ff9766ddde7b51f2d7b249f768ce3e31cc",
+      "bytes": 6860,
+      "mtime_ns": 1793955908070417700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/result.json": {
+      "sha256": "56c94083e17c1302bda2b38b876461de36f603c3cb993390e9eb23aac1f8f63a",
+      "bytes": 1658,
+      "mtime_ns": 1793946178463318500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/session_result.json": {
+      "sha256": "0ec2c059e197dd768e8e38a406d0a221a3f4efb5af4f66bc226f8e2b907b52f5",
+      "bytes": 313,
+      "mtime_ns": 1793946107874300500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/SHA256SUMS.txt": {
+      "sha256": "e97dde6df9b4e522f746e9c8c21749446ce099c108594def53f5dad5d9d299f6",
+      "bytes": 33379,
+      "mtime_ns": 1793946821857754300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/slot_ledger.json": {
+      "sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+      "bytes": 9139,
+      "mtime_ns": 1793946178465426700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/static_first_failure_evidence.json": {
+      "sha256": "db931f5446a88c67cf2aef748f2acc199de23048c438f8b18bb87ba28a41e7c3",
+      "bytes": 199464,
+      "mtime_ns": 1793946444493791900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/STOP.json": {
+      "sha256": "d068dede7dc7a68b112d9af3d49fec21a576fb8802c5399521bc9c0162d9c565",
+      "bytes": 389,
+      "mtime_ns": 1793946178473172600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/审查报告.md": {
+      "sha256": "191142bda07dca80c1ead2621515cc28d5322c1d193fa9a918ddd5f615621fcd",
+      "bytes": 8541,
+      "mtime_ns": 1793946779020323100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/damping_write_receipt.json": {
+      "sha256": "a21f7b48cc40018d6ffd964a41183e169a146cf1cfd0e676793bc888c0e82ee4",
+      "bytes": 2426,
+      "mtime_ns": 1793946090249739700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/path_snapshots.jsonl.gz": {
+      "sha256": "39653f701a991c2e68269bae6a7c7152d6b21f160106864bcc3d65375643e5bc",
+      "bytes": 17351094,
+      "mtime_ns": 1793946107824503100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/result.json": {
+      "sha256": "1688bc2221ade8477ba7075de3b19b169f2d600ff92f28eadb60a3208cb05c61",
+      "bytes": 11546,
+      "mtime_ns": 1793946107849045700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_readback.json": {
+      "sha256": "cc6784eca08f9c7beafba687e366fb5509b0f588901542ef4d9bd69f9e3fab16",
+      "bytes": 71552,
+      "mtime_ns": 1793946090554388700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/full_api/9906cea47c4d4ca098127d8e0f377f54bce1e788ab9d88f3066feef6901690b4.bin.gz": {
+      "sha256": "aab7a10a4aa59eb747deed1855285d5991399bd97d232e2236498ff1353b67cb",
+      "bytes": 11812,
+      "mtime_ns": 1793946090097995900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/full_api/a312a258f996042f166787f2923c6d401429491dbb7e921d1a57c4e9da4d9f15.bin.gz": {
+      "sha256": "74580c6b2f2711aa83197e84e23aa1198df066c962e3c06175bdad5d64398a44",
+      "bytes": 6977,
+      "mtime_ns": 1793946090105577800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/full_api/calls.jsonl.gz": {
+      "sha256": "de1f3ecfe3fee1c3db610317a2d3a2dbb33b0dc47fc09e3303f38f1da7cb6600",
+      "bytes": 10676444,
+      "mtime_ns": 1793946107857022300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/full_api/f80a61416ca2b33e85a9454c147863be544a05de54082824cf243f848058dc40.bin.gz": {
+      "sha256": "db090674114f46dcc3749500f201cff2accf7eeb003b10b8b6cfdebab38c1f61",
+      "bytes": 109059,
+      "mtime_ns": 1793946090102524100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/full_api/summary.json": {
+      "sha256": "038b2e57d51f90ecd9bc31642adc4976ba841e73bb21dcde83bc76609be00dc7",
+      "bytes": 2570,
+      "mtime_ns": 1793946107858039500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/all_links_readback.json": {
+      "sha256": "50348c334e146fde82399a0977a15904f15c3125ab6d78e88911092a801491ea",
+      "bytes": 36006,
+      "mtime_ns": 1793946090040383900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/base_table_filter_intent.json": {
+      "sha256": "1b8e63604b9aa6a32a7922fd0639ed90673b41da7e4e54ec5a9efa927217c24f",
+      "bytes": 157,
+      "mtime_ns": 1793946090293229500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/base_table_filter_return.json": {
+      "sha256": "eb604141cdbeadeefd4515f052d7187664d4340b069caba0ba0157c19d1ce79d",
+      "bytes": 74,
+      "mtime_ns": 1793946090294492700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/base_table_mount_assets.json": {
+      "sha256": "3eb5370a8601f64401bccfb493f87fa72b55149168a83831ac7cecd9a9648acb",
+      "bytes": 3260,
+      "mtime_ns": 1793946090290714800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/base_table_mount_post.json": {
+      "sha256": "c1947ac67bca945050835e055142afc8ac5935bcc7b931817bf5bd3cbb01066f",
+      "bytes": 5228,
+      "mtime_ns": 1793946090296930800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/base_table_mount_pre.json": {
+      "sha256": "b2b32c94664f81d1f642c64709e2690f804f948ad2785143b4cc30b9f8549381",
+      "bytes": 7713,
+      "mtime_ns": 1793946090291919300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/calls.jsonl": {
+      "sha256": "f67126d4705125d098bc4c968559d146c795b8df72ef5f05115de353d1c3ec98",
+      "bytes": 32126,
+      "mtime_ns": 1793946107857022300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/candidate_roundtrip.json": {
+      "sha256": "0f21f5b78e9088f02fb99ff4c4f1eb963e274fafbbdac76597189e17af520251",
+      "bytes": 1464,
+      "mtime_ns": 1793946090055787700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/collision_frame_diagnostics.json": {
+      "sha256": "5112c80aeb3836767e8847d4b5a24b056164e2a66b0ff15d57e238684d067353",
+      "bytes": 15334,
+      "mtime_ns": 1793946090046705500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/damping_write_audit.json": {
+      "sha256": "56c07364d046f158063f0aa3df99b4132440ebf98109338442dab98467e45081",
+      "bytes": 43,
+      "mtime_ns": 1793946090256741900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_post.json": {
+      "sha256": "0c8ce6048fb5dd0fd98f39e52299047c61b48d342f9b34fa203a64126857506e",
+      "bytes": 156529,
+      "mtime_ns": 1793946090177613500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_pre.json": {
+      "sha256": "bcc9d1a1426994245507ce5917ec8eaf485c21251bdd98c442fc872adfe6a651",
+      "bytes": 178310,
+      "mtime_ns": 1793946090129292000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_01_intent.json": {
+      "sha256": "5c69be54b71f3d9b216196206ac18ff191cf014f42377d5de94717c108aa1d70",
+      "bytes": 285,
+      "mtime_ns": 1793946090130303500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_01_returned.json": {
+      "sha256": "c68abdb1a2b2134acee6d419561c0e0f092e96be4e9f99d13954be3911ce9891",
+      "bytes": 386,
+      "mtime_ns": 1793946090131701800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_02_intent.json": {
+      "sha256": "c372f4f2eab930e98a1892d30626482840294e712eb9e79359e03676d81d5e59",
+      "bytes": 282,
+      "mtime_ns": 1793946090133008400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_02_returned.json": {
+      "sha256": "600320e51b778bcf21adb976de0869aa521e0b4d1fff7163b64a98434158a09e",
+      "bytes": 383,
+      "mtime_ns": 1793946090134342800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_03_intent.json": {
+      "sha256": "8756316e21dd67ba79bc503c88aabbb9f1b0b0bf2c5d6cb865ffda5457c31abb",
+      "bytes": 281,
+      "mtime_ns": 1793946090136336500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_03_returned.json": {
+      "sha256": "d68e4a0b5f0e33ee19eadb470ff012872c94ce1fb1a99d61a6d396566adb4310",
+      "bytes": 382,
+      "mtime_ns": 1793946090137659000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_04_intent.json": {
+      "sha256": "68bfeee8998663393cc04b9fe1d4fc912e398da2484e3a3f2457a68127e10096",
+      "bytes": 279,
+      "mtime_ns": 1793946090138669400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_04_returned.json": {
+      "sha256": "77d32ef2f8280d64b88e8a4a3680d73a2741015cd274585a65be73eff5a1938b",
+      "bytes": 380,
+      "mtime_ns": 1793946090139870100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_05_intent.json": {
+      "sha256": "ffb2f2e0fd9955cf0444c4d347c43cc26bbd84cb2b592448021b4e5b82204285",
+      "bytes": 279,
+      "mtime_ns": 1793946090141966400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_05_returned.json": {
+      "sha256": "9721ec472ca600f7bb3e9cf67e9891a823ce6820e81478a4f086a02b9a8b6d96",
+      "bytes": 380,
+      "mtime_ns": 1793946090143199400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_06_intent.json": {
+      "sha256": "61f818e281d73dc95d1f658bfa3aa53a4cb20694a6dc31828ead7af6a081f8ca",
+      "bytes": 279,
+      "mtime_ns": 1793946090144583200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_06_returned.json": {
+      "sha256": "b18fac775c578119a7703caeede7eb51745be8c5b696564f07ed7e5d865dfbe3",
+      "bytes": 380,
+      "mtime_ns": 1793946090146017900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_07_intent.json": {
+      "sha256": "5a72b29c1edd2ba40eed71e3cefc0ae7c358b6b0f6e9a025ee0b59b59c89546a",
+      "bytes": 278,
+      "mtime_ns": 1793946090147077900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_07_returned.json": {
+      "sha256": "d92a7801b6b81b2c9f3e7bb4cc98ad9fd342f52d3420f4720fe24ce70800bab2",
+      "bytes": 379,
+      "mtime_ns": 1793946090148091100
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_08_intent.json": {
+      "sha256": "d3c6764bc51e84188734c5d0a4792336bde99039da2e609a1762fade5f69743e",
+      "bytes": 286,
+      "mtime_ns": 1793946090149177200
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_08_returned.json": {
+      "sha256": "874f0a26665ca10c1124d97f4791a17fc52b1ed2dbd4f40faf276e00f9b8a7e9",
+      "bytes": 387,
+      "mtime_ns": 1793946090150386300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_09_intent.json": {
+      "sha256": "099575593a1b9609830895e8b80585b6791a7366f674417d3d9b3956cad0a72f",
+      "bytes": 288,
+      "mtime_ns": 1793946090151638700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_09_returned.json": {
+      "sha256": "5a8d332c1ad80a8abdec0ed0a0158df2c1e37d7861805b2d98da27243084e1ff",
+      "bytes": 389,
+      "mtime_ns": 1793946090152841600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_10_intent.json": {
+      "sha256": "86741eb3399ffb415ed28fc707036003fbc68e37fba4bc117c725d9e10cb9ca5",
+      "bytes": 283,
+      "mtime_ns": 1793946090155216900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_10_returned.json": {
+      "sha256": "0c7ab521bb33e9080e4c1eedff793ce5acafc5eb085bab103ebf6d0991434152",
+      "bytes": 384,
+      "mtime_ns": 1793946090156233600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_11_intent.json": {
+      "sha256": "69c1e2da305b46f5275bb50c949b3295356fc0abfc3771ee09c3f5ada9945919",
+      "bytes": 282,
+      "mtime_ns": 1793946090157255700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_11_returned.json": {
+      "sha256": "48ba09c7e781192b03588982d8f079eb095814375bf7d37d7d725d44b485c063",
+      "bytes": 383,
+      "mtime_ns": 1793946090159447300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_12_intent.json": {
+      "sha256": "8a57c360a6c7e5ecc42c14e10ad21a77d0a10b176defd614baeca506a5b9ebb8",
+      "bytes": 284,
+      "mtime_ns": 1793946090160540400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_12_returned.json": {
+      "sha256": "fdc464ec629e11f18defb5f550e489391baac8a1cccd72bd779ec816b61fff00",
+      "bytes": 385,
+      "mtime_ns": 1793946090161827000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_13_intent.json": {
+      "sha256": "c2fabbb1b9e51519aa8f2d13670c7b0b4731fbd37ccd2d69d9f8b1213716e5d4",
+      "bytes": 283,
+      "mtime_ns": 1793946090163102300
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/filter_setter_13_returned.json": {
+      "sha256": "b99e82b1b7e9b82ab1a9a55479f32b0fbb6006c98901519570362c48597e9598",
+      "bytes": 384,
+      "mtime_ns": 1793946090164296000
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/initial_world_contacts.json": {
+      "sha256": "eacdf6e7a9818a8672425540e1550f215a3c88d34f8819a96303b6af6c38f1fb",
+      "bytes": 4123,
+      "mtime_ns": 1793946090300514800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/object021_readback.json": {
+      "sha256": "7e96c5a3ce2bbd3ec89578a4b669b59c72ab37daef2436be3813cb581c0075e2",
+      "bytes": 249379,
+      "mtime_ns": 1793946090285823500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/post_filter_thirteen_pairs_closest_and_manifolds.json": {
+      "sha256": "efeed5d5f7271d9340d709519f39eecdfef1f530bef5f869fee9aa56cc75edd5",
+      "bytes": 10648,
+      "mtime_ns": 1793946090197029700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/post_filter_wrist_mount_invariant.json": {
+      "sha256": "921e74f7ff6f794789d50604f3e2dbccb0f5c92bbfa145426f6719cedaf26953",
+      "bytes": 5267,
+      "mtime_ns": 1793946090195891800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/pre_filter_wrist_fixed_chain.json": {
+      "sha256": "1dbe30f3486fdcf230c20c04358f67cfb4f23a0dc98cfa8519380a6b06074427",
+      "bytes": 1495,
+      "mtime_ns": 1793946090051669500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/pre_filter_wrist_mount_face_witnesses.json": {
+      "sha256": "c57f834e2d05a612f435d2cfc003fe1def748e05e31cefe7a9cc21fe8bff9cf2",
+      "bytes": 3951,
+      "mtime_ns": 1793946090053926800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/pre_filter_wrist_mount_invariant.json": {
+      "sha256": "c182f99ff7e1958b1eab33413adeed4a08b46bbdba7f33b1b076c535d18fffdd",
+      "bytes": 6176,
+      "mtime_ns": 1793946090194422600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/pre_filter_wrist_relative_transform.json": {
+      "sha256": "b8b0fee31817336ded9d382719d86d8dfc533339202f101c2ba9ceac897c797b",
+      "bytes": 712,
+      "mtime_ns": 1793946090053018600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/registered_base_table_mount_filter.json": {
+      "sha256": "17c42bde1db63d9e6d1812cfbb5d2b85f7c33e733013d65fc3d225435972795a",
+      "bytes": 18288,
+      "mtime_ns": 1793946090299441800
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/result.json": {
+      "sha256": "4c20179ca7e5438d8a03be4c4388ab78930f10b949c05713d7d5864d23825ed9",
+      "bytes": 71690,
+      "mtime_ns": 1793946107872059700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/seams_after_filter.json": {
+      "sha256": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+      "bytes": 2131,
+      "mtime_ns": 1793946090199049700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/seams_before_filter.json": {
+      "sha256": "2f77ae246fe4f495e2184b7044c5638a20f4084c1bd1ce820015475951de5172",
+      "bytes": 2131,
+      "mtime_ns": 1793946090054941700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/slot14_trajectory_mapping.json": {
+      "sha256": "905fd102a443d4adf5887b0f9a9aeb884271bf5800c7a0deb9b3138ed57c649d",
+      "bytes": 7779,
+      "mtime_ns": 1793946090049533700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/speed_and_complete_api_prefix.json": {
+      "sha256": "db270b3a70be316033c0991bc80a28c7f399aee1df03832715f02a5be489e04f",
+      "bytes": 8701,
+      "mtime_ns": 1793946090311793700
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/start.json": {
+      "sha256": "4f85d73b161ec7c4e5376265999b7d928e03c1d7a41342742a48d3564b3ceb63",
+      "bytes": 111,
+      "mtime_ns": 1793946089624765500
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/structural_filter_readback.json": {
+      "sha256": "415a0391a5f2d38945ca50b4a07c98c1a496c8f0fba9beb37647d9c546a8ad49",
+      "bytes": 368997,
+      "mtime_ns": 1793946090192197900
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/table_readback.json": {
+      "sha256": "babc9199e014d37fb4e71345e9db1bf949b16753db763bf488b63a8b9132db4e",
+      "bytes": 877,
+      "mtime_ns": 1793946090286609600
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/zero_assembly.png": {
+      "sha256": "12243652c675023da38eabb0c0c86db2178919550e1855460cee7336e3b4b673",
+      "bytes": 7708,
+      "mtime_ns": 1793946090111682400
+    },
+    "IP140_R1_smoke14_slot14_contact_aware_static_admission01/history/IP140_R1_smoke13_slot14_legacy_height_bridge021_aggregate_support01/path_precheck/zero_step/zero_contacts.json": {
+      "sha256": "5eb96ae7617b1b3d591a4128937a65ff9766ddde7b51f2d7b249f768ce3e31cc",
+      "bytes": 6860,
+      "mtime_ns": 1793946090199678300
+    }
+  },
+  "created_utc": "2026-11-06T11:06:58.911683+00:00"
+}

@@ -1,0 +1,1618 @@
+{
+  "schema": 22,
+  "created_at": "2026-10-27T13:16:35.307866+08:00",
+  "scope": "Complete P4 interface acceptance over every development scene and two predetermined views; engineering linkage, not official grasp AP or independent generalization",
+  "records": [
+    {
+      "scene": 2,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0002/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0002/realsense/depth/0000.png",
+        "label": "scenes/scene_0002/realsense/label/0000.png",
+        "meta": "scenes/scene_0002/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "0fdef547423908b56edb9ec39c366ae1674c58e962655c3511de20f6a3a0c9d5",
+        "depth": "6ba2a7dcb088a7bf024e21afa5de40a801ec88c331ad8e7f6c03401d90741086",
+        "label": "bd4628caa4908bc605550a92c5e5a6ebb034a7b1c20a6e6d6eb5fdd1aecc6ddb",
+        "meta": "ce4aff35b4962fda0007ff66b140f35865a3edba8dca87e73149080eb6b20299"
+      }
+    },
+    {
+      "scene": 2,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0002/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0002/realsense/depth/0128.png",
+        "label": "scenes/scene_0002/realsense/label/0128.png",
+        "meta": "scenes/scene_0002/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "da407b98781d8311deb905b0daa5ddbf88ffd0b88927e13222840c9f01ad9698",
+        "depth": "d3dec559b1bdbb3a45eb9e863b083743c163f67092acfa5710de3123047a3474",
+        "label": "02dddbd8284eca39dcb53d6b86b35f7074b757b6e552c0ce0d2c2c4ad6a9bf59",
+        "meta": "b8eb3fa46f9f8a32b40321c43e922b9132a3a821f5c1926ee182901531ef5144"
+      }
+    },
+    {
+      "scene": 6,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0006/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0006/realsense/depth/0000.png",
+        "label": "scenes/scene_0006/realsense/label/0000.png",
+        "meta": "scenes/scene_0006/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "f6366ddea1dba57445aee1246a07ead8fd2aa72a5431103a3aefbc1a1cac8f8c",
+        "depth": "6456bd76296e54bfc9bc5e589053d021ba3244effb1ebd91e21c1d17d2e55422",
+        "label": "e9898b54f652feec2ea799157b769d15d1d85af7057fa5f9ee8abaa6b9a89d73",
+        "meta": "71469d0c4af6403700aa6d52a2f0f43239cf82c79c7326c2f6451c1c49129be1"
+      }
+    },
+    {
+      "scene": 6,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0006/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0006/realsense/depth/0128.png",
+        "label": "scenes/scene_0006/realsense/label/0128.png",
+        "meta": "scenes/scene_0006/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "b5685d6bbe02d80097d73545eac07a4472ba118512820c0e61947d1292ba2c11",
+        "depth": "067bbbcc1364819188dba2e5520e5cd0cbf1b224de0925caf08eca2cacb3a336",
+        "label": "b8b81c3cae394286261187d8c0ef46207c4e4cd6ea3c856a51b8f097b68b9248",
+        "meta": "21cdc4636c76a361ca094061bbf4d34a2b47fca5b9f56a5d26a825b884393ea6"
+      }
+    },
+    {
+      "scene": 7,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0007/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0007/realsense/depth/0000.png",
+        "label": "scenes/scene_0007/realsense/label/0000.png",
+        "meta": "scenes/scene_0007/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "5f660bffa3930cf094f0e5653ec8e7d551cd958b48cf133541513e537f9e0f6e",
+        "depth": "138b7bf77bd3101d6eb5552f07282fb6e69d65fac98a3914989f0c0a38520a8c",
+        "label": "ee2d2ee5b5b2249d1fe7653ee9176e179592c88eadd23d57b0e35a69886bfdb9",
+        "meta": "1ee3175361f9e83cd4b81b1a20c4e7001cbb024226a3fdc0674dde0cce977d37"
+      }
+    },
+    {
+      "scene": 7,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0007/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0007/realsense/depth/0128.png",
+        "label": "scenes/scene_0007/realsense/label/0128.png",
+        "meta": "scenes/scene_0007/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "a74c64760d1a5388ee96c14a0f2cd82605cad34c4c6027ff9c8b802749f4831b",
+        "depth": "4bacd817f0ca5865c4a51f7c8711fa652a222dea2f57afd0c70df5083ef85bc8",
+        "label": "08e1ca315ce605563298690ff651a00f7d7be0f3a1366646d028ef008051d250",
+        "meta": "91fba90a295cf7627e472ce8dd69676fbe1f75bd88a1928c0ab71fc0af3cfccd"
+      }
+    },
+    {
+      "scene": 11,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0011/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0011/realsense/depth/0000.png",
+        "label": "scenes/scene_0011/realsense/label/0000.png",
+        "meta": "scenes/scene_0011/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "3514d1e5bcc8949378aa8294d586d148e7e915bcd20d07dbb1c909f4ca4b8264",
+        "depth": "fd4b5c34a7fcaccb92debaeeb7e9b01b85d3bff9e77af5d65b2e49fd0f3a8751",
+        "label": "ebcb608e97f86755fd687fa0935150b8fcb7bdb4dae80ff7dc5857cc0aa936e4",
+        "meta": "830bbf1b36170a731bd885caa5b65e7afde0d345fa7f091b7165d357aa702dfe"
+      }
+    },
+    {
+      "scene": 11,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0011/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0011/realsense/depth/0128.png",
+        "label": "scenes/scene_0011/realsense/label/0128.png",
+        "meta": "scenes/scene_0011/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "31725ab986f041a9ce1676b25e10165f10aa36082f9055fae22e85266449cdac",
+        "depth": "e33f0851f5a232e6132791b5e2be63aed552f38e462b5151c19d80eae3a4917e",
+        "label": "ee642c854dd06baa6e3af655cbea93977136324d47ee8e8e16bfa060986838d5",
+        "meta": "12c6e8779b1b1a7bd429ec2a91b405d169881c738165e3e7daaf20e621e896c4"
+      }
+    },
+    {
+      "scene": 13,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0013/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0013/realsense/depth/0000.png",
+        "label": "scenes/scene_0013/realsense/label/0000.png",
+        "meta": "scenes/scene_0013/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "2df8106dde4dbb206de67176e2276b409ed3ee617f56f8b10c9c0efaea25173f",
+        "depth": "2d7270c9ba89764a41c2dfd0576b6309b4ab105522f496afc44cbd455d330718",
+        "label": "e077bf4c27795d99897398c04a19cdb98f48aa0ab44c58026bdad3cb5c92d842",
+        "meta": "829259cda7ea1de2dcfa68b2763494c068ea3de2fab702c80f76a551d24e3bcc"
+      }
+    },
+    {
+      "scene": 13,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0013/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0013/realsense/depth/0128.png",
+        "label": "scenes/scene_0013/realsense/label/0128.png",
+        "meta": "scenes/scene_0013/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "fc48365163e3241b4e3fb683c710cc3329d9d873403b55538377afe38c7f72fa",
+        "depth": "c2982e6510fc2da3819421bcdb927bc538b24839d0a6e1c4acc7effec790ffa2",
+        "label": "09b26e32d4ef41f4b73a5170923c30813fc990e730ca41b8937f674919b83aab",
+        "meta": "6ca344d0d183f1167fce34f97a034f881d1fcb581088945123f766557e03ebbc"
+      }
+    },
+    {
+      "scene": 15,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0015/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0015/realsense/depth/0000.png",
+        "label": "scenes/scene_0015/realsense/label/0000.png",
+        "meta": "scenes/scene_0015/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "02542df1123cbbfa5813a5e9ff4a30bafa4c26d8580c45fe6d32c8af1e7253db",
+        "depth": "c65061d02e8bfad7bac3007361fb03fe76345b1ea0e7e87f53795d1dba0f6784",
+        "label": "7b5f5a89b5c248da610f939f7a51dcc190a187e9eef44b6c245541471b15377b",
+        "meta": "aacdf14add435dd3cc44d70c90cff7962224288a5d6eb84f7bf8fe88754ca39d"
+      }
+    },
+    {
+      "scene": 15,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0015/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0015/realsense/depth/0128.png",
+        "label": "scenes/scene_0015/realsense/label/0128.png",
+        "meta": "scenes/scene_0015/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "7209155ae97a323a0a4da637dddd18c347c3c38d71d70492fc40f53bd4023aa0",
+        "depth": "7aefb8b066c34b625e543de7adce36e1c765adde9714bf71987bb04c146002dd",
+        "label": "530e9be47d3db0e26c16ed5eef7584eef940228f05b830408f46fef13ac8ed08",
+        "meta": "3ba9b939a7f9744fe0454786578a4f3709d87f10b694692ac43df3d069881c9a"
+      }
+    },
+    {
+      "scene": 18,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0018/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0018/realsense/depth/0000.png",
+        "label": "scenes/scene_0018/realsense/label/0000.png",
+        "meta": "scenes/scene_0018/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "991d251f35184563f2eaaff16b245cadc62c9d1f883e84cd30cc813283797d32",
+        "depth": "c1db5fd73bb3589fee32951f628df825b2db2452e7affe6f0abf642d3f2b30d7",
+        "label": "b0a867f38cd93563224b3afbecd7fd79090d74317ee8b441e83a86d488b8cc9d",
+        "meta": "c9d4ef1055c7f0dabd577d2a7f8ede585f58477711345bcece0120bb23f08c02"
+      }
+    },
+    {
+      "scene": 18,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0018/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0018/realsense/depth/0128.png",
+        "label": "scenes/scene_0018/realsense/label/0128.png",
+        "meta": "scenes/scene_0018/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "670055666a9ff68619b4af72a398fe658928a26ce842b41d5f886d887b698fd6",
+        "depth": "bcb815e5f345eb8260ac88388d291a3b747c6ce5bf06a8fe3a1ae05613038116",
+        "label": "121b5972f0c0fb945f5eec3d1cd2796ac7dc39390deb07f45841de9481a1ee1e",
+        "meta": "d1d0142427bbe1bc10d2eb7ea746317ef386772adf834fafe8a5fcc64605b603"
+      }
+    },
+    {
+      "scene": 22,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0022/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0022/realsense/depth/0000.png",
+        "label": "scenes/scene_0022/realsense/label/0000.png",
+        "meta": "scenes/scene_0022/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "b9cc3ad8c5d1f29378c323eb59d90cc9a19e6fc13b492e7af3b46487dece13af",
+        "depth": "e82a511258fd60986b27b2ce959e733ebc99cb636f9cb8c587fd25b881b78c13",
+        "label": "42a55e00c356241c2b886efbdc1bea16ef7ed76c64fd7ec623dc05d7d63083ed",
+        "meta": "5a472c1f1ec5120865dcffc816dcb3baaca5ce454c8b551d52844400eed2a2bd"
+      }
+    },
+    {
+      "scene": 22,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0022/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0022/realsense/depth/0128.png",
+        "label": "scenes/scene_0022/realsense/label/0128.png",
+        "meta": "scenes/scene_0022/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "6ca2ea89d7dd2b9fa02bf952fff941ff9aa299e4ffbccbba7c55d0312d56e4da",
+        "depth": "eefc555af9306c4211ef70fd80963994b1b384f46fa6e596781c4eaf920513fd",
+        "label": "46de3997438c73cd2da7ba18eacabbbbf56a93d8ab233bf88dd03086b4e11071",
+        "meta": "4bef30a3e02c4cbdc14180c26be65dd7248f4575d424413a6d1707957c28cf5d"
+      }
+    },
+    {
+      "scene": 33,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0033/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0033/realsense/depth/0000.png",
+        "label": "scenes/scene_0033/realsense/label/0000.png",
+        "meta": "scenes/scene_0033/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "6cc73667f080e4c0d1be4d4726d2ea5051920995f406632cf3df5ee72c1c3a71",
+        "depth": "d6add3732b78dac9277c608e7d0eed686257c1bf0b647c7d7e68c5e4ea97657a",
+        "label": "4c0562a076bb1eff864a84481aa38607bb4e2b6546de8b9e4ec0d86561f87f45",
+        "meta": "2e16ac45183c1ff3bb4678426c61149b1057156d4d878f5082d46c0ee8482ce4"
+      }
+    },
+    {
+      "scene": 33,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0033/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0033/realsense/depth/0128.png",
+        "label": "scenes/scene_0033/realsense/label/0128.png",
+        "meta": "scenes/scene_0033/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "f93fa9352311a6c6e2f3e8367a2921e59ad7449129e232418d9f5768a6f6bc4d",
+        "depth": "b9a3ceb0ebaefbba22635176563e4ef3d718f6b0b3400044a922bd00fb7a5954",
+        "label": "e36ee8406f084a1e7f90bd7275a253e3bf7739db3e7ff7db78ebdee407561c58",
+        "meta": "62dd9edde91905be1e2ac968d06d2d85d9960e73267ff84b7afe60ec46a52b0c"
+      }
+    },
+    {
+      "scene": 39,
+      "frame": "0000",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0039/realsense/rgb/0000.png",
+        "depth": "scenes/scene_0039/realsense/depth/0000.png",
+        "label": "scenes/scene_0039/realsense/label/0000.png",
+        "meta": "scenes/scene_0039/realsense/meta/0000.mat"
+      },
+      "sha256": {
+        "rgb": "2dfb9b7effaebab922653f29405c077976020a9404160d1b00e627fce1ee3249",
+        "depth": "67129416c315cc0b768078453a414146a0fc567ebcd3e6b4c5d73505ea388fd1",
+        "label": "dd154e19da681069adc294ed109e7fa7e053e3aaa1ea549e1af2ab3494acca84",
+        "meta": "bf85af42acdfd3a5907f750d4e03132648bcf17ff74db9f5ce4d1edbfb73bbe3"
+      }
+    },
+    {
+      "scene": 39,
+      "frame": "0128",
+      "camera": "realsense",
+      "files": {
+        "rgb": "scenes/scene_0039/realsense/rgb/0128.png",
+        "depth": "scenes/scene_0039/realsense/depth/0128.png",
+        "label": "scenes/scene_0039/realsense/label/0128.png",
+        "meta": "scenes/scene_0039/realsense/meta/0128.mat"
+      },
+      "sha256": {
+        "rgb": "75b37b6d92bceb4208a04282c31f61568ee3f37dd066c0d18130f98ad7aa97c1",
+        "depth": "2978bed760f9b7da6fa6f2d675227c77bb3e6330a67853f22b8f012292e7bebd",
+        "label": "44472803e56f026c03032777798282182c30bd35721ed1d608f93e4509b15aeb",
+        "meta": "b06f226b2667e7365dc78291a13362e273f35db884af1a3d25e7df7f3938611d"
+      }
+    }
+  ],
+  "data_root": "data/raw/graspnet_coverage_v8",
+  "protected": {
+    "checkpoints/pretrained/checkpoint-rs.tar": {
+      "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+      "bytes": 12468415,
+      "mtime_ns": 1792558442313775400
+    },
+    "data/manifests/scene_splits.json": {
+      "sha256": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+      "bytes": 2816,
+      "mtime_ns": 1792550967232956100
+    },
+    "runtime/build/graspnet/dataset/generate_tolerance_label.py": {
+      "sha256": "1eef473a6299bb0260b85ff73e5cf097a8be05cc0965cbc89fedafad2557731f",
+      "bytes": 3614,
+      "mtime_ns": 1792557598279376700
+    },
+    "runtime/build/graspnet/dataset/graspnet_dataset.py": {
+      "sha256": "7e2306fade2d7f063a49b18c8293c4ec18478d172051554283d34a539773e9d4",
+      "bytes": 13158,
+      "mtime_ns": 1792557851484639600
+    },
+    "runtime/build/graspnet/demo.py": {
+      "sha256": "04b648a7d301f99028b1e18ec5c7b66c6816ad7784fc30a455d4f5b58e6df205",
+      "bytes": 4895,
+      "mtime_ns": 1792557598279376700
+    },
+    "runtime/build/graspnet/knn/build/lib.win-amd64-cpython-312/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": {
+      "sha256": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+      "bytes": 207360,
+      "mtime_ns": 1792558117403970300
+    },
+    "runtime/build/graspnet/knn/knn_modules.py": {
+      "sha256": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+      "bytes": 498,
+      "mtime_ns": 1792557598300702500
+    },
+    "runtime/build/graspnet/knn/setup.py": {
+      "sha256": "bd1c0471ddb6a51b78c7c0304357dc241abd16618c387c513e9dc781290d0212",
+      "bytes": 1937,
+      "mtime_ns": 1792557598301698800
+    },
+    "runtime/build/graspnet/knn/src/cpu/knn_cpu.cpp": {
+      "sha256": "b958a062c759137e3c16c023346383f286bdea07fcf1c31d16a2649d8aa6b44e",
+      "bytes": 1874,
+      "mtime_ns": 1792557851485635500
+    },
+    "runtime/build/graspnet/knn/src/cpu/vision.h": {
+      "sha256": "539a4f0a11c25b2b3b9faf613eb7e81495eb4189097f44c2f9b64a930fb4a554",
+      "bytes": 229,
+      "mtime_ns": 1792557851484639600
+    },
+    "runtime/build/graspnet/knn/src/cuda/knn.cu": {
+      "sha256": "aefe8b4d697ccc8c7f63b5fe4db005dbaed42b089b574f105a5f66dfc3dee2b1",
+      "bytes": 9035,
+      "mtime_ns": 1792557851485635500
+    },
+    "runtime/build/graspnet/knn/src/cuda/vision.h": {
+      "sha256": "c1619e75dd3a438731e16f8f12c4082cf1b67c88cc6dd0f4ae71dc49bed8a20e",
+      "bytes": 305,
+      "mtime_ns": 1792557851485635500
+    },
+    "runtime/build/graspnet/knn/src/knn.h": {
+      "sha256": "7415b623db66b378e3cb466c22931362cf568ede6d24cf39bd70aae0a15f8690",
+      "bytes": 1788,
+      "mtime_ns": 1792557851484639600
+    },
+    "runtime/build/graspnet/knn/src/vision.cpp": {
+      "sha256": "6dc9c9b0e0b6a905077c9bf569d7f8c0e612875d351310403adcfc4619591534",
+      "bytes": 113,
+      "mtime_ns": 1792557598303759300
+    },
+    "runtime/build/graspnet/models/backbone.py": {
+      "sha256": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+      "bytes": 4688,
+      "mtime_ns": 1792557598303759300
+    },
+    "runtime/build/graspnet/models/graspnet.py": {
+      "sha256": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+      "bytes": 6107,
+      "mtime_ns": 1792557598303759300
+    },
+    "runtime/build/graspnet/models/loss.py": {
+      "sha256": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+      "bytes": 7064,
+      "mtime_ns": 1792557598304784900
+    },
+    "runtime/build/graspnet/models/modules.py": {
+      "sha256": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+      "bytes": 9699,
+      "mtime_ns": 1792557598304784900
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/ball_query.h": {
+      "sha256": "0471321f53fffd783eb485543c63855944be2eccd4647e8d0a8cdd1b92eb7610",
+      "bytes": 356,
+      "mtime_ns": 1792557598305780600
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/cuda_utils.h": {
+      "sha256": "aa4f02d9bebf4335d5cb7209f7a087e167861a8fc6d2a4d165fcb16c58610c75",
+      "bytes": 1563,
+      "mtime_ns": 1792557851486632600
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/cylinder_query.h": {
+      "sha256": "8be194a3b24946806a9f1c96b1e7e7ba90a2964fa38a0d0de5a49bb530ac2695",
+      "bytes": 250,
+      "mtime_ns": 1792557598305780600
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/group_points.h": {
+      "sha256": "a0484f9512e2192c1448fc8bc6ef551dd2603be4e68fede163661d0e8f6a6204",
+      "bytes": 376,
+      "mtime_ns": 1792557598306965200
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/interpolate.h": {
+      "sha256": "cf5b7e9d6eab01efc62a70f0f18f53d3ce13a28f384583f3b790ccfe293a0ad7",
+      "bytes": 584,
+      "mtime_ns": 1792557598307559400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/sampling.h": {
+      "sha256": "0b4b5deff23735f5976bc738106fbd025a382eda64e110d6aaaba46f0ccc98d8",
+      "bytes": 454,
+      "mtime_ns": 1792557598307559400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/include/utils.h": {
+      "sha256": "57fd2d739f1e3e9030732fff4ba58aa6a0fafaf7d160fd5ffac5c358729df7e4",
+      "bytes": 1215,
+      "mtime_ns": 1792557598307559400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query.cpp": {
+      "sha256": "a9318c1160eebd3db834481def938ee757d9c178597c50c82dc95f944cff1125",
+      "bytes": 1261,
+      "mtime_ns": 1792557598308577400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query_gpu.cu": {
+      "sha256": "fe9c25682c20c1b8b49a934bf1f6a7aa5e96543bf70fc6f91fb51b3b9ac2efbc",
+      "bytes": 2026,
+      "mtime_ns": 1792557598308577400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/bindings.cpp": {
+      "sha256": "7f96f6463dbb478cdc83e674db14733fd9b8f52e28956ee8a0d1be385b40c3c8",
+      "bytes": 853,
+      "mtime_ns": 1792557598309156000
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query.cpp": {
+      "sha256": "9b125d627d51aa04f2ea21e51220baeca78fe81b4a7d5cfa3dd55092226a48e3",
+      "bytes": 1312,
+      "mtime_ns": 1792557598309156000
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query_gpu.cu": {
+      "sha256": "f5bc80342ff9907ad44df29d4c3d251d827fdb8d015b2b478ae848cabbd9902f",
+      "bytes": 2405,
+      "mtime_ns": 1792557598309156000
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/group_points.cpp": {
+      "sha256": "802bf2717094d7a381a426aec3fcf0722c7f4f1592f9d32e67d8f32fe1b76961",
+      "bytes": 2168,
+      "mtime_ns": 1792557598310154100
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/group_points_gpu.cu": {
+      "sha256": "eeb6172b7b9fe3bd74ae78c18bda14c56558f6cf0b36ba2ab8ece65b10165333",
+      "bytes": 3148,
+      "mtime_ns": 1792557598310154100
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate.cpp": {
+      "sha256": "fcbf7e5e68fa04dbf232e21757b87133c1e99a9e8b5d5155ad5bd3158836deb4",
+      "bytes": 3591,
+      "mtime_ns": 1792557598310154100
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate_gpu.cu": {
+      "sha256": "f79234241609430e1a352c1ddf7c6eebbcaf241a3205fb3bae580b30a9bac625",
+      "bytes": 5483,
+      "mtime_ns": 1792557598311151400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/sampling.cpp": {
+      "sha256": "eca9be390a495b20442a7cf7a1af0bbbbb3995933f2c95abb748bc1e1e5879e4",
+      "bytes": 3135,
+      "mtime_ns": 1792557598311151400
+    },
+    "runtime/build/graspnet/pointnet2/_ext_src/src/sampling_gpu.cu": {
+      "sha256": "1be6b19ebc60403809c4e7907c53e8da6d2cbb3ad129af4f09b4c7e54791ff28",
+      "bytes": 7436,
+      "mtime_ns": 1792557598311898500
+    },
+    "runtime/build/graspnet/pointnet2/build/lib.win-amd64-cpython-312/pointnet2/_ext.cp312-win_amd64.pyd": {
+      "sha256": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd",
+      "bytes": 393216,
+      "mtime_ns": 1792558195019253500
+    },
+    "runtime/build/graspnet/pointnet2/pointnet2_modules.py": {
+      "sha256": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+      "bytes": 18127,
+      "mtime_ns": 1792557598311898500
+    },
+    "runtime/build/graspnet/pointnet2/pointnet2_utils.py": {
+      "sha256": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+      "bytes": 17640,
+      "mtime_ns": 1792557598312897700
+    },
+    "runtime/build/graspnet/pointnet2/pytorch_utils.py": {
+      "sha256": "e0e7fdd540f6437d922736240f9086870d432ea336122d3a90f88d38d67c8fb9",
+      "bytes": 7799,
+      "mtime_ns": 1792557598312897700
+    },
+    "runtime/build/graspnet/pointnet2/setup.py": {
+      "sha256": "ee4faaabdf62b32635143481ae5c260797cbf9ba3ae47b0a86cf8da8936c16ab",
+      "bytes": 1160,
+      "mtime_ns": 1792557984525947800
+    },
+    "runtime/build/graspnet/test.py": {
+      "sha256": "63186c12a6c6f5fa8d27129a7895eae568d05b35ed1a1fbb60d520b7443b8c41",
+      "bytes": 5375,
+      "mtime_ns": 1792557598314190400
+    },
+    "runtime/build/graspnet/train.py": {
+      "sha256": "94d7ebbb6c1259619296f0e47f8c4fb9b669be5a7096546111e77d3e68535157",
+      "bytes": 10519,
+      "mtime_ns": 1792557598314190400
+    },
+    "runtime/build/graspnet/utils/collision_detector.py": {
+      "sha256": "c8776ae298e2fa1972e94989074c7227467f37803c02217e950eefb0bae74bc8",
+      "bytes": 6725,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/data_utils.py": {
+      "sha256": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+      "bytes": 5908,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/label_generation.py": {
+      "sha256": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+      "bytes": 8631,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/build/graspnet/utils/loss_utils.py": {
+      "sha256": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+      "bytes": 4475,
+      "mtime_ns": 1792557598315240400
+    },
+    "runtime/envs/vision/Lib/site-packages/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": {
+      "sha256": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+      "bytes": 207360,
+      "mtime_ns": 1792558133365440900
+    },
+    "runtime/envs/vision/Lib/site-packages/pointnet2/_ext.cp312-win_amd64.pyd": {
+      "sha256": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd",
+      "bytes": 393216,
+      "mtime_ns": 1792558262783016800
+    },
+    "scripts/p4_representative_link_v22r2.py": {
+      "sha256": "4c6d32b23e089dd3e42dc897467c3775c3a19b7cbc7e051387c48c0496f06a50",
+      "bytes": 16348,
+      "mtime_ns": 1793078146661901700
+    },
+    "scripts/generate_multiview_grasps_v14r1.py": {
+      "sha256": "76d70d7d6774623aa7ddf90c07f4cdd9ee48c841d9bb214120ea0cb57be91962",
+      "bytes": 42246,
+      "mtime_ns": 1792856026578140300
+    },
+    "scripts/multiview_common_v14r1.py": {
+      "sha256": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+      "bytes": 12682,
+      "mtime_ns": 1792855507210733700
+    },
+    "scripts/pipeline.py": {
+      "sha256": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "bytes": 23168,
+      "mtime_ns": 1792550777180041600
+    },
+    "configs/p4_full_baseline_v22r2.json": {
+      "sha256": "58a167a682747dc53a99dc7fc51e0975982e7cc12fd039b68bb19fa6d0359753",
+      "bytes": 1038645,
+      "mtime_ns": 1793078092704763000
+    },
+    "configs/p4_complete_evaluation_v22r2.json": {
+      "sha256": "134f3a1db2dfdae3dc917181328f61e9932eda4e63978d4109356a26fad5835d",
+      "bytes": 392975,
+      "mtime_ns": 1793078194480214300
+    },
+    "configs/grasp_multiview_v14r1.json": {
+      "sha256": "9eb8b22ef926bc40f7d3e933e8ffe430635b95a3c70f8154a50e95fe13a1b1ec",
+      "bytes": 55269,
+      "mtime_ns": 1792856550723603700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/rgb/0000.png": {
+      "sha256": "0fdef547423908b56edb9ec39c366ae1674c58e962655c3511de20f6a3a0c9d5",
+      "bytes": 1352640,
+      "mtime_ns": 1792632970862517400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/depth/0000.png": {
+      "sha256": "6ba2a7dcb088a7bf024e21afa5de40a801ec88c331ad8e7f6c03401d90741086",
+      "bytes": 217054,
+      "mtime_ns": 1792632970696442500
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/meta/0000.mat": {
+      "sha256": "ce4aff35b4962fda0007ff66b140f35865a3edba8dca87e73149080eb6b20299",
+      "bytes": 874,
+      "mtime_ns": 1792632970816693000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/rgb/0128.png": {
+      "sha256": "da407b98781d8311deb905b0daa5ddbf88ffd0b88927e13222840c9f01ad9698",
+      "bytes": 1258475,
+      "mtime_ns": 1792632970893729700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/depth/0128.png": {
+      "sha256": "d3dec559b1bdbb3a45eb9e863b083743c163f67092acfa5710de3123047a3474",
+      "bytes": 216486,
+      "mtime_ns": 1792632970727493800
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0002/realsense/meta/0128.mat": {
+      "sha256": "b8eb3fa46f9f8a32b40321c43e922b9132a3a821f5c1926ee182901531ef5144",
+      "bytes": 873,
+      "mtime_ns": 1792632970835622600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/rgb/0000.png": {
+      "sha256": "f6366ddea1dba57445aee1246a07ead8fd2aa72a5431103a3aefbc1a1cac8f8c",
+      "bytes": 1228725,
+      "mtime_ns": 1792632971092162700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/depth/0000.png": {
+      "sha256": "6456bd76296e54bfc9bc5e589053d021ba3244effb1ebd91e21c1d17d2e55422",
+      "bytes": 200358,
+      "mtime_ns": 1792632970944477900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/meta/0000.mat": {
+      "sha256": "71469d0c4af6403700aa6d52a2f0f43239cf82c79c7326c2f6451c1c49129be1",
+      "bytes": 922,
+      "mtime_ns": 1792632971051499800
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/rgb/0128.png": {
+      "sha256": "b5685d6bbe02d80097d73545eac07a4472ba118512820c0e61947d1292ba2c11",
+      "bytes": 1188335,
+      "mtime_ns": 1792632971123844300
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/depth/0128.png": {
+      "sha256": "067bbbcc1364819188dba2e5520e5cd0cbf1b224de0925caf08eca2cacb3a336",
+      "bytes": 193125,
+      "mtime_ns": 1792632970972494000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0006/realsense/meta/0128.mat": {
+      "sha256": "21cdc4636c76a361ca094061bbf4d34a2b47fca5b9f56a5d26a825b884393ea6",
+      "bytes": 923,
+      "mtime_ns": 1792632971068854400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/rgb/0000.png": {
+      "sha256": "5f660bffa3930cf094f0e5653ec8e7d551cd958b48cf133541513e537f9e0f6e",
+      "bytes": 1183580,
+      "mtime_ns": 1792632971352845100
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/depth/0000.png": {
+      "sha256": "138b7bf77bd3101d6eb5552f07282fb6e69d65fac98a3914989f0c0a38520a8c",
+      "bytes": 203135,
+      "mtime_ns": 1792632971178044700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/meta/0000.mat": {
+      "sha256": "1ee3175361f9e83cd4b81b1a20c4e7001cbb024226a3fdc0674dde0cce977d37",
+      "bytes": 923,
+      "mtime_ns": 1792632971294524500
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/rgb/0128.png": {
+      "sha256": "a74c64760d1a5388ee96c14a0f2cd82605cad34c4c6027ff9c8b802749f4831b",
+      "bytes": 1151281,
+      "mtime_ns": 1792632971385052500
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/depth/0128.png": {
+      "sha256": "4bacd817f0ca5865c4a51f7c8711fa652a222dea2f57afd0c70df5083ef85bc8",
+      "bytes": 204075,
+      "mtime_ns": 1792632971206704900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0007/realsense/meta/0128.mat": {
+      "sha256": "91fba90a295cf7627e472ce8dd69676fbe1f75bd88a1928c0ab71fc0af3cfccd",
+      "bytes": 922,
+      "mtime_ns": 1792632971323810400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/rgb/0000.png": {
+      "sha256": "3514d1e5bcc8949378aa8294d586d148e7e915bcd20d07dbb1c909f4ca4b8264",
+      "bytes": 1139676,
+      "mtime_ns": 1792632971609194200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/depth/0000.png": {
+      "sha256": "fd4b5c34a7fcaccb92debaeeb7e9b01b85d3bff9e77af5d65b2e49fd0f3a8751",
+      "bytes": 203925,
+      "mtime_ns": 1792632971429836200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/meta/0000.mat": {
+      "sha256": "830bbf1b36170a731bd885caa5b65e7afde0d345fa7f091b7165d357aa702dfe",
+      "bytes": 969,
+      "mtime_ns": 1792632971548664400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/rgb/0128.png": {
+      "sha256": "31725ab986f041a9ce1676b25e10165f10aa36082f9055fae22e85266449cdac",
+      "bytes": 1179198,
+      "mtime_ns": 1792632971645144000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/depth/0128.png": {
+      "sha256": "e33f0851f5a232e6132791b5e2be63aed552f38e462b5151c19d80eae3a4917e",
+      "bytes": 207559,
+      "mtime_ns": 1792632971459084600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0011/realsense/meta/0128.mat": {
+      "sha256": "12c6e8779b1b1a7bd429ec2a91b405d169881c738165e3e7daaf20e621e896c4",
+      "bytes": 974,
+      "mtime_ns": 1792632971577952200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/rgb/0000.png": {
+      "sha256": "2df8106dde4dbb206de67176e2276b409ed3ee617f56f8b10c9c0efaea25173f",
+      "bytes": 1220167,
+      "mtime_ns": 1792632967389795900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/depth/0000.png": {
+      "sha256": "2d7270c9ba89764a41c2dfd0576b6309b4ab105522f496afc44cbd455d330718",
+      "bytes": 207887,
+      "mtime_ns": 1792632967229152300
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/meta/0000.mat": {
+      "sha256": "829259cda7ea1de2dcfa68b2763494c068ea3de2fab702c80f76a551d24e3bcc",
+      "bytes": 814,
+      "mtime_ns": 1792632967324014800
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/rgb/0128.png": {
+      "sha256": "fc48365163e3241b4e3fb683c710cc3329d9d873403b55538377afe38c7f72fa",
+      "bytes": 1210459,
+      "mtime_ns": 1792632967424441700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/depth/0128.png": {
+      "sha256": "c2982e6510fc2da3819421bcdb927bc538b24839d0a6e1c4acc7effec790ffa2",
+      "bytes": 202322,
+      "mtime_ns": 1792632967250133900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0013/realsense/meta/0128.mat": {
+      "sha256": "6ca344d0d183f1167fce34f97a034f881d1fcb581088945123f766557e03ebbc",
+      "bytes": 817,
+      "mtime_ns": 1792632967356588900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/rgb/0000.png": {
+      "sha256": "02542df1123cbbfa5813a5e9ff4a30bafa4c26d8580c45fe6d32c8af1e7253db",
+      "bytes": 1201821,
+      "mtime_ns": 1792632971849893900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/depth/0000.png": {
+      "sha256": "c65061d02e8bfad7bac3007361fb03fe76345b1ea0e7e87f53795d1dba0f6784",
+      "bytes": 204881,
+      "mtime_ns": 1792632971688797400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/meta/0000.mat": {
+      "sha256": "aacdf14add435dd3cc44d70c90cff7962224288a5d6eb84f7bf8fe88754ca39d",
+      "bytes": 972,
+      "mtime_ns": 1792632971788696200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/rgb/0128.png": {
+      "sha256": "7209155ae97a323a0a4da637dddd18c347c3c38d71d70492fc40f53bd4023aa0",
+      "bytes": 1172312,
+      "mtime_ns": 1792632971882306900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/depth/0128.png": {
+      "sha256": "7aefb8b066c34b625e543de7adce36e1c765adde9714bf71987bb04c146002dd",
+      "bytes": 198314,
+      "mtime_ns": 1792632971706110600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0015/realsense/meta/0128.mat": {
+      "sha256": "3ba9b939a7f9744fe0454786578a4f3709d87f10b694692ac43df3d069881c9a",
+      "bytes": 976,
+      "mtime_ns": 1792632971816755800
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/rgb/0000.png": {
+      "sha256": "991d251f35184563f2eaaff16b245cadc62c9d1f883e84cd30cc813283797d32",
+      "bytes": 1151072,
+      "mtime_ns": 1792632967665511900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/depth/0000.png": {
+      "sha256": "c1db5fd73bb3589fee32951f628df825b2db2452e7affe6f0abf642d3f2b30d7",
+      "bytes": 199780,
+      "mtime_ns": 1792632967482441600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/meta/0000.mat": {
+      "sha256": "c9d4ef1055c7f0dabd577d2a7f8ede585f58477711345bcece0120bb23f08c02",
+      "bytes": 874,
+      "mtime_ns": 1792632967602819000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/rgb/0128.png": {
+      "sha256": "670055666a9ff68619b4af72a398fe658928a26ce842b41d5f886d887b698fd6",
+      "bytes": 1149617,
+      "mtime_ns": 1792632967702575600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/depth/0128.png": {
+      "sha256": "bcb815e5f345eb8260ac88388d291a3b747c6ce5bf06a8fe3a1ae05613038116",
+      "bytes": 199095,
+      "mtime_ns": 1792632967510783900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0018/realsense/meta/0128.mat": {
+      "sha256": "d1d0142427bbe1bc10d2eb7ea746317ef386772adf834fafe8a5fcc64605b603",
+      "bytes": 875,
+      "mtime_ns": 1792632967633210600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/rgb/0000.png": {
+      "sha256": "b9cc3ad8c5d1f29378c323eb59d90cc9a19e6fc13b492e7af3b46487dece13af",
+      "bytes": 1132643,
+      "mtime_ns": 1792632967922489900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/depth/0000.png": {
+      "sha256": "e82a511258fd60986b27b2ce959e733ebc99cb636f9cb8c587fd25b881b78c13",
+      "bytes": 213142,
+      "mtime_ns": 1792632967748968600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/meta/0000.mat": {
+      "sha256": "5a472c1f1ec5120865dcffc816dcb3baaca5ce454c8b551d52844400eed2a2bd",
+      "bytes": 927,
+      "mtime_ns": 1792632967864224700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/rgb/0128.png": {
+      "sha256": "6ca2ea89d7dd2b9fa02bf952fff941ff9aa299e4ffbccbba7c55d0312d56e4da",
+      "bytes": 1144693,
+      "mtime_ns": 1792632967960292700
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/depth/0128.png": {
+      "sha256": "eefc555af9306c4211ef70fd80963994b1b384f46fa6e596781c4eaf920513fd",
+      "bytes": 211760,
+      "mtime_ns": 1792632967778731000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0022/realsense/meta/0128.mat": {
+      "sha256": "4bef30a3e02c4cbdc14180c26be65dd7248f4575d424413a6d1707957c28cf5d",
+      "bytes": 926,
+      "mtime_ns": 1792632967892438800
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/rgb/0000.png": {
+      "sha256": "6cc73667f080e4c0d1be4d4726d2ea5051920995f406632cf3df5ee72c1c3a71",
+      "bytes": 1153677,
+      "mtime_ns": 1792632968732851600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/depth/0000.png": {
+      "sha256": "d6add3732b78dac9277c608e7d0eed686257c1bf0b647c7d7e68c5e4ea97657a",
+      "bytes": 203909,
+      "mtime_ns": 1792632968548913600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/meta/0000.mat": {
+      "sha256": "2e16ac45183c1ff3bb4678426c61149b1057156d4d878f5082d46c0ee8482ce4",
+      "bytes": 972,
+      "mtime_ns": 1792632968667767000
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/rgb/0128.png": {
+      "sha256": "f93fa9352311a6c6e2f3e8367a2921e59ad7449129e232418d9f5768a6f6bc4d",
+      "bytes": 1156391,
+      "mtime_ns": 1792632968773515600
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/depth/0128.png": {
+      "sha256": "b9a3ceb0ebaefbba22635176563e4ef3d718f6b0b3400044a922bd00fb7a5954",
+      "bytes": 203457,
+      "mtime_ns": 1792632968575637100
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0033/realsense/meta/0128.mat": {
+      "sha256": "62dd9edde91905be1e2ac968d06d2d85d9960e73267ff84b7afe60ec46a52b0c",
+      "bytes": 973,
+      "mtime_ns": 1792632968699198200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/rgb/0000.png": {
+      "sha256": "2dfb9b7effaebab922653f29405c077976020a9404160d1b00e627fce1ee3249",
+      "bytes": 1250623,
+      "mtime_ns": 1792632969554269200
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/depth/0000.png": {
+      "sha256": "67129416c315cc0b768078453a414146a0fc567ebcd3e6b4c5d73505ea388fd1",
+      "bytes": 206236,
+      "mtime_ns": 1792632969364188400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/meta/0000.mat": {
+      "sha256": "bf85af42acdfd3a5907f750d4e03132648bcf17ff74db9f5ce4d1edbfb73bbe3",
+      "bytes": 872,
+      "mtime_ns": 1792632969491546300
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/rgb/0128.png": {
+      "sha256": "75b37b6d92bceb4208a04282c31f61568ee3f37dd066c0d18130f98ad7aa97c1",
+      "bytes": 1304152,
+      "mtime_ns": 1792632969593437400
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/depth/0128.png": {
+      "sha256": "2978bed760f9b7da6fa6f2d675227c77bb3e6330a67853f22b8f012292e7bebd",
+      "bytes": 203506,
+      "mtime_ns": 1792632969395378900
+    },
+    "data/raw/graspnet_coverage_v8/scenes/scene_0039/realsense/meta/0128.mat": {
+      "sha256": "b06f226b2667e7365dc78291a13362e273f35db884af1a3d25e7df7f3938611d",
+      "bytes": 875,
+      "mtime_ns": 1792632969521392300
+    }
+  },
+  "generation_protocol": {
+    "schema": 14,
+    "purpose": "finite_raw_confidence_contract_repair_with_immutable_parent_reuse",
+    "frozen_date_local": "2026-10-24",
+    "frames": [
+      "0016",
+      "0080",
+      "0160",
+      "0240"
+    ],
+    "scene_id": 3,
+    "camera": "realsense",
+    "seed": 20261021,
+    "num_points": 20000,
+    "maximum_depth_m": 2,
+    "object_ids": [
+      2,
+      21,
+      22,
+      41,
+      43,
+      44,
+      52,
+      60,
+      62
+    ],
+    "models_root": "data/raw/grasp_geometry_v10",
+    "camera_poses_path": "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/camera_poses.npy",
+    "cam0_wrt_table_path": "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/cam0_wrt_table.npy",
+    "checkpoint": {
+      "path": "checkpoints/pretrained/checkpoint-rs.tar",
+      "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+      "weights_only": true,
+      "strict": true
+    },
+    "interpreters": {
+      "vision": "runtime/envs/vision/Scripts/python.exe",
+      "grasp_eval": "runtime/envs/grasp_eval/Scripts/python.exe"
+    },
+    "runtimes": {
+      "vision": {
+        "python": "3.12.14",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "pillow": "11.3.0"
+      },
+      "grasp_eval": {
+        "python": "3.12.14",
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "pillow": "11.3.0"
+      }
+    },
+    "model_runtime": {
+      "torch": "2.6.0+cu126",
+      "torchvision": "0.21.0+cu126",
+      "cuda": "12.6",
+      "cudnn": 90501,
+      "gpu": "NVIDIA GeForce RTX 4060 Ti"
+    },
+    "frame_inputs": {
+      "0016": {
+        "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0016.png",
+        "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png",
+        "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat",
+        "annotation": "data/raw/grasp_multiview_v14r1/scenes/scene_0003/realsense/annotations/0016.xml"
+      },
+      "0080": {
+        "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0080.png",
+        "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png",
+        "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat",
+        "annotation": "data/raw/grasp_multiview_v14r1/scenes/scene_0003/realsense/annotations/0080.xml"
+      },
+      "0160": {
+        "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0160.png",
+        "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png",
+        "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat",
+        "annotation": "data/raw/grasp_multiview_v14r1/scenes/scene_0003/realsense/annotations/0160.xml"
+      },
+      "0240": {
+        "rgb": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0240.png",
+        "depth": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png",
+        "meta": "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat",
+        "annotation": "data/raw/grasp_multiview_v14r1/scenes/scene_0003/realsense/annotations/0240.xml"
+      }
+    },
+    "generation_inputs": {
+      "0016": {
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0016.png": "429dc4b3085da9dd43cecca8b8508c5004b124f76ffb30b81ade34db59a82152",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0016.png": "239f666cce34da79e8c95e54a900a8cf1f45f7f17105fceb70fccdd46c765983",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat": "b13bf00d7482695f9be6d61f2e1623e816112247597488a95ef4fbd6d540ed2b"
+      },
+      "0080": {
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0080.png": "37224b77914f83d80d9029a60c89e1efffe7f3b332c391caaa1f43b52cb96c49",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0080.png": "289e4d741848ba05b9b958b972d97b21598b77cbf290af3ce19a94a6a0fb697e",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat": "caa5118d2c7b97f55b25438f19efa23a203ea4e6814e2803afdec3942f798cd0"
+      },
+      "0160": {
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0160.png": "936a71a0daafe4b49d6bbb3178472744fa837572ad2c1c2fe34876e864e5a6b6",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0160.png": "5976addd527917aea8e703ae67faf9c875f7d743b5b72489b1371c2a4a0bdb38",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat": "cc0a613ac78fef71c024fe717853069853def9d1cc9378453eeeeeed0fa678bc"
+      },
+      "0240": {
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/rgb/0240.png": "6a566e653025ba594b0ad3198eb4187fbdf891a18ab6f151f9d490be7dd0e0b2",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/depth/0240.png": "be0129f71f32ec9297ee5e788aa4d8a5a1cd2b1a3fd9cb01c33c311a2435ed9b",
+        "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat": "a584d50dbfc8d8a57b41b6b4b3cf791dcc0230b851f1353dd88f5589ba30019e"
+      }
+    },
+    "generation_shared_inputs": {
+      "checkpoints/pretrained/checkpoint-rs.tar": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+      "data/manifests/scene_splits.json": "dfda27ccd2d10e61efeb17dc6e48c1e4e89818bccd889bde97319d2c28d73ac3",
+      "runtime/build/graspnet/dataset/generate_tolerance_label.py": "1eef473a6299bb0260b85ff73e5cf097a8be05cc0965cbc89fedafad2557731f",
+      "runtime/build/graspnet/dataset/graspnet_dataset.py": "7e2306fade2d7f063a49b18c8293c4ec18478d172051554283d34a539773e9d4",
+      "runtime/build/graspnet/demo.py": "04b648a7d301f99028b1e18ec5c7b66c6816ad7784fc30a455d4f5b58e6df205",
+      "runtime/build/graspnet/knn/build/lib.win-amd64-cpython-312/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+      "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+      "runtime/build/graspnet/knn/setup.py": "bd1c0471ddb6a51b78c7c0304357dc241abd16618c387c513e9dc781290d0212",
+      "runtime/build/graspnet/knn/src/cpu/knn_cpu.cpp": "b958a062c759137e3c16c023346383f286bdea07fcf1c31d16a2649d8aa6b44e",
+      "runtime/build/graspnet/knn/src/cpu/vision.h": "539a4f0a11c25b2b3b9faf613eb7e81495eb4189097f44c2f9b64a930fb4a554",
+      "runtime/build/graspnet/knn/src/cuda/knn.cu": "aefe8b4d697ccc8c7f63b5fe4db005dbaed42b089b574f105a5f66dfc3dee2b1",
+      "runtime/build/graspnet/knn/src/cuda/vision.h": "c1619e75dd3a438731e16f8f12c4082cf1b67c88cc6dd0f4ae71dc49bed8a20e",
+      "runtime/build/graspnet/knn/src/knn.h": "7415b623db66b378e3cb466c22931362cf568ede6d24cf39bd70aae0a15f8690",
+      "runtime/build/graspnet/knn/src/vision.cpp": "6dc9c9b0e0b6a905077c9bf569d7f8c0e612875d351310403adcfc4619591534",
+      "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+      "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+      "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+      "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/ball_query.h": "0471321f53fffd783eb485543c63855944be2eccd4647e8d0a8cdd1b92eb7610",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/cuda_utils.h": "aa4f02d9bebf4335d5cb7209f7a087e167861a8fc6d2a4d165fcb16c58610c75",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/cylinder_query.h": "8be194a3b24946806a9f1c96b1e7e7ba90a2964fa38a0d0de5a49bb530ac2695",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/group_points.h": "a0484f9512e2192c1448fc8bc6ef551dd2603be4e68fede163661d0e8f6a6204",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/interpolate.h": "cf5b7e9d6eab01efc62a70f0f18f53d3ce13a28f384583f3b790ccfe293a0ad7",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/sampling.h": "0b4b5deff23735f5976bc738106fbd025a382eda64e110d6aaaba46f0ccc98d8",
+      "runtime/build/graspnet/pointnet2/_ext_src/include/utils.h": "57fd2d739f1e3e9030732fff4ba58aa6a0fafaf7d160fd5ffac5c358729df7e4",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query.cpp": "a9318c1160eebd3db834481def938ee757d9c178597c50c82dc95f944cff1125",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/ball_query_gpu.cu": "fe9c25682c20c1b8b49a934bf1f6a7aa5e96543bf70fc6f91fb51b3b9ac2efbc",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/bindings.cpp": "7f96f6463dbb478cdc83e674db14733fd9b8f52e28956ee8a0d1be385b40c3c8",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query.cpp": "9b125d627d51aa04f2ea21e51220baeca78fe81b4a7d5cfa3dd55092226a48e3",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/cylinder_query_gpu.cu": "f5bc80342ff9907ad44df29d4c3d251d827fdb8d015b2b478ae848cabbd9902f",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/group_points.cpp": "802bf2717094d7a381a426aec3fcf0722c7f4f1592f9d32e67d8f32fe1b76961",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/group_points_gpu.cu": "eeb6172b7b9fe3bd74ae78c18bda14c56558f6cf0b36ba2ab8ece65b10165333",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate.cpp": "fcbf7e5e68fa04dbf232e21757b87133c1e99a9e8b5d5155ad5bd3158836deb4",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/interpolate_gpu.cu": "f79234241609430e1a352c1ddf7c6eebbcaf241a3205fb3bae580b30a9bac625",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/sampling.cpp": "eca9be390a495b20442a7cf7a1af0bbbbb3995933f2c95abb748bc1e1e5879e4",
+      "runtime/build/graspnet/pointnet2/_ext_src/src/sampling_gpu.cu": "1be6b19ebc60403809c4e7907c53e8da6d2cbb3ad129af4f09b4c7e54791ff28",
+      "runtime/build/graspnet/pointnet2/build/lib.win-amd64-cpython-312/pointnet2/_ext.cp312-win_amd64.pyd": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd",
+      "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+      "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+      "runtime/build/graspnet/pointnet2/pytorch_utils.py": "e0e7fdd540f6437d922736240f9086870d432ea336122d3a90f88d38d67c8fb9",
+      "runtime/build/graspnet/pointnet2/setup.py": "ee4faaabdf62b32635143481ae5c260797cbf9ba3ae47b0a86cf8da8936c16ab",
+      "runtime/build/graspnet/test.py": "63186c12a6c6f5fa8d27129a7895eae568d05b35ed1a1fbb60d520b7443b8c41",
+      "runtime/build/graspnet/train.py": "94d7ebbb6c1259619296f0e47f8c4fb9b669be5a7096546111e77d3e68535157",
+      "runtime/build/graspnet/utils/collision_detector.py": "c8776ae298e2fa1972e94989074c7227467f37803c02217e950eefb0bae74bc8",
+      "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+      "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+      "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+      "runtime/envs/vision/Lib/site-packages/knn_pytorch/knn_pytorch.cp312-win_amd64.pyd": "8cf6c5fe171a722f436abbea44fdb79d717d27c26b208d3fb1735ee0eb03f85d",
+      "runtime/envs/vision/Lib/site-packages/pointnet2/_ext.cp312-win_amd64.pyd": "f9f1d8f363d73358024e716607dbfc1084129986ee64d484ab58b7bba5e66cfd"
+    },
+    "geometry_inputs": {
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0016.mat": "b13bf00d7482695f9be6d61f2e1623e816112247597488a95ef4fbd6d540ed2b",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0080.mat": "caa5118d2c7b97f55b25438f19efa23a203ea4e6814e2803afdec3942f798cd0",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0160.mat": "cc0a613ac78fef71c024fe717853069853def9d1cc9378453eeeeeed0fa678bc",
+      "data/raw/graspnet_coverage_v8/scenes/scene_0003/realsense/meta/0240.mat": "a584d50dbfc8d8a57b41b6b4b3cf791dcc0230b851f1353dd88f5589ba30019e",
+      "data/raw/grasp_geometry_v10/models/002/nontextured.ply": "65d7dbddbd9519119e7b23eeb3259c26bb79619326a1f46acedc8537ee35164a",
+      "data/raw/grasp_geometry_v10/models/002/textured.obj": "67dc8e513799b78de2917194c246dfbd2e774699d27a1bcced76c886beda9073",
+      "data/raw/grasp_geometry_v10/models/002/textured.sdf": "cf51bd20609c98b5540cac6963d5bd943dfc34d426ff2d879da8bc0a8e40ff18",
+      "data/raw/grasp_geometry_v10/models/021/nontextured.ply": "361626d75eb7e60a6d128b4e68a6d08b1890d2e73669e32ad08fb2640b882e74",
+      "data/raw/grasp_geometry_v10/models/021/textured.obj": "0a2b8fbac3623d91de3552bb54ba11d43011fc045c9d1b659a710e971f1de031",
+      "data/raw/grasp_geometry_v10/models/021/textured.sdf": "ecab4ebca594fe9cbc386268eeb55bb19ab3474c986bb38d356b483cfd6a4c21",
+      "data/raw/grasp_geometry_v10/models/022/nontextured.ply": "68ad72f7cb01f2776e761e14c853b26ead6b1afbc6a4578144b8509dfdee2ddc",
+      "data/raw/grasp_geometry_v10/models/022/textured.obj": "eea463361c66b41f77c839c0a57d016e0033ce5da0a8a6851410e9b93f4fd185",
+      "data/raw/grasp_geometry_v10/models/022/textured.sdf": "abd0e80529fbfa800cd154227d5fa70819b1f9a2c18941c93cfc6b27f6c6263e",
+      "data/raw/grasp_geometry_v10/models/041/nontextured.ply": "4b5823b39d23fbe665ad4d9e34decbad49f09ad9fc81725bc79dd490e344c988",
+      "data/raw/grasp_geometry_v10/models/041/textured.obj": "8c9c849a4aed893df7dfb48464e6aa1a2876d8e01a7f482cca0f39a6bc49d69e",
+      "data/raw/grasp_geometry_v10/models/041/textured.sdf": "33ccb15b64fd6c5079e88577cf519feaeb07c562fabec0850a7d739e16d37a45",
+      "data/raw/grasp_geometry_v10/models/043/nontextured.ply": "03a8007f872dda288aa5cafb8fdb31045d3ce78986952988cadb3dffb0efd10a",
+      "data/raw/grasp_geometry_v10/models/043/textured.obj": "3426fcf4ba0ef3d14c1db6e6eb6b43d2874ff2af628f9c968e6bb43ac91b9961",
+      "data/raw/grasp_geometry_v10/models/043/textured.sdf": "2dc1016a8a348180ff8f0b4d440eb680be365f88257eded42b8760bf686a4e70",
+      "data/raw/grasp_geometry_v10/models/044/nontextured.ply": "e4370d59e6ce1eda8365b937c60ab1975a02be6f847458f2f1ccc77f290f106c",
+      "data/raw/grasp_geometry_v10/models/044/textured.obj": "c380ebdf835b451233032a257383ee1ded7a911d4bdb927a6d2b72df6b13f5bb",
+      "data/raw/grasp_geometry_v10/models/044/textured.sdf": "b5f034fb226f8a8d71a50057de50253a9e95bb84c2789b3e5b498a3aed940682",
+      "data/raw/grasp_geometry_v10/models/052/nontextured.ply": "a69edd7487c608d455757aa1985a7977fba0651c7d4382d7699be40286123928",
+      "data/raw/grasp_geometry_v10/models/052/textured.obj": "3556d6d44e33841b8d76cb5d6759c973bc84b4b54530e3455873886604e9e005",
+      "data/raw/grasp_geometry_v10/models/052/textured.sdf": "0b628b49685493ee9a735095f5f08cf1dd8667bbdea559856ad3112181958c92",
+      "data/raw/grasp_geometry_v10/models/060/nontextured.ply": "7687918eafe20fc68ed463cc6165c5664be17f6fb36852d601096dde28d40694",
+      "data/raw/grasp_geometry_v10/models/060/textured.obj": "c4f1d1b44485698ac994021cfee436803425606805bd21505a119fadebf60e28",
+      "data/raw/grasp_geometry_v10/models/060/textured.sdf": "eaac47eaa043bc054e76ce07fccf6d15c4776378298111c384c8d5dbe8d049a5",
+      "data/raw/grasp_geometry_v10/models/062/nontextured.ply": "384385c4f5f8913cd6f1594a7c7a5911cbbbb9e836334222b047ad757b2b9ef3",
+      "data/raw/grasp_geometry_v10/models/062/textured.obj": "6be56c705b931f1a1e9b0ddd495beee30a503de9271db089d7455d50c955bd59",
+      "data/raw/grasp_geometry_v10/models/062/textured.sdf": "d88ecdd31e6e145d5ff5e17d9f37c7ccc731ebff4b06b1865f1842d0b824eace",
+      "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/cam0_wrt_table.npy": "8bcb627d060ffccc58198e4430d192d95ba4912dd67c9742b347c9ad863f8f98",
+      "data/raw/grasp_geometry_v10/scenes/scene_0003/realsense/camera_poses.npy": "4d7bf66b0cddb559c40623faa98fcc4190829063ab7577d2a929ad30faef0562",
+      "data/manifests/grasp_geometry_v10.json": "9620573aca35318546c2f6f6fde05ada6a16606cc7028712b80121142ba080e4",
+      "results/P3/grasp_geometry_audit_v10.json": "4f62656a7918a0911f4964f7f50e2c5232778911775a488a36bde1eca22f8d71",
+      "configs/grasp_geometry_v10.json": "e963c8eef98888e3b8372fac61c18e48956ce24efc2ba43985431b422877dd9e",
+      "configs/grasp_geometry_assets_v10.lock.json": "cab8c7034877eac0c730364adc49ebd0d19fb8cc73e441cee2fec49346bf01dd",
+      "results/P2/grasp_eval_environment_v7.json": "a6e4796402237c983c370d522eae55dd4b637e2ea16b17c237ec7d2c16641d0d",
+      "results/P2/grasp_geometry_v7.json": "3127e38241b3c9311abe3746ea5c409af46ca7cbf1fd84aa53e8db8aef009f09",
+      "results/P2/grasp_environment_acceptance_v7.json": "82dbc21c9deb53ea19d9327805526700b01980dd41618b22b12d181202d37cec",
+      "runtime/envs/grasp_eval/Lib/site-packages/grasp_nms.cp312-win_amd64.pyd": "8133ca8838968a5c7d323848e62bc4388de169b410cc2ebd4c0f744f97103eda",
+      "runtime/envs/grasp_eval/Lib/site-packages/graspnetAPI/utils/eval_utils.py": "ef9733f0d7b295bdccc037d6a94d1231b2cc5e7e50d7d4c402817dfeaf0f1912",
+      "runtime/envs/grasp_eval/Lib/site-packages/graspnetAPI/graspnet_eval.py": "ce0a40c12a290bf90a9691cf93a7527e8488bb4bedf9cf0c5a4e72af7b1f8986"
+    },
+    "asset_inputs": {
+      "configs/grasp_geometry_assets_v10.lock.json": "cab8c7034877eac0c730364adc49ebd0d19fb8cc73e441cee2fec49346bf01dd",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0080.xml.sha256.json": "628c40136447b423e839bf08d0adf101783df8f6cd3bd3ecb8ac469c025cc174",
+      "data/raw/grasp_multiview_v14/binding.json": "61364d62952d89f739c34e6c912f25ad6990123a2e732bfbca2a23c1df71adca",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0240.xml.sha256.json": "fbca01490ecd489adabf2272ce60e7a58cf38f51a4c337a332bc512b4908ec14",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0016.xml": "486f93a503b93bc972a87b9eb85878b3c9780f78b5e9a917f0bbb0476e1e3f79",
+      "data/raw/grasp_multiview_v14/report.json.sha256.json": "91fadb6aac792b4636d100ce3b41e681b4e57e359a15c11b3a6e66e329c1e3cc",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0240.xml": "ceee7ced13e044a41cecd7b62b92ebc8fc2183b0ba5e602e01d445c2795b4ade",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0080.xml": "08ec8f97c255d3f36c59eddb741f4181b04c9469b8fc4c7ecf827f0ce09a8c68",
+      "data/raw/grasp_multiview_v14/report.json": "d521f6b7365be953c7786292fc9e081473688f0926d676bc71dc37e4fe02942f",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0016.xml.sha256.json": "5e21591bc9b4d8c9c4e5927242d2a3d89b2518f89b0329e4c74f8f73a5adfc7f",
+      "data/raw/grasp_multiview_v14/completion.json": "ce0313e134ebf4bfd606ef3db5a7a07b3fbd60a6d9169be18efae2d9a6f05ba8",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0160.xml": "2dc503c2f2a77892ce2c6ddb193c19e9ab89cfd0188beb54b0a4f504f797408d",
+      "data/raw/grasp_multiview_v14/scenes/scene_0003/realsense/annotations/0160.xml.sha256.json": "e37fcf94ac92cf2a2256659bbad292facd95217c0bab062f155b581581027dcf",
+      "data/raw/grasp_multiview_v14/completion.json.sha256.json": "2924e211ee73f420e60018fb4c834955b3c6ac63a207df0773ac197448fc0c00"
+    },
+    "source_hashes": {
+      "docs/第十四轮原始分数合同修订说明.txt": "efc70e999d93dc235f0f8e4d66acc2ac4e2f3996c987e6dbd511c6be507c9ad1",
+      "logs/P3/multiview_tests_v14r1.log": "a9684708050e7da2eb719d1d648ebd0e610131423886b0b892bc45cd89596441",
+      "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+      "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+      "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+      "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+      "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+      "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+      "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+      "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+      "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+      "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+      "scripts/accept_multiview_grasps_v14r1.py": "2e852130a87baf478125e3cc0c8199fea24fa56934544f0b3a6ac27f50395267",
+      "scripts/audit_grasp_geometry_v10.py": "0c2e99389c1b9ea315f61924619a7c7021c1276d83b79275d4805e640d0a6a19",
+      "scripts/evaluate_multiview_grasps_v14r1.py": "68265944a950d0d278d3b7075c560ad543b634ab71cac758a9b60d911663ccd0",
+      "scripts/fetch_multiview_assets_v14r1.py": "899d32363158d491d15d2d86b7b9282f7714bb15b5bff43566ba703013decb5e",
+      "scripts/generate_multiview_grasps_v14r1.py": "76d70d7d6774623aa7ddf90c07f4cdd9ee48c841d9bb214120ea0cb57be91962",
+      "scripts/multiview_common_v14r1.py": "a003d4a03bc36425a3d110c7dec6c703f14d63cc35c2f2c06527bca9214f4526",
+      "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "scripts/resume_multiview_v14r1.ps1": "e5fa55fa9052cd79e57c60844c29ff0ecd99a52082c24ad0c647ea354ab1dcd7",
+      "scripts/run_multiview_v14r1.py": "464eb0398707c7d804e6e17b14e0a3e7c4c2f0b7755ebebd3286036e1910cf5f",
+      "scripts/test_multiview_v14r1.py": "f7856084d0b60a0bbbf5fd1c942b2af5fc9eeaa77e23ae0970d274db3f51da74",
+      "scripts/verify_grasp_geometry_v10.py": "30a704173e9397072fd7e2cb6f26e5a4aed12f56f7b194c7f35dfb157e9005a0",
+      "scripts/verify_grasp_observed_collision_v9.py": "f7784f5e9401cf674d4db051c53692876e2b7312e27d64ce73d25fbd8a816d86",
+      "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+      "src/remote_zip.py": "296e01ad1ef391fda1ddaadae36da1e37eb56fb3c18ce0ec307b4c2baf3be3e1",
+      "tests/test_multiview_acceptance_v14r1.py": "bcefcdef62ba75471f3fcdb5e9fefaf4062fad0c094c6dadcc3d710f07753d51",
+      "tests/test_multiview_assets_v14r1.py": "bf622da0675ecc731254d184e7644fcb4df2c9f92c569cd856fe1bffdc5eb35a",
+      "tests/test_multiview_generation_v14r1.py": "6c6fd2243f01f38a6f483204a01944cedc465ef172dbbd85caf6a99b41b27134",
+      "tests/test_multiview_geometry_v14r1.py": "1a602afae5313cf3fafe1ed0e6f2a972669488631ec67d0f1932e4b2cab9f81a",
+      "tests/test_multiview_wrapper_v14r1.py": "a0ce05cef37010b7290426827195bc0013e2bc75c91a4e02bc29940261ae43af",
+      "third_party/patches/graspnet_windows.patch": "1f41c17aff4f5eb02a160d7625956967c2ed9d8f795f34d10d6894d9140b2f6a"
+    },
+    "outputs": {
+      "frames_root": "results/P3/grasp_multiview_v14r1/frames",
+      "assets_dir": "data/raw/grasp_multiview_v14r1",
+      "assets_resume_report": "results/P3/grasp_multiview_v14r1_assets_resume.json",
+      "generation_resume_report": "results/P3/grasp_multiview_v14r1_generation_resume.json",
+      "geometry_resume_report": "results/P3/grasp_multiview_v14r1_geometry_resume.json",
+      "acceptance_report": "results/P3/grasp_multiview_acceptance_v14r1.json",
+      "visuals_dir": "results/P3/grasp_multiview_visuals_v14r1"
+    },
+    "geometry_audit": {
+      "translation_abs_tolerance_m": 0.0001,
+      "rotation_angle_tolerance_rad": 0.001,
+      "rotation_orthogonality_tolerance": 1e-05,
+      "rotation_determinant_tolerance": 1e-05,
+      "homogeneous_row_tolerance": 1e-07,
+      "model_diagonal_min_m": 0.005,
+      "model_diagonal_max_m": 1,
+      "mesh_bounds_abs_tolerance_m": 0.002,
+      "mesh_bounds_voxel_tolerance": 2,
+      "sdf_bounds_margin_voxels": 1,
+      "sdf_surface_q95_max_voxels": 3,
+      "surface_sample_count": 4096,
+      "absolute_units_independently_proven": false,
+      "geometry_rescaling_allowed": false
+    },
+    "pose_limits": {
+      "translation_abs_tolerance_m": 0.0001,
+      "rotation_angle_tolerance_rad": 0.001,
+      "rotation_orthogonality_tolerance": 1e-05,
+      "rotation_determinant_tolerance": 1e-05,
+      "homogeneous_row_tolerance": 1e-07,
+      "model_diagonal_min_m": 0.005,
+      "model_diagonal_max_m": 1,
+      "mesh_bounds_abs_tolerance_m": 0.002,
+      "mesh_bounds_voxel_tolerance": 2,
+      "sdf_bounds_margin_voxels": 1,
+      "sdf_surface_q95_max_voxels": 3,
+      "surface_sample_count": 4096,
+      "absolute_units_independently_proven": false,
+      "geometry_rescaling_allowed": false
+    },
+    "scoring": {
+      "preserve_candidate_dtype": true,
+      "width_clip_m": [
+        0,
+        0.1
+      ],
+      "nms_translation_m": 0.03,
+      "nms_rotation_degrees": 30,
+      "model_voxel_size_m": 0.008,
+      "assignment": "closest transformed sampled model point; candidate object_id is ignored",
+      "per_object_limit": 10,
+      "global_score_rank": 50,
+      "retain_cutoff_ties": true,
+      "final_sort": "numpy.argsort(-confidence) with the frozen NumPy version",
+      "table": {
+        "size_m": [
+          1,
+          1,
+          0.05
+        ],
+        "offset_m": [
+          -0.5,
+          -0.5,
+          -0.05
+        ],
+        "grid_size_m": 0.008,
+        "transform": "inverse(cam0_wrt_table @ camera_poses[frame_id])"
+      },
+      "collision": {
+        "height_m": 0.02,
+        "finger_width_m": 0.01,
+        "base_depth_m": 0.02,
+        "outlier_m": 0.05,
+        "empty_threshold_points": 10,
+        "empty_is_collision": true
+      },
+      "friction_scoring_order": [
+        1.2,
+        1,
+        0.8,
+        0.6,
+        0.4,
+        0.2
+      ],
+      "friction_reporting_order": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1,
+        1.2
+      ],
+      "reported_prefixes": 50,
+      "contact_diagnostic_check_approach": false,
+      "reference": "Unmodified pinned official eval_grasp; exact per-object row/order, collision and discrete score equality",
+      "new_training_updates": 0
+    },
+    "installed_api_tree_sha256": "70dc6b763f70ae8cfab93c8cdb8f9fa63ea8a4b3de3dc2c0e5d6c57da7e48d9e",
+    "resources": {
+      "assets": {
+        "cpu_threads": 2,
+        "rss_soft_bytes": 8589934592,
+        "output_limit_bytes": 1073741824,
+        "disk_reserve_bytes": 64424509440,
+        "invocation_soft_seconds": 300
+      },
+      "generation": {
+        "cpu_threads": 2,
+        "rss_soft_bytes": 8589934592,
+        "output_limit_bytes": 1073741824,
+        "disk_reserve_bytes": 64424509440,
+        "invocation_soft_seconds": 300,
+        "gpu_allocated_soft_bytes": 4294967296,
+        "gpu_reserved_soft_bytes": 4294967296,
+        "sample_interval_seconds": 0.1
+      },
+      "geometry": {
+        "cpu_threads": 2,
+        "rss_soft_bytes": 8589934592,
+        "output_limit_bytes": 1073741824,
+        "disk_reserve_bytes": 64424509440,
+        "invocation_soft_seconds": 1800
+      },
+      "acceptance": {
+        "cpu_threads": 2,
+        "rss_soft_bytes": 8589934592,
+        "output_limit_bytes": 1073741824,
+        "disk_reserve_bytes": 64424509440,
+        "invocation_soft_seconds": 300
+      }
+    },
+    "budget_paths": [
+      "data/raw/grasp_multiview_v14r1",
+      "results/P3/grasp_multiview_v14r1",
+      "results/P3/grasp_multiview_v14r1_assets_resume.json",
+      "results/P3/grasp_multiview_v14r1_generation_resume.json",
+      "results/P3/grasp_multiview_v14r1_geometry_resume.json",
+      "results/P3/grasp_multiview_acceptance_v14r1.json",
+      "results/P3/grasp_multiview_visuals_v14r1",
+      "logs/P3/multiview_v14r1"
+    ],
+    "asset_source": {
+      "repository": "https://huggingface.co/saic3d/graspnet",
+      "revision": "9073d1d4cb6c92272b6aa072545def5101e4fecb",
+      "base_url": "https://hf-mirror.com/saic3d/graspnet/resolve/9073d1d4cb6c92272b6aa072545def5101e4fecb",
+      "official_data_page": "https://graspnet.net/datasets",
+      "license_boundary": "Retain upstream attribution, noncommercial and share-alike terms; mirror revision/CRC/local SHA are not an official whole-archive digest.",
+      "archive": "train_1.zip",
+      "archive_bytes": 20411802782,
+      "etag": "\"e28d2b498c9a631f2dad3f6ca36f8c74096c79663d71ded824966970bc5b2c08\"",
+      "maximum_network_bytes": 65536,
+      "entries": {
+        "0016": {
+          "source_member": "scene_0003/realsense/annotations/0016.xml",
+          "header_offset": 2137583459,
+          "compressed_bytes": 549,
+          "bytes": 2495,
+          "crc32": 720708098,
+          "compress_type": 8
+        },
+        "0080": {
+          "source_member": "scene_0003/realsense/annotations/0080.xml",
+          "header_offset": 2137647253,
+          "compressed_bytes": 548,
+          "bytes": 2493,
+          "crc32": 2805532647,
+          "compress_type": 8
+        },
+        "0160": {
+          "source_member": "scene_0003/realsense/annotations/0160.xml",
+          "header_offset": 2137669812,
+          "compressed_bytes": 543,
+          "bytes": 2496,
+          "crc32": 3723231029,
+          "compress_type": 8
+        },
+        "0240": {
+          "source_member": "scene_0003/realsense/annotations/0240.xml",
+          "header_offset": 2137664023,
+          "compressed_bytes": 547,
+          "bytes": 2501,
+          "crc32": 1722471935,
+          "compress_type": 8
+        }
+      },
+      "reuse_frozen_assets": true
+    },
+    "acceptance": {
+      "efficacy_gate": false,
+      "all_generation_before_geometry": true,
+      "include_empty_candidates_in_executable_mean": true,
+      "exclude_insufficient_input_from_executable_mean": true,
+      "reference_frame_0000_in_aggregate": false
+    },
+    "limitations": [
+      "Four correlated views of one previously used training scene; not independent scenes, held-out generalization, dataset AP or robot success.",
+      "No segmentation forward, soft-ranking modification, training update, seed/threshold search or retries for better outcomes.",
+      "Official pinned geometry is retained including known axial-sphere contact-search limitations; -1 is not an unambiguous physical failure.",
+      "Power-loss recovery is tested at process boundaries, not physical power removal.",
+      "All-requested zero-filled aggregate is an engineering coverage placeholder, not a measured score for insufficient input.",
+      "Original R14 stopped at view0160 before committing its raw bundle. Its exact offending value is unknown. Raw confidence can be any finite float32 value; never clip or delete negative-score candidates.",
+      "Reuse original two completed bundles without inference; reuse third input seal. Count the original failed forward attempt separately; corrected run needs only two new forwards."
+    ],
+    "revision": 1,
+    "prior_inputs": {
+      "results/P3/grasp_multiview_v14_failure_record.json": "7256ce890652f78a8acad83bfb83692dc50b64ea54f01c9db8de92fb2136a24b",
+      "scripts/verify_grasp_geometry_v10.py": "30a704173e9397072fd7e2cb6f26e5a4aed12f56f7b194c7f35dfb157e9005a0",
+      "scripts/verify_grasp_observed_collision_v9.py": "f7784f5e9401cf674d4db051c53692876e2b7312e27d64ce73d25fbd8a816d86",
+      "scripts/pipeline.py": "6f2dcd22c67f2ac5ea5fe10a949c4719f1f8f309aedc406c2bc68d70f686b631",
+      "third_party/patches/graspnet_windows.patch": "1f41c17aff4f5eb02a160d7625956967c2ed9d8f795f34d10d6894d9140b2f6a",
+      "runtime/build/graspnet/models/graspnet.py": "ac6ea39544380dc8cd9c48ec66134c713cbe6ec6efd3de0e604d51f2b8d46799",
+      "runtime/build/graspnet/models/backbone.py": "3be8eb9edb38f44cbcfca1d25973f0bc252e51b8375d399edd34aaac65d9fadb",
+      "runtime/build/graspnet/models/modules.py": "d2446acf7c013bc75ce426fb08e784e457888019961f4d0247706a6a7e7c9dfd",
+      "runtime/build/graspnet/models/loss.py": "605a7c60a94868a3c3ddf9388d379abfd905e806578133f691b1cc65b12a6ea2",
+      "runtime/build/graspnet/utils/data_utils.py": "c8a4ec16c1048c2abb37b3d31d1ce8c7f8ec141353217b411eac7b01a03c05fd",
+      "runtime/build/graspnet/utils/loss_utils.py": "fa32ad1363fecd955bdafdf4bd1cc97ae3630915c5e4965e4fc593062b474321",
+      "runtime/build/graspnet/utils/label_generation.py": "24a751319009cad0fc209b69b66c0009a84bd33435705825eadf09beacf81cf6",
+      "runtime/build/graspnet/pointnet2/pointnet2_utils.py": "0f3798c5285d5be599891a19fec990fa25873c191d8d56f47c84459c776a6766",
+      "runtime/build/graspnet/pointnet2/pointnet2_modules.py": "c64fdb7d09f9db2e7e44dec82295404b7d2b69d7512c10432481de10975cf369",
+      "runtime/build/graspnet/knn/knn_modules.py": "5734be1bbe0037a45ae52d2ac1cd4391aa586c51473218f53fb5c5a84f540e56",
+      "src/remote_zip.py": "296e01ad1ef391fda1ddaadae36da1e37eb56fb3c18ce0ec307b4c2baf3be3e1",
+      "scripts/run_multiview_v14.py": "236e387221f36f89568a2ee6a606d1e3f17fffbda181edc229c58874b08de095",
+      "scripts/audit_grasp_geometry_v10.py": "0c2e99389c1b9ea315f61924619a7c7021c1276d83b79275d4805e640d0a6a19",
+      "scripts/resume_multiview_v14.ps1": "69ad2acc5d19c72a9baf51bce95b68dad9288f18dbd25af7f43a7e9c3116f408",
+      "logs/P3/multiview_tests_v14.log": "99b283adcf62215123a68da018f0a2000da28e91b9c85c50371379026e54e461",
+      "scripts/multiview_common_v14.py": "e6de7460be2a85dbaa9592f2f0e62da4b2af3aae08952d8ad71560337f3669b0",
+      "tests/test_multiview_generation_v14.py": "659cfa9615bee95dfb18730c7f56ebe91f8cad6bb84516bc4abd772cc36f6247",
+      "tests/test_multiview_acceptance_v14.py": "cb364cf95cd5766caa18a51c3b20110d3552f5c2899df1792b97ea677e35b44e",
+      "src/checkpoints.py": "5a9dbf7f3b6bf534bb519d885f8156c1df8556334c74def2aed5d276a12737e8",
+      "tests/test_multiview_assets_v14.py": "ec91f4b6ef66aa11e81526f949ead1ff6d64ebb69a7a55e47b43826fc2a0d049",
+      "tests/test_multiview_geometry_v14.py": "2365326e906f769b75e53f68aa62acb52b9d5e919e8c9fb05d0490de606d7f07",
+      "scripts/test_multiview_v14.py": "c7b2a47d58e4c03793c99a276b0cc6a90ac4d9e927440572b82a08c2b42ee7a4",
+      "tests/test_multiview_wrapper_v14.py": "698aeeee68202a0526a1f00aabe6a78b7b3fc716e3a7109480315202963e6067",
+      "scripts/fetch_multiview_assets_v14.py": "1a3ab1233ce6ed34ff7a88aa68a8b85baa2bacd43b5450bd4ab048fe3230c73a",
+      "docs/第十四轮多视角基线冻结方案.txt": "db01114f7620b0959374652d741645683036b5b281529ac8166e78d28d2f95dd",
+      "scripts/accept_multiview_grasps_v14.py": "70abe8e1731d02fb8ed31ff6c97dc23d274a33dc978c35a2253e831ecaf5cbec",
+      "scripts/evaluate_multiview_grasps_v14.py": "b9e36e0c8453bcac584b3fc2a807e204f545f513919a025adcc563816e89d396",
+      "scripts/generate_multiview_grasps_v14.py": "2277ab59be11d9e5c042446adaa30549a029487803e3ac1b6b44cdb4a5652685",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/input_commit.json": "492515b8580f3740c9356151c0a47d24ffc0eb1f062322da06bbec08a7b85240",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/report.json": "1f052938c199ea5b29504381d448410e13c83142ce21595df966eaa19a8f3273",
+      "results/P3/grasp_multiview_v14_generation_resume.json": "39551ceb5a3ed4f826d07b329546917af3831b58ff9f1fb494b7739f0868bb37",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/input_commit.json": "47a5298836095f8e848ceaaca4e2a2a6213984e81773eea3db8164cdc7ee6159",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/binding.json": "ce6ccb435634d42d0458581362d1be900d0cda2f776a32f09f878956e0c70736",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/valid_pixel_indices.npy": "b3ea8d118ed491a2ee36168c783583ca67c4fb1c39ed1f4ca20d767be108d0aa",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/completion.json": "243c9c30ce48396c4697915ab2a885da7783af7cc3e88103c28b269e9cac414e",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_points.npy.sha256.json": "3c70173dc200b51b5ff74bc4bfdc66068a157f2167ef692e69cb9f05d5327ae5",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/seed_provenance.npz": "d11dcccb8baac86624dc00984996bb7c1d445b3b44e56bc7ab2d5986b0519186",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/valid_pixel_indices.npy.sha256.json": "09ae8e9683adc20b8786c780832156ce51a9ca91eee9e040994b8a67737c2134",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/forward_commit.json.sha256.json": "b982fb0d34142a5d25f622a652fa49ebea7830209fb743e57e96ac8f21041190",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/seed_provenance.npz": "feec17e3eb066784b1c6382f1d43a0a11bf0f0c6052dc90990f9c30820b9f5ab",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/seed_provenance.npz.sha256.json": "d84d9b5d64890ed19d068b87c1225d19d8bc4371fe84a16164cb7b5ec3ed51ae",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/completion.json.sha256.json": "d5d05bf1d3ad4a5be0be3c9db889461c5621c0459553618a2734b231b1bb9550",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/forward_bundle.npz.sha256.json": "b64c483367d581e224f90132afc7c227a01d0aead27e773a4528581fd9ef0d72",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/candidates.npy.sha256.json": "9bd905dd790a052dd5a29e18e31a36027dc7a40da28966912073a39d5a02b1bb",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/valid_points.npy": "2c598e92ce9a408409851e8bd5f491d6347e20b3a916c4c8a7bff1e5dfc2c2e8",
+      "results/P3/grasp_multiview_v14_assets_resume.json": "a4e6b8c5e1a4acf57437fc83010f8179d8432c27ce34dd33ebcbd02c69c4107f",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_pixel_indices.npy": "c3abb44033f6181331517667a3ce9b94b70a363b2aee6a56c3e00312c7c84243",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/valid_points.npy.sha256.json": "6e84655ffc0199ecfe3f3f46dd049bcfb1aa84fb43660feeb02631817b244025",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/forward_bundle.npz": "3f681fe37ef7e27806fd32e2dcebe28e6463bd29fca47fad0a914b86e594c5ae",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_points.npy.sha256.json": "4997c28f75f3ff6de23a7f1d447ae3a5f53317704d5505a49b6797f274c67636",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_pixel_indices.npy.sha256.json": "b2fc01b4e617f7a2b15ac4311e3a9706a249ade9b2c6d8ea0445074274786402",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/valid_points.npy.sha256.json": "5aba5fda788c320819f760c87c8de5643f03349b98c30dad599fe48ed053a3f7",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/input_commit.json": "a29994df25049f2ee9e1e963e5910afb3efa969c5bed672c20530430dcb25fa7",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/binding.json": "98ce205d043b19e23313b21fa07e74230338077b826dfcd0419000fe064e4a62",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/valid_points.npy.sha256.json": "fd30387bebca5152e7c9dace6dd8153529ed7818cef8f9aad1fa7b874f252c01",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/valid_pixel_indices.npy": "c605286846f1c10351ae5ee32c3d7c8548e98f1639ff705d9b641ecf7c5f24e7",
+      "logs/P3/multiview_v14/generation_0160_complete.log": "f4d989433e15ba77a50ab1298949824c7bdf406decf85c17f6fa1a6793092b02",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_pixel_indices.npy": "1a0745de796caa228845a6bb4c3325b5309b49916cdec7dfbb20083d5e601cb7",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_pixel_indices.npy": "1e38785016935b71c40f85c97b7ef4946256325c1304c426ff44cdebea31d91f",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/binding.json": "d28775b842c0dd5f354bc9b6e83d173c7b9b0247c545ebeff741fd5aa8231c70",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/candidates.npy": "a42949fe6244517ced4d4074f2975f87c7f2ee116967712853a8bcf35bc42ca3",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/forward_commit.json": "db40a676b8570cf92126a1df2a6e2b297e9b9d00514c71d8cddda3e936b803ed",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_valid_indices.npy.sha256.json": "33ca1a6be4cb0ac8fef157ced7041b0a852a4ed6f41cc6981f5d4da55435141b",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_points.npy.sha256.json": "19231ac8f5e09157d200ba4103fba93ee191f6c8cd86b9067f10c8624881a019",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/input_commit.json.sha256.json": "b026d997147ce30a70e4d8cab6fb96e47b5497ef4ccf8e17eca1dd424a5b91f9",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/candidates.npy": "8b7c7d87edf0d65043be7f7e0df7ee587c0d1d9eb1c1083cf8f07f534899e821",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/valid_points.npy": "e244c46096cb49abd6ec0d60ca6e9ae95cecedc462e3e96a7b1579e3bbd199d2",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_valid_indices.npy.sha256.json": "4ea8d70293154c7d48e7cafdc5221d0a96828d237b5e1278776451f158e8b39c",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/input_commit.json.sha256.json": "06030addf13d1dd06cdd34b586a327a3da166490edafb511feb36de3579e0ddd",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/valid_points.npy": "c08772e636b4e327ae9ff737632e3d8eac68167a01f601f55a8623709e05c147",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/forward_bundle.npz.sha256.json": "d94d49e4e71b4730f60461be80a67e423aa32247f8762c2851d0cf42ec3d7d94",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/report.json.sha256.json": "f7453048f3f90c5c9100899d316b3c9fd136271dce670d45a8564358b2ab885d",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/valid_pixel_indices.npy.sha256.json": "8a5135aef617de5455eb813f5d46a19cc593197e02c8b5edbefcf2c92f74a487",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/forward_commit.json.sha256.json": "c3285d1d67bcaad0ce6820521941cd8157af4e82ecda7d1edfaf0d592361446b",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/valid_pixel_indices.npy": "3dfdc895814dd1b8c949b1aa7edaef841aef17a09bacc7f8063d21bde636375e",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_valid_indices.npy": "f8a796b21fafdcc80a68b6fa1dce0db27bcb3266e8ea6421b1d475c29415f06f",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/report.json": "7480839b14cbe736cb8ccaac76244414e7207b2dbfcd3dc5c8ff32a42b6209a5",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/forward_bundle.npz": "a22925208961ae5997374bd02f63b0e4147cdec947e5087d8f2fe6f6cd806179",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/completion.json": "0226feceacb36bacdcb809e88b463910e5e8bf8ee24730939784f7059e0be493",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_points.npy": "8d778f42d9ac4cb6e328a9ac57ddebf79b837ec64f9cd71b8d54e443c5de75cd",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_pixel_indices.npy.sha256.json": "8f628c1495bc46742d13a280fb25f037e7297f4fc915de38cce16a15e63c2a84",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_valid_indices.npy": "eea9bf5f43b98e825c5e35c9f3999815f34669d5cf30e1c1134bac94d46199f7",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_points.npy": "db5e4416bfb43bc875cf4689891349f50a1b9a62bde3f6123645f7d491e85cef",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/input_commit.json.sha256.json": "5bb65f21b637e529d80fb139f93d474f4ae938f1a2c607d14d375741e6b14f9a",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/candidates.npy.sha256.json": "c4eec1f5b0f90a98c399786c78749fd6e037c9f3ecf792bceb6f8f3217679e4f",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/completion.json.sha256.json": "92737dc2a3c75a2b50dadd2809bb0321a129d33af9434ddfccf73e293a5a4455",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/valid_pixel_indices.npy.sha256.json": "f0834ec9ee4c19bf866f8f9de7299956f95fb518b6330e3b5b65f0e759c8b053",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_points.npy": "1abbae41cd6c0d2de73c8779e2ccc6cd300eecc14618d209aa482fbc519306aa",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/forward_commit.json": "ef0458d5c355f7ffb5a000c4ad4781b2b5ac6c50bdec003fbc9e88106f25d5f3",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_valid_indices.npy.sha256.json": "b2ad623fe3ec4d655090003d20668907a90e30d4fc08c1e3d02305ca26360c90",
+      "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_pixel_indices.npy.sha256.json": "362e9c25fb671ed63c126afc08293cf2e7981546aad2460bd7445c2f944661c3",
+      "results/P3/grasp_multiview_v14/frames/0016/generation/report.json.sha256.json": "764847165a2ef40f6f1774af8b6fff1bde7fca61754b4c172a2f877b0eed8b35",
+      "configs/grasp_multiview_v14.json": "9eb39298112d6bad4f1105b4c5453d48ae10db589437f8bfe6cb1bef6edb6fb1",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/seed_provenance.npz.sha256.json": "80ce0d4b8273284b378886ec10a9b28b29d59faa648c3b18b647c72ede379170",
+      "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_valid_indices.npy": "1be1a0a7b99044323caff218fb80426f4816a88291c75b7e21458faaa275f3ea"
+    },
+    "recovery_sources": {
+      "parent_protocol": {
+        "path": "configs/grasp_multiview_v14.json",
+        "sha256": "9eb39298112d6bad4f1105b4c5453d48ae10db589437f8bfe6cb1bef6edb6fb1"
+      },
+      "assets_dir": "data/raw/grasp_multiview_v14",
+      "frames": {
+        "0080": {
+          "directory": "results/P3/grasp_multiview_v14/frames/0080/generation",
+          "files": {
+            "results/P3/grasp_multiview_v14/frames/0080/generation/binding.json": "ce6ccb435634d42d0458581362d1be900d0cda2f776a32f09f878956e0c70736",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/forward_commit.json.sha256.json": "c3285d1d67bcaad0ce6820521941cd8157af4e82ecda7d1edfaf0d592361446b",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/input_commit.json": "47a5298836095f8e848ceaaca4e2a2a6213984e81773eea3db8164cdc7ee6159",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/completion.json": "243c9c30ce48396c4697915ab2a885da7783af7cc3e88103c28b269e9cac414e",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/report.json.sha256.json": "f7453048f3f90c5c9100899d316b3c9fd136271dce670d45a8564358b2ab885d",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_valid_indices.npy.sha256.json": "4ea8d70293154c7d48e7cafdc5221d0a96828d237b5e1278776451f158e8b39c",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/seed_provenance.npz": "d11dcccb8baac86624dc00984996bb7c1d445b3b44e56bc7ab2d5986b0519186",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/report.json": "7480839b14cbe736cb8ccaac76244414e7207b2dbfcd3dc5c8ff32a42b6209a5",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_points.npy": "8d778f42d9ac4cb6e328a9ac57ddebf79b837ec64f9cd71b8d54e443c5de75cd",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/valid_pixel_indices.npy": "c605286846f1c10351ae5ee32c3d7c8548e98f1639ff705d9b641ecf7c5f24e7",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/completion.json.sha256.json": "d5d05bf1d3ad4a5be0be3c9db889461c5621c0459553618a2734b231b1bb9550",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/forward_bundle.npz": "a22925208961ae5997374bd02f63b0e4147cdec947e5087d8f2fe6f6cd806179",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/forward_commit.json": "db40a676b8570cf92126a1df2a6e2b297e9b9d00514c71d8cddda3e936b803ed",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_valid_indices.npy": "1be1a0a7b99044323caff218fb80426f4816a88291c75b7e21458faaa275f3ea",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/forward_bundle.npz.sha256.json": "d94d49e4e71b4730f60461be80a67e423aa32247f8762c2851d0cf42ec3d7d94",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/valid_points.npy": "e244c46096cb49abd6ec0d60ca6e9ae95cecedc462e3e96a7b1579e3bbd199d2",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/candidates.npy": "8b7c7d87edf0d65043be7f7e0df7ee587c0d1d9eb1c1083cf8f07f534899e821",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/input_commit.json.sha256.json": "06030addf13d1dd06cdd34b586a327a3da166490edafb511feb36de3579e0ddd",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/candidates.npy.sha256.json": "c4eec1f5b0f90a98c399786c78749fd6e037c9f3ecf792bceb6f8f3217679e4f",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_points.npy.sha256.json": "4997c28f75f3ff6de23a7f1d447ae3a5f53317704d5505a49b6797f274c67636",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/valid_points.npy.sha256.json": "fd30387bebca5152e7c9dace6dd8153529ed7818cef8f9aad1fa7b874f252c01",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/valid_pixel_indices.npy.sha256.json": "8a5135aef617de5455eb813f5d46a19cc593197e02c8b5edbefcf2c92f74a487",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/seed_provenance.npz.sha256.json": "80ce0d4b8273284b378886ec10a9b28b29d59faa648c3b18b647c72ede379170",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_pixel_indices.npy.sha256.json": "b2fc01b4e617f7a2b15ac4311e3a9706a249ade9b2c6d8ea0445074274786402",
+            "results/P3/grasp_multiview_v14/frames/0080/generation/sampled_pixel_indices.npy": "c3abb44033f6181331517667a3ce9b94b70a363b2aee6a56c3e00312c7c84243"
+          },
+          "prior_failed_forward_attempts": 0,
+          "mode": "reuse_completed"
+        },
+        "0160": {
+          "directory": "results/P3/grasp_multiview_v14/frames/0160/generation",
+          "files": {
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_pixel_indices.npy": "1a0745de796caa228845a6bb4c3325b5309b49916cdec7dfbb20083d5e601cb7",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/valid_pixel_indices.npy": "b3ea8d118ed491a2ee36168c783583ca67c4fb1c39ed1f4ca20d767be108d0aa",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/input_commit.json.sha256.json": "b026d997147ce30a70e4d8cab6fb96e47b5497ef4ccf8e17eca1dd424a5b91f9",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/binding.json": "98ce205d043b19e23313b21fa07e74230338077b826dfcd0419000fe064e4a62",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_pixel_indices.npy.sha256.json": "362e9c25fb671ed63c126afc08293cf2e7981546aad2460bd7445c2f944661c3",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/valid_pixel_indices.npy.sha256.json": "f0834ec9ee4c19bf866f8f9de7299956f95fb518b6330e3b5b65f0e759c8b053",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/valid_points.npy.sha256.json": "6e84655ffc0199ecfe3f3f46dd049bcfb1aa84fb43660feeb02631817b244025",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/valid_points.npy": "c08772e636b4e327ae9ff737632e3d8eac68167a01f601f55a8623709e05c147",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_points.npy.sha256.json": "19231ac8f5e09157d200ba4103fba93ee191f6c8cd86b9067f10c8624881a019",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_points.npy": "db5e4416bfb43bc875cf4689891349f50a1b9a62bde3f6123645f7d491e85cef",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_valid_indices.npy": "eea9bf5f43b98e825c5e35c9f3999815f34669d5cf30e1c1134bac94d46199f7",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/input_commit.json": "a29994df25049f2ee9e1e963e5910afb3efa969c5bed672c20530430dcb25fa7",
+            "results/P3/grasp_multiview_v14/frames/0160/generation/sampled_valid_indices.npy.sha256.json": "33ca1a6be4cb0ac8fef157ced7041b0a852a4ed6f41cc6981f5d4da55435141b"
+          },
+          "prior_failed_forward_attempts": 1,
+          "mode": "reuse_inputs"
+        },
+        "0016": {
+          "directory": "results/P3/grasp_multiview_v14/frames/0016/generation",
+          "files": {
+            "results/P3/grasp_multiview_v14/frames/0016/generation/valid_pixel_indices.npy": "3dfdc895814dd1b8c949b1aa7edaef841aef17a09bacc7f8063d21bde636375e",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/input_commit.json.sha256.json": "5bb65f21b637e529d80fb139f93d474f4ae938f1a2c607d14d375741e6b14f9a",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/candidates.npy": "a42949fe6244517ced4d4074f2975f87c7f2ee116967712853a8bcf35bc42ca3",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/valid_points.npy": "2c598e92ce9a408409851e8bd5f491d6347e20b3a916c4c8a7bff1e5dfc2c2e8",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/seed_provenance.npz.sha256.json": "d84d9b5d64890ed19d068b87c1225d19d8bc4371fe84a16164cb7b5ec3ed51ae",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_valid_indices.npy.sha256.json": "b2ad623fe3ec4d655090003d20668907a90e30d4fc08c1e3d02305ca26360c90",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/report.json.sha256.json": "764847165a2ef40f6f1774af8b6fff1bde7fca61754b4c172a2f877b0eed8b35",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_points.npy": "1abbae41cd6c0d2de73c8779e2ccc6cd300eecc14618d209aa482fbc519306aa",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_pixel_indices.npy.sha256.json": "8f628c1495bc46742d13a280fb25f037e7297f4fc915de38cce16a15e63c2a84",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/completion.json.sha256.json": "92737dc2a3c75a2b50dadd2809bb0321a129d33af9434ddfccf73e293a5a4455",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/input_commit.json": "492515b8580f3740c9356151c0a47d24ffc0eb1f062322da06bbec08a7b85240",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/valid_points.npy.sha256.json": "5aba5fda788c320819f760c87c8de5643f03349b98c30dad599fe48ed053a3f7",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/candidates.npy.sha256.json": "9bd905dd790a052dd5a29e18e31a36027dc7a40da28966912073a39d5a02b1bb",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/forward_bundle.npz.sha256.json": "b64c483367d581e224f90132afc7c227a01d0aead27e773a4528581fd9ef0d72",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/valid_pixel_indices.npy.sha256.json": "09ae8e9683adc20b8786c780832156ce51a9ca91eee9e040994b8a67737c2134",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/report.json": "1f052938c199ea5b29504381d448410e13c83142ce21595df966eaa19a8f3273",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/forward_commit.json": "ef0458d5c355f7ffb5a000c4ad4781b2b5ac6c50bdec003fbc9e88106f25d5f3",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_valid_indices.npy": "f8a796b21fafdcc80a68b6fa1dce0db27bcb3266e8ea6421b1d475c29415f06f",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/seed_provenance.npz": "feec17e3eb066784b1c6382f1d43a0a11bf0f0c6052dc90990f9c30820b9f5ab",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/forward_bundle.npz": "3f681fe37ef7e27806fd32e2dcebe28e6463bd29fca47fad0a914b86e594c5ae",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/forward_commit.json.sha256.json": "b982fb0d34142a5d25f622a652fa49ebea7830209fb743e57e96ac8f21041190",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_points.npy.sha256.json": "3c70173dc200b51b5ff74bc4bfdc66068a157f2167ef692e69cb9f05d5327ae5",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/completion.json": "0226feceacb36bacdcb809e88b463910e5e8bf8ee24730939784f7059e0be493",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/sampled_pixel_indices.npy": "1e38785016935b71c40f85c97b7ef4946256325c1304c426ff44cdebea31d91f",
+            "results/P3/grasp_multiview_v14/frames/0016/generation/binding.json": "d28775b842c0dd5f354bc9b6e83d173c7b9b0247c545ebeff741fd5aa8231c70"
+          },
+          "prior_failed_forward_attempts": 0,
+          "mode": "reuse_completed"
+        },
+        "0240": {
+          "mode": "fresh",
+          "directory": null,
+          "files": {},
+          "prior_failed_forward_attempts": 0
+        }
+      }
+    }
+  },
+  "source_sha256": "4c6d32b23e089dd3e42dc897467c3775c3a19b7cbc7e051387c48c0496f06a50",
+  "candidate_policy": "Frozen official checkpoint full depth-valid cloud, z in (0,2]m, deterministic sample20000 without replacement; no ground-truth label/workspace filtering; no mask prefilter or re-ranking; preserve all17 columns and order",
+  "association": "actual SA1->SA2->selected seed->sampled valid index->original pixel->predicted RGBD instance; sidecar instance ID is not object-class or whole-gripper ownership. Background remains 0 and is retained.",
+  "mask_resize": "exact rational pixel-center nearest from480x640: original row y maps (2*y+1)//3, original col x maps x//2; agrees with v22r2 AP policy",
+  "gates": [
+    "20/20 fixed frames completed",
+    "all candidates preserved and finite valid rotations/geometry",
+    "all actual seed/pixel/depth correspondences independently verified",
+    "each of10scenes has at least one associated candidate",
+    "no ground-truth segmentation used by candidate generator",
+    "all sources unchanged"
+  ],
+  "resources": {
+    "max_forward_intents": 24,
+    "max_samples": 24,
+    "per_frame_seconds": 300,
+    "total_seconds": 1200,
+    "gpu_bytes": 4294967296,
+    "rss_bytes": 8589934592,
+    "output_bytes": 1073741824
+  },
+  "limitations": [
+    "Official pretrained grasp training exposure unknown; engineering-only outputs, not leakage-safe formal main-experiment candidates",
+    "No new official geometry labels or grasp AP; every new candidate official success/collision outcome unmeasured",
+    "No claim of RGBD advantage or risk-gating benefit",
+    "Development subset20train/10dev; no additional held-out, calibration or test access"
+  ]
+}

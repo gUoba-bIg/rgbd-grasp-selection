@@ -1,0 +1,663 @@
+
+private_client_table_and_handle_lookup
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\pybullet\pybullet.c
+SHA256 9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c
+68 static b3PhysicsClientHandle sPhysicsClients1[MAX_PHYSICS_CLIENTS] = {0};
+69 static int sPhysicsClientsGUI[MAX_PHYSICS_CLIENTS] = {0};
+70 static int sNumPhysicsClients = 0;
+71 
+72 b3PhysicsClientHandle getPhysicsClient(int physicsClientId)
+73 {
+74 	b3PhysicsClientHandle sm;
+75 	if ((physicsClientId < 0) || (physicsClientId >= MAX_PHYSICS_CLIENTS) || (0 == sPhysicsClients1[physicsClientId]))
+76 	{
+77 		return 0;
+78 	}
+79 	sm = sPhysicsClients1[physicsClientId];
+80 	if (sm)
+81 	{
+82 		if (b3CanSubmitCommand(sm))
+83 		{
+84 			return sm;
+85 		}
+86 		//broken connection?
+87 		b3DisconnectSharedMemory(sm);
+88 		sPhysicsClients1[physicsClientId] = 0;
+89 		sPhysicsClientsGUI[physicsClientId] = 0;
+90 
+91 		sNumPhysicsClients--;
+92 	}
+93 	return 0;
+
+connection_info_only_status_and_method
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\pybullet\pybullet.c
+SHA256 9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c
+791 static PyObject* pybullet_getConnectionInfo(PyObject* self, PyObject* args, PyObject* keywds)
+792 {
+793 	int physicsClientId = 0;
+794 	int isConnected = 0;
+795 	int method = 0;
+796 	PyObject* pylist = 0;
+797 	PyObject* val = 0;
+798 	b3PhysicsClientHandle sm = 0;
+799 	static char* kwlist[] = {"physicsClientId", NULL};
+800 	if (!PyArg_ParseTupleAndKeywords(args, keywds, "|i", kwlist, &physicsClientId))
+801 	{
+802 		return NULL;
+803 	}
+804 	sm = getPhysicsClient(physicsClientId);
+805 	if (sm != 0)
+806 	{
+807 		if (b3CanSubmitCommand(sm))
+808 		{
+809 			isConnected = 1;
+810 			method = sPhysicsClientsGUI[physicsClientId];
+811 		}
+812 	}
+813 
+814 	val = Py_BuildValue("{s:i,s:i}", "isConnected", isConnected, "connectionMethod", method);
+815 	return val;
+816 }
+817 
+818 static PyObject* pybullet_syncBodyInfo(PyObject* self, PyObject* args, PyObject* keywds)
+
+python_dynamics_tuple_12_fields
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\pybullet\pybullet.c
+SHA256 9a411aa30d3f95fa15bce4099ad5cf0ee1dae58c987f7bb02c029637ab78698c
+1573 static PyObject* pybullet_getDynamicsInfo(PyObject* self, PyObject* args, PyObject* keywds)
+1574 {
+1575 	{
+1576 		int bodyUniqueId = -1;
+1577 		int linkIndex = -2;
+1578 
+1579 		b3PhysicsClientHandle sm = 0;
+1580 
+1581 		int physicsClientId = 0;
+1582 		static char* kwlist[] = {"bodyUniqueId", "linkIndex", "physicsClientId", NULL};
+1583 		if (!PyArg_ParseTupleAndKeywords(args, keywds, "ii|i", kwlist, &bodyUniqueId, &linkIndex, &physicsClientId))
+1584 		{
+1585 			return NULL;
+1586 		}
+1587 		sm = getPhysicsClient(physicsClientId);
+1588 		if (sm == 0)
+1589 		{
+1590 			PyErr_SetString(SpamError, "Not connected to physics server.");
+1591 			return NULL;
+1592 		}
+1593 		{
+1594 			int status_type = 0;
+1595 			b3SharedMemoryCommandHandle cmd_handle;
+1596 			b3SharedMemoryStatusHandle status_handle;
+1597 			struct b3DynamicsInfo info;
+1598 
+1599 			if (bodyUniqueId < 0)
+1600 			{
+1601 				PyErr_SetString(SpamError, "getDynamicsInfo failed; invalid bodyUniqueId");
+1602 				return NULL;
+1603 			}
+1604 			if (linkIndex < -1)
+1605 			{
+1606 				PyErr_SetString(SpamError, "getDynamicsInfo failed; invalid linkIndex");
+1607 				return NULL;
+1608 			}
+1609 			cmd_handle = b3GetDynamicsInfoCommandInit(sm, bodyUniqueId, linkIndex);
+1610 			status_handle = b3SubmitClientCommandAndWaitStatus(sm, cmd_handle);
+1611 			status_type = b3GetStatusType(status_handle);
+1612 			if (status_type != CMD_GET_DYNAMICS_INFO_COMPLETED)
+1613 			{
+1614 				PyErr_SetString(SpamError, "getDynamicsInfo failed; invalid return status");
+1615 				return NULL;
+1616 			}
+1617 
+1618 			if (b3GetDynamicsInfo(status_handle, &info))
+1619 			{
+1620 				int numFields = 12;
+1621 				PyObject* pyDynamicsInfo = PyTuple_New(numFields);
+1622 				PyTuple_SetItem(pyDynamicsInfo, 0, PyFloat_FromDouble(info.m_mass));
+1623 				PyTuple_SetItem(pyDynamicsInfo, 1, PyFloat_FromDouble(info.m_lateralFrictionCoeff));
+1624 
+1625 				{
+1626 					PyObject* pyInertiaDiag = PyTuple_New(3);
+1627 					PyTuple_SetItem(pyInertiaDiag, 0, PyFloat_FromDouble(info.m_localInertialDiagonal[0]));
+1628 					PyTuple_SetItem(pyInertiaDiag, 1, PyFloat_FromDouble(info.m_localInertialDiagonal[1]));
+1629 					PyTuple_SetItem(pyInertiaDiag, 2, PyFloat_FromDouble(info.m_localInertialDiagonal[2]));
+1630 					PyTuple_SetItem(pyDynamicsInfo, 2, pyInertiaDiag);
+1631 				}
+1632 				{
+1633 					PyObject* pyInertiaPos = PyTuple_New(3);
+1634 					PyTuple_SetItem(pyInertiaPos, 0, PyFloat_FromDouble(info.m_localInertialFrame[0]));
+1635 					PyTuple_SetItem(pyInertiaPos, 1, PyFloat_FromDouble(info.m_localInertialFrame[1]));
+1636 					PyTuple_SetItem(pyInertiaPos, 2, PyFloat_FromDouble(info.m_localInertialFrame[2]));
+1637 					PyTuple_SetItem(pyDynamicsInfo, 3, pyInertiaPos);
+1638 				}
+1639 				{
+1640 					PyObject* pyInertiaOrn = PyTuple_New(4);
+1641 					PyTuple_SetItem(pyInertiaOrn, 0, PyFloat_FromDouble(info.m_localInertialFrame[3]));
+1642 					PyTuple_SetItem(pyInertiaOrn, 1, PyFloat_FromDouble(info.m_localInertialFrame[4]));
+1643 					PyTuple_SetItem(pyInertiaOrn, 2, PyFloat_FromDouble(info.m_localInertialFrame[5]));
+1644 					PyTuple_SetItem(pyInertiaOrn, 3, PyFloat_FromDouble(info.m_localInertialFrame[6]));
+1645 					PyTuple_SetItem(pyDynamicsInfo, 4, pyInertiaOrn);
+1646 				}
+1647 				PyTuple_SetItem(pyDynamicsInfo, 5, PyFloat_FromDouble(info.m_restitution));
+1648 				PyTuple_SetItem(pyDynamicsInfo, 6, PyFloat_FromDouble(info.m_rollingFrictionCoeff));
+1649 				PyTuple_SetItem(pyDynamicsInfo, 7, PyFloat_FromDouble(info.m_spinningFrictionCoeff));
+1650 				PyTuple_SetItem(pyDynamicsInfo, 8, PyFloat_FromDouble(info.m_contactDamping));
+1651 				PyTuple_SetItem(pyDynamicsInfo, 9, PyFloat_FromDouble(info.m_contactStiffness));
+1652 				PyTuple_SetItem(pyDynamicsInfo, 10, PyInt_FromLong(info.m_bodyType));
+1653 				PyTuple_SetItem(pyDynamicsInfo, 11, PyFloat_FromDouble(info.m_collisionMargin));
+1654 				return pyDynamicsInfo;
+1655 			}
+1656 		}
+1657 	}
+1658 	PyErr_SetString(SpamError, "Couldn't get dynamics info");
+1659 	return NULL;
+1660 }
+1661 
+1662 static PyObject* pybullet_getPhysicsEngineParameters(PyObject* self, PyObject* args, PyObject* keywds)
+
+C_API_requires_native_client
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsClientC_API.h
+SHA256 3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7
+42 
+43 	///b3DisconnectSharedMemory will disconnect the client from the server and cleanup memory.
+44 	B3_SHARED_API void b3DisconnectSharedMemory(b3PhysicsClientHandle physClient);
+45 
+46 	///There can only be 1 outstanding command. Check if a command can be send.
+47 	B3_SHARED_API int b3CanSubmitCommand(b3PhysicsClientHandle physClient);
+48 
+49 	///blocking submit command and wait for status
+50 	B3_SHARED_API b3SharedMemoryStatusHandle b3SubmitClientCommandAndWaitStatus(b3PhysicsClientHandle physClient, b3SharedMemoryCommandHandle commandHandle);
+51 
+52 	///In general it is better to use b3SubmitClientCommandAndWaitStatus. b3SubmitClientCommand is a non-blocking submit
+53 	///command, which requires checking for the status manually, using b3ProcessServerStatus. Also, before sending the
+54 	///next command, make sure to check if you can send a command using 'b3CanSubmitCommand'.
+55 	B3_SHARED_API int b3SubmitClientCommand(b3PhysicsClientHandle physClient, b3SharedMemoryCommandHandle commandHandle);
+56 
+57 	///non-blocking check status
+58 	B3_SHARED_API b3SharedMemoryStatusHandle b3ProcessServerStatus(b3PhysicsClientHandle physClient);
+59 
+60 	/// Get the physics server return status type. See EnumSharedMemoryServerStatus in SharedMemoryPublic.h for error codes.
+
+C_dynamics_request_and_status_decode
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsClientC_API.h
+SHA256 3d7df4593364e7f9f6bf2c6cb80925b6d3378c9e80eadc1368ed1cf6ff146fb7
+143 	B3_SHARED_API int b3GetUserDataIdFromStatus(b3SharedMemoryStatusHandle statusHandle);
+144 	B3_SHARED_API int b3GetNumUserData(b3PhysicsClientHandle physClient, int bodyUniqueId);
+145 	B3_SHARED_API void b3GetUserDataInfo(b3PhysicsClientHandle physClient, int bodyUniqueId, int userDataIndex, const char** keyOut, int* userDataIdOut, int* linkIndexOut, int* visualShapeIndexOut);
+146 
+147 	B3_SHARED_API b3SharedMemoryCommandHandle b3GetDynamicsInfoCommandInit(b3PhysicsClientHandle physClient, int bodyUniqueId, int linkIndex);
+148 	B3_SHARED_API b3SharedMemoryCommandHandle b3GetDynamicsInfoCommandInit2(b3SharedMemoryCommandHandle commandHandle, int bodyUniqueId, int linkIndex);
+149 
+150 	///given a body unique id and link index, return the dynamics information. See b3DynamicsInfo in SharedMemoryPublic.h
+151 	B3_SHARED_API int b3GetDynamicsInfo(b3SharedMemoryStatusHandle statusHandle, struct b3DynamicsInfo* info);
+152 
+153 	B3_SHARED_API b3SharedMemoryCommandHandle b3InitChangeDynamicsInfo(b3PhysicsClientHandle physClient);
+154 	B3_SHARED_API b3SharedMemoryCommandHandle b3InitChangeDynamicsInfo2(b3SharedMemoryCommandHandle commandHandle);
+
+native_dynamics_struct_has_damping
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\SharedMemoryPublic.h
+SHA256 050817e2b2c14160fb03b4d40dd1d526e5b8780f3c5e382a05d656f45ac35df7
+388 struct b3DynamicsInfo
+389 {
+390 	double m_mass;
+391 	double m_localInertialDiagonal[3];
+392 	double m_localInertialFrame[7];
+393 	double m_lateralFrictionCoeff;
+394 
+395 	double m_rollingFrictionCoeff;
+396 	double m_spinningFrictionCoeff;
+397 	double m_restitution;
+398 	double m_contactStiffness;
+399 	double m_contactDamping;
+400 	int m_activationState;
+401 	int m_bodyType;
+402 	double m_angularDamping;
+403 	double m_linearDamping;
+404 	double m_ccdSweptSphereRadius;
+405 	double m_contactProcessingThreshold;
+406 	int m_frictionAnchor;
+407 	double m_collisionMargin;
+408 	int m_dynamicType;
+
+server_damping_setters
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsServerCommandProcessor.cpp
+SHA256 9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5
+10704 				}
+10705 				if (clientCmd.m_changeDynamicsInfoArgs.m_activationState & eActivationStateDisableWakeup)
+10706 				{
+10707 					mb->setCanWakeup(false);
+10708 				}
+10709 			}
+10710 
+10711 			if (clientCmd.m_updateFlags & CHANGE_DYNAMICS_INFO_SET_LINEAR_DAMPING)
+10712 			{
+10713 				mb->setLinearDamping(clientCmd.m_changeDynamicsInfoArgs.m_linearDamping);
+10714 			}
+10715 			if (clientCmd.m_updateFlags & CHANGE_DYNAMICS_INFO_SET_ANGULAR_DAMPING)
+10716 			{
+10717 				mb->setAngularDamping(clientCmd.m_changeDynamicsInfoArgs.m_angularDamping);
+10718 			}
+10719 
+10720 			if (clientCmd.m_updateFlags & CHANGE_DYNAMICS_INFO_SET_SLEEP_THRESHOLD)
+
+server_reads_actual_damping
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsServerCommandProcessor.cpp
+SHA256 9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5
+11242 			}
+11243 			serverCmd.m_dynamicsInfo.m_localInertialDiagonal[0] = mb->getBaseInertia()[0];
+11244 			serverCmd.m_dynamicsInfo.m_localInertialDiagonal[1] = mb->getBaseInertia()[1];
+11245 			serverCmd.m_dynamicsInfo.m_localInertialDiagonal[2] = mb->getBaseInertia()[2];
+11246 			serverCmd.m_dynamicsInfo.m_lateralFrictionCoeff = mb->getBaseCollider()->getFriction();
+11247 
+11248 			serverCmd.m_dynamicsInfo.m_localInertialFrame[0] = body->m_rootLocalInertialFrame.getOrigin()[0];
+11249 			serverCmd.m_dynamicsInfo.m_localInertialFrame[1] = body->m_rootLocalInertialFrame.getOrigin()[1];
+11250 			serverCmd.m_dynamicsInfo.m_localInertialFrame[2] = body->m_rootLocalInertialFrame.getOrigin()[2];
+11251 			serverCmd.m_dynamicsInfo.m_localInertialFrame[3] = body->m_rootLocalInertialFrame.getRotation()[0];
+11252 			serverCmd.m_dynamicsInfo.m_localInertialFrame[4] = body->m_rootLocalInertialFrame.getRotation()[1];
+11253 			serverCmd.m_dynamicsInfo.m_localInertialFrame[5] = body->m_rootLocalInertialFrame.getRotation()[2];
+11254 			serverCmd.m_dynamicsInfo.m_localInertialFrame[6] = body->m_rootLocalInertialFrame.getRotation()[3];
+11255 
+11256 			serverCmd.m_dynamicsInfo.m_angularDamping = body->m_multiBody->getAngularDamping();
+11257 			serverCmd.m_dynamicsInfo.m_linearDamping = body->m_multiBody->getLinearDamping();
+11258 
+11259 			serverCmd.m_dynamicsInfo.m_restitution = mb->getBaseCollider()->getRestitution();
+11260 			serverCmd.m_dynamicsInfo.m_rollingFrictionCoeff = mb->getBaseCollider()->getRollingFriction();
+11261 			serverCmd.m_dynamicsInfo.m_spinningFrictionCoeff = mb->getBaseCollider()->getSpinningFriction();
+11262 
+11263 			if (mb->getBaseCollider()->getCollisionFlags() & btCollisionObject::CF_HAS_CONTACT_STIFFNESS_DAMPING)
+11264 			{
+11265 				serverCmd.m_dynamicsInfo.m_contactStiffness = mb->getBaseCollider()->getContactStiffness();
+11266 				serverCmd.m_dynamicsInfo.m_contactDamping = mb->getBaseCollider()->getContactDamping();
+11267 			}
+11268 			else
+11269 			{
+11270 				serverCmd.m_dynamicsInfo.m_contactStiffness = -1;
+11271 				serverCmd.m_dynamicsInfo.m_contactDamping = -1;
+
+saveWorld_export_fields
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsServerCommandProcessor.cpp
+SHA256 9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5
+4367 bool PhysicsServerCommandProcessor::processSaveWorldCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)
+4368 {
+4369 	bool hasStatus = false;
+4370 	BT_PROFILE("CMD_SAVE_WORLD");
+4371 	serverStatusOut.m_type = CMD_SAVE_WORLD_FAILED;
+4372 
+4373 	///this is a very rudimentary way to save the state of the world, for scene authoring
+4374 	///many todo's, for example save the state of motor controllers etc.
+4375 
+4376 	{
+4377 		//saveWorld(clientCmd.m_sdfArguments.m_sdfFileName);
+4378 		int constraintCount = 0;
+4379 		FILE* f = fopen(clientCmd.m_sdfArguments.m_sdfFileName, "w");
+4380 		if (f)
+4381 		{
+4382 			char line[2048];
+4383 			{
+4384 				sprintf(line, "import pybullet as p\n");
+4385 				int len = strlen(line);
+4386 				fwrite(line, len, 1, f);
+4387 			}
+4388 			{
+4389 				sprintf(line, "cin = p.connect(p.SHARED_MEMORY)\n");
+4390 				int len = strlen(line);
+4391 				fwrite(line, len, 1, f);
+4392 			}
+4393 			{
+4394 				sprintf(line, "if (cin < 0):\n");
+4395 				int len = strlen(line);
+4396 				fwrite(line, len, 1, f);
+4397 			}
+4398 			{
+4399 				sprintf(line, "    cin = p.connect(p.GUI)\n");
+4400 				int len = strlen(line);
+4401 				fwrite(line, len, 1, f);
+4402 			}
+4403 
+4404 			//for each objects ...
+4405 			for (int i = 0; i < m_data->m_saveWorldBodyData.size(); i++)
+4406 			{
+4407 				SaveWorldObjectData& sd = m_data->m_saveWorldBodyData[i];
+4408 
+4409 				for (int i = 0; i < sd.m_bodyUniqueIds.size(); i++)
+4410 				{
+4411 					{
+4412 						int bodyUniqueId = sd.m_bodyUniqueIds[i];
+4413 						InternalBodyData* body = m_data->m_bodyHandles.getHandle(bodyUniqueId);
+4414 						if (body)
+4415 						{
+4416 							if (body->m_multiBody)
+4417 							{
+4418 								btMultiBody* mb = body->m_multiBody;
+4419 
+4420 								btTransform comTr = mb->getBaseWorldTransform();
+4421 								btTransform tr = comTr * body->m_rootLocalInertialFrame.inverse();
+4422 
+4423 								if (strstr(sd.m_fileName.c_str(), ".urdf"))
+4424 								{
+4425 									sprintf(line, "objects = [p.loadURDF(\"%s\", %f,%f,%f,%f,%f,%f,%f)]\n", sd.m_fileName.c_str(),
+4426 											tr.getOrigin()[0], tr.getOrigin()[1], tr.getOrigin()[2],
+4427 											tr.getRotation()[0], tr.getRotation()[1], tr.getRotation()[2], tr.getRotation()[3]);
+4428 									int len = strlen(line);
+4429 									fwrite(line, len, 1, f);
+4430 								}
+4431 
+4432 								if (strstr(sd.m_fileName.c_str(), ".sdf") && i == 0)
+4433 								{
+4434 									sprintf(line, "objects = p.loadSDF(\"%s\")\n", sd.m_fileName.c_str());
+4435 									int len = strlen(line);
+4436 									fwrite(line, len, 1, f);
+4437 								}
+4438 								if (strstr(sd.m_fileName.c_str(), ".xml") && i == 0)
+4439 								{
+4440 									sprintf(line, "objects = p.loadMJCF(\"%s\")\n", sd.m_fileName.c_str());
+4441 									int len = strlen(line);
+4442 									fwrite(line, len, 1, f);
+4443 								}
+4444 
+4445 								if (strstr(sd.m_fileName.c_str(), ".sdf") || strstr(sd.m_fileName.c_str(), ".xml") || ((strstr(sd.m_fileName.c_str(), ".urdf")) && mb->getNumLinks()))
+4446 								{
+4447 									sprintf(line, "ob = objects[%d]\n", i);
+4448 									int len = strlen(line);
+4449 									fwrite(line, len, 1, f);
+4450 								}
+4451 
+4452 								if (strstr(sd.m_fileName.c_str(), ".sdf") || strstr(sd.m_fileName.c_str(), ".xml"))
+4453 								{
+4454 									sprintf(line, "p.resetBasePositionAndOrientation(ob,[%f,%f,%f],[%f,%f,%f,%f])\n",
+4455 											comTr.getOrigin()[0], comTr.getOrigin()[1], comTr.getOrigin()[2],
+4456 											comTr.getRotation()[0], comTr.getRotation()[1], comTr.getRotation()[2], comTr.getRotation()[3]);
+4457 									int len = strlen(line);
+4458 									fwrite(line, len, 1, f);
+4459 								}
+4460 
+4461 								if (mb->getNumLinks())
+4462 								{
+4463 									{
+4464 										sprintf(line, "jointPositions=[");
+4465 										int len = strlen(line);
+4466 										fwrite(line, len, 1, f);
+4467 									}
+4468 
+4469 									for (int i = 0; i < mb->getNumLinks(); i++)
+4470 									{
+4471 										btScalar jointPos = mb->getJointPosMultiDof(i)[0];
+4472 										if (i < mb->getNumLinks() - 1)
+4473 										{
+4474 											sprintf(line, " %f,", jointPos);
+4475 											int len = strlen(line);
+4476 											fwrite(line, len, 1, f);
+4477 										}
+4478 										else
+4479 										{
+4480 											sprintf(line, " %f ", jointPos);
+4481 											int len = strlen(line);
+4482 											fwrite(line, len, 1, f);
+4483 										}
+4484 									}
+4485 
+4486 									{
+4487 										sprintf(line, "]\nfor jointIndex in range (p.getNumJoints(ob)):\n\tp.resetJointState(ob,jointIndex,jointPositions[jointIndex])\n\n");
+4488 										int len = strlen(line);
+4489 										fwrite(line, len, 1, f);
+4490 									}
+4491 								}
+4492 							}
+4493 							else
+4494 							{
+4495 								//todo: btRigidBody/btSoftBody etc case
+4496 							}
+4497 						}
+4498 					}
+4499 				}
+4500 
+4501 				//for URDF, load at origin, then reposition...
+4502 
+4503 				struct SaveWorldObjectData
+4504 				{
+4505 					b3AlignedObjectArray<int> m_bodyUniqueIds;
+4506 					std::string m_fileName;
+4507 				};
+4508 			}
+4509 
+4510 			//user constraints
+4511 			{
+4512 				for (int i = 0; i < m_data->m_userConstraints.size(); i++)
+4513 				{
+4514 					InteralUserConstraintData* ucptr = m_data->m_userConstraints.getAtIndex(i);
+4515 					b3UserConstraint& uc = ucptr->m_userConstraintData;
+4516 
+4517 					int parentBodyIndex = uc.m_parentBodyIndex;
+4518 					int parentJointIndex = uc.m_parentJointIndex;
+4519 					int childBodyIndex = uc.m_childBodyIndex;
+4520 					int childJointIndex = uc.m_childJointIndex;
+
+saveBullet_serializes_world
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\examples\SharedMemory\PhysicsServerCommandProcessor.cpp
+SHA256 9fdcde60db3ce6d801369d7ba3ff773b5b8f9054d19b0e3c4bcdd0939bc4b6d5
+15050 bool PhysicsServerCommandProcessor::processSaveBulletCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)
+15051 {
+15052 	bool hasStatus = true;
+15053 
+15054 	BT_PROFILE("CMD_SAVE_BULLET");
+15055 	SharedMemoryStatus& serverCmd = serverStatusOut;
+15056 
+15057 	FILE* f = fopen(clientCmd.m_fileArguments.m_fileName, "wb");
+15058 	if (f)
+15059 	{
+15060 		btDefaultSerializer* ser = new btDefaultSerializer();
+15061 		int currentFlags = ser->getSerializationFlags();
+15062 		ser->setSerializationFlags(currentFlags | BT_SERIALIZE_CONTACT_MANIFOLDS);
+15063 
+15064 		m_data->m_dynamicsWorld->serialize(ser);
+15065 		fwrite(ser->getBufferPointer(), ser->getCurrentBufferSize(), 1, f);
+15066 		fclose(f);
+15067 		serverCmd.m_type = CMD_BULLET_SAVING_COMPLETED;
+15068 		delete ser;
+15069 		return hasStatus;
+15070 	}
+15071 	serverCmd.m_type = CMD_BULLET_SAVING_FAILED;
+15072 	return hasStatus;
+15073 }
+15074 
+15075 bool PhysicsServerCommandProcessor::processCommand(const struct SharedMemoryCommand& clientCmd, struct SharedMemoryStatus& serverStatusOut, char* bufferServerToClient, int bufferSizeInBytes)
+15076 {
+
+world_multibody_serialization
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp
+SHA256 9e1b4ed23532b71c2ab8e407d80cd9a2295d80cf3853fd26389176404a14d343
+834 void btMultiBodyDynamicsWorld::serialize(btSerializer* serializer)
+835 {
+836 	serializer->startSerialization();
+837 
+838 	serializeDynamicsWorldInfo(serializer);
+839 
+840 	serializeMultiBodies(serializer);
+841 
+842 	serializeRigidBodies(serializer);
+843 
+844 	serializeCollisionObjects(serializer);
+845 
+846 	serializeContactManifolds(serializer);
+847 
+848 	serializer->finishSerialization();
+849 }
+850 
+851 void btMultiBodyDynamicsWorld::serializeMultiBodies(btSerializer* serializer)
+852 {
+853 	int i;
+854 	//serialize all collision objects
+855 	for (i = 0; i < m_multiBodies.size(); i++)
+856 	{
+857 		btMultiBody* mb = m_multiBodies[i];
+858 		{
+859 			int len = mb->calculateSerializeBufferSize();
+860 			btChunk* chunk = serializer->allocate(len, 1);
+861 			const char* structType = mb->serialize(chunk->m_oldPtr, serializer);
+862 			serializer->finalizeChunk(chunk, structType, BT_MULTIBODY_CODE, mb);
+863 		}
+864 	}
+865 
+866 	//serialize all multibody links (collision objects)
+867 	for (i = 0; i < m_collisionObjects.size(); i++)
+868 	{
+869 		btCollisionObject* colObj = m_collisionObjects[i];
+870 		if (colObj->getInternalType() == btCollisionObject::CO_FEATHERSTONE_LINK)
+871 		{
+872 			int len = colObj->calculateSerializeBufferSize();
+873 			btChunk* chunk = serializer->allocate(len, 1);
+874 			const char* structType = colObj->serialize(chunk->m_oldPtr, serializer);
+875 			serializer->finalizeChunk(chunk, structType, BT_MB_LINKCOLLIDER_CODE, colObj);
+
+multibody_serialization_struct_lacks_base_damping
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\src\BulletDynamics\Featherstone\btMultiBody.h
+SHA256 204aa54d0a1625b219b6814e1f203611a34506853ea0b2f443fd9b5c9f4fa03b
+918 
+919 ///do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64
+920 struct btMultiBodyDoubleData
+921 {
+922 	btVector3DoubleData m_baseWorldPosition;
+923 	btQuaternionDoubleData m_baseWorldOrientation;
+924 	btVector3DoubleData m_baseLinearVelocity;
+925 	btVector3DoubleData m_baseAngularVelocity;
+926 	btVector3DoubleData m_baseInertia;  // inertia of the base (in local frame; diagonal)
+927 	double m_baseMass;
+928 	int m_numLinks;
+929 	char m_padding[4];
+930 
+931 	char *m_baseName;
+932 	btMultiBodyLinkDoubleData *m_links;
+933 	btCollisionObjectDoubleData *m_baseCollider;
+934 };
+935 
+936 ///do not change those serialization structures, it requires an updated sBulletDNAstr/sBulletDNAstr64
+937 struct btMultiBodyFloatData
+938 {
+939 	btVector3FloatData m_baseWorldPosition;
+940 	btQuaternionFloatData m_baseWorldOrientation;
+941 	btVector3FloatData m_baseLinearVelocity;
+942 	btVector3FloatData m_baseAngularVelocity;
+943 
+944 	btVector3FloatData m_baseInertia;  // inertia of the base (in local frame; diagonal)
+945 	float m_baseMass;
+946 	int m_numLinks;
+947 
+948 	char *m_baseName;
+949 	btMultiBodyLinkFloatData *m_links;
+950 	btCollisionObjectFloatData *m_baseCollider;
+951 };
+952 
+953 #endif
+
+multibody_serialize_fields
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\src\BulletDynamics\Featherstone\btMultiBody.cpp
+SHA256 522b66bd79c3635ac558814227e3f4a59d9feca50f95a585bf9aa57c832eacd4
+2295 const char *btMultiBody::serialize(void *dataBuffer, class btSerializer *serializer) const
+2296 {
+2297 	btMultiBodyData *mbd = (btMultiBodyData *)dataBuffer;
+2298 	getBasePos().serialize(mbd->m_baseWorldPosition);
+2299 	getWorldToBaseRot().inverse().serialize(mbd->m_baseWorldOrientation);
+2300 	getBaseVel().serialize(mbd->m_baseLinearVelocity);
+2301 	getBaseOmega().serialize(mbd->m_baseAngularVelocity);
+2302 
+2303 	mbd->m_baseMass = this->getBaseMass();
+2304 	getBaseInertia().serialize(mbd->m_baseInertia);
+2305 	{
+2306 		char *name = (char *)serializer->findNameForPointer(m_baseName);
+2307 		mbd->m_baseName = (char *)serializer->getUniquePointer(name);
+2308 		if (mbd->m_baseName)
+2309 		{
+2310 			serializer->serializeName(name);
+2311 		}
+2312 	}
+2313 	mbd->m_numLinks = this->getNumLinks();
+2314 	if (mbd->m_numLinks)
+2315 	{
+2316 		int sz = sizeof(btMultiBodyLinkData);
+2317 		int numElem = mbd->m_numLinks;
+2318 		btChunk *chunk = serializer->allocate(sz, numElem);
+2319 		btMultiBodyLinkData *memPtr = (btMultiBodyLinkData *)chunk->m_oldPtr;
+2320 		for (int i = 0; i < numElem; i++, memPtr++)
+2321 		{
+2322 			memPtr->m_jointType = getLink(i).m_jointType;
+2323 			memPtr->m_dofCount = getLink(i).m_dofCount;
+2324 			memPtr->m_posVarCount = getLink(i).m_posVarCount;
+2325 
+2326 			getLink(i).m_inertiaLocal.serialize(memPtr->m_linkInertia);
+2327 
+2328 			getLink(i).m_absFrameTotVelocity.m_topVec.serialize(memPtr->m_absFrameTotVelocityTop);
+2329 			getLink(i).m_absFrameTotVelocity.m_bottomVec.serialize(memPtr->m_absFrameTotVelocityBottom);
+2330 			getLink(i).m_absFrameLocVelocity.m_topVec.serialize(memPtr->m_absFrameLocVelocityTop);
+2331 			getLink(i).m_absFrameLocVelocity.m_bottomVec.serialize(memPtr->m_absFrameLocVelocityBottom);
+2332 
+2333 			memPtr->m_linkMass = getLink(i).m_mass;
+2334 			memPtr->m_parentIndex = getLink(i).m_parent;
+2335 			memPtr->m_jointDamping = getLink(i).m_jointDamping;
+2336 			memPtr->m_jointFriction = getLink(i).m_jointFriction;
+2337 			memPtr->m_jointLowerLimit = getLink(i).m_jointLowerLimit;
+2338 			memPtr->m_jointUpperLimit = getLink(i).m_jointUpperLimit;
+2339 			memPtr->m_jointMaxForce = getLink(i).m_jointMaxForce;
+2340 			memPtr->m_jointMaxVelocity = getLink(i).m_jointMaxVelocity;
+2341 
+2342 			getLink(i).m_eVector.serialize(memPtr->m_parentComToThisPivotOffset);
+2343 			getLink(i).m_dVector.serialize(memPtr->m_thisPivotToThisComOffset);
+2344 			getLink(i).m_zeroRotParentToThis.serialize(memPtr->m_zeroRotParentToThis);
+2345 			btAssert(memPtr->m_dofCount <= 3);
+2346 			for (int dof = 0; dof < getLink(i).m_dofCount; dof++)
+2347 			{
+2348 				getLink(i).getAxisBottom(dof).serialize(memPtr->m_jointAxisBottom[dof]);
+2349 				getLink(i).getAxisTop(dof).serialize(memPtr->m_jointAxisTop[dof]);
+2350 
+2351 				memPtr->m_jointTorque[dof] = getLink(i).m_jointTorque[dof];
+2352 				memPtr->m_jointVel[dof] = getJointVelMultiDof(i)[dof];
+2353 			}
+2354 			int numPosVar = getLink(i).m_posVarCount;
+2355 			for (int posvar = 0; posvar < numPosVar; posvar++)
+2356 			{
+2357 				memPtr->m_jointPos[posvar] = getLink(i).m_jointPos[posvar];
+2358 			}
+2359 
+2360 			{
+2361 				char *name = (char *)serializer->findNameForPointer(m_links[i].m_linkName);
+2362 				memPtr->m_linkName = (char *)serializer->getUniquePointer(name);
+2363 				if (memPtr->m_linkName)
+2364 				{
+2365 					serializer->serializeName(name);
+2366 				}
+2367 			}
+2368 			{
+2369 				char *name = (char *)serializer->findNameForPointer(m_links[i].m_jointName);
+2370 				memPtr->m_jointName = (char *)serializer->getUniquePointer(name);
+2371 				if (memPtr->m_jointName)
+2372 				{
+2373 					serializer->serializeName(name);
+2374 				}
+2375 			}
+2376 			memPtr->m_linkCollider = (btCollisionObjectData *)serializer->getUniquePointer(getLink(i).m_collider);
+2377 		}
+2378 		serializer->finalizeChunk(chunk, btMultiBodyLinkDataName, BT_ARRAY_CODE, (void *)&m_links[0]);
+2379 	}
+2380 	mbd->m_links = mbd->m_numLinks ? (btMultiBodyLinkData *)serializer->getUniquePointer((void *)&m_links[0]) : 0;
+2381 
+2382 	// Fill padding with zeros to appease msan.
+2383 #ifdef BT_USE_DOUBLE_PRECISION
+2384 	memset(mbd->m_padding, 0, sizeof(mbd->m_padding));
+2385 #endif
+
+contact_material_defaults
+C:\Users\ITHOU\Desktop\稿件\SCI3区\runtime\simulation_v52e\src\pybullet-3.2.7\src\BulletCollision\CollisionDispatch\btCollisionObject.cpp
+SHA256 22fb4eb7f21b4e0aaece8e31c1dfd598a0d460e8b7d73cb2060dc4f58dbe1e60
+30 	  m_collisionFlags(btCollisionObject::CF_STATIC_OBJECT),
+31 	  m_islandTag1(-1),
+32 	  m_companionId(-1),
+33 	  m_worldArrayIndex(-1),
+34 	  m_activationState1(1),
+35 	  m_deactivationTime(btScalar(0.)),
+36 	  m_friction(btScalar(0.5)),
+37 	  m_restitution(btScalar(0.)),
+38 	  m_rollingFriction(0.0f),
+39 	  m_spinningFriction(0.f),
+40 	  m_contactDamping(.1),
+41 	  m_contactStiffness(BT_LARGE_FLOAT),
+42 	  m_internalType(CO_COLLISION_OBJECT),
+43 	  m_userObjectPointer(0),

@@ -1,0 +1,634 @@
+{
+  "version": "IP140_R1_smoke14_slot14_contact_aware_static_admission01",
+  "passed": false,
+  "status": "audit_failed",
+  "audit_scope": "Recorded identity, accounting, API and snapshot consistency. A passing audit is not dynamic success or authorization to start slot14.",
+  "physics_steps": 0,
+  "new_charges": 0,
+  "connection_count": 1,
+  "disconnect_count": 1,
+  "raw_api_calls": {
+    "connect": 1,
+    "setPhysicsEngineParameter": 1,
+    "setGravity": 1,
+    "loadURDF": 2,
+    "getNumJoints": 3,
+    "getJointInfo": 82,
+    "resetJointState": 43974,
+    "changeDynamics": 6,
+    "setJointMotorControl2": 2,
+    "getDynamicsInfo": 11028,
+    "getCollisionShapeData": 54,
+    "getBasePositionAndOrientation": 21993,
+    "getJointState": 23,
+    "getLinkState": 5515,
+    "getMatrixFromQuaternion": 55,
+    "getNumConstraints": 1,
+    "performCollisionDetection": 5502,
+    "getContactPoints": 5502,
+    "getLinkStates": 5506,
+    "getClosestPoints": 71485,
+    "computeViewMatrixFromYawPitchRoll": 1,
+    "computeProjectionMatrixFOV": 1,
+    "getCameraImage": 1,
+    "getPhysicsEngineParameters": 1,
+    "getJointStates": 5498,
+    "getAABB": 11022,
+    "setCollisionFilterPair": 14,
+    "createCollisionShape": 1,
+    "createVisualShape": 1,
+    "createMultiBody": 1,
+    "getBodyInfo": 1,
+    "getBaseVelocity": 1,
+    "getMeshData": 1,
+    "getNumBodies": 1,
+    "getBodyUniqueId": 3,
+    "disconnect": 1
+  },
+  "raw_api_returns": {
+    "connect": 1,
+    "setPhysicsEngineParameter": 1,
+    "setGravity": 1,
+    "loadURDF": 2,
+    "getNumJoints": 3,
+    "getJointInfo": 82,
+    "resetJointState": 43974,
+    "changeDynamics": 6,
+    "setJointMotorControl2": 2,
+    "getDynamicsInfo": 11028,
+    "getCollisionShapeData": 54,
+    "getBasePositionAndOrientation": 21993,
+    "getJointState": 23,
+    "getLinkState": 5515,
+    "getMatrixFromQuaternion": 55,
+    "getNumConstraints": 1,
+    "performCollisionDetection": 5502,
+    "getContactPoints": 5502,
+    "getLinkStates": 5506,
+    "getClosestPoints": 71485,
+    "computeViewMatrixFromYawPitchRoll": 1,
+    "computeProjectionMatrixFOV": 1,
+    "getCameraImage": 1,
+    "getPhysicsEngineParameters": 1,
+    "getJointStates": 5498,
+    "getAABB": 11022,
+    "setCollisionFilterPair": 14,
+    "createCollisionShape": 1,
+    "createVisualShape": 1,
+    "createMultiBody": 1,
+    "getBodyInfo": 1,
+    "getBaseVelocity": 1,
+    "getMeshData": 1,
+    "getNumBodies": 1,
+    "getBodyUniqueId": 3,
+    "disconnect": 1
+  },
+  "raw_api_errors": {},
+  "actual_ids": {
+    "robot": 0,
+    "target": 2,
+    "table": 1,
+    "client": 0
+  },
+  "actual_links": {
+    "base_link": 0,
+    "base_link_inertia": 1,
+    "shoulder_link": 2,
+    "upper_arm_link": 3,
+    "forearm_link": 4,
+    "wrist_1_link": 5,
+    "wrist_2_link": 6,
+    "wrist_3_link": 7,
+    "ft_frame": 8,
+    "flange": 9,
+    "tool0": 10,
+    "ip140_palm": 11,
+    "ip140_left_bone": 12,
+    "ip140_left_pad": 13,
+    "ip140_right_bone": 14,
+    "ip140_right_pad": 15,
+    "base": 16
+  },
+  "registered_joint_resets": 43974,
+  "filter_calls": [
+    {
+      "api_sequence": 266,
+      "call_line": 531,
+      "return_line": 532,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 267,
+      "call_line": 533,
+      "return_line": 534,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        2,
+        3,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 268,
+      "call_line": 535,
+      "return_line": 536,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        3,
+        4,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 269,
+      "call_line": 537,
+      "return_line": 538,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        4,
+        5,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 270,
+      "call_line": 539,
+      "return_line": 540,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        5,
+        6,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 271,
+      "call_line": 541,
+      "return_line": 542,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        6,
+        7,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 272,
+      "call_line": 543,
+      "return_line": 544,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        7,
+        11,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 273,
+      "call_line": 545,
+      "return_line": 546,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        12,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 274,
+      "call_line": 547,
+      "return_line": 548,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        14,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 275,
+      "call_line": 549,
+      "return_line": 550,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        12,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 276,
+      "call_line": 551,
+      "return_line": 552,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        13,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 277,
+      "call_line": 553,
+      "return_line": 554,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        14,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 278,
+      "call_line": 555,
+      "return_line": 556,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        0,
+        11,
+        15,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    },
+    {
+      "api_sequence": 385,
+      "call_line": 769,
+      "return_line": 770,
+      "method": "setCollisionFilterPair",
+      "args": [
+        0,
+        1,
+        1,
+        -1,
+        0
+      ],
+      "kwargs": {
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    }
+  ],
+  "object_damping_writes": [
+    {
+      "api_sequence": 354,
+      "call_line": 707,
+      "return_line": 708,
+      "method": "changeDynamics",
+      "args": [
+        2,
+        -1
+      ],
+      "kwargs": {
+        "lateralFriction": 0.6,
+        "restitution": 0.0,
+        "linearDamping": 0.04,
+        "angularDamping": 0.04,
+        "physicsClientId": 0
+      },
+      "returned_normally": true,
+      "value": null
+    }
+  ],
+  "damping_evidence_mode": "audited_write_path; observed=null; never claimed actual damping readback",
+  "object_pose_read_count": 5498,
+  "initial_object_pose": [
+    [
+      0.48,
+      0.06,
+      0.03079100090265274
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "ledger": {
+    "frozen_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+    "old_current_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+    "current_copy_sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f",
+    "passed": true,
+    "starts": 8,
+    "remaining": 6,
+    "slot14": {
+      "slot": 14,
+      "candidate_id": "ip140bridge:slot14:parent-slot07:undo-legacy-z021",
+      "parent_slot": 7,
+      "kind": "nominal",
+      "development_corrective_bridge": true,
+      "independent_confirmation": false,
+      "not_p3": true,
+      "charged": false,
+      "state": "not_started_full_static_path",
+      "result": null,
+      "telemetry": null,
+      "smoke13_record": "result.json"
+    }
+  },
+  "contact_root_queries": {},
+  "snapshots": {
+    "observed": 2748,
+    "planned": 4728,
+    "unvisited": 1980,
+    "phases": {
+      "settle": 240,
+      "opening": 480,
+      "transit": 672,
+      "pregrasp": 672,
+      "approach": 672,
+      "close": 12
+    },
+    "first_failure": {
+      "snapshot": 2748,
+      "phase": "close",
+      "violations": [
+        "reference:manifold:0:pad_contact_without_legal_entry",
+        "reference:manifold:0:missing_per_side_entry_certificate",
+        "reference:manifold:0:reference_negative_or_manifold_before_legal_entry",
+        "proxy:manifold:0:pad_contact_without_legal_entry",
+        "proxy:manifold:0:missing_per_side_entry_certificate"
+      ]
+    },
+    "proxy_equation_checks": 5496,
+    "deferred_flag_counts": {},
+    "reference_manifolds_explicitly_unobserved": 0,
+    "proxy_manifolds_actually_observed": 2748,
+    "loaded_state_prediction": false,
+    "dynamics_validated": false
+  },
+  "static_admission_passed": null,
+  "missing_files": [],
+  "violations": [
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 45,
+      "detail": {
+        "api_sequence": 23,
+        "call_line": 45,
+        "return_line": 46,
+        "method": "resetJointState",
+        "args": [
+          0,
+          2,
+          2.80262806465
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    },
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 47,
+      "detail": {
+        "api_sequence": 24,
+        "call_line": 47,
+        "return_line": 48,
+        "method": "resetJointState",
+        "args": [
+          0,
+          3,
+          -1.66920895915
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    },
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 49,
+      "detail": {
+        "api_sequence": 25,
+        "call_line": 49,
+        "return_line": 50,
+        "method": "resetJointState",
+        "args": [
+          0,
+          4,
+          -1.69304715957
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    },
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 51,
+      "detail": {
+        "api_sequence": 26,
+        "call_line": 51,
+        "return_line": 52,
+        "method": "resetJointState",
+        "args": [
+          0,
+          5,
+          -1.35013295836
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    },
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 53,
+      "detail": {
+        "api_sequence": 27,
+        "call_line": 53,
+        "return_line": 54,
+        "method": "resetJointState",
+        "args": [
+          0,
+          6,
+          1.57079644829
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    },
+    {
+      "code": "invalid_static_robot_reset",
+      "location": 55,
+      "detail": {
+        "api_sequence": 28,
+        "call_line": 55,
+        "return_line": 56,
+        "method": "resetJointState",
+        "args": [
+          0,
+          7,
+          -1.90976089573
+        ],
+        "kwargs": {
+          "targetVelocity": 0.0,
+          "physicsClientId": 0
+        },
+        "returned_normally": true,
+        "value": null
+      }
+    }
+  ],
+  "violation_counts": {
+    "invalid_static_robot_reset": 6
+  },
+  "violation_details_limited_to_first": 1000,
+  "source_sha256": "0cf18cb6b8d2850ec1e0c4c9d19441eb2bc134d579d13c723e5f200d7ba70ce2",
+  "evidence": {
+    "slot_ledger.json": {
+      "bytes": 9139,
+      "sha256": "82636bd3be87d47d18f825d11d0e8036fb26aa993a1c75920807e0f329b9161f"
+    },
+    "history_snapshot_before.json": {
+      "bytes": 76487,
+      "sha256": "3e94ab45c30acab641d5f2d3a68adde3e7462568b1e7c551ac90392178f1be89"
+    },
+    "result.json": {
+      "bytes": 1231,
+      "sha256": "ce09b0c01c38ee9b950001a28a641199aa56ace610a6f0fa5a84e30b0098dfe6"
+    },
+    "zero_readback.json": {
+      "bytes": 72279,
+      "sha256": "b29e330fc6a3804e22b12d2250e1ef938bab6987c3cf0bbdef67e9000d5b43c6"
+    },
+    "full_api/summary.json": {
+      "bytes": 2575,
+      "sha256": "179ced712e902108f2141756296c2f7cb32b4fdcf2c33a8e2d909d741d89612d"
+    },
+    "left_right_contact_entry_roots.json": {
+      "bytes": 230,
+      "sha256": "90a5c130f7e7917346962a973416ccb932a6eac201e8ed824c30ef035a835e2e"
+    },
+    "full_api/calls.jsonl.gz": {
+      "bytes": 15845664,
+      "sha256": "b157f337d464abbe5a79048717b886f67f4d92aa91c073dff74dd592d2632f3c"
+    },
+    "damping_write_receipt.json": {
+      "bytes": 2426,
+      "sha256": "a21f7b48cc40018d6ffd964a41183e169a146cf1cfd0e676793bc888c0e82ee4"
+    },
+    "dual_channel_snapshots.jsonl.gz": {
+      "bytes": 36654604,
+      "sha256": "fa03b410ca812d350f69cc2cae18462ab7d7fb5173d7ba62703eb7d6c1c523c8"
+    }
+  },
+  "limitations": [
+    "Does not repeat collision queries or physics.",
+    "Does not rederive contact classification or every scalar readback; raw logs and their separate geometry audits remain necessary.",
+    "Positive geometric root certificates and proxy clearance do not verify contact force, friction, grasp hold or loaded dynamics."
+  ]
+}

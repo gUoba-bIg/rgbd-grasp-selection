@@ -1,0 +1,36 @@
+{
+  "version": "IP140_R1_smoke15_slot14_positive_gap_manifold_fix_and_run01",
+  "static_snapshots": {
+    "planned": 4728,
+    "observed": 3240,
+    "first_failed": 3240,
+    "successful": 3239,
+    "unobserved_interval": [
+      3241,
+      4728
+    ],
+    "unobserved_count": 1488
+  },
+  "left_right_entry_certificates_present": true,
+  "formal_dynamic_connection": {
+    "started": false,
+    "api_log": null,
+    "reason": "Full static admission failed; fresh dynamic connection prohibited"
+  },
+  "slot14": {
+    "started": false,
+    "charged": false,
+    "telemetry": null,
+    "returned_steps": 0,
+    "terminal480": null,
+    "dynamic_aggregate_support": null,
+    "grasp_success": null
+  },
+  "budget": {
+    "cumulative_starts": 8,
+    "limit": 14,
+    "remaining": 6,
+    "new_charges": 0
+  },
+  "missing_values_are_not_filled_with_zero": true
+}

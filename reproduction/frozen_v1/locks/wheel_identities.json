@@ -1,0 +1,1348 @@
+{
+  "physics": [
+    {
+      "installed_RECORD_text_sha256": "3612aa2d061c7ae7764b6fe499ba28cb591b650bcf53647d3b5d7067a325cc31",
+      "matching_installed_payload_entries": 802,
+      "name": "numpy",
+      "origin": "original_local_install_archive",
+      "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\numpy-1.26.4-cp312-cp312-win_amd64.whl",
+      "version": "1.26.4",
+      "wheel": "numpy-1.26.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9543aadf49e94d61913561f3d9c9aab93e6f4d06e2247f804352d70b3e88b7b0",
+      "matching_installed_payload_entries": 23,
+      "name": "packaging",
+      "origin": "original_local_install_archive",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\packaging-26.3-py3-none-any.whl",
+      "version": "26.3",
+      "wheel": "packaging-26.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "162ab126f1b569396068626b2aa5579fa1e72862295b38d5a84ee45c6fa7b8c6",
+      "matching_installed_payload_entries": 431,
+      "name": "pip",
+      "origin": "original_local_install_archive",
+      "sha256": "777083f2a18ee8a892a0e23f768ad78205d2e3425b6223b0c3ba8a49b2d80f30",
+      "source_receipt": "${PYTHON_HOME}/Lib/ensurepip/_bundled/pip-25.0.1-py3-none-any.whl",
+      "version": "25.0.1",
+      "wheel": "pip-25.0.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "3c3f589ad32690e09986a244acc08c4323ce9bf0b9eb3456083b4a5bfc17b959",
+      "matching_installed_payload_entries": 29,
+      "name": "psutil",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "4cf3d4eb1aa9b348dec30105c55cd9b7d4629285735a102beb4441e38db90553",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\simulation_v52e\\cache\\http-v2\\8\\5\\c\\0\\9\\85c09dfc8e05c9e685b28e87e41ada52b5102fcd76d23dc6b5c98679.body",
+      "version": "7.0.0",
+      "wheel": "psutil-7.0.0-cp37-abi3-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2a5265e246cf35ca1d688ba74ef4d4173094b3189b0fc1ed89512c8d2c81e933",
+      "matching_installed_payload_entries": 4012,
+      "name": "pybullet",
+      "origin": "original_local_install_archive",
+      "sha256": "8bb74bb9797e534a039f10cf480edaac945b1d9fd3f6be173f842afe0dd7e0e6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\simulation_v52e\\wheels\\pybullet-3.2.7+v52e1-cp312-cp312-win_amd64.whl",
+      "version": "3.2.7+v52e1",
+      "wheel": "pybullet-3.2.7+v52e1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "46b573d9dd02fa6ff49a1ae059df7d6aeea1c2f566c89879b60547e0051e73a4",
+      "matching_installed_payload_entries": 0,
+      "name": "setuptools",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\6\\f\\5\\8\\3\\6f58315105f89fee1362c31502969537488db877c79a9478a63bd668.body",
+      "version": "84.2.1",
+      "wheel": "setuptools-84.2.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9aac1bd6bc980470c1bce18a043103cc2ea753c1e555f3f7669428779d8fa7bb",
+      "matching_installed_payload_entries": 15,
+      "name": "wheel",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\simulation_v52\\cache\\http-v2\\d\\8\\c\\d\\8\\d8cd8c62e690ab29b773948431329e5f9e2455966700cac81c8b0ff3.body",
+      "version": "0.48.0",
+      "wheel": "wheel-0.48.0-py3-none-any.whl"
+    }
+  ],
+  "rank": [
+    {
+      "installed_RECORD_text_sha256": "74db0c7dc9c72699058ca986cf171074af0dc5dc8570ce47dddd3c4f5adabe2c",
+      "matching_installed_payload_entries": 3,
+      "name": "annotated-types",
+      "origin": "original_local_install_archive",
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\annotated_types-0.8.0-py3-none-any.whl",
+      "version": "0.8.0",
+      "wheel": "annotated_types-0.8.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "67d673f5369798d6c23b64165775c0dc2a3db0c2f148e899882f983a0915b0c9",
+      "matching_installed_payload_entries": 8,
+      "name": "asttokens",
+      "origin": "original_local_install_archive",
+      "sha256": "9da13157f5b28becde0bd374fc677dcd3c290614264eff096f167c469cd9f933",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\asttokens-3.0.2-py3-none-any.whl",
+      "version": "3.0.2",
+      "wheel": "asttokens-3.0.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "bcc40d2859a13cef339453a85d81006b9848fbab27cc3b6fe65b596c6d33934c",
+      "matching_installed_payload_entries": 31,
+      "name": "attrs",
+      "origin": "original_local_install_archive",
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\attrs-26.1.0-py3-none-any.whl",
+      "version": "26.1.0",
+      "wheel": "attrs-26.1.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d4973a537fa78146f94f89ef9b94fafa737e42e91ce07e2d341e95140ade6049",
+      "matching_installed_payload_entries": 29,
+      "name": "autolab-core",
+      "origin": "original_local_install_archive",
+      "sha256": "4ebbf505b5b978e327fcd760df35c89029d27813ab821010901693f014bfa0c7",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\autolab_core-1.1.1-py3-none-any.whl",
+      "version": "1.1.1",
+      "wheel": "autolab_core-1.1.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "69afdb7936d7eb4e8ed7bc0dfa7b9a1a7c8d421997da522c520f5dd9b2565a8f",
+      "matching_installed_payload_entries": 17,
+      "name": "autolab-perception",
+      "origin": "original_local_install_archive",
+      "sha256": "c07bd31a30c45dce41126364f5cca24ed35a6a4df3ad2c6a7b38815bc813a9d7",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\autolab_perception-1.0.0-py3-none-any.whl",
+      "version": "1.0.0",
+      "wheel": "autolab_perception-1.0.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6681afdea7a9266759c89d4324c50f4845aff195c389f0338511c5ed67f1d927",
+      "matching_installed_payload_entries": 4,
+      "name": "blinker",
+      "origin": "original_local_install_archive",
+      "sha256": "ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\blinker-1.9.0-py3-none-any.whl",
+      "version": "1.9.0",
+      "wheel": "blinker-1.9.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4bedbbb50cfc64c44d99c02f8d124c4a525a555ec15ab82f84a905cf56ef9d72",
+      "matching_installed_payload_entries": 7,
+      "name": "certifi",
+      "origin": "original_local_install_archive",
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\certifi-2026.10.19-py3-none-any.whl",
+      "version": "2026.10.19",
+      "wheel": "certifi-2026.10.19-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6c8c9996ddfcc5cb1eecca6c781b16db92e9b46696ea19c0fed14ee9bdd69b41",
+      "matching_installed_payload_entries": 15,
+      "name": "charset-normalizer",
+      "origin": "original_local_install_archive",
+      "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "version": "3.5.2",
+      "wheel": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "22ff65c85e6007a8cabae22aed222a08d69f36534f0d7f7be74e41b5d6f3ce1f",
+      "matching_installed_payload_entries": 18,
+      "name": "click",
+      "origin": "original_local_install_archive",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\click-8.5.0-py3-none-any.whl",
+      "version": "8.5.0",
+      "wheel": "click-8.5.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "e075f5e4d13afc713ed54f45e9c5269632e08d8833d308a79156546070bfdc6d",
+      "matching_installed_payload_entries": 3,
+      "name": "cloudpickle",
+      "origin": "original_local_install_archive",
+      "sha256": "9acb47f6afd73f60dc1df93bb801b472f05ff42fa6c84167d25cb206be1fbf4a",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\cloudpickle-3.1.2-py3-none-any.whl",
+      "version": "3.1.2",
+      "wheel": "cloudpickle-3.1.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "ace7cb73275791a81b6acffda95e90382a4e2b5e6fce0c91aff106d8aaa67ef9",
+      "matching_installed_payload_entries": 13,
+      "name": "colorama",
+      "origin": "original_local_install_archive",
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\colorama-0.4.6-py2.py3-none-any.whl",
+      "version": "0.4.6",
+      "wheel": "colorama-0.4.6-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "af8b7e8bcde57599859cce6de88584e7202c33d647d538c9cc04002b65f2d30f",
+      "matching_installed_payload_entries": 5,
+      "name": "colorlog",
+      "origin": "original_local_install_archive",
+      "sha256": "30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\colorlog-6.12.0-py3-none-any.whl",
+      "version": "6.12.0",
+      "wheel": "colorlog-6.12.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6201b5cfa0700a35f3b13aadb4b6e0db6bb5a13b5ab17085c93b38038909d263",
+      "matching_installed_payload_entries": 3,
+      "name": "comm",
+      "origin": "original_local_install_archive",
+      "sha256": "c615d91d75f7f04f095b30d1c1711babd43bdc6419c1be9886a85f2f4e489417",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\comm-0.2.3-py3-none-any.whl",
+      "version": "0.2.3",
+      "wheel": "comm-0.2.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a923102e295dd4f004bb2db2d80ba709d840f3ba71b586ec2ec14b0fd75ef377",
+      "matching_installed_payload_entries": 1,
+      "name": "ConfigArgParse",
+      "origin": "original_local_install_archive",
+      "sha256": "bb25b307c3cd46a3e868e7f7aa51487eb8003a9f01cac3ae129b66ec26eb794c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\configargparse-1.8.0-py3-none-any.whl",
+      "version": "1.8.0",
+      "wheel": "configargparse-1.8.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6deddffbb4a8f90b65354648669e3e5bb245f378d1f24be056ce2280c845786d",
+      "matching_installed_payload_entries": 21,
+      "name": "contourpy",
+      "origin": "original_local_install_archive",
+      "sha256": "8153b8bfc11e1e4d75bcb0bff1db232f9e10b274e0929de9d608027e0d34ff8b",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\contourpy-1.3.3-cp312-cp312-win_amd64.whl",
+      "version": "1.3.3",
+      "wheel": "contourpy-1.3.3-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "cc3b2769e719c52f5ad5fb51450786458ce27641f2e5c5fb7cfcbb93bddf531f",
+      "matching_installed_payload_entries": 20,
+      "name": "cvxopt",
+      "origin": "original_local_install_archive",
+      "sha256": "acb3a0d77da92d13327ca176cde4d0d2f5c41e84b6f51fb4f50c965e91653326",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\cvxopt-1.3.3-cp312-cp312-win_amd64.whl",
+      "version": "1.3.3",
+      "wheel": "cvxopt-1.3.3-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "c7eb374a8c4e24dd8254a249e78375024661dc1dd92ccf99938cac22b1c9107c",
+      "matching_installed_payload_entries": 2,
+      "name": "cycler",
+      "origin": "original_local_install_archive",
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\cycler-0.12.1-py3-none-any.whl",
+      "version": "0.12.1",
+      "wheel": "cycler-0.12.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "b20cbdbd4ce6671eb1878dca18adab449cc4feb9308d549c2848405beb56a0c8",
+      "matching_installed_payload_entries": 311,
+      "name": "Cython",
+      "origin": "original_local_install_archive",
+      "sha256": "c0b91c7ebace030dd558ea28730de8c580680b50768e5af66db2904a3716c3e3",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\Cython-3.0.12-cp312-cp312-win_amd64.whl",
+      "version": "3.0.12",
+      "wheel": "Cython-3.0.12-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "651e914d6b1867f853a9cfc31f87ac6caa1b6b780ef1d243bd5c2c466fcc8445",
+      "matching_installed_payload_entries": 383,
+      "name": "dash",
+      "origin": "original_local_install_archive",
+      "sha256": "72120a91b10ee4d73f9446efd5d6a4ec218086feed7b1b479d2259844d1f658f",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\dash-4.4.1-py3-none-any.whl",
+      "version": "4.4.1",
+      "wheel": "dash-4.4.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9cb60e28c068fb37b9aa5813958e0fa59120bc45fb60d50ed080ba0a2db95885",
+      "matching_installed_payload_entries": 46,
+      "name": "dill",
+      "origin": "original_local_install_archive",
+      "sha256": "1e1ce33e978ae97fcfcff5638477032b801c46c7c65cf717f95fbc2248f79a9d",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\dill-0.4.1-py3-none-any.whl",
+      "version": "0.4.1",
+      "wheel": "dill-0.4.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "54bd206de5abe242025ec2d3aaaa8e957d98521a5158f968d861befa4030dff2",
+      "matching_installed_payload_entries": 8,
+      "name": "executing",
+      "origin": "original_local_install_archive",
+      "sha256": "736e859c9f8701f11fcf516856f26f562e04776387824b43a35a1dfe21c84122",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\executing-2.3.0-py3-none-any.whl",
+      "version": "2.3.0",
+      "wheel": "executing-2.3.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "1e5dbe17e16622c1df8b1ecd71bc1d85ff54f12731997b201559e27d51ff0a87",
+      "matching_installed_payload_entries": 11,
+      "name": "fastjsonschema",
+      "origin": "original_local_install_archive",
+      "sha256": "0fb3915616adac85ccfdd737d26be1089845d2019819505b42d39888458f74d4",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\fastjsonschema-2.22.2-py3-none-any.whl",
+      "version": "2.22.2",
+      "wheel": "fastjsonschema-2.22.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "c54a98f853db11ea1a680c3f86d34f1e473c8422525b56a0cd392f9e38b869b0",
+      "matching_installed_payload_entries": 9,
+      "name": "ffmpeg-python",
+      "origin": "original_local_install_archive",
+      "sha256": "ac441a0404e053f8b6a1113a77c0f452f1cfc62f6344a769475ffdc0f56c23c5",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\ffmpeg_python-0.2.0-py3-none-any.whl",
+      "version": "0.2.0",
+      "wheel": "ffmpeg_python-0.2.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "ed7637b16ed692bbaa192c53ff7d809a826e2417e1bcb30787f963d0e3768726",
+      "matching_installed_payload_entries": 26,
+      "name": "Flask",
+      "origin": "original_local_install_archive",
+      "sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\flask-3.1.3-py3-none-any.whl",
+      "version": "3.1.3",
+      "wheel": "flask-3.1.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "f6fb8f24c39f4b59f37644899d60a47c4a64087cc9742ef3ff1765b2abb6413f",
+      "matching_installed_payload_entries": 356,
+      "name": "fonttools",
+      "origin": "original_local_install_archive",
+      "sha256": "2bfab2f5d1d255dec82f4bd082a1c10e77df808e42210890f50a9c30bf91570e",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\fonttools-4.67.0-cp312-cp312-win_amd64.whl",
+      "version": "4.67.0",
+      "wheel": "fonttools-4.67.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "c391f0df3b9e614cf8bcc74acd36c91c3a7187cff65fd186218b501b979dbad8",
+      "matching_installed_payload_entries": 211,
+      "name": "future",
+      "origin": "original_local_install_archive",
+      "sha256": "929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\future-1.0.0-py3-none-any.whl",
+      "version": "1.0.0",
+      "wheel": "future-1.0.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6d05619083b847b702a8d6a043f3b2e05588632d558f3b603b88c36dc4eff254",
+      "matching_installed_payload_entries": 1,
+      "name": "grasp_nms",
+      "origin": "installed_RECORD_verified_reconstructed_wheel",
+      "sha256": "c38e616d50093eecf9dfaab141339ae71dbe0b724aea6bea23d88b3e3dabf2e9",
+      "source_receipt": "rank:grasp_nms-1.0.2.dist-info; verified 5 payload files; generated entry point launchers excluded",
+      "version": "1.0.2",
+      "wheel": "grasp_nms-1.0.2-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "fdae207d9789c2db406ce53218ba1e313e64ced07bd6c4ca390fe5859fcca976",
+      "matching_installed_payload_entries": 29,
+      "name": "graspnetAPI",
+      "origin": "installed_RECORD_verified_reconstructed_wheel",
+      "sha256": "8e7e2c39024b155dd73679996d9e5d1f5778d06988d2971df29d89ad047146c9",
+      "source_receipt": "rank:graspnetAPI-1.2.11.dist-info; verified 33 payload files; generated entry point launchers excluded",
+      "version": "1.2.11",
+      "wheel": "graspnetAPI-1.2.11-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d3078d056633a8c69fd55878456027bcd9d976b69adf74078d0c36122ef42669",
+      "matching_installed_payload_entries": 92,
+      "name": "h5py",
+      "origin": "original_local_install_archive",
+      "sha256": "96b422019a1c8975c2d5dadcf61d4ba6f01c31f92bbde6e4649607885fe502d6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\h5py-3.16.0-cp312-cp312-win_amd64.whl",
+      "version": "3.16.0",
+      "wheel": "h5py-3.16.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2dd146fb9df0da86abab50d591bb77799e9b434587fc45cdebb773b358af5dde",
+      "matching_installed_payload_entries": 11,
+      "name": "idna",
+      "origin": "original_local_install_archive",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\idna-3.20-py3-none-any.whl",
+      "version": "3.20",
+      "wheel": "idna-3.20-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "b4a5c9ba5170f34644537ad4f5465034bc660771fe953290cc4f04b15558a279",
+      "matching_installed_payload_entries": 59,
+      "name": "ImageIO",
+      "origin": "original_local_install_archive",
+      "sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\imageio-2.38.1-py3-none-any.whl",
+      "version": "2.38.1",
+      "wheel": "imageio-2.38.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "24c83b063342e8c540cee38ed535411f84ae592d6105c56fbbaa38ea113176dd",
+      "matching_installed_payload_entries": 13,
+      "name": "importlib_metadata",
+      "origin": "original_local_install_archive",
+      "sha256": "bba5600596a7e21f3eef53281cf28d6a5195634d2f2b78ff9501a3272c6eaab0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\importlib_metadata-9.0.1-py3-none-any.whl",
+      "version": "9.0.1",
+      "wheel": "importlib_metadata-9.0.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2bd21515e8f8370e802a82acc10461eeeb75908f00227f0e854c6349281f6ae9",
+      "matching_installed_payload_entries": 178,
+      "name": "ipython",
+      "origin": "original_local_install_archive",
+      "sha256": "6d1645743cfd1a07eb695d85aa2b5fa66721f8cbae9431d4049f7084bbf06509",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\ipython-9.17.1-py3-none-any.whl",
+      "version": "9.17.1",
+      "wheel": "ipython-9.17.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "edec808ad875cfc27d5c4e46365db53cbdfd907001d2687809ade73cd9b79eb7",
+      "matching_installed_payload_entries": 1,
+      "name": "ipython_pygments_lexers",
+      "origin": "original_local_install_archive",
+      "sha256": "a9462224a505ade19a605f71f8fa63c2048833ce50abc86768a0d81d876dc81c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\ipython_pygments_lexers-1.1.1-py3-none-any.whl",
+      "version": "1.1.1",
+      "wheel": "ipython_pygments_lexers-1.1.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a946f50bae4ac169ffcc06cfa21a093db13233054c70fc420e69fe4c909d507a",
+      "matching_installed_payload_entries": 64,
+      "name": "ipywidgets",
+      "origin": "original_local_install_archive",
+      "sha256": "f2b8cbcaae10252b809fbe4d7470db75c09b769a32cbf816d20e5ca6d3c5a79d",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\ipywidgets-8.1.9-py3-none-any.whl",
+      "version": "8.1.9",
+      "wheel": "ipywidgets-8.1.9-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "05499a77104a1630446cdac7e9cc9bbfa376ebfd686fef4f98e161bc412188e6",
+      "matching_installed_payload_entries": 9,
+      "name": "itsdangerous",
+      "origin": "original_local_install_archive",
+      "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\itsdangerous-2.2.0-py3-none-any.whl",
+      "version": "2.2.0",
+      "wheel": "itsdangerous-2.2.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "ae209f9a7777586edec35ef11a26e6fc0dd6ece5b11a533e1c68e31535342b66",
+      "matching_installed_payload_entries": 2,
+      "name": "janus",
+      "origin": "original_local_install_archive",
+      "sha256": "7e6449d34eab04cd016befbd7d8c0d8acaaaab67cb59e076a69149f9031745f9",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\janus-2.0.0-py3-none-any.whl",
+      "version": "2.0.0",
+      "wheel": "janus-2.0.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2d2f18cf616d8648dc914beca4a7e57ecf6b4cc23f7a03f01a84d21ec965b45c",
+      "matching_installed_payload_entries": 5620,
+      "name": "jedi",
+      "origin": "original_local_install_archive",
+      "sha256": "0fb16d86c4a4c73c37ba518c77419975e30fcc620658a8d14fbb5720cdd34142",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jedi-0.20.1-py2.py3-none-any.whl",
+      "version": "0.20.1",
+      "wheel": "jedi-0.20.1-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4309957a1d716778519689dfd0b582470ef5e3c9c305ec0cca37ef3edd6f34df",
+      "matching_installed_payload_entries": 26,
+      "name": "Jinja2",
+      "origin": "original_local_install_archive",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jinja2-3.1.6-py3-none-any.whl",
+      "version": "3.1.6",
+      "wheel": "jinja2-3.1.6-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9f038a86b85a06c8bf965e81409e11b68fbbe5fb3720549c7e1c2f389e5f73be",
+      "matching_installed_payload_entries": 136,
+      "name": "joblib",
+      "origin": "original_local_install_archive",
+      "sha256": "3dbbf9f6e4b592a2357b854608e980fe6390d131d7a82f011a377ef2ebef7aba",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\joblib-1.6.0-py3-none-any.whl",
+      "version": "1.6.0",
+      "wheel": "joblib-1.6.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2d1eb81a79a46313a6955db033295b6b398ba0e0a74b092997d551ce1c0c3198",
+      "matching_installed_payload_entries": 38,
+      "name": "jsonschema",
+      "origin": "original_local_install_archive",
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jsonschema-4.26.0-py3-none-any.whl",
+      "version": "4.26.0",
+      "wheel": "jsonschema-4.26.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "b4d11069644837125720cd26e54aa0e4902b7e2908bdd7160f79e38ac54c599e",
+      "matching_installed_payload_entries": 24,
+      "name": "jsonschema-specifications",
+      "origin": "original_local_install_archive",
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "version": "2025.9.1",
+      "wheel": "jsonschema_specifications-2025.9.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a1c11058a5530b3a1618efdb46669f7af2d6d0cf61f412bbcf5a79cd1394bfa2",
+      "matching_installed_payload_entries": 11,
+      "name": "jupyter_core",
+      "origin": "original_local_install_archive",
+      "sha256": "ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jupyter_core-5.9.1-py3-none-any.whl",
+      "version": "5.9.1",
+      "wheel": "jupyter_core-5.9.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "724c3ba61d81101bc55621c02b4fc784cd4fefbf223d25ea7484273078c9ad95",
+      "matching_installed_payload_entries": 3,
+      "name": "jupyterlab_widgets",
+      "origin": "original_local_install_archive",
+      "sha256": "40ac1e9955acf116c4d995d9bfa082d86ad9ec6d91c4f134827cf5e0a5eb75e0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jupyterlab_widgets-3.0.17-py3-none-any.whl",
+      "version": "3.0.17",
+      "wheel": "jupyterlab_widgets-3.0.17-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "3b88c8ff196e5266962a18c9957fe2ca26d0e71418bd86af10c2ba71e7dfd387",
+      "matching_installed_payload_entries": 5,
+      "name": "kiwisolver",
+      "origin": "original_local_install_archive",
+      "sha256": "06a6917674de9e0fe3f66f5430787f59a9f2ddb64af9b714eaec547e29ef5c19",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\kiwisolver-1.5.1-cp312-cp312-win_amd64.whl",
+      "version": "1.5.1",
+      "wheel": "kiwisolver-1.5.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "e3472586a39ff7436d74810549961a805af28980ce203b977e3a833f9715634c",
+      "matching_installed_payload_entries": 1,
+      "name": "lazy-loader",
+      "origin": "original_local_install_archive",
+      "sha256": "77253be3391b06124a0e16105bd663b6c54470af1a9ca8e1cf026f38d58ed056",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\lazy_loader-0.6-py3-none-any.whl",
+      "version": "0.6",
+      "wheel": "lazy_loader-0.6-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "b78ab2d0326868cb7cf6ea744fd2511fa4bc27090d304f73774b69e6ed5598fa",
+      "matching_installed_payload_entries": 6,
+      "name": "MarkupSafe",
+      "origin": "original_local_install_archive",
+      "sha256": "11935df9bf455ed0c04eb87bcd720f02b1fe5e02128a9430f23aed6f93336fc7",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\markupsafe-3.0.4-cp312-cp312-win_amd64.whl",
+      "version": "3.0.4",
+      "wheel": "markupsafe-3.0.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4d8c0e0f0336270e6d4aefce03eebe1da519e1e91c60b2e6e438bf2bfff237ed",
+      "matching_installed_payload_entries": 597,
+      "name": "matplotlib",
+      "origin": "original_local_install_archive",
+      "sha256": "c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\matplotlib-3.11.2-cp312-cp312-win_amd64.whl",
+      "version": "3.11.2",
+      "wheel": "matplotlib-3.11.2-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4b4b0f7de921eac7b7dd9f73919eb5d59b697fc3f438a9966af2e10ce008117c",
+      "matching_installed_payload_entries": 4,
+      "name": "matplotlib-inline",
+      "origin": "original_local_install_archive",
+      "sha256": "3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\matplotlib_inline-0.2.2-py3-none-any.whl",
+      "version": "0.2.2",
+      "wheel": "matplotlib_inline-0.2.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a18508de393f809566ab7da1778032cbb2172699b8c37d84b7d78ca6fad6013c",
+      "matching_installed_payload_entries": 45,
+      "name": "multiprocess",
+      "origin": "original_local_install_archive",
+      "sha256": "3a56c0e85dd5025161bac5ce138dcac1e49174c7d8e74596537e729fd5c53c28",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\multiprocess-0.70.19-py312-none-any.whl",
+      "version": "0.70.19",
+      "wheel": "multiprocess-0.70.19-py312-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "76587a3a5a7910b2ce4b12e1025f8114616364994c308bd19d8da4573aef095e",
+      "matching_installed_payload_entries": 164,
+      "name": "narwhals",
+      "origin": "original_local_install_archive",
+      "sha256": "d057df13f5852b8e157596e82eb5e955fad267425df5e420e0ee9863da483b31",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\narwhals-2.27.1-py3-none-any.whl",
+      "version": "2.27.1",
+      "wheel": "narwhals-2.27.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a3381d4364e8d0afb1658811f771bce1bd0d5807c50a433772cd63a312e816cf",
+      "matching_installed_payload_entries": 49,
+      "name": "nbformat",
+      "origin": "original_local_install_archive",
+      "sha256": "cc6698fa75f4fab8755ead786317815f13a6fee3b53311c0abb1a8b51d52f7ec",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\nbformat-5.11.1-py3-none-any.whl",
+      "version": "5.11.1",
+      "wheel": "nbformat-5.11.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a83052af35bab5457d3f8bfdf7261131ac632844ff0993dbfd76e7c643454322",
+      "matching_installed_payload_entries": 1,
+      "name": "nest-asyncio",
+      "origin": "original_local_install_archive",
+      "sha256": "87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\nest_asyncio-1.6.0-py3-none-any.whl",
+      "version": "1.6.0",
+      "wheel": "nest_asyncio-1.6.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d4e2a154d488e89d7655b3ef4ec2f44832fcac39f052612a09f601636c6cc4c4",
+      "matching_installed_payload_entries": 598,
+      "name": "networkx",
+      "origin": "original_local_install_archive",
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\networkx-3.7-py3-none-any.whl",
+      "version": "3.7",
+      "wheel": "networkx-3.7-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "e0b957f72c2742043669d55ddb308a5efec369fc5dc49c847503ea776f0cdf40",
+      "matching_installed_payload_entries": 802,
+      "name": "numpy",
+      "origin": "original_local_install_archive",
+      "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\numpy-1.26.4-cp312-cp312-win_amd64.whl",
+      "version": "1.26.4",
+      "wheel": "numpy-1.26.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "c219c8dfac4599ca4b2e5778360336a0de61b4640418e0d10b83510f380f35b0",
+      "matching_installed_payload_entries": 526,
+      "name": "open3d",
+      "origin": "original_local_install_archive",
+      "sha256": "60010f21d44f13557ba007893bc13a69827faa4dc49eedd923d1397096c20d92",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\open3d-0.20.0-cp312-cp312-win_amd64.whl",
+      "version": "0.20.0",
+      "wheel": "open3d-0.20.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "facca521e3e20981fb565a31e6aec2016eccf6bc8a41bfa38311cc71bbad09e5",
+      "matching_installed_payload_entries": 80,
+      "name": "opencv-python",
+      "origin": "original_local_install_archive",
+      "sha256": "085ad9b77c18853ea66283e98affefe2de8cc4c1f43eda4c100cf9b2721142ec",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl",
+      "version": "4.11.0.86",
+      "wheel": "opencv_python-4.11.0.86-cp37-abi3-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "401fd473d957a4dcaa9c59a8209cd5d360cf0c0f66af1b362984e68b65048986",
+      "matching_installed_payload_entries": 23,
+      "name": "packaging",
+      "origin": "original_local_install_archive",
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\packaging-26.3-py3-none-any.whl",
+      "version": "26.3",
+      "wheel": "packaging-26.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "1281f765b25bb105a65e0fbc965fc90ac22636c6c1867ef549130114e40303c1",
+      "matching_installed_payload_entries": 31,
+      "name": "parso",
+      "origin": "original_local_install_archive",
+      "sha256": "a8926eb2a1b915486941fdbd31e86a4baf88fe8c210f25f2f35ecec5b574ca1c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\parso-0.8.7-py2.py3-none-any.whl",
+      "version": "0.8.7",
+      "wheel": "parso-0.8.7-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "c6c2d9ad04741dbf19aab1a935ade8d0b0e5922d8654d39a82d305b3f250ea7e",
+      "matching_installed_payload_entries": 113,
+      "name": "pillow",
+      "origin": "original_local_install_archive",
+      "sha256": "a6444696fce635783440b7f7a9fc24b3ad10a9ea3f0ab66c5905be1c19ccf17d",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "version": "11.3.0",
+      "wheel": "pillow-11.3.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "838ebaa69df7e77996c6de1f0a61be42e59e3b483f37f4a7aa022eaa09113760",
+      "matching_installed_payload_entries": 442,
+      "name": "pip",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "9655943313a94722b7774661c21049070f6bbb0a1516bf02f7c8d5d9201514cd",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\0\\5\\8\\b\\2\\058b2da965552d2afc3f912a1aff37c0bd43f2600bb340b32285d2c3.body",
+      "version": "25.3",
+      "wheel": "pip-25.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4ab51d74f91fe725d460b90a7236ae42492bae40e94f43f1af556bfdef3724ad",
+      "matching_installed_payload_entries": 13,
+      "name": "platformdirs",
+      "origin": "original_local_install_archive",
+      "sha256": "53d3ec4280b815c1e0b02edad7f9ee8fda1ba9c0865dd9c2e6e63849ce82fc1e",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\platformdirs-4.13.5-py3-none-any.whl",
+      "version": "4.13.5",
+      "wheel": "platformdirs-4.13.5-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9e35964bd5b0912007d9bd9fc5c79c1cbd97be6959ef805c9a6b0014ff1ca1ec",
+      "matching_installed_payload_entries": 1538,
+      "name": "plotly",
+      "origin": "original_local_install_archive",
+      "sha256": "dbb7fa18afce40d0a8e80d1bf162eceb3faa0ce5a77fe741ad09a74cf78f53f3",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\plotly-7.1.0-py3-none-any.whl",
+      "version": "7.1.0",
+      "wheel": "plotly-7.1.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "54a3ad9c3c8b1b45559c6e95c2cbdbfe6ee457aead41889d8bbfceb6dc1e0149",
+      "matching_installed_payload_entries": 146,
+      "name": "prompt_toolkit",
+      "origin": "original_local_install_archive",
+      "sha256": "01c0891d7f9237d5e339f7d3e42cdae80b7534abb1c7c0e3352efba6231492f2",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\prompt_toolkit-3.0.53-py3-none-any.whl",
+      "version": "3.0.53",
+      "wheel": "prompt_toolkit-3.0.53-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "55a0136a9c4e7d9bd92d10dfbf0f9893725eb44078bd8e3936fe204e82dcc874",
+      "matching_installed_payload_entries": 11,
+      "name": "psutil",
+      "origin": "original_local_install_archive",
+      "sha256": "eb7e81434c8d223ec4a219b5fc1c47d0417b12be7ea866e24fb5ad6e84b3d988",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\psutil-7.2.2-cp37-abi3-win_amd64.whl",
+      "version": "7.2.2",
+      "wheel": "psutil-7.2.2-cp37-abi3-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "35a8c0f08e8d686d6e5839633047da13f2cca33b205bd89578e678920a97dbce",
+      "matching_installed_payload_entries": 6,
+      "name": "pure_eval",
+      "origin": "original_local_install_archive",
+      "sha256": "96cae060a313cfaad51bb761278bfb0e62dc0248d9315a81173752dc546cd37a",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pure_eval-0.2.4-py3-none-any.whl",
+      "version": "0.2.4",
+      "wheel": "pure_eval-0.2.4-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "f243d92c8e18b46ee60bc2d4a42cd358118d8e23345ffe2d49599ff9e38da30b",
+      "matching_installed_payload_entries": 107,
+      "name": "pydantic",
+      "origin": "original_local_install_archive",
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pydantic-2.14.1-py3-none-any.whl",
+      "version": "2.14.1",
+      "wheel": "pydantic-2.14.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "5d15fd9e29e07a36090f7bf215253ecbc1784fd43e7237616b84cf3752949ddc",
+      "matching_installed_payload_entries": 6,
+      "name": "pydantic_core",
+      "origin": "original_local_install_archive",
+      "sha256": "132529c83901437ff642f585216831bf5fd7a91df66829907e155192ead62498",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pydantic_core-2.50.1-cp312-cp312-win_amd64.whl",
+      "version": "2.50.1",
+      "wheel": "pydantic_core-2.50.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "48eade67cf63e8e39d91e27e1b8f7593f74b128b189515d77d80259b0267ab80",
+      "matching_installed_payload_entries": 343,
+      "name": "Pygments",
+      "origin": "original_local_install_archive",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pygments-2.21.0-py3-none-any.whl",
+      "version": "2.21.0",
+      "wheel": "pygments-2.21.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "3ad034c55b904690921fedffb6b9d7f1442d8c14a3404877b645450cb70ff91f",
+      "matching_installed_payload_entries": 19,
+      "name": "pyparsing",
+      "origin": "original_local_install_archive",
+      "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pyparsing-3.3.3-py3-none-any.whl",
+      "version": "3.3.3",
+      "wheel": "pyparsing-3.3.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d89e190466fa84643efe2104f027044e138fa844a167bc42b716bdc61129306a",
+      "matching_installed_payload_entries": 43,
+      "name": "pyreadline",
+      "origin": "installed_RECORD_verified_reconstructed_wheel",
+      "sha256": "0c9dee12a508e0d14ec8f89fb0b3fa0573a2a5224f1c057d8760765ba4aca384",
+      "source_receipt": "rank:pyreadline-2.1.dist-info; verified 46 payload files; generated entry point launchers excluded",
+      "version": "2.1",
+      "wheel": "pyreadline-2.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "32ecfc970fa517be73cbb3688908abeeb0474c92d760b316e4803099aacd0759",
+      "matching_installed_payload_entries": 28,
+      "name": "pyserial",
+      "origin": "original_local_install_archive",
+      "sha256": "c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pyserial-3.5-py2.py3-none-any.whl",
+      "version": "3.5",
+      "wheel": "pyserial-3.5-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2fbe953fcbffa21a1139099bd889ffa7b3b12f7771d8c5ab3c8aacdce53cf238",
+      "matching_installed_payload_entries": 21,
+      "name": "python-dateutil",
+      "origin": "original_local_install_archive",
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "version": "3.0.0",
+      "wheel": "python_dateutil-3.0.0-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9391123bb96df9976cc7abe26c58cd510c8035744ede4a4e1b9e344e8ae1f9c7",
+      "matching_installed_payload_entries": 10,
+      "name": "PyWavefront",
+      "origin": "original_local_install_archive",
+      "sha256": "ec79cadd046b168434b01031e574f4105f821d06cb8cf754801e4dc18076bbeb",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\PyWavefront-1.3.3-py3-none-any.whl",
+      "version": "1.3.3",
+      "wheel": "PyWavefront-1.3.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "64779b830db479ddf1a3154bfc8a32d0575ac4fdbfb9565a1fafcb309d28a840",
+      "matching_installed_payload_entries": 15,
+      "name": "referencing",
+      "origin": "original_local_install_archive",
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\referencing-0.37.0-py3-none-any.whl",
+      "version": "0.37.0",
+      "wheel": "referencing-0.37.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "683fc344610eacb397f6bf4a5862390f6b0bd9deedd5875869daaa0890048572",
+      "matching_installed_payload_entries": 20,
+      "name": "requests",
+      "origin": "original_local_install_archive",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\requests-2.34.2-py3-none-any.whl",
+      "version": "2.34.2",
+      "wheel": "requests-2.34.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "488067326f4ddcf480eb28fa83e39919e491465ba3ad860d012b66806aa5d9e4",
+      "matching_installed_payload_entries": 1,
+      "name": "retrying",
+      "origin": "original_local_install_archive",
+      "sha256": "bbc004aeb542a74f3569aeddf42a2516efefcdaff90df0eb38fbfbf19f179f59",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\retrying-1.4.2-py3-none-any.whl",
+      "version": "1.4.2",
+      "wheel": "retrying-1.4.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "09ac3bc901a57bb904f15c7d705c0a3449d993265e406334f4a4d68e13bba531",
+      "matching_installed_payload_entries": 4,
+      "name": "rpds-py",
+      "origin": "original_local_install_archive",
+      "sha256": "5ce8943f79c2210f7abcc28e86367b03b28d95027fd01c46d2472373ae70c86f",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\rpds_py-2026.9.1-cp312-cp312-win_amd64.whl",
+      "version": "2026.9.1",
+      "wheel": "rpds_py-2026.9.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "e11f82f98d9143bbe8452855050d2ba34777991be9e7eaf9f9b80f3cb7c1dff2",
+      "matching_installed_payload_entries": 34,
+      "name": "ruamel.yaml",
+      "origin": "original_local_install_archive",
+      "sha256": "27592957fedf6e0b62f281e96effd28043345e0e66001f97683aa9a40c667c93",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\ruamel_yaml-0.19.1-py3-none-any.whl",
+      "version": "0.19.1",
+      "wheel": "ruamel_yaml-0.19.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d9b3fa73b7e376e261e69b246c70cd48250146210decd5e6b554226267932507",
+      "matching_installed_payload_entries": 359,
+      "name": "scikit-image",
+      "origin": "original_local_install_archive",
+      "sha256": "abed017474593cd3056ae0fe948d07d0747b27a085e92df5474f4955dd65aec0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\scikit_image-0.26.0-cp312-cp312-win_amd64.whl",
+      "version": "0.26.0",
+      "wheel": "scikit_image-0.26.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "1c61f4b178f05159f594ff4979446d64c67efcea8b12ebe08d9e871583c2c616",
+      "matching_installed_payload_entries": 1073,
+      "name": "scikit-learn",
+      "origin": "original_local_install_archive",
+      "sha256": "4b59abb30618121cc46b45972d6bf53a7128b4df4cd346c6ca6f4d5f9031e49c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\scikit_learn-1.9.1-cp312-cp312-win_amd64.whl",
+      "version": "1.9.1",
+      "wheel": "scikit_learn-1.9.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "077108c9c991d6be51da87e7ab5db3c4c27603f510a25cf710aa8ac976bb5a47",
+      "matching_installed_payload_entries": 1494,
+      "name": "scipy",
+      "origin": "original_local_install_archive",
+      "sha256": "2ff38e22128e6c03ff73b6bb0f85f897d2362f8c052e3b8ad00532198fbdae3f",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\scipy-1.14.1-cp312-cp312-win_amd64.whl",
+      "version": "1.14.1",
+      "wheel": "scipy-1.14.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "904d395178ee309f2b03e8e1803b85a691612a8ce2fe5d814c94228380677e29",
+      "matching_installed_payload_entries": 3,
+      "name": "setproctitle",
+      "origin": "original_local_install_archive",
+      "sha256": "f599401675bdcac21176ca385ea3139fc04c1f8e26724dc59f4fc9df1d1528ef",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\setproctitle-1.3.8-cp312-cp312-win_amd64.whl",
+      "version": "1.3.8",
+      "wheel": "setproctitle-1.3.8-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0a8aff9fb42a4bdb9b794800342f184ffee4f49a08dafc7ad258a455c062c2fe",
+      "matching_installed_payload_entries": 0,
+      "name": "setuptools",
+      "origin": "original_local_install_archive",
+      "sha256": "e3982f444617239225d675215d51f6ba05f845d4eec313da4418fdbb56fb27e3",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\setuptools-75.8.0-py3-none-any.whl",
+      "version": "75.8.0",
+      "wheel": "setuptools-75.8.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d486f944db23069dd6d1eb87009e1f3354997a1abe404d46ff47ca3639213ede",
+      "matching_installed_payload_entries": 1,
+      "name": "six",
+      "origin": "original_local_install_archive",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\six-1.17.0-py2.py3-none-any.whl",
+      "version": "1.17.0",
+      "wheel": "six-1.17.0-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0206e091435b96222de03cccff7046a790008956a05dfa00ab1592f524028577",
+      "matching_installed_payload_entries": 7,
+      "name": "stack-data",
+      "origin": "original_local_install_archive",
+      "sha256": "d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\stack_data-0.6.3-py3-none-any.whl",
+      "version": "0.6.3",
+      "wheel": "stack_data-0.6.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "bb8aca8ac64d125721dc250753309d635319053a804cdcfaf18105ce8f1ef334",
+      "matching_installed_payload_entries": 1,
+      "name": "threadpoolctl",
+      "origin": "original_local_install_archive",
+      "sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\threadpoolctl-3.7.0-py3-none-any.whl",
+      "version": "3.7.0",
+      "wheel": "threadpoolctl-3.7.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "614f4cb551e43b4f8bf47058092124b8dc31a9ebd48fd6ca2d63c5de747e53d7",
+      "matching_installed_payload_entries": 11,
+      "name": "tifffile",
+      "origin": "original_local_install_archive",
+      "sha256": "e8be15c94273113d31ecb7aa3a39822189dd11c4967e3cc88c178f1ad2fd1170",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\tifffile-2026.3.3-py3-none-any.whl",
+      "version": "2026.3.3",
+      "wheel": "tifffile-2026.3.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "96758f64cf3fbba9554d03f74071f9fcbef8f901e9efc63ec96ae833eb102ae3",
+      "matching_installed_payload_entries": 33,
+      "name": "tqdm",
+      "origin": "original_local_install_archive",
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\tqdm-4.70.1-py3-none-any.whl",
+      "version": "4.70.1",
+      "wheel": "tqdm-4.70.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "362b756e75af3c45d14d6e7ec8bb1f4e5e01f19d88666bb816587a993f7f0abf",
+      "matching_installed_payload_entries": 25,
+      "name": "traitlets",
+      "origin": "original_local_install_archive",
+      "sha256": "f775618166caa0396c8e337099240f2bd3e5e917d203b2e6fbe21a58d3cb1f6b",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\traitlets-5.16.1-py3-none-any.whl",
+      "version": "5.16.1",
+      "wheel": "traitlets-5.16.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "1442c3ddab8aec5b18cd38a9aa724effb0b81749dc890b3879902f41e63d4ec1",
+      "matching_installed_payload_entries": 33,
+      "name": "transforms3d",
+      "origin": "original_local_install_archive",
+      "sha256": "1c70399d9e9473ecc23311fd947f727f7c69ed0b063244828c383aa1aefa5941",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\transforms3d-0.4.2-py3-none-any.whl",
+      "version": "0.4.2",
+      "wheel": "transforms3d-0.4.2-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "dc089b822f0dd117066f04ab6a8368da4a34d5e34c9dfc55ad49eb4e92683f8c",
+      "matching_installed_payload_entries": 138,
+      "name": "trimesh",
+      "origin": "original_local_install_archive",
+      "sha256": "c5be85a3e31e9ff749f9b0aecc204e37a2cf7cca4e92cd066bb5f3d3c1127765",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\trimesh-5.1.1-py3-none-any.whl",
+      "version": "5.1.1",
+      "wheel": "trimesh-5.1.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "498bd9c5b622b02cad399238cc3225fd8b94cb01f596fc02c720721e5487db44",
+      "matching_installed_payload_entries": 1,
+      "name": "typing_extensions",
+      "origin": "original_local_install_archive",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\typing_extensions-4.16.0-py3-none-any.whl",
+      "version": "4.16.0",
+      "wheel": "typing_extensions-4.16.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "4bf7343a00d2543349c8ba49420e54ed710439da3de9eb56530e4ac0b907267d",
+      "matching_installed_payload_entries": 5,
+      "name": "typing-inspection",
+      "origin": "original_local_install_archive",
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\typing_inspection-0.4.4-py3-none-any.whl",
+      "version": "0.4.4",
+      "wheel": "typing_inspection-0.4.4-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0232ddeca7ec3f26b22c5c19385bc2f3b8b90123bf56480e79b512a8e6e56eca",
+      "matching_installed_payload_entries": 627,
+      "name": "tzdata",
+      "origin": "original_local_install_archive",
+      "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\tzdata-2026.5-py2.py3-none-any.whl",
+      "version": "2026.5",
+      "wheel": "tzdata-2026.5-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d364f3eff4a3279258f778e5b9307790f91a8fd644913595d2a169cab9f277ba",
+      "matching_installed_payload_entries": 38,
+      "name": "urllib3",
+      "origin": "original_local_install_archive",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\urllib3-2.8.0-py3-none-any.whl",
+      "version": "2.8.0",
+      "wheel": "urllib3-2.8.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d0c6fd7606e1a84a6bc63d5e081731948f3ab13a6cab0376ae32f21a6333fadf",
+      "matching_installed_payload_entries": 51,
+      "name": "wcwidth",
+      "origin": "original_local_install_archive",
+      "sha256": "569a0cdb826d3097b6dbacfaa45aa0002d72a2ba6fa8a63251ea43ac4dd7b6a4",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\wcwidth-0.9.3-cp310-abi3-win_amd64.whl",
+      "version": "0.9.3",
+      "wheel": "wcwidth-0.9.3-cp310-abi3-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "ff7b2dae8ec91ad8ae4dbb8ed85598162c987c55f0749c897faecc719108dd08",
+      "matching_installed_payload_entries": 59,
+      "name": "Werkzeug",
+      "origin": "original_local_install_archive",
+      "sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\werkzeug-3.1.9-py3-none-any.whl",
+      "version": "3.1.9",
+      "wheel": "werkzeug-3.1.9-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "717991620d62bd1397377b92eb663375294245d7bb8dad3c3ddd497eff19a801",
+      "matching_installed_payload_entries": 32,
+      "name": "wheel",
+      "origin": "original_local_install_archive",
+      "sha256": "708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\wheel-0.45.1-py3-none-any.whl",
+      "version": "0.45.1",
+      "wheel": "wheel-0.45.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "1890286cdc23b5a242ef81ed660847097baf5b7dd54968c36bea28aef8e8bf6e",
+      "matching_installed_payload_entries": 5,
+      "name": "widgetsnbextension",
+      "origin": "original_local_install_archive",
+      "sha256": "a31a8774885b96fe825462f5d6496166f0c7cae111195b6465c801d230eb5a4e",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\widgetsnbextension-4.0.16-py3-none-any.whl",
+      "version": "4.0.16",
+      "wheel": "widgetsnbextension-4.0.16-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "9ac369ad69a0594466316d191973e43df09dc390e600bae094be6cbfb2b4a34b",
+      "matching_installed_payload_entries": 7,
+      "name": "zipp",
+      "origin": "original_local_install_archive",
+      "sha256": "b30cb6cd253122169c47de245ca24a86bac2a5d3802ba15bf7ba6414eb9e144d",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\zipp-4.1.2-py3-none-any.whl",
+      "version": "4.1.2",
+      "wheel": "zipp-4.1.2-py3-none-any.whl"
+    }
+  ],
+  "vision": [
+    {
+      "installed_RECORD_text_sha256": "fa087a7401cda70de0979be4b4684722da4662932bdb40eab2fe71bee2d8da19",
+      "matching_installed_payload_entries": 7,
+      "name": "certifi",
+      "origin": "original_local_install_archive",
+      "sha256": "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\certifi-2026.10.19-py3-none-any.whl",
+      "version": "2026.10.19",
+      "wheel": "certifi-2026.10.19-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "ef65355975d6bfc69566ac566820ada49fc9f4c53e4668e0de0db3c914200583",
+      "matching_installed_payload_entries": 15,
+      "name": "charset-normalizer",
+      "origin": "original_local_install_archive",
+      "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "version": "3.5.2",
+      "wheel": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "2de1747809a165c7c54a2fd115a569a061e6eedf56d5c6db3fe0dc8a2985562f",
+      "matching_installed_payload_entries": 13,
+      "name": "colorama",
+      "origin": "original_local_install_archive",
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\colorama-0.4.6-py2.py3-none-any.whl",
+      "version": "0.4.6",
+      "wheel": "colorama-0.4.6-py2.py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "17c9a631f3ac638fdf2454c3c8406585eb936446d227890148ddf717de20e192",
+      "matching_installed_payload_entries": 24,
+      "name": "filelock",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\1\\3\\3\\6\\3\\133630aa4713ef2b23e3a975b7db5f09b6c307de4dc21a5f3f2ba609.body",
+      "version": "4.2.4",
+      "wheel": "filelock-4.2.4-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "bb5b9da352a9f77e761fec5d02f2feec1d2ae55c5b8737d3250bbc201957ffe3",
+      "matching_installed_payload_entries": 58,
+      "name": "fsspec",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\e\\f\\e\\4\\e\\efe4e1b5eb92732b04ca34dd66a4ffb8ad986d1ba410b612480cd718.body",
+      "version": "2026.9.0",
+      "wheel": "fsspec-2026.9.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "34932c29e66c349ba7450318c28a267046147ea504b6b629654b38c0f788e7ba",
+      "matching_installed_payload_entries": 11,
+      "name": "idna",
+      "origin": "original_local_install_archive",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\idna-3.20-py3-none-any.whl",
+      "version": "3.20",
+      "wheel": "idna-3.20-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0c53d32a3ab7315c84d8278414af16134b29f7ec30fe3d41d90331430a31e525",
+      "matching_installed_payload_entries": 26,
+      "name": "Jinja2",
+      "origin": "original_local_install_archive",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\jinja2-3.1.6-py3-none-any.whl",
+      "version": "3.1.6",
+      "wheel": "jinja2-3.1.6-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "840d9d95ff33c099751d342f7e02c76f2929e3b6dafc8d417adf3b92b59e52fd",
+      "matching_installed_payload_entries": 1,
+      "name": "knn_pytorch",
+      "origin": "original_local_install_archive",
+      "sha256": "7792e913c641975df7892758aa48d4ee38fd63b79d0ff156e34a382fcee593eb",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\wheels\\knn_pytorch-0.1-cp312-cp312-win_amd64.whl",
+      "version": "0.1",
+      "wheel": "knn_pytorch-0.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "14e1b21744eec089aeef3d7f92cfafe3fa5a3745f27c448703e1f16cb01185a4",
+      "matching_installed_payload_entries": 6,
+      "name": "MarkupSafe",
+      "origin": "original_local_install_archive",
+      "sha256": "11935df9bf455ed0c04eb87bcd720f02b1fe5e02128a9430f23aed6f93336fc7",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\markupsafe-3.0.4-cp312-cp312-win_amd64.whl",
+      "version": "3.0.4",
+      "wheel": "markupsafe-3.0.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "6e0dc4362026a41beb2ad7081ec8f6fc9be0c48d9ce65784733aedc223c60100",
+      "matching_installed_payload_entries": 87,
+      "name": "mpmath",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\3\\d\\2\\3\\a\\3d23a5ad548471fdadffd54fe2363185ef4648db7c0bf11d16c83f16.body",
+      "version": "1.3.0",
+      "wheel": "mpmath-1.3.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "e54e66f1d38e010cdfce7a1944631c39bbf71124f25385362eda5765aa0ea527",
+      "matching_installed_payload_entries": 598,
+      "name": "networkx",
+      "origin": "original_local_install_archive",
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\networkx-3.7-py3-none-any.whl",
+      "version": "3.7",
+      "wheel": "networkx-3.7-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "5f0492083349bec40ad3aa28095e36065b9eba0fd0b0f9496490db8155f6b240",
+      "matching_installed_payload_entries": 6,
+      "name": "ninja",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "95da904130bfa02ea74ff9c0116b4ad266174fafb1c707aa50212bc7859aebf1",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\4\\c\\8\\4\\f\\4c84f05070dfb2c9ecace019f0ed8a3fec1a7acb3014b1e9896259a9.body",
+      "version": "1.11.1.1",
+      "wheel": "ninja-1.11.1.1-py3-none-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d59a46ab9008afe23cc4ff9e0ec19dbfea4ab532b8559c8d4481a58fcca9cbff",
+      "matching_installed_payload_entries": 802,
+      "name": "numpy",
+      "origin": "original_local_install_archive",
+      "sha256": "08beddf13648eb95f8d867350f6a018a4be2e5ad54c8d8caed89ebca558b2818",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\numpy-1.26.4-cp312-cp312-win_amd64.whl",
+      "version": "1.26.4",
+      "wheel": "numpy-1.26.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "bf66e0d9c0ffae88d0f3466ef95ffc7575449af181520c1de7a1fdfc89978f52",
+      "matching_installed_payload_entries": 80,
+      "name": "opencv-python-headless",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "afcf28bd1209dd58810d33defb622b325d3cbe49dcd7a43a902982c33e5fad05",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\c\\1\\7\\f\\9\\c17f957ecec94ca40bb27ca7cc8579d2cb81a6ec3359e1c47bf088c5.body",
+      "version": "4.10.0.84",
+      "wheel": "opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0814e4b5cfc86277880721fc1590b04d4c5ffb8a08e2e4e3f5d68a26c88f8da0",
+      "matching_installed_payload_entries": 113,
+      "name": "pillow",
+      "origin": "original_local_install_archive",
+      "sha256": "a6444696fce635783440b7f7a9fc24b3ad10a9ea3f0ab66c5905be1c19ccf17d",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\pillow-11.3.0-cp312-cp312-win_amd64.whl",
+      "version": "11.3.0",
+      "wheel": "pillow-11.3.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "29cf2ce3621b56b150f4ca97e327c8012205c07a3bcafbb5b62d7c087ec3210b",
+      "matching_installed_payload_entries": 442,
+      "name": "pip",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "9655943313a94722b7774661c21049070f6bbb0a1516bf02f7c8d5d9201514cd",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\0\\5\\8\\b\\2\\058b2da965552d2afc3f912a1aff37c0bd43f2600bb340b32285d2c3.body",
+      "version": "25.3",
+      "wheel": "pip-25.3-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "3e2ef339b56635526c2340f79466fb61d803d3482c2113863c93f6799a61d3a7",
+      "matching_installed_payload_entries": 1,
+      "name": "pointnet2",
+      "origin": "original_local_install_archive",
+      "sha256": "7a1963295ff872765cb45f18bc4da377b489b7744a387c8139e2240fe30df148",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\wheels\\pointnet2-0.0.0-cp312-cp312-win_amd64.whl",
+      "version": "0.0.0",
+      "wheel": "pointnet2-0.0.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "bf024f63f3302b18d35e4072c40064891a4626b36d3f8764632fdd889e474e85",
+      "matching_installed_payload_entries": 18,
+      "name": "requests",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\0\\7\\5\\4\\6\\0754653d3535372fb243dff0d5ea56432167ba71b1cd19ce67d1cc3c.body",
+      "version": "2.32.5",
+      "wheel": "requests-2.32.5-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "baf773eefb9403c98b5ee5090b08a70fcc8fbf5d2739e0ebe75dbb4389714fda",
+      "matching_installed_payload_entries": 1494,
+      "name": "scipy",
+      "origin": "original_local_install_archive",
+      "sha256": "2ff38e22128e6c03ff73b6bb0f85f897d2362f8c052e3b8ad00532198fbdae3f",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\scipy-1.14.1-cp312-cp312-win_amd64.whl",
+      "version": "1.14.1",
+      "wheel": "scipy-1.14.1-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "0b482e779bec1ee3553dd35a6f4b1a5a51dec758fb1be242867e1db991035577",
+      "matching_installed_payload_entries": 0,
+      "name": "setuptools",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\6\\f\\5\\8\\3\\6f58315105f89fee1362c31502969537488db877c79a9478a63bd668.body",
+      "version": "84.2.1",
+      "wheel": "setuptools-84.2.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "45ad10e9f2d8a5a6501f6d7fdfcdfa8384e784dfa0b4e6e28639721e39335b04",
+      "matching_installed_payload_entries": 1547,
+      "name": "sympy",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\c\\4\\a\\f\\3\\c4af329deedf888e9202b770bfca0054fb894c5e25a85824fd06cc82.body",
+      "version": "1.13.1",
+      "wheel": "sympy-1.13.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "3586af778e98e8b92b222ae16d29d7c1baf7a62d834308cc99bf27b03800ce2b",
+      "matching_installed_payload_entries": 10928,
+      "name": "torch",
+      "origin": "original_local_install_archive",
+      "sha256": "b10c39c83e5d1afd639b5c9f5683b351e97e41390a93f59c59187004a9949924",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\wheels\\torch-2.6.0+cu126-cp312-cp312-win_amd64.whl",
+      "version": "2.6.0+cu126",
+      "wheel": "torch-2.6.0+cu126-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "52bd5bf08026cbf5925f5d40cffbf8398ed6c46e0fcf9b262348377c20863d41",
+      "matching_installed_payload_entries": 195,
+      "name": "torchvision",
+      "origin": "original_local_install_archive",
+      "sha256": "600c18579cd6eae8f6bbfcc43a088bc512bfde1fa4de0587a4db1d44eaf411f9",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\wheels\\torchvision-0.21.0+cu126-cp312-cp312-win_amd64.whl",
+      "version": "0.21.0+cu126",
+      "wheel": "torchvision-0.21.0+cu126-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "034cc433ca0eb370ac821b453d9952e0ff2bec18ed1fc9d0d0fde45d291b8870",
+      "matching_installed_payload_entries": 34,
+      "name": "tqdm",
+      "origin": "verified_local_wheel_cache",
+      "sha256": "26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\cache\\pip\\http-v2\\0\\8\\d\\0\\f\\08d0feb0a1c34d9758fddaebe2e05756117faa3534945921423995e2.body",
+      "version": "4.67.1",
+      "wheel": "tqdm-4.67.1-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "a346a921aa5be35b34ced3258614183d152887b954caaae5de2a94be72d5f2ec",
+      "matching_installed_payload_entries": 1,
+      "name": "typing_extensions",
+      "origin": "original_local_install_archive",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\typing_extensions-4.16.0-py3-none-any.whl",
+      "version": "4.16.0",
+      "wheel": "typing_extensions-4.16.0-py3-none-any.whl"
+    },
+    {
+      "installed_RECORD_text_sha256": "d1095c0d4222e159c7ceb2f8767d012e68bc1c4c0025518760aeec47e91326e2",
+      "matching_installed_payload_entries": 38,
+      "name": "urllib3",
+      "origin": "original_local_install_archive",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "source_receipt": "C:\\Users\\ITHOU\\Desktop\\稿件\\SCI3区\\runtime\\downloads\\grasp_eval_v7\\archives\\urllib3-2.8.0-py3-none-any.whl",
+      "version": "2.8.0",
+      "wheel": "urllib3-2.8.0-py3-none-any.whl"
+    }
+  ]
+}

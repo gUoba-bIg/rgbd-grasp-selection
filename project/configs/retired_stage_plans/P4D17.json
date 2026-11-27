@@ -1,0 +1,37 @@
+{
+  "status": "retired_before_execution",
+  "reason": "Base interpreter preflight digest mismatch; revised source uses P4D17R1. Original unexecuted output ownership is removed from the active stage graph.",
+  "stage": {
+    "id": "P4D17",
+    "title": "第十七轮独立COCO评价环境与合成数值验证",
+    "depends_on": [
+      "P4T16"
+    ],
+    "command": [
+      "runtime/envs/grasp_eval/Scripts/python.exe",
+      "-B",
+      "scripts/setup_coco_eval_environment_v17.py"
+    ],
+    "inputs": [
+      "configs/coco_eval_environment_v17.json",
+      "scripts/setup_coco_eval_environment_v17.py",
+      "tests/test_coco_environment_v17.py",
+      "docs/第十七轮独立评价环境冻结方案.txt",
+      "logs/P4/mask_ap_v17/environment_tests.log",
+      "scripts/pipeline.py",
+      "scripts/test_mask_ap_v17.py",
+      "scripts/mask_ap_common_v17.py",
+      "scripts/multiview_common_v14r1.py",
+      "runtime/downloads/grasp_eval_v7/archives/numpy-1.26.4-cp312-cp312-win_amd64.whl",
+      "runtime/downloads/grasp_eval_v7/archives/pillow-11.3.0-cp312-cp312-win_amd64.whl"
+    ],
+    "outputs": [
+      "runtime/envs/coco_eval_v17",
+      "runtime/coco_eval_setup_v17",
+      "runtime/downloads/coco_eval_v17",
+      "results/P4/mask_ap_environment_v17.json",
+      "results/P4/mask_ap_environment_v17.json.sha256.json"
+    ],
+    "implemented": true
+  }
+}
